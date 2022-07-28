@@ -1,0 +1,38 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build-ts"
+        ]
+    },
+    "testing": {
+        "eslint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "num_passing": 29,
+            "num_failing": 46,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "e0a6d9ebd8b3c2d25d4f87b40a10978209978edc,09f35aa84b21fafc31d0e602bfbeb3f4cd7d0eb2,148fc39271612a66c86d5a83ac7d86db94cc6bf4,f6d6cf15afa0dd594aff7f9502f1234fe9d351e9,6c285f2a2161342e7d0eae4a1924b788a8282545,5e3fbc344aac85a893a0bc184dc6916258254f8b,a3ddc93459382355abcc6c3f11f7a487c03a1457,83b29beda35940fa304e07807ba5400fcd0ca5eb,820344bfa74ce138a08b64676bffd49cd092ebdf,bba5bbf97a387e3fbb87aee3508a85108059dd6a,2154e334b953e3c872d634d6f41f3e216fcbf299,3ca8e060dd9bda889d72a128bf536b71987cb9df,554c3ecf92532867cbf1e063fb26acfc664a0f80,1186386a2d58ee23f9938fc7ae04b15373d0cf51,1e9380486d1902ad10a0b00fab3909407cde2631,4546fc623950914b9f56100a1b23fa34156720ad,10958890f01844f5d8a7cebeb82bcc4c4f52545a,35a39528a0297ea557188732099fd63f7c6ac249,47ed86a97a332e3f75cf6f70ca672475dd7fd5b9,3fbc2dd252af577df132ddec11876a628c3a52f8,828a6bbf7b85db8e04f008b97e6cabfeac1680c7,0fea085d858b584a50967049c4e5904e2c55ba00,8e4caf72017c18e92db08484cc4ab54417630f87\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/afteracademy/nodejs-backend-architecture-typescript"
+    }
+}

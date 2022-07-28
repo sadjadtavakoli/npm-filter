@@ -1,0 +1,33 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "f85373b3251458abc0a7992bf6aa25875d9a7acb,2ecccbfde16ba3ec072c6249c9303896ad5ef234,3366ea697fe4343bcbd48512e404565752703834,f7f01602b249b7962cb04917e737d362d6407a08,4f9c0f25c2ea5ad38207c7552cceab45b4c025ac,07557e02a6ae58cf54d4c96e5ea89d6180ab7782,f6d42aee153e260422786f7b561081247c3975e5,79956e4c3c8a90abe3bfa237ce59dd6d1e482311,77c63ef181313eba51652e1026cc730fc79ab9f2,34a66b89d3e6b9f3c4c43b95adcd60227d2cdc19,c3b5778ecb66a1252b2ab05e00e3c43ac28342f6,c13aac3f00b1e26fe1d2e55cd8bfa2cadeade4bf,d6202261fec395854050e771d262afcf4d4e86d9,6093239f43a7dd2f18ea57125abb4636b15ef14e,5339be1b419f0b199e1a03900db4d0c107507e1c,ab9ff4d8dea96b18f679c2c50b699b1b4849ae2a,700c3d8d8348a460640847303199025b4e1b6a25,98fed5f788f33c698e6a5bedb75b20a232641115,75fcc9256ac7a8907c5c7862261fc7cc90d02fea,0e46d443d41c1f2ef70597581dd85a2079b9acaa,f7f152242f3670d7363c3180035468e09689ffcf,856b8c5cf3ccbfa36cf61ac4b6cd14bf26aeef88,bff46b6fc5bd454a07dc76da599b9de23da43b55,4435819f6356e14602a4173d32e08576be473eca,e0b096b07e15dc964a3607c2703af0a42d02ea15,37bedcb0543bfc4f37517af32120b6ab9743315a,d9189f96ebe3c00008436aa0b79abcb0bc7aa840,5268af336861c2c288e7fabad7aa1967556c8d8a,7544f3c01215e9ab0afcca02b4b0ffc80d069acf,9ec003a0a5678db1a54aacf74d0db416a2833803,b3b6a83f0c18d0416245b4bc7375ac07fa819129,af8d7c29c6a9a11858416d39d199e8b13387d6d3,d20b0ac58bc9354686c3f6c883fa063d13071cf0,73a8604dd4e7ef7700adaef723babcdf550ecf34,d4a9b9e2bee297fa021ba6b75515101404a86b85,5d4069d1bf3f2cb71fc99da4557a36013d72ca88,d6737377a28ce8385d159e296a8df10a09a32cab,f008d2e9a14219ee57463ceab77569c859024a62,3c9ab954c46f4d0c96a00c5118bf3ff24b4703a0\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/apache/cordova-plugin-file"
+    }
+}

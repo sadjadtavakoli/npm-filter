@@ -1,0 +1,49 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "num_passing": 252,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "test-ci": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test-cov": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "2b73852e52aa29f94d9a4f1eb0e70806c94f6f9e,0f75d30d7112ec3a25e717ee28a5e8e6db7c46a3,0632e2f378d53579b6b2e4402258f4406e62ac6f,b8f97cd13b9031c89241687d7b2c2f774563d3cf,448dc57b263d5461b373215346365f20bdc202f9,bd386d3a7d540bac90bbdaff88f653414f6647fc,ccc0f8277166a6b997502c50895feb3bc903718e,06a5182e6b1e51eb6723531b36d4ec173ec41268,97c8383f93de77541f3d5f85482d44f66eac69b0,783ebc6f7acafa10dae75464747a88210589c731,360cf1b478555050610da2c153fcd911a432f1a1,6330764fd09a8a7977f7603a07bcbdc0af6e8e96,cc85697e90165a620d943c4f6c7b81e560ddbbfa,628bc7baafad1f904d6f59135384d61df1b21b8f,403abe00d32e15c3fd481537d8b420b742b11f33,09a8cde991f547fbec8b80c3827705168f5aa1ed,c4e0cf656de0716b8ed84cb9d87f2840848bfe2f,dbfc4accd8d6e5efcc480c602c727fb686e6d14e,ecdf067eff62a3b5b13e5866d1a313425fe07023,bda60295e8b094811293d6090fb63f08d73a6eae,5cdcf632702a96238e746ed1e423971b16e4ba28,b7420f8dc5c8b17a277c9e50d72bbaf3086a3900,6a0ee6087ccdf5442c13163509f187e6509679da,8a4db375d8584b7a9a8024cb304c6023c398a634,19fd8f0cf02fe4f2c5386b0e2b2e8059139612cc,86f1240e76fe38ea2028298af696ccc6380d8994,0078499077f28f14f04e303695210f252aa3499e,df936f5effae0bf85376d0f5f4579b6f951ba71a,1ce1198d5b5c145b4e4222878932163456c54a06,cdd1c5e04c37d4d8fe47d1902447c7955895380a,2d87fba36413c4af44578746618beba8a1a3f5d3\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//expressjs/body-parser"
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "lch-build",
+            "prod-build",
+            "build-lib",
+            "build-demo"
+        ]
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test-lib": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "e2e": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "fb799e3d32989c759da1aae5a0d70b69c1a054a4,6e9882dcfdfbaf724c5aa005b19ca166a27f9600,1c2667cbb03e686b3dd9db5af2ebd94c79752fa8,3d772419899dacf1acd581e746ae2084e66b5f2d,598301260b3034b95b02c9155e361ed69a182daa,b72ab83b1d312a20c61f5688ac8dc9d6d36a3ac0,88d783d861740f26d46aaa62c21cba7029754d42,16d4f196abd5af97ed21022ac7c57b1934e03bcc,842d4d999223152460d8d1dd0719b10c34886ee2,d7532c3468f794187c239be6d54fa51d61e339f1,03925a689e9f967690c21d89016e8b748801f26b,b1980c9c0cf7d85deffd26ebae2f27168b60f1e1,93ef04e9e0cf722256357269b4a08303b47fe025,6e22b1ce18056b839cd8877ebb8586fbfe9eecb5,40cd6886e20027c9867299bb987ac6039dc2577b,923cfa4a1c126531f096eed614da71d560f010b9,7ee9bcf3ad4e270666d35ce21389757f688f4e87,d40e5b1870f6d4a3c26ec07311e5c9fba065f14a,bcfb898dcfb5b079612a63ed70e7851dd9a7714b,9a88de190df1ce49b3cc34bd331c742736f358b7,6f11195e0c61593f3b02b0df5ec7ac69cee426a6,6c340f378029474e019945ae45c03cb5adbec469,88d3a8109726759b8cf09796426df8be3d16d4a6\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//vmudigal/ngx-audio-player"
+    }
+}

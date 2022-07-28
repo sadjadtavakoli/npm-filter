@@ -1,0 +1,29 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [],
+        "ERROR": true
+    },
+    "testing": {
+        "update-cli-in-e2e": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "760f0d6bf23f00a76486721b6bc412536bd67fd7,2b908d6249105d0de921ddb0bbcf61195b466f8e,afbd4e06e68cbcf5cc499931fbb8383a31260189,94fc8a8b762b6795bb65313d33a59495a45f860d,2ddbda5c10d8dae6adc326060e88ba39e405bfe8,f87e03556e7364fbf27349798f3855dfa024d888,fc10e07e0f0791782b2f2c38405526be7ddf0958,7baea548298206f019b2361fb62dc2be631e8594,660dbb2d60c91b61d0e2e06033ad37f9a78e4197,3527c445871c0f84264e56318b2555ef94684bc9,1bd11aa9390d2d6f234057853debb2c5fe6f43ec,f672606b35b9893311cb7e4f3fff62281f26e9b2,8d90e34a6813c43c5c6f6aaaaf9489b86f786e22,cd663fe52901427739a2708d4fd68f21f33a22b1,aff34e0b30d664aae19c26aaac81471cbe628a38,91a40c54099f6e22db1e1bab320ff9e22192387f,7d663dd72865e86cdd2c797107bc00ef108be9ff,38657f986a66d37f55dbd51bad1264b6daa44c29,73bf43b33b6a33ce2c6540337a40d528263f44a2,144fb357bdaea029b2481a29b789bb5c527477fe,4f7c84a5d8cf688cbde30fa247d7b9a6ae8d528a,d10600ac8e060d94dcf3719090a22eec36946d60,c8805c57b09c184fc0196dbef9b495b125df06e6,9e4c6c7f22694ff5a77fca7f2bfcbc668cde8835,a86925743c3fbef86df3127ff125def576dab7a3,3aade6746d45ed601830c8dded0f56c3c7b92562,20374e9309c0a7767ad5a482348106b1f401466d,627bdc9b948f776ef06109ef7188af5ee3bc17be,fdfcae0574686aa732f5ced711ef0e4216582e59,421cfcdc857ad31b1419891c4349d406662c7e34,9b610fe6aeec63f3d5936abccbb2a2e37ea213bb,da063714951c9be7315ba02be27bca1706f3ea3b,4cadd5c65a123a89aefc8adcd5d187cc47da72cf,9cdff827884cb879daa59c678a73cc6246e35b78,6ba4b827734b0db58bbb0852a959cc9347fe6d16,f7d4c50b4e40d9faf7bf9e678950d8ff3ee0ef8a,8d6e90879730b7f4ed8f23967dd538c5c13d078c,8a9125d7658a1747a7036f305f91c61a057ba517,bd3ad617f303e882ca7b69667e0067d926860095,319cf238a492a22b5c152929bd56681a9a651e9c\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//nobrainr/typescript-webpack-starter"
+    }
+}

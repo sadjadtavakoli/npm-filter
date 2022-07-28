@@ -1,0 +1,36 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "e2e": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "c4359898281c2cd97cb2a3f5b8364b1f0264862b,0d50b919d3e46daa6e4bc281e7c4db686b74dd3e,f7d7c9f8114726ab19bb348b3c54e29c2cbc8a8d,2b6f75e672040160b701df13e910710bbf94a7b0,972345670f5eb96fdba6285b5e5a716fd19230ac,8ea1240e364055188fb342cea282dfaab021cb5e,b3e5f63d81a62d2643241bac60b2f650fe22473f,ded37f27dca563b97ad68590dcfad2957c21228f\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//ssunils/angularadmin"
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "num_passing": 38,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "test-cov": {
+            "test_coverage_tools": [
+                "istanbul -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test-travis": {
+            "test_coverage_tools": [
+                "istanbul -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "598d8768159249cfa6eca87e6bac8c81d6e64735,133e8c4f2e9a660eb1f1462daca0b4b0ce43aa9f,52ff252ae464705aadd0d463b3439b6c8ad91e28,94618458d81fae2b6f9447c7db7d371c8212d43d,dc81373cc9ad4ca1fd7c26e3d64f130d386ad29d,7ecac7c94983cb8b55b9b30a0f1e6e536f632725,f3510902aef7ef1991ee66604ca2978d44eceb72,2403c20104520fca1609797d0a90957adc97735b,b79b3f0108995ed77d9a12eccf4fabcb55b0a198,26d96b3e0bce66786a279315fbbb05636b04bf60,0e53f28405f48335ccbde9c0fe58ab4ebbfc66c7,b9efb485bb8d77a81451330ddfa786e181e9301d,2b431e472127cb5f72de2ebf74fb45f77a89e8cf,612715c54047ba3a1d8fe5fa7c91470aec4809b8,75b15324160df36c943f1e6d059f0943fe74cfb3,eab6b116102b4c03448310bdae119583f00dd0bf,e0afd3b718c3a9fbbeeb98d20ebb54575a46569c,3fc6b3519934a6692023c2da62bcd6ce676ffb30,d5533c9b6556c25495f5370de2a1dcf7a9ed3a4e,5426d139749d9a1093e21fc78e0f270fb473e64e,a0676bc14bee5a986ecb61b5dcba8fc71979c2d8,119998d23840818091405bea45f39533afe5d88f,5363934ac870c3ee29dba52be9f0b2a2de0f9ea1,865648e09845334cd147de6e091d8b02ca0c58e1,ae5b15ee1b264df6f6fedf68d7d6043e87c955a6\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//expressjs/compression"
+    }
+}

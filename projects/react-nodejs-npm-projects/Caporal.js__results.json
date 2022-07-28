@@ -1,0 +1,83 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "prebuild",
+            "build",
+            "build:ci",
+            "postbuild:ci",
+            "build:all",
+            "prebuild:web",
+            "build:web",
+            "build:typedocs",
+            "build:docs",
+            "build:types",
+            "build:webtypes",
+            "build:js",
+            "postbuild:typedocs",
+            "prebuild:docs"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:fix": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "build:ci": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "postbuild:ci": {
+            "nested_test_commands": [
+                "test:ci"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "num_passing": 220,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "test:ci": {
+            "num_passing": 220,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "test:dist": {
+            "num_passing": 2,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "47cdb9ce56b76ab9a79228b883d94b40f87b384f,19f862c2da3488eef78636d76b885f1b71a972a5,5e3eb2f52ffae2343209b794270797f499c06ed6,2e1e4ecbaadbff903ece5e5964fd75d441fc08c9,db1981314e2f01b61cd596bdf0baf80a1787aec4,d3926dd5e6c2ae40d916e15886535769be5f8037,2f11436ac0a4da3b2149e6fdbfe3d7d1f1fd97b1,e949a4e39ae04f54ae3bfb1f970e5e7763b74593,bf25c33b6ced5f9050fd8cda7d63b24cd313ec54,d2fc8429f6af98e27aea0cc2fad879c834fb0297,0a9558f72a8b71048eb6b33490543f1572f9fd16,0d621d0ce76bbd8367b4e60c34b1554bdbe9d3e3,5f6b3ad72d84835b3ac3a998d74d8ecfa1542d10,344cc171cf33de94da88b54adddbfd30b7aaecd8,2f9e5789b8d12a13cafc67598920940337eb6e0b,d0b9953567b27f66d6b2ad3f9a9c9f67007cc218,ecd145f51b18a3f0d67885b4a887f8df49358303,e21f846957014c66f32801811a37cc1cbe44433d,e00932bf385cac8ee186b3e80dd86dca7b2fb6a2,51139add0c84d74763efd8890bdd535d3bcf3027,c2e71462c30435fee0adc26eb6152c324c23f84b,690b46d582b1ea99d1d2cf7528600890fc0c122c,fee73ab9e7228b7db8d4283303759040f1d4a566,afef8b25d3752877a7d6e4c1decc2a853709f6ff,635fa9b901ae21f7298a12560d60e22ec21aebdf,2cbc07d71380e03c3ff2a5c4293714e7c229c2bd,333c9681db43b974b95331af856f74a8e6c6c2f7,3e0e6537443267e01f497532958c62a9c4c03647,fc27c7a783035560dab1af5452aff3d47277f89c\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//mattallty/Caporal.js"
+    }
+}

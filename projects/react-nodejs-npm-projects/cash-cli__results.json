@@ -1,0 +1,28 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "ava"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "f9edff0ec7aa7211873b21560361142b79665ec1,7cbd4937c2aa05d65102f3b6e83104197885eaf1,e8d4ca3e324cbe371b3bc66d0b539f3b12eb6f7f,9daa6049c3efc7ce9e5e6b9b8c244834596ff18e,2d568cc8f0caf0da3f28eec27a70baf62004dce1,e168722d2a39618692fccef9e03351a3d491b01e,390dcfa756504b16befce049c4f8b232726230ae,161098be2fde1dea7de6bdabe7d85c8b3cf1d66d,70daa7844ace989fde72876e934b4a19ee910c2b,fe670e8fa967b9045a4b4aed1214a23981186f9b,93a26f5dacba2fb6c34f1096c25bf558b115b162,c5b5c07c5798f36a261dda7a09d3b67664bc0f05,926dde70c91da4c6df32c17d1d4e79b1dd9fcbdf,e054b854bc76f1208196b397844610d013c588f2,d7e46c17a9046a5927df5a85e16ed24cb26e64ba,36ba40bd674587c3727fd2b02c7c25a4b246c5a0,cf9b05c404df5190e9272ac34f1e130e4662ec6c,74e44ef284fb6d347f9543833ca5dde42ead435b,20a118afb752fa7f5eba66dda868b1c55a73b258,676019b472fd23bf3b946048235c7bbd6f5bacbb,bcf099ecc73b4e49f7622cd885991d4dc7eea107,9272c92b76a954f69f7e9aac8d8162e710a88022,36897bb2dbd9303e005f27ecfd4dfb6e1c95c7a9,93ac3f24a41b7b38a5a2c460199089bf71c53061,cbd43320a145d793b7db8ad3360b6b47b69461ea,34d1c1e25149cfe060411fa045a0f9f314521df5,4e4a63a6a2622088f902d94e48b5a1d41fcec1b0,ca8e9f96518040f811ae2b1c6af395b8c8501d81,34fef992a44172c7170fe54b244c70ec5908a6b5,8d8202bb61e7c966d68200ed7fb86f89a5fb4004\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//xxczaki/cash-cli"
+    }
+}

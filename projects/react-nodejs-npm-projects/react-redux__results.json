@@ -1,0 +1,56 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build:commonjs",
+            "build:es",
+            "build:umd",
+            "build:umd:min",
+            "build:types",
+            "build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "pretest": {
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "num_passing": 353,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "type-tests": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "coverage": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "26ddc6a6fc1238408ae5a0cbc18f15be225786dc,885c1ccbf3822f635eab87c138d2756b7f0ed5b5,97f29f2cce917703a1a907eafead0792fe896ee1,e584ec3c4202d1038d3460f191afb5d68258eb43,e18feebc82a244be176efb1a5d7d8d5d512e7cf2,2f5ad38fe3ce6a6e05e30549f8439190de31020a,b3559db13d1c8c90e20377f3de8faa7f751000d8,31b97f94fc54e2d6f33119116440ea6aca3d280c,1f4d970890cf72296a022e01a1d0d4e1086a7ac8,f1201dec7faa1be0a7edb31c7c3f86cc5a88ba92,cb933740b446e12ef14951d7474ef6928d3b6ecf,918e7e9df33380b02e448debe91f4bc9c1b248a2,17ddf9da22498c6ea3423b20a9e74dc50abe55e1,50018ca28291b4d55e0ea65aa3181d4e8942ab35,5a11915b92019153e0e0b3a89389daa491899a3d,7dcd152dc2cf7babd37a44d4609b244bdc5b6f71,4f9c3b8c32cec16c61b88ed66a51582fe212c483,a8c84d235d577f6974a467ff36d29de338ca6859,c60ccc59f701874a17974a70ac522d7058ef90d3,2d3309d3c1378774e157a6238cd2b57019e75b77,f4ea60cc5e4d1260ae02c8297a2561f35410e154,9005c4abfd9058f3aa78ad0a162eee6b7c94322f,45dfd45ac8ccb9a67701364c998e0eb097d9bdb7,96bf941751a8460c5cf64027348f05d332e19a20,0e71c05a6f4ebb882d160c8fedccddabfbcd51a6,754c1059ded0c1ea3a9b6dc1d870e31c22d8c3b7,c4d81afd95687b18a780832301e2dd6059fbe6c2,e9094e7800e7b464d1221d26714454291f8a9730,9ebd1a931b05f05380c44336dd369fc084474edf,07519e0407273cf52836368e2eb50e39696d0104,b832f835d76ec9d1fcfbdee6c80d497df5dbca06,e736270c30233469bcb18267cdb92e6bdac90c80,3f0933c35ce41d346265e8827546fa49d5c7571f,316467a07e29911d82ba0342364a907e05d9066c,88964e50bd067eb6382dc7d579bf9f6a6bfc8670,edc150164cf1e36fc782452a37287ea0a9a153bd,7402f728c5948cbf01fb07086dcb1ec66968a044,fa5857281a37545c7c036fb2499159b865b1c57d,eae14cc92b79dfbc4f37131d31698b3446a9857d,d8a7ab51e9429a0dd041dff98d7aec14ba8f5682,6e0a1067b8886cef82340aad970da6753ccda119,5199d9da4f3f88e69858049c6311da0763be8308,75b90f932f5cfa4e4db74449477a7ecede22dc84,50883450079356e70828139e531303a962b85458,630e1beea0973b99456da549c0f2b9e77ec0b600,595ae8fbfd251c75bcf1a7855996d210cfa97f0f,d9b627f730fb4bf7f6245ce909d80ad598fc0579,be363fd8adf15f47f83bdecd1b89575f18b0f526,dcec16e45f0d8aca5d1e79d7d46f0f650e061435,cd78c6edfe8175e39fa02b0623f0e6df8c07ccbd,ce17d0c1176fc7a5eb1eacd9eb25240385962272,0c048f0646754de103cc2d9825762340bed06119,85fb553ba8e3f4b0efc158d2e48aafb4c18a04d4,1b43eaa86d89144bfe2ef72db095f69bf7944cf2,2093fbb56cb6505bd2bee830e6b4cc11e351d867,0d9325eb5f9f6d66f34dcea63e4a6f8d5d70c8ca,dde1a0a11dbb093f718757409b357cd04c9790e3,05f943d45c1dc917c30b4165241581f3019e06bb,9cbdc69b100e031220a59298becec93d128af65f,8d91125156a68fd071496ea81839997e2771b153,e915cfd3f93cd40ecb59f1844a2d6f71358d883c,47facdbcae2412d37d72fa5c37cb4e0cd64a9b4a,eee25a4b565748ea91aeb284ef510a698f78944f,d16f759d727359fde3cc141cfc068fd13f184de8,aba2452c8012336daaca666a3fda0f565a8f0cbc,a7a0902a681259b178bccad60af2c35e5f05d78a,bf61f5b51cf3c9689de8e4f3e3fd857db74b0c9b,a7a11fccf2b21bc7569bbea801bea07ab4460b96,ee4366b9a420f93483df3ce6c12bc72bc83f7d18,1da657e0e0207090a307c35d09d407e5d65d52f9,4bb0087a66071d815c613d0339799b12558b1fa0,c4ef6f9417438b887be683d4720ffa6fb4b207f9,1cba5a4bf68a7f07320b2f1f99bfdbd76ee73aae,2c8f9a79dab8c1aee32251041928dfef28f6f12b,c54ffd976a14ffba549df1ee6bf3b39f499aa734,389eaf4957b8aba54578ae4fa4fc5ffdeed85b50,9ebfae6f692271d49ea39e604462ed454351fbf6,c934b3dc07b5f75957102f2424f3cea596f455fc\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/reduxjs/react-redux"
+    }
+}

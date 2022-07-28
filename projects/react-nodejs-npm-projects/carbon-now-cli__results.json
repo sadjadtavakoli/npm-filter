@@ -1,0 +1,37 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "num_passing": 2517,
+            "num_failing": 10,
+            "test_infras": [
+                "ava"
+            ],
+            "timed_out": false
+        },
+        "ava": {
+            "ERROR": true,
+            "num_passing": 1437,
+            "num_failing": 11,
+            "test_infras": [
+                "ava"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "f492d763cdfff04ec4d660c19df64631acd94685,76d7c7f54f7fe4d4b82d891b5aff6aef6d59ebda,133a9a8bacc4a11e3c42267650eae83185516107,a426d83008e8dfc967e80af53feee52447845666,66d54e93464837eaf44de5bc4cf204bb0255df95,22249c6d02dac39c9bd7037228ba11fc46a588a6,5bc24b779ca4ca750543e094f63087b0d4939560,5e2fa58fad9c52f59ab71ee14c64b5b799e7da5b,ac2db167290f12d16d8c03195af27b91bfa7a35f,fac1d75c7adda71bf7ff0ab3596ae03bf91e3ca4,67d5b25a97c9f193fe5d0a3223753a737718754c,9fcec0545e8db209937f10d2330e0ad919437dae,a5afed85b6b9c61f5e071a98d587915f96edb412\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//mixn/carbon-now-cli"
+    }
+}

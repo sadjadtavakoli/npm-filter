@@ -1,0 +1,27 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build:markdown"
+        ]
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "776b6270caebe7d570dca4f16125a4afe3de3042,ec25ea83ce1de62a08890ba71669eeb9a7925eb5,b060f032002bcde523d518629989bd41b8bb2055,5adb79b294a135537ce395ef73edd95626d236c2,1814db6f7cdaf62fc1cfeff1867b10b40b87379d,c673b88292b56674acad227aa4a46a61900a5fec\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/tyroprogrammer/learn-react-app"
+    }
+}

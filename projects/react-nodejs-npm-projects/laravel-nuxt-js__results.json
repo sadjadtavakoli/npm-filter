@@ -1,0 +1,37 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "num_passing": 5,
+            "num_failing": 0,
+            "test_infras": [
+                "ava"
+            ],
+            "nested_test_commands": [
+                "lint"
+            ],
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "5569d4351cc86182219ef29d8da04c013b1d9dc8,c05a016c29054b4552a28edf6df7f5f9d904c952,d428f16d2a75a0477c0f6d0facf2289d837ea969,0389b88db084df1892a538a2be2d4a89082ed84b,0129bd82f2c57c0aee883284a497aab1e30a5bff\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//skyrpex/laravel-nuxt-js"
+    }
+}

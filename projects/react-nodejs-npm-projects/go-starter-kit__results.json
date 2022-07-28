@@ -1,0 +1,31 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "eslint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "746afb635ebd15c9ead56d941f63f46c61f66315,fca2d1b9a7177132174d084c323f0272dfa94d8d,8b434a07fddc21add98759262ef3466088caf18e,c736993e61296d9511bba6a8b9e8a422fe64c392,75d14659cf2348697b81ec3ac4a4861ed1da3e20,aa1e18646a4bf7aa2235eee9487907059c3b652c,acd7a6efd08519992ec824e7c22edf9826460417,21917ffff3136eca9ac463cade2486538cc83144,3aa0a39b2cb7648e3699cec26d01ce090e520e2f,9c17c92c147a933d32911a24aa9a95ae2195ffbd,596a7ba4010ee3b5bb78b5d147b1b5e0ac52e979,a19a4686edb045380a9882027895418743abcfd9,c96a70a1ebf78ed9401dcfbee3f3c79093c28f8a,046299577d9594820703a5370958d3b58ef1858b,a976c9be253182f6036a3692ca891fe32d7a9fe0,82b4404259b8d8cc718276828d6241fffe0d5112,93ba584390799c1bf58e4d4c6a4025bac1ac608a,4223e0ed17a5864e0d8c55971e9a4147d992832e,b4f0a9ed59d05074596c6ea874aa2c31bc7955a6,01ce8e47751eafd7fb10e2062a9b70d4a9b0f9bf,b457875bd8462bc9bb5ed6b0ed5dad508f44e68c,4ce93bd4694dd652b64ef05558e36b493c41b2bf,e20e362a9d1923f4e2ba143298714e34603296ad,da1cd7603a9a1fc66e7d2538a101e9210c6cce29,fa26fab9c1acc3fc3cf9f0a6bd2c2894d6c16295,bc2e54b6b095e9b009b9c3009b2d6150eeac5c17,2e8cf48bc16f9f26fa2a1a17c864ae41a3c60efa,331310f5e973baa3bfb415dd521367050ecb6b13,0ad128dee8551d98a00a5577fb5a32c3f6d64774,627fa9b9d916f462a94e444c7bae2b7e2b57e2a1,43a635ade9fb032f9266f4812d9f5f932fdf2635,2911fe75c488403a886618ffc2f4cffaf62d9358,4417b9bebdb65c3101567ed227d575c80fdba44d,794afe2beb36d189b4977133044cc76efc1c6118,9158a8be36ce1e77f68054dd29ef3f91174739ad,f8cfc2b0b88ca94d5e85c136ad442941974c1148,9f5d8bc5ce614cbaae11e48491bb9de24fbc7de6,1f99633cddf590ed96f270402218c50732e13b67,aa102076b6d74b49b72758ae1863113edf69d9d3,aac2857f4f25674e10a6752783c92404b8e2e103,cc508b56a580098509467189b115ce8365799567\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/olebedev/go-starter-kit"
+    }
+}

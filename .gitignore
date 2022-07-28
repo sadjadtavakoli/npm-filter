@@ -2,7 +2,7 @@ TESTING_REPOS/*
 QLDBs/*
 items.json
 *__page_data.html
-*__results.json
+# *__results.json
 local_mount/*
 **/node_modules
 
@@ -17,3 +17,5 @@ input_list_scripts/*_deps_repos.txt
 **/.cache/*
 nohup.out
 job.log
+env
+.DS_Store

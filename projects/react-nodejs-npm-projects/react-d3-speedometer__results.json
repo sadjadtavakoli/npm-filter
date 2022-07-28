@@ -1,0 +1,52 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "try-build",
+            "make-build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "prettier -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lintfix": {
+            "test_linters": [
+                "prettier -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "testonly": {
+            "num_passing": 34,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "test": {
+            "nested_test_commands": [
+                "lint",
+                "testonly"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "c2497b485e83df20873db2cd0bf51e478b15643d,9d94800b2c446bd1cd8ff276115893cad09d760d,3b3b449608e41e7e483b4af2825ad24ef9e1f90d,952c56e5578aba786a1732f55d523c6a6629bf37,3c23c97b4b6c99f364cdbeca250be692589b26dc,40231e5535322a4bd1c12af4b2d16d0b317e6d2b,926eca4604d82cfa62e8acaedfe2340be77cc49c,34189a1985e0f9311f4eca42c9cbb3be2a2a0e7b,95ac5a0425a2db2ef603ce362e6bd481976bcc2d,578f1f41eef0dea8f5b9d7c0e263919f75a8aca2,b770e84a5e34f1b950843bb68f8c9ef11e3d06df,fbeaf010119f75229567da98e94109856088a971,e3cda31c70fa7c96b2e0fb6ac8a293dda77eed9b,3309012f2235cb3826267a271ddae4c094971de8,816037b5e00d70d40331b6e2e75f0ae379168280,309f0f527e3f05a5c5237cbf0d0726795d5e8252,95d5bf57087945e5467a813b81fa2db716d18cb8,facf5249e0fa0f53c9f358f79c26a1fa42add349,5229097f600f0137d1cd43ae71b32808afb9ce1f,c56099a410cec16f4614460cd045f00151f1c6ea,d72cfb50e71dc4948cd807e5d2061a0185773dd8,74f958ede4a49facfcdc812685b94120e6337722,335759df7f63097b46b5fc31810ce24bf8e0b6e3,3f4f41aa8c53d3103ac2d6aeac47da0a1e008f32\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//palerdot/react-d3-speedometer"
+    }
+}

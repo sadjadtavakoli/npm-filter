@@ -1,0 +1,78 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "coverage": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:fix": {
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "mocha": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "lint",
+                "mocha"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:prune": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:snapshot": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:update": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "ae39d640f398ee26e5cbc5987cf808b9d6e0227a,5e8461acbc54344e9fddacb949699c5c68322852,c89d48f93624db299ae7487c8eb8e95351c57898,d46575829a05b47fc995d39db843e455d717b8ce,5d3872f24a78d400b06f5b18a767e7d0cfcd03de,cff57b56c95f836dceac8c8e816c22fc312e598b,cdf5c69405bdf3ebf8eb2830183321a27d96cd72,5ac1547cf88f5f0f2e3961d03588dc5d1b10c20e,46c7b112f1ac50b3a41501a6124e0110832dd712,066aab1a85ae7fd63b21341d08eb151a7750538f,02fb152ae033781317fb9ae86a6a202033367c0c,b7000760f15dadc7fffd5103880f0115d529c16b,d3d4a8614b3844dd02616e6938612ddea80d8297,d2d88acae58195706b963a0c1edc31ce5c946553,acb433b31b2c3d2ab7f55bac632a2715d8dd52d8,12fe67d5aa9f37c1438aa3a0d04c600c1231db3f,9d56141f6b6a0ba627f6d53a803337dd136bc84a,760e27bce7bd88bb7cdc5740b51bd716e2b77dea,23aa9883ec81bef4313e78e497966a54fe10d974,c2fe43b2578c970c23d8be81e9bdd8a0e7dcab1a,22d130120eb0e770b5998827618c4b8e38db8cf5,3fb1f792ca99efc58aafc76ed61f9440599f6540,4eee3257c6ffc9de0d017633f6ae21c185b38ade,5cebba781aa07d0081063d676803f8f3c5243246,084f702254e912d7a3652e2356765071fd9c9793,2e853a7a9c3602057b9533dc3df420d746652dfc,863b009f4b03da85994b769c7184f09ba9cb0adf,33e44b89b099ec449c28875d40767e92bfe8c2d0,af3077f903b81de7b5a2b4c36a84fa067af5870f,becc9d4ae654264e226ef6498fe8f53b75357507,ac803f6db4e589fbd44cf3959e3435efbb9925c7,b0342138a27188d30b97eb2cb35a32cfa68c70a3,dc87760e040965a65b3eca60039893e979dd5473,4a5481368932dc341c00df8b166bded6a3337b77,2fe5db0bded215365ea9af46fc437b0b9391c78c,d8f8d7ae70e6a0cff6e41523ecf61dc0343beb9a,2979e84356dfcd9af3f4afe3ab5cec5809faa857,03f53196f6ed2ee4ecf6519fcf7cad264c918136,b2b48d1d26c41de38c99cb5c037539e260d1e957,e81ea4a74945946035cf47626d20f6c5189eb432,b9f5b7d5b2cf6fbd0210c6f97901e6e5d371fa56,e5ce883a72429bbcb471139b7c367b22b79a617e,d24ed443538d489d88dcdd4c08eb893cd195752f,441775751d911ed616b266a374edda6b0ba86475,fdc515d72052331ee3a7f9a1b4b911477744570a,c24162b954a425a2d6c19ba9831be22f8d7372dc,3d7dc032278644b7b1c7d0602bf9ce32b0ac838b,bff9e396b253ae7e9e29667ada513ea1b0a35778,7b16f4e502d2320d79c5a2078fb604f2213739e0,6ccd1720d086c7ed7d729d22becbc51c62b88a47,e17f9737c922d5e1d1ca9986241559c574a8014e,6b00bd4eb898daf7b0e0b38367698314dfc5aa7b,760a421b9076aff28dc15435a04db16d82bec7a7,b81a75ad5066d620ddf9c3252fbfa1ea7b479533,a4b6a6dd4e4f3c10f0712bf15c990216339e1670,7d75b29a9ee926368b02f18a4cf25512aa937894,693fe8c27c0ca9ec49e409693a580f8f5a21729e,05f8d474e2ebbeccb467f177768b91ac35c2ab85,62357cd0ad7f1663d107a0c5fabbaee3464f9a78,5ee3605338ea32274a1d5cd51e627e5cd898cbfc,a0a86c72cb06ceeb99982f83b0789ca7c4e25851,f2c4faaa70aad90106e03a8978450e541948b2b8,e0837bc1a5ffc5af06fe8c1aff45ab0700ea5457,37e08e86b4cb7d25ac7530a04ac93de17f75bdb9,feff84cb668b59130717524126345825d07d4bad,2ac56068fe03e7b5fc8991f412e807fdf43149c0,922d0e65d38b8d8967dd2e6945ba695b6f1c598f,fca34f43194c724c32dbe1a0e7599c5bbef26e77,eb38e50670e539a58cb5be9ea4a2588ab39a1fe6,6dd000e0c7c29aad546b3d7a28549397f19a118c,4fbe7805b22ef65fed12a1ab50421719b3f77728,12d96499e8e447eefc759e55544a4370c6abbbdf,2dc00bdadc36b24f11015efaad0f52e2f74841cf,39da4dd743542c46e5232c8c74ec75116803e600,a8fead034022aeede4f3280b836f189d323005bd,6f8d4299efc1717c566f4b85cf3dd2665f3eac15,0287c654d8da7adf13caa056e768c40e77f1d288,35633dc90f889e848109cf29002afc1cb7fa4422,5b636981b4325a361e12a24351082d889737c373,c1aec33f72d719cb8d5fe12bc375e943db64f8e3,70c0658ae5ba6420ac5e738aae118f5fffd392a0,fa3b453bc79994e4c8681a3313006ad60a488295,2841f9d9ebf4ad731c35c28ccf9eb7d07ef8a22f,5720722592af22691ee5af1b941c8e701c0f4e94,92a4fb57dec76bc51d28563d86d49cb05b8ad3f8,d42f3bddb4aac8a69fd9a47dab729eb3730c5b93,dfdddf26460971bb2018497ba082734d8f5d9e9e,4cdd79fd1f2d2febbf8cc896d52b236735265128,480c7945f8a51bb91092ff83b83f9b88461b9073\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//jsdelivr/data.jsdelivr.com"
+    }
+}

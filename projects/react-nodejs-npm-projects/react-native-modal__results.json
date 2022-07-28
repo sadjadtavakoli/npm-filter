@@ -1,0 +1,57 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ],
+        "ERROR": true
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:ts": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "build:e2e:android:release": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:e2e:android:release": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "build:e2e:ios:release": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:e2e:ios:release": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "edcb2283cf8f35fc5a077a5442719d6985d08cd6,401f340b2327011dab661044c4fa4c6a7308dcbf,180b46217f9d454bf3ab805ab2840ce1d5adb681,0a1170f711d3d52484de123c400011608f9a2632,27021066968c5da386b286a3e56fa03a069c47a2,2c6680652330170b927afa8b8579014b54dbcd68,d1ed08905f42eb1efe99519501670d2727858bb3,084fde118fa94dd23c1ca9ad58aeb24d28394b26,a175d1216dacc58d076e70b1ccac2d93763e4044,d582a5be7fcaa0605ea98d960382d564e48f4c69,fb6baca3a42582c94a992030cefa74ed1cd7ca17,9438b11a4dfac72f720f4463bcdb24c16d5c6e58,b60633b042b08881cef78d4ee0126393dff54437,f290879f47d9254eecf7961810b26737d0df30b7,76e0bb346f14e4b0d7268383b670c21adb068749\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/react-native-modal/react-native-modal"
+    }
+}

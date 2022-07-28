@@ -1,0 +1,24 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "47e3c71e7e30357722c81c3ed63723974df2c5f1,3738f8696606784eea4fabf386197798f1c8753a,4534f274ef2970c0f5bb269ece6e2d04bbef83b3,7fa7caa2865df1bcf21fb3ec564d0d77461db8ef,127354939f5e33f3561dc78d2608e3278eff86a4,5d859259b283e2d71fee09ba0c3668073753a2d3,c4bde511a72ae3a010f118c1c107356be3c28138,6d8f81ff83dc24e9493501e72daee43eda9f3bd9,3cebec50577998f49beaca1756120ecbe0080920,b503680e2144c7f97fa2598cfeb30a55283d9141\n/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh: line 27: /Users/sadjadtavakoli/miniconda3/bin/python: Argument list too long\n/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh: line 30: ((: ( 103681 != 1 ||  > 1 ) &&  > 0 : syntax error: operand expected (error token is \"> 1 ) &&  > 0 \")\n/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh: line 27: /Users/sadjadtavakoli/miniconda3/bin/python: Argument list too long\n/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh: line 30: ((: ( 155595 != 2 ||  > 1 ) &&  > 0 : syntax error: operand expected (error token is \"> 1 ) &&  > 0 \")\n/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh: line 27: /Users/sadjadtavakoli/miniconda3/bin/python: Argument list too long\n/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh: line 30: ((: ( 103977 != 16 ||  > 1 ) &&  > 0 : syntax error: operand expected (error token is \"> 1 ) &&  > 0 \")\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/timqian/hacker-job-trends"
+    }
+}

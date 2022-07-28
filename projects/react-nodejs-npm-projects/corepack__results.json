@@ -1,0 +1,25 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "876ce02fe7385ea5bc896b2dc93d1fb320361c64,5cfc6c9df0dbec8e4de4324be37aa0a54a300552,f17384e620e71dfaeff7010b2c130b66d04405bd,4344ba1f096015dba69d6bd9e368437864679fde,328ee1ff83ca280aa5dce9471c4f87bcef8434fb,d6e3e652ed9d28c424fc1d97d685a2726095dfd5,7a034df587626c9140ec5d263d1f3e8c11ecffd9,545f90f2b9d3aa529f15c061d8aeb812e3e1ddb1,a11e796f7f2866fa3fcd8fd58cc4d450f6f26be9,b77ed59321ff055de7cb23e6ca75d26c35916ee8,ee2d45de0dbbf2df05bff8b21200b7dccf80af29,2a46b6d13adae139141012254ef670d6ddcb5d11,fa627ba51305934cda863a0d698e83e484487355,6f8c086b99064f994b927317a58eeec8a2594587,1836d17b4fc4c0164df2fe1ccaca4d2f16f6f2d1,b8c9ec0f1fcf8c02aaa6ea51699ee47235716068,0dba79609954429eba6c5c73277f31a0d7e19c63,3c0af2b36bc92b18beec875e35cfb9259a13cd28,1a3db689dcbb9977aba1e16fb875e69ef919dca1,b56df30796da9c7cb0ba5e1bb7152c81582abba6,4982568baccc077a928283f9a4bfed2225f34dbc,9809b8f856cba5e91a1ec54f595073373696440d,8c494c6caea66b05dcd8d48b1047bc317a69e3b2,fe402845010b9784fcd45e31c7fcfd4f30c38bdb,0985889458bc4c2a6e59f8943a735bc31018e2e4,f83e36fecd32543f499f182f635260f883a588af,6e3a68b0d5a54a0ac7ec434a799164fcf23ac9b4,2edea5d75a1def1a9f4cac66b76565726bbc4217,2985390272f8dddf643934edb0982dfffd3369b6,6f37218ff3a65a313be45022c83c45ec961fcd49,8c29576ca87fbc35f037addf8fc7cc2230b9e896,6d3a9e562db25a25a035211bec52cb30071d1f28,d774ef240015b751a93df7190e1afc52df1f9423,727c8e1181fa13d1165e81ce11789e36401de9ac,c99569c2832089a5f9660f753c075d2ae76d2831\nwarning: inexact rename detection was skipped due to too many files.\nwarning: you may want to set your diff.renameLimit variable to at least 767 and retry the command.\nwarning: inexact rename detection was skipped due to too many files.\nwarning: you may want to set your diff.renameLimit variable to at least 767 and retry the command.\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//nodejs/corepack"
+    }
+}

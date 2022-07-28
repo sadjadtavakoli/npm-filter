@@ -1,0 +1,26 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "test_coverage_tools": [
+                "istanbul -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "eb2cb5d79088117cf2c27ca9c401d8ce66d026b1,5780840d82ded6c3bb09e036baa342df64e911e5,867397a35634003284272af741ec15ba27e8dfb1\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//valeriansaliou/node-fast-ratelimit"
+    }
+}

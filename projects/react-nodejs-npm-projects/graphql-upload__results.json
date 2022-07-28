@@ -1,0 +1,38 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "eslint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "tests": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "nested_test_commands": [
+                "eslint",
+                "tests"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "f5c1802a43cd44c0be3800da3c11af14d94d27b0,9d60a783b03f0becf96583bf209ac332cc48e792,26a7418c1bd80f0b32c1f613d4e75cd9850edb59,266f7c41ee04a14600a1960006d1adc55304763b,8af0685590695ed94f7ef00b6749ea4a5ee4a975,73ef939ef16a40358eb80e0a54c5c3ead725b2fe,7193c3ddc749eba8ada54d6226851aa0e8c935eb,945b7bdbf4d46dc9d242b51bf354ccb64ed107e0,8c14868fb6384f5eeb15a0103f2ea339fa8ed38e,c3c019c83131757c295c571a615a940e0da5796e,1795c7f6ee4d9efda69b0425958ad7789b96d1b4,1f51499012008b91455abfb60d4251064c5f8ab4,473930fbee27a47c17e584067c519d61b49ae933,4707ef7ad756833dee1bca4e43632260059b0144,161343575272db44cf8bafa14fd596dbc9a9de15,4c4a53ef9aa8a2d20ea7075ca18aee771c1dce95,60c560f8f15cfa91235911c9c511504eac0b9dbf,07991ca1ac83d06fccc9d93d366e3388f318f3f3,a46969cd68b787b873f60963de65f002fe55c2bd,fe081887697151dd49aebda92779dc13e4bc3593,5a7d9d37381f953735f0317de829b4eeab454301,30519579fe5c594d12f663a7c42424cbf42f1263,8064e47a595fd26691b352a8e30e7ad607f07ef5,50fbb50d6fc2679c6ec5f6a832d3ec4c01e8c4ea,7df70449b1b0d61827d9d7029086cff168d90f66,fe159833247003e643db48da5fd8c23809a5fb33,21a520514676a9681aa06016fd0baaf94cb29608,c257701bd10735f1b3367af664ae972b5fa67050,09b2610847e33abec592a8bb75c7e9005b9dab50,be418a8a3ce5839f4656e1bfdf4e87c1fce22663,b2d530855edef8c965321b6aa2cfdd2792fdd45e,121e06c1e1c1fd6186e5d5a53a06712d61439c17,51f8447d12943d35060afc0ddd81f63dec31be58,5418f3f76ff7d71fe637a9ca9b396812e3f46c29,eefb6dcfd241f3d9ab98de2fac1bbaf930a115cd,6a364eacb3d19e5d7bb7c11e47354904de5ba3ca,a25f01d0c1ff21da4555cebd5b593227e9f26b7d,9fc1c02d96246838f37b096741e5ea60f0c9bf97,f6da5af4d0fee8568ccc0cb0e5d232c4b973be25,91cfdfadd223e8af21c977d38e50816bfe582a58,b6b1eb97fa031155e85c10863583eb18b24499fc\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//jaydenseric/graphql-upload"
+    }
+}

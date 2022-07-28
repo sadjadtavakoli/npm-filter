@@ -1,0 +1,29 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "num_passing": 12,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "fef4875fabeaf23d1bd2af7fa94a8cfdb44a6866,89c6ad0f212799ac0223552a64808decd8cb0379,903f9601a8e3a3e711ac58703c357cc89d24a09e,72bb88667fb116b59ac219c4c00a24a55ebd1648,cdfc6c0984af8330f22dbe100114325cb0b6d451,5c3d9ba19b102b0b83fc652233ce4f7e41c42abd\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//CharlesStover/fetch-suspense"
+    }
+}

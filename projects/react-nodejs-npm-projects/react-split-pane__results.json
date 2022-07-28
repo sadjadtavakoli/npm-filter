@@ -1,0 +1,41 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "prebuild",
+            "build",
+            "build:storybook"
+        ]
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:coverage": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "991f4003eb8ce8a56bf89a1c8d80e897924b692f,3a8b6e664d05e8daf3d0339eadfdcd69adde9d04,bfd16afe8e4f186968ecfd73929a961a9525abed,ea98d6853f71c479b3b351a4dd23520fe7595409,eb6b2bc92873f1b671243de4f8fba96029f119df,b9c44d00afa779d90352a4b0a4f670587f265589,c69ef9992215b42646cc6378109508065b1bb56a,0e3a8a0797b3ccd34f71418e89cbc432fd65c5bc,a7aefa5897ae7ba332236c53862c79f3217c243d,e6a032845dccc8724eac12b29c84b63f03a4e7f1,13c3bfad6057874a984c15ded8c6f5cb9ed9f9ef,655128597c76f9892dc63c5ed466beec15dac085,918a4811b7b33cff6d582ed4e8608b7dd1609289,02651ff84b25aab25ac5fbfe59179fbd78778291,240b1adc6b842384e3ff0eeb4dc32c6aad12c5dc,73e7cf40dfff74ad7ccd98ec448c53492bbf82ff,1fe4554b04f4d7fa316fababef1f5edf506c7c0b,37deafffd6f08edbaf7b569c0fc7ba46d07a8438,57cbf8c57393306c52adc19cc62e30c6f1fdd05b,ce656d87f5a2103e1123e1b36343aabd91d87b70,81a6916f8d427f1165dad5af998a5ac24df59b75,46c062fad19ec32e0acac497b167b11ecc1dab26,793c1a03b18269a614026ce9469ac24aa5d1d66f,d9b12f6a93223b6df4bec4d814370e31dd5c7808,2fd066ea75fa193ea46f9c0cfc3a645d64b325fb,11fc7c00f1428b3a8de5a28ee5e0285516e2003a,ff9b200536e949708e6eb4c81bc3dd06ab59e95d,a62ce8f12c4b5fb497d8b1eddad4c114cbb5b7e1,0fe7859f0965433cc8300b8b546d0e226b532ba4,dd96812548e763bfe5ec630252d114c720a7733e,7bc85f687cc8788c2a530811fb86509301a97c8f,e717c31497b7c962c8c60cfacb1f0b624c2f23b6,ac2104d1d3fd9557168396b6051f256ba5dde4b2,67283f927d6eeba62a484bdb2c4b4d1e18991cd0,bc6a8847a0502bcdf4f168a40007dfcb68a31534,ff4b93e9d00311ed4cb0f645ea647b67cc226931,d7eef852da139e89b8b88da8fe7c358cc6df1510,ffed43b4a15d4a3450ef79176317d6045cdad535,15b86d28ff4efbef71eb336a3d081612f52b2f2c,29bccc2f8ab04cb7db5dfd70d6f23ae21f05d5cf,6fbe6c8457d088cd9fbffee7b89c1a4551f56baf,852d76af306955e036a508b9d12a305d69ef13e6,8103091b964533d0b7939c76fc46a6c47da5c5e0,8331ec0ec1c54985fb98573459754986ac43e72a,4009c559ab0023acef6d4a5795170eaab0ee230b,950f2fec8ecd63f6a19e259ad3f46d6e8463ede9,1b8c3d5c96bacfe785e1ba3fc72945ebcbe40db4,dccb06575416bba612abcf723f843f9e9d9d31f1,1da8b8932787334243a0213f2b2d90486bf4b9de,90b8af195f78cc1696080d226856328ed996f48b,031ad84865d40d519492a5dc3b933b7e7d70a9b0,db3a67684e0ef9e3d4d3eb63f86ffe15758f41bd,fc5f622dd060878d337b6c8760268991609822dd,db04aaa24e3fff2feb23e00bf44b7d74d4775521,200ddd038453271b2a2e563c962e547037291ef2,40c3e7ed10e55e0ae46fb280095f94c9860777e5\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/tomkp/react-split-pane"
+    }
+}

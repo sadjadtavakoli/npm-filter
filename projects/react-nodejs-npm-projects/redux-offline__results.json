@@ -1,0 +1,43 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "eslint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "num_passing": 44,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "6cd41ca4d857764382c7c4639fb24ae378584937,24ef5f162c197bd36d2de96771904f786263b7d8,90d17aba79c4f6052401a5ecddfddfbd2f790413,c0523f9b55abf4024bc3c965dd9bc55e6356aed0,7a1cbd5954c1ae8fcc902c00fa30accc58e3e0fe,71c16959188bae486fafcef5c9ee878519ae68d7,96a1a027593d6b39e5ce3fcad0849f4803bea422,cd7e9ee2339b4d588910f9399cbbb63b73e6e6d6,2029c57fe717af77bd37e9ceea7f54b1a31f8e34,4feb532892a0e200d889a67d7fca17603fe59558,a2c3567d1e948d90a602fd26d377b4bc0ac23383,d25cdd5871091f85098881c08f80676b622a5cfb,f822740b10133dba3fad6f1feb4129b6701da697,8501dae7b748c6819f2007da694a5ea404be39dc,e4e840604f3e58682b1f3494d166e9e5163b15b3,0ae0be0b2a0124d19c73f3d1814d92470b1f4960,05060b4c3b84a2a289ba146e7bf04881a3a61f63,4d5e35cbb865cc2cb79b443e4cfe979320cc106f,cf9a940608c9e1c22e980024cd00b7b464e2ddeb,161f0b3021f29cfce575c249878681c2d76bf999,0e4e1ab67d18748b0ac4353c2ff0f7653dee9c55,7a0ce8919db160ee4a2ef053fa544ecb90dbf45c,31883f4c782716cd8a4c52e2ad724c78ae2e9ab1,32e041f88f4414fce6c55a0153e7984c9fa26e2e,29fc55299606d9099120e3cddf93b3e8b2ff0478\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/redux-offline/redux-offline"
+    }
+}

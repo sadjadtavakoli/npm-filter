@@ -1,0 +1,84 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ],
+        "ERROR": true
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "testsqlite3": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "testpg": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "testpg-paging": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "testoracle": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "testoracle-paging": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "testmysql": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "testmysql-paging": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "testtsd": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "coverage": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "view-coverage": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "17955ec480d1c739d1da730398f110079569f3b2,63be8e11bc43d5bdb35cacaa9fc2c8f2a983b3a3,24913a8e315def49912cf6462c04d65556ddb28f,9e5480dde1cdafea35f758f9fe4965d96c0f778c,d4ef9e7b202f5c080fc5f840ae2d821e84a7e2b5,1f781d702609f219b64478b17ae6bc21a0d0467c,c755902ee6dc9958fd8540297c898ecf3bf9297d,44784bf1bcc11a8f91494b108598ccd149a93c59,a402617e9bd1d92a0d3a91e8d038e7e918e4db18,9de120b5edb0281d7aa6f5643049f06bfdb7c633,8a5e1345718fde2f61aa151b78fed37549566ffd,59fe3346a91e03b95a73f194d2a86ea09ca1efe3,0505a90ba1d99ae3d1830974eb81fa5bbd5fbc06,10996e1e46578262fddf27cfe84d6750942155a8,54085724176dcb3f3115013b4eb230e0560ef8d9,9ba6369cd8589466f77d14621d9503526f5d8589,11341ea40b33efa95363d0959fde83e1e4d8306f,98ad4089726fe5032890ab114391fb54f8e45f05,23fd7eab84f8f30293187f9af1f48d41d42171e5,46c5525978d201a9e4cd31460a54d0169d34d917,a057fbd1e875286d6b47fa288048ddafeaf0d32d,98a16f387c83a4e8a8924680160cc3bbe5e19021,dbfbf04cb61012f1c5eb87a489b1c5cbda888171,d0ce3e028d00ae273989fe5d49b127955a35b9e3,e25b5e5ebf234c203077cf928d2ca85a1ab7b7e8,a97c31de44950555e1c2ce341f6b05125ddd6040,bc9b200ec2e9645b7bd2c45a7135fd2a798d9e40,aae08dedd2120a3addefc23e10ae8bc77cfa3d7c,7005cd1963ec9a5e1ba6bd92f730573876ba1fed,affde6c10aefd531eea55b73d2ebdec7ed3b12ed,74d96f4b23af1c45bf15073c8776737aae78e2e5,5a4663f097865bb480aded386292f6caa0d36ae3,ebbf46a2ba7238d5b6757e9e64b51603c8808733,ead12bcdd2631ce26c101ac4638c44308fcfbcb8,266b9f3d9e18a8264a459d4a9ee2f84aaaa38b53,db239619bc529de81f7668503d5461bd6bf4b16b,53ea9cd05cdf5ea548ecafb8ba32723b2a7e88bf,228b092dca3c45af746a49ed92d43a001617d0a5,0caf045204c66d81360f2e68b6677b178d7f56b9,cd912cf184fa51bb3e52372f2a1988caf7fbe0dd,3b95f84f2b47fc075772b89f11d89889d9181ee2,d251973af2fabe8d0b0ebf77a72686dc2da9874c,a93a77c2f09daaeaaaa2d041b304e7ba897445b9,d154299a0c4cd3c64256f8fa720dc0afd675d2a8,c42fe3811b58e4b5c827e528dc99a8afff9a4206,57558cacd02d5e5ca21c13be99ecbe861061362b,d10219da84995c3515f08bb05216a0b4f5698e98,921216ae9f35a6d7a21923aad5f07b860baa0dfb,ff6a6fbccf139883c013159c6cf4bc355543a82f,2a28b1d1fd2099d43f3accaa8a2a9985c0cb3e9e,c2570acae693f57e2c02fa97ab7ff1b02b3c901c,ec920cdcb69b6c79a72ff3325b712ca1810f1244,dd114874f1e0855de7f9f3378178020163719284,6e6af4a5fc564f558d693b3375c591ae21a292f2,e9b2159d4829f79be913c4279be3e74ed1f65c6c,30be1b187d2058c1ee56dfe00319371919802727,e1de4816da4d1457bc4d29a9cc5a2559a926c687,c0d90ebba7629f622c4e0cd5c14d3cc329b5d43f,595e8def16b5644688b7a8fd1b946e9527c807b2,65b7910d2448ae27487ea409482da90d01d3c505,20153adbc8d91639840414d5df800ed146bf710e,de714fbfc4c41623325c7739714fedc5c355b244,b85c5828876e4d79e054b039be164cee31f93ce0,d1adc4b355fc43801a2f7cdf254bbbcc71aa38b2,e1e66cf7ce0a66722a7526f8ad646a20da5966a3,b958f45b1f7983d9af9f5a2c40b6b824537de3e9,f9f48ff555a3566b3919f348bf3a0a67d5347d4c,c17aa659d61b61112756a9e4dbd2a5f4167a73bd,9ce9d9ca020addc212093fb06feb1b520b0bd1df,6005a1cd8fba0b5aaf136d487de8500da405b2af,9b842702e4200242a8ebd29e94271c5184a5854b,694a78b3ff4e55e7f70c088cbc50e997810a64c3,67835c05aa54b6737cca746087545b6a9d2aba0f,19a306bd3081222355a5c6d5c8d397513df8fb66,8029d57135cf90b66b895862b7d7b092c2d4f1fd,71e841dd929e812296d8f319a5f9f7c4e4020867,ac7d4f29eedbb45c1ba8d18ab152e673456b42e1,9d02d3c24fc88946dcbe39b4c49bcfd18c05050a,414ef0f4c295de18c7cdd5f478798839c6bc579a,468f89f2a5abde783b8a88064fd14d7cd9861905,805a06ac23bf8a785b574607c6941ba11992842e,b8cab698871a5cc5e30ae7068e93c6da3b8bdcd9,7d581e74791f295ca270cad9afa8ebb0508c6e94,598eb2b8e1dad96571646b1266a7a5c9df1d9b15,f6e07ab0983dc5b15a8ed8a1a4cb0b26c266111e,62c9d1dcbdd19a7bba9dd54f20bb4bdc6955181a,02972b4d94d9bebb4751df77de356c21e8854fe0,7a583056ef93e3fb6e937be7f3aaa2e9bfce2c37,2766214d385891c96b4985d2f18080ee95b3f3b9,f7e218201c3b9a6ce7a1bd98ffc1ccce80103cf4,1e4e4094b771a1129f24256f3176b69746887073,50b81a2833756d40a64f9050fdcb03ec90d4148b,74c40d7ef40ff13a6b11666e48b186bd83d60fac,b97b8aab06361949a4ea14fc6304314c52d6bb8d,59b968efbc30734ebc665d7dffa6715ddafa8d41,0e4f8c937b9761fea574a79dd76731d356604bf3,f4fecda222739c9cc3f8a8fecce4c1f8deb85db0,2a9edf0b64d302457048c1448871829715b58635,4d84112a462d6d94a2d648f5a394ab7b46ed2a49,5c1e11b84529058dcd9d9e42d9e2e12b33ef2dd6,38b93f60097a1284fa22d840908a1efd85e31877,2ecd56549a426bb04816bfb93b845928a3ae6cc7,a5a697263ffd944b23e9b75b2b0f2981e78e8ecc,9686866de48d4cd11fc6f2728a793844f2b6ce34,36d0bb28779fc1c1e9bf092fcfb35cfcec88838b,b52b8d0a9752f3ef710f97b48b9555d795aa853c,68eca750e7a6b1029635ad8d5dc80a28062ff409,29007296419f6aeca909a34d8b7e4899332ab788,6a84d94045e8ae1daafcee6ddecf2ba25f4692c7,f90722eaea1584e0ac9738f55a4664e3dff12907,100c43bc6bf3d9e6ed812dd3fa8799bc96402f90,dfbd8936dca222696b97af745911d6821ead818f,e33fe1404ddbb473c4580f4be8c0f057bbeadd90,f57724b88f282d04953a40f74a41dbdb7d967016,a8a75b448aa1a677cf971baac38d522f292fad8a,3d7253a8fc057cd0e4dcecf37d2b9f48c3e1bc8a,fa28db26c0e76240a9d9dc4e308ed7670acd7fd7,b05bec5d4365e99bb5f4f8a76591a325aceb52a3,d75280a880511ca7603c8322dbd2dd097e9b0201,0a07e5e31a0bd2cd7d76f754cd7193b3813afb83,0cb150e490e9466c5225f07464aadb98488faefd,75a3bd9b38bf7434f78c355b1feb49e0157d4f5b,e0d472eae344eb75db573ceea1286c6962943e54,edc942182a2d27e4e676eba021d194bd87d76c0b,25ac2624a9a8472b2e703a5a5fb710d9121fef9f,a94c785d4e1dd504ff098eb57f770318bd13319e,e0086339276cdf7bd685d1944f5c037aa4155e56,673fbe128f045e53e82ff20c0f9073250bdfee67,00143b113f6add42dc157bcc5bc09c3e309957fa,795420b5521ca9b3c3727e85a07cee975ad22eb4,95e1d6acc0e93b84f75bfbe7c2ac599b724fdb26,d26b66bc596e83811e674b2d1e940cdf97e97cf7,bd8c19d671bec5ce8e81e1f2a5a138071ebc9283,de32e95c85894b8300a5eb5b2e9a88d90ebe17cd,b684dd334f0682fd1b36e452b42f464074dc2cb7,c5158ddbf0f999d48841ab8bd2f3314d706f4438,469a50bae3f6e07ac855d3815c1f200a2a10c042\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//join-monster/join-monster"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "324aacc4046737d64353296a20aa541b811163e6,24a3143cbe14d29ed8fee30f243aa69d452f780b,3904236eea2131f4ef316106ae058a6631e11652,6aed037d0dc9ac2599779dbf63a95872c2b9e9ac,4ac01f7908898b0bfb967933c8074341fbc3e767,3c0a429a8389c6c59278d9aa8eef03be89306d3e,3604175eefcbc3fe1cae1860e756927c895f61e3,3fb3ed80950debcac9737f2872acc35ff1fe9a91,268c69254bb0bf02efee11b03a6641019890393f\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//delfrrr/npm-consider"
+    }
+}

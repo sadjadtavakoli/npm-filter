@@ -1,0 +1,40 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:fix": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "6a2039db3d8761c15ef6e5569c987765fde3d974,6e27c6affd9b46d9afdef73aec0c2f310de8841d,bb858ceee5a30cfa7f136522dd3d7d9e12128fbe,8f256212349efbeffeccdba45b098deba8d19d3b,4b3f52f1410c75a42b264527d7283537f08843cd,cd6bcf4ca892378a8002998edc2e102fd2be4285,8ec79ef7d4e7a00e22f0355eba2963e6fe2dfc51,367fa0b00c3d9dc627acfa328f8c398ac6a5c557,2a9d680c016a0233628d67c12e9ee6ac4b8ba87a,367d3556a87c0a7dc3c4ea8d29c918f37b011212,892e48f16c54d39d6a3125a3f474ff699a397ee3,ccf45dbfc0cf7086807dd924b39543f61dcf3b91,684df5bd5f5cc07fe60a919316e12d786dd01b4f,d3012120c18959b13f75959a2ef4b5d9ab1b65ce,a8f759d28e87349b3de4cdcebaf940e0324780e4,701c643182282a42d988f1a6d081c9bb1c37266f,6192949630014e1833d4252e8fd43a5584dd3bbc,79e8a34f442f6882dc00e92634fe4d438d2f0266,db63452e6022ad762049e68ec0401e02fc063fa1,151d28bdcf94ff2184ff200f183ac7498f2daa09,16e4a644c89bab81213deea852ff5c7b64516ae9,dedc1b03de467efb0550ef5e7d8ad31a74e84d45,2dd2293b9b292d75c0a689b3e80c7b805b346c6f,bf5e9130fdf670b9f23c6745254179932b98ac59,1211371a6e4458300d78cc19d3659a2a5254d4d7,c1c64a99a0914ea2822c00208123186cb5a64513,5a69458cf47fea2365e8814f80dfe83323512bcb\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/carboneio/carbone"
+    }
+}

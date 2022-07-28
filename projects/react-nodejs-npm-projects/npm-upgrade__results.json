@@ -1,0 +1,28 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "0ebaf7579da30a50d05e0deb876b3df33d659896,b40a92878335b14fac60243f0a6a06bd94d6258a,c9bac58c19e74976d4ae6019d2bfb4ddc606640c,3a1754bec901df319b3b3ffcd1d2e3fda4f4287d,c3a5e630191981923c6fb842207a044a97cbf79f,8527690f08784beddf20e666c2ab6520544066b3,c7f64a790a1f4022135806e2e4f0019100319090,55842f01582b02c6f300c3dd678989a775c8b2ef,69ccdc4edca4f3d4457d18a46cfe1280d272e5e2,d1b34616734278a5d91e02b0aac515f369a4aac1,5e117955aa5d48344769fc84900fbf347849e7d8,874b4430c02a2b4ba787494cfeaf52cea157748d,cf22f86836452f49ec73608804f1241e0d19f62a,ff6c4aab05c402698ae13edc1997a80d584d8ea5,2db0836e15c540e7c13ac83c6e401db20aba008a,b1fc99c8468d79b0e7891bd2a35b89cb20e22f19,281087f0f4071e2fb1438b13f11862dc45196709\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//th0r/npm-upgrade"
+    }
+}

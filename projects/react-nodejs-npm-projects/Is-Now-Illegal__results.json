@@ -1,0 +1,25 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [],
+        "ERROR": true
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "720869674c2631a0d854f90818ecad3bb95fb128,6eadfd4db86b679f8043117d5cb386a593bc4a68,145b4e1c548a985c1c6def70f93f49dde30cdfec,cdf744eb8ea007409fc712b4425ce85415fc73be,cb3635cc841c2b9a87445c331b967c806284e165,1cc50f102b6e7eaea42fae04fdd7a7167cab641f,eb7da08b21d38f66f002a66113371f4dd6c50217,ed1297cba23d801dbb6d51db4a03d9c78be8cf0e,7bda4ff8a71f9a043af8b73328e38b820d9bb0ea,87909c7a824c595fed00ae245a1d061668502fc7,90a4835acb838cfb7b24b72a6256cf942b0dc6e5,ff3d41e1c9e82ae62f052f04aaf57017a8cd274d,6fe90726dd10dac09005a0cc7b6305e6b99811d7,d34410517b8b8dae8450a05f52eda694a6c18162,31ec7d25bc7d537681e56b177b867762e0f0acb2,8c42e9d2c012bcf9e59b97371777b13f34bb24f1,e45337da4a00cb2aa8f4b834bd3e24301c58eaf8,899fc8d15926f278785ca832124e915b0c15d490,b8b8d7f7daddd6234e3d84160cc59bad2f7264be,9ee23e7b17d5239e88a375245fbd159a345b530f,a63645cc4e724c10b53c6d53125cc7bad8bafe9d,25420a50d1bca1cd4f4738793c120ec1a9473144,c2f99f0fcc02b55d6b4aae5273e9b0ae73177a5c\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//ivanseidel/Is-Now-Illegal"
+    }
+}

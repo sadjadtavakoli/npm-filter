@@ -1,0 +1,20 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {},
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "c9a6e1f0ce04c0753d3f2439ecc99337c65428fd,e96b4fe4c057283f64efad09cc2ad9d67438dbe4,57dbfbbbd5a86d5ce106a116dab870049ae55f4c,91d86af611435ef988630275b59edf417c74a7ad,2a1e52b24a736e0083cad63391e2d61e8c69ffbb,775ec9db968f2a814f2c7557fd8ae9f977cc27a0,8c86599f24832cb1018f623e877df543a7cefdd4,719bb2f496560584945931f881031b304725d55a,9a0c974b2a6217f6d4f2f95d55029ed53870cbf3,7136086602c67faa719940596646e935049cecdf,a19649bbcfae52e977e39752e1fb25d9f33ed952,696200262e5f792cbc58f94fbe783965e98c6e69,56de263dceba5e2be9b11c12f200da59b40a4eb6,0228e7f32c761fb9b33052e70fb45d9056d21277,50216eec3cd7990815eb8def04a31405734b58dc,1c6f335500aa6158e6bcab10ba48c2c60e659d38,c656e311e6fcddfe175fe818179e6dec5db11b24,86226dfbe3be329a2cb07b725617bc5724575941,6dbd794b6e1c177d532428ba4858f8e7c1f3b80d,7cc1fc3905693d6ea2609bf77f758b6571f63794,ee24754fc8be16e5c73d1dcd26e08f25bf7e0d2a,a4c30e6a5dc698e1e0145393cb9e28e2e81e0d91,673f4fe28fc6c318c6b1f978e72af8937763c498,cd634efa9e32615216a4a93ae8eafa07937aff1b,ace3cf2886fafcd1c6c082d8139a47b0d6a0c74a,55f62ee5756f0c39bc2852fc4db37c43d498d7b4,ecdf88a7e9ab90adde2e9f1c1d511d18c4f3a66b,413ef0c595c42bbd7b4c1aaf7d6922fdbea537e8,281f0a2bda1d25e406c368b918b307bfaf5461fb\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//Mastermindzh/react-cookie-consent"
+    }
+}

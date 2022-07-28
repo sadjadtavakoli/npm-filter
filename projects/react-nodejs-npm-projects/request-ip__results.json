@@ -1,0 +1,36 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "coverage": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "a45fe6b62d74126789d5f87a0cf56cc9881c574b,af83eb7d7dd003609d57e3c8146cf6a7abc57545,2f8ca0952dd74033795f69b735500b561097ac9f,e485c2709ee6e33813414f0852e4df04ee8460ce\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//pbojinov/request-ip"
+    }
+}

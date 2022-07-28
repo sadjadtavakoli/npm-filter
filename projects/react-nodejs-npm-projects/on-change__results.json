@@ -1,0 +1,32 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "num_passing": 5738,
+            "num_failing": 0,
+            "test_infras": [
+                "ava"
+            ],
+            "timed_out": false
+        },
+        "bench": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "a33f8eed4441e7cde8a1a978b4898085f45d8c8a,e3fea2621cf6a6f38e9089746391596df4c3c71c,640d64a986eac03b56a5399ec585732dc0e51259,1eb639d678456519ef3bc5731b1e26ab9d296702,fcfb7521ac8821eb012ec901bff62f03a0b0a7cc,cd63569a106dfa9fcce136d5f30820d6ff89e917,244be4e49e83f30109694aa735be54d07d32935a,b7b6cfadd8e3f4f4f0ce8749de5e12215691c0dd,edbd926c2b7b509590e1db2a50643b5c45adc20c\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//sindresorhus/on-change"
+    }
+}

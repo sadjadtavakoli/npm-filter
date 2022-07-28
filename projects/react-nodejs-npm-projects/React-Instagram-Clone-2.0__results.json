@@ -1,0 +1,41 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "test:coverage": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "eslint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "32a71173fd0776c5afba1f825dbe916247dd70cc,e607c2a2ee5415df14fd884eb744411d42ab1525,2882455b5ac6b433f2489a84c8021ed1e1a5dac7,112bd5d40207e3bd59d32cb20189d337eecd23f8,80d22c378bd8c85320ea4c5472e6f29ebf31b913,922b83bc63bc36af45972ef9426984b2856b45fd,7f508aacd6daf453321952b02443fdc4f1ee0a64,5a60ba4b55be111bae8e5c6c1f06b5d9f9107fb5,e16176e7bb0610f8581a9ad7b8cc042d28714200,eb17f8a5d288d0a97ad855f69b52fd4f093309c3,ec295c78c8aa8ad934f7189167a60dbd4bb48150,75b2392d845eb1eb363f363ebe0c9c9e26a506b2,3af745131ee64a3b99bff28982bb1ca44ac343ab,c63acaee1469735022d672e6047bbe766a56b726,71dc77e2afe78865ca311f9dd3c605130121fc54,b793702a829d9d20950e19421772082138d5787d,8732744f4729ba8dac211624674a5fad1749453c,bec76b4714bf129b9e15db615a6312a2c72b0159,44c0a453923155196d4202fec37d74a6b638c0cc,73463c6ecb6c31ff77f9f78582532b014fc5bce9,17cfd027b7e1f696d63357bf9264073f02a5923f,a67318c7a1ec2e467d00e791e3308a8b749dfca2,48b4506eaf2447fcf2322811f335f1808aba5edb,f5fa39e20b88a303d4a603dad0f1147a268be802,f566e87c6002c8dcb6531dd287d22bccc24883d9,45804fff848d81d61b982c2646eaeea2cffc111a,e3787e6f48be0410486e4e38e6ab31bbe025af74,ba5679b5bc5b9e7f177bd03e61857396cd127287,8bc5ece3dc3d6ea37c5750df25af20504341f9e5,7c26df310333bfe4e66b154c76f7a688f051bc22,06d4a8e4505e75b8679547ea0bd970d863d95ddc,6f128ff4832b815f11f0a3bf3af6c99031bd136d,87d64de2cd1e541e78521adda8e0ee05b5b389ca,f86c63fd875ef3f4beb121dfeed395dcfe8115d8,c48efb5920f559d53efd06505a82b27a067f1dbf,6f5d40dcf9f9ae3805982344c1b3ad30b069f0ea,93472d4cd7707d0881ae7088746c9719dfcc4439,00374680422be815f96566376be406d8a730c6f4,bcec7751570200fd1073dfc0d76cd8ea8eb0f15e,fe8a19df3005f34375b1948a6ec64984809d602d,470ec53080f60bfb5907893d7dc399f94f4bc7d0,6a692d26367d17ae682918eabdfc135e3e835ad3,482a1dcba93ca8f1ceea94ef4dcc0777488db31e,6d0d25322febd9017b32209d7e595a054fef8b4a,b8e745ca33442428d6325ea89ab59dc6ce2cf071,591387f947d82236673ee0f7f56c176ae4cc84f9,ee32731e6b9a612df9c9e45ec9025797e84a6160,9e0455c742c13dce40cbb94383bf4dad50e076ec,07bed552b4bb6c70b7901b4d4b5ebd95091783a9,b953e18c73d44d2006e6a6bb85b7540db9a6f91c,7680e1c1435870810717f5126e917ff6649bc424,e1759d3b0ab51b5e209e6151ac2e1d75ce01574d,bc4383efd1dc7210277ad7ca5295f169e6a3b9d2,735f9fe4dd32478f3180b24285bf118ff163966b,77093346c8a9b914ff9707a517e2ade79037a98e,89b308ca6ce8f2e9a85b4674b546d226515340ca,ce26b48aafa4a7a1336cf8de2b49df89c41815bd,199f0a6298f55ebf5811d4a687c0f0f6dc4cf39f,c1b03ca38a27abb831a4505f2141be3087d0f66a,d4a8573d304b1f9e00f0d20f198482bba990436d,348b1757c28d280ee58a482e328a2f2d9402f578,b21dd05efa59c94676dfd162f0ebfea59dba51c2,94f25da501a122b21e04fec93016b8a70c2cf554,8640a93180ce22c42beb5af903f4c4a9008d7646,6dd3386360e5c539ca1d1a49d8f7d2bfe7eb2ee6,b69352cce48ea6fea9aa14d5e0bdad14208c73e3,cbcee22ad660d404cd9d7f392081dcad58cb8f44,15148b2b4920727c930f8651b1a665aa286b5950,832aa3985b5ab15776f2eab2df9e25661d3e3070,bffa3bb98c021d29681f700782797a2f64839c0a,1c1d06f893cc86a579d2cd9815ec36748dc64f3e,a0876b5fa97ab678fef2b0c13991d54a71434707,50f9a38cb9919599c3ce832b3f1965ce2ddecc5f,7c9fa8b99dafb6514ca3ccbc909ec50af9280b15,a18a6711c9f994bccfe8b4a12d43bbbd49f36db5,76a6db35132dfd73af4bbc32d7d3707439b801d3,5b41484f8ce38c669b078f1aad278e016ecef3a9\nwarning: inexact rename detection was skipped due to too many files.\nwarning: you may want to set your diff.renameLimit variable to at least 1090 and retry the command.\nwarning: inexact rename detection was skipped due to too many files.\nwarning: you may want to set your diff.renameLimit variable to at least 1090 and retry the command.\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/yTakkar/React-Instagram-Clone-2.0"
+    }
+}

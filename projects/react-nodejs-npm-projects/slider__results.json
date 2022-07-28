@@ -1,0 +1,38 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "docs:build",
+            "compile",
+            "now-build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "coverage": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "c33764e4e74d5b45cf4f17df321035b821a4161b,2c4437b3b4499b347167246e8ac33a6a9ca302b1,1657876c68e62075598697e2bb85562d6fd53905,20109f50286d6cec1495117ea36e5f2b92d2132a,b5a337e71c6678f2d24e018509379a8e6f1d0518,595620487710452022971ae6afe568fdc3785d5d,6b418fd10a0906ffb82b40820353decd78b8b5ff,db4a0f1d57150354bb174adaceeee3bf5e6cb2d9,283169ae5a190afb487a36141b15c080289c2428,dff17d17532086d987d710350bdc2f2cc6f9e412,869290da7b75a24343d3bf173159133129bf771c,db9292dfa8353cf9c9322bbb042075bf5a32ae1c,1e227664832e4eab6be3dc76d8e49af46dbca77a,4b2f6f27a425751d8c6cae6a11eaae109880a922,93ddaef0c386d9f269fe3c8c96346e377531cf4c,11ef100472c81269fbba60eff08be9d67af97da2,9ebe2de0cbf13647dc2f49cf4ae45e5ff8b07eba,8bb867158a79e57d9c7dfcc7070c5c0ce529f5ca,727ee709c7c8350c46b3f93d6c1e02c875272bbf,af89f92d582ceb842d80a748df22146b795ec033,83e6e3a27e8d3273b40445e6320c962b28d7f802,bf993350c1fbd5ce5760a6ae20bd681b4ed481de,c90ff5f176101e3fac9138586ab5f4e0aefafa3c,612d0660ed56f3465ac6725bdf0ed343dd962b45\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/react-component/slider"
+    }
+}

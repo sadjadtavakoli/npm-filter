@@ -1,0 +1,29 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "num_passing": 172,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "1180df2e0bcc7881793f504c56481a0109f597cb,7fb14ade1bd76d42fe36ad5cb4d09931b6c005a8,d224da305dceaa061fbf3b4ec3978c0263370d45,84cf0facec02fcba1073e475489c4a8175553d57,2f52390c2882a3bc005f2f356a6e6cf99bb93045,f87374c7223f9fab1c1553810d2c9ec2071467a4,4b243397def8b5f56e1c77f1fdb8c3fb370502c2,eef82eb7bf3918b9515dc3eb9d037050dffe9166,55ebaf95888442129acea64f95700d5cf391894d,db43968709cbd288d94a6670612cb531feb0b25c,fbeba95a2651549bcfc18ca2ae28a863b92cb96e,76f5217126c1854604d3a67aea74c4509d7c9fc3,7869975e7d8cf4b7b91687f4752f3978fe64b9e0,40f3ebed393b94f96157941327da52391c1d5018,c9a980bc6186d156bc7919958bcdba8207547fc5,1a22b43f2529f64174ea3735e3286519f12b5674,65d8522a7300fd3037b53ae91ff08361986f4ed2,e26f6203fa42f6a006348c3f534024ae64d721e4,2bf0efaafd23ba3437df94c481359fd46091e8f5,12c223b7b6ee5a1d874231e4d15a76af28d9bab6,be19238c15b372c248cfa887267238ede0c5bae0,f252fd28d24ab20808459ab7482d142addac2c7d,6c340d677987613cf7aaa1e8d3d0e39a1074b82f,8e21053591870d6f6ddcf993f5cfad8b4544aa58,ca28eb07bf782db148a786379146d1064ab9cafa,b39f0f39d8c3fc345be622fe3fccbde184e30568,8778767de57e849be582f5ca5ed32dc074c32605,d9037a397dd3d07bb68cafdd4e7e8f0130a9edb8,2047eaed966a5aeef1c51f002e450b6cdf8f9d26,d17cea5cf537efe3c2b1724b556e3e1e58cc7dc5,1f2c26866633aa39ea4904df36273426925ce9c6,dd5c6acf9ee40bd9c6b9411a7dda4fe2d96fc7f3,ae576e3ea0457bbeae6e7f71928e86a1338bdd80,f0601b4c0381ac90074313d01d858f71bc060e9f,a8e670bf9ad24486c3d3b6c4cdd7b457ff7b17ca,d6622cf51b6dff62890572bbbb05f61382266706,2498bfe38dde9d8d83ee56040f40f7afd62bc4da,5e263d90f0de2bb1bc055b1a8151ad07cda78436,8407627739fd32c493dc421ecbcd95f2a00e4e23,a32d686f701c736f84e8b6f51e7c8eaddbb3956a,935dfe814ae431438e67478322711150e0c2c4cd,b4e836cb809545d1e7279359973e8cf1372799c9,603e2390f26c61e3b20383708d880b3535a1b71b,92cb69802bbe0bf6d31077d73e33fcd25c5513b7\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/aadsm/jsmediatags"
+    }
+}

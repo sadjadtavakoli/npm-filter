@@ -1,0 +1,41 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "nested_test_commands": [
+                "test-ci",
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test-ci": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "fcd2b56ac3fca05b05ca6f6b39fd0dc2587ec76b,9af79275f43e88994be47e8d7f5c965b11e87edb,c78ed4285d59cf7a7835e33326eb63707bc1705a,dec52dec13572f03ae4abfba7ba2c027c78bee73\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//expressjs/cors"
+    }
+}

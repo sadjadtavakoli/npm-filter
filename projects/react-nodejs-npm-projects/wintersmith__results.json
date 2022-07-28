@@ -1,0 +1,18 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {},
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "384f4f7760d8a3d001052191d08fbbb4a63f8486\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/jnordberg/wintersmith"
+    }
+}

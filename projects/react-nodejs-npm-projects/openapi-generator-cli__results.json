@@ -1,0 +1,47 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "affected:build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "e2e": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "affected:e2e": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "affected:test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "affected:lint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "b5888842f942da9a7fc8d3d0a4392153d2b496e8,031b13ab8b500a3913de0dbb7ba5e0d9f2385fb6,67dab73cc5114595f4599ae08d3db296d342114a,9374ae623099593e5b2f006d35240c12b144b17a,eba54a7baccb2595b4a8fdff57ed412e77d16458,1b9b4474fb916991a473174aa5ed5389173a55ba,e1fab6360ce1330777c87cbd17c78e8e7eafe94c,d3854ea0218b9cea2d12f2f9080050f5a6a2b5b6,f99611bdce7e4669ca18581516b97dc57d823c2c,fd3d35ed2ea82d01306b726750c88ecbef753966,2cac828d525d78a5a9d1885338a259d1932e14d4,9d5a73ff5dcbe20fbeb65df1ff23bfa168a91112,90e5e5f508d60ac236671949f47dcc88dc137b34,d81669e1d82e4f13213c8bac53517dd6c40ef932,3f85fefb8c7e87478b814e00f42c7823e273661d,05921bff2669d3b7162b0aa7209d44b141fe7a33,0adc0dc05ac973d13d6a624dc4b94ce69e171cc1,cdf1743670f5e2aef7c4e342e8de23a8e28c9aa8,c3528395677f28788bc7885e542df4badccd5c4d,414f9a38cae8f1cf8eafe29145ec9ddbeb1bb0a7,83a5e0c6679a6df50f702f7e7a666cc2e5198d6c,83f4ce2b12487f72bea58ded02464b83b3f95b19,27ea8b991ba80ecf63dbb8001a1a73bd66611571,8caea39266235ec98ca53e546d093eeb76f2b0aa,03db967f83b409c21270cedf351c1fe870d725b7,c3cfa873122600e5f2f2471603cfedfdfbde0eac,4ab5976366de7de1124c6cb0f187015c5eee30f0,25b1406372b97b515cc6801ffb31fc8b38ec0dd3,b5a94c5ebfd52c78596af77379fcaabdb6763d1f,5a769c3fd89a14266d8fd49405dbaf8af69d7bdf,6da21a6effabd707f0f076db33bddf418a963f1c,68ad19bf8a1043448329c9f29eaa89b4673d910a,ce67ddcfc9eb979115de959ee39cfd43314b17ad,1badffb8bca79c699cdf7df7940b53d5d380dd9d,3f29ec99357624414e3c62617e6edc01a40bba69,438f9a3823855b57e4207c24b45f5ec259d4446e,024e75be69c3bc4ed9a678698c206b7dc46f095f,db3c5cded1488610e638ed475a18d1e951258386,82631caebfdb2c52e23fd56daa3fef79607fb8f3,b14ae0e68f2bab68ec2e7cf88d8d3a57ee093cfd,4f8761035c6e20fe20c876721c2c61c781822a52,9b5671b8d0fd87f39bcae24bb5729d9e2fdd1278,974a5ec2c43e0ed5e209b646d85939251788c373,cf4a895c90fdfe76e46fed3d140549f6d8ffc5d4,9fb5dee732103108872c27b309b53c1371adb9ce,3bdfc2eea081886209caddafac8796fbf3670404,b20bbd5f0519df97bc592b4e5c458c207dbcc1bd,45cd3f82de93ed8472560ecff5f8d379e4f92249,5ac7d0b25ee26cdd6d5a2f2ff4f6e2cd2bf71b1c,2d83f943e4fd188e236bf204320f19d7021618a7,1f96531c82796bf2a017453d6b3689335590db04,d04782105bd40dcf0e86794a9d0e54116dbc31df\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//OpenAPITools/openapi-generator-cli"
+    }
+}

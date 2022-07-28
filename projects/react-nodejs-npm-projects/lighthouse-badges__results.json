@@ -1,0 +1,74 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [],
+        "ERROR": true
+    },
+    "testing": {
+        "docker:system-test:run": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:fix": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "system-test:full-run": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "system-test:light-run": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "system-test:start-server": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "system-test:verify": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "num_passing": 29,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "test:related": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "05d21c44eb335fb1d830429dc3704e2cbc8b819b,4b461cc86e412e1b759b9486929cd4b88081bb8c,41f473d48eb6822c371b90235cfa27094ab74141,21104a8110e41086d0af14a08e747865c7538ed3,cf18b6910b0eeaa99a2c237da3e0b7c29ba94d95,630d09c24de2bdb944a8a115a13ad0b378170f55,a5a94d7834dcaaf7dd0a9859ca875180243eb285,b8a7dcef99c708438fb3f249d9ee5800e767ce32,db518afed3a8629d316d25373065710f834a5a6e,4ac517f9e325185a1f191553794d0a76cbed3128,9ecf10fdf9727e96c2bf261d1a1226b6c763778d,22521e2e7bc6f25026bb7183adc5fba1655893a3,95c102156101eb8a820da7e4e656c855ce2f95f6,17e90f1c5889fa5a7d32cf14f53988e7f51fb7a9,04529699a2f3f38e0f41c35d54007ce4c301614b,cadb36fe321e2d6a95fdb47186e35d43fccc4d71,20f99c68575f3d278644c7e8c1d28390e7194a16,835f55c1ee7a86ca319cc3a31080d12003fc1a2c,24fb0db0874544eb756338c457b3ad8e268da952,8dee1d58a53c6a98668c292fb4e3c421c241cb85\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//emazzotta/lighthouse-badges"
+    }
+}

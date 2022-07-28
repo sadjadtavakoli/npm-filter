@@ -1,0 +1,28 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "9eb6678fdb6ecb1d7842c4e0402af84c45bdaf0a,55be394ccf4a70415f3c86ea40c0a6bc2b279be2,d439d24213405ecdafd2cc5c26203e14977f414b\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//anmol098/npx_card"
+    }
+}

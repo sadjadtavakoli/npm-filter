@@ -1,0 +1,49 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "num_passing": 133,
+            "num_failing": 2,
+            "test_infras": [
+                "tap"
+            ],
+            "timed_out": false
+        },
+        "ci": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test-browsers": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test-browsers-local": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "cover": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "3bbf2d6feb45b03f4e46a2ae8251601ad2262121,040b813e60ecf0d68ac1461a3fc3157ea5785950,1448d473d9964ea87612070fe94d2dc6565e50f3,f47c0e4cd5da6fc9ebfba8e62c6b8e7478281269,bbc3ddcc6dcab2c2f7b9db7aaad22d9c979e2a56,23c4ff007904b215993aab3e0280ec6af08b6c88,0e58d8aa7e4009faf849453453d016b87d8d0c1c,524f6ee3a8b88dd2c170eb941af32a4ff7de7292,b87f8a2d43a54425e06953b5f75c2de58d1ffdca,e9cde33830a2ee06311f4a7b03d0656720301e4b,fa8729c6f0d0a70aa8e23861b7c6eea984e9a9e1,432d4b77439a8a825d7a330c2d16410e9ac15fbf,98296bb6265b87aa3bbf2903532377844f5509ef,a77f329c953a9893a75228dff36c2448be94c5bc,7af74b040213486d9c76ef41931011a2a4859119,80dc00cb05335c5fbadf50a81650cba295a0e3b5,b6f6aaf72d856455e2fc12fc366a9a3aea24387d,ad2d5153a4bcb1c1f8fce919555e334eb46c65b8,fe2de8455803d5b7e25b7f8608a7de4acbcbeb8e,c9364ba21d0d1afd3f044e60141b1d480944d70b,c41fa7641a027ebafa5ca2da682831f81cf8779e,1d9a003d91e857017394a187e09dc75c7bed4627,3119393e50fabbe70b77e0e3c2721b4085a75537,6310bdb3ea3ed187b6a48cbe41b4dcea2298a757,ae3020520d5849595c25d6ece86a32456722abe4,6f47a30b4850f53253cf1457ed4cdb79f62ddada,83e2a577ca7838d99200578b2a487cf21da5dac0,c2d1cce2a5000507c18481f703d28fe51ad7aab2,ca8ca2e0dfa7ac2d586b32eff057acb13b641912,10329d5e9fdcacffb98c342f060b398d1a83b82c,966c1b0714959c07d1375860c0f4581edd9b7795,db08732f7aac7793c82b785287a6660a02ddb833,037632d482079c42a056bfdae4d860aa5248c4b2,3deee01ec6584a30a4edbf6fc21969981c12b61a,9f9a11384f1b6eae8304d6be7be2bf839eab5c04,b4f1935e1e01d84aca074dacd06ffbe0edf5da94,ba3e48a7c8f1d71ec2d63279be98f4130d538b11,5ec366caeccc97b7e8b72923770601f03b585bf1,15ef1f168bb5d049e67c7faab025a82f4ecf6851,5aec72b01618ddfc46ad09cdbc66dc8d26211e52,bbf9ce2786ac79f8144ac35f1ffe0e8b775c5046\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/nodejs/readable-stream"
+    }
+}

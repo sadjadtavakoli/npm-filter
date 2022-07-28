@@ -1,0 +1,33 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "2a1c94d8d3957c0aeb4843b9e8e9016d43a5cdf5,a3520ed3674ea70b6045bf4c9ab3ef41445be340,9c906e64459da64d77124224edb66034ce92f20c\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//unjs/defu"
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "prebuild"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "standard -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "pretest": {
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "nested_test_commands": [
+                "unit"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "unit": {
+            "num_passing": 2,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "e2e": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "1889c5c36a13f7d62344303b7eda1335bcc15f17,142cd6eab4d9e4fc9711b3aedff7a3fd9453b993,bfff9983b057eee48dd453b3e46754602b2d0be0,2834a4010d7f75c35afbde3d9032ea54ac391e0b,055a168da4b56d8b7f7d9263c813c0d37b9edf7c\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//bahmutov/have-it"
+    }
+}

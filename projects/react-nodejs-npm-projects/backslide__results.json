@@ -1,0 +1,33 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "init"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:fix": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "ab146fa25767ccbab1d166cb9c9eff97419b741a,6322db4409c6035e4896bb0c408b7891a10287a7,08efa667cb6f26c5ecddb4ac5004568e7298959b,c81f683ade42a4fffd2e617738f7e5eeaae7ba41,4cad40ae4faa78a0ddbf5bd0bf0ac560f28d7d2e,8fe8884687c454c20f4b799c07c280a8d914a7e1,faa00d747e18bb96183c7d2b71777cb3d4f85127,4691e7fd0aa543c517ce8241322e3c25890cf35b,2c2d63ed5595ab777b1e67e76f0c2a856a57a4d5,e16b20703c052092e7c3682aa7ed2d1cedc4f4b8,083b8583a2ae831f338d2f04943a54bc7ebaa381,8131b56a40f38109c08039bf170bcf652fc46278,9f9b4476c4c116258c0bcd99189de27da99d3ac5,ce1ac1353f1cdb9e84c6adc8902ef58352c184af,e4edaab7590ef05baf063b07f8033f8ff2be1e0b,b64abb0dc59e2bc9a8fe9d5cdf7de830c22c9182\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/sinedied/backslide"
+    }
+}

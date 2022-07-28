@@ -1,0 +1,33 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "384a924c9c0072d77fc766970f0453086c41605a,0b6118536715865df21122ada44c79d939906f33,6eefc0bf0d982afaa857ca7b5a8d2a54fe6d70cf,53ca03a6dae5625c49528c792220aae3308ffbde,a90123fef0b38a0378135331448c3c4421c140f8,3f7235ab4c1eff1f018a9de8c3e5648f2573bc2f,63b589fed6aa2192c6e9fa4c53e05eed8e68d20a,60183509985ba13a24dca8c4e7a257dd7ff15e57,694744021e4e00019e588d5f57fa50ed419f9901,12a66f1a7e7303d598782cb5ee91a0e7a041297a,caa002ceee4be997322f0c857103f5a06e38c1cc,cab83382dfb65c0de0b13ac968cf07b214735ded,67f286ab32db0e38c6bc3b54af45f5bd2be917b0,98ee76b46a4976a16f25bd31154b11273ecbd410,748212489c78e91f887f0f132ff6eef98ce235bc,03156dd499d10af895dcebb0747386e24c1595d9,0b8e91bacb768a875079dac5d763d2760fd2b4fc,a3ec018fa62881e1fc5104f2c372e5ee8f6b3208,d105bd5c7d42d4aa487e4dbe7104019951d0e1b1,61db5ddd9d5ba6a195a19516f10ca5df274478d5,bfffca8deeb92bf710db6cdf3ad7f7dfad9abde7,e8f5a58d14dee7dd20f23723dfda3cebd212165d,b1ba0dfda78da10e0103fd6f67dc9b271216d008,480c87689d289839f63908b0b8ab2f28bbf1c127,0f2e9a2de7df1970ae2b52eefcc7a4cddcb5a225,7fa7b044316becdbbc989977980819957f58beec,243cf0b5f065c79fce5398eea32aadbd723cf41b,f32069d6c456ff67b0d955eba9fef3b3b15a0af4,f65fb9dc6ec7979c5de40fc7ccc94737e929e9c9,d930e18e07f8916ae05a57afb813b9c61972177c,e5ac35ff8c5ed4d608a8bfabfbff6042a7f945b1,2bef6d5c02b4ee4923345bf587498514a94df692,50f3c8e83fc7ac36bc9164fd859c4df33c0219f0,73b287e545426a12b2e204b656a6a0adb70625eb,9a87f5087440f76821dbe9a2b5f56d2042f47366,aa0dd3b848c380d48450436076fb64bd2c2f3784,2d2a012979a49f8d97ce88518c0618120c513880,18342aecd50b15fae111a7029e9b802bf9a68f58,6715b206e4061e8d27d203a4b41e43c099c78abf,5df025fd5ed0440b3e458f9160df3feb8a44d409\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//AlexGustafsson/homebridge-wol"
+    }
+}

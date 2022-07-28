@@ -1,0 +1,78 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "compile",
+            "precompile"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "test_coverage_tools": [
+                "c8 -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "presystem-test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "system-test": {
+            "num_passing": 2,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "pretest": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "prebrowser-test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "browser-test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": true
+        },
+        "docs-test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "predocs-test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "samples-test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "prelint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "a9269624a70aa6305599cc0af079d0225ed6af50,17370dcdfd4568d7f3f0855961030d238166836a,d74ab9125d581e46d655614729872e79317c740d,0a8359351e180fb51a37201b41ef36cbeccc7d81,ad819c71d196ddc414ceede452202c25168f16d7,efe72a71de81d466160dde5da551f7a41acc3ac4,2e081ef161d84aa435788e8d525d393dc7964117,e166bc6721fd979070ab3d9c69b71ffe9ee061c7,870326b8245f16fafde0b0c32cfd2f277946e3a1,8b626d4d7ad5f67d09a1c518ce4a87c51fdd3117,cf06bd9f51cbe707ed5973e390d31a091d4537c1,69a3649a694d4796946f011bb895c613698fcea7,d26a3258fcdb134d92861e588a8f1f6a93159f25,2e62967dcecc5cc81d17147ac020576b1e5ce032,061afa381a51d39823e63accf3dacd16e191f3b9,ba9777b15b5262f8288a8bb3cca49a1de8427d8e,2e076cedb4c4e749ffc95be41767a1664162db6d,19b4b3c7dffb0f01bd475932fab5cc5642a19c23,2dad86913de0ab49632441ec44653cfec9ef932d,0f14d2b8925ce62fc5004e6833a6855c9607fcb7,83c7f2e1d9673581129a7f00419bee473b3512b2,650497bc957078610cea23f29438fcef338b3988,99abd7c6a04081f83998ab96f0f9dc4958dadbeb,bad5b35659b90146e64cd32dc7f19b96c5c36a31,b31b9af8a3e74f877d0ee22019ddedf440cada35,a4dfc0189b2351f57adb5533c48285735b03cbb8,29d5d857f45b55233faa152216735c0d45b39c72,88a47e000625d8192689acac5c40c0b1e1d963a2,28650db0eb76332835901f11bcdaaaab7dee1047,51083d73dff88867272b52f22bc16fb4c2ebfdc0,e40731af625ef8dc9a62a09c14eb33a9fe3118ea,032fa66effd1f409d8f09c28a363f563e4c20e67,4b2e970079d0261a1e77dea96014a2873483ca64,0bce20072c4d01f152d6afb39b17b068c32e48b0,22e9cd91d70f514ea69ae16d37207b2bcb2c6d7e,84130aedf2e0fe4e429449326a0dd4058b87bdfd,55358b266a40bda045b008dfa7faa4fac69f790b,9b5dc5527e44544052ac6f2af49613e2a4e2b5b6,d9592a7de3fd0917e2db49be77b93e41d584d4c4,3885fd063ec47e4ee3c1673d3dd1e720314a45b7,9a763b59baf443167c5fa1a2646b2ced612b0343\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//googleapis/gaxios"
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "num_passing": 1,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "aace00360647fdd06ccd73a6d09395862767f014,38cb43249b62fcb57a55cc5c164f1320da61f2c2\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//30-seconds/markdown-builder"
+    }
+}

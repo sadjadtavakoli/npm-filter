@@ -1,0 +1,81 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "prebuild",
+            "build",
+            "postbuild",
+            "build:cjs",
+            "build:esm",
+            "build:test",
+            "prebuild:css",
+            "build:css"
+        ],
+        "ERROR": true
+    },
+    "testing": {
+        "build:test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "mocha": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "pretest": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "tests-only": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "nested_test_commands": [
+                "mocha"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "pretests-karma": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "tests-karma": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "nested_test_commands": [
+                "build:test",
+                "tests-only"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "0f5082fe296d74e3d99f9c8fd9d24ed200a15782,486b8ee1b46f43613324ebf143569fdc2c0ee9bf,a3e76feb193d09af640e226bf33f7d98f628cad8,35effaac4f1f9d8c59c5614a196320198226686a,2202789b10c38a7259501be6926a0b6d1b34fec9,544ff7415a792eb4e89856154a3f881ee813f5d0,a10e1424d780638f4786e2b2bdada0adc71660fc,465818267162952794e30e4745955ca174de3b54,21ec280f7714ee836a8d81482e6a9569c76b1e3c,bc69b89ea5e91e7766d554abb7f58bee60fe8d37,9440e286b7e34a61bf4eb08595c701e3acbc3616,fcdeeb463f4ce9645cbf1e6777a14bababf06d25,b6295428e618b1eaf7184080fd81893ef912e50a,0d2a295a4f7ed40e92a7c3951d9e840a787935bc,f58954b50433b5fbef62947964fd46941bc45f1c,116aacf0c8572c1c6c247828b5eb8bf2803b6b6c,d3e12decd3ad18c702a49f71bd7da763a383bbbe,6a1b5643e0ac0dc55c711f4ab0aefad1c281dd28,3413dcbb2f4e362eb584b5279b73dd386b78d1ff,4f8eb01168ef6c4ae7d74e95ad14acb28960e43e,50c382f7cf3e3ba60f4fdaa00eae53cf06d3c97b,0ec2d729167a3352bb874ae13e4f59fefa8b4854,83ec316167b499ce939058973da0aff30e70d178,47d2da88824ae2cd1356c25d226c9771dd4eac83,8e71edf65ac4c20151fa303d2d22aeaae9ed7724,3d8b0547baf3716a7635f0062c2e392e7e722139,c7ec725e6a53511402a20363638d6e152bc4ec31,9a628587666f3ddb68435bc4f79971078f877c1f,0a07a3e77e4e0408e1a7af7b8c29e36ef342f0bd,25b4718e2fa3a9c77432e941bd96003759a3058e,8206aaa8081d272431587b616464193f17d853c6,c28737dc0240a83cc0afd609f71530740b55af92,34cd619e9136a93ae6ffc3e0de017789fbf1f147,ff10fff33faf03b5fa41771fa8e977f5c4e63989,71051e77104d4b7aa93e70a49a6d920bcccc3e33,14771e343a97003b40acb3e07453e083376db39d,e6cf29eb84fa5b6b3d9b7b3e8c25f5f6655bb235,c388b4b71b21ee9630f673f5334660be8a17b9d2,d810291947c39d6524f395a245cc7973374c9d44,f65c1e3656a5023a516800d2c2a60beaab83d056,8a558c9584e97fcf142dbc53d34376d4a694efc2,8a4ea442822ee1dc0f083cc4860214346b25073b,c9bb71d2c6e7c73a9ac9b8c4628ab71e9214ce30,210a76c66fe6cb34e10b65d1680fa9ff3bee0212,8d3cbade35842b190c450798f03b4a1f431f342a,d244b20a80a18d26a1b651997b65a2d8d18b137d,4ae14873d53cba4239e4ff732a3f94f7562d2a1c,177bf03c8f880b73755badd71d6f6d30099d8526,f3e731e252d383de66cae25b31a06782711594ac,ef6a2b291557b27c1f3f2d2d86725b817e833e32,dd530bf05e7edd205cbc8f69a7d174c44c557c61,9515fea22e3ae9120f3edde222d6e988626ea47f,e724d127c8d382b9c082016ec2dc66c0cb25ce5b,36273401e1226001dd271cd5731305fe84d0907b,2710b9755fa4e70eb096d40f704bb99bdc43471c,162a0c5975fe7fcafae8039f180db713b1196589,64cf9727853016ff2c5bc8d9dbbc95ecba03d1b1,a137bb1f3477bcc8cce87e262cb897baf31a11ca,6c43cf9d5da7a4954c19f80eb1f6f430f6ded812,608e55d43d3896391ede9702ca1a71a8cf6b4ed4,c14c62b16c9b5faa1dc9803f4ab9ef69c0e5ca28,f3929531095b9dafee963492fcc0845802e91fc5,60a9f0e6e9404991ec25a3375b15359393c3b67d,83c90f19d7fec3090553664e598ec1a77ca4363a,e2c391d1eb878f48ad82d2a8c829b69d2e49e89f,7493c777be543c4ad4462b9995826bb7e6c91e8d,a851338bcc347c9fbcfbfbbd85b4aa1ec61c2caf,acdad8fec036984a04dbeb4baec77ace7a0aeec7,db9c05ba592647ad3767250979fd94ecacc4d0a4,4b7bf4172286eef6d6ae37a0e92c5abdd388043f,531ecaef0b2c1530de8c546abb7c5b0a12352363\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/react-dates/react-dates"
+    }
+}

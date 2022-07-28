@@ -1,0 +1,24 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "f2c411d4d7f2f075e704da607876532d01ed3a48,2b4f712b33805a3cd9c11bca6151e515d670dfec\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//j-holub/Node-MPV"
+    }
+}

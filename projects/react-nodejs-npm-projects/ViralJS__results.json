@@ -1,0 +1,18 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {},
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "ffeff71c7595e79ad0c3f177928c598fb56b400b,2ee6a6bffa48e44ed9004bfe9dc40cd276745593,014b2884cba3ece823e197dff0e7824e2a452ffa,f2d62d7df78fe6a249ae8812b055cd5844e0e253,959ac0836ab8b73aa0407e998be681b95dd0d1e3\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/PixelsCommander/ViralJS"
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ],
+        "ERROR": true
+    },
+    "testing": {
+        "test": {
+            "num_passing": 2,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "3fbd56e33720d9c6d9fd0d44c1c04e866417ebde,dd643c02044468bc4895aa4934bd1d3bc6cb9d61,3411f1910dc8e7a24c4184bd8d87d998f0340fab,43544190a845030a050f76dcafb61df19a85f389,c73b68f160b3410b4a2345e238db69489991a058,a06448a692ccfcb987a3c15baeed51af6b139f23\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//FullHuman/tosin"
+    }
+}

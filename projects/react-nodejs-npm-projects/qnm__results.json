@@ -1,0 +1,37 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "num_passing": 40,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "prettier -- linter",
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "87ff345e2f1125ea113eaed6e23059c731c29720,71bec8951d356efcfea5458878dcd69b2f93271d,c52d0ea66bc9e77ac6540b9ba33aed4236b1f705,0953a01c3678a61bf02746f5be014c3007d316f6,3d1518e215bbfb992da67e381b1400f8854abab6,a21407bef08db7ed5e1e6ec0dfc2155aa2986de2,3e6d65d6ab640a33460e22afa1784c173e6e62da,4b6fae29001f144be41bcff5b93e92362ae553f4,75c8392e32a7513552130bfe2e163afd6b82ed73,bfec5b7ea2c891c18f2cffbba43be80e6b0cc875,573dc9f0be0c54f15881536b823934d8f771288b,73c57e46edde559a560e59943c41565cffe0a865,6dba7a0973da573c6fae9a0173df047e316a94a6,10b7192139664d1ecce9abd7e55241f88d5e0270,af500c3902f3741503407dadd0ea14136f67dd6e,d6e17a8611204ad5cf7a8051b471316762b0ec42,6830fd0ad6ad108d0959af889b02e0f793fa53e5\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//ranyitz/qnm"
+    }
+}

@@ -1,0 +1,64 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build:cjs",
+            "build:deno"
+        ]
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test:esm",
+                "test:cjs",
+                "test:deno"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:esm": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "test:cjs": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "test:deno": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "9068820e885a8b8e21352fd7d7c6879917352a34,a9bfd19fc1a620f26d8ad447d40092895052f73c,09592ea95cb69a5428c62105d48dcaede7190ad0,51d033c17e5af58e2fda5476ca60b0400fed07f6,591d47a12280c3e7ad2642cc1e7f289b521221a3,8e675a3305d5e63b305307d8f72e89c99c571127,16bc7db5dde1c77fd2071c5ae3de0654c3e4f337,0cb2981016356d0ec18a73b2aee12af76f2c0b96,0709db43b5e21fbcbfaa0e1725539511e3f53f65,c55304eb1a5c107b60c6b46e9469dfd5db1cc534,5058a576c2ab536efdfe214f86423a940a6be87f,b5c52c80d5d1477c7eb2be8570749c1d15ce97ac,fc6804a590eca3184286d02f1443e2bbcc31edae,2e01c2b3039e7092a776eabd4b7962a33d2d9f03,a74e0153443452f3c4b032ef78ba771a24357467,b2ab9fbe11f44bcb2e357a95f2ac2f6796aa1e40,e4f12a4e6ab827497a84faf8d648fd1977be48e2,b56daf4650db16ba3e9c660f9f1aa9e2f7eda0a0,ad1b00207117ab83f69ca42edd255135f97db027,c44d0ae781f25c1ca87d97c38cfd2cb746b42571,f048b0f425e4112e455bacf3c929a69beae92ae0,8890904cfda6a095465db0255778579d7d4ab074,de0070a67fcd4c5a8e81d8ca686ad6d475b76687,e02115bc5d40c67ca28793dbb04dff475fd75349,418383aa1bfd800e89fdddffcbcf42f4393ff3cf,5e99d3160d75c931f5d3a53c54d32313cb68a598,a19e436997fc11051b1bcce02ed8ee771329f056,5c80c045cdcc55774da8234d88f205be5e6f4a9a\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//porsager/postgres"
+    }
+}

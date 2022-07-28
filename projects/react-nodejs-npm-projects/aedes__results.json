@@ -1,0 +1,100 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "lint": {
+            "nested_test_commands": [
+                "lint:standard",
+                "lint:typescript",
+                "lint:markdown"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:fix": {
+            "test_linters": [
+                "standard -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:standard": {
+            "test_linters": [
+                "standard -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:typescript": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:markdown": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "nested_test_commands": [
+                "lint",
+                "test:typescript",
+                "unit"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:ci": {
+            "nested_test_commands": [
+                "lint",
+                "test:typescript",
+                "unit"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:report": {
+            "nested_test_commands": [
+                "lint",
+                "test:typescript",
+                "unit:report"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:typescript": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "unit": {
+            "num_passing": 960,
+            "num_failing": 0,
+            "test_infras": [
+                "tap"
+            ],
+            "timed_out": false
+        },
+        "unit:report": {
+            "num_passing": 960,
+            "num_failing": 0,
+            "test_infras": [
+                "tap"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "c390099c27820cf81c97f4e9df9123cf9d558615,234f49a436a7d71e4e068415e553b9b90f1a22f1,5d2574155794dfddf9000810171714105b624fbe,26473cddde3092a8d5fa8becafea7c4134d83fe4,a486cfd31e4088d9a9fad45c788bcefb6b2cad34,ec11c39197d4086a350a1f62501f5281ecbc0915,1d90559d077f76e6c8c2a709658e876d27ace217\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//moscajs/aedes"
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "jasmine"
+            ],
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "nested_test_commands": [
+                "lint"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "66e2d62d545d3d43ccac015e8e16b7aa625275af,b32afd9150cfb753ef648cdc1b6defc786515a13,75f2e626d02a312d5abb38fbacf45e33050f4db7,b21f4c304ce001306c2de3ca2ba18824e9b50aa9,90b68901f9de05177b04d2b0a163bef1000b4390,9bb9c7c8a8521a8843d028b65d9c5d9d7f951923,538cfaa0f830095ca120f424effce536476bc486,2f625a339c93245f138f0dfe657860a09db8d10a,06f93164573a6d0dd56ec721aebe56554284d20a,ed97c6c60588b38eceefa8d4f176c7f9801b1d86,d155f1a10d4c4a81811f67a3eb35082f72cf124e,b769e1c2da047bb51803c18eaca6a18d5bca1081,24330028bea19b7b6e22ecd2a9eaff619bd4094d,867894ce8cdd86a8d6b6bb81dd39d298175c7257,66adb1ca9e8689a359380af5b5bcc704a12b276d,a08145e93def81e5396acccdbb2142ba727c849b,34b2994d2ef333e93190bc4167451f687df0d5fc,29d4b26e77f1685fee522bac6cc0e840c29c860f,e182b612335964ef0d362e0e78de97a9540c5948,ef569d90a13728d1580ac2ca52387a8f6f98e38f,86038433dbe9fcee69038309920195f0dda7bc3c,037b0c02819503cdf6f9f7d95c224af1bad5b2c2,f1322a89071e634a8ecf995d6618379af40c2f5f,a0e30cdaaecb739839203c72354efdc73986efc5,7988e643b3f45a0b268bfc4516398c5112d2953d,b4b1acd405d76da62a13469808611f48f5a82992,189fd3fccb2b2326b69a629c4115927a2693cdd2,d702ea6c3e3a343f2dfe60a76277b07a0b71e59c,bf3fc06d099fa05c9bf185f1b34a90cf182763f7,6ed82353bb62132d057c4309757d77de2a4a4a71,5b56d5a3d74564df05a542690f990849235398bf,5873a25fbce920915a3e96c3fa1a08b42e137390,59ec5653326baae3d6e99688558cbd2f68c06809,338146c7a19898864c4e19816d4625daeef4ecc4,8d47e94f86900c8a8257371044e98fd583297a9d,bc4a06d77103dc87d256dab5d077d21dafbd1729,ee20ed5bdfb22b02f6e20824ef9b69bbb9143ace,e281fa884fb800ca2846066e5145243cf724cf6e,d99a9cd26c6ea0c55c2159f552ad6dd39f751f99,d612058c822211c609cc5c3e14108717029ffdfb,e3cfeb137d2d2852adace443eff34c496face286,ef8b11cb67f886918768d4d423d419fece724e31,8cc76ed9da7b44e211eb12167a18661c41a5dac3,4bca69da991b96560c07f99c14e478e47dd745fd\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//shirotech/webpack-cdn-plugin"
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "cover": {
+            "ERROR": true,
+            "num_passing": 732,
+            "num_failing": 1,
+            "test_infras": [
+                "mocha"
+            ],
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "nested_test_commands": [
+                "lint"
+            ],
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "num_passing": 732,
+            "num_failing": 1,
+            "test_infras": [
+                "mocha"
+            ],
+            "nested_test_commands": [
+                "lint"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "14b5394449bf7295dd4c7c0d642e875cc7a9162e,64d0e43d21391e13e1108674b7b909c8806f251a,b19e22315199d01611eb2261e3fb916c198a892d,55572453ca2dadf04b69243abd0b6fff09cccaed,7c9b3024efb78e2b088f0e818a83bd73f593bc2b,8f065449a198b8758e4b815e553e4af87eb3a877,71c788f1935a2d5a5509ee047eb1932a184d7986,e5fb28ecf471279c33078967d57645150ba41f60,46cdecb4ff38cf57047c28c60ccfd628b6e89712,386597a47fea8186e57d3a5e0dea6d998af6aba4,c6476fbf06a52e9a2b6ee67436bb287dec518b1c,3fdf3381fbb820259dfca0561d4a212684a4af61,62673b107aa02b3e68080f183241476e8d50fd16,74a7ddb8a038f1552f12a3bfad272193dc393fb5,61f287ba09d3ae2cce45656d34e3d8729bf2fb9d,d1f14e9ff504c3aeca5c59e020d4f06013fe5e1c,66df5ea194ed44249d86c587c758a2a6099fbccc,cf157b5958785a00289b6bb042db0c51fed5bc2a,96a5ac811d5c56eb5b6da6787765c66caf28f402,ab1e23e911102f4ee39b37da918d38100a948982,58a7cbae44a645e45ff18cd3b047fdedaa53be0d,7d3b972cedb637d20f9f2eb05d6c7c0ce6bfb9ab,10ca29cc7cc41343f1c6caad6b97a143a4e0a614,cea840d7ec1f3ce5cc6bd77a0a32a4f69e876e4d,4c681ca33582824f0e0689a46b3854c435fdc52c,2a86640b5bf19b31a234517e3053ab9deb02b93f,4ee10316bb00c1bd662f308770e7377d84846976,a1602419dfb9b7c1b519788cf494a2df77ecbf26,5a8311fefee0a1f5fc0be2f2301aa390ab528d00,509c2592a3cb4b0e10c0e0b577887bd948d06035,f49cf45cc02031fcf80c3106c7c64c66cda8d4b5,ff3e586e6e9b92e98563f5fc7fe4aecc164a3bb9,72308871b5a114d96a7519c6a84ed8480285bf59,ed85946b39d113a29f3e63613bb17df61a705423,c040ee4dee26fe5b95daedd2873f1b5d9bdae647,ac5c609e32567f85978b4aa3b5572c001258ea54,c50ed1cd2a3320a039df51860c431c7829538118,f355ecca40bfd27800f1856c9dc4014f3cc3f8eb,c83ada77d5c670a773c0b47c604b452cd0e03e86,4a09ea62fff73147350f2572136280371fefdee0,63ea18f55df9000d41f5770761343ecdbafcfaec,41153687d41a973718532bf3301410c69d0b5e85,efe23a80253ff0dffde59b1e1ecf589ddaed2a1b,db703b503d573c9cb9ba84303bae556aff035d76,5d85604ae33c2569acf8534eb73bd1285afde552,bbf5b9c2b3dae50002aec20a6e96f0b6c3b0f348,1692ce7b90819347ba969f0e79b7950ea26ce136,179eed276dffc2fae9ca10dac9c30dccb534f44a,fad7addc29def25cc3b7659434a2f0fb57062217,33e91bc378aaece4bc7d84385ca722c7d36ef9d9,c0f2b30df5fac4a6ed6625255546989e8405cf12,b22ba35fc8f1f79a938e9a1a60afa3a9d4805aef,d49824cad04bccf8655f2e6b130efc62b0464feb,6f8ede4ebba80617cf122af6afcb361a0b3a2318,cd108c17f545a019386c4f89572ce7810fb026f5,bd6d4c82ef9296858b1620136a7f7d3e49c2223d,cb698da2b7a01441d6260716ea3b8faa903dce24,82399830c247a70c7318a198ab7e6d1dee162817,d35f3ac02c951d7075873ad929c168381dfd4079,5a9d84d03d057981e2c59f8dcaa4e10385a2e494,19b4d1115ad4429dc1339e788b918ac7feaa7713,3fecf2dc26520809e306cd32ceaae7184cd91fb6,77f8b9a91d644a15fc8e32eeee8a2e4ca2ee7bc3,07ff5866b9b60fb21f822d62bd88993df183632b,d2624bd20cee40365a8bd44c73d883e750e58e27,1cf290550245f329513eda9193702abd659acf6f,aef9dad5dac8fc9d92852a5652bda974948a78da,ad75baabcc055f30b8af75f99adcb46028a0d388,ee4c71144bac021e140abcec2ae50be6883f03f5,88a9f996a3bddf97ba1385ebea22fd7f3d07b6b8,ef48c8c056284d3c7887e671bacdeb4a3d9a1243,c2747ae4696c4049c84945cf3605b292b2529010,1d69c79b55a630e092dad48ece2d8860bd828664,ce013366e35214b73d3c3c287e4e3a0ee484ec24,9f8a9412ba0ccebfd382b2796b5b2d150c1e1d6c,3549ea034ee3c01750c133b3f52d3300da7a98b2,551cf928b449b8ceb1fcac5f8b585f129460944d,f62cdbfa83bb32a13fe98cd67e4120081672396c,ab14d57eab5341b548a4d206eaa317ded5df26ff,7ac3cf892ff725b9c585d8c91510ff39f9429378,ac7ea2a783245be17c88f8353ac090148be5aba9,685d41d70828c77714415c4bf95f64ed4bfe0bb8,8c97ed9bfcae06e1e1f88371cdc41699c9bdf74e,221c0f8ccbd0047991847a9748a56d3210ef0574,607ccdda7f3d555e07939261b41a516d9dceffe9,788e834bccbfd9944edf3ca5081795caaf0455a6,7d13ad1f725294030ee1c8aaf06177021d5833aa,167d0d79ce543442298ccfe97625100c13f519d0,4d178f6127e3230fa4b38a12a45c256d00bb2684\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//bookshelf/bookshelf"
+    }
+}

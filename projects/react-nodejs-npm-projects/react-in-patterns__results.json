@@ -1,0 +1,19 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [],
+        "ERROR": true
+    },
+    "testing": {},
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "f828b575ef3ed57670c9ed9f33bb0b949deca785,2f9764862a9a135597e0a4b475038d7357ffe758,e0c5dfb72b49ebbff63aae8ef34262dbc0c281bf,7506ca4b199055ebab277b3a7637fd6f6737fd76,c96043d628112d3078a99b09f75ca540ec53ca31,b30adb617927421d1d56dd75b1decf6dfb959deb,c10e913015caab9e6a6009c3cd4fc27d69dd62ee,24582eb0d23c9a1bf5938e22b98ad8bc02984d70,21d72b2ba6d3874b07f73fe930b90300865fda2a,336299ce0e15a929b90dfb82399d98d8bb3b0918,98376efe40fb99b71c17270dd80493eea7455b16,9aa717e90ae3902866deb24277f3575a9a118497,213e71e6522fb4527ab167b31781e99c4fb3083d,68f801de4e7e2ce892af246346a9860310998b7b,2ed6d971d6d8aa3a29b7489b54b44e283389b04e,8924cb8c489fb0994e2e55445c549fa57c09bd3d,71fdde4242b3cacc223f3690f5372cfbd63a6a11,9ea3592aa7cef90e42ef8b8e70222631872460a2,8da17be476f8d81004a0895f38d6479cd2e977b3,3c4b188e751aec8d11fd801c61772ff77bf11e9e,55f7efeb0dec12d912448fc5be4e1bd0105a5dcf,83293e7dea3c9d4f263451480d35b124fb3f6fc9,b7282fd4a1bd58a230df5b7622a877c2b98d7a92,0219766cd799ec37767810a80c94e498c6170b1a,16abcd9a139acf21e417efafbfb1de4f53f5afa1,f4d79e180a3fb720bc1fecdbf7467969a957fdb0,c3677f41e10b5472b6510adff87aaa07166fe523,1ea09d5743137389584884e0539b43e11e95e642\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/krasimir/react-in-patterns"
+    }
+}

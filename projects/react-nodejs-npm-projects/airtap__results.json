@@ -1,0 +1,37 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "test_linters": [
+                "standard -- linter"
+            ],
+            "nested_test_commands": [
+                "test:unit"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:unit": {
+            "num_passing": 142,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "bc2c8935c045d5c1c066244829280ce04ce5738d,d8da4f6efa6b52a31b23770b1cd28a77062b99b3,57e0126d0f5a860893460312f526d1f88beb8c1b,559eafeebf0b87aec3525d3c251f58306a2c46c0,cad3418c44a5cb87a9390a9fb22e7c8d1602a26b,bc305b8ae5c93787313b60b4a664266ce20efdeb,f2bb978cd6286e2e57d4825b9d5e76b386faf2de,3ffdf5c0333a98f8da58ce2fc60c1905ac03c629,eeb84ca5c164fafc71ba0a0a4c8c2dd20545988e,8b5ad768ce4714d8bd13d9cfac67049fae510a32,ca986fc8cb0462f09ba875e09064f2b135b74b5f,82faa7870e80e9880f72dd8129657807e796efc6,ced1082c23098704e9cd6aaa0f523449ed70dac5,0f144c9851697fee64c4af1a84e0105b35d195a6,95e69667625cc4d50964e9811db96936664e957f,4fc180f1fcdcf69af8b68dfe1348957638b2f7d2,6202fcf6e7a81ce38676691087bcfd4b5b7fa575,b643d9ae81e69719bb693dfa9477dcb152391d93,7ee5ea8a40b307635e8296719bc46d64e397e4d4,8c79c3e4b8c27c6266321cc2a34e3d77c61d6469,6af5bb209e712bc9a7cd4c987367bb509fb9cf75,962c4170d6425afedcab7b6086b269eef1340aef,c2439625a43f80459bf6844ac4a25d48d82479e5,08b58147f5992832c4d2a4b3d567f38cfc682ca6,5a3954b9b1a48913ca01137c4ffaefd898b7d590,d26110eae521ba948d5d879d4046010d43f74579,1119353984dc7ce705b9007c7bc0691930e64c77,a3b4a48afa21c5c6b51170cb7912eefb4af087e5,4a6585d8ccccfa18ee7c1701643c88729fd3ce6a,6f673105f75717d552d0c6505f7c990ee72a03c3,bd3c6ac861b5c468e5afc9ab3399a8d1175b4bda,ceac82febad770003ffb48bc7a02ecab3e67a1b9,6d65bd3031e21e96155182d3c184a6e5f65d67ec,df0ed8d04619d11427dd5b0c1771f7f66ad5c6b0,cf137ed7e4285c8a732809256d8b20718ea3b812,876f6a9690e4eb415e7a2b0c9a7484c29c6e4b39,35de47786c5fcf7396e0d7ac1e85332d8564233f,4700f4dec81d9caefa163092ad66e7bfc149cafe,1450bab31ab08176d2b719ef02180e9269823c09,e6d532b9d99d10c183ee956385127a0f1fbd40ef,53eb2a593872de83596df7e09cb203324cd27af0,28686fc763151ad8c63666d93f4066702b35b127,db317cc6c242a02e466184a9738cb35df684e91a,4227ff881fc6bcee0f0a3b4e990bbaafbb8f86f8,7e873c94386f41fb5f7b9f9333ca332a2e474a40,a8e1d1a2a3e981d182047a57f8e8f0770776537f,c73303eba0f9afe070751ed66ac07a95f837f2ac,5cdbab0792fa4bab44daf56cd0abcdf632d0b602,c7ff81a2430f1f4a65d339c5c970a46933512385,76ceefecefd07d051eab0a7eb7dfad1e2d06c8f0,57d67387c2e6cf95a5abdc5585615e7fd99107ef,54d5880f8863513a78a527ecabae9018e940e430,e30e1b7d75be49cca5ada746fc95faa8af0f1515,1c35586e36507d14d4241e7c72ab37d36ca84def,778a488aab4a7e280befcdfad79a5e2c1b0262e7,d44df8073c4b8373a6f617c44bdb204d77f31145,4cea22b65e4329cae485e6f4546fd144550cf5a3,d2070905c76090e7d7f93991ef110f622dac0a89,e0e1072ccdd02bae5199bb3f44fb57ae4c61ed97,7ca5468dee07f3cfa0982c326a3aa6d6b41ff33e\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//airtap/airtap"
+    }
+}

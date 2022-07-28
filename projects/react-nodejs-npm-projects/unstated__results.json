@@ -1,0 +1,29 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "num_passing": 3,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "64b5d42ac09ec8e8a0822e8bd0a54454e5c807e7,cde4f166b8c5eca1b8aba4daae776e474ae3a62d,89206b3562f96b48cf6106277879c49b2dd6488c,b830094da216de167e5663dc4eca49f13a047146,ac96cdadef4498bba546260f79deebc4db9e94bf,25ef4cb60fc84cd239baf4065bbe371bbc3038fc,03a41d1c3e4f391af92dff7da3292bd9fa64c118,255b336fd05853a5d143b3c5961c54e6530e5e30\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/jamiebuilds/unstated"
+    }
+}

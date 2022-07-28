@@ -1,0 +1,38 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build:ts"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "num_passing": 1917,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "73d4b938ee70b6c1be9901a301b306551c1083dc,26c90c0dd105bf83499a83826f2a6ff7a724620d,02a29f97828ff2de16d7937eaf0e8e36ba1e81af,7b35e6f1336c6c606b194b2d0e70376e9c1c0a9d,974502eff00627532508bdedcaee3751fcffd9c8,0632d0c0dadf49dcb68cf86a8565da3d20f29939,d4f29a5df5c963a558a3f73f321e6026f8785cfc,418b7ac65dc89ab85a13169a89b2fb1786d5cefe,628041ef657adc38cbf48182ad20582619bbf4db\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/reactjs/react-docgen"
+    }
+}

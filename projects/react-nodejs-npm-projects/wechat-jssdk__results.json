@@ -1,0 +1,42 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "coverage": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "nested_test_commands": [
+                "test"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "coveralls": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "0f586692defb89bbe0149c96a419eb0ab80344fa,4e281d63975dd8787431dee0ff6df080196c91c0,1960430ce950709a679836a3b91af70bcc95b988,2c017869d431b94e68365bae7fb130f772c9fa46,efbf2aaae35f9f159adae53965ce40d5660ace2f,cf86c701c44cdbdb837fe804431d3853cd4a3185,5bdc15efe9bdc7d594a9839ab292e7d44f51b6e9,749a40b4868037117f5d26a63c7fbfda3696e9fd,1af2e6006df709b1dc8ceb347b92c36aab837c0f,35509974b39692a887de4a5f60fc85f1b27a4a65,0407482fa6d210b8e1875edfe99e3813b1b53451,87aa6ff3cd0f16f1bf7ce77b6ae7f0a681cf7146,75544f03850104b97c782e33f8ded4800369ea65,83712a4211fca774454a57fdbb90b01ee87808cb,5a211588869c8717fac3f7a6b7b55b835adf5beb,c4d697237444c8345802de50bc403ae1f733d1c9,f5daff7232c81dc70856230b1e6b8eb57906055f,0d361368fc21e80a8dc3aac7b36bb9c1af02df10,f3f279a0fc22f5f9240b856c84f812adf102f2d4,2d0e9661c533468d6bf6af822a8e4ee6ff2ae6d1,c12bd89e1ef1a5e7b034ebaf3bfd9958e9faf482,72db3e90e0d5ed0c0fb2e3c572620301f370142c,b46bc2ae143dffabd3fbf33feb41f5b3b623ee10,27080857831e4cfb4c3441a208047853ccc78846,fb32ff5c9910f6ab7af3a5600ba39fd44128394d,b2f339c90709d61ef82a888ea4e620c1dbdb4c8d,01330c33fb2f2691ad202f93db56f6849e50107a,ab0f9a12ce50acf6eff5a59ccf4104f0bd4dc961,43e6c1b0c43c4e02ab693b9ee4a04ab8f15f879b,e5b6738d8af7e62e8382801deab0df18a268176c,e31de927b23eb789a1d3c6531a65cb052799eb8f,350e3b916c4b7cd730832525589d686be87d5dbe,cf3c9834a3de1c544eeac99b7b17354180bce9fa,609f68bb372cbb8544d180451a87d79cb54535f0,580bd9e4bada85ab00d2b088e127c62b5c487b21,c5277588a011d741b8acffbe044fe46221a19f83,4b5cbf7818c8935ae2534c34b8c4c55f7f64816d,56ca8a335b5a24737bd3df1e59cb4bedfb97208d,0c7fe3f4efe5f7ef80c933ddf5a2110571cfcc92,14c57b8b9b93f0b2377af926d91249a9be657544,8dc2978a038fd9c4c5a8dcdd96f455043602edde,44b3d44934cb149a12e6efe4e752cda2d2ffe385,c0e873434d13a2eac620d2c3dd38c85165eb8c56,d5299b556599ebb0c2347108dbf0deabda7f1677,5591ce0646dee93d38835a5741c61e89e2af37b8,15851653e31b2de9a43536bff877bb54efede8e5,460e5c6ba6d311959d4550213b956bafd5e37023,9c38829cc61b9965cb137b94cd2c28e84737f90e,d80b14aa7ef7952d8a0dc68c194ae515fc27c0b1,440cd648e8637a39290dc487b7c4b8e3f7a6fd73,ead898a09945884f549d951213bc20e0abf84591,085972ba9984f459db07f7a8b5a3322044734cb3,06b902fa527d6467f5d32cbd1e419718bf39fef4,8cfe765ae33743bae44f47f7d6ad8b05148908df,90f8bd75ba11a422c0dc2724ad065de6ca6a326f,188d6fe614f4a1c9709e89f4b16171e7d373c21e,27f17fc9b7051c08ea300779db7bc25a4fbc8d61,05c8f6d09d029dc14b70078593560c76f1e5ef11,d27496fff1d6e44ca592d66c9686d7319de676f9,f817c44ebe5897a0f5620f03b5cca7054f954b9b,1c571fca3a51949d0c8fbfcb478c6ff414c63c75,2d59c5113fd3569498c16c113d757b3f03d58bfa,44bf05cd1986b2f2f09f84e80e962c3706d66bca\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/JasonBoy/wechat-jssdk"
+    }
+}

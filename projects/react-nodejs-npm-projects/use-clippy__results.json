@@ -1,0 +1,25 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "ddc972ebd0f32a74d26d524ea513b8d7006c7935,75c5148a6f1fefeb736050f2f644774137d40836,9daf827b874eee4c5e3ad2c034c35e75c019ec02,27611a09935f0cc295a97471b0a7266cfca97096,0e05457a55c4721dc0e6991421ad4d76bfbe66f4,d878c8dcd6040ee5fa9d4161f00b599300813960,088e99b42a28a334adfe67557d55ea50f8367946\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//CharlesStover/use-clippy"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [],
+        "ERROR": true
+    },
+    "testing": {},
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "4cfd326015c8df576e260cecb789c808bde43ba4,f560b84186a1ae43ed6f3c55fb409335ad889c98,d2f979cbf2732799f132151ffc9999c5a44a6855,34e1bebbc78441d8f93b644ee6bcdb782f2d651d,8d0b0f226da8d574e7b738bcdc7d01054c1a34d1,07cbf4d3604babc074df246e94b8ea81021af55f,200fb2f327d312f87b12cbad5a9d012b4f27586e\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/Datlyfe/jira_clone"
+    }
+}

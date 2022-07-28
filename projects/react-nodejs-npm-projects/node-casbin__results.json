@@ -1,0 +1,46 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build:cjs",
+            "build:esm"
+        ]
+    },
+    "testing": {
+        "test": {
+            "num_passing": 151,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "coverage": {
+            "num_passing": 151,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "4896ca260c2f35672b9b520969898155ec616f0b,0257078e1302f5ef081ec143afe5c470f4f862e9,ebfaede003cf0a4eef8a16f815f06518e74974fb,56e55bd58b0f5be4a45e753f5ad58b01a27ef8b2,446f8c700ab13cea5413d311da33e80dd6165f0e,a44c6a99ed36634a67e7888472e8f6d324b257f4,762efd9d9766fbc8e95f9d5160413ed2a8c6ce88,0fb6ae798ef692aaef890472421f980b58a4dfec,98c11f1451e71b0b002b140387f2a38bb9957c38,763c18e7f3cfa068e7b61fdd7491dd0365b86dca,a3218f1a5d134838c0fb90c8ad1c8751e26c6332,da608aea8f40945f072c8ee2cdb1db031cd65ef9,366d2d848b22652def96e628fe8edfb1b9d3f40b,27005f85829f11193cb4ecfd14be5ed6e64ad63c,6c277e8858cf07d9a098817b72710a30c4117fa9,6e144fb9a895332245006ef3a28c47d022654895,30ae126b962df6fc580ce943f20e8bf0ce5349c3,7179b17f7733f72fdd1d13ca6a7818415deb6d9c,d0fc49fb12c7cbb9f985d444c1ed7613ded0121b,c6fc48750313b400fb98e12802b3422bfc1921bf,ad9df1417cbdb7e0d9065c78e86181d193778adf,1394e8ddfdc4cc9d8859ae034a8f36fb9e3b54e7,cc04e659a1c3b78bb12dcccbb2149bfd9d96c97c,8415fc2648796d033c85771e27219bd32541982e,e9f4d38e153b10ffbd4fa09355ec72eb3dae47cd,0ace1a66a36d5fe3ada37bfaaa938b84fc001c58,fc2ac9111e2e80bdd0fa49247ac174443e44b5d7,adf3aedeb6724994427fc66525b7003f5beaa899,85a6a34d102b6af35d87a5237349acc91c34c917,c113f979e3aed27198113af3bf50bc1c34451439,d9e4878e740dbd2abe2d2982c4b02cc3a3d1c099,08538f4342bc641a0643a2909e02c8b65a50ccf9,607ce9a2b29b47a48db18f4b1f1f18e458977527,7db4f47dcae81befb0666f8a02f52beb4bc25bac,91435149e9efbba2e848bb6d8b0192a135be1494,f00fd47b18536d15a9f4a95e10d747ef6b0c77b0,7bc9a3002e64494da6d6a717771f59bda644d114,52ce91a3a5f10c9f185e4946b480a5c9bc2d7884,977200654f208e44b5807c88700cfbd8b1444fe8,abb699ba93d5f0a29449e39b530dc422e5736578,a726c5638fba1b3cb87df7ae56a5a0b91e1f63eb,73c2a7c06a1ec0062111bac1f3cd8bcb21ebbef6,fb53491265c749de4965e5ebe96d55fb01e8fef4,89228450a6ee12895a6f71612235d8197b1228a4,069e0eaceee67dcb2546c3d48c4e6a3126edbcb3,273933c0ab56ee883f85f990afb5c655e4e142e1,3bbda321c44a9dc0af2bb4ccc129108a6a72e980,8b0017a85d3b1bd170d246d4dde29c3dc53a1618,ab6a5aebea09d492f0d71b33674e4827292b18fe,8ee640b9e84e0022f796cb32abd414261a92fb81,d940a12f5fdf82a14f0e3587ffa7a0293ee0f868,e4fb9c314dc4ca8a6a37e7f0ee70239be10e5179\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//casbin/node-casbin"
+    }
+}

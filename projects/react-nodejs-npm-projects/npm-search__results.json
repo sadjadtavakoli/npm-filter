@@ -1,0 +1,37 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ],
+        "ERROR": true
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "num_passing": 99,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "41ce69bd977dac9039c7994048094c21e51a2599,202ddec5363dd319f37208df707a75e25b253ebb,8379ee1312a7837aa97ae8d77b70e54cd27701c8,778ac329fc23771c7b026e621f45fc73d74f76ec,275231c38ca9f7daddadd96caa42b5d5a84dc01e,99e9e939302f565b807332d10cc6ec95a4c9a505,fdc08ba099fb522dbd4f4138b4983205c192dccf,c0e3a15518a1908f6d43b059ca973cf718904b5b,3a58cf5588b943a663f8e9eecbc4d0a41b639105,aae2d8646350b07e3881cb293dff633050fd7774,a3c41f39499822f39a755804dc77bab220b6a4c0,21b5d02e7e9cc4ff394aa9d8224975f6d33bf373,3968726768a6a82feec5ea817d2b2d6fe2fe5116,fddc2a83a0b91c7c473c162297cfabdd5856c0db,3c66c5691d2b8375aa2a94978df269811d330962,c37d6d6a1a106e64fa9abae1e83c107eaac52fad,f5eefa96aa4e830fa2162c5c9687900753bf9519,2df582b338b6b7f20e6077afc10af89f30997244,186e6eb4bad4e127dbc349e84cf0294ee561f3e8,373d3414c2c0dba3d8e87ad7687443e7f3da9327,7cd07658c9079f0521a29e130ea4759323fbb26b,29afbd5392eaac0e78d372e8bcce7bf47842b7ec,143aa063f9f3702acadfc6955a3cc3740271283f,4f31ab3f657c3bead6288f82749f7b6fee3a8843,d32f978a51c8fbad649d51fe4ab1fb0c4e2754a0,446d2129b7321292f78f463714202c5fbff1fdeb,da66fb90733baccb6a283b44da9c7fc837da0113,4f780ccd73bfd406b8d910bf5770cc94f8e5bbe5,50c2726700792147a3a45d6b96ba623fe67a4eaa,2ec1f943c30175e635c4f0f056beb63780be1493,ba8aac03af9a32d6aae10793a6b144364dc887f7,fbb20e74718cdaffbddd9291e3cffd7de1d5ec0d,54256ff4bb86c5a93d55564a935491026599e94e,9e50f2db81ad4eaab401d4194807dd78a0a54e80\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//algolia/npm-search"
+    }
+}

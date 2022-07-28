@@ -1,0 +1,178 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "browser-test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "num_passing": 1202,
+            "num_failing": 0,
+            "test_infras": [
+                "tap",
+                "jest"
+            ],
+            "nested_test_commands": [
+                "lint",
+                "test-types"
+            ],
+            "timed_out": false
+        },
+        "test-ci": {
+            "ERROR": true,
+            "num_passing": 1196,
+            "num_failing": 0,
+            "test_infras": [
+                "tap"
+            ],
+            "nested_test_commands": [
+                "lint",
+                "test-types"
+            ],
+            "timed_out": false
+        },
+        "test-ci-pnpm": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "tap"
+            ],
+            "timed_out": false
+        },
+        "test-ci-yarn-pnp": {
+            "ERROR": true,
+            "num_passing": 1196,
+            "num_failing": 0,
+            "test_infras": [
+                "tap"
+            ],
+            "timed_out": false
+        },
+        "test-types": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "cov-ui": {
+            "ERROR": true,
+            "num_passing": 1204,
+            "num_failing": 0,
+            "test_infras": [
+                "tap"
+            ],
+            "timed_out": false
+        },
+        "bench": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": true
+        },
+        "bench-basic": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "bench-object": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "bench-deep-object": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "bench-multi-arg": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "bench-longs-tring": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "bench-child": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "bench-child-child": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "bench-child-creation": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "bench-formatters": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "update-bench-doc": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "572ac0a2c0b270f39bfa6b95b01212ac33653b84,8f54c84e5eb35865bc76291c856e5980f03a08d4,0d6eda8ebec264e778da9a2a18152d8de90b958f,a59f8bc86ffc1a4ef2e6dc86e3875d0842149ed3,5e316786be3f1a685ec0aad73f743f82246f2ba4,bc3dd5de8402cbfadf631a766521e0c43ee128dc,880968e32d16d95c3cd379efc68e60efc1da5093,946f630016207decda0cdd84f29686401eaf6e7d,98114238fbf8f083b6f18a85e4099d3972255c32,ff3073a7a00fd4f3bb9fb694ef814142d19dd5be,67708ba4882596416576f6f9ad2664fe3c20d7d6,fe572abe22bdb42378479ee702a933d92af3e07e,dfca887bcdf713e740e498ae3381c5f858fc39bc,75a54cf4278895bfb0d8c564ab80c610e78edc85,dfe518b4b6aba4309ad98b541ee6cfdfd1beaf4e,98e31c005732567580f0a1c14deea3a92c820bc7,2fd82b761fcd67e5b3fee8dcff14670dfed65afa,f8bf2280563df017d47c9c29d0ab9f2b541308c1,d5a13227f91a66ba04fbd713c4a08b46e8a1f991,415f3990acd858dd153f441453985e45d722c82a,0bb7a06b6e726c23e14878789066a4ece285bb63,8872c6ccb9d0a2e479e43a7602d0128909109c6b,f3ab176c90d87f7c712ced6fb51e08c1da1cb5d0,d3e3aff74a15db649e87356e161777ea0ef861d4,3c21d18fba0b5755c9dc29e06a24dcd3f2139cea,f3eb703905094d6c8eefec0b94c6d70fe395564a,212102bcaa80657790684a9f017fa65b40a3aa14,3b1645eb61a51d78bf2ac2086f73f552ab4ba65d,145e724a4eaa8d0f9d2e97e5c5a548fb07d4313c,3ed4fcd164b15fa37875efe47f13065324d1eca2,7a25e2548338a9453ae7164484ad8cd082f4d0c5,d24152ac1834a73859316c012357bc4e44bf8461,bdc21f3a67e48a4d52cbc1887d14896ae8a5756b,a0a51009ff388812b222e9beaabceb788795c4fc,471b09499a22876df6d57b0ef9f47034edaa4cd2,4457260800a86b15a312c4bcb186c2c078fb02c3,172a1450efc4337f69b1c58f145fcb03f686846a,913abdfc9364d98dfe5bcfe8eb05c4f393b8ab38,9826cfbfb608c43dc63f5ee9a968d2f262a6b98e,df68b9a8d03338bc570f35cac91784c7712b5b60,3bb47c4ed490964dc6b0384249fc11579f53bdd6,ad709b27a795f72d5a63e1c8924c0d3e00b07d02,b914c53d0d74bd16f49032b4ccbe4737e1291f89,e5d6e27d716dc0a4ff885812e42e9d66bc452d36,47c5ae70132a73a971c4906ede038fc220cefbd5,66274afc83b49e5148b61e7f8e11de86a4392dc1,e08fae2505881d4968cb54f3aaa92b85c1b8dee7,3a6ae328a9a47538608180574149dad57b4bd4ae,cd9f218ff006f8f1073c392e53599c62f7f89770,2f0c9bfb92bd50808e758003ee267a0b67278bdd\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//pinojs/pino"
+    }
+}

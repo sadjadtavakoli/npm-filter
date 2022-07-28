@@ -1,0 +1,40 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ],
+        "ERROR": true
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "tslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "num_passing": 468,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "nested_test_commands": [
+                "lint"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "1bfbd27191fa0b13b469d0d874a6d827559b4c10,11c3dce08660e360c8575f37c00bfc31e93c4253,b17245b8b6bd5a107301f8d5466efd6b03084cb2,534b56710eaa27d68bd8f93c4f5afdb5258eb6d2,4742720376c791ffd5168e4ac4006ae917bfd4aa,e9af4d95ac58fb8f687d6b828351467c9088a5a2,003e6bf2ab3b05a47d04922aa9bb71ec86588513,e65999e5af09015e00f65cf59f2b95b641c47987,47ded9a20840bafd54193440a7830a2c712c665e,76d6f6acd2bba29acf28915d1de5d21152a5f359,46f60fc88f72d9a09c1830f3f5b1f85c76ad56de,8a21b8d2230aacb8267f92cba8960d06cdd9bdb8,4ee3eb2a1f31db9e8a617d5b26cbd328fd9673f9,12e593bac26c0afd53ab4b673e8b98ee087d957e,9fd0153a25c2b392418383a139da9e6b5a37ce87,86ce34cc3db98d33e01417e6b78a410c07a1e52d,4cc4a896318ab9c2a4d2291d9e00022613ac4138,3109571d1e54eea212d97cee8303f3eb2248c757,6231fd9a9f55dd97f2d624ee2826976c074f6395,44efbee6468be59c5317a3d4705c50dafe4a2097,77abe6f0df08e567504234e611f09b7d2e9697f8,6eab815a1ad02572cb32ad334c5f75e5aa785572,9a806b16c2b44536ecce74f929f0125b0e0ba710,05c6785e69be66767a385638ffe77a55c5b9b8df,198e25cad3cd660c17a2ca436bd6ede677088b3a,9202a7dc5b5c1f5357ae64ea4a72c2847af9dccb,bd362ed34f02dfda6cc4dbd6a8a3ad0a18cb9106,16d86685f6cb1f6a149c3f73c1600aa917342ea2,1e5fec9f4e39a090201b26c690ba407065e5a347,7d21afd9b47222fda405c45bcd659813f0281c67,024d0baaa69300a288a789bc70f9a685259c08b2,3a765a69d647c9f3678bc236b169b67ae8d6adde,d68c60e38b136cd5c8acd12c7201ea6c4e36bafd,b357f5767178faadf5d094416591464bcd3d28ed,4724d30521e4b408a12f1091f2df14c1ce0df838,0ba9d9a1d067ec8d4fae6fea031e5a370305afa3,f696c7552c85917075c23d19dd04c3bf243e10dc\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//joshfarrant/shortcuts-js"
+    }
+}

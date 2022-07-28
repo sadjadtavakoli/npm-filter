@@ -1,0 +1,21 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build:lib"
+        ]
+    },
+    "testing": {},
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "8ac8fcd73b65291b0a3310647531795f35a8c83b,ec1bd9d45347d689e659b797c40376a642843fa0,36638f3354aeae7960ba0bc433597503776dab6e\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//appleple/form-storage"
+    }
+}

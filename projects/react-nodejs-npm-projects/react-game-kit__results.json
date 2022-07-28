@@ -1,0 +1,38 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "clean-build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint-fix": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "50bc4855934b6654a9008f134858d5e437aa270e,c98103fbed4157f1102b75aa85e8a8e08c3ce424,1b22f00be0ea4d035123c1366dcbc0610eeb3d71,4a9f60ac13ae6971ca6ad7518c6bf5ac7bd63d18,547ea7ae8aca9b01a5003ee0b5accb1066ba7f4b,437655681f744324cc3fd9052b8c2466ccfbf6c9,94cabfb869ed965afe025d3a25e9b8572f202ad7,e310641942838c3c5a10637b0a619e226890981a,d3ae11bc46ad76d59e10f964c5eb27fac3ed023b,68b186001aa3bbb48c2ffe9fcd7a7f7a944429a6,a030c3c7d251b5edc6a9ec4ff4ed58207f041cba,95e6c126f1a5e2079d641364959bc2e93c0762fd\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/FormidableLabs/react-game-kit"
+    }
+}

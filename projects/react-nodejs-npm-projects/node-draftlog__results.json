@@ -1,0 +1,27 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "4c46475ac7362145b8730179ee7c6de74fab14dd,012e933b86cfc450b66788f8ae02777107a3bbaf\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/ivanseidel/node-draftlog"
+    }
+}

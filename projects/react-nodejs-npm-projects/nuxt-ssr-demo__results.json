@@ -1,0 +1,27 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [],
+        "ERROR": true
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "9c6e48879909d2affe5ebf04c5c20973bdbf6923,cca549e9429d295c3243eeb6ede1eb07ac9992aa,629656e02c3cdbfac180ba3d731b99b376e3a449,571e779180bc36ae2162b4ac854e2eb1d419556a,f845d35d9786b4206acd2415b802bd21868cd713,f3875e2139c2bf1ed78699e26f8fd4bdd6b37306,bcab9188c41d3686f4736374e9830e425215675b,f1b7649e9f4fb09d0b44414061ef97d0de32f3ef,f571454070c0044e0c14cdd79e0b982ff5de3058,4f8619e1bea271e51178b838233821a4c1f70397\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/xuqiang521/nuxt-ssr-demo"
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:exercises": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "c2d76768178009b37a486dd8b26a8d99bab45ec6,e386f448f233c4ffec1082b25bbfa38cdddb7418,ccc3d2f0aa8f7f329087f7cc88d65b84bd2321f5,5790e72d2e2f3379f7721f8451a1395472b1fd68,964b99088e5b6ca4fe34cf8108c574ba990d20b0,f493d827b0766dffcb08395d7b96362f2a42fbdb,1bc1e317589c81dde48822549ddd4bfe6616f1eb,8ccae3eda2ef773ef9edc6627a3c70f556aa5bf5,6d7f42cd41d0c2f721b378cbd6cb0acd8be15437,f5bb271477b595edcf326329778a4380961fe48b,c921334175de89e50052c36d360ab0a7835771ea,55b700c00bf6acac67b2e02c132949b002e8917a,9afc5d18980d87ba06b2a8f351ddec263dc96709,6219b30af38bdd8642f75bd453086c09e4286e8c,767c2a99f53ece0cac7e769af73d2acf836b59ac,930c9f66f72e3e748a053c7873c02e2d1fb32370,ff7549585eb78df5fc570137c94cd185e88ce0f4\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/kentcdodds/react-fundamentals"
+    }
+}

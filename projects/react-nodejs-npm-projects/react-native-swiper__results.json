@@ -1,0 +1,35 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "lint": {
+            "ERROR": true,
+            "test_linters": [
+                "standard -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "2cde488ddcf5ab83c9f2ca3874b215b3aa289173,ec3cba79f8663ad3a2da6146abad05d98d0acdd6,3f688747264a09f8fd9893037912d4c838cceeb2,3bcd5bcf9443536f92a1a4b4dfce97f340d76386,eed95bfcc6b76136e905fd5eb4da1d5876774c00,c6235536296e466b9b5984c3e61705e2acbaa4e2,b5b969824e2b7a158605ab639dd321d2ddc928f9,5de06a7aa86318ad38720728022b80e5cf98a2ab,e1dcad275eeed1b20f57278123406fb8e84c7772\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/leecade/react-native-swiper"
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "9f2efbf2e30580c127b2b44b08312455ebee7d13,af9fa15e65d5a3c669f52f97e1abf167b1f114d4,281e95b7b9023946e70bd1bfa8ada0fe0d4653f7,2d45e68527c4fb13e90c8fa02dfe675be64c2539,71de498899c85dd51ffd2c08abb4d42217bdb473,28156909120bf777efa94687ce362cb64efbc898,67ee43526762f703903530631579feae010250a0,6b11f880c7cc66e21ebcaff49fd8eaf4915cbcc1,334aabbcfbd52250cf9b3ad78add9b9100842e6d,e94e4aa2f7d2c442474ac8bc6688d8315c6ae711,ca5cc7ef60cbfb3477d98be0bc1e1df3247410f2,51a8c0076fd56b4d57aa5d129405006e2c325b7b,615da7623607f0b2a7875ae38e7ea77924a1f4c1,6893143a81135d33c077a0db5b60244927642636,e98d7bdeec0fff8f5bbcb79d3de36483069968b4,f01a40c6fd1713ec7e08b1817fff643a17f22599,bc6b73728e23b6cb51357f310860116509622401,ef94b2dc5280949c22f7bdce44b4a1da8786be57,659bdc96c59db22eafcc23015f8e6d6374efd12c,4a693d21d241dd6f465f1e5286fdbbc90e619652,efd2c10ab77274fd2a6a6c2f8f9e43926d7ac9b8,dad366e5effa384df2c40a2de0e3171257a775a7,2c1505be8175f65bea880e09fb25689f67d0d798,d4b6373fc5eb46b6fd6f8aa8ddbbbbfd63e53b83,be44868f365e2cd2daa192e3f1d28535cecd6f32,760381cc8c4671272a68aec5389d09c5d6c6424a,fcf48abd8bc565510ef9f62c4023a8c7480900c2,8469489bf9c26e210af240fc6dd7d632e9197f80,aba58e097a1fcd58b0b373be1caae18cce599d79,e26b080468dfd3beacf3f3313331250c09057e27,796993ba283319a177778e131019966234c94fa2,8034645b199c5b26551a2a5cb2da417f3fd25afd,cf70dbeac5148de6da4815d5ce3d37423cb5c3c8,8353c1791f65b3d2f862d458a8ac2e2eeb3a25eb,a58f24bca1af8f5cb06c77510f3cca11e6deff34,41aa8553d6497366589793044857dc4e6400c77d,cdcf4ad4698df9608d6bb362ae56cd3c69c58930\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//justinhough/Centurion"
+    }
+}

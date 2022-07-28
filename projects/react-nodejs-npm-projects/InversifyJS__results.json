@@ -1,0 +1,44 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build:lib",
+            "build:amd",
+            "build:es",
+            "build:es6"
+        ]
+    },
+    "testing": {
+        "pretest": {
+            "test_linters": [
+                "tslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:browser": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "772ea8ef53b17ac00a35df45d00bfc2f1ca53d07,6ec319722411029809d010464d6eebf312d10f73,d72de9b899acd6ae134d00b8c8c3c3b28abecea4,8e77c5117fdf429beaf7865e8c3139a20879da0d,97207c372b6ef6f59e89ffa58f786a4e8343710f,e077567a46115c8d89621c1b791114aa1317e82c,fc8e16d8681aabfb0532ad7305165ed13be62d26,77bba34bd2d4e2163309f912ed0c47b4a23f61ca,c1f887dc3bea051cfb09c39c5c7132417c5e9936,64cec27be9bbc07a2eeffa4c6b6015e25c360a16,a90a286a8b9b250124cdafb5ccf0238315ce7716,414f79bc245c0e9295403f4cf5e1b3c00a4ab0b0,db37dbbac5e326578ff60afe0f122100c4fd48d1,e3b2871729aeb328ef5d2366282bffa4dc2c1a62,c9440098c4ef3a533a784293025d981456088636,dff05d4baca3145b6f435e699612e9906666c1b3,52596e054dc8b8de9780e4c504018514ec2513ee,d60a0539b197ac9c792033db8c735395062f2ff2,9f5f1aca769b8a4ef6f57a0a6f32820d694c2dfe,44f5f061243e1c626b0315660159a54b4d02821e,757340dd8bba8820a94831c651630ab73e226733,48e826749de313118b24142fc56b23aa3a91e52d,2806aa9908dca34c69504db6f4882ba780b1b2d2,e4d0c5932de91a7b05398a08bbc8e95579ae0e86,36ffbb5cbf593d1fa152d858fd7f07e2cdace5d7,7191b12bd015a680525a56d01c2aac295844b2f8,191e9a749509bc7988db0ea2e80c93de239c1f05,11fb12f7274a6360047f2bc3cdb040e3870ddebe,a762e2b8360011c1122618eb99ab194700fa2b1f,ecc6c2dbf5dac3934012f878e1e3c3c0d6e36493,9658f7fe0c3a7f4693ff8c84bfffbff93709e6dd,6d12a7d27cb8eddd6f8c710a661275c764efa2da,c2754aa53df033fe7cda86d71da48e84d4161898,35ea7c1d2c4f72be4ea95fac5a404a6d2bf45d13,d06f799bff62ad198973da46a2b26008f9368a0a,3e7b81806f7c8e6b3c4f7dfaa27ac6afe4ecdbf2,93ef0c745ec3fde262f79810f1b8aa8282bab286,38875cae73fdb2f56b0831d002d76d4cba831a8a,115d55947c83bd850645afba4a30ed3cc601dca8,8764a8773343a0dedf458a2bc70d0110497aee07,470739e93cfb5e3342a1619bc8ebf85449cc7fce,5f3f40f541bf33a0ab1b58b3ab6ce641cafcf1e4,ff5be4ef207da7b32bf8e63fbb98b88c10c69681,2d6c931c014810c4e3348505085684b53aea7c3a,8f453e3f35c1e14ef3476fc6f7e53e6fc5eb9b31,6e332177a2e574fd887f82443a99d606577ca774,75c3831df9525c70b36260b40e1a231dc8afe5a0,48209b3f1ef15ab60fc71920185166a259023529,c87016c8a2f48a871aa12d04ad1b362413e4aed5,260a3802a6f8254b427abb0c91345e133199fb59,025fb3a294af24050e2bd2c373e47eb3c294b3ac,8ad5e73bb414c252a0df7af7010e470ca8d388d2,9ab5fb8430a24f7e8c3e3584409c2f4f16a01abb,04cd63dc31f60c4b7220542081f189aaea80018e,488ece38f8248b465b807918328d3a1cc1f551c6,d500f12c91470581f94b76dc2897dbb0e01e34b8,f9c8dca6dd308f27ed2b56442e02edc1cc4005e9,3e8ee7418cd0429988bab46f0b308c895af25356,e43e7e722cec06a5ee79671ef01b14a16de9607c,815054061869c6b3de5d34b21239b22b2f757475,2d9b731c17a65d08b7abe08953796449798dfb05,7d614437f575b767a39637010444f66495168c43,1252be9491376e7d2809485a68dfa6925758bfbc,85270c311ead2acefe72128afa118e6a6943e3c6,d01732ba288ec0e4017ea988f2bcafee45d27db0,40faf8523666e66b91722f30d35160c7abe65182,e649967035d3496bab26b33e738a8c837396dfa4,5ae6d51d5b5ef6face480843cf1a9faec21776c0,0d2ccfb0042c13287cc473054b90de82029211f6,54bf5d0db852fd0e01c1228284260c068e365ef2,a83fe96460e25ec9c95f3b38dd51eabd016630fc\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//inversify/InversifyJS"
+    }
+}

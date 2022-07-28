@@ -1,0 +1,32 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "64650aec730bdf83c5c8007dea75e9d03e8fd9c8,284fedead972f5f8ca0f5baa9b82443fa8528f8f,8cb36f56e48aaefdd9f1bc1f19d86757fbdb4472\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//unjs/lmify"
+    }
+}

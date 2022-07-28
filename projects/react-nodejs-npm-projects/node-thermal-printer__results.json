@@ -1,0 +1,18 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {},
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "3d8848b7a0278a3ddaccc52c23349f144efa9bb5,91b3db9fbe2dff335fe4f827e0a72eba675d8f4e,fba52af90d86d31337ae656203442a9a5e63ed73,14311bc32caebf0b8282ba3e6fe6e6097e88795e,86e829a82cd7087a7e5934585d0be5054190e9c2,f3ae93fd505ae28234b996e7a23790ff7a5ec554,2770bb9e0a1f67e801c71e2517f5d2ab97db870d,c3922e67b65c2ad49be405e89a38b25c1b713504,9a1a6d32dcdc5d9803d88388c7dd3c2c0dcd7d3e,e97f234500580d4b32ddfb872f3a5d54dc4bec33,a759a45f9d3fc3b134d3c38186a779d67c536a73,dc6585461530a882e4adfb38bdf8858b8433332b,aa5e9e644e4ea13ab4f5592e57e9ae7b503e0ed7,6198e3376dea53fd92fcaf43edbc849196808d31,57560ad9b478dc8a5f8336903bbe8c596c0fa630,e3b21b0933b24f8a2e1f614069119b5358a63f89,c0036dee9d0af93b64b70ad4b4393f10d6967fc2,8b6b1d6522226a21c98c655185f0e4c981eccb24\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//Klemen1337/node-thermal-printer"
+    }
+}

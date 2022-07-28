@@ -1,0 +1,59 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build-docs"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "pretest": {
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "num_passing": 65,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "jest:integration": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "test:integration": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "cbb92d5e8e24fff5c3dc9eeab57c44b47ad6c95a,585eca93d9072132a50908c80c86de0356b9efc9,3792885f8b95132fce0bd50befe99262db544a79,84489a38ca44a22e3c1e574f7a12fc88f6975e3f,afcc4309785f19305f880e77fffea23fc830c462,48b2457c242af5382a4cfa42ce146931b0a2d67d,c5c5d02946d3cb0433a11296491a09fcc5457989,2ec034df19bab6272d885de3f1ae5dc72705e1bb,57355ba5777ef3b54461471cff55ba88ef6e08b1,e326baeb6648f9ad180d9254b3b718c01d0ce9aa,31c805ba053a6664f3addbc1ad9a1c35adc8f043,6d339c4db115069638642b3c2beb79be2be9636d,39d4c8b80ccd9fffdcb91cecf1f679180c665187,3fef17d8193619ac0517b90a29167841308ac631,0b212893cbaf28b01c6250ae3a1730f78c20b32e,579edfce83dcaa84358b093531d23d39248220d9,23b65c35a5889c0ec5daf34035a9abe2d29906d3,3723e4432361a386b809b2dd0418c6dfe42ef52f,87d1a41383f2cf134b1aaaee3aecd9f213e0b404,96362ea3c93ddcff9dfcffc15bff724d08f3bee0,1f808cf07c1a90b8ed6f524ad161ca9516e1e680,d4173dd4f4686424606f51919825600bbbada01b,fb25644f73ea6dafd54a51d07a6894805e921467,b134be22c4a32ca967f7416a4b5dfc909c745284,3b67eefa2535a1e390e741aabea0361e6dbb2dbb,68ec39c40ef3196acbc248dab6caf94102f66174,51d115c2d4cbaed42ae080078697b8a329a893bb,fa4629d6fc4a65ecb83fb126fdcbca2cd139047d,c435f1cf2e9ce207d6fd269a20351dac8285427a,9cbf1745e879c5142de633dd076e607cfbd5d59a,71a90aa1ed3585428551d795cef1b21f7c5cc6b5,59305fe51bd99a77be76506d9eb6a5308fc9a0c7,2fd96645a8a782344f9a38cad13872ab24e5e865\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/NimaSoroush/differencify"
+    }
+}

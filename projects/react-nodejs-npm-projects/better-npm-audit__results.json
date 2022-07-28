@@ -1,0 +1,38 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "prebuild",
+            "build",
+            "postbuild"
+        ]
+    },
+    "testing": {
+        "test": {
+            "num_passing": 66,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "99c069702ca7f18de641af34eea5c75e4df99b25,ce8eb4d657f3176a092123d641a94da177336c76,43380eb54f6699ae121617603f8e3aaba1494321,1871068fa3433b5fb4b93590540ccafc59dbfb38,3cdbfa63d80eb081666be3fc056f12e655854dd7,e7dab52636484d27029fd6fa4c287ecd9a568a99,5f36c41f0afbd0bb687394fb9195892f6df62d89,e5d19a545cb22021d5676dd8b58856c80fa42308,32b853576468b0c7f7c0735f8345fad2218498a4,15ae9ad9307fd0d19b76741f74095c0614b164f7,b1b05ff2c531c21b5be34bcdfce0478dc324c57f,19fd21cf5300153e69011d4be673763d46ecaf48,034807064f3027ce5ac895cc384d057012954f19,5c85a88b9048ec86dcbe5e3d379344a5088dd643,4ba2612567fb19e97d5df40ef6a4b1b5b4a4896f,1ca308ab04fd8b01e844b304cef4600f411f23da,0b7357cbdb604872ef3cd774d98f73874fb5b98f,5987dccc8a8b84c9a9d8f995a36d3b12034120ff,deefa0cde2ab0ce38c00660d9b799f4ce7929d09,105ecfc7d2143c444c863d3a1b0b7d046a4ac171,d17ed945823019e64d77d3c2518274f3a2f73c28,dca9b5c477f46e997c19ef165eae61cf76e2b1f0,e41c67c7b49144542a9c040275b729ae1f83db0d,a39b56ff3cdc2183e12bb9cac9710aa3f77675c7,d80b93e7a2d4f860335fcc1521e2ae1178a65f80,2568f8a41b97b96647818946b4513fef41ba2300,890fcb3221200704aeb02e90eab20651bc277945,acbfac5bfbadfe738a1fcc4ed19422fc919645b5\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//jeemok/better-npm-audit"
+    }
+}

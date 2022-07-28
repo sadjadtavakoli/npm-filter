@@ -1,0 +1,51 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "ci": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "lint",
+                "test:prepare",
+                "test"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:prepare": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "num_passing": 90,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "d3513679ed680e46967ca18555116c06e5a4b341,6d0f72cb81611a45cda40909bb71e781e3dc6877,729ac1dd6dbb4c37c1b589fc84ca9ba860db9342,a7db05969f0d06d9c3bc54de79667909b3c1cdc8,cbc3ff63b3424640876ca8c8517907854c85a392,671ef527e7a37c459df616ee74dc92e106e8245e,d009008fef14b9ba63adc7062fafa6920a5e626b,1725a620c32d8f0eddb1304aa264553b62f9f4bc,facc3a602b4d7af6fd2bfa221780a3baac4fd468,08f76e441195b10722596aa584c171e593b82a45,575fe2b3f58b18c17416f238780b9bab85110706,37162480a4a935f4fbf60b6533247cdf9153f1b1,63fd151051745555243c496dd19379eca60c6ef5,e882e4d812e714066eba19a11dd119193e7a9e01,c9d16635772129260c0e1aca8d7ef6dbbd9be246,b86bb82417ad098ed73037159886c4d0481ba34e,42fbdd0d552551b18ed0781383bb0073e1cd8640,787d90168ee1fcef68e5814f3105de643858a125,831aec03154ab16007db0d78fbf3559583c000fe,213679c730d5369cda41c9163de387521418d4ee,a82d5ad1e17cd64d3579aa207abfc18346ff0107,ac5ba45862bad68b971a969e6e8713874add51a6,87698de079cb742317a4f6570430ccd5cd526d3e,c0f704bf92aaa104481d91fd362730e1e00646a6,e515b0e1a73a240fae1ab32f5abd6df23d35efcf,30243482be917e89515d057e2368e7278e34696c,d78060bc3a3c7f9461e53dea13363d1d68079527,f755e7f4ca843bffa9ef22fc8c3b9c0f786a79e3,917988e051fd1268b533fccaaa534ddfc60113de,f1e75b6c8bac855c60b973f9fcb90c99d257ea65,80d88df98867ee1d4696e6ad59257741c2399161,8b50c9473e42aa1588962b0f751f19b8e033464c,c94760b0802a43c5440f5abf86c962a6cd11815a,d65c5bb924162f6b24bc97ed9cfd32b7577b726a,7a9518f64e8bff00084d21700075a71f185536d3,f2a6bbd6d7e96780eed8422011942f2f2785c96f,9731e9c5f450f0c732c46d4dfdbbc6057a0f4d6a,c172324fb443c8111081b98724b522d97bd6cf20,97ff6ac107ed4ffdd4dd03103c37ce394e4ddaf5,4c8ae60492369e73af93ddbe29b7fc060222568e,005913be28c6ea197984de4ef5a6d3cd6b96efd6,d04e1c978d29f7a22f4ddc410a04049793ce6672,71f7bcd4246833474ca760e207fb00b4c4ffba3e,6714d2a25510eaa70d17d1798a4dd3a55660a831,8a3d06725ec97ccc246cfcd5fc65098d8410a0f6,6d07209b5b11a3d109cfc81764b5f6650688f0a6,4a6f84fe9fab6a511c291e3029665677fee914e7,41192e224f95cd3e08e32ec86b555c40e651547d,2caf6765959d4adbde744021a4b6dba585ac5991,428599cdc7fd83fbd69e2bde810bd9e7925b4f71,2d1fb111344d567b51617b65a403345f401f7b81,978a0c46b35eb3f0604af56029f980028a53a80d,ca90655122aac31d720262f8f27fe57831696f85,ba90289206dd4e3419c51622b7ab6aa34004e0bd,6b5ba216121fa820512a4d4a5973b73ed890675d,3b5b11572e74354bbba0bb7bcef310c248d1a3a8,edcd2c845622106a0ea82906f764b71ae3993d69,0bb2ad967a373a2a74d494e3616144c2206675e7,9991bbd8f4021a84b3a26cd9149ca0eb2c352e5e,eb1cfe8e217bbfc08e427d0962ba8ab62021e65d,78e7b2816cbd7e2222c8ade2621abe300fbe86de,94b2e87e56b48b55956b74b3f80f5c198e5d9793,4dffad7bd293fe95a29b3ea9b069f05cccf7722d,9b99cd86e3f6901f3f3f984cb7a60c71441e2c2b,8402c19841b6a8455c7129c0ffc8124e4949def1,57ce712ddf84d6f39c3d82a5661425fc676169a7,db197967ecfcd9ad59b2f21871723cf5b3f56d26,10318b042e887db98630f0e2152f97a2d785c8dd,65cd498a9643d468acac06028914c739295baaea,6294de80ec070926b12eb2cace5a381ff12c62b5,99e08c0ae7164068390c78322651ee2e14d4f063,601bd3442ca7c031413a4b3326456b4e4fab1cd4,582a15a2faef5258eb0ca5157845310e74ac97d3,55ecf90170eb9f388bf75d74c49acf3422baa731,3572df3048424befb804404fc52e0f51fa47f5ff\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/gregberge/loadable-components"
+    }
+}

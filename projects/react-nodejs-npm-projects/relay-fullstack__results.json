@@ -1,0 +1,29 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build-server"
+        ],
+        "ERROR": true
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "073c1bef1ce2d6b27b3e8130450ffe6e5b372f08,d41293eccdc41f95db15ddef4eef41f9e30f6d9d,06e19bf967a30807e36ea6c0cf80c968bfc8a21f,af42aa19ff5038fe123c445521b09a8156de2569,39e859d0604986d49943e0137b156132383f344e,88f2cfeb70a3fc193dea6e25e55d5ec0a8ac20ab,3dd44a60cf633412a8f40239e4b4be216733368d,6ee87d3c9b6111902dc1cd42e905fc02efb8fc66,51712fce02cb9963d5652449b828a5e5ae49172f,71e7836d05ffc1a63209b4e7444dd977d44c26d8,6bb22e8987a95197e7f0dd2b5afd652687c26efa,bbe2bd65148ad6a79377e6de57510ef6b83be1ef,80a5566178e4b893ef759c78f8cbdf982bdf4102,eb1a665b506e5913f84c5e1515dc4e140b252306,f89ae8e20dc18a882e23f8f7763cb0b795f36451,9ab8b39e0e986a3940569c0e91911bb243224c68,87a70a5997feabf35b68ec28b834fee8d22b2687,20200ace8c236cafe2bde921b5f27f645b49a607,ff982bfac7d159b3643ce60507a5464c81b563c5,497de427b1b69e9bf3405ab8c2c1ccb9cc03e5e2,68fe9f9a51ac28b90fc8e8fae1832d37c64915db,03e0a57c6fbeed8ce4c24305a7588afb8aa5e7c9,68dd3551ac40ffaa6cb83c75c06685cc4fec1b3a,feb090d3fe0f031bd4b1262fda79d0fc65ed29f1,62cdb0b722bb965a58340a2178829bf5b2fbc27b,fc0b94e23b4d16e10da48b4c590c2f561abc35c0,8f262a64f6b4de57757a944f89b488eafe098669,90764aedcd3fa8c1a729892861f1c0db7ef359bd,0eb69c3ffc9792262c6c668ec1c3576780ea0a5b,f9585ea5200c3a0db810502bc41903241857c531,d5172b5ecf48a8632f5b876531906f50df854e4e,48a533c790a29f2801c5caea4f7de43e49a8a391,d3fa99d37de0b1d10ea3cfd6bdcecd15d9b3d8a6,6f7fe9937c0af24c3bf88ba89e22dea6ad567804,e661e23d4f15d03bfad82bc669d097974844ec89,5af650d7bcd3eb0c5721b10a0bd22e71d5b5d7d2,6039fa4251c42c0594e19106aeda2b633b527216,ec1114667378ced4cf8da87d6e8364835a47138b,f8aa35f5582f615cedbc2deb11d22a4d7c5cda5d,22243aebc54f871c9fdbc4a6496be43a872ecc01,ecb37e35d0d20df9c1d08a5664938d91c5c73599,41ed24bed50aa9ed8583b5575bc11b6e05983453,66976d8bf0a56e20a65c754a587f4d9563e6a935,451999062911b6b0a369efd6da09563e61e49df6,7e1d45a693e4a40030e323a21b77a68869c26ce2\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/lvarayut/relay-fullstack"
+    }
+}

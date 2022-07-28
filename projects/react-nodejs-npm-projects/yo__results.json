@@ -1,0 +1,42 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "pretest": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "num_passing": 48,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "timed_out": false
+        },
+        "coverage": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "a93924ac99696f95e3f2a01ea0a248ba6dd48ece,9d01bafd7f56351a361d4a7140634cdd8218e528,91229f8f2b9b366fbbe2e56c85818056d21d1388,9d27f8a9a0beeaeb435f64c32f32fc872eea652f,2598967f8d7b5775c2106f8f2284b02a7f7a5579,ec362f3825498faf43f6001bef300b1f0cd46959,f6ce56dffa2502a799a40a97ab691c17c47a6bae,c49a47db461f0068f202673ede45ef7adfe76577,c09422b4b1ca4061bd99052bf881a8b3b71367ae,932ef07104b81de32fa3f0f6c9c2df61f4f0d9e6,06e0a8c226871d97e315a902d996c28d9eb71d04,9053bbd3d3688ebcf74cd0493f42527215c4c90a,dab933776ba1108a7e7e82d88bc7de56c3cb4564,f40c5212971043d7c5a97c234e1752414a803a70,6e1a8708fa992455c9aa85db48c14bae76608bbe,ecd7ffa76231dc345c5abd4d88ec7d759eea8beb,018cd95068f3e16c0b14ee0c90ec96e473111162,96318484aeb09f377bf45b3204756dbae8b6e108,ca4b84c14e798f552ad0dbde20a32d37fc43c43f,da8a3cfcd4fdc7a30c0c4d8426edbce819f651d0,861aacd460a5f7a4de1908b4625d69afc379212b,7b50265917d023ecba0b1e53c8963aee38aca301,c778a07aff5b363f913abc62642ccb2a3a475f63,61a84dde565f325b38ca8c592289e969b069bf20,f2a8ccf4e58752f69cd2662827f280e5dbc35701,1887ed5c2f62a47299411f3a046be5f0762d6558,35dfc63b747866d7192aec9ce88c7f3ecfd48361,382432be92f03d55db03b3702676cdf9327e56a5,5fa07126ce0aac83b516dcb747ea73aebd4fa65b,06f98c19ce58563c4a2f2653fcba9bca056f67a2,e102baf120d99a745a61b78136313b3fcf18c353,96e8ab4bca50be556f7d238af8fb0b0871abc4be,dc2ae18c503862ebf9b3e948393a0651e204b566,9da8444e046f1ea919f1bdf720573d2d4d7188d1,7bb5cd7a405731c295e1f5a2b60c87e9b3e0fbd4,7ed24025e245f7c81b693416afe4666dfae076b7,ec9c787f119f28a8fb0106b60e6647ea7a357904,39022e9a48e74b7ac8acac920fda8cb3c5b1b17f,c0ee96d44e14a4d4cda27df9c1ebd5e493318993,a0fbead04ff48bc3ac75193ab4209d8ac0043f39,daa4831620dd45b26c21035d89d56f31c606e9b2,d7038e20a71aca1ee2fdec37a4265d6279e69cfa,9c02df6d7474890309c6ad7b555d5a379d47fe2c,1f2b845b4896f990997bdcc865d4c73e91d4a3d9,eb0f1881539094ff9e8d171543dbafa0306bf1c1,3bde104a0c4dbb6341e3f2abf91fddc54398969e,9f68460401d14b9bbc84bffaeeeadf65417bc90e,38bbe3bc92df9db81f2f5437c5fcbb4709fddc10,8788c2715dedcd0dad931c24a0788d78bb4c3900,6025eccbfebaf29363c652ba6602d75203fa8b5e,07ccfa2bf4f9f3ed868723cba881e9882c5e89b8,e2b8bd1406d17d35ac4017855b24c7fbdb57d8eb,d420ac16427bb6c7fb942fcea2e7d09ac43fd25a,a78b3282bdb89d04bb36353955c48e8d8ebcca3f,cd9989763df44cb8a27dfd6bc79b4b3b2aa04fdf\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//yeoman/yo"
+    }
+}

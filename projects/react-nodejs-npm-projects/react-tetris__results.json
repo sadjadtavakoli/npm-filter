@@ -1,0 +1,20 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {},
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "6e3ea76277a1dcc7208206d7ea9f3e98d4c1a024,05dbddec1fef1e88d3289189b673cfd5f143e572,4a280e6388d160c7e4e6872de222a39f7614240b,05261dad35d8d46f4bf91d570b52b2ccc374ea28,bbe46abbe92c1b201f61899074796bf1c1ca4a72,b8b47b0a156b740c8ab8e7bd522bc52d7bf0f911,3fe744d8e5d6f515f27e681b8f0a4d56db8cdf93,087477c568948080d39ecbea2d5451765bf2ac1c,1abe2e353f517a4bc72003835c1f20daefdd14eb,48f5306234e85d4f43085ff3b2bbd1299e74a863,fb1ae7b1d50640ddb35f7e44172c0a79ed0b3a0c,91afc69173d5972b7f2c787e0aea7f485ff82471,8d9bfd59e922abd9142472a61fd98fd72bf04195\nwarning: CRLF will be replaced by LF in docs/app-1.0.1.js.\nThe file will have its original line endings in your working directory\nwarning: CRLF will be replaced by LF in docs/app-1.0.1.js.\nThe file will have its original line endings in your working directory\nwarning: CRLF will be replaced by LF in docs/app-1.0.1.js.\nThe file will have its original line endings in your working directory\nwarning: CRLF will be replaced by LF in docs/app-1.0.1.js.\nThe file will have its original line endings in your working directory\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/chvin/react-tetris"
+    }
+}

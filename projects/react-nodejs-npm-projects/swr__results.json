@@ -1,0 +1,55 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build:core",
+            "build:infinite",
+            "build:immutable",
+            "build:mutation",
+            "build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:fix": {
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "coverage": {
+            "num_passing": 258,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "test": {
+            "num_passing": 258,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "5aaaf82eab52bc2ea6ef10e6e7b379a97309ccba,baaafc2ca23a223a77a981baf4e6d6b4a0453fb3,3a7dd3b8cdf694ff6a02a6aad8df2de37ef1832d,ce748196df6f6a62bdce5c9221eb72e50db729e5,1cd8b7b1785fb6688fae5cf6ca3ae7a51f6fef8b,72b767f71c95315fa9a638622e20b64f552d24dd,d4f441198b4e7bfa662274c5ac10f4a6c9cb73dc,69d8e4b795f28c164115b57df88fb156ecd78a7c,c652229ef72a3a0cc00ca6001454286a6b785bb4,a26728424b20cdba4b4c05ebd66c324f3aec6660,21c5fcf2b0b42c340bcfff58ba4c2b8a6e0ecf78,79d5aa3c29d6b0c1233039850caa8606e823a59c,4f8d0b955a701707654a71f7bd766949ffb7cc12,396644f47f5078057e34d8cf49f07560c00aa0d4,5ffcd4ba85a2944dd98d4942dbeefebb285c6898,da33f52633ef5bb357e074de8499c76661e23c78,603b45f613565bb3b7c5ac9fbb5be58e436a71ff,b7e131bee5512ff4e845bde8195cae05822f2174,ebf8813f9edb49f0276e2bdedb673a166ae3d0fc,b758f9d9fd4e48ff7df1b4f08e49a400152bd78e,be6958c2556126ab902eae9a4031b4353f7d8234,e284a56a803e5703523c130427a0883390bb5f46,e789a4dd6a9319d3ad39379d80e1b58c68ba29f3,9da2615538670fce28a5ca2325a8178b26dfa53a,f751ea74e9a1c5e0a5e77315f95d7f7331e1e2c6,084ff19e8ac206bc8bfd35580f2f8bdfe1a66edd,06179bd4f58ab3c649368e7a2621c2171d5865ee,21de0ad78acf92be70fb845ea2eabf651129f8a8,3660c4bcb71f9510a437fcfa24a496258a0b6ab3,806bcaed01501591618552f9c0f864984b1ae89a,124b5d29c71cfbb4980fb3d7780b10711284c5e7,7afe29b1b1015ec51f8e66e4514b8c508f2d9c41,d83fb173fbfc934f443425d6224bff2a541d574a,83a95c8fa10d0d82854f1edcf0834bff3844152d,ca9716c38807c6ee694be87c9ea028181880fab7,5a05547df9aa700d634510f629d00c9f4cbdb9c7,10c00808852de8480e2521b9ec68872c502e080d,b38d1bd74d4afc3ae4f43e732b573f5dfd89211d,158792a766cf92018faaa1b518485382c7d361b5,e7e01597b03d467bcb79ec74e065d8b542dcab12,4f6f61bc3547dc740adb5e436d1a4f6b9feff5f0,8c0461c30aa069da27e35ddd42de67cd36922eea,679b95d2549bd9b5d45aacc79dcfb127ba2f4671,de158031854756cbd37b5f580e0a4eac59d1c307,4566a25cc215c473bb99cd4642b6ca63c5fc5c90,38e2f4200d39b336bc1427c95f4d2caba835cff9,6907d42623adcd74d65841391e537e53c5553205,5977d98d00529997886d1489dcdab23858e73eb5,d028e0e9f73dbca6693c458f2b444ffa382d6950,6461c44d6fb9531476c16e9be42f5aa73b200180,7091de961b330697713204223b35044755dda839,953200b295196ca2b30f5fed74c932f9fb095e6a,004159e1abdc4fdafef0e1f1af23ab10227c573e,ed5d90097e144946c3a4e8e0a941744dc3a02474,bf01052c00078fdbd958cb038eb5d857c24a0605,e172b9504ff81ae771c63d74cb76cfd07b65bd55,48e199e3ccf3addeee1bf3e25aad4711647dd355,2d56a97f29f1ec30a145abd408e49042d0e39bda,a456250ac2394bf4d0879ab8055cee7fff63ad96,63fdb922ed8099b54ea16325810ba0445bd8a691,36eb0404928b7083d63d44eaab5a9c2832a4f5c5,1533fb7a0891397e7b79fe4251ff80035bf15afa,658e3b574439c0829cf8a1fbaf2cefe5753b6f80,335f425a913532df96d95a8e63ef62f89cb05961,335f89d724b1d854e602a2e4bb1599e9cf27c07a,813da181a5fa22f1577167b78d8ca3f9f39b4559,ba15ff3104c73022de97a3ac4f63bfe99c790267,30193060b2060ee6f58c90eee235324b82d1f55c,d5d709ccb8ae02aca1ad226f9ff88a889a934d25,090b8aeb2e4e2892a4e4b6df3a83a9d490a53311,c6498760494e081d7ef73a30c7d4151bb725998b,a754271bfb6088218e0aa14d43f56ca071de4958,c80e3c9005b4cc2074e11a7592f08f9ccbc424d1,fc49caccb10bb183e6db9eaf351b8c4a793122d7,43fd7e4d1b9372f9c0a50d592d31dc0ef5cab5c0\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/vercel/swr"
+    }
+}

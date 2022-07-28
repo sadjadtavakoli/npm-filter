@@ -1,0 +1,27 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "lint": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "50880fa40281c4f0e750fd5169f4684ec8291dc8,06872df464f0a2513d0c913a0df357c836ed7fa0,8e106a29f8091effaa1e21f0f5a438f5c6543df3,66a35d2c83c721925b21a2e6864f237b20d7d140,09d5af2e6f2ec3572aef2e0eb59f77cf04208818,3256acfa6d8cdfe74c3b86f7bf96ba3b6763d77c,9d16d03ba2c0ef31258e999bbc29b41c8be7fce0,efaea96fa339455366ec5abb025ade98c774b59e,0d35e1bfaf634513ac36a968d587d919a85e8d2f,440eace7ffaccbd22b216afc8dc204d3e15c178f,7f75b0fdf7db233286b26bb50bdbfaad14db7ad0,7029e217f55e07b83a05e2b3cb0bb3c7726cdfff,0fbc506ada02f2bd230247d4e44c3c59ea091f02,b894098296bf132a3dc748c9bf94f0f09bb64df1,6ce803914aadc65bbfb31b9e5d8c4e0459996aa3,5cc02ad673d8856093f5aed06cbee4891d094fdb,51c8d8da5054e620850bad9be625ff95fd2f4c60,bdd30e3acf913bf434b38af18334ca2847633c36,08de604f103f9a488c2b205bd34353be6636a6de,3f83d34cf9f867b262038e6b043a6a78e6075dc1,e26510a2bdf81d27e1a62ad7552e656295f47371,b7af255ffafa3b641b92c463e152723aee04b142,0c6c9f5041756b81d4c7d6bc40716b0d804a403f,a8074614cf4a39af010a65ed62f47e26866a4436,2e64d6afab4c9bb777a687f89d7ca8851917e421,9d087ca0c9a0c49f21e5b725dac76d7259293180,29f3df5459506ea90aa4fc6fea5c5f7673c5e5f9,d0a7e001b951578adf39b36512ae92f3bfaca401,cba155420dd305a4504eac85f1c33f856fbe2511,127b2931692b38d6f0d919944b08c317cb48eb13,31b6aaa0cdb6eb46128e2ccc05067fc4b30066bf,436ef56f423aee08fa09128a04905da6e69b5df8,37eec0338085964ddb33735289db4da93ff4d233,61565f19934952edc6ebd8d660e2d1d3a82565d7,4f307c07e92e2e9dd711bcea74b34bc1a44d157a,e24f8110b489b58135e008b277101c5706221df2,0b418a29c42238faa06ff4d1de95581543dded97,1580655d1edbb445e7afea8b549dc3ab1f8f455b,75ef29d810803a3cea419255fb57ed2a333266e2,5586caaaa14d3a5e5b13aea7ac02d31fcfe8248d,f32511134fa6bffe50474d90a74163e911397c5d,0ba64c36142d780491f322e27e3016b1af3a2d28,683aa3593248ed352d5e70ba5fd0405ebd632571,ed0913c1e7fded9d4ec3c5acd0306200c4bfe369\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//Alecaddd/awps"
+    }
+}

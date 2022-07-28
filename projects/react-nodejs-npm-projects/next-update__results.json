@@ -1,0 +1,84 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [],
+        "ERROR": true
+    },
+    "testing": {
+        "coveralls": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "e2e": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "install-for-tests"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "install-for-tests": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "ERROR": true,
+            "test_linters": [
+                "standard -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "mocha": {
+            "ERROR": true,
+            "num_passing": 25,
+            "num_failing": 1,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "posttest": {
+            "nested_test_commands": [
+                "mocha"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "prelint": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "pretest": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "unit"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "unit": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "ad2cf7b801290baf2c6a6e3cde15727753b63aca,02b9966eccc850519e4c68f4151a96241620c2fd,90b92291ddc3127a30f09317fee8928fc9f107fd,14c418e8991b1367df8e9f7131a3bc6c376c342a,e3f6cb714fdc6daf8bb44d9c613a19efc0831009,b00cc29a7a6559a75b0a2471dd63c5ee23c1ff4d,2dac6d14d44ae2674dd68c50b812c83a01e2f177,8093901038653df7b0f592c120893c105523c865,c937385005c35f4fd479693456af8dc200c02974,af4a644ae34c1c769c8c79b2edc51286ee4b583c,3687099e63a71d3f3c7a084d28cc93f0758b53ba,ef43a5bd4582b6c1a3b03f142837cab2ef086928,7dd1354abdc314f2ba09d54f2d9a683f9f65c350,26bfb9207b0a2b0b8eff41ddda22fcd893798f02,823df0900d2e33e5052a977b7c9ab3a36d923c4e,60f404231374e985e0f67f8b808398a463a67561,d6657afd4ff3eb5edf8e25341e3ff8c2246d5551,8b204d7f2b6dc85603cae71b3a86522d33f6286d,0dc83758f7a76c91c70eb4ced4313965c48dc2c3,09fca6cc89d1d6c5d130390226ee0c6b8e83d8dd,cbf5ed2c3939bd3841ebf9abd9eb0d9182f2e8ee,c859f799e66a0c7a5f5c1c5fc5d3b5226ea6e418,420a7048ad7f2674eb7ad4103d16947bacb8b6fa,d6600f0786a5e62a9b9c72ee2caad94c96a2af98,2a486d4d66e9a585dd1c79751d277404b66ae504,8f397568ad763803941c4d9d4587ea1354fdd6e4,b83869d14c26fbcad56b6ecd54f2f9d46878e5fe,5f6423fcaa70d245ad6ae481fe4e14507ca660b9,c95dcf35443db9cefb3eec768a1cd053d660dd72,08eaf587f5c3bfbd5b48bb4787a2dc16d60b9afb,33a885cfed5e4f2b0e05d2f52fd4535d9c1f563b,6b210fd5a48e71bde19c111dc499d4dcc06931c5,c779b94dfd5828cbb70ae835bbc4e35bdaf76f00,e6bc3df2b9d278a4ab114bf3766d517371ecfe19,1fe7e530bb6e0ceef87b1a66dd4d5b035bcf24a2,368dc1fc482d324c21d47bb73fd7b676d445c327,dcdf108d1b9a8482a00e8ae63d3958b76e30f72b,8a5a9634a5737b4ec0a9149e0286e4d77995dbcc,cb7bf80405f1f74045b79dd315b78ffa10cd403b,951d60dc3e850971ef60ed92abefbac0fd7fb4f7,1bfe91979d9ac219a78973ada611b3b4265dd074,1bef6e77f3b03eb430edd1071051af13cd8cdc7d,6256f6a3321e71b312c7c32f5c4adb93040c1a17,774d4bb25b38a026a2343a2f1e483eb75fad6b72\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//bahmutov/next-update"
+    }
+}

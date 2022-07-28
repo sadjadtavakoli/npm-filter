@@ -1,0 +1,53 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "num_passing": 5,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "test-travis": {
+            "test_coverage_tools": [
+                "istanbul -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "benchmark": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "benchmark:asm": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "17d50b8b786ba53ee46f070bc8a578cc74ede455,ed17c53889b5d6c6f13c7f25c522302e212fdf24,2635439411cf215d4537f7417c6af1dfc9f5cb92,55a27c63bdafefff283d3f474fbb2aaab2e572e5,7ebc2531a97df9ef37b49b51c687878208aaca1c,17fc71fe09a91509bfc521ccf3003f8c0e84a585,50b7e84eccb01b507986557265bd486e56a96d2a,c1229842a0b47beb12218e4f82d97acd5df24012\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//breezewish/pinyinlite"
+    }
+}

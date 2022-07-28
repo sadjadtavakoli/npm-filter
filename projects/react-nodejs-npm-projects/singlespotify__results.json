@@ -1,0 +1,18 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {},
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "aff859787a421e3e67504ab10814c2d800071896,e1cdfd0d9c45ea4c75c6ba2d6cf13155c640cc62,0a7bc2d06911c1f13869b67d9870cda9fd879107,82dbb3aa65c7793ecab392ead80ccfde40412943,752c3edbc1b8afce28a68af7d02685431c501e38,ccf58c21e7ef458ca8486491e30699fadddb0db5,74a7d6f434249fe5ed96396e8b1a1dc78d925fa9,67736d4cdbece169072a6678234a453d6b698ea2,50118081587a8a6112566a78729c330010ddc8d5,81d692530936e804cdb61047ac80dab4c88fa0f4,c0da4a61baf1f8aff7f272df32496b4fc44ae114,ffd198489ccbd2cf9de6527f2cad9d296cf18c67,615e695038c9270874eef3785f908016ba3126a3\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//kabirvirji/singlespotify"
+    }
+}

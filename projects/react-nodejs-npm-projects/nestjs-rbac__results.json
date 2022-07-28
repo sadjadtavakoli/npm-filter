@@ -1,0 +1,68 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "ERROR": true,
+            "test_linters": [
+                "tslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:fix": {
+            "test_linters": [
+                "tslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:cov": {
+            "num_passing": 70,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "test:e2e": {
+            "num_passing": 29,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "test:int": {
+            "num_passing": 41,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "test": {
+            "num_passing": 70,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "da006d744274f6e385a1f85444e22ba0d4e38de5,b39659e0619a9ad8c25c2bec2f8c3860170c3794,48b3230e10af3121356224d9b3a2f87e259e5598,938f2ca496ce191778a806da615cb7d2935ff129,d2d9a71565cb1778c8ab576097401cb0b9a015e3,25cab524f19b73f30340035f3f92be83b4536d61,b4a577fd1796549ee1c2bc0f3bc683166037db5a,874596e3525470d4833addff3b66974b481da848,7725a3d69b8001cca629c56f3bc904099af59a9a,db9c9eebfe5e9a1e1b394a57508f4965b280b320\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//sergey-telpuk/nestjs-rbac"
+    }
+}

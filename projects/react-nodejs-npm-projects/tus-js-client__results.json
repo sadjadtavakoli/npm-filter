@@ -1,0 +1,76 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build-bundle",
+            "build-minify",
+            "build-transpile-esm",
+            "build-transpile-cjs",
+            "build-transpile",
+            "build",
+            "build-test-bundle"
+        ]
+    },
+    "testing": {
+        "build-test-bundle": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test-puppeteer": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "test-browserstack": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "test-node": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "jasmine"
+            ],
+            "timed_out": false
+        },
+        "test-types": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test-types"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "56739c4737f102668e154f3e6a3c4ea17497e19c,bb4df47069e792950ebf21529c96b30d6d409810,70b177f68831a045542e775342ac3f6ccb8a29da,4c3251d02bece62fc12103a77b8e4d0b048e3203,449559ac9e429cd14bf467251e16455001a711bf,6ba78cad1d0daf835aab9c133d10fc769160df85,6a2aab13bd4c53de520d29cb2ee3c38bc736ca91,b125bd0bfeef193b36231e930c82af5d2b553616,2c80675bd7513c8de9118ac7109a99912f655075,0007888b2979d993f683a9363dee8430c32f5cba,06fb4dddab5ea275723d4ed0a982cac3c07f19df,99ac9964035b610cb2d7b9defccc8d3366a43684,e8aea8d672e8d69ca2d34bf33061d69f74b64c04,e6bdb484a8e148fa2f4470eb109afb8eea6b8dfd,b926243723a772ea557526b71863bbc098f9b332,053c3f059f246a8aed96ec3a4695286cebf9efdd,980d84bcdac6be75ae0371eee18d5104f659c290,395210e60e0223c5433ca83d7e377d13635aca62,921b8aaf104402689a94ba45018f2d00fb0176d5,07812fc916a4b4d0b6fdd0409bb4b30836751525,53a6ac3c50cf0106b5ae1d350451a0859e626624,c777e43d550a89b78576ac548a4614ab6b4f79bd,1a986b00c75747ccdca78ddc7908c05fc4d1ea34,9c84b3f24c2403274af116ae010dfa548fb167fe,21525582329a35d1c321b56f40a8e3c98d67f346,926977d69067f6993699485e03884e0be88cc378,ebc5189eac35956c9f975ead26de90c896dbe360,1ae3ff483d473263b6805e9f0d9a4fe7b201c4e4,2792129249589120f19607871a8339e01e177d21,5a6b0d9d953e4efebcdcfa97f69f9ad01077d6fd,71a9fe6694048142b764e16d1f97e0d1db763826,00ba10e112562b9d47c60d7b1eb6739291ec22f1,25a8e2482cd2ad818f2d1356955e828b0ab8dc68,ad749c6cc15d5d1ddd0a292c3468215e316f3a7e,60c81cf22a1ce6d018f496c87e50d6081b6a1e91,412cb4692038e3545ff6f358782648ade228d4e2,19594295025114603bb7757491252316c8e167f3,dfe32c82ad3c74731573a4edbaf3f2a9e5fc57eb,38ec2331dcf99a46fa291e4d31ad402e774026ba,5a6093993856bc2dbddeb08ef121270655082838,d0d6d617458ce59946f84695ac9ce92ea4ab1479,5ab14171d03509200f6c3d5e2bda8d9bde6ce7d6,6a259ba754aaac8edb8e6ea3be677ab5309be5a8,8922138260f290e50660b894ebc049889af89616,846f466e544a53bf895f73aae87278c72eb8467f,0bd48a098bc7d7d2899098ceffa51832a3b7185d,b9b5f3bb6229644d9bf454ed53b55dfca87cf224,f2b1c771a5056300ece34f7832da35d64d841926,e2a9906aa00ac0570fb5baf98737ce7a74c75911,ee8731347df42ba242288b107f85af835dfb3af6,861e7c72823c7f3a69b8abbe2fb3c92b686f1354,9e44bdbbc1925ac80535f148c279d9f2d42f0e3d,ec404e48244552ab97ecf452c89a1450be427996,ea1963b2a9b567c090ee5a6103f3e782daa57428,6018d93e58a1c9ed7b1e00deadd8a6907f8933b6,42ca23a25bdc5e88691eb2f49b98c14218687d6f,253ca647a56a96877b35d70490852ff9055a4699,5b9b88963658cfd5c6653c7b7f6bbeda775c5b4c,09d3bfaed817c585fc02021d2a1b100b8264e6a1,e33e10d32748bc081906a6ef6f98f20b13b2c228,68ba38e549a1418e07d4a251eee7e213a366c732,5f567f348085000cbb6cf5f0dd865491eefa9a2e,9cc24c948bd82da679133c3f6368139346b07e44,e607480565420879b89f4effe18317411a7f0843,24c6fb11e059e2bce47a1b84744d360965d5bd05,c61b296ad11b8745e179494f43b4df5399a48f62,4270631dd3ae14146810d011500e872ffb9cacbe,3049a69935149b15638b45217b0ed5bd6d0140b4,f4a3a92d4eac8b3d06fd6e46a97d7f283f0e88e8,b8e6a3d4aaf0210cb34241ac120ff9de55c2231e,4d1fc73f61dcaaf6f00e34dc4918bf555e5b65bc,efde449eda6c3e9e393e727d0c7f7470992d682d,0ac7ed4d7ff4f4bece3dca751237294811b3df1a,420d039212bd425ff66bb5a62b567fa1f69645aa\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//tus/tus-js-client"
+    }
+}

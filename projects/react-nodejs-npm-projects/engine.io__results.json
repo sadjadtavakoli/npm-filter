@@ -1,0 +1,51 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "compile"
+        ]
+    },
+    "testing": {
+        "test": {
+            "nested_test_commands": [
+                "test:default",
+                "test:compat-v3",
+                "test:eiows",
+                "test:uws"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:default": {
+            "num_passing": 156,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "test:compat-v3": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:eiows": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:uws": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "e122e4be7bc6b131552dba4dd4581a2ffb3797c6,271e2df94d39bbd13c33cab98cdd5915f9d28536,64d57545116c7a7d9eaf0a823d866946d6fedf4a,c0d6eaa1ba1291946dc8425d5f533d5f721862dd,663d326d18de598318bd2120b2b70cd51adf8955,609223959ce7fb177d563fb619d5b61e1cf901fc,ed29e5955de5ab26e50b7b60b2c821bf1d241b3f,61b949259ed966ef6fc8bfd61f14d1a2ef06d319,31ff87593f231b86dc47ec5761936439ebd53c20,33564b2391e0d4393b636bbb956ba9a8ae5a38e0,da93fb6ef3d6f6e2a93226480823683accb82aa3,fd20b91208edeea9b3386bc6222e8d07df24a48b,7cbdd5e5d9aedc2aec25663ba3cf1b7a78a494e5,d11e17c8d7c09b9f0dbc4b0df72c6f6914aa68bc,10261c52119f2912b72b55bec4df87d91b180525,9e38c2664ace603dd921fc9f0af9775241d49e3e,46f9203e58e53278606b0ff60060bcfb40b14e01,d7332db2f12d61ca85040aaa6130fc146288cd1a,79af5e17ccbe911fed90f95a280d33b2d99db674,148a10209a3954113581eed41baa11ec13543757,514e72843312ccc6bf63c8bf46a0b3500074e9b5,1434eaf78fbb3fd0bdd1b78ff71506a9bb18c500,496ce56f5faeaf8d36776313e0d1e1e195e09af5,d640d3252dddb1982cff748a140ded6807a6781c,81877af79bec9918ba30749fdf7b0d46d68ec129,1273fc4f104235cdd2e9476c19bf4f31bf970219,c1316e0a52b57be63a6e788ce8d27b4f158c1186,d8194a5cf01a2317336a962cdc72760c557ec723,34d4892b1be8921d0ed2dec20e0cfc330a90115a,e266c4a718ea24ed1793595ad9139664308fccdd,3a980d9e678c6d2b01354c0666d2c14ea2374b92,aade919c85d28882ba3ece6fa747c8ed6ff9ede6\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//socketio/engine.io"
+    }
+}

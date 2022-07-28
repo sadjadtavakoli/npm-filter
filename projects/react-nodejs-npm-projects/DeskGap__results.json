@@ -1,0 +1,18 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {},
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "352488fd184d515afad416a707e06e89fc63d5ce,1ad915fb7c639c1852c1ca3f66cbdaaa5ffec90d,19a6093b38e432e4bfb6ebb0f193c8667453decc,cf37c4542306dc1d5c40011adf70656db629f5a1,ae09d9b6f28495d2e794332c96e6c15cb89b3d74,1578c0ef0cc3e31201599ef33a10f87a7fc48dfc,f3c9322d3b1efc69e2fd76d6186f1a7b6ca2e7d6,977b1a7b43ee67641b72bf5ab0ef062bac9dcff6,1f1912ef51efdac26a11cab0a309475bb85bd298,eecfe2d5cace307fb4bf4daf2b41a626d084c203,99e931a878302c159c977d2b70169145bea5df1d,1fa3ff95cd82a7ad7ebdda0b6d5b1c3d862d004a,bf46a0fc38292cc57b5d2b4ced2299fb5816bf25,695fbffb767978f2b68843b1ca61bc71dbba069e,fadc650678efb52fb80c5f603c8ccde8a6109141,c029cfdecfea32cce748ab5992e5c4cb7847cd50,7cd0603714d1224215f109ecf1692866fcce59e9,f73b5c66d6d4788a2fa94e5db525ce6eb134759b,6f461ef4ec4e7e575a7a94c817953985e291994d,440c1d0dfacbc940208d337722ed4e216b12b06d,339d31ff5084fe7ed2efe7096990b571bb6b93ef,94aa4281f3230e6d47c9dc9dfe39404ccba5a7a4,490d58f20cbac80eedab0ccbf9e6ac78d2accde2,b18a752ffabe3520807e757772d9866645abd478,3b1367dbbee08009f3de488ca565c85843339051,3666176785cdda805ec27aba1ad494d6de270eb0,933bdebb15fd737c8b4fa8f42bdc90452f5d6955,85ce3019a27f154e18ed1ad688a866287ac2b7a4,23cf187149021b74d1f108426cc8d293fd420e61,fdee8a573e1ad237799ab0330527a63aea6c000c\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//patr0nus/DeskGap"
+    }
+}

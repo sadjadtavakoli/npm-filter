@@ -1,0 +1,26 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "ea890db5357d2d4bde2de0b75613f6dabf7d8f85,06e0830ea83eea10ed4a62654eeaedafb8bf50fc,efef88ba2f5ea59446c8b8056d855284679f9f75,c908b8e07ce4e35f77d7a7abb20442a65536ad89,b18cbc0d02fae5dd352222aae3f1adfc11d356c9,938ec81d03b6cf7ca6f47fce8856e8097332d98b,fdca9152ddc3425105f68f85d495deb9433d2dbc\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//pascalgn/npm-publish-action"
+    }
+}

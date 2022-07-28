@@ -1,0 +1,88 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "mocha": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test:unit",
+                "test:e2e",
+                "coverage",
+                "coverage:clean"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:unit": {
+            "num_passing": 1,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "test:e2e": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "mocha"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "coverage": {
+            "nested_test_commands": [
+                "coverage:merge",
+                "coverage:merge-report"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "coverage:clean": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "coverage:merge": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "coverage:merge-report": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "75295fdd1d24455381dbc406dfa7b9b0ffdc059a,f40d71b9683b783fad60c29262ec748ad1fee650,99174da2158bea376fe64d00f410f29c62080a78,69c69fc41e2ecf92e4c0bfcaa162bab69538aaaf,d35f25f2cef43ab65e419f87314080adef48d2dd,b5dbd7d4e72a5da896d176aada8a990cabe2fd47,375451e53846c7a117614f400faaaba01467e49d,5efb512d8242bce08f7be1396d47fa6da17bcd57,3ab91fab0bbb5cdda94c0f89e727cb6700a93714,f3fdd07813cef54cdaad05b42f9855700bc39d7c,ae103b40209bcd1644fbf6178095e318dbf94836,4c305e850efbeaba704fe5a70665f9e00a5114a7,d511e6490e23146878260bb3e7d9f346291a106f,6f37d5f42afe66f45ea520f09836486d6473456e,ca975695d9906e1296d2d75b8075d9c9b3031c45,dc20152274e4377a5f0310713ffcff8cb9533b42,23d5e79d9313e583d56134b7f6677eee6cb9d57f,8711e9fb4813f5257d0bebf5ad15ec5a587b306a,9cd6e1d1fceb6f9ce34fc675804cee323857748e,4cd69f5cbd682f3715377e8dd3fffc3c1c305c96,107a9463be81c49c84b4777b95f47ff66fefbbfd,5d6a821a0ae644ba2b40f299590e6c5c819bb917,ee4eab15d5060bd996d2e4b9de49f524cfb9bbbe,07cca06f72350b328acfaa1150ac4ad6399ad376,1729d98ad38cffab2464926048f44ea22420a845,be412b9c7cf4d2f7ef72cef8619840ca78814043,1e91c457f6c9c8080750b1f7c494237c1f7499d0,7040cfb742a92b9c41d04f9b12bf2fd24973781a,924ed43be209f31152d141bb4f630e0ba8ae19b7,71a8a3e3d0ce50e10a8d5cba67dcc348dd24281f,d95273165809269f48364450514ec3a7d8ede08c,6d1e42ebe5abd0030ee6499dfb0d9db75341e8c9,8f029672f7784afe2cc2091923091a6972ad0a62,59f01db226c7781a2de0a66271945741b845890a,d909d170d410228d489655efb282e4c49af7c5ce,505f289a99e3c12df3cd5fbf50e5636075806a5d,cc16be124250d3f8605370b20b2efb16ca68b251,146cb40afc43b3f972af3a6f9cc58cff0beb0c18,7f99f60b66f381e53e7b0192f9438a8e432aef4b,26a853ae73df9e7ed2e68d3e0bfbb753d184e022,4954426ef928627ec53a5b96a223f57f6e340fda,ae495cfe05f8a46398554140dada56c585ed9082,91a78637ec56f309d95382252c62fcc9f0f3330d,414047507dba81bd782e1f3076d2d52bdbe187ee,b5f979cbb94cce50844e2651582f517fffebcd62,32bfd043640e437142cbdc94b5f3f8af1eef6197,e3d761c48b4b799f63667fa0b0108f1b9b0e6384,01f01b4018336d469bac7d7db4300bbcc765b067,db9418c21793335c63cc01eb531921748522e3cf,ecf354e8aefbb3d508457bd543cf1a5ceb832b14,5cb7dde1566220d0e21b6951c228ebc9482c914e,348b5ae5be996106c01c951462e5a0b63dfb8d7b,13ed35a11bfae88ac059781ae4e3246e69da50e7,f4e858d4a291f6f36e25fe82deef633be7d17e40,2f88145a0e7a8d523d6bc16a2fdaaa459b48de62\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/davellanedam/node-express-mongodb-jwt-rest-api-skeleton"
+    }
+}

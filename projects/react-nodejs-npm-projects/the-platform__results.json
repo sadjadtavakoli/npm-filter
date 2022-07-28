@@ -1,0 +1,29 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "num_passing": 2,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "f5b3e21c4aea6e465d2390c11e8018d7355149ab,d6b60d15014d136a29f864e4c55ab22f85200161,bd053779c60975919ae97a564097170ae15df235,f9bc7e278899629773a1f9fda16220c3e5d88cb0,e0f185ab716d4f3083825c4334cb1134ebce838f,ca3538b118f35c0f4aa1a93b96b0757bdfc294f0,69e8599f32562cbe83ee11f373928873838af8c8,0f463f68f62ea7eec86a82f5164cab6870302308,51dcad093a7444e4210bee5c7a371899ee30049d,e50b4802be44fd1154d812513e14ea695104cdc9,6d4da798cb292c69becece1496077ca3aa85a31b\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/jaredpalmer/the-platform"
+    }
+}

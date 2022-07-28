@@ -1,0 +1,28 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "90716ea9ef2db3f9a81bbb1a99ae6b318fe4ed21,eaed5055db2776e39d685b0e81e91a5737f67b2c,1082fa274a7d9db8ef0b321510535526f00870c9,a51d96f389ff59f6381b4fa2b0b3eca11423084b,c14b1f5fa762ac2d33a7ef3a5198dc324cfddde9,f7106a6c8f2dd2c0f3ec94d6ef276b94040aad1f,520277f5186ca5cf9db4473b1641e3c908a57cc6\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/galkahana/HummusJS"
+    }
+}

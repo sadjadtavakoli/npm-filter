@@ -1,0 +1,50 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "num_passing": 66,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "nested_test_commands": [
+                "lint"
+            ],
+            "timed_out": false
+        },
+        "test:update": {
+            "num_passing": 66,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "nested_test_commands": [
+                "lint"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "78a1fc346d37a124bcb54f0472f32fb69dc2f918,8651e10411013d031b9fccbff2c6425f55635c57,6ff43cdbc3893806112c5b6d452503b6fd07f45b,733ce3f025360d6bdc702850d6e34769441f7a3e,754b666dea798e5117ac0ba87404804d4d7d63c2,5fac7f29de0096b40b068d207a387014ba74d52a,5f922fbe8958057c504fa4811459dbd81a60529e,7b80f3a448b726b7ffdaf4c3a70997789a70b497,75c291e39d9ecd23b0bbf54a6c5c8e9a086631be,8a8c8446544eb8e144612701bfab7e7da14a624d,5dea61c57c8fdae87613b3f8a221c33dcb9cd94f,a03c4ea6b9eee0ba6fa63d5755044e92085da56e,4e4a98df3cdac424afe90cee27856680934c31ad,3ce5b3b636ea09fe00ec93f9699872a3533078be,4e9cb3160de88abd30dc5fa80dc3daa10130333b,0c601768ec30a47e03962d2643b8f04bfa8be5a4,9b423c4df9f9cbee7b09c24271b537aca1889736,39c8f45ac796333e3d693608ede22d779a912df4,afe1171b5cf6d46280e8d385d646ca32209a79f2,799eacff7fcf373053b0defe776a97f90cd7f42e,2a1ff79c395a8c1dda507857075e4de3cf9fc1bb,35927f5a264f45ef2ae28ff315d1355b359804fc,4fa6e54a90d0d3f71f20751b2f8828af59549a59,8bbe9a0df25875050200ada913e7a3b5b6c7d83b,b89f13a43c940d76dc8ef8dc0cf543684d93940c,487cb9fe84c65c26d58377a647c83ccb28bce441,275185f3738f974532145cca5a53ce709c3f88bb,10c49955411b238da190c867b7e9baf729d3411a,5e210e8e47e71fe395b6614df62b22e6f3b9177a,9bbf52d563a01754e08ed58109b4b52f3f41eff9,9232edb1d22a33135b8025220bef084f04b20d5b,db2c9cb38790add175b11557935991a5b7bdb912,da14ce960bbb8f66694d0e2685a8915942a33e11,d319112bee3102978d4e4f147849b9e818151eac,78012c58618ca289c78e94540d9c3175a838e50a,456cdebc0885214cbe6b04f6cddf90c4ba5d5ff3,2c4ed54679ccaa4148da3f6fb353510fd1c17b6a,cd1c96c1b36aa6d2678e4bdc0c62174a1704d36a,b45932f1c6aa4ac2c6e85438c538fb05ca7bc724,b6f05bc8be68cb9d5ad1d72125eca3ddbfc5e41a,70c6e71b5f47ad1c4e6ce3e69fb397a7a094cd62,0ee11a67b3a38f4209abdb93f32955d0b24d2ea3,87f411e4b98bdd1effa394b96debec12f980233c,2c2b29e73a392849c2a04e914cd3af16e4d7709d,8a51eadbb89f4cf100967a441b6bb2cd345306bd,7063aaaf8d5fb29b64fa7e1ed97f73f34d20d9b2,b6bac63a2ccb78f96650326a87fb5a2ad145a247,c823141eaf92a6ae2d5c3957cc74b5f41f30da14,609b374cbce7d754a13733289e73f6dd1737413d,a74f0b8744b264a72e922fa538943f50a700b43e,bc5c2f5b7499978185ef295dddac8b50ce8b4d49,25ca89dd20fa0455483a2f773b45ec6d22fb3331,80ffbde4c1626a4c9810524d0065d028c1a56fbc,3cf3650cb26ce3628dd7a7a259372b372050b04e,763e1bc511dbbfc339f6b0d108325db3aa323b13,8ec245271a4ff481d092b6d0632edf1ca578cf48,4b285db66c2630d44bd4d08ce29864bac654281b,abc8fa7c5aa85f35cb01bb21a777061b028a2cae,5e2261fe93f5a41e932630fb15a94d71a6a94d79,40a68a47a48b8a69d995696bcb1af7268a8b5052,f69cd2b62029770a0db32797b285f0eea6d6d1c2,e58eaa8b3e106486390ae7eb249a578fb3c4deb5,dc2131d3216cca175b58a86244dd165516113479,aeb6f8e3823e7efc5007e51a0c4edde96809a7a1,fed0beef04d1c7b65811f5e013ce9d016b27b04c,05d394d867325ffd1f3077e33e338a0b95661ae5,a9555a385ae49b2f29e0a770e6cb240fa2876ff8,032975c1027202cc679def7343f729ce62979776\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/JasonEtco/actions-toolkit"
+    }
+}

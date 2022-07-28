@@ -1,0 +1,52 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "eslint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "mocha": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "pretest": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "istanbul -- coverage testing"
+            ],
+            "nested_test_commands": [
+                "eslint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "5a4787884eb0abc72c49fbd67b53e092fef8b9a6,de76dcd2cba04d854de9097e2804fde62bd4eacc,5d30b6a1348d11886b4edf16fcddbda718b9c39f,8bf57c12757dc2c3fdf4513d538ac5abaec498c1,f4f015a6219fc8efdb521dad72fb860361235de8,ef48af49f5857cb908c59bd4a59565b59c267bc0,9c60068122bfac2c1deb305c04172fcc859cdbbb,eed7c1e4d0a6e6d26a4a2c52d44ae880253afbaa,3263c6c253b5f8b115557361cbf04650f898b08b,daab34d98de9eb1400a681ec541e0380487e4c24,83e42201ee78b383c48f220259a2ee3ae037795c\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//yagop/node-telegram-bot-api"
+    }
+}

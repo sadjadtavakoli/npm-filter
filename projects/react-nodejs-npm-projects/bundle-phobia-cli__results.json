@@ -1,0 +1,77 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test:unit",
+                "test:e2e",
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:unit": {
+            "num_passing": 85,
+            "num_failing": 0,
+            "test_infras": [
+                "ava"
+            ],
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "timed_out": false
+        },
+        "test:e2e": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:all": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test:unit",
+                "test:e2e"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:cover": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "nested_test_commands": [
+                "test:all"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "publish-coverage": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "996da6f589f3c451d2b51af599a5b02c24e872ca,d70a66fb0d1df1674a94650ed08516b15765e76b,1504a35320d70335d1779d7d194bf7fd3d646a58,77177eaea5239face28abc39a798f0371fce74b5,b124dfaeddcec14c47ca39d32b5a21ecc5822cf9,94cec052b5d31370905136f65e428c545394cab0,a42140f94d63ac559c667231c747928c3ae7c441,1fa93cffb79a61277a964024923f4635dc4f310b,58fe0c6025e3f524544344a095c43babea79a5bd,1d99bdc9c92d93a9738de1ca968ca5ee1a53d736,0c9d52fc824cf45127345afe679ad86b32a8f405,8399443097217d27888b84792478be3945d24180,d7444a84b328f146b6f5c6e62a9b54749399523f,f0e1a948a9af7c291a67b9d05266ad3dd3f72731,1176dd7d71bcfb62290cd14d73fa7e4184e59377,b7b4f9084c6948380667e3cb43840de36a291c9d,26e6ad978a14e8bdc37c1c40bc47f0589122b6e5,07285b074a9040a725b6470963d43b2dae522966,5e19e3c14298ee7497c6493735a04ec47da7fa0f,cd137a916626571abc117063ae8c6204ef6551ea,7654c5bb22f2141bf6330f18d560786311d4120c,044bdd0dd6dfb13f0fdd8a8254a704c8422569d1,c8e920f3cf950859f0c521251ac06d2c2ebd7f5e,03fce5983a5413259dfc1a1fa174bc144cfe3e36,a5016ed64dcae5296858d0419fdce00e1be881eb,b96eeffcd94242b28047b2e0f8a19bb27ff50a64,e495c919b6d6cff6aa9cc6b2dd69380db3baaa0e,1b14d4ed40ea0688143b74a473dbabb3886184be,78e79d609d3d16d0eb3b02814bc041d55ea18e43,69238d286db7ca53406906605583674e4ce7d4e6,af2c40fbec134e322127fbe4a1bd7aed597003a6,fd3bddb083e71baeaed56823507e5e2062b92327,19b9d6fb0571a4e81f6be319b14346fe22b80b1d,a22f943e39a394696e7c18f9e6b750227edee2e9,20109942a5d0fbcfb0b9c1c5b74d280c110f92a6,6e6e2c0e370dd9b01b385103fba79c40d29ddbdd,65dd410e762a2697c9374261d38467b93f7a76a6,68390cd08349fa98c91b0b8bcbf255e304565ad2,164a175f4a8947095090fd92b2938b28f5f37bd6,1b378491eb96ab9f19fd26d6325b2e27184109bc,28023eb1ad644a81b3482b3f87ff7bb4cfe0215d,d4f3c05356a8388bbc92282dc58bfba17d5f211c,0b78d36975edee42fc09ef0ad869df6d6b3604ed,662c6e7e9cd8aba3c8a54d4cb610444ce5b484e5,66c75d5c18dd00e54c2d1f0d075e99b06314c297,73e5fe40cb8ff0763cc1967e4cc75f3cb42cf595,92b9711f203c5d5e7759acc9d379123088502af3,75dc73ae8cd706f27bb17c92a268843cd366d221,b62d0ae7dafbcbb012893ebef7943a2c7e8bf4d2,5a3f24197f01e26e793911ae05ea83cbbbd6bbb5,ec67f381b1c20f1efd6f99251996dbc6b3f768d2,a960d7cc468a12c6e3e07f0347c58babb21a8809,4184f300e3d711282fef8f8f9fd0ad02c3394281\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//AdrieanKhisbe/bundle-phobia-cli"
+    }
+}

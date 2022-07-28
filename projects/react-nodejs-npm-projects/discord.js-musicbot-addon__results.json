@@ -1,0 +1,24 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "6e39945db88ebb2127d6803331867cfbeb8af241,8829784fcecc07a3492f53472d81566dc1262a22,ddc0a9f5d028825ac18c0d2b5ae1bdf46e5f6a79,301cef7ef2ab334fb42250b945713b46e4811e55,51b8245923fc8a209f82272dcd6c682a1f272ba3,9fced5bdc11ab52618b4e12af74b2abf35100305,c39a39347a9e63a088e10aeba8d807cfedd3531e,65024eb7cb034021444dabaafe7303d99e338dba,bfd72a4199d843116cf71d151a636d1b9c66d31f,61b8ffa2101045420492c5597ab7f55fba0ba01c,2a12bcf577e6a4b2fea3e9fafe6682e89d6a7a58,1c27fa6fcba77129d179580772bcf8d6fd10092b,19b625432c62dc7cbafc88820cdc46dfba61c3ac,d353f6c1825ba1d1a865d9d4346cd8359d8f7414,715edb1b758f860d98f91f8dfb3a0e7aebe3c7a9,2aaeb9c3db62c3ad95a2327476673964e7ea477f,254afd39b9bf0ec770a0266f80ad8b46860c6ade,754a9e09c812fe4449b4794c4a27a36108d3cdfc,08f5023c556b6e886384efb692777566588af452,27fb9b01e32d1bc7e9b627ac88f6636b2ac7bbb5,e82d035aefb03ad1b827d7dd3b8597b710f01e45,02c8970461f6362aee4c9504f4582af3556e2b2e,d5cba5326965e5f2b02372e2b5b0289694293b73,9b06e0259c1837a631f892fe4a610be5b266e7f1,f31ba817c05d6ddd6b683781da4e6294879ba3a1,6481000d6e0929b0c94a67fc38b280ce5b8a9eed,563c149d4dcd701f36c4789fed8cb646a0680f7c,6c5bbb5f180721be8cbe0848303400f6ea4604d9,17ec2e57c10674ba766294561c292ac08f6655f9,b70723fdfa764faec2518150b39846d99a2d3c79\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//DarkoPendragon/discord.js-musicbot-addon"
+    }
+}

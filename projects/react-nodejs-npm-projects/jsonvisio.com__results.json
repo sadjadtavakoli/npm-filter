@@ -1,0 +1,33 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "num_passing": 1,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "lint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "e1c9b08790f4c8935e70416b4e23875372708dbd,e671358c012189ed64594155e00b320ef9bd3652,dba8e62267cf4cc760b2a0b0766919a0665d78c3,560911f6631d2d0fbe7ccaa243304bb7abd7080f,d90bad36efc4c8a12535c0671f60ca5e5a614669,9e7316ab3106f8cb8cf29308c8d2532c13c6f33e,6647e9efa1a2e38627926d0a1c75944c67c5817b,55b8bf6d16c2113ccb3bda9d0a25c936c1cc27f7,e1cac518083506f4635638c368331c4421af8d86,2c0fe50f29e266982854cd0d44d18903990ff3b2,d93b24158c4dd3a51195aee056f441557ad2cd82,bc87f80707ec1874d635db284c9be06d23c107eb,134693dc06236293241837ee9cf7422e0a996a4d,2f75500843d37126004283c31c4de29fe5b2cf5b,6fe40ce9f28b35c9fa12e5436667dab092b4c4da,5cf7cec67e553e11308479020eb8d4a64b899bad,e200fa4169b5c9627000aaecc155900bd782002b,a4f03fb39f8342bddd1ece230b1612c7d6d0b81b,2ca1e85151469a0d81d0f7ea89672ad03f9800e9,29c55ce754a9f5dd6679ad69411239819f6cf835,faa39e9baa7fa4e79ccf6ad89592886b4efba84a,1cf090805b02b9d3a393da696d18836f12cfb1cf,0cdb002fcd0b0984eefe46e3ada234eb589e4dc2,f1450c7953a5605cf9053e9740042866e1a563b8,3425f79e1bbfc239ef8989dc55505c44e7eabc23,11e67298a05bbd5bc0d972c4dafd1ed3023ab1e0,8b2822221f5738368a12a9c01991ddc39d4f8e5e,ed09c71d925b613850046549a6427c4ce1184aea,08755fef540a42b8ec9ba4267e4980aa18a12d5b,91bd509cb234734fd32677cbd51990ea52533fed,07ecb14ba5fb71a05d0babe1257e4667c9f57ded,3dff1804081c7dd0b3111ee832cebc2258e63d3d\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/AykutSarac/jsonvisio.com"
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "types:compile"
+        ]
+    },
+    "testing": {
+        "test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:webpack-4": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:pre": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:exec": {
+            "num_passing": 186,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "test:post": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:fix": {
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "ce1a55cb4c4d7933dc3669862acb273c8df7f3bd,ae523859690d65407252459b294a68fd9e5eab3a,e307d50bdc6622f4573cd0655b2fe5b9759a8c30,77be80c859d44ff4528478e754aedf5f6df48965,b10f81977024374c10ae9318654e6e8ec4415d6f,fd2f67d701b9d09168ca9b3b56303069d73d5274,b3199647a85067fe281058be0704f029d5e64fcf,a8659661b09ab224ed49e481d3e117cffa380648,59a5c2f58cc759b5bebd615e581c34bf76d8433b,cef46e5bbf23ff2058cf43f2676ac9ccec2262c8,3a76ff8c71492cc5083f47fcf63c7cb52f4ee77b,fda6675a8ac10ca7b1e3f860d5116c365b922b48,a88fd0f9e06ac9e0b698ad38e2b8f939c49a825f,ca31cb09ddf34bf42a25346f6b4d39fa5c9a9eee,b1d6959a33ae679adef3abd8116c59747b8731a8,baf01037db6ac09ed35c0fc7a3ce8c6b7ee37538,df2d80442bda5b9733be44cb28208481d0679bcf,b49f83251c388dc6cbda6e388218a3f1d750d012,e8e32aff34faefe0a40fc875a4d130c6062954b5,db925e17f6c570866a10a4927cf1d90e20f543d9,60cdd35256d740178ac86d28b18f41d12806ab1c,0d801aa109d3159c468b1933285af25b44bd570a,eaf46ca3db1de373d8d2adf7dbdabbf0a1619396,103d0a889dd58c0ea1bbd072d443bd18d760f6aa,68876a7627adce496f1b691b8b5b8a760c50796a,9c53ccc8c2c696749006a7903aa48c708270b2b5,33f74c5fb18bf38e61c11fdb91dd1098c301f641,536ebaae07881499be7f10852f2373274c64a171,a844a52af1a73b7108fcc3469a79588a728b7e28,36502b77e806054da474c11e65e43ad03da879ba,be5b0c4431a5742ce02b7d3e4a9d528b0f2ddce7,fbee96a23235a046464c453b524b7b362c682c4d,5b7e394674038a935f829f1d7b2ce206335692db,529deee907605ac8879de307ea9240620db3448a,03c6fbab6310d39da7fc6bbea3fbb73596f42e13,64d0bff560ae0e1d8e1ed2fec843d1da313e8e12,a28ddb3ff98d0f31a2fc8ad51fae0f018c3391a6,6f0fa556984e838053e2b1054fb4860112b6a485,bf2f11fb770db7a36795462ec67dcf809a48ca27,5b30704acaa46f8ac1d36422343d905819dc4073,c7a4ee06ea1b4cf0706223acfe4ff9a273f23726,eb35a414a8c29842993fd631359e28a688e05b17,d9500143f1d880db063276a4486bcb7f91182658,493762518d20c49d39045b233880db29e634e7a7,7db5043c05caaef22606f4705483319b4529a125,37c0a642e3aa6399f8dd050852c2ee3373473560,a583ee05b6ea47561fef5a8266d20f71c9704dab,a532fda89f6f6dca4cf0a636399cbe4c40860bf9,4cb69e1afd23c2d59956ca8503201dfaa5e442af,241ef7ef9ee7a601cc8720fd39b90da88c18c3dd,6468b91c7069ba8c8f64141d6629dcc3dad906e5,be534ef619e726f058bb80fcdd672a56a8cdc394,76584fc614d19076e9c7ca431b8f181359a9d9c3,1892774e03d5509af466298a8d8804166ad219e6,518eaa8bb6da2b0d8e46daa029108db777fafa11,d2677bc4d8aba4d01cde43da36bc2e8bbaf5700d,b267db626203101c440493d61afde27441937bc2,342c066152c4a54cd11f0d9087699f1e24eaeabd,9fabf592a5aed45dd1cbaf8c30be1c4badfa61fb,ded16461fd7e1307970e337e3fa832f09fbbe015,1da00081d4712db77aa66c4fbf315ae3d586b915,faac7775ffac6fb3a15c7c0578bfab7c00ffa88f,b24136648f4eb53e515cec310d68c347dbe071d3,bd307853c4b31ce471144b5e16f3e800368c2807,d2281a7a0012a8951fd715e6019823026555415d,d0d3da820e0f4380a21ee74e18cc98ef1eca3d82,c5851ab92decc3d886a053dbb89bc6b118750892,3c145f2ec0ac241f0c2d0c570038d669055216d6,3adc3859a10675bdaefc7a695ad70c93893150b1,410b25e360de912429344197e0a8c98ab27e2f7e,a4a4eced1f657df304b8dd1bab26d035a8ed5383\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/pmmmwh/react-refresh-webpack-plugin"
+    }
+}

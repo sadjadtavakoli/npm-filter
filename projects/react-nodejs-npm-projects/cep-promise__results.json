@@ -1,0 +1,70 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build-browser",
+            "build-node",
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "nested_test_commands": [
+                "coverage"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "coverage": {
+            "num_passing": 49,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: babel-node"
+            ],
+            "timed_out": false
+        },
+        "test-unit": {
+            "num_passing": 45,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "test-e2e": {
+            "num_passing": 4,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "lint-check": {
+            "ERROR": true,
+            "test_linters": [
+                "standard -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint-fix": {
+            "ERROR": true,
+            "test_linters": [
+                "standard -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "7d36f803d50123de73c46d8dd5053a40584e63c6,534a1e4f5dbef795f1b7b4b99bdfe211a4ca4ff9,5f8b8d40c96c818d6b7ee57e5a54fd862e7c6e5f,46bbc89c66a90b9f963d9808d225339f97d8f6a7,4d54d7654b8b64a09f44a4ace8e49fe06c4b7fd7,bff032a893e8399762d285ed29b59e3a239b4d51,4144c3218090fc14caf32ca0849f96a75b919571,d82898e96dae4ec7628a52317cf0f07d9efee7a1,d0d98a3cfed6dba0b767e414f2bcb8659c2d94de,809ea6fb1504e3f4e9134c174b8b7f5f81b51ce9,613ad5cb0f0fe6d409c2b1afb07259489e5abf6e,8a03f2b4bc076dc820395e792343d660343c907b,90200a5622665b7589dd83de00b37407080c5238,88938ab996ba039456d88ed26988b6bdbd3f8095,c9a3b526aa0826b3baab56bdc95c35a4dc1ddfa2,d59070198690c8a76ffa17388ba5264fdcb9407d,e96ca7e3a5611fc46fdbd9070b5d8d780caf0f28,6467239648e8fa064cc2d15993a34c1413538c83,47b2dba94f6657f162fb5bd43793fe8cb0c4d42a,c4fa0b1a2be8cd414582e1f95241729a90cdf454,9bf9622b576959fc0435aeacafe31c42326f7670,1785ccf0a3c0638526a0773ec639b8eb5afc3717,aba649fd175cfd9d099801a44d0480dc6883e3e7,f92feed61166d5f052cddd89753b33c5ff686872,c8e6db3ca174730104dfba73161381c7c795bf34,cdfa332516053905ad75c74ce479522822388fcb,0055e9fa861e730a7fd45089049b045bd10de317,2c5c5ff59cfbedb6dfe0764d4fc3f5d9dde530aa,42573de21bbc8d3fc0ea0c8e6d6a30d2fbd95f7b,c161593ed3d3f674085417000ea116887ed96912,9a62fbd7638266304941902141fc513d733a8e13,9500e6e6fa4549929d2df3a89128a3f4ec4496bd,7b3e6ce094882d23664bd0bc64d9e230b4321315,caf3b8b6b875f24c6a0f919018481fbef39d077c,02492042134b04b0130c5c9c2da88655c3bd645d,c65229186bacf9b72959e12570e6bf2de704953c,132cea01a0586ab6497b7f8c780779720fa94c3a,529577f4b970141b683582eff16b191a7837b446,160f907edabed8cc26e29546f414147630ce0527,2825e6367f2bee210e91fb642e0b1210937060a1,63d545db22f7f097f6218e438c30ee1ca5c1c658,e04bd4ee1fcf410803929c10479a4d5da73a3013,8a3921972b99d45998e435917633428c4320942c,5a4f04c7495023f469ac6fdd47a224baac2cbe91,57ce5c47ec39a7f5cbf8d7c760e5159dbb0fe364,baa78db68f02f5816efbfc0c078d1f8bbe4f7777,69c5aeff1df7ec1d3ee31d0249ee8e74b7e617cc,c62d235b755f2990ca35d85576673c9dead9e56d,3da30f4aab1b212691c3d268a94d0be53cc8838d,fb1ac881e21155f4265bc1daf8dd48cc68f21aab,ea9830968f76a2fa06cec53f5278b96186e2e55e,93ce58b9d36d944966c9d9830fb4e6c9a5a6c12f\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//BrasilAPI/cep-promise"
+    }
+}

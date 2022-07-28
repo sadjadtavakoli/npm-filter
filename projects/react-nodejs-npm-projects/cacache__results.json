@@ -1,0 +1,44 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "benchmarks": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "pretest": {
+            "test_linters": [
+                "standard -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test-docker": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "33d4eedb2b41a5f9449c1a0c8bac4d2981eb85be,323b90cd93eea624005a51a20e81e4a3e2cbccb3,6818521767a6c7344f1a3c8bef70817a7ec1f4f8,0b7faf6cd2021323464e11bff526d166037ea547,03e947e899cdd4f4ea267875fa7abce7e5f9d45d,45ad77a42610d17bde22c3434477e16ffc93da5d,f0b39743cee573d9a8c6854662939490031e34b4,2597e019e8766b0a3a6a97f6012b8fe7c7d35079,39553662d8c4c62bec3a0fc475ab40c1ce8454ff,6f8cbe8602f18084961ec457a8486cfd71b1260a,66b857860b4af48d3afa3bc72dde6967c6a6029b,213fd12afef58baff2ac428054aaa6e6934f627e,5b724c8e5f68cc2570008cd1b340cd3776dc4e41,29b07e0f9480f0f1f6c777c232060f77188afec9,09ed379beeb6084c123e9d7b6598cdad99ca0529,16f3d17063d10d64b893575cce55b0848dddc94d,d5d45f99993a3fc52a3cc2d7eefe4e6d5010f65d,7c05bfb49f7e4c17ebf084c01494624cba15b1ee,d6713195ffea33b1661c636a68b91b48f7d8760d,d16a9675fec3a551bc68b9353538874cb5367892,dac475e881db4bc70b9bb5beddd7a2bf024b7d16,7aa341137c8afd5896d99ed75bb2cd65c474fefe\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//zkat/cacache"
+    }
+}

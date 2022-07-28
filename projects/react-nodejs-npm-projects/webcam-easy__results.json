@@ -1,0 +1,18 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {},
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "05929858fc946a65ad67e1f631420f2bc52546a3,f03aba2bbc08bd00e7e22b096f169ca70044b5d9\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//bensonruan/webcam-easy"
+    }
+}

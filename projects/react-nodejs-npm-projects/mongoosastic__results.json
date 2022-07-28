@@ -1,0 +1,61 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "lint-fix": {
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "jest": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "lint",
+                "jest"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "coverage": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "c3b22286cdd34bbb899cd40a30934e3ae28ebb10,7cd2ada6748d0805347286421a54c5a2cb9df01a,bf686b2a2224c7f6ed43c00b47e326c8c7a4cf16,cb7148dd7de5eff0c6f3a7baf9e6d0442080daed,c27947ccedcd1354af44d871f2476f8d52f4889a,8eddce122fba827a9dba7510b8450603414584ce,fb1e65a00083166cfd6093cf9f94392dc917c154,6462a68d4b1f8665ad72c15e0f46b65e7e5d78e8,9688c0c45176c31e6afb0ef3777c78714916b3ab,766dda5c4436f948a75feb1ee92ed88a1f909e41,56d592f2b76028b9ca3322f067adae58c72b3209,5bfae810cda4d290b3444b010932d7c04445ad8e,d3a906e3d7533222335b8d16bf7edb703a31f1a6,d7a6fb9970e25f4be546ffc0ab6b565e3d6a0e02,67ce1298f594321a259b176b76e5f2ed3d45e726,6f0c56121f24c5cb37c36a00b4e5e995671994da,24ed6a548ec7371871af09136f6430468241d81c,8da3392bde4373b18a0961fa1eacc3290da301ad\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/mongoosastic/mongoosastic"
+    }
+}

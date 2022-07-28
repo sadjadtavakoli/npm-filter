@@ -1,0 +1,32 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "nested_test_commands": [
+                "reference:test"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "reference:test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "54e87b3b37af0bf0cdfd8ee07879f82abde9dc95,5b142dafaf87897fe71f0b0dcf511c5115cb7b29,754412a732de18f7a3b788c791ba0c5eebae765f,ae3581df5d23db9b70073d881b60e63858071411,fa0b3ce9c3819aa95d5bdc0e77d8533bbdbd88bc,ae33af794d9ed3854a14e54097f91b93c6155719,f3e4e8b135c09bd2c42005b31224ffb655c329b6,9592d6045a8c80c79581e759be80c95f6308c131,fe77743928055607c683b9d04111ab53c8e91b47,589891f3b6c700471680d3d5daef67b717f5337f,cb2843df2716d7e6d09ff4022715293df72877e5,0a73093683840c9a7ce53792f238387c442d9422,3968facbb94c6a2dce407a333e8e2d65d4f6907f,1efaee47a35809ba96acad5244a6cf3da6f3668a,6bc2cae7e307c6730a9426e7c51b7c0c3070f96f,59e01558fdfa632800ef82eb093ee578bf1ad071,e83e457371bc30d3332da3082ecc5a4de848e128,2a3c0524f653a875197d21ac62550baec7e8c176,53b9ca1254dba94a3968b42898c9f4f53db5c375,ccde7895aec4b634d08de1fab60de174d1f72b1f,73b44b9ffc1623971daa2ad2f7a2ab5ddc9e35f0,766c66270eaee2d4a96bb7d1af30e29475dda45c,a7340a423e7687ea6dc33565773c63c1b6ad896e,563b6d5af7b9390d063aa5571cf9a6f54a7b8b6e,c5e45494a5b42fd280962e1c5c6b371d9b95b549,51226af1d39bf08c9cdfb838919aa052db8e7eb7,0ef9f29cc07e30da6c8ea47b6260d9c7528ad903,e7490604138ea0d42e4076427831a171016d7c51,ae6ddf3edcc22f9ec0f5ff7a9d9b593d64bb19d4,43a1257570aebcaad78a81bc355159285eb02408,53c970b6d7af7ea52e54c9cf4dd93084dab23f2a,3c49df9ba77ea2c5363b03607aa6e949e2d05aab,8b1193b8885999292e516b8edc1fa8181e7613c6\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//azu/monorepo-utils"
+    }
+}

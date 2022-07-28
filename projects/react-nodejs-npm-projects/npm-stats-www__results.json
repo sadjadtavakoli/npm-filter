@@ -1,0 +1,29 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "475845cf9afd7fe7a899571ffa00338687d7b26f,0a98d558f8ee9f672542f8e2ee5201a56d9bca37,e15397229028ccbae68cee521b8e9f8cb5fa81d1,3a6b5c1740489617e653e56d976a324aeb9848c1,2ee97603d292331abb97f2c982e018f8829ae3f3,288e963b3e0c4f8a16e39e019b36f9a4ac33f8c6,4f5a5ac80008b14dcd1b1f8044aa46174fefa39b,5c97b8d0358cdfca46d70061bd0bcd6e6fa8e981,72c809b21e9f49f3a38b6c2d1b2cdbba203f38b9,5464eb541d9a0d8b521ef478542b0cca78fb8e63,beab317878ed6e76985157289a02e73b95b74b88,7939ee67818ab94537e5b8e38ae91677c5a317c5,c91194a0d0d3ffb13e07605b4f7d84d27fbbef56,97bbc239da8a1945fd37a75a16322ca89c0c61fd,6ae13604cfe96f20ddff711c0daa83627c785350,7119831a883f6f0815aece2a9050cc6b920ae522,c8fd465ab8bc72a28ee7f70c82036f06d691a5f0,29b6a5263d0823b04df8ce62e2c175e950460d44,0bd9265e57becf92666003ed59c06fc237005a98,d9b493a0cdd3f7e4d893b4770c04798bdf68303a,1fa1ada5671d795afe9d6f31c910a63b9acb36a2,f545022be31d651cf2307b341e21f160ffc37d28,8bb1e9accf3b722269420a4393ba1b00cd54fce5,e0907d2f3e19072d99995b5453724b38fe811855,94b2b1616f262e1896ee0033d707325c1754e97b,82967d23dbf8c07655f544713d6804ab023a2cab,5b38623ff1c5497c6b41c2f94c2eb93b1866bceb,c606dfab9842c58a2afd7c42c61489bc220018c1,3f4ec5bba623b5f55910f980c4cda3cc45488fb8,a1aac10ee81c9bc877eb7600defa64c061d92a3c\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//matteofigus/npm-stats-www"
+    }
+}

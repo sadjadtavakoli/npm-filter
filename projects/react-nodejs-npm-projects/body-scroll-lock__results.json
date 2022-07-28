@@ -1,0 +1,31 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "buildModule",
+            "buildEs6",
+            "buildUmd",
+            "build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "c5d5ce43b05042c3edef8e1cefcad6b8d1535075,381202aadae06da7a352ce48cca090f031ff60ba,ebf20a11dfeb219621916d90e88dc5bc2f1c071f,702aa1cfa3421f7c27367657be342eccb3f242a1,198aad9b3ca6ee0f0560dcf13ff6264b68d0b0df,aa4470ebc3258ed20b2997877bc57cd8f9e134ee,01affb80ad64d93d22bb98acfde6270266a0f5a5,14332ed46b19dd79909df39a859e13ecf751cce1,9ca3ac249c45fd82eb11b0666c23ab885bdcc56b,13016a8200882b6ce4283b590ce13b3642f57b53,b930ecde389ea24dfec16fe76d8b756a7680ca8a,0adcb08d61bf2516ad6a891466e83a3738a304b6,8d46d6a747eb2115baf8bfa4aa117f70ba252224,77b70b31daf32eb216e816e6a60b83a56d136822,84d82f7aa49eed6e615eae2d85033b35a248441b,304a292c453ae338d59d7b53b53fbf0716ea68f8,1f1b4fa5442409680e582093c9eaa65141d2a05e,c16b5d2448db4a26bf11930da397091040736f12\nwarning: inexact rename detection was skipped due to too many files.\nwarning: you may want to set your diff.renameLimit variable to at least 11440 and retry the command.\nwarning: inexact rename detection was skipped due to too many files.\nwarning: you may want to set your diff.renameLimit variable to at least 11440 and retry the command.\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/willmcpo/body-scroll-lock"
+    }
+}

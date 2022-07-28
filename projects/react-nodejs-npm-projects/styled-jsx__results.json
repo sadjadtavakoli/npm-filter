@@ -1,0 +1,39 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build-babel",
+            "build-webpack",
+            "build-index"
+        ]
+    },
+    "testing": {
+        "test": {
+            "num_passing": 94,
+            "num_failing": 0,
+            "test_infras": [
+                "ava"
+            ],
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "36fe10aad4feba692097dcf451bd9e5d93a05a7c,48faf0083053fc1f47421fce2b35f6a9dd41505a,2a1bb87ffe14eb89990208fdb99fcee5ff76b2c8,8f4404aaa71d9321b604e9253423849ae1fb907b,d591ce27c9ae4d41d7833551e5a153324cdd69ca,239135af3b98fa30d1d308a8b3892ee594d19804,b9452f5124ee545ab363060c3c0091211c8f7484,234bb8a28658a88bc02dc67cf952b6fff4557f6c,5b1de301a4020281736354fc29c5760afc5cf0fb,0907abb7711bb51e529621babc7bcb33ba0bd6c1,803896fc36f81d6689ee0f074306fc130a731698,9708877251f818c31cfb141cb9c519066a01e101,58da7fb122657961855a0b0f10b6cb24b3bf7018,d95f76727681524e0ab5ff7293751389f06ce288,f179f537cd1e7b17de02e2bc438d75cf6e3cd5f7,9d48d67cf3669b81119cf78353174e8f5aa58591,03af1558a5b8618a0d3e195dc54e3ff903aa9323,5ddef29bcf444f697e5699e59183c7123daafe8c,bd7ae2a7f2ea755c54ecaabbd84b4337a14664f3,69c00d4ad8349b458316fee112931db162da5cad,051d0d182bace7b9d8db374ad783c54f97512e3d,2831798e31646133296feaa9096f66a15f4672bc,c5b3f6745bac8597b6230081fa23547fca8266f8,e30d2a7fd22e9983f6e82887d4f1967e0c965b16,aa4537f2a98848412deb9f8832c8a2b7cc2f1aae,7508447a31863745aded16aeb13ce7103aecadde,ba7024292087df6f8ac94d68c4a298d09bf6458d,bf1a0a280ac03352f2a856856c55a02489b3de8f,2604fd398e9f5de3c079d54ee8583b07048a9401,5213cee0e3aa5f50f61b4f9dfcdd6deb78c1b972,f38e7e2dd4f8b4351d78e2b50f2d9fe0870c21a2,d96403dacb8ade9eafff2dc5d2c043f80d784916,3099f5b8341c65ae01fba3200c74ee8dc93c0d77,1d847211f346b0c74965a6cc8c9f56d04b78a378,e24516ab8a050265e842433947bd586e4484f47f,d6785e1ab30698370001fd58062df542d7e11ac4,81ac6a36ba2c52943439a3d9443530e0b8e17091,15824b27f59ee3bb2b26cbeb752a96e288ad57b5,c388ab564a64bd212d66fd768687c73c440fe6b7,d5dd92ee4bf5542dde4fc9479a45199f430e123b,26c86c7e08f7379334969aef76b2e35dbbc1c5c6,a9630e5ef502f52d5254338bd7a362f253ae7288,3d384c925dbbf60ef78f28eb20b7e5a7b6855494,16059472df2c22f9c2206c08417672efcf7c5598,5377347e877aeb94ca74a8935922d6aa56ed4fc7,77c82e8c11ac9ab6266571687c11348e334247bc,f070f681895b7d8bc2b41bf320ff55f628414410,f7e2d1951bec31028624a1a484fd43ebc96c7eb5,ad1d7592f8e13ab239a5076dd83a910d397608eb,4f24669120da3daefb754c04985063a58b6b0731,1fc4022101c796810b881fb92c4a015bbbcb1e1e,7f4eb1e33e9dca5db31e126ce6e5c59755751268,00ccd13a52c18d5f6f85f94eaaba3f32eabb7c04,483bb517ffa74036bacbb63a46b9568df2d051b1,ebe448cf2e5d9a14811e88ce8cfcd91e6942e76d,65ff822daec038043e371494e98ce423fb4a0e8b\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/vercel/styled-jsx"
+    }
+}

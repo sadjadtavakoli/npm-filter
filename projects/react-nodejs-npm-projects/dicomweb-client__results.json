@@ -1,0 +1,35 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "ERROR": true,
+            "test_linters": [
+                "prettier -- linter",
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "917742790efa22391f3d90cbe14559a0fb2bebdd,c292726a421cd84e6a34aec4e72fbbad3c87621c,a6f85ca901ad5580535777966e995760c5ca3ec0,5c1a0a0138b0a77db661df84a6ac80737668b7e1,6048c6075d8495439631715a817048451d930225,151727263cdaf078ab1d0598580a134bea870b72,22bb19a19fc85aa6b34a9399734cd508d15f36ff,530aff8cf1cdd8bbb7a7b4ddcb56110c38259cec,83e37ea459062e785c304a9409a72fa0c684375c,4db32c118f8cf656786d00c1b38d427add837a88,3221475530d320d0dcee4fdc8bd2d54e3cdf5cd1,608888fac596d5a22d4d321aed1fc5c66d3349ad,dce62aa5da36c772278706fc35a5fee607c541b9,99d12a02696da24bb47783f20a5cf4e16f9458f0,91034a0e6f56e5f05872100cc2a052d09c15bff6,734b8941e0f0803f9de015933dba7b38c2930320,74a28ae3e29f93f332b6afd52cae6045dc796958,ceb392ac481b3d061ee70bd1f54e99ff6398391f,3f6492a7da5d42121c173f8522d9cf3045765f61,d668ae7549c9c015f22dcad8471b0b23162b4d92,b09f626120fcc6825bf382dc98ea59d8cf718aa8,fc7119e1adc4ee74d73684c1e7e7c1bd7df79fb7,d64ff8f72fdbd1fb9cfff5e582272619ae0faa20\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//dcmjs-org/dicomweb-client"
+    }
+}

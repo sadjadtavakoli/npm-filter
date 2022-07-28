@@ -1,0 +1,75 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test:env": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "test:env-extend": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:params": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "test:command:object": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "test:command:string": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "test:silent": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "test": {
+            "nested_test_commands": [
+                "test:env",
+                "test:env-extend",
+                "test:params",
+                "test:command:object",
+                "test:command:string",
+                "test:silent"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "1fd86aea20d0fb362c268acb8fd7c78acb80c39a,f2865d64e82d9a18502bf416425da707ce0b8762,281440d652d442a055bd399e1dcfcd57a6b42117,7f93c948ac3c4c1302716491d8c758158b5eafb9,bc7b2634f7ea3b1f46a9ad1558c23e62dafd4359,8fb0a7ffb74dbb9b7592d4bc42e62409c67e9089,47b0e3a4da6dbe9784d8d957b1f0246b68994500\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//benoror/better-npm-run"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "num_passing": 70,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "1177162d8d0e07122f62c848f635989ebaf5e517,6d67f63c312a05ef1ac2c56075ba693137a5786e,266b9e26c9738c2b21df7108f8cb2ccb70a01a45,ee87e39b78cd8db82db8742a2bfe7e24372a1e5c,0118d27f880228a9de943c98e371cffa99e3c43a,d94d21c764d20beb2c0aa431c8c924f21ce516d4,a5ab798f6e5db6a822d5385e34ae818e18aad925,5ef4b058c1237c5ce09e003c04f9e986fc439d67,81fc68d1f1c97cf7d6971240e5e557e095539e1a,30db48897695c5895336d3a59e181289f1140f03,9495bcb160790123d5a86a9a131a93f7d77fdfef,882c53cf22cd91953d565c3cc0e0eb47cf3f87ce\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/kerimdzhanov/dotenv-flow"
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "standard -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test-find": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "nested_test_commands": [
+                "lint",
+                "unit"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "unit": {
+            "num_passing": 694,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "af354012a69f12c01e325e5c9e37c4e83a706bf1,452352686ee1ffbf77504214a8b06f405c9eb5e3,c8bd3830fc19ab1367dbe2169e0bbde052475a89,f21048b21d3806775560e4b112cddc54a1cb29d8,a149f822c387958caba7333ad2830615ab8b078f,3c3865cad8cae7f3046edf434c2ac76abaec7759,5d3f53325eb0c744daaf2ed3797675ef61c34fa5,f3a2eed49663fee7a99fe4df1480621ee3fcda1f,0bc36ffd5eef96f7f60358507df6fa2825f8a0da,384aae04e8ea720ef9c05d21e0de1af3cdda3600,e340861b4f89726da55964ac16fe74e4cd4536c2,b02eea6a37402e18b97e394271504437c74ebadb,da69c573e328c18ff493b31d1735e0d31d1ad514,9732252b9473bc5e631e34de76a9b344319f87d2,fda912a38178b0c3c53557b6712d90eea2cabb36,199ec9f2c28bf14e7da62d131ced80f1255d5f79,fe0bfe29313331eb1ef9fecf3c35053ce32def4e,ef9ade4929c205c241e78486df22ef71c12f1c34,16dc81e1f8931f9939496a8202c4c0c5ffbabd83,df125bebf7ce2be5ab59fb48be470cc5163b61bd,3f7988de2235e69cfe01c4030968347bff5c8b93,03b2080b7e28986224c98c3b5568c59ac7b070a8,03e1b477d9985e7557010922ce5a69d4ea0d7e0e,08d7d3aaac4075a8f8f10f8fc2f8c15869b10289,75d8ba7c32f74c28439917811a36fcced147ba2d,89230976b989eddd16c36884aca01bbd6f7a9ec9,1f83cb0cdfc468b4a6b447a1b49b4492391ffb36,9da4958d39e4a85f002f0b6b78bc22a89a4e3429,2e7f75504e41f7a9978031daf467757e20009e51,5747fb303ae2afb939f3cd936673075543c15d6e,08ebcfab78ea11e5b6700b31640435d35b0cdd0d,4b9805a9e48a4b12698f2836dc0eb22e593a7574,7b0ff8172a7dc2e96162e31d69ef7e15715464d1,25c1985ba1ffeb32fc18081c94c357571f2e65d5,8d92df4366682a3553da407595505a6121b25b6d,66dc67f418c75a73a334a467308201065fe4d28a,4e4b936467fea1eda0f34c23a00ad87df096c2e2,b7166e2a9a911a2dbe800fd911c560ea12d64037,81ad04ef8b55e085c64d6d5d8849c233c706e547,1dd0e8accc39584036df05dc17a8999bf6dc75c3,6b57dcb752e4df2a8ff722552923f5445296d9e2,fd03168a03bd326238f5b1e57b7a2f5162284fca,af6402cbe4dd9ada456c27f77756aa5af1994875,f632decd116168eb695cdc5bd707597db9b2df83,def1ebe4897b2ebc3310000c311f4d2778acd2c2,7ae5f03a78bce6d2370fda85eee1459c41f86adc,1d22dd19022a775921d9d19bb36463ce8c1c2dac,f256a8551d646e031956cc02088837fbbdc6ec18,9e397e269cd7ba30618a9fce804912b0f13ce406,d8084fa98c600e04b0a58b7fb0178bbc62fbc029,4376d81302a333d64aebb7abb424773d46f25be6,f6f21fae25eeed6fb577b92bffc8b64853b5c358,a59cfea2927baba7b86677f0013fc232411ffe99,b169e957e83641cb047847e7c932319768d56b56,83226a3695dfc4ec3b1a2c938d09c0faf0f6d61b,46120d3bafb46f22373802c048e57b94b0c4dc7c,d9a60558c9249a291d02c266260872579e6a39ad,0f1fd748fbebd5831e1db8adabfb99c06cf99a8b,edc26922f27dabd047202fceafc40ce47c17191d,2e8db7abe7cc66b7fba44a324138909250d5a3ec,4286f2b4208604cde66183ab377103fbba38cdc2,f2270ee539511b7caf39ca00d0ec0ccd33ef425f,1415064bb57e743abf90cc9262fb95a457da4b8b,4e57a146442cb52fe9084b045340f33cd1820a32,c600af170b47422555491be1dcf6d0039195a3fc,179033d0fa7a5664424a8996a127750931700cc0,598865877d4d502f473630cd4caea9de73607356\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//jprichardson/node-fs-extra"
+    }
+}

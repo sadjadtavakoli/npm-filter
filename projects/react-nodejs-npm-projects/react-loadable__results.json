@@ -1,0 +1,29 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "num_passing": 14,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "4e34a7f4cdffbc6a44fed2523b96d9b8c57cf47f,60495e387c11e97a11a3087402afa589d822c0fc,87b2451f58a983691f3c46a817a6ae8f5ac841fa,0d9d38d87a5159026adcde805f82c15f3286b43b,78dcb02dc02d9a0be50a64c3522d6688eb6d7e71,e0e721c2d8a2044e85315aaf357a1d094b6715d7,16aacc9a866266c7fb60bc632e824e8d99925d88,343d1d74c81e246d082aacf9b2505ec53d988454\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/jamiebuilds/react-loadable"
+    }
+}

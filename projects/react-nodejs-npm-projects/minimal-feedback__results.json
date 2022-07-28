@@ -1,0 +1,44 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "test:build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:build": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:lint": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:unit": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "9a542cacb6dec3da2370de7e9a362c19e8f06006,6b427e0b22e08409259b0da6cf0c24a7608eaec7,b7f1d2bfa4f672cac392b691cd722f960f41105d,920d9812199b7eecd10f4487d08254435bd247f1\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//dulajkavinda/minimal-feedback"
+    }
+}

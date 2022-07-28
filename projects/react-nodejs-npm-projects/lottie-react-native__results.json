@@ -1,0 +1,44 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build:pods"
+        ],
+        "ERROR": true
+    },
+    "testing": {
+        "lint": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "ci": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "a113ba8e69259e412135a6a415ddbeb28385f7f0,dda4681784d82dae1e987b40d053b7f68c26d257,663ab31bd0a28a18751bfc66c46eee215d0163e9,c1fcffcb20ad860f84bc33182f3a77bffcba1a4e,1df334bff1f72e4d912c061423d4b87dd4889ca0,9f7643ce9708eda1ad5312a242a4984006876c96,1b944653ed0d17e8cb857f9e357fa6412dcfa7b8,951e59537e1eeb1392a3b796d29fb4f50c1863c1,d7fc76643b23f00ca9946d3a3133d4a8d93d87f8,1e4fe3f555c340c5e3e7a53f3835297b7daf33fa,9925cf8cf3433a734561d2e7e5d586a90859bf58,16c15654bc7103c4e7659fdfc2f1c7f1466de055,dc3875371033cdcac276bd97014eec58495d1751,3b9b5abeab5268cbe0086be15b1b28937e47a909,4fa736031a9ebe01dbe20b96ae0c0221528d5db7,d7b0a998883a48e5e47ff80447985d10e282bdb7,44051a58a85907e32bc6405a18897abf8fc51059,6e1fe52b4ff862b9b110bb210dac6d52d014da7c\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/lottie-react-native/lottie-react-native"
+    }
+}

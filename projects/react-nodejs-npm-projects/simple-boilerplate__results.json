@@ -1,0 +1,42 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [],
+        "ERROR": true
+    },
+    "testing": {
+        "eslint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "eslint:--fix": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "stylelint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "stylelint:--fix": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "9fb4f499a266cc2a18c0368869f595b139854e18,2c6c90074fd13e2ae8fcc5c74154ad8be49e2fe3,f206db9c77a5f2afd335fb3bd5da045b35d94f7e,71daad0fa298820b8772c49ef21a509b6da34453,b2f76e3199f305decadebf9a91f882cbc693587e,fca81f716cdb881e1fd70000e0816d159fb9f4cc,f03a6dc4a68b4e4e3b47b01314f461009e2e1091,d4ccffcf303190ffafdb2dd3484a7f33f83354a1,bde53edfc7641c0c4adbc5ea7463fa8bbc1ce5de,9fe0c0254aae37c03e6826408b773879d7c2f9bc,da703e5d5a32398fc10b59abb4bc2a7e9444a1dd,ab694bfb9d1599e392125c8029ccaa5d012ad986,d4eabd53bcd96899ce3af681440e02acec7e08b2,46a493c52c5062af5e7881d1222b9eaafe54ffe0,b29cc450db2981c991e87fde3a38f61878f187f4,7a6dc620d9a976016a536f3815f7c51161df42a9,6f1b7ed94d6e07e827d82a38a57ed7cacdf3c3d9,7f7fa52efc07e4b3a73b83f67620742e5cd2fdd6,12643695779473e37daf0f63443f3f8035a56696,2b18886fd70ffed55cb3b19c591c6de08e69d2f8,56b78f4884fedba45277f0b3c8cf401ab03490bb,491e025dd2acfab79753cd7c4b52954d8441782d,763f90fe1187c4fb34512bd1a6183a74f50c6417,5ba5504766ca8eaa73938fb73ad8916dbdec9877,47b32261e314e458a30e44a0fe47c2a8f169d9e0,09d4093917e8cd37a263393f856e42fc706f8af4,6738a46ae04e08fba8714da035c72543991a7822,25b0878a107af8aaf147c3d7b3ed624cb3517c40,2bb2c00a9ce45c1c96bbd85bb2be4a263fd3b0f4,50ac63fe7eb155a90ff180b1bd34bc269e501daa,72f3671b4f0e85b5ee813d2f130c402c5ed02912,a135f8c8dd3a256ddf86f4b57acf216cf3a083be,ed11fdcf574bd3503695a8f57e0ce1e3adf69777,03a3eeb81d75a5622beb4a2beae2fbc85b162f09,6d9f7cb91b9162b40a0bce48bf7be0a9be6ff8cc,48fad727fdfc0f46aa6c8bddd9f8727330ccadee,fe78aadc194ad34627694cc80b7cbd610082142f,1aa25c60c0d03b699cf679c8d5fe854e01ba994f,e29368821d8be14c11f87da165247ac3eb448450,d99cfa20af33e147669f16a9e6e2718b085b315f,7ba4d75ba59ddef4ac8535ed17ac651ec43022d4,1bb599ad50e9066583cb4c9864f0d087d2d2ff12,d1785a452be7ce4d6309633af01e3c302945b8d2,fe213cd534b9c5b4891b151d5d4126391b7f8fff,125d81193668916e78132a1b6c8b6e0b6075c7f6,a8483c19bcb5924a875f754b3b2e500181211f34,22b426fdaadd092e751a03e8b31b7628aca0c671,41bea120889604e9b70cdaab8b1dcc231fc3c346,8f46156e731a912de0a32b80feb1959e2be6bab5,b141a92883742ecc5c03307267773951697c1c85,d6574025aad005f9186f85415af06d8f7e10ea31,071cc3bfcb0a8ea61f10a03ebd30e7a6707e4f22,0d4d6c58488cb365e3cf5b3f8bd902a99f0baf2c,f2ad466583ba5228051b1654aaea76842b181b21,ce94cec389f2a2529bcd557298f1f6527a17823f,b18360f7c2f848d9a3e12d1ae9fc6a75bfe7baf0\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//fedorovsky/simple-boilerplate"
+    }
+}

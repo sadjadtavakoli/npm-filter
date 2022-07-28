@@ -1,0 +1,24 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/onmyway133/awesome-ios-architecture"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {},
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "866fcff293a5baa63ae7745062f14a19a78e4f74,e8cf62ae420a2495eedbda2b3b0dd075a8dd2624,a3047fccb1ff7dd610fa6ec626de6918fa892c03\n  File \"<string>\", line 5\n    \"docs/.vuepress/public/img/\\344\\274\\201\\344\\270\\232\\345\\276\\256\\344\\277\\241\\346\\210\\252\\345\\233\\276_35208f28-d33d-4071-ae37-a0b5471e4a5e.png\"\"\"\".split(\"\\n\") if rel_extensions.count( f.split(\".\")[-1]) > 0 and sum([ f.count(d) for d in dev_test_paths]) == 0]\n                                                                                                                                                                                                                                                                   ^\nSyntaxError: unexpected character after line continuation character\n/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh: line 30: ((: ( 0 != 0 ||  > 1 ) &&  > 0 : syntax error: operand expected (error token is \"> 1 ) &&  > 0 \")\n  File \"<string>\", line 4\n    rel_files = [ f for f in \"\"\"\"docs/.vuepress/public/img/\\344\\274\\201\\344\\270\\232\\345\\276\\256\\344\\277\\241\\346\\210\\252\\345\\233\\276_35208f28-d33d-4071-ae37-a0b5471e4a5e.png\"\"\"\".split(\"\\n\") if rel_extensions.count( f.split(\".\")[-1]) > 0 and sum([ f.count(d) for d in dev_test_paths]) == 0]\n                                                                                                                                                                                                                                                                                               ^\nSyntaxError: unexpected character after line continuation character\n/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh: line 30: ((: ( 0 != 0 ||  > 1 ) &&  > 0 : syntax error: operand expected (error token is \"> 1 ) &&  > 0 \")\n  File \"<string>\", line 17\n    \"docs/\\345\\207\\206\\345\\244\\207\\345\\267\\245\\344\\275\\234/React\\347\\220\\206\\345\\277\\265.md\"\"\"\".split(\"\\n\") if rel_extensions.count( f.split(\".\")[-1]) > 0 and sum([ f.count(d) for d in dev_test_paths]) == 0]\n                                                                                                                                                                                                              ^\nSyntaxError: unexpected character after line continuation character\n/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh: line 30: ((: ( 11 != 0 ||  > 1 ) &&  > 0 : syntax error: operand expected (error token is \"> 1 ) &&  > 0 \")\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/BetaSu/just-react"
+    }
+}

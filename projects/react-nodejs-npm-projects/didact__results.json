@@ -1,0 +1,18 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {},
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "48354937bbff99271cd2214879d10f8fc3b362d5,28f78179b2f4f15a03e9484b0b3b99a6f9dfdaaf,ef624e2f0049c3b2e175ef33fcafb0b0ff443dbc,bb2c35025a06dd1942038383872596e09c6b1ad7\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/pomber/didact"
+    }
+}

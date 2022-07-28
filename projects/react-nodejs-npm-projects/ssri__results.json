@@ -1,0 +1,34 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "pretest": {
+            "test_linters": [
+                "standard -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "num_passing": 90,
+            "num_failing": 0,
+            "test_infras": [
+                "tap"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "cf86553adf39e0de84fa99b07858d83b6a950914,04b3ef7d539b37dd1543d5957e3b82dbde8de546,513df4efcb2abc072e54c8bef4e6d4ef35b3d21a\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//zkat/ssri"
+    }
+}

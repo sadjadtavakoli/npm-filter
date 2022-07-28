@@ -1,0 +1,55 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "num_passing": 2,
+            "num_failing": 1,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "coverage": {
+            "ERROR": true,
+            "num_passing": 2,
+            "num_failing": 1,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "lint": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint-tools": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "d0b251e3f4ae5f92211a68a482d4f630e2077ac3,9fd0a7c707f2bd2b476ec5242a06587fedd0d7ba,6d7da4cfa6066ea450b9558b6a4c974cd943ccea,1ba82139ab048680545f7fd51d1ebd4870f248bc\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//habc0807/miniprogram-table-component"
+    }
+}

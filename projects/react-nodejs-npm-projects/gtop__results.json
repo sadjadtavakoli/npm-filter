@@ -1,0 +1,37 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "prettier -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint-check": {
+            "test_linters": [
+                "prettier -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "988f03ee05c66683a1f9687f828df157ae63c39b,6e08a3fcce04565e491b3ea450c10864186354d1,4adebff5fd75563f061965690ac960113a65a75e,ea0661bda7c2dcd4d52432124b88b8be9bf8e307,6c73da308bbdbd92b647858c0dc3aeededddf655,2cc84169c5837b358afc75681e1e4d5ee9a90c63,6d15f11654ac17207a172b6e4695f66a00f61ddf\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//aksakalli/gtop"
+    }
+}

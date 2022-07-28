@@ -1,0 +1,87 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build:tests"
+        ]
+    },
+    "testing": {
+        "build:tests": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "gulp"
+            ],
+            "timed_out": false
+        },
+        "lint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "integration": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:unit": {
+            "ERROR": true,
+            "num_passing": 5314,
+            "num_failing": 4,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "test:integration": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 2,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "test:coverage": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "nested_test_commands": [
+                "test:unit"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:src": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:test": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "d5c58a9008158e225063f46975a9462053afc7bf,1c939ff05f643fbd41ff4e6f196c1ae7a2608310,db137e96e6abc77f5008ae902734efa129f40d4e,94dd7c3efb9ff00b0462cf772b803d6abecc2dcc,9ab37f5d6ed6e03307869a3d46ef855b65666047,894b04a0f1c3e42a41141187edf504a2353b5323,0f9a7defd8873e630bb27374f4f3d29c90af59aa,ab034f5f4317d50ed49c62817286143a1f7d6ad9,b88f8919c67c252b31d6b4b455fd7ba9b6226131,1254850f9b86367afe3b864933e8741db3e7ed54,994fd43e36c0824deba176763010dc141e9bb0f4,5c60cc4a9f7bb669fe26032c9badeeb7dac4436e,6ce98e2bdd4e43b106238578c404a997fc2aa469,12b02d68f9d89d3e5088a3da73daa0396d67f61d,19a7abf3a11d9a420c7a20cbdeb9f36a6d84b6f4,5d72c1b40ef9383060d500e4f08678cb37ab8c0e,dbb0c785c9b72590c19655d3ab5a39338e0cd393,151bc86d71d565a2ee8598afb3fe26d8f7094d10,ddce5b6fbc683fd908af30f5f4bd72c961f60571,1b1dbb78ec364ad872a20608152a9c867570c2f8,242433514169599edef6e121799ae8935648cfc5,a5c9da045526ec2b06e5e987d2298c1312ca76d7,222fb3b971de34baa05c82b00dce0e03cf5941e0,ef33c3c3aba59bc866101bf9ff07f8705b406ad4,875d865f0822be6d8f9d652db6dbb2d025bead90,24ac03fc9d36ee675719bf64cb1ff8cd7007f39b,42fac27f51a4e8266461e93537efcd071371ce29,300f7abe0a70f483ff0e15e6708e26c0dfd03a02,5e6ebfa57649c425961351fbf772df4fead4f2f8,92b0d37a6de9f19f6a625dbc4bc1a055b162622a,db8be2620a5c9cfc5b9824d9d2487ab9815f5baf,eec366090357925ec90ce71c029e06b80c0f4dad,b5909906bd4b73630f2a6311ac06b9e65be2d621,bc10b5eb37ebbfc40929e1f363ae85d7f157a56e,cb894cc74ac3b7b1668e694b3656cfadb4dbd98c,9f7ee6b81adfa6bae7224c76d586c362dc45f34b,ed6036f4c3b8ddd5e82fa6c0ba4a5e6971f0c0c5,c401d96be0ccad8f696c5d7be006cc4a994be83b,4974d009b8d1ee557bc9f9e36a627881753a4b21,858095949ecfeace88b08fc5ecda4509fd45271e,0a6c956edd16b1faaced50d99d777d1158117b6d,0f6c02e3377c3337e4f206e176b2d96ec6dd6c3c,c0e6ae139bd6461fff3782ca680d35e725943497,2b952d43fd8784151ebdb60b65e88b9fd1888ccf,cf49e9a58e6c4ca25a463fb0ee6efa74c1aeb036,70c4d0f8b37fa740bd02aed9e0e4d2f1ae2ee5bb,e953b344bf1b073408df2b460dc990794f7f9b81,99d3214372718d7bcc9597f7dc333db1959485b7,bba61e16f2bda906833c35d25e2fbc9a4c3613cc,45905e4558afff6c7b0cc5e7b1ce73c9e1f51950,363d0a264d72fdd04dd8aa094937f1225d34e40a,d927b3e66977b3433e612ae9e85248575f7fbc93,6ea4a9f1e7065fd302e81294c070c82e535ddb1e,2bae77b3988b199387c9b404fc71c27208fd2dd0,cc2c7047deba8030703f825e2a395edf23c75e93,312c41a258856db899f99557a24fccfa54d5a2af,0b2082f1576f651e75069e38ce87e639c25289af,123538d7ba28d5b9831e41c9d56a193027c79931,0547f4eaba5e791312eb55f128bdcb6bc3599501,1a7f722d2f4a9d918a29dbf6f088f0752cb74391,2c2b72d4d7690c0081713d5dfc672e4967121009,564cbe5ffa8766d74c06bada951071efe1b361e9,e7ee8a1bb336855be30ca9d3c31f9b8c0ac62909,3537d0b227a08c576c34a3097348c662c481db79,7e2bb7f12354e3d125cadaaafe19ec42ba1ecd44,b5f9bf8fb4733886d05fe0b295848dba1a24bd72,2b4031334071476b5a6a481aa52578a713a5b719,42b5806352b36b3e2064043982333e9d970a5297,9e11e18873f74f12f580b1886dba6f28799e1d9a,018b7c544766f3ae82dec5ddd406d230dcd6485c,6c7c326e2c60bc06dcfa6a9fade4b187e21cdb9b,977222a9cca4a22c0a529144834997162eef4284,e5e502ffca3b9e317e5588160c1fbd5f018704a1,cc1fb94dea7643794c3449f2565b346133af8bc0,9032ab026031a0bca172d5ca5976fc3302de0ecd,4179dd32192768588b6f6516c60dfa36d9d43ef8,5d43af1e29c2afcbb84fa168e720874fa4211e4f,b410895da063915aa1e720b48487cae53ff79e5f,02d892b90fb82053054ed99975944b3944b1ac3c,750c06f83d477b59296f0a56653bb23196da6522,0e3311abe6c908ce52fab81f95a1288b5607a8dc,53b854f416452d5f516ac60d281775e7b9939b27,40df8cba7ac66bba1b4e98097b5d275bdea2b14e,49d6bcdf5490701304f13e3555dc5dba6d624962,6804c1d5fe1e971cd3af22358cd47a3468bdaa8f,83309bb8faefeca8616caaa16abeae0e3ad1cc8f,478f7f7f2bcd2583299c8f8611c3119218d49dfb,e87b47c79d3dfae6cb0701fc45f377d48083ea67,f42518f68d050eaef134e432312483cb6caa77b5,c8f2ae7b76cdffe4126de56ec9e3826fee239bf5,76a17f07d2d26d18817e8e8eadfc604c3a81c85b,471581eee67dd742b867b22ee086d7d7b89a827c,52bfaca5acc7e3f46b55990f562d3cdda92ceadb,a8e5b966d7b08fcbe9abc15351b85ac065edd0ee,a8db16efd76882554f0037d854a255d1fdfa045a,314b0a443518765b95befa72bba8ca6230fa5c10,c28ac5296a6350358faf0cc2b562a1926938cf9f,72ab10863a9a7099614332eadbb15a06f2191584,9a6c8fc586cbf05651c50211f1a78ba1847d392b,85cf033757ae0a68a87eed63bc742fb99c8aa016,3dcae9b0a155bd36ca3a190fc01a24d1e5728d37,1f3d34ab09275b4102c4ae9812f5224bee2036a7,0af1c9fbc824c1447759f70419c0fe28af75471c,00e6d6393d2e7bfe645ca1e65b38fcb87c19979b,e80327a795f20bdd87075ecefffbb95c20babdf8,5cda79470a416645f8cd69a3a06bd368f7a7c428,0e9e80c48815962a6225d60ebfa9c4e6183b6f51,8e8ade7de5a6bc8d3b1942dfcb30d2edc2cc92c3,b340aa6cc4653e6cab1a2fc8f33c3c0ea9c4f159,da78532b2d4b9590c3f6ed34464aec645cf0ecd5,ccc68afa93a9b390613700d31b49379b57c3daf2,4fd43552230d3804db6966a99ba62b96fb1fffac,bf17246e9c879c1383a01bca93fea7f8f2f875f4,bdf9677445487642412acf7960d5537dc72c9d5d,dfb50c8ba530d9cd1152ff505c3dc7d94c45bc56,c7b84870f4c58d23ab3899f34b74053e1fd40637,8e5003d2195043b34c12c09592ba0d11a9b8fba6,db6e5aaace4cdf9c0fb2d8f4cc1db12c7bb0256f,7a665032d69eb78f93fabf4b7ffa8994ce2e3748,73e3806ab9da2a05e8a52aa113d0c448019c4feb,f69e633b30922cf6a9e11f5261238e39cc46d219,13b19548e761b4f29a0c1605c4b1b1d088781024,e4dd13571254403f4362eaf2a0f33b54ae2ed6d0,650f111cd88a796839241a4f038110e7bc4a0082,f3132f0c3f035100c222119a6bb90dddda3bbb9b,b9de73759b2d2c54364c5760511e1e869a140b20,088965c0798b2a38db5e3c414c6c67dff03440fc,75b804b3e4db3c1a6f6320677e266620d343b4cf,efb008291881cbc0844fcc618a21b6e816fe4a8f,95b5ecc22fbb67ce78915a4efebe8df47da4aa5f,4301ed8b07ceaf20d71bd13b6ca4fb9bacd8767a,845ff1fe57015d09910617b84e16f956e41a6fd7\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//firebase/firebase-admin-node"
+    }
+}

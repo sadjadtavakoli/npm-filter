@@ -1,0 +1,18 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {},
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "6cec4f6e106fb0082444a0edff896c316f612506,1efc77ce4b979c0ad827bf5c4c13b19fc9dda41d,ff1d59cf2701e0c7f2927c61f724a97c549b36b7,1e0251483d36f6fff226beb847095bbe32f20be7,7bc32e8d7dddb6ab6ce8f16410a5b599ad0bb9dd,1f7d2c35d2c96b782f1e79b1847da448a1173733,ea5054f623c89595ff0a7fc59c91e50ad24b38c7,7f1342368057b1769b66ed5e6b298b8e9a31b284,e9ba3ca580d4b5b2c1deb5b73d55b2b26b70bade,c8cfa228789c5bc0cc38323229a0150f6cad45a7,e9038c9a3b9728fac38fac139689dedf19d457ab,f6d75c9893d6321c82b2437b252a2b1bd722e6c7,2cd0d215ed77f33d9e06c31edb0414c73b360c59,0bd94fe38ad64cbb047f78d94fec0f046cc88cff,bc827dc9ac20f38fb3757782013019e6c14c6224,a3634791ef9bbf7a4dff2e7e270287a47b6b5f69,4864eff6c5eb630107aad59b7394f1959c91b315,fc0d0a5fbfb3f4c28f1759d1025597f45a1d4779,2879f19010e4fb0da3c681203a622a08250b161e,12033a61951f2c50d2d29cd666f146ab800f965c,c90a00f7e851111ce6720593ab3af7e0fdd266a1,ed8db821f8d1a45ecf3e8c38cc992659d6def699,8879d58e9ce8bc3d150a069fd450d6467007d459,f5cf7272e24555edeb3954254fdee78d9bb39e82\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/igorantun/node-chat"
+    }
+}

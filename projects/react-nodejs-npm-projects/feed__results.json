@@ -1,0 +1,37 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "num_passing": 10,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "test-travis": {
+            "num_passing": 10,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "73e42bd0b67749eed709110923859b4253254845,2dd7182fca4d7ccf145deb1c557255af2e14f97e,1693311477ed10ae964079a11dff9ce74a5095f0,0cae9bff394b552999691fd8d6a4877e80d5c87b,7e22715ed959f5c8cc8bf3e5d6f9aec462271ca0,d6a37360293b08de32b5ba498e9b3de27c42799d,e0de93f0bf851fddf2fc1a255cebf762ae96d5f6,ad4d3e22aad6e29e94bd0888dc1cb27afe7f35b4,c41ed9cc7be82e31ec81e8939eb6045618ac5727,87ca622784fcda713924f9e0ad32a7a2b0128b23,f1ce7908aa30882c2f90fd3d9097ac45f080d3b6,12233603985502aa5c253aaf9641d48c0f4122fe\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/jpmonette/feed"
+    }
+}

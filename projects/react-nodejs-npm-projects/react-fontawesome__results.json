@@ -1,0 +1,52 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "nested_test_commands": [
+                "test.5",
+                "test.6"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test.5": {
+            "num_passing": 21,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "test.6": {
+            "num_passing": 21,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "77b9bded96f57a8cd12e8db30629860907a990b2,5b286b32e034240e8954a6105c59a20e6e90121c,14096ee901dbad62193e298131fdd4f8c2a799cd,eddb45bd4328c5d827e0b7edfb9bf81cf9bc8ec9,0406a6a0a68e0b2d66c55d674a6d144904a80532,0a17caafbf716608f8c8975a5d3caf390d8f04aa,358b4d0923d7098d8315be7be425a3205ebf2313,f357e1831c76d226673f6b3e82977d8c31d2ae0e,a4084b5f9f19d32e87c0baace1b1c2451c5cbba7,2c6c3765aedd5cc999dd65fba41b8845e0cef844,177d9789feca210290a47cd57ef452270ed739e9,567de0b0467035234302fce71538f7749b6d1250,3ab81e201ad24886232de46416ad2378ec16d69f,6f20145ba7fb2a52bd3e71040f67b62d11c11165,fc0f08e222d775dad3c8d4cf21e6a4a950819d0c,481b01cd542ce573edf1bd5839f9d822d4cb78f3,56fc8d54cb406e59713486cb828afefe66100da4,7f8e09bd15b1d13579f760950b1c21aab2dd04f8,1b9b01e2bd7fdfc38ab67fad91460775998f808a,a21ecba8c0ab6fdea5238fb45d1f8af586495f12,88fbc40bfe4b5c7833b24c1d8087ed5570ea21e2,7759a98ab6c45bda455728274db003c4201fc846,95aa81cce5efeb6b8b5441e3c751ad213b973da2\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/FortAwesome/react-fontawesome"
+    }
+}

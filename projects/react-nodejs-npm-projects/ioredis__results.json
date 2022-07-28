@@ -1,0 +1,62 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test:tsd": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:js": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:cov": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "nested_test_commands": [
+                "test:js"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:js:cluster": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test:tsd",
+                "test:js"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "0db2d4f5f27d7106832c934a798e616836d1d0a6,93b873dfaf75baf08e517476bfe54384d144b526,92e7cd9a7439011b89d7cef97f13da14985d25cb,1df1ea0a8ab8017a6143bd613941ddcc53aca73b,fe32ce71cbfb49b133834f1c4858ec0ca20ad6e8,08c9072b24fa301401d424494c1ec8cde7ccf78b,2dfda0d2d5e1b01ed37fc5666aa301c9c3a07859,370fa625cd20bfe62f41c38088e596c7a6f0619c,c28314b6d7b969e8ad009be51a143259bf7f9670,f293b978c6023b8ce3477af0076203c7bc2482f8,ba49eba0044345301d15e8e0fd930961fcb2c9c1,ccad22c9290b85c37061188768f72eb3ac1cb80b,32eb381c3035ebc70e8e316697c7e0b479ec66a2,53ca41264f94f05a9a7a231915a0e852a46079d4,e93b39abbdd227f2719682a1806cc5d62c9228f7,bafc2bfc647b77bc844a08b85f175eb1dc60f70c,747dd305696bf3fb661c1d0b4ac376de55e0ec25,b530a0b9fe0f987d6786e5cfccbfae8b5b9c9294,1eba58ba3961e477c6502daf05cf4074f728d3cf,816942f6a259d026a598b9f9ed2729077bfb3327,7a436b128c3e97586d2378149beaa2043eb00850,df9330b15e833721830e0cc3ef3173e8a4424932,f9a5071d95519c0f358c4ecf064838824ce8ad62,d18f3fe07ed04da5b7b26981d91bb4aa74b83ca3,8df6ee265595f035cc85b52b4d11793bea0318f3,1e10c95eadede949e536f02ca1412ef4383ba654,a8ffa80dd2fb081012222a436d5be2b5325623b9,8278ec0a435756c54ba4f98587aec1a913e8b7d3,d7477aa5853388b51037210542372131919ddfb2,42f1ee107174366a79ff94bec8a7a1ac353e035c,13a861432c2331ca25038f6b4eb060ba7b865b47,1bc8ca0d05ab830a04502acd1cfc2796aca256ec,f560813ad72ce9f2f3ef043ff36a743adff9069e,aba3c743c230ea6d10e6f3779214f34ebd9ae7ae,f275bc24de3825f80415a69ff227a45251dd1a3b,4a13a1b7140156b7514fe88f7b102c69a3ad0ed4,98ebeec1acd2067e52169f53e57e989ebbf671ff,bf3fe29ec78df184b359ee29468dbb058e886e59,224df787b491a5bb36ed55a077d7faffae18ba81,afff43c4c3b3945ee5310937299259f8c68c9050,7f4b3dfed5903547ea5a38c2d9e2227b10cae9f9,35e0c5e270a3e8a165557420922e9d4dbf48ff24,899486bad682302a5d8415c38bf58cf927cb66e4,dff3fe9b2a3e9d9a260637e020e701a570c34fe4,72a7e2a2ecf704fb60927edb81fa5de7c8b5ac33,b9c47938bb3914d8dae5db17eef7ffdab0dd0399,6ae89b76ac74f42cdacf52c9fa3045cebe7ae295,16643e2ab3b4761955de6d92d30cf36fbfb23ec8,80f4a454fb0d24392e4fa27fbd3f6f22b0bf938e,eb68e9a32f7e7c1c27c9ca8c2101f640ea248e64,13a5bc4097d61531f94862ab25205cac0c2e3f0c,032e08b69a3fb97485a1b5eecf62f67832470ad9,139724779c0314af11d123f03671bbf88e6b6299,27b408e07b0f164c5f0604f9eea89c68e5c66282,24dabbec37c3888dd38fee7ff2ef3a5d34ac7a07,02058ac85813a031ce7fb005e89a0a9dc48853b2,da60b8bf2355134f2751210a9e5cf16e1226d067,cf18554c142f461b3ad7ff716df596d7d1615828,b2d2caaffe182a313c2dc516fa800e6e389f3af6,d5867f7c7f03a770a8c0ca5680fdcbfcaf8488e7,bfa879a8f59631841f642ed5a5f99a48f64ffcdf,c9a6f91c959013bf28887608f596d4d424d879fa,76771c0899656bbe66c718d289d42e8d5b9ba012,0784cc9f03586b50502fe8827a1511ef2ded9326,e96d3763cfe21a6705c34e631b3f38ad9d100abf\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/luin/ioredis"
+    }
+}

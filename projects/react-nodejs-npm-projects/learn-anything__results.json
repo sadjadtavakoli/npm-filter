@@ -1,0 +1,19 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [],
+        "ERROR": true
+    },
+    "testing": {},
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "5085dca526832cfa1ef79bf019793385624fd611\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/learn-anything/learn-anything"
+    }
+}

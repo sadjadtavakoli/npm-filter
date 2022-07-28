@@ -1,0 +1,28 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "ccf8da61db566e5d2920ac5c14f64b7968b7ab7b,e7c04f7d8c9a2291826264337d359cde6053f890,1be70640afb6164f8029a30fb282d78b06549e26,93eb48db10fa20fb759b645361a93ea9c4474116,dea49a2c10b675bc32f08f6e0b3d33663fcb85df,7ba549d2923ff1b230557e8186b35c025463e642,b17aec3254cc879817079ee1c8eddadad5105971,ee0ec7e0e1dee0246a2621bbd7ab2c4c4aa03dda,49a6b3114b5cf1673622159a5df715dd34c5f73d,0240eb05da3921bd159877a7a73efc2b52799edc\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/FormidableLabs/react-music"
+    }
+}

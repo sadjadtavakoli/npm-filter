@@ -1,0 +1,45 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "backtest": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "num_passing": 24,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "4ee757a87d665d699fd8804bada938c68781dcfb,3f654f1b401c9fc7bdbf6d7cfc896010beb5a8ef,e16e78c2f938de5e3cd62185f8f46d949667c056,2452bfe0ebc41981aba0e934590e008af4522f86,10306b65d8eb551332864556323ffacaabe36fe5,b2d8eb2fdebc692ca237c13fa7267f6779865c8a,11831759cad076a7b0e6dd23fb1487fe8a6ab6e1,c15fcf70f5f99c80caff0f3d2ca50c9d0405e91c,343377292549ee214f42662384a8146c19f929d5,f1228a7b220789d041d2e5f55a2f892d21012f10,329f8ad157eae19bf19231d9816b2afe4ebab48c,c237bb44b70598e0df505efd2000c5e3e8b61e51,a3452f4a59c820fcbdac648353d96287a9aa683e,f080c2f751e43585a2657cd281ca4890b5dcc2e3,140162eca8ac4932bf001508c7e10f641059274d,cda69ece7253c67905d976abfb36ff7463fc4891,f4f352bd344b27287931f7cead9ad34755422953,60ea5156fbf3ade1bb52dc184ff059bb3798cf92,325a6c313220630d2da4d2519419c11ece7ca9dc,500f26c0975310e2b89e831a16b65038814ed9ff,4e01deed43abc07c576efe7e3aa19a1e9b654606,2907f343d543c2deef1f2c29148ceedd9eeec60b,9d9b6503731f383c2bcf32add7dc91f1f9c6c44c\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/bitcoinvsalts/node-binance-trader"
+    }
+}

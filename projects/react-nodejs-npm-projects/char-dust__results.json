@@ -1,0 +1,29 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ],
+        "ERROR": true
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "389f496f297a23fce03d3c04d6fbef9637dfd69c,a6fc85b865c05db6d1c3abf6d58237fd23ffb69b,7abb8908a7440e0399cf1632a6305508719751bb,6b9fadfc57c068e621e8d5c111deba1e4404cdd9,349ff9323623cfd70581bf091733e3fdd6dde660,09fbbb9ec6365a48798990e39a05da3391f50545,19c3382339d98796c565abdf484caa966efac07b,3a9ff02237910e2d5d8b76a1c1ccf6b81a7e7cc8,b108a37ab088135f30e6db35b2b11f15de4db2e3,262766ec50f8f3b51bc888931dd70145813d11a2,c927de950a4259089644e8d4a8cd0ae449de887a,340a19c51d94604afefe78d0133f4169807bb866,6070d42956ec5aa77551a5d66ea8723489074dc7,900b71f2fd04b4f0dd6c3322bf3434232be81222,3152ca06ca5a1812fa9440456f2487182bd3969b\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//YunYouJun/char-dust"
+    }
+}

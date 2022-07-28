@@ -1,0 +1,28 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "num_passing": 131,
+            "num_failing": 18,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "ebc29baa50bd98a74f57b41006c86972d91e4a5a,ab88f2ec4bc9dcbb0b41f1c081311b289a376912,82d7a610207ae4fa27bd612b84d4e70b929bf831,39787a8475cd4deaee56023f6f373c63e867064e,8babab7a3c19c3375cb00119cda9b2bd0900928a,cb90034b8a7e841fdaaf8de4fbbfa5c6f0ae2543,0196ff8ff01ab33086cf254369387e59912cf8ec,196accd3211cf930d9043e863a2d1fce5ad21490,b3cf1f2afa4233e5c7a10e4e2eb37fd06952e6dd,7329b9c06a72be2450a595c33a53f5f2725c45f1,a084e7c800248905a23f7913c06a23a340a6499e,cdbd13ee5c2eb184cfe453660303ed84b4976d57\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//miscavage/CoinGecko-API"
+    }
+}

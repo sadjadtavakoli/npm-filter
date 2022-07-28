@@ -1,0 +1,42 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "coverage": {
+            "num_passing": 49,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "prettier -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "num_passing": 49,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "13e44d7a63a057bc4d95c22a7518794f36c2a361,0f3214763c14ef79d94167b3c370bd30092b1d79,0c790b96cc89aad3072eeee5f4de39d05047f950,541fa515099139e2baff87428d36eb04927eb044,db96f605c3efb544b69895e9ab580f264b8095e8,ff906aa68915c4ee03d19a4ce05bcfad316c009b,7efe75fe2a696254ef4c6b538b5a59399e69758a,a55cec82ca2c994db31f4b2be3d6dd0273f94ef5,a039d3b9af2f1c20f3ca90b1b0375eae24da2189,3f8ed00568bcbf8b96c4656f7296c8aee4f3ec23,93b86dac330f2a778ba858a5982ef7c2ac55f811,98ae30564c0cf42c8aa480b60c0c7b2cbbafb206,7500638206bf7c57f4d086ade998438a71d8484c,7fb9a2acddecad1669a35e1ef60e1d856aee6662,c495a8c91f1158e6bc4ad72f406dd5ad6c38f286,382e8aab4be47d032f7ec0932bf870b24b7f4f01,0f662bf5eac231c8f6456aa66e1ccd2395b176c3,3156e95fda512c57e76149acdb395885b363cf8a,f2e2d5c2f199c4784a29cd770757f2d1a3774aba,f159f5f046314d72cefde9f249d5bc9f6f7fad69,f20f2a0b6e8a4d6afeef9da9b5e86b8ea82d2cb6,c6625a50051de69703d0e57475cfefc437f58e08\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/af/envalid"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "bb9ac24701cd901093ded77931a4fcc8566485e2,63062fed2688f966da7b8ee95d3193c788d4d5bb,098fec6e20c316a49f00eb6168b64a0f819a720b,09622140ad847a0c29d8f3d3f76d8df576606289,17b81e7e549ebe455943d5b31742dbe56497d961\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//Gustu/string-to-color"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "cd15b501729b9bc4495edd28a7665389c2c69406,46666ee89c2316e972780b859f44f20519f5dbf7,007f98692b15f5a6c4902abf393bee8dc5edeced,0530d90fb0e46128558bbb6579ea44f9832b7b4d,bb0ed704a8e1b09d61ba603d43bb2319919ac07f,837771c4c6d460c7c9df1b729a4a4c1d2b76755a,b7af2e7e009ca4b47d5a69a46f6aaabbfe4b6b0e,fa900e11f0dcd42c3757cadf076f887623822148,affb5ec0a6a91fc124e5d67c4fb2d30314f167fd,ad0382e24c3ece62802b64afa9c5f2cfb3e0b032,5877844711ed1e4e6190caa106a0fa0028eb51ac,b88584c5a3f874f975942ca5c9509526d63825af,c6bafea30e273d617e34bbcf6feac033263aa666,6eaa2efcd073595b0052f4db0bf4036a021406cb,95fa68041ef5e22d7e1647696f53eeef1379184d,445f737f4365278d9c1b4d15561cbf7539c64b27,d39016ecb216b7f317ac6c76b2dcf4e11d34b69c,2b290934233f7353f3dafa53b7fa1de45796f9c1\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/apache/cordova-plugin-file-transfer"
+    }
+}

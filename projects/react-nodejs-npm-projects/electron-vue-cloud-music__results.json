@@ -1,0 +1,35 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [],
+        "ERROR": true
+    },
+    "testing": {
+        "test:unit": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:e2e": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "4d7e388b3799ee36084216fac9f5df0151d033e6,b1a00d25e0f62424e1091ac1484e4e8c149d3123,e3228432f826134bd7449fbd2b74a1bcf641a306,de5cd5d6bc8a493a2d98739f5e4d8b92646881df,94dc358b61e341e5f7c1a7a4108f76f86251189c,f08a8e48dbebc6c0a547113a331fb73ff8b187cd,667942a23a5a46dd3b6aa11143c7b1d63b1b9f3b,e5a12fdb8856d96ddad370d2df5e6306cf43b04e,5e23960544a6caee7d69fca02caeed424379bacf,817e681895f6a8c23dd9daeb60e87b775f3ee619,a28df55b77915a7933cf64268753d44baba1bdba,220e1e6468429211e014c7ac4daba4c5f1e585c5,9099f6c74ccea1a8b3226c2193bf32293ff102c5,021eb08b3410375e92bd23fe27431cdd8e64414e,b68b91789664188eb9fb56913e5eeff96d7c5c2d,8367b876315bbd7c8a42dc634e0e911581bc0fee,38c139cbc913f16c48bc10d2a12efaf73b28be52,fbf8bd7787df6d3120a0a5e58ab95b34ade824fe\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//xiaozhu188/electron-vue-cloud-music"
+    }
+}

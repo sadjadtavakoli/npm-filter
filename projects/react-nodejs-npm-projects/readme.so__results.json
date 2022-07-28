@@ -1,0 +1,38 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "num_passing": 15,
+            "num_failing": 3,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "lint": {
+            "ERROR": true,
+            "test_linters": [
+                "prettier -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "7e9f7a44ef1404d0aa417f08dac92b0162af0158,aa8b1ea3702c8dd2fc0b94830c8454ef70b87090,afffcd5a48b5762004b5c29c3f367821b2abde1e,af0e1e7f56b97248b7a42810fcfc40366d6cbbf0,087d51554ae2e3e09342f3363697eb765f36e6ac,51f2d614e34d6bdae7ef48e9d2e6cfc628c5561d,ecf653b17fbd1e57d92ca23d74df8ee595a33ef2,3ff1413077a2cd1501391b8e72f562f70c96fc72,f220b6a097b0427afcae47b027415d65e66b5801,4be36f5db9da62aa00ab69a8c054fe7e1d4ba2d3,22b193d8f0d86a939343cb5827a69daed02b1fd4,f52e5f54d413b62e3630db0af88ef34172206a25,6e9408c009f28ad0692f2b1016c32bfa6a5aacde,c54190e35973d811c66b91b634386490dcb63fde,f69483cc12d2a79793cf30ea963ce0f98be6e21d,32e75c68aa55152d21114154835b106c81405327,2248263df708dcfc1a1d42c5bcc94bdebfb5448c,26d4e93337fb7dc51c6ba3d3dff8b2705cee66c3,83c632ee1e463f536c8c0ad594f0cc48af8a5cdb,40612314908c8e76c6ab0237c59485175fa4a141,7e70e4459ceb1098b07231de1d1c2c5f6ea71d52,f77029d0eabbf768d5df2b0516edcae73ff2939f,d69d852e6e002183ed96a4f9ed8faf0e4749ec1e,a6d3b47ffb592e4493d2b576e0a213e6b345972a,22cf8258d680ff857581860b2e44edb4f70af57c,2015727fa442f819c1ab77bf422d508e8e3ca4c1,ab44b1307eedf120725af37d07078152cd5b4a21,3ac5d88ad8da8968f67623bc5b24d2366721e012,174339ca4baf88c58e8b51d8ef94bf6797badf16,b368e754d115b89ba99aad23898dd96e25def7d0,8c5709376a4e8fad7ac815f912f9d76c96a9f8db,792e184ed8e0634da5af9c593b5236c0271123b1,58d3b56a24f26f63c08e6a558068db81eae0b846,f6f64e97ef5f578397e85a6b559cede68590d0d6,86be6589525aacdeecc853d0b07e38ba14b3c0d7,16cac97dc45c092a6ab748dbe12a4cf9dd166304,429684ff0a2ade1a78e447914504769a79cdf4df,6a757acafe7de205036cb549714dea7feca736a0,e7d8d26b189a7756e5a4c2a4782c3b1728c1627e,3b13cd34536b555387722bde9b476956cf97ecce,909bea962d6f55449d58a14cea0598d829c59c4c,60d86898bc42dfe9e15cb22b0de1402da39e84ab,a49c2fa84692d460925301ab3efba48c641601df,12152c8bb0b40a24ed8fdac267a5c2c193cb7c33,a39a444a9b2a8e83730aeb20c2a8112cb5839b9c,6bea571180a342878fc06627d97634efd746c8c2,d2e836c021a74ed132b452a152ca38e4f3245d56,e7ba6cc2754ab9d0af5c912b6bde9cf450a134dc,8111800f5052286200be578f42b769d44163ddb8,e7d14b57af1ae02eac4476b0c5de09fd36f33406,5f771ee138e521f6573422b9af2342d4aec8b64c,fc31e6a902a1ede7e3a90c4654ae5ffd9b7b6701,ec6edfb76fc7f545e9371a53db40b9e146d80615,30789779727e2f9a09f065c18b596fc468694ceb,dd6a390664784d5f05b616672d0bfd351a4dc284,4a3d9f1ebd4506684fcbfc340141b8a177c66ee7,d7d66e370b6368f76355b0922fb4d8465f583dc7,2f63cd785f446d80a7c43c78baba7f757b2c8e77,be1f13dafd6c591e66ac4db1723f7a3cd667c443,1ea40daf7b62a5d68d89cb60f5f0b2f50244f902,e86079f1af6440c21d35c4a2e3ebfb7cb44f37a6\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/octokatherine/readme.so"
+    }
+}

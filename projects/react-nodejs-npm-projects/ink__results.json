@@ -1,0 +1,25 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "8c11aafbee6813168cde72d256c229ea4ae91191,155e1a042b12e82929bdb26571385b5dea0f0b39,fec1c4d62cdb1b988e967acfe91da007e5dff500,360d2daac139d0db0b3421409be2344864a398ca,27e313e3d0ac23d3e939f784a2ce7b97e9d247d2,135b944fd17e11ff217f687e9445bc754a6eddaf,eafcbfdd4a894a41851504674670325b6224f87a,f885a3cd43f3afa9a8f84a8cdad513d2507df217,c9631c2b95c1fa4da44f1c1af2568476b218a29d,af480b83bb51443359ace7a1cb8adce7ea079ed4,8943332b5ceda7d14e10b1d16309473502243264,92f43933f04f1d40175195a931fe5588885f7c1d,98b3c3e9c59b1759c784761835631866fbf36911,dcaaafa21024a05f1beaf09ea7a71ff97de9b144,405fe7ad6bb993cb9b4924a290b45cadfa69e558,f7dbb97afcf1bd1ebe05301404964303c3af263e\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/vadimdemedes/ink"
+    }
+}

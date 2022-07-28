@@ -1,0 +1,27 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build:sitemaps",
+            "build:production"
+        ]
+    },
+    "testing": {
+        "lint:staged": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "98d13b7da6a9696090b4d1edcbe4db07d15712ed,228fe30ebb5a1bac4bb565c848ba1e38e280d516,4a21aaa908bcf525f55c348fef9e5fc9272cbc25,9eaac2a822e91b8cae380dddd12b7768edc429b0,22407bfaac3150ecf543a0c47efe749aa971cbf6,b7178af313227e8f2659e5e09352d0d73dc503b8,05256f036675269a754c33ac39541d17cbe1b994,3cd9aadac2eb23939aa2d642bd8d1ef2f6616361,0a7a2ef9648dd61210984272539a395c0fe533f7,417e97ef20f27c26d0e2b6ba3eb209748ea344e7,2a8e3b5b738112c11494af000b9dd058852eb28f,1cfba8e7f6c482fb88494288b2511b4bb990fef1,67b45a8c5aebb4325215cd45a8dd5a6ec3836a5d,d3e6389029207fa944734ec9bb1dafeba83998e2,0613896ae2e1e712cfb40c130608b6ec6644a166,c4ebaf51a742714f56acfbe9a9da40c03e2e727f,d4998493773c6831bee2ea769668814d159e5c23,7eac201c35ca0185f68a0be308ea693cc4b9f738,e2103994f6efa308c95958522b814af92a53f4f0,454810c35cc32bc3d0ffaeeca2fdfe8ade1b107f,0944c9ff131033057b8b1409a3ab29689c76a4b5,9a43d48f0cf8355508f9950a6a196adcfdfdae52,e5a02df931911e141ae46b1ebf42e33e234fb5e2,e8f2373cb6265eb3fe10775b92bca66694cf483a,977b3c2effc93872fb9fd864104b9c7078cd085c,ff8bb6cf9bdbd769132b38b27d20e378f22e560d\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//yarnpkg/website"
+    }
+}

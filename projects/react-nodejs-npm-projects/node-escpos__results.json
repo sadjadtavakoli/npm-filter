@@ -1,0 +1,18 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {},
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "984ced813cc2062041a916cbad89234bd094e182,9d83220ac03a375f43cd5f1977fb4dd27df973b4,ad1cade11f616f20bb112b3d5ecdfee85e77aff4,2faf87512f71033a4838737cee0a5537c990542a,35689166260d06d7d405ed00be1a28a581d11c48,5afb663a26f13c108140cb6621856fe0fbccb554,038cf4e27c7b618d95e57b9d721b9d123dcb67ba,1461468e54739ffdcc67f5407fe3431c6dbf8987,b680fc81076b2ec6cffd07733a1aa99be97beb92,13d3bd73c64bb422523f3092c79f4725b281d0d0\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/song940/node-escpos"
+    }
+}

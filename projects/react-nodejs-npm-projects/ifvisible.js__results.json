@@ -1,0 +1,29 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "521e3d9993bce5147eade276567e937b9679e3e6,55699a1bafd3ab71444b5a59ee5768bd7ebb0183,a3698ab7ac8b472b5614ff1dadf74e9ea321d7a2,96ce9fbbd8a6647764629e02a163d9689badfe48,898fe82d236b4e3edc49123fa3023597b99f19b0,8240499eefaf1dd7d2e9fd8f13dccdfdb846af16,c598881e5105bfc0fd5160d74f62f3582293a43d,089aba90d4c6e55d8f5018bb039f8bf9317422eb,37ca87f0cec8e2e502a496e1537f4c74983f380d,af56d3824b8bc0e487265b4b13634627ce6e89e2,d41c602111afd93a84f5e2d617b53556f9edcf40,7c10a95d02f08af37f784c3880eca99ed6d7d638,8345273115fe2deddbb44a58069df6872c678bba,9210dd358b6f34370702146ceba2defa41f0dc47,0647168a6cc966cb07d6bdfe0723f4d84b0793af,e40323b9172c04af2a56ae5e7ad2c80ffc81af7b,24e504a61d3744c67a55b0ffcbdd1946630c0a22,438395d58bf7de57044b212a31ca145e9fac7f63,a795a1447b8b8d1264489ab2c2ab82cd589525b5,5214d49f7168775f402a3e5cdc9f7f35e057e1d3,88d5575049b9f5fa8414f9c00e6b055a96c904d5,5868edb38f27f1baf13dd61efd82021499efcb6b\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//serkanyersen/ifvisible.js"
+    }
+}

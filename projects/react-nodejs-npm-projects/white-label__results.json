@@ -1,0 +1,71 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "db:create:test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "db:delete:test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "db:flush:test": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "db:create:test",
+                "db:delete:test"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "migrate:test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "num_passing": 11,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "testWithCoverage": {
+            "ERROR": true,
+            "num_passing": 11,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "b211266cc0ddd7ef078820c38f4902e07aee85d6,af238b6088dc3459fa6eed19d55086a09b61cbde,8c048efdce7a72174c328ad7a398cee3799026e6,2e108e6b90fcc654662e1875c8ccc20fea69c10e,45c116b6f26759a7a324715ebfafcb40faed2146,c738afd35a5ebc07a9d6ca6aa501473e21dfeec5,141585c76d57dc9a2853c5b373af5cb33832b52c,fd6e4b5f4bb7c2cdeb1abe621734ff95e02c4caa,43cf1b7d1570ce1928a21a9749fc547c38c7001b,8822290ac42751e4b3f9439c1c61c649208334a9,6fcecd811ceba72fc5beb6ad00ed17282e32b701\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/stemmlerjs/white-label"
+    }
+}

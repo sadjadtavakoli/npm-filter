@@ -1,0 +1,27 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "num_passing": 24,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "d1213d8c17c571084968ad55f328d57cd040dd05,e220926e1a76670d701708ce5e6eea0eeadf5b5c,b678ea5e3959592f29f41d1ce7994c573445387d,5edd1f4ad127105436ad43d68a7bcdf72bd8d009,5840323169e7f2da4a06cc39572cf16a769d33b3,de6717f8a178ff1f9f49b82135d7b8526095539e,04dc3e2410ca98487cdba32f97c269c1f8e0dbc4,64d1d96ca4338d6f2d08bf1a6c3255995ded4a17,c1fe50f46b4942a1d127cda346dd8f704527d0ca,1dae83faa4c2fa44a79f947d4a8d62a7c1140da4,82aaa2294191921259ab50bf952e95ec4fec1bd3,5d26e3749309c52fc192cb0c278ab494a8f8b3a7,d4b74556f8e6580d7b76fe58d8b91eed11149194,e7a6bb3099938b4475075a7f19bb1e88b530eebe,4b1cdcf87bd9f06fb72831df40d09ba3e7565cb0,6b55b7597ee9f32e49700eb1de7680810500f0f3,0a001d4b2e758e81d5c89f6f6272354339626db1,3f159ffcb311f81383b5347c882312ae3e94ee01,900f89ae43a23da16b5b97f08430f5b2b48692ba,eec57606649cbf912a3dd9f604729b53ffc50605,1d446f4024bffde7d7cca7462cb79f8a7a3a6b0c,5a5b95cdb36e447f86b770f1ca0addae81816fe7,a83f82f72d0cd157d0535bfa2d0aff3b2cdb35b8,1b748ba26c12960f58402eaadd1209f8bf358074\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//xavdid/heroku-config"
+    }
+}

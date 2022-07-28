@@ -1,0 +1,23 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "d2e74db4d2588ba4d561276bb6f84803f17eae72,e783b763e412dc88806c71782d9bdea3e70998c2,848f50aa0457511e13b66742d7ccb9978c9848a0,5a823235bfea23aff86a1e668e9308a4ea2ebe1e,6e4a9efe68d659fa4b3b2d27fc98e40c415f8b3a,6bc1372db30c3a4d76c5aa67a0292914fc724a44,42dbdc4bea59419c6523845afb53dcbf91728a46,ea47789e4ee967a95406d95da9af06fb4ff9b858,5081a77b244781a15f0460c8ff5ffdf2b4c3e4fb,d174611e4d6c26cf3215d2751aaf8e0fce734ae3,2475a9d727e2a8df2fff8421c8eead5c751da284,7ccca5c89d632db1eff58e92186ca96e03cbf3dd,b1b950fdff521c15aebedf303f706e676664bb1b,8cf333aceb2a956d01f51eb25950d6c082a19a3a,d36462ee2eea737b66ab5539da2d55ab281be20d,16dabea1c0fc64d15634bc90658af6ed32d1f8ef,cdd0671abe9fd586b5197c957bb50ee7a12ffc8a,9d3319d0207e6c579023aaf7dab4ee2f14d72607\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//seansfkelley/yerna"
+    }
+}

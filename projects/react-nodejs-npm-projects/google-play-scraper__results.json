@@ -1,0 +1,35 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "num_passing": 56,
+            "num_failing": 5,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "12edb4c6b3c48104c5a2c57182d57d895c4b2502,120036e43e5d48aecc906dd727e8a859dd2a4cfe,e0e92bdf9bad9f314cfc945337c4a2ad6a9f88d2,dcd31bd37ddb08672f3fd9e16fbe6251ea5d263f,4e55aa89fda917c9da79990968c089c5c88f75ba,10a9b924a14b7bef42d3cf39241eb2ea4702cf95,606c2845ce6f9b8903c3df887ec7f645056bb343,c44ac05973e0fb3d88bff42efd21ab145a583c48,d2fbacbe88f06b824ca1a18c40eae016fb6412a5,8a5cd519ef0bf36b24330cb1c0b086982409dc92\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//facundoolano/google-play-scraper"
+    }
+}

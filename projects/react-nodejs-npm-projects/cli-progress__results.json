@@ -1,0 +1,41 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "pretest": {
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "num_passing": 6,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "c1b9375cf3c4714b97008c33ade27de719104590,94127505431f890989562349af77661385372dd4,c60f1e51c3a8d7674f3f3ea027956055ecc5f682,2591857d32711c6832671aeedd8a1e7634a8a84d,bc456ec22c72be54133be669a4dc34f6688ea51e,3016b45bf45cbcce2a2555fdefe1b1d49002937b,ac29f070a2200b95c3ef9afc639e39f86d11a3ed,68e219037155a5bb51368764425427a3b1398977\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/npkgz/cli-progress"
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "eslint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "tests": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "nested_test_commands": [
+                "eslint",
+                "tests"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "a127ce5465d4d321f30bdfbd3e7b326e826c92b5,c17ff606c10d32d48043b6a47e6ca80b211db7bf,a19b3b82217d71fdd7a12961652654f43231592d,6f3f479b3e127b1cbf30f5b6f752a3aef2491509,91f856890e3bc544aad55f523b4e929a0ab41e98,89f7c44a5a291e00ecb83670997f775ae9dfbb58,f92298d10098aff1be9e01e5d35e4611b7c530ec,0797dfbe280495ab0d8930b2fc8ea8bdae2a9120,43399e92d23c97c2cdd75b0a7c782506616cb532,e0848eb9017f046d771646bb2a5c5e3ed8b0a940,21c1ea1b3ae6f49e841b99e756ac61c9895d8b3e,38ce1851b22a6a823b744b7be1952a2dbd97b343,9e6700d373252fea0081e4ff86b8a9e22f910d1c,284433868ed33c681f91b48997ababf7c787e42d,e2ef8f3c6acc9893efbc4f64e8598ef38dbca15f,95e9a264b71cd61974c2eacafa47085155cd2992,0a4c1f234bfb83987e1c6d20151a6c1058d5bbaa,fdce785541c3df38c512115bcfe302623a519cf9,742bb124de438fa7ae32070683e0b48001ff5193,5b5be29fd374099638e2ac28fe4373d23c984a3e,ac06dc490dd00323646754d6f9ed5d2419815c2d,edfa6cad0c2d5f4488504b3e1627f796c535be7a,60683751dce0f06b1d7c3a96c57e6e89e9120959,86cbdd5402ec2627da1a5659e969ab46fd7798b7,e7646b6fdd18115919244677f309fbba9c67f636,be3c1a8084ce42ff67af73cacc232540bb2096b7,78b4bfb894ef9c128fbcef3b59d5743a6a7def77,62bf81264f8e9e888be85d8f06ed6bf151e94a8f,bd90c5454992a33aef9d0e2d212c33f76ec98eff,6988fe3067913e0d3b6decbda07f8956578a713f,785782396c5ffe1e8ae560ec165cddb9e96cc858\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//jaydenseric/apollo-upload-client"
+    }
+}

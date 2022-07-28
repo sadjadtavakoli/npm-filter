@@ -1,0 +1,18 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {},
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "bdbfb55e2b708291095a24e4b22f4174ec909c0b,0b989fa20cce2fdb69f33bf0ce518ede4dd476ad\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/vasanthk/react-bits"
+    }
+}

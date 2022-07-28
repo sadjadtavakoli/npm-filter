@@ -1,0 +1,57 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build:cjs",
+            "build:es",
+            "postbuild"
+        ]
+    },
+    "testing": {
+        "test": {
+            "nested_test_commands": [
+                "test:library",
+                "test:tooling",
+                "test:puppeteer:basic",
+                "test:puppeteer:webpack"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:library": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:tooling": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:puppeteer:basic": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:puppeteer:webpack": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "posttest": {
+            "test_linters": [
+                "tslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "79d91e15d1461edf384a43521d3458df70532382,6e9dbd7f0558d06dc2dd03749a1dc87d2f60852f,67ef3f1ba70240db0a893b4118f20c9a62a8989a,c8783981f19fda86c3b2cc53d412bad95f4ce174,f027f5bc4b704a49f7e08149a97780354d630dbb,1cd01ac431ed2e68776adde05bfd0ec6f7e582f9,1e2d2da4996d7d8d9dbfce89e07d718d21e94e76,f683da4e2e8a3d3140bae6d38875e9e8ad4f5f65,df872d6ca7839f18b5a6e49f61716c10b23c358a,764059554c18d844de1375c2d6a7f6069c99bfb1,d11340d7a88c6d4b35a978a7cf15c0172a45e84f,f43fcdc186d809753f9229da9fab479b49881bf2,4acd589488c6152a1e675f5f2451ef71a2463658,1cff8b5d5be9237c751f2f8c0808101ecfd3b5c6,e4c163d5bf8c6976aafc8b960fbee66c909095d7,77ca9c2a5ac52977025ce262373b08e65ddd7f6e,c7c48e44d410530dc0be44e96e376fe8c7fe81e0,3fa6bfe0f9b2c54669af108161869c74a28037c5,4c5287f9cc41a6874dbb68c3736ea28df18bff06,14483d162aab7cfcdf21531b61e900bcc79ab5e6,be8dc3c6cd6ad0b57fcbd65e32f9d8191cd2f4fe,afff206adf10e2037402adab0e68147bf108662b,a4d8e543c84d432cd6899d487cc79f94efb7fd83\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//andywer/threads.js"
+    }
+}

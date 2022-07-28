@@ -1,0 +1,37 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "lint": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "coverage": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "376785b0a417331bc2b98e9ed6cab7dfeeb4132b,43b2929447b237265b930e172550fbd47fd5acd6,1440b4cd5c18d01652f0de6b510a5ddd9c5b9b86,effc3e0d31d04cbebcdf5947bf45b824c7314cfb,4be9cc5de3048ab0f5eb97674ca964112d1d9452,10e37b25289e957fdcd564faa401f31711385fc6,1be7ae72cc42d1448adc41f478e4bd4d4ba46e74,fc0eb599444ff7d129ddd3e76fbad3e5bb2c16a8,6958baee8ffd9bbf132a081b5f2d3c9e9c9c5cb4,4facfb06d630b3eec96effb49c8c8e9610b06d7f,b2b92b93dbc15e2cd7d057e1c318028bf310417d,4be466c90556f28db174d74b62759a20f8c85c6e,62eee6ace1c580d6425a25176c3cb267d8607e49,74970b4381746b1a2dee2f65d3356b60e04cf247,ee3f65389d99a49b4431caa0cd2a78f8be15a5f8,94f24f186aff684e3cd4c78ba50d7a5be7d65a7c,ab5c85e568d992f13107dbf684e6bec6df9bb7db,a959dd27aa906c666c21cbc478969f5ba9ad32b6,98d4bf8f3338e994bc60f307db850c9b54d2424c,9ea40d76dbc8721a174b427edf738d8f2f338c60,cc3694584ec9d8a2fd8dd4cd942826ca81986956,31a0cabf76149e29391b08409f9be1bfa7cabc0c,e193caeb90eea4f9f2686ac66207095836088f4a,9a1d213a54be04516f4208a95702b188bf62d197,6bc9da87e3b9ddc70604dfec24afdae79a93b1de,b4ec3c283b1644f46827453b986b8b223a7b4ffb,f46a14bcc27ffa4952549ad60f1ba561659aed36,ef77b800c699014a65fb7a5df1c9932b65169501,dab81737a350b3f1b8ea85252cc48f472a651e2d,b7952bf31883bfd0e1ccf165fed5ad19b0d1b0ba,f76902b3a1f5f9249449c21a4dfc5635148778ff,5502f5a4e273ab4452820bef64e49fee218e8bed,a621cd66a2e8010517e0645adedda6651f06f566,51dfe299f5bb1cfb49b7f0476b6ab9d16f42155f,68b164d5c62e902eb7407945aef71e3a3f2cb065,7f98bf05cff31fb704786a742a7d7f03ba21ffca,4f55e1158d5de2717640b40dab8e16999022304a,4a525cd6767ad81e1c2ae6d230101771211dcf56,308601818fbdd1d77ad77442c8193e131f66f50a,9d2e05594eadcc376661e85e9b5f440721b10c58,96337f3f2dcf66d1da9a5289025aeb44fa3dbf08,568789244aa2e690d3ab146aef642167b5b30e7b,60b9c85041fda1388660c927963bd39c178d6b34,a14621c5255337642152e7466dcc30af90977157,281918a0a6c1ed51fa1956ec42a8ce8435a74e85,d76f61bf58d18a8d6cff3d3d1df48120a8f26527,70759b48d2ce8902da994880415a6202411cdc39,feec49512823a145130b883921da2de26e74883f,a6c25215d336acf7067178df9d33da0e7de908c2,8393cfe9d86c1ff25de28e1ba2fec91d177acbed,2c844467040813f2c9d4f4d37b7a109318191378,f71c1ded8abf6008bdaf880e1396e64d541324dd,5a83350de1941ff35f8a3645b47e2706fc045aa3,ae63c2b9009ff2bc333e755b523977c9a6ec287f,69b4d06de99fb523a55c36842ea8857b795c77c3\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//codetheweb/tuyapi"
+    }
+}

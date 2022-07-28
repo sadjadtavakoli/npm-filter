@@ -1,0 +1,37 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "standard -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "num_passing": 27,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "nested_test_commands": [
+                "lint"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "a297d279bccfc0ef42fe4aed717baffc782c23fd,a8b8555be778dbf77d9882aadb2cd43d5d73a3fd,f05b786091e47b1095d393d88a50e64a8a08cae5,6dbc92451c7cf0df560bb161b49c3d56fb76f5e6,58694c4074cef7f46dca12fb375728773c5217dd,772665dae2e94225daa72fb1b503ced0dcce11e2,cf309fe95763e9a1589510e8b1a2d6bee3a4e4fd,a71593b40a8648e4d05ae35f1a2985e99166bcbb,bf544d46c49b37760445bf589adc8c82d9e1b617,860408676da379faee6eb25b5aff4d29bfed0869,8f7ef3d0fbe07a96221faaf93d2696d5506563e8,73dd85b970f70224ec97f7e2fa07ecc7d8a97266,a7b1e4e4a1275688da21034da017ae19a6125ad2,3f7088a9e687c70185bb08d02f194414de94c63e,22ed4065bbd3db28a01cc0c2e5625ef888059003,a1a2c61ae5f5540082696dda8116fb28c89da20d,2b18d1721e64b8a172d288d0f0a7d2e9b6893465,08112f1fc0c4edb04b64b55936678467d3997fe3,912b784c2855486757f1bd1027bea054c51af8b7,8d2ea21e10502703bb7a73dc2abbfc01847f8c3c,82c93ea6da73af58f7417583073e9234d0cdc384,7ec2cd4a20efc012bfe2131c8f533d4d786436f8,eb991bbadd6881dab326243613c796dbfdff89cd,063d1fe17e72bc30920c5b350346c3f37f3b3e2c,4f4b756c0ff69ab6690fcbebc11f8e516c8d66e6,0791ea6ada7022c0cbdf79363d35458dc381eb45,34f9dc8b2cadb113ad0bbac41b9644eef0219bb0,ae960952af3b5d56de8b12b399f5bf4568af1290,241aa7385d7deef0b5cfd09743a44b5713262790,5dbaca935f6883575e63f0fa2dd7ad581f94d733,afc59d9a83b8e3c7e53246e8c46bba6247e07228,197a6db19a4eb6dedfc874bfc19ce6890538e0f3,ff25601b0ba370837209c9415a304c947d83e593,a28974d5b0f9dcc841a6fce233afd2f041b4bc54,f0533104964de61462caa8f7d9fa3258eb1862b9,f54613ac2f78d9bc64880365183ac192a3b3a0c7,48a39071a2f0896ba572f98f54c19314c7f100a0,151c8468cfbc99331e4294b24391882c1e0e141a,28174f9254b6212f8b6be28683fdf94ab77164ef,f0c02ff45656537872995c7b7e13ef655929aea5,f3a48c04d9267d97f58d20d2fa68713b438b5370\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/bencevans/node-sonos"
+    }
+}

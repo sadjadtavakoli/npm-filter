@@ -1,0 +1,31 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "coveralls": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "istanbul -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "9db1b8e3c3e6dee5081883feb7a246026b3a4602,783aad75c871eb244a49fe15e29309bc6e4c0663,86eb33456b29cf2294f1036536a20aefdb14a7fb,a3cf39731475d8ea0ba40cbee00146f60c74c983,eaa37120ccdb9735bc62f1f5d5dea0cf24232d7d,a5a84454086efb82e23c0402e5688bbc09a21b99,ce675ea3baf9e66610b447f6face0e1f1bd1edbc,6d0b0607b038c4c98987382b428ec41cd314f516,09c58f73b8d5730f87e4f50c6a7ae5381e69b98a,125428a031312a86fc8517664aebfe35ba250d6e\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//pawurb/normit"
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build:docs",
+            "build"
+        ]
+    },
+    "testing": {
+        "test:node": {
+            "num_passing": 57,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "test:dom": {
+            "num_passing": 57,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "test": {
+            "nested_test_commands": [
+                "test:node",
+                "test:dom"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:coverage": {
+            "nested_test_commands": [
+                "test"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "b01d7538c016ffb02c899c4cffdbf6e179486721,cbfa1fb86cb31fd1c0c8c2d892a4f4e7157290d2,12c2e8d387bf2b4f467335babd2989f0a1d33f53,b693d271c149d401a265e28c03199f9288c85918,03150188571390570ec32df0d169b63ac5c91cf5,20f18d3be52c85b4a0928ed8fe9ebba736e26f4c,e805be927e9e61d67fe060ded14b22d0e6dd4d98,777cc55f3f772f5b527df4b7b4ae5f66006b30e9,af503affbb5ea33161229d00d59f0e6a3d764d25,7129cf5610718ee124976065c1d0c1a36c813ed3,1610d1e95ce6e63672b9134de0b460d88c0051bd,4ed14013b1710473c3536748a5e26a70a92e92c6,d09a567a0c6a1fb5edb2dc8d121e46b704d9d114,be27ac6b625686ee9c4c73216606f51764af79aa,9d5e344f7e8303ed0de7c8df742b05975688d4e4,62c0f75a51f6dd991e8fd2e480249ede5cf97ac4,d42784a139fe24152b11c6c74d348c6749437391,ddfd0a89ed98bcd372373ad5cc72eeb28164a780,616e5ebda947f051251db7b20275d997720e1784,384efa09ae733c859ab88ef73b52a0f88332d6fb,7f118ff7507966ffe144aba27165ebf43bee4e32,14c1991962793f9130cc163bd8c0c97df2de1e4a,baf659ead6e2d097840b223d122694cac29f57c9,fe7b2bbe75298440f7c37c3b10e9409e526055f5,fe4fb3aee65ea92a23434d13f8575beb60218965,e5c4ce1044faceda1103dc0d2fb667855fda8b88,6b5c137fc932ba95ff2ded5d1ab1add379e0b3b5,205b43d4fa7c3f8842000cf87e97670cf72cfdd5,490db62b0cd1b04eb0999a76038649cbe8d4f936\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//prisma-labs/graphql-request"
+    }
+}

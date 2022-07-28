@@ -1,0 +1,62 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "codecov": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "coverage": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "pretest": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:ci": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:_mocha": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "df979d317571e7378b9072348c338efa16f28cc8,fd9d19d369fcea13518ca97b669b9e358cd137a8,a4fbb9ae922aeff7b4044d1c9284278e0c32f190,ab40a47b024a2f743bede91e81789cb9338f4d69,a3e0e29b2ef03db2e597064a066bdbbd3ce734f5,a3a6e41768155f85731bd8d52283e20b10b9826f,206141312ae7f1f2177393d55228da09da6573a4,62ba6425a73845c235e93d706b7d826f70853c40,ac4cb6efde62b89d1c8ba15c412a3659acaae6c7,46ed54dc3931bbf78c6b6d0761201867c74c033f,7ab875adfa2b3fd588c249e242788fc839a1c075,fa251507113b966ec501b95e7fabeb56d588334b,4dd9baff98e24783f1cbd909df9196a9566fb2a3,1946d61fbb5af177c8e9f33248449fed8fa54a3b,3d79333affff9a3b260e5a4a01242eca5eb74649,217411d150956ceb55738265a25e66ea046a87c9,6982b343c02ef98676f9fe75735235de0706a937,7dc5117d8d9c9b4fe30f7fcf4d5aeac0d07c619f,83e28accd2c60d5a8e1a37379de578966f56cf32,1738d868215db5acc6c6d568333983542751e309,2a540a667bd7a17b43ea30a9b0840608e9ebbeb4,c071fdb1c9ff32853c32fe06b2e1e5520b6574c3,2e2d464d9afe0ce1e1e2ad8899c6f744d182b4bb,dc32ab57cedf8566597dd7a9718084d4ed875542,2aaa9943850f63348d2b194e79725c627a267ea7,9931ded1228dc440160b5e444db1514b55e455e1,d34e09cb936003ffff342f18449d6d067a2b178f,47e0cc280856c5414b01fb331a71df222a857dcc,cf36e6d13d9cfcaf236c788e2f61faa017b1c39e,d4e6bc4bc8442208c81beee18b78e94cad149a47,a75c63800e8e695aa836736d4ddc6c84d9076ee2,deb4f55ac99082c8b74121c9f6bb1474c9003177,ffc7fcb84296ee6cf5e52ed80c996f6ba5306a8a,8f00ebb381023193600687544f87a65acc5f5833,4cc0e3fcc80e4b7e716043e4aba762bbe8001908,c289f18f0fbc4b5b732ebd1a03d54c422c2c367c,17c8ae088c611b280685defbb0728456097c5b5d,617287021603bdafaab08ab8391f0841f64fdbbe,f8a5e0bac531777f679b81965c45cc992e8b3537,ba283dfb07f6b2113a8c5eea39e4d9b88e7df068,9e77b54bcccbfd6a370e390516155af80e0e1439,e42d161072a8c08d56c5fc5d7f69d402fbf10104,8cc8aaa6d91b0fe660d8a918b7793639f1fd1c77,9fabf7660693ed7387a07ae51cfd4b9d1fe158f0,035119311ca28203531ec29c32cb9c49cf888098,22e972d23ea45e15ee0a81627629df27428e330b,624aed0ead4aa1fd2a656de4c6ca5ca3e21ccb99,23f6fbaf166684acfa3fa81ba5cd218b5ef838c8,741e900f410e1653379218bd23e61d76ec4bf626,90fce67bfd7ce8fa04b53fed75a05af662f7d940,c72f6c66b69b7af8055576894497aff7c6b2d904,e9ef1047e8e007bd8ac7dcd8348e9f49788a4e5b,f603c0626d99aea256a3b0b7eb8c644f0759a54f,1b7154da018402556223be17704b53754d142f51,65b5e4ea43728830108937293936c6b21b7d903f,37eee2fd0e4919eb464ca312d5716b3dcc0dce9c,8c9d65e68be1d48ae1a3c523acfb0f8871c831d6,cd6cd8d461148ebd063f56e1220092a6e4a8cc78,bf91ae89af097a3dd88f942455296181fef07679,e268427f66a2879b36e7718331eb2686d1076c44,f3f1b8e7164a0b5a5b40d5a783c987710a2372fc,c4486cc37e8afeaf274c602bca2e33f689fa241e,6413ca893521096e5d50af3752e534231892baea,2be5cbb60d327e47cc677c446d2fc8a6bb4e1eb5,ffeced8ffe5511987c5bd39cc4b83a03c7e78221,518842fb680a0a3f112118c93422c71a193e1d5a,f03f8ed98886e658f995d951d4068d1e5fd1c1b8,e39567bac87456abdfdf8e03518b304c17c92320,bfa309521ef7af77e1ed8a1d1ce34bde29c5de04,9e315082027dd2d24602d5a6425f529dbf8c805a,6f5d1dd5ddc73a931608052eddd016d66417a3f7,5fdfc6bf6b8faac0a243c281255bcca3d6c9e925,456cd12a0ac55870481015b6315b104acfd044f8,df252c63fd224cb4d7ce3a504b6d390e0127392f,5d721ef3489c287048b5579d0de912ec34c86e15,71a3157b50236f478c74936f355c8c33c0257734,ccfcc7dd025637e628c50eaba66ee7fe2eaaf5f0\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//mysticatea/eslint-plugin-node"
+    }
+}

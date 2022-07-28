@@ -1,0 +1,74 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "prebuild",
+            "build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "nested_test_commands": [
+                "eslint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:fix": {
+            "nested_test_commands": [
+                "eslint:fix"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "eslint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "eslint:fix": {
+            "nested_test_commands": [
+                "eslint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "pretest": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "num_passing": 213,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "precoverage": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "coverage": {
+            "num_passing": 213,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "92f75c4009ce1bfb297bddde90dc273b8e720aa2,a6f8e0dbf8f54ed9a6dbdc3e212195505264f822,397f39f6010b1c6600042d31aca214d722b5c3ad,88136d181d7ad8607b6cae84ce6a347962726627,115e20990f0474aebe4aaa69d77eb5c4d82a31c5,13bc071c0caada7a4fb2345b91256167e7d7463b,be99bc41a7a0f1ef95d74946294f9a5e1efdcd6c,a0e75fcf5e842d55453667c8c2e6b45e0e38eedb,5e79b93f6bcb8c05bd4bbbb060542d4d07db7e2e,514c08b964465bb5881f637388558d2de9d5f4b5,4aaaae6f0dd2303e4ed10830ebd5d16b4a42c7ff,7c2c31f9d154ad779505e4ef8d7c9e77a4d18b4b,483911aafe14efa02d4980aa78d289d5351c5deb,9bc701c4e7e02da6ad17f895d809dca3400a0082,2621cd31b738b741f5ec9605a2e7f4abe1a9d8ff,616f60fbd7c6493fdca4e59af78d93b58c65a85b,c70200e0f870022db2ec3ec4f07a31aed30b24e6,b13302c87a04bf7adc4c2547affaaeeb7ecb0c42,caa20170605fd2ee4dcb3801eece652bf36d5e48,58548effe82e0ab9d8da3e3b7552e764579cce64,bb59c666dbb65cc0ef422bbf5332b67cbd6fb0e3,0ab178e6cfaedd7de76e335eb81b2693938e13e7,73e0e0a9a8a0f41b1e071122453a8326eb43a7b8,3b179bc43831e56a0117af3d8b874fafaed3cd4d,8fe60080d2dd91e063913600896cc08424967336,92bb9b7a431fb48e8014d7e4452f4b5f892da6d1,da11ed02b07849a40f517e2bae576684a8db77fd,cbb2f61536b6caf5559fff40a6cc826c2a116d61,13929ae89ce76cde9203a83c76837f3465de7558,11991747fd0b266648597505b4ada87595cf7b99,aa89e1fc22749256584d073011b053f1ca2097a9,814e0fca9d46847be8c7d2e3e7fd43e5fd99060b,e88d6e06602e30797033be650558b04ae7f80ab8,c41a64a96ab61cc839cdac9a93b7a0a1b9603d10,95d9a7af221e26e81eddc034c7ea42385145740a,1106e5b440e7a708c904ab10e84ea3818ba65a04,92f72c3acaf956b7935c7f27a7447e8d8bc20900,f44c681128896e775968549fa222eb6d18ca2169,575f64a1f41d473b2bb18636e8210c8d87237574,79ca9dbfe03b09bd9e585fad66c3f31ae163de1a,e568795ea2e931d1d917f9bc7fb531aa45452fac\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//chimurai/http-proxy-middleware"
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "num_passing": 99,
+            "num_failing": 105,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "test:cov": {
+            "ERROR": true,
+            "num_passing": 99,
+            "num_failing": 105,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:fix": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "1af36ed648dfb5127043bfe6de04dbdaf78128be,41f16cbd997e209518682573b6d8e1ec4c316e57,e8350a083b2d6908aecb92f88afff38f3de09738,41f933ba1e9900d969c8b0a0a29552ba35677daa,62eefbecb6a6ad98f5148d8d5481b974a2308d76,4f2d4ce689f560dff295d5e243ecf2e414115e15,90ad83ca7308042ddbe7c5b8972a37741b947dc4,2892f4bfeb870676a4ed777957c46c1c0b1f8f35,00b3a53782c87ce627ca3c821fceca28591f39bb,4ecc1b22d9f7a0df377f78d05eff6bae92ef0a23,b29567ae4dd52a63d8e65e3060622b16708a28cc,7d1b8b6ca1f7ddc33e6abecb44eca4b9d5877306,abf8a1c8740b47f60a574d545ffbf36cc6971ee4,b41c6fecd64a8f082557b3b5cd42a7c3ea8e3780,9d537bf800a07aa9d7e38c80a5f031f285cd02d8,ac447065dd45d2eed63cd364a31c84ab36899367,ff578054dc579b4131e6033f4f4afbec21ed2b17,5e1dafd504608cdbad31663df586b37400d4bc7d,77f28ebaa7e6e455de668ef5e5fc3cd9e51ee4ee,471a6314e6de8d5bf47dfde9f598d7199b1cae56,4fa745aad085062a81c840e212bec92f5e03dc04,6e21f0d8f2a5d8e6f3d00dea44e559aac03328cd,739eccd08a748ad7b8920109ec2fbd65061831cd,0cf2c1e722f76095e9a703724c59b7643dfbfcc8,3a56d17419031411f20404c1c20ca36651225dbd,06e0deb531d76dab8a48e2b06e4dd9607e946932,ef51f10846ed29de174d8a91cd832c982a9d718b\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/pvarentsov/typescript-clean-architecture"
+    }
+}

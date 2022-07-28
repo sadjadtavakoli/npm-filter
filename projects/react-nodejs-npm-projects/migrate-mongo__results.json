@@ -1,0 +1,42 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test-coverage": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "20a8884e60ad09968093b7d0b09e22689d01ef2f,172330a594ba52819832af0535dec054721d1ff6,0cf106daa13eb7c27f5acbd5cac6ee6b012e4fe0,3d0fdd71667600fcde7d39ea6a616390e78b7284,29602d0963d12681a2f48954d77afa84e3cf32b6,a610b9e6eb12647a02dadd0e0834b3702cc38c90,7598f9d9b735033e738e32c1f9f29fecb8820c82,48c533a547806abbbe72cb3ff20b8e762ffe9445,5ad130174bedd838f2699a739dc605e6796d33b6,ab1eb4f2bfb22a05e829ead06b5a2b8438346051,24c5d3b02ae7e0af7c37cb95787d17be8039da84\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//seppevs/migrate-mongo"
+    }
+}

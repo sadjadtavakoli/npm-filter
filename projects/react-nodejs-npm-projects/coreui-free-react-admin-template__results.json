@@ -1,0 +1,33 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "5df5ebea90d324fb43bb6305be58f2192a194072,e9077a930425e4da30534035e7b9b0b9e2685560,fcbf9b804d53cfc603ed07cdb22de4b9e7de0bcd,d85bf9a9f79ed2455cf962f3c71b168b08462a0f,f4b25703db5fdaac66278629d987c5aa4214f22d,04f87defdaae60262906998e20330e49d837aecc,05cbb82601a702700ff61781fdd22eb64a7854a7,bccae41f9b4ce0c3e8e0b15c0446f3e679bb70b5,d7c4c3bc6dca6813a4fe6e29ba8ec33357fa1098,c5421714bae3580ad42e20ec2316e28ba230e700,323e9b9d8db5867a6d00e8442e7f0154bcac3813,e484c60e6fc89296bfb4b5a2086ea69a20ae92e4,d5ba135d18596a45d71793f023e96bf5040d7cd0,eef84dbbd770c7253080a6f69443c40e4fecefd2,68ce41db6831d6995121766a5771dc9d667cc61a,fd5236d47340b336bf641041cbf6d48ec8b1081a,8e4fbc2aa8786b00a004282260c52986e1cd2430,1df8c15030d45779f6adc5031153eaff09701d97,1ee05619ba15d050b73df21c8d1347e8329942d5,bfc79da4039dd534ee49b4526978f7b949cea90b,f479a5dc72bb5bb75b95a4b904d1c350be8fe7bc,cc795425bbf610873fcdf6938b5fb0aba49a4d97,0350bfdb42cb208b77e226e60c06437b64a3660f,25c8f9f84e54bd972a2a8e8efb11759375efc01e,abeea785f91cdbf154dc715f3e9e7240a5d27857,f400c0a2c4cc44bf76d371967deb006a34b1fcee,227552f1d1b1f173d911fffec828524fb582f5ef,d1d388781c81754678e259a157cd78ad775b34ec,97f6ab6014e664783e30355cf09d5a5b4c0380e1,45ead1eab20dd70d1603196711dde8b9e9cc9992,20770f5e02240e771c003d97f974f59a61fef4ed,cc70b1c351d288e0574cc8e100146dad2dd0bd44,6fe77dbbf285f13fee3ba932494abe97195ed0c1,c9762919d9509c8aa84dff037526da6bad18a747,3ec289c73d5e2e64a6d8b538ccbba79e14101a44,1892c401aa1e96fa219f97545854f601f0354232,71b1911de7401cffa9c0155192a5bd85f8b2f526,c46cb8400e5612b38c9a63c9927150f1531ecb59,a287b306beac2d02e3c991a30a0500e0c78937ef,28669bed4629d50632b46feaca7fcd4c10fe9a68,d1c1987014e47faad4e5f202822bacadcdca6b5a,101ccc39706ab13b45251966599470076478dffb,464b5fc9f756c1c209bea0f0ecd5b01c7e1f4df2,f9e8e14754d8a7317fe1e52c7eb00a8a15e2e126,9e3b0394e2d5f405cad47fb755b2bafea0fac124,338d579c021ec289da44d004bde4910bd5ec4d42,8b49e36656d7caf8a2f5c5537df2875ba7eacfee,5fef51f5136099a04c834e2c7e6103c30de590c9,6571acf95e829b1c439910835b2076017b89256a,c5cc33953127e94a7f2185676f392e723c6932b2,68692ad3825a6c1f1f0f74caf172e31659d515cd,2aa3baa6ee645c99de97a0c86879bafeeb0389a7\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/coreui/coreui-free-react-admin-template"
+    }
+}

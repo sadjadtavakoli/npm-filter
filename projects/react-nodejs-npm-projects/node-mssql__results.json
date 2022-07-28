@@ -1,0 +1,52 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "nested_test_commands": [
+                "lint",
+                "test-unit"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "standard -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test-unit": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test-tedious": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test-msnodesqlv8": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test-cli": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "822743423ed663b802e6a1bfe578a467d04ece14,b56ee3904459f8f7b00d0d9cc82906c3faf371ac,bbc8db6ef1df326e31d8a1fbbd1d6850ebe24d31,35a201fade74cf1395aaa3333222f29af9fe5aa8,d4599005471e2c695f73a79d80279bc9ecd544dc,f4d53fd3258cb2912c35071e4c87dbb94a315eb2,b5d695bcce34a94a962959521aba46704cf8f185,708cdae0f78616ee1bfff151055a6d87ea76e544,f73c1c7d5bd6b59d58cd973a840f3bbecdaa0be0,d2e0f50c4dc609554384fbd9bd0653aaff63a093,3a6f8163e3800706dbcface7fd9a70e94bcd002a,fac6d09d56f712967c7877cda068d5fbf83bf575,54751bb5c04cccb6bdb72f006f53dae3e6044cdd,ef817ed48c1724ec089b77c11e0d4ca9ee2f59ef,23a88754bfae0444d911d952ddc76d6dd878826b,767738bc31039f1cf9f60fa367b9d271f9a54c97,b3af541820e95bdc533d39fd48edb37b4c10f008,d5325724c396b8144ff909ebf04cedc12e8a79fd,b41eaa1b404f71c0ac357b03bef1f7d03d9502b5,d4512819dee6540480e258b29b66fab5bd4d4aa0,bc17cbde00d6d0dde8136407b209223856fae313,9258e72d6d7a1cb6b8e1c2d8701605151e5eef86,93acaa7c9d279d000572ab3389c90d986e93d91e,dcadb39529305daf62d6ae92eed03d2bf58668a1,0afc814440e42ae4b0e684263601467cd88df67e,f84b9b035bd9a326cad3ce08378060726b6ae8d4,f35d81a4fe61841e03bd70d922b628cb75630354,c867ff8fdc78807ac7b5dbb5fd5c1cecb4ee425e,234fbbe5b8e37228ae9d9f98d8c61b584ca7964d,8a958f941717c811a591e6602a1fe1e85383d64b,c39c49fcf78478e0640e1a3b464c89573cc06fba,29d7daef07314e5a467d8f83db5760b46c6b72c8,cc8fa14d27c6d119d1f5d4dcee26efb01c11685d,3570d60be3bf8539f93bdb81d72c3e4646f5e649,8921a47bfc4a070205bf7ab396d0d7c177786678,7f48c0ca211a081a7837cd80c6cef730e97c949b,a0dc2cfa4b968ee7958785180c5caf34903a3e54,5940661f54fa57110f9546c273b9d2643a48ead9,b80431919d32bc2d25ee7cbaf4353dba63a059b7,04c4d20cdacc1f026167f304b4a917489c5de5b7,66943dfacde9c7348531918bf15c3b68cb299dcd,b3190b3e75401a7311c765e82e4777c07d59aef1,155c5c2821711f6b9092cb3e64ee306006434307,c7871b1acd230b2169582402d0b625493ef09535,7faf63bc94d38768b04ce0e040cfdb2a3095ad1f,1ffc5547c08080bd8be9e38508ac4623a1d73e43,12fadda0f2c8ede81cc8d1ba3b9b141e7ec1543a,a799be574e0558a3053820d97bea27a2ac8e0874,66261c988c62b2745f9387b8c78926155f809ff4,e2de8cea87d0f44116b3e36027f95661cbaadf44,4ec2ce605b3e64f8d629664a49cdf204d59a0a18,96cda6ad1554551b7d914bd76b979571d0ce3fa0,3c61cc201c0f5cd08a8af9921bf2916ed5b6c230,98e7b80914aef1021aef53d48cec516d3f1a9b6f,6b5e6774d4edbb85c9599ea6da5c13638f6032af,5a4ed8920fd929460ed0f5f1ea79c780511b1f5a,cc868799b3d645d0cc74cf7ac72f634b4431e2f5,e136f67a1375b3fa5ee7d9d450ee764da669eece,c45b62e27abea08bbe73dda1239255325e8ea7d6,5c9442b3bf0693b2c62bd9078c0d63d8f51c4469,db2f5550be878dc6d6a9fe47d56346bbdc74fa77,4688d19cad5d844e992c70e6e6a5ec6c7a7f0a2c,b353b31af320927a591275479bd837e361f54205,f279f952b8218984263d31a43df97cd990a9e8be,6682c12bf0ac6ef85df522565de7e29ee3a7de08,855e90cf6571bf4794a51cfcf7923fb46b5a114f,080ea48517f1e85924009f8d4ba642e10f36d299,6475f4c78f43a6b6ebcd167f9852427dc8ab81d6,108c7fe7f71492484546f5695a0b9eea48555d35,6d8985074f98bf5287c998d2621b03f7b97d2125,b6b59907dc56b4e9cf3c87a3131f870e894d53b8,12261dc516ec24de4288fa571af9c11d8e32c70b,fd49c617b12c8bd42a1315530196a449134130cc,d8d29d33fd03aef458adb7ddacaaaa6c49b5e497,c62c435fc093ac716707768e70d69fe81820adfc,2f59a23fe6db03fb804d79cfe256a4328a2bb9b2,b70efdb3e2eff72fb60c1eada8be3a7ad0664974,dee9086569ea007d632813a1f209e6b2a716c2e3,8e6c2b22587e109c375d138cfd96a1572815be4b,5ba8e21dee022df5756530314eb63a4aa730ae4d,e36e30aba611866b2095f8f7f1405911f9d273ca,289171fbddfe523ae09ac4c3f29dc89846d53b02,4fd5b12bf6d5390d34d661037baced08319fbbf6,a8abf66a00b7a92c2eb55150abe5d7eeed2044d4,9060eef8aba85a76c7ecd69160e5b00b49536437,61c29463332f28c673e7d9806978f4ed6e34e51b,5e2673177d11b3a414206cd10d44f4e7459bb988,18f4697ff37d19d99fa762fd3a13b6c2ce1b7eec,2d196bb77da4d30556e5042a8cc7012a5e66d043,9af57173a01cc4ffb6781b5d395fe98a8c258d0e,c97f9073e9d208ff7b2133bd2718e0ac2e750369\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//tediousjs/node-mssql"
+    }
+}

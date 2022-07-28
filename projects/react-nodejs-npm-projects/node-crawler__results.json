@@ -1,0 +1,42 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "num_passing": 96,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "http2test": {
+            "num_passing": 18,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "cover": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "d269875ee34692544ff1e4e82bdd885c3eb37cfd,3033db87c1503da5d5152237957b4b89ccceef07,b2defacfb62246ff3d9a4132fd79bcd40d84079d,89740bfdeb6fcba84f2bcc6c7cda2fbf78cd71c7,ea126ecd1edb956477ffca1985c6d164131a12b0,943687d3c96624fb80558e2593b9fe8aee164e73,956fbd565a5bf026f3c1345fbcd5e26b22fdee80,de1c17d53725fe51d1738e591601daf99d5e3b77,62b2ecbff5b3ffabf9f8e71fdf0e68e275a1aafc,f66c40527875b7b99eee9caa21d14318c4fccae1,7172e8d3ae19accddf35acf7b3d4e7cd969a2e54,4465ffd288733fddd356223d6c8bc17f3265f5de,5b8d861235764e87319a3a89e380e4cef8a8095f,83c855f2a22b572a5416bbd1677e29d0b431722a,1483634510fc27f8a15f8d90d8b202fd1f21fd45,2cbf177ab90d062d50dcecf643b23716bb630e59,e751b359e74af000fe2c43814877fe6ae20a7fba,2d1a4ff958d0a0d571ecad0821576e25d3578371,83161c8a5e5593b851f6d46b1337df15090d2516,5bffbebb75e710c1668ead09113ac4804cd7d9b8,847fe4f6c8195857074f9c9a64629fe6a214e4a8,8dd4bc3638fa09ba57915ac75014be18f68b673f,af0e38849530dfb7f465719ab46c5066befcf32f,6b924d239a05917ed641f15276cfe61109acda2e,c0066436b44cd52d7f2b1cc6898fa3de8665acb0,89576bb7e28a68565ffdd253e4edd13b1527dfe8,0de37f7d6574c622b326ededbcde4fa621035e3b,b273bc8d25aec7e4a3af03e30f42fb2493b27e37,038fc883b7b8484c28e26b96cdf674f4735e3771,23a4e3d26ca2825aae9688f73ea228ed43780c92,f3de6cfa691e9c5c23c35d4d0b6970fb40ff4715,3e905062fa4351bee92ff5cd7fd82a3f30f510b3,01c9cc1babbd6677e278555315b47ca88a1a07a2,bd79072121614047e20a111e72a4bb50af10b4e9,2c45fb481ab141b95a8146e5ebd45cf9c8ff4ded,fb41724c200abde0dfc03090d14813d694cfbe2f,fa9bf32f691fe7d14354ba71c9a0437e8c865af5,47b8867aa75b7e19a344abccee4a59a3db34ff3b,e93a312fa495fb23708769c0428407869d469244,a7d444910813839e0df31cd5f71a4cbae8d1eb27\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//bda-research/node-crawler"
+    }
+}

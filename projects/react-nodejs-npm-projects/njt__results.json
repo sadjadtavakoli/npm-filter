@@ -1,0 +1,61 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [],
+        "ERROR": true
+    },
+    "testing": {
+        "fix:eslint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "fix:markdownlint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:eslint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:markdownlint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:prettier": {
+            "test_linters": [
+                "prettier -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:tsc": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:yarn-dedupe": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "92055f96641085f6eeaba433ff43ae3135e8522f,5c823c66a030c9c8b1134a449309b2a45d9e501f,6077f47e217d09fac011d3fe15638ff9256af8ae,0adf17fc8076674e97d6fabaf9b7ff97d5044ef9,16e9950eb02fd7f8f383416494e3a137230da71a,23a93cbbd873238e4e5d6ae77e7e411e3c79f185,0b8e7f42c8d82d0129ba328e15faa20c7d25a1de,8428fa4c94e4e521e008843e53ee6cac71c5bd6c,2e5b9ac76a2fa413841e9b06b67e22cf5dbb8dbb,e9d1dd4c11c8fc4990bf5b55e2781ce51c6c5fcf,17b32742c701ce0909cffaec104a4306125a2c5a,9adf1e0873f6e46664f55a78628d38778dad6b24,c74df98b87e92dd7694a68b707b558c911a476af,f98f4b223ae2c7c92a586e22070f74a933ae21dc,570f5d953c2243af32b6f341cdd1fce14961c993,790540598a1cc95deb8050ffe960552ed55e3bb1,a3b902b91272d6a7acb450798b56f3e30a7c59c2,ba09bbee8d6c8ac82e1b31ad4ad7cc4b8aefe9de,dab9f5661fab33bbf1a5c18ac6eaa4ad0f68de3d,9d0b373efcd1d98608460cfbe59acbb837bb2be8,784bc0d32c57334769949818771ca71813d577fe,e6e071634d6f9bd54268058a43c93b07ac5cc95a,1648017243cc325e5a33d9e98a35c9dceb6935fe,fc1d037ae548a95f59aebfe081eb5e03a185d8cd,5d55f1388a8160958d6420731a60b647a4bf65cf,9039fa1b602147bdcefe0553cb52631ac169403c,49817febd2b643d8c11ffd568513a443d7caef2d,1d000b4ba8b611dcb7837ed699aac97ce537b058,afabaae83e24d11d6763126a2eb548a33c5a1ded,df9e3bdc6ca33c7eb33464cf077eb5a6f1ab060f,8513f96f3fe16d71ac23e9a8bada6c5f4cdbaca3,a4917516ecc71233c433a2a5712b182f4bce9969\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//kachkaev/njt"
+    }
+}

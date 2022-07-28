@@ -1,0 +1,44 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "pretest": {
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "prettier -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "num_passing": 11,
+            "num_failing": 101,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "9373c97070eb875c47fbbf48e12fc4feddc8f7f5,8dcd044402a448c348bb49c77edfcab63afb1aaf,2744a837db49c65c3bb32d6bbc351941e0a2333b,b5b74731929a1b7efc729be29b085ee20c7380c2,89100b6899b8c23a74ea6e12109fa151e9d3d318,19a04aecb9b2ff652506a7390e95ebaa2b6440e5,8485db2a72904831c19759f786724f8f33d9c698,c908bfc022648da40842cc59b092e873344f90dd,e8dec6902f6d4a9e74338808ff3bd71577cad9f1,6f447815e6c999eca5b525242ddbe8e51b166df7,532c89d12d975b345585f49126543ad324b40960,aba8c776031e4b5ac816b7003bf87c8eab9be0db,eff14151f305f11b2c6f2c00bcffca2254b505ca,2427db3f5251664d3d6d997a12641d272fd4b902,ed35f482d822595f9b11bc5698881bee1f3cc3d8,5d6ae8711208f6f705aca40e13019f4a22206399,b5c1fc4898631bf43ffff49677d288078af5200c,2281ec25b4f391af04f683a9db65944a8c5e76cf,bd44148090fd42ed45f7bfdb01f322e718036e6b,b706a67488c8d779296c1a53ef7e5b15eb3e0b43,7216b7cac277f774472892485fd6113d4cd27dbe,fb1b84201994fdedea672eb38e904944bd1f81b3,49fee47b2176db19a6fa011dfd143ce6b58884f9,beac4ffbb1c193f5ce731a0b023b4f0a7e802fc6,0ff9441544bc8829982712f3ee91e4d90be5f29c,1e2be968813ff1f82234f37a4ce8ed97505b3e18,e718a6242c5e4c61b4db989e442bdee445cf416a,c6b43d4680db55b8e06873da9871301c8e83afc9,f398259b15da10fb16b0f6bfa92aa23f7f83ac33,727e00a96e7d2c48bb492c62937c6008f03293ca,b4a715af03f9897fc5a723d90028071fdd98bdf3\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/actionhero/node-resque"
+    }
+}

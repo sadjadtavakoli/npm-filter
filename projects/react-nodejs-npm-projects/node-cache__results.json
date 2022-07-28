@@ -1,0 +1,35 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "export-coverage": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "d812604633049e35fee37eb1f4fccc071afb0ba2,b76e1681927fdfef4b67593bcd83e21024003c5f,9499fcd3b0c3d05035d8c6e4c75ea19e2ffeb165,e09d45d37c1e66761ee41b7c32caa8e553917add,1915dd222d27be4195159f71b43f3b571ab67a57,c1d3f4257b9da12b8bd81e88081a980f97a8f890,5681bbd285d52f886fa34f913228d49eb6274caa,082b540e219ad4c96b6a3b523e07fbcd21e322c1\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//node-cache/node-cache"
+    }
+}

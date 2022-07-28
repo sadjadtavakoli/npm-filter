@@ -1,0 +1,52 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "compile-typescript"
+        ]
+    },
+    "testing": {
+        "benchmarks": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "test": {
+            "nested_test_commands": [
+                "lint",
+                "test-unit"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test-unit": {
+            "num_passing": 229,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "4e6aacd4921a3791e8f01ac6ab2fd6bb421b0dc0,fade8cd4677c682d70f8b12484e00c2360a9c358,f9f947509e85ba42e51a251d2e814d93d87b9611,24bfd0f57ed7391fc2da2b1aff577e92cd7db6a3,24cf59a8aafb016689d4bbaceb81de669654d8d9,6a71f479502886d8ebb6907be1f887a47f492e76,7fd54774ce1ca8c31c78e9921f5d6129aba90fdd,8e7056f02e415a8905515f8d9ae1cda8e6fff1b4,28c235c600d117913d0fbefb560561686eb1057d,2476a6e550e9349955bd00f894ab076c3d2789fc,ae89b6c5de7000dbdd03b461ddc9f2ab253be429\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//siimon/prom-client"
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build:browser",
+            "build:browser:window"
+        ]
+    },
+    "testing": {
+        "test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "travis": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:function": {
+            "num_passing": 86,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "test-all": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "test:unit": {
+            "num_passing": 19,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "coverage": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "coveralls": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "5bbb3262cef3bb8b1e9f10e5fc5690cad0bd07a9,b978172ae215e169d5113eb4ce8919601455fce5,a2cc38896df72043e8c6f8f741062ef06a38e1fa,306c123495f56a534769a7191899b8984da1db14,d41f44aa40ba362e5520a2278a5d4e1e291e578b,62600d18d89810568087affb97e34b5a2ba627b9,5148225f60df99db6716b7d2391dd3a5954a7dfe,27dd7775c870faed54737e781648cdecf550523e,8e444d154bb688d61b3552d3d55b7fc4a9d08a5a,76a8109ad69e78453ccaf07ca38f63659ee925fa,70db0d16bccaaaf98e04b4b05fe05e76abb59bc1,46aa5dd88da82af89b3cce9fa962f08520c19468,70cf2f2a07694b882c7a0cca714836cb0e331902,54831838b5b6aaaa429b08884ca2b8ce211f6f8c,5162a3470b02b903ebb69eb3513a66cee5c2ca74,2960ccc30332af9d0fae6a3d515f10886f13093c,1c57c03621cccdc339c7c37c8372626a4d9baca0,5590c79b885c8c34976ec509e9ba98044c7c6a79,2e8d36cc12c2a5ee5acb21f6cd809b19a78b39b6,5a2251c7e737a63d97b3aa38d011ebef749c30cd,41379c7d0472e6d921b21d917f2d9fe3080151cc,4c58ce8dbef5f4f951f051e67c28de2197063ebc,260424eb404deb2aa7eed3b2a524b30476fd7ed3,2fcff157aadd1821bb669a54e15d1efee5287421,16cff9b8c18b2c148d548d010f8464bf59e2a2bf,5d19d8b3d1d7f7fbf3ac913829e3aaf9d7214a89,28bdd726d5d04bd7f3823e04c4698e53f2e26d76,e834303f421141a6d49651132181deaf575ae932,b73aad5f4a756686e2f08eecf4e687f9450cc764,97c5bdffce8fd39f43be0618fd806974af192e62,36cf101f132f4728d871f0f91902f6767600132b,263353a611104299f633271ed8b7285607b808b0,e963d121478f8deadd3682685f3ca6ca720cc49e,31d1b5e5da8e5d6c06d382691d2e697604c6535b,1d164ddfa8b447b7705bedfd6d6285765a676c21,e3801c2046d8253ec91b51170b9f26b78f62f6a1,271901dfdcc50c8be80e37439a558bb9258add5d,b4e35a6108453a7496a86f3f60577e4595df506f,d951b3774862d65d59e154699453033378d7ffeb,880f795dd1253f18284ef21f571bb4e3a25b52f9,5116fc1bc4aa4df06c6fabd9c3367ced56288072,13133534df956f48f67f50aaf7d85da934adedd5,d1b4c5a3cc1b6eecdeb66e6690977c7534c530a6,af7eda540a2ca9db569d3498943a43be54b93ca4,c379d99cf9ec3244f09c5beb8315b17bf3a13a38,5d5884130ee656ee01e91001be5bf0ce01f71c77,856d093f766bc9525aaf39f9acc593abc8568ed2,4dbe119fb801675ae0192383c5d549c1fae3a293,5b9f35e75439e1872006a5245bb6764d19b471c8,6503255d193a3cf4a2df7aac36ce4851d75ff15b,e96aa3bbdbe519c43a3d1bca1edce84d1e52d312,bc4a38927065ee51707f704475d14bb6109c8b9f,6bf62a976e12ede803123268b53d840a25947108,0578f531a392a79a7363df9e257b46d872f70352,4c44166caa37a3280c962ff8a21c96e2f66a53f9,d0a0e665103609df923dbcc8470b44a834ba666e,c44a39c8236e310dbf0acf4c1b8f4efdd31d0147,67245fac71a63781a008c6648ef03d97680d128b,971dc33cccd79682d8d78b7235d2776bec8dbf36,9bd6bd42b903f3df26d74e58bae135d6cd57452d,e0961d4685884dbb4cecf18dca9d89cc1a2a8678,139bdcf8a7e3e77e447b9051207c90b60feb92f8,473ea916adecc88ab26458a7fb1cc9226fb4abb5,aea93fdcf48c4e37d4196db2530eed46c1f29d83,17efd47e24b40828d3f9bf3876d7ceedb28e1dc9,06e1231858e87d1c30856d4f809dbb20d1a490f4,5908d41b2800742c7afea1a67f5b8f9806c4e975,0fdaa960c1a6d04b0749383df6696a4a91c9639d,2973014465303a307abb9aabcda16305377f4952,8d4a82bff52ccee95e4fce53757338ad9a07f537,dd08f599db06c7aa946b0b5c27a11f3a4a764cf5,a89b869642d405771cea4205681ef70cf31b9dc4,53a58025aa12d15ed512229768232633fce3b227,54756db38fda4a022c1a7df237b2133679c97686,9288132ba190c6985de3c3b8ebff0ede460afb33,9b3cb2c25e3dcd2b893d7f3fd2ea06673f7fc280,54ff78eb6743ac11e4a776898d90b6101dbcfe11,c03f8935f3d76743e4d50a1f02c1792060496272,ed19e71da073a6a66512d6f978cee99be4a6b9c2,b70fefae04cbe463a94f25ad2e03aa5aef471154,06851b3f7fc8a528e00e1f1a55bf260e6d903af2,367174d29413b443104dd939a4d74ffb68ce6581,01df298fbf494378f36707b98059ea4bd36445a3,307620fdac6c62bd915a9a24fd82430933020c05,2121aa68acd722c69f54aa708d8c50c78385e53d,be8108790a7925d160aad429a5c0eb76c361eecc,834e98971a069f02ef44751127df152a70b43f7e,4069f8e550a8396ccd0efba03cab748a91e68b3e,2df1b03d94d926e527306593e02b479d681b2cca,e475fc8c2d77a694451918ebbfd5ae7c2f137806,ffca0a5fb133598a6b9150978d5eec0b26b1a1e0,f6cfcd33bc43227c8424f90896da235d2fa83eaa,908a00c45734d4d0291d06c0bf601f1bc95e654e,73a91150261deb2bbf10e99db0ab26ba892965b2,b243e31a6dda52f29c91361755a887d68acd015a,efcbc4d88e7d8a686341cad2dc82394c57d84ab8\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//Keyang/node-csvtojson"
+    }
+}

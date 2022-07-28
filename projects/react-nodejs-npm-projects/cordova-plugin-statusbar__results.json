@@ -1,0 +1,33 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "29283396113ab1c46d36b61f397f5cdde32686f7,b448166624a29cac607c38b45f454581757eb411,8a3f9edb9d3a32db89f42e8ae3b08185533dc19c,3e9ce84a56c43c8ad58e49c1d9373a563efa8063,b0b61af61a6c3ab0948657b77608dd906cee517b,a0e5b517e07acc92e891fe869e1b8fc8c395b6a2,251e904492fe6fc2a0a2880cc52655d7e88cd0ba,a6344f14f99c19d60a783d92a742285fa3c62fca\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/apache/cordova-plugin-statusbar"
+    }
+}

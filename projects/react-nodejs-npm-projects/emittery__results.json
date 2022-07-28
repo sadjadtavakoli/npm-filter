@@ -1,0 +1,30 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "num_passing": 75,
+            "num_failing": 0,
+            "test_infras": [
+                "ava"
+            ],
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "43b6deb9662ff96b74df40958416fb72022f2ea3,a0a4c6eb73d3b0af488633d3e8eaaeddf41c30b2,2fdcb9e7fb5cb43f474b669aa4b63fd5dac44316,957e88c31efa3de73d94f0bbac8f36c37e189c96,a413aee9cda94e44a05b8c6843076bf3f14642fc\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//sindresorhus/emittery"
+    }
+}

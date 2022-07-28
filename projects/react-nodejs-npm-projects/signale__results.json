@@ -1,0 +1,37 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "lint": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:ts": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "lint",
+                "test:ts"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "4e6c97dd89f4bfd02a9e850889938fb9351ab1b9,de6bb2e6d12cf881a08a53e428b12986b8691318,5ed52a5c34d109d73ff4e4b10b5d6a7bc021e29a,13374b8d25519c420759d71e868bedf3a198c9ab,fbc1a065d08a3638d96902cbf5decb3211d4fd70,b41cee38e5053d4cc0ac88ec04be0e0d2b30f42a,567f46898ae4b0ddd43e72a76f0a6fdd4263a3a3,44ae81cdfd0bf2365841df937e349da1f833a835,48948a1362681d26ab974e63415315b7922c0c5c,54552e56d0e73fc9f72d5f1e12469bd16fb95d7d\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//klaussinani/signale"
+    }
+}

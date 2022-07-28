@@ -1,0 +1,24 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "b4d0ed76f82d8f59fe58058be81cc09eca1675c3,f38e81c971d610bec33b8c338d04dd8981648900\n  File \"<string>\", line 26\n    \"\\346\\261\\211\\345\\255\\227\\346\\272\\220\\346\\226\\207\\344\\273\\266\\357\\274\\210ttf\\357\\274\\211/msyh.ttf\"\"\"\".split(\"\\n\") if rel_extensions.count( f.split(\".\")[-1]) > 0 and sum([ f.count(d) for d in dev_test_paths]) == 0]\n                                                                                                                                                                                                                        ^\nSyntaxError: unexpected character after line continuation character\n/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh: line 30: ((: ( 27 != 13 ||  > 1 ) &&  > 0 : syntax error: operand expected (error token is \"> 1 ) &&  > 0 \")\n  File \"<string>\", line 430\n    \"\\346\\261\\211\\345\\255\\227\\346\\272\\220\\346\\226\\207\\344\\273\\266\\357\\274\\210ttf\\357\\274\\211/msyh.ttf\"\"\"\".split(\"\\n\") if rel_extensions.count( f.split(\".\")[-1]) > 0 and sum([ f.count(d) for d in dev_test_paths]) == 0]\n                                                                                                                                                                                                                        ^\nSyntaxError: unexpected character after line continuation character\n/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh: line 30: ((: ( 408 != 206 ||  > 1 ) &&  > 0 : syntax error: operand expected (error token is \"> 1 ) &&  > 0 \")\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/FantasticLBP/Anti-WebSpider"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ],
+        "ERROR": true
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:ci": {
+            "num_passing": 5,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "test:coverage": {
+            "nested_test_commands": [
+                "test:ci"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "dtslint": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "51df123ee1a8c137c96e891596bb4f61dad53292,b48e5589c9198d7bc961be6dcc09cf362b8319db,75417452c7fcb1577063957ebc9049e9bb7e02f0,504faa31fe90d057606e3ccaa4b8adb2e65bcb44,354b7d1543dc540d193f3d2f30a471747f833b3f,e363112dccbcc7f63a148f691a1ba8bf8f3183ce,f4e0d10285ba0c15806fd2459f6407355e4a195b,c833135c513f7fc9c205efaa017627e4c1f6b74b,9180e70fb48ae9de10905bdb6c6a48b9e60165d8,f0e281f6ceffed731a640f2621986c5661aa6f12,1b7e79865bd52b6f6aa891732a904b313a9e150b,198c4e5c39fed770343a2295b2ba0bb13fb7362d,acd7ca3b75545539087ec9c130403ce8e22897c1,c5739f51fe6a3724797c2df4fc514ab41b706f7b\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/TanStack/react-virtual"
+    }
+}

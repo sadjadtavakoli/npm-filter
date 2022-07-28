@@ -1,0 +1,24 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "60d514ec8db3600d6774dc6756795f85e15be5be\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//OrKoN/npm-link-shared"
+    }
+}

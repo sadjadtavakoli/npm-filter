@@ -1,0 +1,52 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "nested_test_commands": [
+                "lint:lockfile"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:lockfile": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:fix": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "num_passing": 41,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "coverage:view": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "3e4e5b5a89bff6dfea11a847d271ff1530184697,7c79f6f42861e128ba36d37b06ab31aa8e67ca0b,0ce98bd3a9b79240defba22c6992a3c7bef1df60,34e80dfbd7105a27f913e399585850b13a32b0af,0eda5c9b8f2fb07f1520f0e15908c64a27a5c46e,6cccee3ce66a90da1b1d2ef3901d67ad43537a23,82ade9bd9a8bc283d124758b8baae96bfd108ab7,55146523dcec0140e73e196bf13fb0411e37af85,255c5709a7b0bd6e8af75a3e910038d90590ccea,51da7b46007dbc5d88d92ab1ecc83f6d64282ffa,a1a09efbb069ac230825d078eb2eab0ae9d41554,4d9ea75bc21b6ba25dcd265adc3c4baa1b8b7d93\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//lirantal/is-website-vulnerable"
+    }
+}

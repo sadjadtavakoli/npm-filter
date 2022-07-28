@@ -1,0 +1,44 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "prebuild",
+            "build",
+            "build-storybook"
+        ]
+    },
+    "testing": {
+        "eslint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "eslint:ci": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "nested_test_commands": [
+                "eslint:ci"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "3c23551fe8563e659872d7c8d72b7ea9b83e6093,67ed4a448f594355fa99100871a4977276de96fc,38b968d001c638c700f1643e1cbdfbdd952d0f9c,69587a4c2148fa5a6ff2f53a0b98d007c0e4b2df,3fa989a6fc08fdef0011a29f436a1f7b23a7ffd3,9241db566f54a1d38d435686a2380458c72a4e2f,b8f10f3319aa9e7c71617aa245ad744e87ebc3b1,ae4c74a1b93a184955743ad83bf6ca718cb0a5ce,4391b4ac8fb2cb3457b071294b4ac510e532c863,a2a72d6bfbc8577739421520136378492840c9ad,dbf374842d100617aba7d0c25d3a3f4c8cafd100,93a315eae48a3f81d8f25df789bb5ab819c5aad4,e2894a6145b2f74a09a92d5a96d82207873e58fb,5e7b5f96b569f79789d29c2f2799b8d3ad2dcba7,76ee844511512f3302027a70caf4258cc668982a,0271cb1dfc166ef9c9aa54e0651e9ef25a2640c4,903d127d167acd2bdcf49bcf333f5835b3f62e80,2c382423ed699cf0effba9eace422a3eba26f343,cdc724085d72a80a98eee2ccb85639730838add6,db1db7ff1df8535c8c52a6dfd2561443a9d711a9,dec027f3568ae74ef0bcf1b2965ba9ccd27ff0a4,4ea6e633151a8a7b82030b78c4baca84a3dad06a,226eb68039daa6071da1538d1ae757535c378eb2,93d842ad43c32dd3d5ad67e560c400801dfe8a99,e61d0e9514c6cf7693b9634cc00004f04df4a664,ee9fe5cda752c06c50085b5167256292d92e5d27,8752daeab5cc28a2f82983aa0619255411f45cc8,644f4330beefe8516d22f8bb365b131256b603d9,8963fcda9a5abe78a73609fde49bacc0dad36c1f,6edcf2455886330fc0e1e7811fda8d40d5ac4c29,86d56494157a673956a661bc0cb21ba7a5369d86,ab7f09709a0ce9c294340b53e142bfa61fe2573c,251492164b248b6bf838c525d52712da0a949d84,f542df83320b6b50a7db64c141606ea7fd82fb08,42c22e565a2cde10e0bfe0b64e8bba01a8146f24,484e00fc44721335b2284334c4ede9d1475e9c07,33650456f09394ac9a7420378a208ffcb96eef5c,27d97ea7d835a1f295d7f151ebadfd6896f3918d,19c85fc468e6353d9de7f366440967a71c340405,6ff21bb3c076ce41ed9bc6e06ac08170be536145,c133491c4e47b088594a1d2b35eb54c75d841853,67765d087581ac8e9d53c91a20ae3469124781ce,54ce7afc0757b75c62cd37649495df4647fc5799,68faf76bfa62d24be89efd0b648abc75d69ead00,3ad78582d3d388a7adde978583118ca4d1e056cf,4dd5c3c19da55d40c8e8f76d7b0ce617f7a71416,1099692ab4f1615024f770e5e22cfef2dcf2af51\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/pmndrs/drei"
+    }
+}

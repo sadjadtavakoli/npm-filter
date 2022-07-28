@@ -1,0 +1,18 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {},
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "86852e0bed75bdadfda08995a942a745ae91d4de,828122e6f439585145152563588aa35a5c4dff1e,38ffc0b64f66374425529a6f23add81061ea391c,d8ede12bafc829235a9df009de7448e87479d39a,48734ecaed077a5d0ab8527dc2d4087620f1a35e,bfb6990ad02a24e9cc4ca1ad1a45defcba3772f1,d750a8b52bf4662a33517ba3229b6bf4c86ed671,44ad112a9d6327d3eec606c19fc78da04b9a1ea8,533f0a4434b250fc7a24b1bb28ec6ff10e1301dd,6d2e651e87afcc13805abc21d220b95fcfe18427,903d63019156379dab864698820164276200207f,abf78edc6bc617bfbc5874cad19aeeb5b6eb3420,60c6b76f0d35cb5f361b2341c8f7dbd84fca19eb\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/ByronHsu/life-commit"
+    }
+}

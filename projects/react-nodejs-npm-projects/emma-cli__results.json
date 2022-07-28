@@ -1,0 +1,33 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [],
+        "ERROR": true
+    },
+    "testing": {
+        "coverage": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "num_passing": 2,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "1b10d94b4ee2a0fe223793557568326cc7795a16,f203d7fdc419103b8d645fcb435cfdeb534ed812,1c111391e68f9c0881b4842458054e92f68dcca4,4592023935d04f0a60c61b3cae8b2512b772be9b,b524c0110a52c1b216177a196b6ae1f21130c044,f4bc6e096843e9df5d07455711884804a518336f,234f181df3c7fff1591c4bc743cbcba358e93c87,e0ad5022c35a18fbe94d7157465d9ce9e392a142,794e7d125cefb925bb70ebc83921de4dda11b38b,dca88d536cf51289408901204ba3035d66751980,76b013e43ecbfb1e205e30965358423f18314c74,e30a98dff3dff69f1f55cb2fc5e0b12ecc4bb61a,2a9a17ad88b1271ca76b8a024ddcbc589cd09f63,91db543b78b6a1b9633734f01482a9362493d560,ce7c167e67af76fa4b558f2bd91fcf16633be1cf,4692a77c6d73e5d5d465d67c362012adb9b9bedd,1097751cf0e97bb59dc47dccaf84e9dc8107a871,17f4b537e8d37eb45a654cbfea0c610758836769,b524d6ad2798a53dd8298eb24b3fed5e94dc5b35,c1a4d7ffec4b9653769ff3cc41aeaa9ffd72a4db,ce1a49f6aae935bc90d3dd699b47c64949023a4a,33d9c28f06bce7d3eebc4e4a4b2bfde2021dfbbe,ddef595afed26a3bfd81bcd80a32fb9cc3ce6bc1,e0e92a0f05f96c25ac45e85aa66064ccfea0abf6,991c8a042426f2574475dfe216ac69707d81343b,c2a0f035c1d95e4bf64cef1abb976f782cd89367,dc7c73182b82d6861a4d329fe30a6fa99c188367,40fd25206ffbeddebfe1f8b9782398fd72dc8c75,2db505bebb1ed29182e20c1ec9afa36c97063fc6,cdf0f17d44b66bd809eb41bef523f875c8c39237,d1f03f49a2f09c8ca153092f107cbb6094a80055,0913d1f6a224b0636627344ca3b8cbf14b2e8e99,c9d4ba4970d2b298d3a039f949e09c90352bba3f,e91df835d7e58cf56082dd9ca629e701295f2d0b,4726f4e0a3e96603a0c9d848cede6f9966f33467,6bf8e5a03bc999337c03f2300cffa01034f0c251\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//maticzav/emma-cli"
+    }
+}

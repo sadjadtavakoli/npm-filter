@@ -1,0 +1,55 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lintfix": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "coverage": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "format-test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "8aa459382657ca8bac1ad845f049eb4be7246f75,7189a8dc1d9f77d61810f2674bfc33b5daa22d96,c1d6e7af7caa5fcc044a65a46cc0943aad36f820,9296a7999f30b5af3ee3994e53de684f8163c974,d95e4cc2a84947b533de5fd28b10d80dbc3ee52b,ef80a69659570166475f5d6520dd446d63e26ec0,aba49d2bbcbc1b72473374de38d83abcda456057,7a48abdd193247acf69213a2f0c832c3d3a493cf,773428cdc4d8c01d51346e21d5236e0ee135e760,6bde6dd457105566bdbf048feb068236236746b9,497ba4ea58eeefe108ae29ac951fb46a2e699e3b,da6d6588ab4c4c7e310f48f2b6cf393e3994613c,155f186e75c6646ed9a2fa9b0bf45a1e0c9cfe72,6c2663ce747b199f67ed11ccaa1fc8413eac5f43,01787c0420f67eb9fd32d19c273811678e1da9f4,f5b6f833b2194e3067d17599f412e534a15b1cc1,74acbe1378ad3400be4ce742da67af8a099b159d,5b6af303193f455e5e798c9a7c10f8dc99c913c3,24f0120742096edc832c04c17034568b79e8a843,ba0b38dcf7f1ac42b2b2ad81907c180995240c25,e248a5310e7e223da6e470ed9466991a110b4750,eb3161ca4579cddfed444e8164ca4708643d65c2,ea9a8c70fdfc22aa1d561aedd5c6ee7420028b20,50e582cee4441a69ec091244c5547e6b5acef76e,4871ee1d7af61ac606cda86ab88273dd32a2270e,e2bd0f48366acd1136870a014d115952fe5aa354,4321ab66f62ed515b7a4fc62446672403abbcfd0,b6f4cebac9cb96dceba9db1aa19aac068b977f63,664d616ec8f164d45ef819434a599d7b3debd6c8\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/nadbm/react-datasheet"
+    }
+}

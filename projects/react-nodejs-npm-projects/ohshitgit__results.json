@@ -1,0 +1,18 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {},
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "10c29a31f779bfed90a2366749a633cd9e4ea4d1,02bde8000e54f76bd565b247abbf5ddad0589be4,a0dfb848aed52cd951eebad6310af744b20d18a2,5256342610e3add6c14c905806fe5f8e8a629a4a,25bb148c566716278d29e41d9b01743791e9f451,fe8d22eaa0da652414e38a26eb8cde0b383f0d45,cff205b2ef4f11bbcd3d78125b3fb3a254f75191,adba0d698f6bb531f7aac0456c8075955c2b687a,195f1eb49e4396bf3c2e88ceb01455c2aa461e17,d23b25a9f510d44f25225498210352025373f6fd\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//whatthefoo/ohshitgit"
+    }
+}

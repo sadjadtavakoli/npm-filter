@@ -1,0 +1,29 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "num_passing": 1,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "b62617a1027facaea009c95892e4d540ab2bea7a,bb5f8793190dd807e2ea81ae0b41c538514b300f,29e4371591996b917f875ffe45bed5036593be06,dcd69966e8a2e8d59375b580f7dd6335184bb35f,54ff2d9a5e909c4673b07ce081deed091804f578,25fba4be433a612cc1adfdb8ff0114b2b19ffa1e,ac79afc2b2101125207772b925da5e9ee1564d0e,e51551d024eb0baab372ad01473d61e5684c2310,4d7cfde789b3315ad38ddb7059939c1cafde0319,4fadd292d2ac130b8d4fc32f171f2325262d61c9,66189256e995cd97390cd64096683535a7d3998e,740d2614575660fcb9742b3afef6e88337d6888a,ec80103992e68f9ef6b4b95bdbd01b1daadf7cec,f7458293387deb058e962a1787fcb6817f36d4fb,bed193f3ce56bd223f339f916bc8a60734ae6bc8,f5238fbbc8ed9733e28657daa19050bbac9caeb1,9e10a4d69c3fbcea7342417028cc1f6c3725b75f,3696d7aff796bb16a0bfe1b149b81dbb5021b3e0,32e77c8c95b11b8c3830c1a7596cc6eebcdebdee,1d6d68fbb0bc3a49b15de90e23f6663a4dd022b4,db72d34853ae503e067a99453efd2f34e15c3d69,6541ae6efa24d5b802f060e6fc3cf69609923f3f,f5a9a35855fa9b7bc20b57d502306cbabb79a2d1,3bade19eae5edf98f2c9e010682af175abadb87a,d88f56a219e4e0caafc515984d290c82ece01bbc,d5e422b730221d86461962cffa9cec244eba8a0e,9417dd8432be92e62634879639e7e8ee69e579b8,b4c145a344c4022786a7d8c385a9ffa8baaf8376,fed8ea675c82e22cdab9d57b323df8b95aaf0f2c,234a8190774979c00b6d11fd4099e927fbf85511,d2120f6fb07433cbc52201e1fd2a22ddddfd87d8,af102f0f9caeb7898a2aad63d86734a916ea056b,d05c8a4fc3f4eb5092425b1c4b433f0e9cccc610,afb951a0f593f094ac7661a95bb07253550412e9,e7678eb7955a18c6705cfca861b08f1244200a51,e06706f89899c38ac98c6ec103edc1fe2b23580c,f3e9ffa4f9eda1737731b238fa52dad540f75cc0,779454e124ab6c6cf52d3a6e5bce410dac44570b,fd0edbfba9ea61da9c882940ed895c652153b354,bb6b734bd84edb1bdf32bebb17ce2d6e6d6254b1,6a0e9a01cc597b3c725c57a150226ee95f406916,b975817e9f74e776aeca752a8852618c12e92a3a,b55679ceb9fa3844258940dcbdb04fc42cc4cac3,01ff32fa1e7a110f847fad0f544a9f1980b69093,1f846d6d3ce560e6a778cd0c1d510709f2d461de,41635d3a08537ad8dac809adde77e4c3192c6f73,c48ba7463e413fcb774f188463c67e12fddb7707,a76595dff594719451d072b5c38c6c2d4797e39e,0f8f280df41d0f7c0d01314c5ffceb7dfc7b61fc,1fec6b217c8ddaf5cce5f00835b1ada92c95ce1d\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//zcreativelabs/react-simple-maps"
+    }
+}

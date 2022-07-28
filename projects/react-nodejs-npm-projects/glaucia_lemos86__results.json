@@ -1,0 +1,31 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "0082b2abc983c766f3b1311f75779d8ac057ab3e,bf1bb19142e15eef0e5fcd9a53110d41151de5ff,c6f162811b695a9529d02af533aa602ace5ee1d1,7af47357d43fa476f1baf1c5697e06dac427e330,230b142807a1c2a1297fe76d4eef8ed363bb19b7,a4f9fff531fd12e3729919f3b8b467540eae89d0,9360dc7b1c359ce6bf0d0b76d6c9bd285b2977a9\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//glaucia86/glaucia_lemos86"
+    }
+}

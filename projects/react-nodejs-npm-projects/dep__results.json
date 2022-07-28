@@ -1,0 +1,44 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "pretest": {
+            "test_linters": [
+                "standard -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "num_passing": 57,
+            "num_failing": 26,
+            "test_infras": [
+                "tap"
+            ],
+            "timed_out": false
+        },
+        "test-ci": {
+            "ERROR": true,
+            "num_passing": 57,
+            "num_failing": 26,
+            "test_infras": [
+                "tap"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "c0e4ebae1ddb81a73ddd4a26931588ac562e8750,2aa69d5db8a3dd778d4e58a9ac494e45d052a776,32deb8acf0fb823523dc971b1a63c67a39ac3f91,b5b0a7624c61b9e9b9ce6f81aa6a7a02fc602973,fdd4146a0c562eaf0601b0af43f888c7fa74434b,d2c8db2ba82fd8c58f697b67dc57ff00d568831c,da453d09d9bccfef6ff6b0b2fbeb7e83e1d1fd5b,4dcb286146f4b110ab6dca4051820aeb8cf84c12,53400c6228a880a22f68b50986305bf49c2d5d2f,89252d8a9b5cac78f3169ad0e88990f24dac4031,a2cba8a2f54dc67a14d3741cae78d0d51a32fdd3,76e3281bb6c360cf56019c9efcd64d2f2fac40ba,9dd0675d6ce86360c30946a0b84e1b217dd7e290,22c6722cfb052ebbb63a9f7aca36befe1b7442d6,23c405d7963ef0694785c49d4d00504a34ad5b28,8c68afb777f6d89bbf723fdf54fdd79571be7ada,fb1bc71ccf2cd4a946bc3cbdc0cef818db2f720b,f4b592ef3c30e3cd9e2aa7d27e4e4b45c774f5ec,1bbd3adef444b0108aee02beb778a4ba9d0c107c,ad5df92a506970802cf9c974b496d17762142ce1,656d70d7c0b9740c8a8f7ad41afa893e37fc0e61,79078b6ef7160bde71783ea1fec60af1106bee04,c4396b188c0d71e04f34892d3c116a87779cf0db,c6a6e8708c253cafd9f142e735a650efcfef0b98,b4ce500a3fa088af50b5ed1b4687b8c3b75fbe0e,ba9cfaf83137ee0f96f997dcc2c054b85591763a,a9fca0870b3ff3460cc3ccc4a67435e09ef2c9d7,705e266c9b63ca49c1e57e94023f179af4822b8f,1981d363d0dea818962a8ebf3866b72031d8ba11,61ae9ef4f7115e55fbb8175f3b457ef749e89eb3,128501ea7e9fc4298779e5e873ade4d474d58ba3,b99dd208b618f5d66a5c1b80ae8df90482fb9c4e,eb52c78126f8d54176d4f3b3c88253c690a0b881\nwarning: inexact rename detection was skipped due to too many files.\nwarning: you may want to set your diff.renameLimit variable to at least 2812 and retry the command.\nwarning: inexact rename detection was skipped due to too many files.\nwarning: you may want to set your diff.renameLimit variable to at least 2812 and retry the command.\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//depjs/dep"
+    }
+}

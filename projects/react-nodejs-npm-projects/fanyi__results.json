@@ -1,0 +1,27 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "ea249703c99ac6560600544cf55bbab728b4f305,69d580c89b2242a590f2a01e029fb943eddbdf2c,0567938403404d2205920b5fd31e631bd753ed43,59e99cda55f6232ef34dc6aa03d7d164e5f2d2f1,4c0ffac98fa2b17a872e9d2feea1e1b580b16255,e00e2e60e40db4fa956189a383e1bfb586c8b341,a4aca78cd05ce2d9d3289a51e4b48577189ae94d,e47f8eb7415cfad616afed5557970f1d5586f774,c41c2ba22337a07e297093b63ea60cec3dca5dc3\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/afc163/fanyi"
+    }
+}

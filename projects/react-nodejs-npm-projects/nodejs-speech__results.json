@@ -1,0 +1,63 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "compile",
+            "compile-protos",
+            "precompile"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "samples-test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "system-test": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "c8 -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "test_coverage_tools": [
+                "c8 -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "docs-test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "predocs-test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "pretest": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "prelint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "1f340874241da12a32308ccba64193205c65a459,03cc7ef06a573b3af8340118d7dedc6e06602f17,11363fe0145245ea64137196b8e68462a5c1129b,f5cfad6ba198ae109679feac84340b7f83c236fa,cd1ac8959b10a5fc357e3980325cffc9c3c1b949,af51647ecb3484d27b83a98f1c3cea3ae9add769,1476282e6d7807fd48a5411132016f6d3d8a1280,b4f8cbff71e3cbdce4d7fb7cbe67f7065f4c6a2b,08ed5b51bda6f158d6c5709a6ca3393aa0c61c3d,171cba0bb8f7bd12ab96f296824e0acf7a0698d7,08e4276a39a74a45300041278dc3c63602971c10,83e1b7bd4cc2d6ffd95769a4a6f519ab23b9bc71,41a2b936a8e7d81c7fc170687c1ef903c13a1808,939c9214236853542164ad72fb925c96799bda32,689af48120572779143f16f7d1b0652bdddd931e,010377aca2a307d7955b06e6b59ad1bc15eb3d4b,1a30de054439fc8e49eaef2c8641a507e7836c37,cbed1b0879cd15bd4093948f2f9bde431c0236d6,357e34d8fa008eb70ab05511d22954c04d08f061,11e2ec26caff80a84e1abc917c079371abcf9d60,fbcc04bb6fc8e8ecbd90b3559bf2e85210947a37,7bdd0b22b74b24cac719a275600cd303f37f8942,34243d02abc2ac04d52ff4b25c6958f2e351e58f,6378dc193da2f792645ed0ec221c9a3495264486,eafbadd3b22943dd1002c0f523f4d06d15bb9928,a9205371fde503b99a56aefbd45dd6eeabbfbc99,22ea4cd49cf8d57ed0afcdf44cebcc8f95e5ab34,e3ac050fc99adf0907b29fe8ef54c24037dc7229,3af749c8f705d92dba12169ba97c176ff3006a31,53ec62ae6ca07a6b0b970fc7aa344ee8ffc53cbc,8581497419041d85b74d388a10b75c05c5e71ee7,73bf11481bdf183d12a027a88ff7c386c568217c,016458a23a630b0fc0ce8251d7d043dfaf031a2c,303393e5e5bcf5ff3420aa661cf316460bd9fc11,29d0f3ffb4d8243391df44547a0df5740e0b33ce,4ffc024b584aa621010439999065c6381d59461f,40108b9627a6b6bb2ef825615282bf9f803e435b,ef931e790c83d17a5037e71e67d82af3ec65c701,a5cd7f1479b6e6be70e6cf9ac511ee2d1e4b552a,974218903e4203de243b5d21229f273bf15ae7fc,824e75cf8688b7ea22e6abda3167cabd7923bc5b,3f560364e6688e541d1c9f3db46d5c12ff4a5d74,0c22cd75daebb88f4f9a59bc069ef87552ea1017,c6d8145c469d42e74f54a65740c96fc8b9d3e5f2,a027563f006487efc7a2e509074bf11ff7f13c9e,c060f9f2c96086d5b6bf4061bf99194f1891f44a,2193b584cdd3792827ddbf99a1057954da6155fc,8adb72ad2439da07ef13e21660fde1efe35c83ef,3cc8989cafb1be3bd6741ca61ccfa06a9d12a513,61349c0432ea777e6bee829f525c5a4207e78320,39dde8867090d1ef5a66c8d7dad347ada19c4fb2,071b5403183b9dc3aeb0795b82431c0c49481285,cbc247396bce35405e79b6755ed7e01b1efccef3,ad3f2accb4892ab9c9b325539041f7b6ebf60c39,8bdcbc34778313e5b432bcd4cf3c3e3badf8b188,b643ceed7d35fbe929d5269323ced977ae5a4668,71d6c3fd27f1108bb939a1ee1be339809ba7855a,bc0eeca07b327f6bd3919dcd1446c15ee74bfa80,fa03c6892f3299aafa8d568a8e08d8c2fe06857d,97b3e0c5f238b5645f28c041404c198e8dee130a,4e6118745bfc442d793295ff460047d42de77192,3226d5232cd22fe6553f8bbf810db52eb0cb77a1,7d9f8ad634b52604703d416454d0e57b6191ee01,06b3ec76ea5e4047b7d3b912cac3149b33a1eb36,a13731402fb654b1dc1b04307ca9d0fcacb4d46c,379d266c6bc0e9f50a7ad079e4dd72bc29a26042,d0c8b074a9a67671a830b26eb22db79297492b20,8fcc183635062221448d98675b740494ae209c7f,430873d449d53c90ab455ab5e4ee95a689ee4a52,2d323fb995a6e23664702c3781537f534308a279,f5e99bc7b4e28f6900a67a21836fe4b0a09ec100,ee8eaed62fc58bd53bc73ee5134d60c2b930e7da,b58de64badbc077f28731a40604e780328d7d660,156617d1eca6ec7788a6875af34a84ae95968cce,4b9608cccb26b2ae2e43e2a03cab7b79b162c44b,8f9dd6e69b979bea464f3f85c45cd8ba76ce6f38,7858dc041252dbd4ea3c896e6c41cdf29d40f717,048c5d178543c3436fb536ceb726c7d43ce1b971,3a10f59e491b185a6e5e0f8d1e1c38cf151e75be,5ccaaa6508a9873fa6f7dadffe8c6690243f54bc,d422800b928e75dd197354926c87e1e6db688f64,e5a8866b829777daa5a0dd8a8a68d41c2b10fb03,5bc7faaa4ee9712e40967a9b27d3b9334496b0ac,f0e4ebb4306abc2c8a43b543167c0bac08dca8cc,dac004a3f63655f0ccd912706dfbf1f15a8a5fcc,0604855aa9f18a61918b45b89e4cd7de8acb43ce\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/googleapis/nodejs-speech"
+    }
+}

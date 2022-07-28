@@ -1,0 +1,18 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {},
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "a94f9d8ee65ceeba72be12b44ef53e8eb20cc9ba,245cd8116c09ceb26056f129f4a92be41549ef79,a93e45f93a39d61eebd3e55fb0fa86c9785f787d,9c0a11341f24833d8e958b923fbfae85f6396dc4,574b268f3614cb69ec7caf90c1f02fc213e4c168\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//christ0ph3r/cryptocurrency-cli"
+    }
+}

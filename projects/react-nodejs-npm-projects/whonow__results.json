@@ -1,0 +1,28 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "910f7c6e4a4ba791b2bd0d34035c58594f0e19b5,1f8b836c51b06c829a6fc41b313db70a72d26ed0,8012ca30d11661ece16eaf702e036d27a45b3c88\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/brannondorsey/whonow"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {},
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "4d4cf316d0ff5538d9366d213da4ad24b5f9b10c,e244ff06181f2687a4b1b6b29779e80dc62645b7\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//tsndr/cloudflare-worker-jwt"
+    }
+}

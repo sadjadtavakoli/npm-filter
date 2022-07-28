@@ -1,0 +1,19 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [],
+        "ERROR": true
+    },
+    "testing": {},
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "e01bddc2e8cfd79b1eb6fd2e05d83127c4c29a1b,d68042840142fd73042ce8878183e7be0dec705b,8985bdadb36c632c2d2d77e128f1cfbf5105d52b,251490f73ac5e58cc4c16fd62aeb2f43faa5194b,1f2f11970165893d61405a49a40e17c564ba0ea0\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//IsraelZablianov/draggable-vue-directive"
+    }
+}

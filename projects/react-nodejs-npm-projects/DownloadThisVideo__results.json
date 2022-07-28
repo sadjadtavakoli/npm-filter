@@ -1,0 +1,35 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "jasmine"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "9ff125aa874a8f5133f2723f307b93a3fb029be1,5363a0d9ad6e4db38b5a6e5829c73e7a6593d7db,abe44933c89e3a481fdc1877461be4b2e4326795,2d928ab8210af60d76f289a0853025ee9f0ef1c4,a8a90545fd06643f3d5bc9c01198e76c09d00145,3584c85e50e2a7b60f590c1a101d11f981445f27,97a28212bd58bb4b6260dce5ce018ada4fad1d7d,696d482165cb8d1bddd97c9115c48a265b59e1a7,1496ae115cfe5f1ca56d060fe3974bf35b415b60,a270cb72fbd87f0b3c808ef37e145a4aadb672d6,4af3642cdfd2d9d3e8dddd5a0f134988f2b3a6e7,ed948ccc5286bf9b9ca181977622b51ffbd2792a,787152009197a225826c84f96ed1b25f8a8bb58f,ba96656cd2e52e329c1c9639e9e6257cb5a72ef1,478c07e4380688dee2cc4d79256a97a9c4e6eefc,22566cd692f9adcf25a4b3bd4c2521f2f4f24872,692d4b7b7a5a6c876df04b865c31ad518b3ac45e,07e6dbb12d3a129de249c9a30384d427865acc42,4ac8e25a1a8dc0a735d8b44c1fb53fff4cce5456,34f7be83b203112979e8d6ac51971332fc603448,b97d3ba23d2a03d09e8e91951d504f4402a87e10,e7f5b0cd6b5de0ffbbb76c515d183d53a1e6309c,6d5a3f01b3ba332c495a3abcc694be5912d930fb,a5a7d3662ae69ace7afdeaaa9dcb454ec66e2f49,d92459ee59f3b0cd3df1530895162a906de89466,7a6cab49a2679c70c54d3ea0a0b72cf78f548d84,7104202f9e0ea0ea6149ce44fbec6d082dacbac7,bac69e59375f4db9d566e345063bb25dcb5657b8,3ba3919149c3bdd460bb58c9c9d28bf1f318676e,549fdf7f8ac865531097a2fb17bb0118f42237ce,9308de351fdcaad8f6662062dc871a7ca52511c9,5934da7c9d63990b80c03379d8fe8630bb6e1248,5fbf5ad0d0695cc886cae01d4ba8294e775c5159,e8b2b3abc4d8417bb23ab99c8d607c591f627047,3c62d4087e0e3d01c3912a340ef7908c82bc6785\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/shalvah/DownloadThisVideo"
+    }
+}

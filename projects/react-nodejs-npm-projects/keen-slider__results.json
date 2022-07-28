@@ -1,0 +1,38 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build:types"
+        ]
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "cabf5daca55c1a2c0173f766c3ec921a3c5d1a75,3f776559fcdb960d54696f647fc2d46179aa87cf,d9771adce20a19c56e2cc714b932b54afa465e6a,e16e478aade1e78b339174342c9e9b03d0f71f67,c6c2bbf3f802f32b7d157639862b9dea7a6926a2,7e9e6592d813e4b4af3d8f40825b69bcdd7b188e,b2d662d9629798b365fc702461c8b300047b3b71,8d06856b3f1d9ccce1a986d0586c12bd0ac2a10f,28367fbec418004c99bf12a4fdbcdcfe2b5bed2a,474e8832e11634e180296e4267be832ecec96d7d,1aab2c6b88a623714130ca2838a0bda5fca58337,8c4f22f3a5c8ad5e757314e0f3dec42a9813f392,c872db67c81a0de074f900eba231cc5841da1113,d31559e4a22fe7d813a22b1ee897168903220f45,49a52ce229394e326398032a1d359b12b44ce3b3,9de36658d1bf6a1006bacf938cd4175b02482cb1,a25c853172c222125dd335289bc369b09074e13e,0e1f366b4c54a662496fa773f7be4f0f22afd09f,0375e95c7eda04a207aca22c942c9081a0972eff,362f37077355bbbbd9f15df222340040486ec288,0d5cb45aa6fcbcb6f838121501457a4813603560,557699dccab6f19330e15684be0c5fec4f28853e,37ef1b63b94dbd6b00f9b082300d4dfe07dfa1b7,33d0c4f37b147fd85069aa687be310a99bb595bc,a3203ef22577eb1620f91b7a0aafe808cb1bcaf5,5b343e13818717bb3b9758bf718d29188c22bf85,d22eb709eacb9eebaa55e80c39b6e7f682d93ac0,21f9f4b2bf13c5d15e679ae04f1c64617e32cbc4,fd60d8ea65e3da73525f0859be44c5160f682b69,fe51349c23d98c51686eded9b3567f82ae851890,d9439de70a9629a49a0daaa82c97e912bb38ad73,9c14ac8bee2fd1f7b11175b1ebec30a3af996d58,99cd37f4194607f98596a1aa60c3e89af25d075d,a669693e3a909ddc2f213b2fd02c7e838e3652f2,335c2fce4e949cb81656a66824ecacb4009864e3,14f442d922c32c15a5b06f67dc748449bc4ecc06,e313d40d8fdd3e7b9f1db537035ec91e71f7bb6f\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/rcbyr/keen-slider"
+    }
+}

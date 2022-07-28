@@ -1,0 +1,18 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {},
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "e883a84130b398bb439b69b979f4f09e32259d59,8b1f8b7a04b234c0d108a889bc1e24b642476cac,853430672e55e4755c7d060a4182a1f5057ad177,2ade4faf71a85054d4ac5bc16796fc6b106e1c28,fa76cd0fb24f1f20bb352da577f253d1b05c13d4,f288d6e785dfe5e83c0b47e7e9237e5082bce2c3,ea4a9df295ccde31e86a5abc2773dadfc61a7ce6,5c1d5e038dca99babb779d922ce76f2c874ef8f4,bd2e43ccee31643855ff3b10f424cd7a9513ecd8,ccee251a7d8b191330f209be0b4b4a73c24c1e23,0ce332c9d7099a802343f192d02bf4d2cc5463d7,1d1d49106d7f80d84129b08f2fab7e0bbf3ad50d\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/react-native-webrtc/react-native-webrtc"
+    }
+}

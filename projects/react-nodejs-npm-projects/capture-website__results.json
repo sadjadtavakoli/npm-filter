@@ -1,0 +1,37 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "//test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "ava"
+            ],
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "ava"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "dc5a113d7de8aa18f296175855dacba7c52b9020,47aac7852b84b060ab61e83b3c30737411ec2217,f56350047b3b0e771af7dd55f5150276150778f4,3cab8b85b533cf1953fb2e48e7302d204cea24df,d73ea1715c0d512633949fa45ce52b07bb8bf034,2a68fbff81b1104cff7d6c62801f94bbaa41a44c\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//sindresorhus/capture-website"
+    }
+}

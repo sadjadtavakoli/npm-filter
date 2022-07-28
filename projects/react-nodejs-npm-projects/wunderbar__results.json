@@ -1,0 +1,28 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "num_passing": 29,
+            "num_failing": 1,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "f41492d6a6ab579cf6ac6b250212e47b5138b3b4,a50713d5968290b1dc17b8513d51548f5bcf899e,88234f85594da7fdd7525d929ceff6cd4bae3d4e,5e80701c2d54307017aa8065bd65909b59ad20b9,0fe8f643d48e94a3045604c7130a9b4afe068e3c\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/gribnoysup/wunderbar"
+    }
+}

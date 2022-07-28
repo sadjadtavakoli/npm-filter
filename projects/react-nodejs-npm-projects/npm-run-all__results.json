@@ -1,0 +1,62 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "_mocha": {
+            "ERROR": true,
+            "num_passing": 109,
+            "num_failing": 135,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "lint": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "pretest": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "nested_test_commands": [
+                "lint"
+            ],
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "codecov": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "b2260f54537e71483cc412071df3e3bae7ea3b80,12b2b87cf473e4b11e27da64b4c27d9f2db8d7e6,023a3c3f0fc4ac664a9ff59a0b47410abcd942dc,c8c440d2f3ebd8f8ea66ee520d8a07bedd086b1e,993df33766bcbff424a305c7e6fb41e0e7ed6a83,3f933c326567da1ba1530fbb5d9047fc31d325c9,09507bcd326da38aa6e099e700fb5e659a4f17a7,c24d1718eca354aab68b61f35da3be8a52c34ac4,b740e193c856e6f77bc8ecaeb3082dffb2fca3cf,97a1649ec6bfb73796f84ce6c0c7ab40479b894d,f4ef9f7bef8c443eb04a5289f7d08795fed45faf,30c2949390b6fcf8cd7828ef054ce812877d3359,62d868b3ab650fa9e502a8e3f267cd0bebe0cba2,969cd426b5fb9befc11282ccffa2fa2795f76a3a,4496065f16bf13c22a78f8f1b49d1e606f75af2e,2f26fa5e21e07a74a1a5e56c224dff1ed361c63a,40554ef517781856169c70adc574f7719252e3ee,0a600e59d651283bcdc888b75e377488b47e427e,00f674a6a516aa3ecbbc106a94ba9a3108385f1f,d71f61edbc6e7f5e0dbf788e1aa74360166c3fc7,87aedbf187f2e554e9d6654c9475f4c93cd0ba91,d022e927ce40aaf564358e0c80a006da5c4cb6c7,f72af44a253e4e123bfb94cc54d8f3f237ef7c22,1fa5e5bdb14621eb36a26c8568b5ab3ef1cb060b,79342901afccd0f3d54bd2e9364f108414c4bf26,8004ce4f3039fe6e8d67c0b291ddf688d55176c2,2520765fe06032ef00654becbf6eccc13dc4d19a,87a8aeb865088a8012ff478855c1f650929e2381,b77f1a5d51d62a1301c803ab95ef887c97906c48\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//mysticatea/npm-run-all"
+    }
+}

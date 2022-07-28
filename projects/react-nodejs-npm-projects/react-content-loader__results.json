@@ -1,0 +1,69 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build:docs"
+        ]
+    },
+    "testing": {
+        "test": {
+            "nested_test_commands": [
+                "test:unit",
+                "test:tsc"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:unit": {
+            "nested_test_commands": [
+                "test:unit:web",
+                "test:unit:native"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:unit:web": {
+            "num_passing": 58,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "test:unit:native": {
+            "num_passing": 36,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "test:size": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:tsc": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "8f0f4ea4173c88848dbaa98d50803b2738e972d0,8ed714cb3d611ceeca0a163a30a8a746162005d9,06432e257de2a6ff86f8bece4faf98903f544ed9,ca628bf89f8168ba8fa518d307575d87dd26ba12,a04f788057a7a4b5a69a9a12841eb64d06dcad06,8f28d2e28301b324f3789855ae371df782fb1c58,b8e5cb9e8c058d883e2b1b06ffba4ed487db2c33,6f26e2d5bed0b54a501937655788ccc516a780ce,bfd2707d79a99ede38e871355456b4cf7c628b55,a7caea4f4cc25c5218481b16d7dfe79955f2a9df,84d10ddbe42bb6fc9a3190d5d44117d89795bcd5,a0ba0577265e077bdc34c4f5068efda1f91ecfa8,de826a7f9d35bccee4ea40acb41cd605ca1d589e,2d3baf7039481d2dc5eef16726fda577406da863,22f1de5cb6665ec982832f416be69f82c60562db,a3d1878800ae23e9f088caaebf09336bf2c6500b,d89fdcf3332b3fd2d6a907a1d26f29488235d521,4e5bbf58c31d3c85c82c6d00854d2f3e82674218,6093892d58bc07b871a50f29d0f321abc33899e2,3fac66606779cb58ec17a782e0ee381d05e7f12e,a400e32ac891eaf59ebfc01a0942f9a79f220a95,6f7e55f6363f198636a0d05407af64db75ddf7cb,4af3a63c1b7be0ec6938d86a99c84c71c8d3c46c,8b8998678f7d476f29654e852d3d0255e1067ea7,dac72dcc3f6c932a5b0a4597f8382caf1455404a\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/danilowoz/react-content-loader"
+    }
+}

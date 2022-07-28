@@ -1,0 +1,64 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "ava": {
+            "num_passing": 6,
+            "num_failing": 0,
+            "test_infras": [
+                "ava"
+            ],
+            "timed_out": false
+        },
+        "coverage": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "pretest": {
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "ava",
+                "test"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test-coverage": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "lint",
+                "test-coverage"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "f7e29f5fd465582765cf2c1332cb563d357bb597,3bbe193f60d5b9c9c47234eebdee57c4391454c5,13c1406f3dfa3a6a5d09dbd1456275589b3cea8c,13c71a46caad481722d1da55f1f7a4ba8105c69b,47c391f17c531229e75af232f12ab8a9e4ba3655,d692e35e42186518add08976aedec078a9ca2693,75eb806e1d8ce219b19ce6494dd9052a2e75fbc3,47915ed637e3834d95526acde7698a9f9aa4218f,b257ce7d3c726efac1337799af3fbdce80213ccf,aa60275e6292b341bc83f3d842da9a42ae301d1c,5ddfa21e124edb6f845219859d3a2b5d459b6926,46675d690dd15b4e66dee95020019e29a9333b48,b9ee54e4a446c73a8c7ce84e93c0b32c74c7c8a3,60e1b0bd593043862a539de1d69b9f2001973893,8b40a56176c51e6961cf1565f7ff505af0438952,f06d633c93fc159654bfa2eed377cd7f1cc03aae,0ec0c57977570641b2815b9e50f1644cbc8fdbe5,1b6da62233f9ad1c905dd8261d1278a24abce5f9,a830826de2e2ef43b20d6a3cc068de347d86536a,08fb017f5ee807cdbdcb27115b9fcb102c326454,d8c0e1ebba2996cb84921de400ad7230e14ce802,04f759e41f9b12e02f2eaa1424319dd5ec2804fe,1b9e5a8dd367910aaa496d41183016a89b331186,27df169a6be21ef63fe981430587e36c701e2074,965882e75baa794af77ece1b0b0e12c014235f1f,19ec65d3f3bee2d19e3a068ef064105febb99905,330e1283bdcb949e229099a7b7b6b857e1318e77,0a3f1ddb9b1bd3ac6ed8bb013fbcc5042a9e7ee6,d84f2e78423cea70ba56cfe1f28b424e5c852573,fdcc56b6a8558cc3ccf3605fb509b0e24fc71758,c9a71884c68b23f4caa8f33f201660d1211857d1,7bce4946ec1b04b9bee0707c1f8f029d7324d330,a6bce0a4eead8a2e7ecd40417404b54caa8315dd,052d3bfcfb968c3a4c2c31399ccf4aa4299e2d03,0b6b386df630a016be3a0573faa36b9c83c41ef6,28fce0a17beba3a2306456a3c07dc0af8dd551bc,5311444b5e89345e51d6fdbae5309e384af3014c,b2e5eb1ad91bc41a6bf1f3059664da236002dabc,fb8068546edd93ee983480c764b76a5c73f1f185,6559d26915e086cc93ff2143e61c56aa59fbf796,74bcdf8f229830aa83b0097eb1514a5a0e66e9f6,66f8d5c50853a7ad0467d40f466a15520a01c9c3,9fe640104f93ae76fd1686c6f0ace4212d3739e0,e50a0c3b0ad1db319e82207079f8169461d0e89b,e9bf3da3dbefa4769db3cf445d4b12c1b11b9b9d,e68651590b085dfd77f5eba7057581d3b38c11ae,3190a0aa42d681ae34dc66719ee117bcad23b1ff,dd22b3bbc5f965790ff18932517caea5bfddaeee,36673e5dd10b0e0904247ee735dd259de9fdb3ef,ffcc91b8437be5057c68c19748b93f6517fc3e70,3f4b9333b84e72d5786952e16b767d92c483ef51,030b1b2c89e7095f88f3cebdb0f8e5d1a54f8f0f,ac19eb7008febc8a707f7ee238febfa33df30fd8,ec35a8e30bc5d9cd8fc316f8cd2601bc23eb3cc4,9a47f7054007c8de81c617520542f98db7488991,c9f29b99c4f8581f7b59bf2cbabbe555c26d70c0,f49cc68a04aabdbf74bfe691f8d4c6224cd18e52,336e6b7a228e5897c78dec84d2c9664ac109e25e,51e18ab8977f46970e375065023692ed394a18ef,65d17fb3736e492014838c1880544e5cad36bdf9,bd4c4e709ecee814a7c6134d2dfba2ecd29d7775,fc72e5f960533e54d1e91ced9e7d72ebc4d292d1,125864ff311cfa4614613068d6a45b419d6664f0,e8f6b94076eb35df5d9069bf70b97212ae907fbc,312645e85335e09e4ff88d85ee1a69691f22ee5a,6b703d76b42dc7b9ecf8b6f3e93d78f2dd55f632,0c2eb96ae320cfcaf4f8558aedf1c40f5e3eef3a,1105fab867375aa33ef9bd53ba378c0d31d1a5bd,cb9c49300d716e57ab6de244ed08765f9192dfe7,92c0a6236059e26f6452d3de2ceb18bfd1d643c4,21a342e7775daa77edf48b53350bb93a07e03ced,958483c0907633386586ddbd827b813bbff19f58,17e10b5420fbd40aae6479627031e09b6f787bac,4ec534ea87f3161ba3d88fea498602eae387fc5c,153b865e791279068466b8c9a04090fbffbc61b5,31b5ca5143871fa792974bb86e4ce78351c0ba72,915ac9e9384e8a1e5c587137d4eac240bcf3b32d,e1792f2ed230a39cf3fd3fe62e7d7b7655687cee,67e8bf25cea6ce9d867fd986318e39804958ab15,7c86c487e1bffa623d2271a35066a7cf59cbfdec,5db97b9cb4c4a5ad15d32cb2dbf1ead625118150,0539a57b36cdec2c4250a72b9bab2b3069929d66,0dbf614bea531ba57c7d56d4d3fc42f2d0905bbe,ee4ef2b13aa5a3c2e0ab56dd553928d67f1403ed,ca4321c40e05b4d29331cfe5b4ff1999fc0abdf4,30c34ad5cb995f0b9e5e23aa9dddbb3c9cf7c298,9864a83ca8eebbc1dd4cac175a7a8b45f9d2de2b\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//ladjs/lad"
+    }
+}

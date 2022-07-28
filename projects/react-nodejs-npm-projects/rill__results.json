@@ -1,0 +1,51 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "coveralls": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "mocha": {
+            "ERROR": true,
+            "num_passing": 50,
+            "num_failing": 1,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test-ci": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "b8720a840001fdbc0254198828d554e72889ce0d,0711edfa7ffd3ce68248ae1c884861191a3e61bc,b19516f7ba620fee6e811fb5de3b5008d401a851,bab1cfb31132fcd508d56faeb1ef7b3aa306b209,dca49f44979ec6551c223e6fb122caa0694a6088,2cf8877fbf7056d391e7414343588f7de1459f32,df95a984ac86e49c2b2e9bd41d8add1d1b8c4857,9e2dd417b9c7f5ce90668d2e1fdc4c225c32dcba,49c922f717de51574a0d3fc348ccf9cab9d2838b,cca63cb3393364d311190df5ec0d8920a64eb29e,f0474e23e05f0974b1f239281d7d3dd9a1acbc00,f8b5391b259cc6208f3bcb073a61fadeab95be35,f20137934b02bcf4dfecafd2c43e3cb157f9688e,e66033314fb6c4c9a97241053a495652d8ed9838,2085193d7757e38d9af714d0a57caddcaca98784,7b8cd5c7782a9067d13d61333db8ed0b6b8625f0,8335e1812ad74027e45e73ac7701ef89da791efc,f124883397f4ae9f56330f271988c52744d9ce2c,6973973d8c901b49240c67f568655312bf43aeb9,e905368cda73ecd271f69db70bd179886a6151c1,39e4cf1a8fe64f8299cd6e7d70021c27c8152db3,7a821b20fa6233cb3edb1c6783bffdbcd4d5d2dd,f427f032c39cbe673db347978a61018530332591,88e2bf4d5460bd867637091abb76abfc87099661,24f39694562e90fd059420650feaede7d697ec1b,4e37177c72c2fb605b992e10e1dbce9afa594e89,f2d49e98b1942dfdc2b85953ea7270c896ac0b6c,4f19c03197f968d411ac4bb0eecd38d6ed5b5076,fb10086f65c5dfb4a9737a636ff04d1740087afc,ef0bdfeeff03b198818ac26663993b6a31a12840,9d068250882dbd78a335318475e6b6f45afacfac,b29a90a59ae3b4620953779676ba547808fb3904,f6ceb07aefaf4d13b1879982c7715fe70368a264,b28df0b72763a0d781b9920ce26ec4b63be99c1c,d4d786ba015858db68e9d4113c5526443d0f4642,89c7953ae81c2388d236b300e6d5ede2b4f50edd,ded5ac5d1957dce26192ebe1983e8e44c3e395de,30ab7dcab947829c501f44b25f5764cd2a9bcdae,30a3f17d136536495947c4bdcd70ba70dbc71d97,d390524ee49f65d141ac6d0a9ea090b573217d34,3759e563455298f479a94c7dc7dc0f0d63ae4fe2,705d5c7ca08f146fbf11b36123894b946936ef46,7e19256bf09f01ba5576162d4d3f0dd13a773613,be2eeea4111c693e96a17395cf895ca87fc05501,13d7130caa794963fcf483388c3a27f2604eed81,796ffa99967012d322c684ec47f65bfedc91b075,68c85b3cbc17eea08c54f5e17e79dbc9135b1fb9,dfa9d96c74d38046f3cd2a51ea459fd4c7bc7c88,f310e63c26ef4c360c83e2ee70347e9816aaaad9,dd3d31d41e1f1d17eb1cf0c952c03aa7aeda4a98,234e96a58ae83bb4b8d3f2fd30ac940d62bd4281,2eafe51e9bc6bfeed4c88ca52518c5b3c8057d79,198468d015bbb21605a981111eb76f8f27ea9caf,ed8eba546908439d15f56b87edfd135073248c6a,fe33f95a4ee079ddde1c4b766ca0071f732aab7e,7ea8e7ab973ce2c4ddb27bff9181bb1211d8a6da,5d32725be7254c07bf8e93d2ce78fb9f37f7a7ad,ce467e7f970bc2a65d083a94a1337062b1c95847,4919e40c5decec1fab70ba66c04e2c4060a849d8,b993d4b2d3d872e76b7b51dd147ab4bc7627b797,d0c53ad43fc3548ef7d9bf2cc692591e96fbfcab,99a327464914558e1d4d204db0c6e5a8026106b5,948841350a054bba91041ef3fcbc63092e702b07,b8b1900be38e8e14d87124da79b3bb306a22449d,cab09b35eff359be18ac5322e2a66382b3ea265f\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/rill-js/rill"
+    }
+}

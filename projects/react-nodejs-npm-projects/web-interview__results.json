@@ -1,0 +1,25 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [],
+        "ERROR": true
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "205f9176a3f80bf2ee9b422839abcfded700f162,9a4ddc750d35a8378b709adb95c84f3b55ee4905,5baca8808a94057243f8519a2b6cc967e5be38d7,5c839673460b04786d991499930dca883ebd1c6a,1c1892bd224659dbdd78a7fd3d5f27b39d5e48c9,410611a2f6c56a3069d986be60a829b7bdc027aa,0b936e63dbe195ec4d774e51152c822e1fd4d34f,f6fe10c48508b289d919de4a186dfc234760f795,be3769ad67ddda11631d32197a62708a2ea1849c,8022ee90f6ddafb7167f94cf144e9bb85b177cab,022337f656b9ca59aec7e7bbdd4d1678cac441c0,7e81b449d33579818330540e733651e5c033e021,89224c94c687191dea54982c9c93e076bd61b06b,3f330eefb043977e88afb6a8a2b9dc7b23620573,350901f0fc72ef841280e879589787c7de7dc7ec,a16864bf876b87ba669a6239585c8a381d5dad24,125beffefcc3883b3b00e4e39df3d21b73a2bc2c\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/febobo/web-interview"
+    }
+}

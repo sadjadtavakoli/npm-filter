@@ -1,0 +1,27 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "num_passing": 43,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "1e8f01ec5b388db1af86a348e3ea0d3d38f41d8a,a411c58d045cd4e62c939372b3dee9a5866afa99,3ff2c8b432868eeba4f36ae938fc0c8919155e5e,eff96da936b86544014e8320b081896e0280b934,b3efb44fe49e7b81c9c55661f6ed24e69989d58b,cb62e3c65be7172ab964d33185c54e92306ec5a0,61f78ad33f80cf8bde9d4a9666fbcbf26a9e08f4,e2e2f329eb064a3502fb02dc264510c7ffc948cc,e25183d75726abe6cb4aa91b2a283061cf85f87c,1829cb712def4b46b1c53a5fff3155680b1310fb,fa241849dbb83969379bd766aeb01f5671eb80e5,b7d11f0bd3cbb50585f8de49c12ffac502562630,df2a5105a74634889df5610aa687361f2bbc7d6e,ad9e7d6696be8fe8eb74615af64aac79aaa9f78e,a3c8d4dc6f4dcf8b0138c403ccbf7745d3aaedea,bca04e025e851e9606cf1913824a61037bf9b4e8,b439d81ab90a59967c56da7ebcb88ab983405b2c,8f3e646ed84aa15e3715470de765de3dd9f1efe0,6b1ba3ed1ecc13b8f68d796e4a519626957524b1,ca5db076e6dd938e6b10f2e9b2d07031e5081c92,5e46328d924c83eadd7865b8d30afd5dbb39cb48,3f67bedb242552298b02766504a4b78db05e0966,bc046b8d8a438a7bddf5e966257216244a0c5ebd,737a12fe7fa89e106bf3a2afd2d59aa131cf530e,6671d983a86edaa937faedec6889a1a2f35f4e72,a9a95a8e8f05f3cce0d2fe8a0f691815f2f2a21f\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//jonschlinkert/markdown-toc"
+    }
+}

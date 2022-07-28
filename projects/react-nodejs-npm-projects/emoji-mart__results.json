@@ -1,0 +1,27 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build:data",
+            "build:website"
+        ]
+    },
+    "testing": {
+        "test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "fb9b56beb5accb3cb4770740ad7e59f833e99b66,67d10fd8ff33b9088dd602191eddb858f246e45d,f34a798a201f641b894998c3f599b9dbe1a5ca2d,fe6ac54b2776e1207b3a6fe9a22fbb2ed0e6bad4,41164b198f7ee953de9054c5010def3d99bd442b\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/missive/emoji-mart"
+    }
+}

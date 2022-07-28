@@ -1,0 +1,35 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "pretest": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "test": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "tap"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "1a426385366212145589b17f12435245c6b9d7bd,f5336d4cc56c71e70c7073437789d9d0b7cb6109,dfa9cbce332548f94056fcaf26770664c42d9a60,63c9fd6b89cb69ef6dc68aec3d3910af6a290450,e5b99fd377b7ef79a53b94eea4e6d867784c9b50,a55d92e79681c0c391ab1969c5bfde1b1223d682,7554befbdf8e22e720d0e0bd99b0ccd0271a077f,a3af37f46f718f28a0ae39684a51c253a9a141a1,ae573223abd35bd1c824edacb3ffed5f57cb5f71,6aa051c9d35dfe6c7acc5a39e8f09e2ca55f2170\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//npm/npm-expansions"
+    }
+}

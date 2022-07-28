@@ -1,0 +1,68 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build:code",
+            "build",
+            "docz:build",
+            "build:flow"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:only": {
+            "num_passing": 36,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "test:umd": {
+            "num_passing": 36,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "test:cjs": {
+            "num_passing": 36,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "test": {
+            "num_passing": 108,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "nested_test_commands": [
+                "lint",
+                "test:umd",
+                "test:cjs"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "a83c97cf6aebd015b0da511eda1a0c7c434b32b4,18d1365a58f4bad3ab2062ff97a1b893a6126ed1,ac32f9ede9abb93b44ac4dc8be5e0754cd7e5c96,d00b3e1f58cbab8dff81910e140ebc1dcfb8d4fe,5cc6324cfb10deba46f2f8c3f0250e67bf18dd7e,0b9d636e8af275ef507341faa57353f10a2bfe59,7cb56d02ade57e262d8b45c0f797560757f3f11d,1e6f5b0054af3d1acd380309cff1f611ab5fd34d,e747c261fa8d952ef2076077aa30a4a34ac7bff2,132b5eab4adb896e6fe90d0fe2168ecea8eccb47,81f8592435714ef6810fafd831f68887011bc3eb,844e2118b82fce503417bc3c9ac1d8b88f1a7209,7b73ca198552bb7be8e70ec3f2fc420b0663b79e,ee2f07a9b3cf0ca5873a4b72a173beb7f7995bf6,dcb96f1b909185c0026bb6f00bef3834d686b8a0,67f22a71d633b3dfd00ab0c077ec3326b05c74cc,471c57a3242cf29f4885be8aa0a0f5418bc008fb,e4cdd16b2a40011107d58e4342faf479ad011b4b,afc879e95b4de868f88f1ca3b1db8049d9e4e975,a4d62c06e4cfabf0363eb78c6bf00f7d9e7bf329,c80dad7c3dbfd084e1b91b831bba7e468009c319,250b172bf6ef0e345c90aaf55d9969a0076d7b41,7daa7bce2c3a5f7707b0024f14a9082b0ab4ae7f,192fae11668c1ae7e405304626b4ab097b876388,0bde0fec45639ce65c88799ec42ae4520cf2f3ad,2afa42d41cade69cb5bfcb53a5998182db2e9eac,7aae01d8698a59284f9fb2e65c8cabbec677eab9,f3d9a1cef1c2f02523bf29ee7f0699530e6908aa,1f3c656f03d0bcb659e876eef39a0262280aa8c5\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/renatorib/react-powerplug"
+    }
+}

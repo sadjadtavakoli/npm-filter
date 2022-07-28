@@ -1,0 +1,28 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "num_passing": 48,
+            "num_failing": 4,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "bb5ec33433c57edf89ce692f219b67f9431e871c,df033010a027947f3e2cffc3eb8e560a7b8d4e0d,3ee61c62a0843a5698f3d0e1330238e9c151dc0f,d7b8005551769e53711696242f694e20e1cf1cdc,2b55326811363627424bd737aad21c8fb10d65e6,ca6ccdc9693289626daf606436f4dcfe359ead47,0ec0665eadf5135f3bb8cac2f3ac0b608a03d366,3174f9ebf141b271aa7ced823c4ea3b2cd962a92,0f0c55b0802267c120c3ffcb8641a11b2460a475,c724aea25b9023b42412054981852ab364fb4601,71a152ed02da2c083f148e94ff13bada7fb5aa73,df6c6eaaa963cac85727f684d27b85f8acd142dd,4175e331266ec0ec362ce6fe01173c0963ecf1fe,13d931b92c6c8b1f06f6a4a0242fa34f4af5fc10,4899cfe6b64f4887dbd3e91755732a089e234857,2aac0234c7bdce328c880beae1d28d9f31045aca,79212cc72b4ff8a78e96f47e05a07e296252098a,38740f809ad993a18766019b4622c4023decd975,03be56bbc2b7d1f0ec5eba8bb0862f15f4b4b2e8,b8abc8bb356f0cfeb5235d0e4b60fd4c10868cdd,69f98d348e04c5de6a977368f0570107b6ec6bd2,c15c0daa60e43f7da63111db9ebed8a95cbf12e4,6bad68673601f347629881bec36b6153b50dabca,f0371b0c47c848c9093a2d3a2fa76aaa4b311284,73dd57241f04d221ac805af7846ec71fa64c6d84,89ceb2430fcd9f4e3945013a246d1f0f1db6421b,35905cab70bd1dabbfc91077475cd688a3a4bf86,ed4bbabdef5a01adeda559e3899d2334c550e08a,3eb962eee7126bf0b17c9baa0d5524b5f2e6f620\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/stereobooster/react-snap"
+    }
+}

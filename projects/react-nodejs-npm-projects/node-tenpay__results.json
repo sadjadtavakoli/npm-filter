@@ -1,0 +1,32 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "travis": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "30ba28b2cd723f031bf90f167dd78d4b94eb1324,361880a05b29a8edaf4dc984eaf0795916a74d00,e5902850dc60c0f00d7af1296cbf3368a4b448b5,c8b10458dfdf42a4b96ca5ad1857641f43e4a23f,cbbac7508513356f3867e5de376970565acc3abb,c40db40427ac0fa550db03d604c8c0dc41b08bf9,853e49f2949b57403308df5eae64044ce8ff72f4,91653c8e077a53f6576853c41b4ded8a4dfd972b,b8c9ce439ab82b82a8cd7c864f835d4dabcbae92,791d39f7acaf6b8c3f80b5f277d7d94d84093f74,15ce5172e86f88f97a76c76eba04c0d76057fe3b,bb4abd645e981ab9570b89f9e6286fb0264defbf,11b85404c174905b5fd134eef12a2e4ed81b0c91\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/befinal/node-tenpay"
+    }
+}

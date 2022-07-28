@@ -1,0 +1,29 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "c4b293e2a59444a0c090e6865e4825422fd2cc76,61e02e01ef88021f1b86b20d85bac187c7048ccf\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//karuppiah7890/easy-pdf-merge"
+    }
+}

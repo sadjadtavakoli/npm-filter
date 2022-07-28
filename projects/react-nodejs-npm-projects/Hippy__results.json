@@ -1,0 +1,59 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "buildcore",
+            "init",
+            "init:example",
+            "build"
+        ],
+        "ERROR": true
+    },
+    "testing": {
+        "markdownlint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "coverage": {
+            "num_passing": 164,
+            "num_failing": 0,
+            "test_infras": [
+                "ava"
+            ],
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "timed_out": false
+        },
+        "codecov": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "num_passing": 164,
+            "num_failing": 0,
+            "test_infras": [
+                "ava"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "2455e5bb9d7f33c938d90be4ef1faf6bfce010ce,de3642b53404e58093ac3047910019493bf752df,a41d671365ec13c3c7428407c8d42dcc015bac99,dec154fbe4ec28fd3d53e40b45531f90d01779b9,4662d588a08e062cdf016152322c8315a25c7a68,f86e0ef4ca3c4c6d4777e55d4ac25fc6621d3ea0,906466ba8cb1fb93b326846b0de37075cda892b6,5b7c50c3a6491db068715227852d0250d5c820c5,31e494beb72a59dfe7f682cf4db5f27d1647604e,de8c208ac716ce762fba6b6761f265c4fdb4d239,2cdd33aaad4392ba7bf2533f2ad227e0af664daf,45bcbd4bb02a51738c016cf9a04338a23b7262db,67417f3d23455cc5eec69e833b801d756dad2b50,1cfe89e32d72b4cdc7bd6c1baaa4fddddc67ed05,b8ab964d3c2a31ecbb50333e0ca4da2206107bc4,9e7fb7019b3930bda0ab4fb81356706e77e165d1,e884802767c110da691365ee59ecc2ac4d809a21,e7ecb6d23ac672d73a991e4618b7331c835b325b,6b8d42880f51451c044d0943135b0123b706e8bc,484b7498ef422b7e3bc58584a1c003114b8e9017,b858f475c7ea57718bd7df17c620af94f9035bda,daf67d33c347b4c2071fe27d9d601edda91ed118,8693606357be6a33fb48b034fd2b5d10a1837fd6,b74ae8faf9c048f5163343f354cdb4479d2cd927,7c1ab0898dba8c3e8547f0727b946aa5d7641671,db47f0b31682e8c228eb4fcd3fedd245197f2a87,770330cfcaa1bceb9f5df2ea5ca1af2190021267,4b57da825fbd3a8efce998f93c641fad51fb43f1,41d4852b3521cf6e8c8b90ffdcecbaa4d4096efa,75bcdbdcebebc65b98dc19aaf2f085b99cab0529,9d66b37ef9d9e5678719eca1b49f2ed2b72545fe,d2bbd99c367d81062b5fa9a300c74313a83f273c,ba81d3067abea2c39a8d5a6cd109bad87e82dabd,f721994fd285bd3fe14956ae15d576d0b79457ab,df7fe660cc0572d2462ba4ca86f67be2cd52473c,802f92443d64e047c41456f6611d563de7e7f2e9,09ca37c658b05bf55d4514f60aff02012b61941a,d6331abb8412793b0e44e9d6a0d1ca32fdb89809,190012e0895ae84870b8920b9f46b44cabc3c012,a24fef22b718fea3f65a615e4e17193680d45e9c,f5654cf5b9e500fb43c1aea227e35a2a635b7adb,9ed74e51904d0319c332f20067adb45227eeb9f2,b17bf8bce97ed5afedcb20de5dbed0866e979921,92f95fad1144686f9a022ca80ffed2f50225e590,7c257719e8f5ab66f6a43459aab3c5093c10c599,ee210f3cd1cb894a65b92f33eb72b86d8485b248,b70744d74d6dbddc5e4f9522c835f0f95ec6ef1f,41c96226a86c7cee51d389c90ab6a7191a89113f,3a5ee98ac10144e7c90f491c2140646d7a55870c,5662c9c17f31794d4b75d75a280a5ddb9421c50c,e15753de8941fccd06def4736544002bf3ecfffd,9701c61a942b03ad154488812390d4a22921d199,a667301674d4b7b8082a026faea7faf8610bfb4b,6deacb8a871ca65b53890630136c67da57c94256,0744032a92d0c3d585e726ac9d24da1f702d712d,f017798eccc2d38d87e2fe810083ef042387869e,32011e859a0b2674fa530b63e6600589c696676f,e722f696cc935508027cef3958a12676f832e8f9,8ed5e22ada22faa77485422165725088ff4e1ad2,1d315094a8341ab2c3bdcef4c9cfd384742f7af7,79fe28af28f0a0486ccbc5d366763cf91e266c72,c38c1c5c74dc70c40b5a34562b06bda9790fc053,8675dad68c2db44211a1972ee67360a3b00701f0,8b1a799ad8bb4cb070fccbbe29ff42c9a4c347af,9e3a33e2b03eb8c39c973f80794f56fa8f6681f3,80549d01a79f1315d14195e39a94f6abf29257cc,954812b72d27f96a28f737da8d93b1853930fc52,172112e0f4e9e13c6421682fea3a37a4c9646504,77b050f91c071d6d40c7b9f83d89188284d1ed91,7a2b3951f4d6fb3420049c9617d06ae17cb5a36d,74c60c1e427db5225b7e648562961d6ad97410e8,d38eb47fc29cbc6f618318d91f4f5ff00452c553,b32ce76924ccc5449ca069d8f8605d59f027b171,37346f16aafb6234b6ce5a0d18dfc81e484f637a,3d7854c2e1eaf272987251072af51c473ce3498e,f5c95d5cbda74bcae19d2fe94ffbd304eec48e6b,20e2ed983d556897c9b9c2fcc7e6d8d858131070,679dc790820fbcbec66715931f223984b2de5728,795bf7588af20e740de23b0295f87b2bf69e8343,729f7beda119b9f83d938f216d7aaac1e66b7920,4d58a72349a48cee23ca36f4f6c7e7a6881fdb38,c18e1b2a2c3db3af98e251f470f4e4204969bab8,60bed9d1c830fa8a12d971255bb42423661f1ffb,c26ce0fddef59ada100b7238038534fafc2147b1,b776954d20a5b30e5c5c82123698dcc206202cfd,1fb9eefdaf5a8fbe4ab6aea0f857b37b020641a4,9c32e02fe12e9d4babb4aaa1d70c83ecb2322a97,62cbdb0cb7d65c989439e1d7ffb0a5fa1143eddd,7aa5b49689b8a78509b0e95ef6948dc840e11f8e,4f5e6a81b82f8b4ba8d284389cc670f55d58e72e,2fc49cf819c32038b780569a8d278a865e438703,51e4e5b46803659e8877d5c0dca75cf11ae739cf,c70a6b31818daab108c53366611a6127f099d70e,c8ac36d081fd0f41d92d566576443febdf194c8f,98c280010077f8af4a92fb1872cbbb23408d5fcc,f280028e4602d26cc13e92384b824fa1b8911882,2818f6c516dd471652d68edbb02ad8d28d84d9a6,de98e8a560ee771d4f10fcbd3642afccfc92e70e,ed1659883e0c2e248de18b33fedd5758ad06aae2,794699eb504335bdb81167c1ebc970e1405e4784,ab3271736fcf9a3abce58f99bfa48ba944cd2d83,069c35710bdff0c4547a49edae537b7c0e00c915,1584402f4ddc060c41e2d95e3513da7d8d1b7094,6a5c9d17991cb0fc535a1f79f9cc479508ef202c,e284c6b399e50bfb256469072dd8afdb8cd0e13b\nwarning: inexact rename detection was skipped due to too many files.\nwarning: you may want to set your diff.renameLimit variable to at least 1008 and retry the command.\nwarning: inexact rename detection was skipped due to too many files.\nwarning: you may want to set your diff.renameLimit variable to at least 1008 and retry the command.\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/Tencent/Hippy"
+    }
+}

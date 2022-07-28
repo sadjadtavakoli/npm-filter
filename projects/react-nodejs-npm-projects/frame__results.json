@@ -1,0 +1,37 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "lab"
+            ],
+            "timed_out": false
+        },
+        "test-server": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "lab"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "4c759477b36eb22253b6a07bb5e3a9aaa81a3ad4,0854ee9e0905f5e74eb936cfa9b7abaf139bf856,62cf98b052951e8193fa80e221ab10e40dfe7b70,5f2291b7a33627df4a92fbcc5b564ce059114c7c,85361f317cf0830201a02c65f6594f08bc41163c,d00be5cb120140ad70999eebdbf2889328b09e53,65d07909e5800635fc77e016f553e5be9f245f39,8346f402eff4bb3673bde250aabc1eaf4b2c7578,3434bd17849b43cb50424ec4b7a8c43b5f5bd5a7,f141b62ef8d56d6772aa2e4e57adf58c242fcb46,d1fd5b8fa50c5ae2ddb2db96de10b959356595d2\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/jedireza/frame"
+    }
+}

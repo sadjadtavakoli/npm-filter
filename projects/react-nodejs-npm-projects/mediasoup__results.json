@@ -1,0 +1,80 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "typescript:build",
+            "worker:build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "lint:node",
+                "lint:worker"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:node": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "lint:worker": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "test": {
+            "nested_test_commands": [
+                "test:node",
+                "test:worker"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:node": {
+            "num_passing": 143,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "test:worker": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "coverage": {
+            "num_passing": 143,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "9a19b3fe45ec2b98607b3950407d4a50767accd6,339946bcfb1fd0bb96f03a6e28d6d4b7b7a4c550,ee34ee84397d217025775ec188bfa54416afe906,20d11ff455d61796196f02fe2735c3d65160a31d,a9a0255ff9f9996aebe51d66d0a204c926502dbe,3991d09195510bcf7af17267cb3902fd395c9b90,af15b52463f4aa2d1d80ae3fa3f2e4af1a317efb,73da02c263c020f3b24e453045496078b73dd8a4,b447f7bc568168cdc4a96ceee7d607be624daf3f,64031496bd196f3cad578e9123b8660de66de660,5e7d81ff65d895fcb60f2e868ac572f5f4c944d8,b577fdfba094bb83184a232d433880f22a1d8716,6b112a29c780b996c5307d3e09ed99479d35179d,0a6f4ae4f2661b1f8f868f80e6cdeb9ad7259f8a,2e2b3295e5fd8352b99a524862db5a887dcccdca,ee3d3be4e71806c53caf7920d388f3e944906d11,b7a397172edd836bf23f946007aebcf5a73bdfa9,50fae4b0c63e55df8fecef797429f86e7423df85,b4b0dbe9a93c25866d0dd1cb73125ddd59e51ef3,68fa78ca7a46436bd49924e5f66c9198d286acac,d09586feebbb1f5c886682130d96570add367cf2,dd5368986a2d95738b7a5d60beada08d5496de12,34b647b34b41c9eb442d9efe87695a15327dc2da,10d432567a87b05add00a55815e6ec8ac413f417,fc895efda208659322949517fcc91a46102a0f86,56d53011d46bc8108064814ac1141e0179062481,2a28bb3289467632a3b11bcb388ae7f2881db0eb,768b411e0c697b112f0ccc75cdb279586ee80a1d,7a6d99163e3e5cd87ad771b7864e2843e07f5a0f,6a4f52d81296548cd7d4d0ca1e7957ec77cb7502,b066ac7a2c18a32c5d500f8f314397a3485d579f,9484c063b06c3fe7ec99f1f30972508810ce6aa2,cc4ee124030423cd4094016529a1f457468e3be9,6645f6b67002359cadaa07ee195b3728c431f928,d5dfd66193311fa4e876802920214cfeac511562,d2e1accb110b50c800506326298e17693d967b2e,49089984bd89b2f243ced4f8a65c4a5ec5109f5a,15f9b3612e12c7a133c3cf2f3c0d841a5772d3ac,3adcbca464e1d77fdf4f4c1db04109a04de366a6,4f5df6fabc17618c6baccb8bfb9832be9f4689f4,2bb83e10662c58d257bc41a5f596a2a20df1e32b,d6ed3cb7284f972a909919bd7eacf0002d6c789e,10e574741e649ad701f75af431560f41c6a843b7,bf64e784784c3eef3a79d7b2ed5c6a37cf4772ba,96f259e4f328d19f389c5323b42fdbeb9af7a092,d72c900faf97c04d8cadcd8dcff8882c9fa502a1,b44294784a3c3069b785b3ca597cf9552937ec36,1a1553235b1222b0c2fb6291ac3c9699b03f50e1,e5a62f926da9a90d4078196640b95b4d811abe5c,f8b61863193b5b384133124d14aa347b4f198a21,99bc2578c0b78c444f1372471a906e65ea266ee0,54b2dbfdcae420a6818e9dd06f809bd872b1bc01,ed83ee2cb16fb68b747edaf0612bb8b6380204de,c52bacfd9ca7f8ac9a8c3fb8ba17b1961c95fa7c,ce725b6fc55678e3becd37f6aa4291570e312a28,85ed51d2a533630f9a48d8aad3697f48c5d4c548,248aaa3ab0ddde34063d08aa1849f666efc74081,0f23804e5ebd876c63e330350382a8864f3e77ba,73cfb094f17a8470a6a6c92cfacf5e097a1779e0,ba44649dabf554f7c971678bee27c5e2897b8e3f,d59bc07a9780bcb05fb0a9427b17c1d04b50743a,47c255a947e166868468c0e217e4cb7b2a1726d5,45db88701d66b23a0e602277369b7327d123ef35,56998c84922ffd5d54351ee517340c2d9f1bd4db,6f64f4d5903c58b15dd776577e0862efbecb53b1,07082890bae699e092c089e189a0caeb422002aa,a8a79eb06b308b5119acac92d3915b9bc80d7fdf,9f73fee830322b792bdc7fabdbce76d99455036c,02e7f3c40f5551201fae40450c5e22649154495f,6435c1b86f99d580be8a4f3d9f7408c274ba7eea,bb440ecd476fc935b756bef08a8ee8aa6f68e18c,add300ba1c017910bd69c3659a781ea654d59aa0,0c0b0d301e41e0de6f316adad129772ad241f14a,70320b060c2bfda9b31b5b169ef705981ffd8fc0,6d71f5f50c083decb1f12fb93e2c55e831e79bd1,aa587a71d01551c10b9b8cdc7ea654aa980b460c,da57dea80535d1461dacc82393913c22eb364d98,79c8493b5f49860f3a14c469056cbecad67ca305,3d4b01debe20df3f967ba11be28783726d1f9a8a,9a2d8e148b410561bbfa7d79ac3f3affc03535fc\n/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh: line 27: /Users/sadjadtavakoli/miniconda3/bin/python: Argument list too long\n/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh: line 30: ((: ( 2094 != 1 ||  > 1 ) &&  > 0 : syntax error: operand expected (error token is \"> 1 ) &&  > 0 \")\nwarning: inexact rename detection was skipped due to too many files.\nwarning: you may want to set your diff.renameLimit variable to at least 1839 and retry the command.\nwarning: inexact rename detection was skipped due to too many files.\nwarning: you may want to set your diff.renameLimit variable to at least 1839 and retry the command.\nwarning: inexact rename detection was skipped due to too many files.\nwarning: you may want to set your diff.renameLimit variable to at least 3289 and retry the command.\nwarning: inexact rename detection was skipped due to too many files.\nwarning: you may want to set your diff.renameLimit variable to at least 3289 and retry the command.\nwarning: inexact rename detection was skipped due to too many files.\nwarning: you may want to set your diff.renameLimit variable to at least 1665 and retry the command.\nwarning: inexact rename detection was skipped due to too many files.\nwarning: you may want to set your diff.renameLimit variable to at least 1665 and retry the command.\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//versatica/mediasoup"
+    }
+}

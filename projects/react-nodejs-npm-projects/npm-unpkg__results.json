@@ -1,0 +1,20 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {},
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "078d1a23e248b440ee3fc99802cb90faa35bfa7a,1d6281cf912eac0e0e3fcc9663dea9196c355099,06a4c40af1764f139ecdf63614d6036f698e1310,e94fa19cfe62f6f3fa0b1b4936879819474bf6ad,d7a6c9c069f9043637c84826d3df45eb5dbc0f29,e0dd07760b527d1932b2bbb87ef154246bcc8f15,827ca347376908ff4063c274c06d0cca82c18893,8a2f0fc17412f2b3851f5c37a2b5a6f67f18284a\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//uiwjs/npm-unpkg"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "num_passing": 1,
+            "num_failing": 0,
+            "test_infras": [
+                "ava"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "90ddca26119a1e5c4715c7e37f67300279b7783b,d498b6e18d6dc80b86e9695c81d2ff4447642d50\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/sindresorhus/node-module-boilerplate"
+    }
+}

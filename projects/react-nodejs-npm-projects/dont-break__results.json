@@ -1,0 +1,60 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "standard -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "mocha": {
+            "num_passing": 2,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "pretest": {
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test-empty": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "e2e": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "d3994ae1ad9569e9415aebd17755b6e94ec8a360,14277061ac0cbff4a121c1ea718492830ba422f1,d869bb50cc32ff3fa2efb01485d379134feaa98e,afa7a3366a6396c4bf3e3d471c8bf24659854155,5c2b0cb86321e8b75d2cb3c83390d704a76ae8fa,2f2927232686de4510a555f153319c9e1997004b,f78e4589fee48e80b11db81e781f90bf3b2e2064,d0ad32547bfc695076538f146406c365a9984d50,cd201f044a21fe11ee69ba98e8fff7c93fd3c71f,e6e5faa79757a2cf030e5e8c039eca20eb5c3209,94f45d279e4775efac673146957d10f64a618c47,3029faad99dd6a4a7c78941c251b774da42163a2,5525ff7939d8036787485cded6836efcb9a4d621,b8179f6e2513f6afe89287af4cd9a11379e7401d,031cc6ef5ac7d2733fd444b3a67a2cf18dee60fb,d1e1458600157ce0bc189eca995706d62d78cbfc,ca062293e0692a2c1ffb1673d02d8ddb7e779909,8f80fe7ab6af0278312c3282d54143cd1e7e9417\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//bahmutov/dont-break"
+    }
+}

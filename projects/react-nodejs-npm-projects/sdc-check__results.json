@@ -1,0 +1,33 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "unit": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "nested_test_commands": [
+                "unit"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "f33276368222639d5f4b0f2bb18548a5233a2a2f,5eea9cd3822ba089a03d670bdd9d6e10f88628bf\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//mbalabash/sdc-check"
+    }
+}

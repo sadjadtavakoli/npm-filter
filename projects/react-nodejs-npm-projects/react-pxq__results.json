@@ -1,0 +1,30 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "fb89f16e9fafe4db25249334ce6e4f1987870d81,861c6e8f3ac4f4098d14b25baea395ed78ca9874,057874f54e1498827614c737e8297232ddeb53ba,a8477d8c25a0e956d6025fa67c127d64f5fa4a22,eff195c7c5678086cdd538528c8c98e939eb64ac,35fe90084b74735f4cfba243a18f21b36aa11a9c,9f7d7bd85e3d66f851b6a167f9bcc5c05fc42ae7,66d74639cf9c4bcf597f763263e4f74a41882db5,3306fbe37054c21883894611a494fd1fa5c7bf91,4cee8e25d85e4f25dbe7a61cc6582c26333bef46,61bc325abdc753da2abdef25a6412116f2d8aadc,ae30805f3d0cb8b7a75ef6725cfb70647917d5c0,41fde43198a6dd441d7679478fdcd253125f011d,81d8fda9cb6a96b63ec6a2bfeccd285b05d58bd5,9e998a24df620faac291a9b8b45a931c78fd2b6c,9219b1f6b52fe6cf3fa5f7c9941ba59c70caa825,d1eb40d634b246f0017213552f85a0a88616a4ac,4feb94dcf69a131f67c6a3ddc3d82cfe733ad0cb,c0ddb3d7f29d0ef242d71170bea190f3f16427ca,4e6ac40a358f9654e6f722862dd85865e35a8cb8,463167d1b02361c23989b03670648850bab61a63,64d9a891c4cebcf85bc1efc7e6cbd66c6022069c\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/bailicangdu/react-pxq"
+    }
+}

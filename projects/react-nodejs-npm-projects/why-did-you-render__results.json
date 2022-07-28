@@ -1,0 +1,111 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "_test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "test:react-18": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:react-18-classic": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:react-17": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:react-17-classic": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:react-16": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:react-16-classic": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:quick": {
+            "nested_test_commands": [
+                "test:react-18"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "nested_test_commands": [
+                "test:react-18",
+                "test:react-18-classic",
+                "test:react-17",
+                "test:react-17-classic",
+                "test:react-16",
+                "test:react-16-classic"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:ci": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "coveralls -- coverage testing"
+            ],
+            "nested_test_commands": [
+                "test"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "_cypress:run:ci": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "_cypress:run:ci:classic": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "cypress:ci": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "cypress:ci:classic": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "230f82797f3dd12d554a716c96e7caaf05f93526,3d4db6454db508b49635bd233a40814209b92f1a,761f176791aa920fd8df14c78e716c3676c3c22f,0467b9d8a7e2c40741d51c9cafdb944864910407,fe6b4100c4a75130b747aec22a75c9582ee3a385,727fb4e497f5e1b920627c78af1656c3206adf15,2653af3d1d757c558fe7a441928f8d22d14758a6,ffeb1f602db292415e59c6a9429ebc415ef3c31b,129d1dbdb95fb55638d625b478fa40e0e6c6908f,68a0ff6063a433c391fe705ad32b76c07f8bc1a7,2079a0104749165397459b0452c354ee53e2102c,b1bb51b894f37e5f0bd569ef0c696563dc183bce,9d22381e257979f46ccb993a69073e94f47141d8,5e0cac17eea202652447dfb01badba00b09adf3d,d79527d7a848fb2c489c92e8436501df00316d85,100dabbf5ac7ad2a5ae5e228b3807a188bf1dc50,eb1752af582af5a163918fce1b119075b1abe69c,26fa4026c9a5dde7f9e35fb4030d863841493e39,baf2eab7ab00146b8aec63979c45778c17d97a67,8c7c65f7aed32e983ad158dd96489f7d422241ef,995627426d582f8b367f29601e3eabf3e7cf4822,aa2c0dcffbebc0023d69c2797e5918fa0cdc2441,c55228323f85c22dd682b5a52fef3de8e6b4db7a,1bc6a1a47ee962cef2b4f660bd91e12f0c924b5d,6f5e15c54992623f81987b7970c53b6339d14768,2629b070848611dc05cedadaac24d9f2fa6524a6,f14c78f388b6e306ba2ab654027b861d6ca26f97,a7ba51e024f0998477e87f8d4c6cb3af8991a383,ddaf0e8a50df3cf2bca6a93a5070a3d1377dc5a9,47d16fdae401a8e6351a1145f6b0c1256876521e,89a2ba529e84490ecfa1b9966aff4dcddb0844c7,474e0a78aae93cb92291a23b057f4db0e3723944,93fb085a162ed768d75c3911d9840eed59059f26,6a85ed215279840d0eedbea5d86eba92cfb1291b,2c9e24b9b2aa4b4c5db87d9249416d5a63d9c8a7,7e0948dd5e02e01d29ed2b77ae2aa481e4c816ef,8844d41ae21dbe146e466236cd81426412e761b2,04006e5c10abf713b12061a2eaeaf468ab21ab9c,58248aa189d64932dea4a37a5a88ec3300f6905c,13a62730d2c6997350110e65618fd2f99236a0bf,ec06e2bc060dcadd543579e74965d03121f0f6d8,905b36dcfb01d397f03caa3a0e662df26afc144a,86c6ff82bb28c114124f6098936f070552424c5e,ee1ec28fe0f206565c5ef985b23c58f8ce98a161,eaabbdd56e7a8b698d5ad9cde0b80d825e72a8b8,a9095f2813af2a0841461459ae4370c923d1b423,9fd1876dc55f97fefff800249a7ab85b43c1fa43,85b660672774fa529180c7136cd659277c59d1a8,7e8711b6e5f1b7c66b6afb1143eea3d7bf1fe493,348a26e9f2b449ccfb3fa62f194c52b0aeb0c698,5a1f33649f65abf9d8dd17043d26f1544b209fcd,e9f13bcf0920ae8e336f8b5b2359bbf132236d1c,4920a9a4e0d89bd589536594fdd681170a573416,1644456fe4795b58fa427b8fb1c54bf84bfba390,b0995315a7cbb07c8e9480ab2ff7307f6ff1ead3,bfb70291f55ef22d025daedf850fd3c8ef87c9dd,430073e434d72fd00d6d1189ec9f6d204eec4194,2922181e4703daeba85c5ffc7b6c642e30cc0312,e7d8ce83c80c142123e9c248953997f19ec4321b,24ebbbc00cf2502e97f24639ef55aad8f0ad63e6,714227b4d877bda768f05954c0288f1205450e2c,45e1413ae2ff86c2b1062967b8ea21c5bc7e3a65,492c2f8415d54a247898b1a33471f0ccca084a2f,c6c6e1a0b8c7bf7913e539d9d6c5f61176e2755b,9c802953d3bc72428ad87212e5718d0f0469263b,30bdcdc5b436cef5b822e69767292cd9e0a4bdd8,5be6ac9ef35c5a6df9a9897ab8509bc37cc02972,5126e1e45d87359d52623ba18c039e31d749e6b5,b3e3965a572e21117e956bd0080dd1494baaa12a,c11af28170e293f24898c25359b214af7a0e60eb,8baea6ee5eacd53cc324be5213b5bb8c2b80dc74,f34cf608799fc1d4c720412587ab721bdbd01562,ae14cb8ef785fa0a0923e60d3e20bcf668677718,4f3e0c010d191fb5c21665b0d394de56ab37587f,e645242b69ecf304ab0b92239a71bdd83ff6d947\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/welldone-software/why-did-you-render"
+    }
+}

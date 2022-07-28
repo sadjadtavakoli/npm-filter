@@ -1,0 +1,20 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {},
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "6dfe15ad96e25af164c84308f9e38258af676b36,1fa43a3aa890c6dc027102bb16c23720fd690074,ed38f9672bf1840af580aff8e8af670b363442eb,5055476ea245b510c5d512ab8ce9852261e58a34,4c8e56c1c3e3435ffefb148fe848c5ff50655a63,5d99432417a8b5a559f33decaad152158fda1d3b,d32331ec7edbe1684b18af1a5cfa8e047648b31d,69d0cec3f7d83d9276c9ac757c828aba91a42d5f,8a24a634bb1a7ee6235ecb2dda6beb6f0f3984f8,537da1a807e2042a0440e7cf93b3ec5e6653b1b0,700950fa466b0098aa1b04f0b03d82014cf80516,4c9abe99585d6e886bc6fb7a3ecfc8a775f27d18,befbf572479d4364bff1b6775f5397d46b2988ad\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//danielstern/express-react-fullstack"
+    }
+}

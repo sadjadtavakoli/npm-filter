@@ -1,0 +1,36 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build:lib"
+        ]
+    },
+    "testing": {
+        "test": {
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "1064a4f47e34cbc64e4c38dd863903bf156b7a73,e67af388f0aae1a4504f91e22dc0dbc36ad79ef6,820a7de480b991959479faa0b86084bf39743f8d,f65868973dff9addd722b2796f460a6b5ed273c8,ab67da5a37de66b05d407b01a90e19de9aedc079,3192b52562c2867359f014d55346b4e0f34a1342,6ba744b40326634249c24d2fa4f22c10f360a120,0f2abda272563014046f29229a9aa6618386ba0f,cd358f504476f5dbe8e9b20052eb74d000bd3d0b,20fa95e381276db185a3360192b5126242fdcf60,2e8daebc67be33eb670d43e18eedc362d21410e1,76fd812d809f9e2f02ae98a964aa141459416266,a85098349f425bf237305850befcb0a9229ef80a,0c91175e75a3804aa2dc4d2701b613c40d232c77,78c97b05a9dc007d39e5f991af2d2692d1872e7f,4d4d9bc93c7962e100a955b0cfd51dee21a1d842,e3252ec4dc5a37ffb8689b323b3e7eb382ffdd4d,39b67f5460cd76507686f1d3eddb5bb68f7ecc1c,26539951488e9650d9f62017c6764b419c2625b8,c67f49caec2df11fa264197aa78f9a1f0d3254a4,c647cd1241121290c2b6831173114c1208b3871e,b50978719a2511f8cc5244570d32d09ebbb0a05b,c2ec53aef566da72ba6b3ec20291460fecc6dd02,60378d44bc5ca6826fea692565db055b328bc3f7,868642b54372882629a2b433a852239bc83fd51e,ab555d86e0fa4129c087e36ee7b3dd512fa65934,e8acd3c1e3ad5c7ebf9cfc9ea0cbeb71194be82a,07d6e83c467e1b54fef221a158f493b458cd024f,8dfa621c25194a8dc5eac703078c7db66715bfe9,4c568be1c0f0c8e0b20c6ab77c9587fb15c3b7a8\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//appleple/scroll-hint"
+    }
+}

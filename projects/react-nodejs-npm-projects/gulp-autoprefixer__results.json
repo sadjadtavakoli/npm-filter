@@ -1,0 +1,27 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "num_passing": 3,
+            "num_failing": 0,
+            "test_infras": [
+                "ava"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "ab49120838d6ecd755138ef0123cc2384253e580,7b080bfcd97e277fefa171b959d4f68e75f6bf86,e954e6e8044fcfe2dcd54d1d40333aa681b84808,94f3447f891cfb8132f22ebffc4747e051c18eb8,7df69baf6c7f9c362c737ccfa6a64fd1b270171f,24ed6a4c78a43d00fdbbae82a130d9436f9174cf,7bda96e03e07d359c050bea72c3b6f70bd4a849f,834f7ea9ee5e2b994c33f020773f78e423d5e48f,f40a22a62c28f3f0279bf59aeadea2be6819902a\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/sindresorhus/gulp-autoprefixer"
+    }
+}

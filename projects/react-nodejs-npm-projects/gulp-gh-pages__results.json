@@ -1,0 +1,38 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "pretest": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 1,
+            "test_infras": [
+                "mocha"
+            ],
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "96584cdf9dccc548f351967c079b331694f844e8,a470b202cee9990755e4f05e76add1def62aeced,da46deec3764bc7faf92afa5450f428097d48378,cfd8a5e40e48837bc5b9727461e61a74d93c8e7f,fb356101297e9701c23c796115e0c3781f384a99,14fa4025135b24cad587487b9c4be0973e8f466a,c3176900627a6399f9e9ddf1061beec8536f2913,473d4ec02fe52e3aae9c78de30bc4bc5e2b1430e,65a0350b3fbbe0d8bef7b4c9d16e0e0923d9db24,a5dfd27b16f5e7db99cb3790e37b387b0599b166,02606cde66244b6b2e9d4067b2beb76ab8a05611,847cf7d9e6d8ffaa17212566cbdee0625bc3ff3e,920f90815ba3d5e211a21daf30322f51840a010d,83774b3b532c31241a91eefa5f7235c16b534310,8cbf78e7b1e5f192fc12576d390a2fd5f7c727c0,888a4a368eb9ef5a9462dbcd6a8c87cc39ef26bd,19ea31709bc541c9a9eef78d248681591993b0a9,7e4a9b0009e32867436b8e44f33baef8f56b86af,c3397b4d97b62fe41c0aae8d8032126221875a0b,ac8f01c36ee0c0737b6fecfe56b6af7cd58a0b36,832e14119e3380e1748a9259ee7d6187ce46e54e,672c7cb3ef8a729ebc274fbcb6c7a7bd6ba968e0,e46fcd2fbc2c8b7ec31db3b7aa0e0029546636ae,0aa76adf838453603c9ebceba96d2293b21f8b7f,0946c82b411faa2b9c7f68f169efb59a427b5cd6,892d009786ea14c27832af0773d19735bbef1e1f,d3641170257e672168054fdb09a840df30c2f0fd,d87369f42376927d5001ceca43a207a98b666bb3,a59b1f8cd3d54eaa837604e57f9d313916747a1b,1af0e3ab1347fa97f5166d48f26dd4bde4e99837\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/shinnn/gulp-gh-pages"
+    }
+}

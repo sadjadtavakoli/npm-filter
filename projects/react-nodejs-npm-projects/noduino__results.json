@@ -1,0 +1,18 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {},
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "ec1ca99f03f1e284dc471294664a3a6f2860e60d,31c5fb1eec592ca2e63a7bf3de828bc4a87210b5,4467ec7dd70d1e6575113e78ffd4056ab9e08678,93644e384efcaf27a60a24a6437862be9fa4a0a2,9844d93197415bb6cb3d0ed608a43598fc3eb64f,35fe330c77ab7f2ca31b211e19278613a04aaa15,49b41cde896046dd15ef52456bfd89f47ca593d9,37ad181570316bbbd95ca13039fcfc2783cdd27b\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//sbstjn/noduino"
+    }
+}

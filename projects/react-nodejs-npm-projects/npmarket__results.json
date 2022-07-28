@@ -1,0 +1,25 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "43b40e3e477f1edd168fce8888794a4b1516a68e,8e91364e730558a1c9caf70d884ac1e76f4d5b3f,43eee9f5099e594abbcc56703ac1196040471e36,751d46b592e3a7f79d59a3bb813b91e45fa12026,4a1f17106c32239d8539752eb3d967d45b10e388,81bbad0b423e90fa9266580e7db9ceeeefeff37d,aad7965011168f2238b1468085d9b7274998ef6a\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//QingWei-Li/npmarket"
+    }
+}

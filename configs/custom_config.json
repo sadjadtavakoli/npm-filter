@@ -1,0 +1,7 @@
+{
+	"meta_info": {
+        	"rm_after_cloning": true,
+        	"scripts_over_code": [ "get_rel_commits.sh" ]
+	}
+
+}

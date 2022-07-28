@@ -1,0 +1,20 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {},
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "31b80baf13ea610a37e6d20e98967cdd6097ad84,b2725f7634dfb5b77d5bbbd9ddb702935f1f797e,72de133dc869aa5979be11e4543a5c07abe43499,bb29e070ce064a7191440cae1d059a568d1985c7,2f7ce2dfc3423417e6bef0b2605f01a74d4e4eac,e6731b25708827025eb696767b112191fe30deae,5b69ac210e5e3775465cea80a8be61cdbbeee55f\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//sinclairzx81/zero"
+    }
+}

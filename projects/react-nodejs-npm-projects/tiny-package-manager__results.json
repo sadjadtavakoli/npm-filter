@@ -1,0 +1,37 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "3ccc5ebb5e39e1bb55dcc0e2f1baa973e3ead11c,f083855b8a342cca6037256afb0702b355c0bafd,e63a53125935003f05167f591f27cc4c2510c959,280a9e947cdf922acdb444bbe8ee8fac9c601ba2\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//g-plane/tiny-package-manager"
+    }
+}

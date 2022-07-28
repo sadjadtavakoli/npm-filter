@@ -1,0 +1,42 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "compile"
+        ]
+    },
+    "testing": {
+        "pretest": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "num_passing": 191,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "test:performance": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "e3f97dc337f68d6c6257f2623ae37d4ab11b103e,9a617386958c1abd7bdf94ad1b6266dd046394ab,bca9300bbe1a8e2eef9b8c222b92f0cc8a7c885f,1897efad42b9f79c3df27e5d69ca456916ee898b,380abf094ce617d6f23208e57b46169ca9949609,5e6b3b624c3643fadc6680141daee319c593b2d7,46b0d6348c363e54f42de6186906925cd5570f1d,c399a167ae4722536db866e0e25d6da75644bee7,154d004e68740d50cbb60c710bd185f313004245,54cde03eb07de5f659fd45f85efe7807e071c29b,f1a54633b8e7465b6462ec4615a3c6bdcff72d62,859a8a9580ff218870b99aaa22f7f32cd4eecb8e,3cf4c4dafabed53eeed1b19de41d058763a6d178,ef492e4094d47716c41b333acb5f930142848e44,4a4fe1efbfca90f49a6a7e91ecb3a22d5580507a,ce312a1db92b08cd28ee6f74b22fd576cb5486b0,45a9eb0f600ddc97d09c47d5746b2a50b41b3230,355a350f810f85bed61c34536b5b371d7b581403,c9304f3128580d5203901a5aaad6680aa9eba16b,04d0a23f4c492c19e4071ca7e0db9b6e7ab85fc8,aa72a391e252d350f91f2f662528778704f75589,5ee727b92ea397c97d50587b76e6d7e3e7a47563,efbacd79bd3bfc6f0eaeba9b476d3d5601831356,914beef858453bd17f73de24b8dddb46af56bbec,e1c343a8eb474db8977e2749f4d346e4f663872d,4a784dd6ccc9f8a50a2f570123299089caf21302,57ea288753710ef39761b599a6851ee881b267cd,edbabc84e9c0c32b0400ddcb737f7552d96052fa,72830c4531db50eb8d4b07f3b034adc58f129d3a,3d3f5bec8e5fd49339ee3077e06dc07659e2240c,cf499860951bb7496ccfe74886af324a33425d2a,5d716fc7e0feb4a95286845ea0d69cd596a26a85,87b967c053e816b2ef080e6c8a9078dfa60d6cba,9b031f473a9ad48cb5db000747d7265fe8db77ef,91cc39c75606ffdfe949226edbbc6c861b645eef,f62e8db161739e079bbda067ecae898b5bc921fd,4caab96c42e2717942c4c8b6fdfe972994c8c9e8,ae76469bc701cec95d3baf0d9af94cf21a90473a,79b591adccf998594cdf2cb9466feeecefff30f3,1e5507af9cd3bfe50cab3cf5cabf9f53df9b2e79,7807c5cede10a22b6b2999b50111e936f7f3bff5,d647646e3d0337afa3652712adb22d40d82055a7,a065ad9947463d5aeecd4029fa0a791f48a70be9,6021557ea144b70e61da7e0b20fa1aa63b7f0039,1d3a0ed26f816afa8838e4f9cb1f1311dbe3a2a4,3462f939b5c3589183487d4c75d283f8a48811ef,23c5b0ad63fea73456b73e13fa8e4bafc68522e4,66d5cd94398bbec363e4982c4d2b6bdfc73dbc40,ca889dc09dd153dfca889d7aaa6da2fde1cf7c5b,8deb9f30ef220da24c19e2ee840f2eb1edd722a9,1b90df370f6149ca2e35ba392947112e5bb6032f,ae69641d6c8cc6f4b63c94039aed7baeb53e2386,540ecfa0fa4e4c862597c0dd924c2acee777eb95,9794860e65728cea769e24260694646fbdf1cafe,f559259f5f7d3bbe1fa7b804a1cd3590ecd4c2c0,412cedac961a20f687c34ef23c28ef377848af5a,37139c29f47ad214a17e39796b54bac411ebdae7,4feb1930c115cc0dad132c805edfe67ccba533c8,c9fc85b93643cdff817cabbb3c7bdc969779b32a,daa9a8d6c6315a8c4066943c8d5709751af49da2,0015b819dbb0a1d56c4afadb2ef8ed6972573c3d,ee0498644232b36a61c5e67387158e8bc9d4a2e2,2cdb0c1a67defbcf5660ca059188ff02d2d949ca,97b41e214ad64ccfa2f07edacc8abef59cc7ac36,b770ae7f536b203a43a5ba03addc332fa765834d,6d5220b7e524226f239a36d29e95f06fe48bc4b9,29679d56d8f8731077a1671e51e53d474d4999be,5a548a5c6bb136d69f69893b3fff21ac75e4157e,9b2480aa81e62c7a1b69433fcb5b765e87edcdfa,74a1772b93666f40e9c045d23a1d59c23d7e1d56,2103ffceeb58126362b58c7063d79e979e9beac4,bca898915c0cf8e869d66a65d4a64be60013953e,cf36d2f7e5293ead359320a176e86d260f964cb9,9d8926b2aa2e3801b180b33252e2bde19418af5a,6a30f94343b42f8166bff968fb4c667954514d12\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//imgix/js-core"
+    }
+}

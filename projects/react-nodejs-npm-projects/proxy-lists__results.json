@@ -1,0 +1,32 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test:unit"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:unit": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "cdc175b742a776e1f2f280213e8bc00151ad2941,34ded9b338d4ac020a54732eae1d4b563ba13a6b,64cb495408fa66376cfe3c3f25faff952b52e19e,862a5a7de7b4e3e418e204f7de14a816836954ad,9a1f096fad855ea3ad98c4a2d975b15e329cc71b,49713d97fd6bc4068a39f10cbcf36bec2bd38319,dd2c198f07fd4da255761ef141a3ae3206de6f3b,2af80d37f63b6e978ce5ef9937a09fa546a71793,17f4e45058a6adb49c9d052412027997698b3e27,b6257554dd69aad2b47084e462a9a9664f62003a,2dc2feb90f815428f5a01cbb568377281fa6ba61,57b9deba0bc1a6ee296be21d460946e6686dddd5,155c2273d1abea75c258af30a0f238288b146453,833e831490fbc41392aed88421a4afb4ffcd8272,903f85c04300e66530205ce79d3d3799f7c1b445,10e5a6d837c75984ee36475aaf6025d9c496f0d6,7a97b08928d685794f6dcf321ab66566cdfb169b,57bdae05a5b68f6d56b2fe4f2c4eb186ade564bd,7152879366951063b1e62f8d6b41ff2c0cbf8a6d,39d608cae09e590993aa0c7a600906c5bc95dd22,7be122c6bd694ef6cbfe889ed8c1a9ff2eaeed40,6f4bbf146e6782022019a5f237b10aef32f1a3b7,0f7b7e44066ad73d063c433edcbb0ed7dc3ec52c,8c42e4ab4114684cbdca55469a08b7417d9acbfa,b9ee443d8b8add8133e04caf9fcf32a46fa0ed22,a0365865a4f1eb9655effcdd7fd638c26ca94b07,96396a37b2f3e96904a41caf1c637d8fd3b0e1b9,f34f9a93f63d17bdf5fbb37229fbe9b69936dd8a,e133a5972d4ffa6290466437752c098b579e53ef,4afd43324891779a94e31f2126677d39046d89bc,49884ccd78f66f8fe50364e640b67b3a1b90f668,933e2a5cc84ba6944d7605888b12f4cc89361cc6,41e9504f92b6fe4184457806d6acc94e248bf088,0054f4b424b123f7dd6bcbd7c3e79f25e08c6629,8f8df020324a4f87c63dbf450b79ed0c4f8c0010,6e5970adeea01cc1bd8a2525c1c7e029b402a52e,56f47932496b891043ac3b50f6c59f2c0d9d9501,7cd123abf42703ff9d73ad53fcd2051b28be8433,893d45dfe22c4728dad224b596205427911c9d4c,f5b36f6f6aa6a8b1d5277a5734389b2743f9841f,023da49072f3b715a6ae61e2150951549c622829,a98f76e6be4d973ccf12c116f6a60359b5bd0d0e,9503499ef22c2fec6c9e14ecc2b2c2f8114ee86c,7008e21926827c6e97017f426871fc955758b8fa\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/chill117/proxy-lists"
+    }
+}

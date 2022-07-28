@@ -1,0 +1,63 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "code:build:types",
+            "code:build",
+            "code:docker-build"
+        ],
+        "ERROR": true
+    },
+    "testing": {
+        "lint:ts": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "lint:ts"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "nested_test_commands": [
+                "test:unit"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:unit": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:functional": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:all": {
+            "nested_test_commands": [
+                "test",
+                "test:functional"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "21afb3d74b5fe8b20eccc60440f9fbfb231d5fc0,2fa6944cc3f43c31f32127a61bb4e09b22504461,f7736b46e75970bfb6a133c3abb8ab5565e0beef,4eed60d764d450f731be87bc470449347ff6c30b,6085b6fc7efb79aba619f3deed2b804a4f57bf1a,87c679d3fe1e2650165a2ed3876feaa90adf71a3,56d118775f4ccb06f074015e9eddf993cece4428,03db18d973425338599fe8b2cdbbbf871868ba44,cb13b62c0adef627cbc00f227348e11a20dad9ac,366bc5c21e512ad717064701314277b109b0697c,14b8b1860593c818fa14825fe7be05f89929883f,6f2d6b625ecc6dfcaa9852685c5c2ac971f107a0,8310d05c4977a28fa8e76df763bb775324db94d6,b506d7ae2395244594187774b88274504c780335,1e515c0d5547b2c80ea9a324f93c814d867c85dd,c2567be4baa5acd9bfa16999968cb329865864b9,eea4c9ece3170de3511c1631c588d2cee5d40eb8,dbe36e3dabf4a2ee72b8daacabd22c8daeed63ee,68068bf1c96c4c82805d39d13d71e2b9c615e02f,9353fc37d5664e08b1e7e1e1eed463e787d1ad4e,0462e34995841eb5e383d5a49830fc39fe5737f9,04603ad12c17b0f4f2c6d20d9af89d38af60f0f6,0f3d4a44be43a359766e267f213414e391c900bd,31bb309638f0240f97da084d07da7f462311832e,8bde1977fde91d75ae7103a40ce9c4bf093e1534,f4113963cfd0d0c836db08d128092b21d475e300,255f85b547cd1e3b64dfb5908f890d6211a589d6,aeb168993e97530b8748199bf363b2416face7a0,360959aab07c260ebf30916e5741b3a583dc76d5,6865962628f9e006c1bf5fc71eff7e7b64488511,82bf88eaa0f8a5711f3989cd6a68f57d5d13738f,c7b682dcfc3e55a3fba9827a82cf54fa86abe97d,9877bcf15967c3c21b1b42d2758cae36f2a9e5af,e92c729ab50b4d0dd006a203332735c34b6b47db,1b51b125ba62de64a3aaf7a303513d74af9470df\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//bufferoverflow/verdaccio-gitlab"
+    }
+}

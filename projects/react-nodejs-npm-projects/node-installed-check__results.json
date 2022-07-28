@@ -1,0 +1,38 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "check:eslint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "check:type-coverage": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test-ci": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "ef9e3cc1f0f0622cbc9c6feac5c2ff8bd0b61aa0,9cd551af24c9bb7e10ae39688f7953af254542d3,8a02f98931ae55669156bfb48230cc8046749f39,ce2a4a2dbc4b5e3f9ca542d5ce50ddd70acbed79,89cfc9aace67cd513f0cf75b8130f8b18827bda6,bae7bbc80f6c998a1a9add78486f06dff533b750\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//voxpelli/node-installed-check"
+    }
+}

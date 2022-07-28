@@ -1,0 +1,65 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "num_passing": 177,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "nested_test_commands": [
+                "test:extras"
+            ],
+            "timed_out": false
+        },
+        "test:ci": {
+            "num_passing": 177,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "nested_test_commands": [
+                "test:extras"
+            ],
+            "timed_out": false
+        },
+        "test:extras": {
+            "test_linters": [
+                "tslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "tslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "coverage": {
+            "num_passing": 177,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "f4edb7ebc1639247f679fbab3f9660e7573ba1f8,6f4552594bd4223e87e60dad6b6dc90d7d9f1283,36c0448090b51f883fc0d6e059af748ce5a82a75,f02dd394b22439f29a93b3fdee99f791c5ed4372,643bf61fe74aecaa75b58d4e6b68680d98805325,e4f46bfc4e40f8caa0aeb691756501a808cf729f,12b8be251d9e44686544acaf1648548a82769592,64fce79eb48e0d78d5639f0e8b1f8d360c23358f,749c1a9b6043216a334afb32dad5aa40073fe523,f3b32d5a561ff319bd147499c80940da86ae6314,74998e8e9af1e4dc5596b100767a93fcb814bcb3,22a34eefdfd09b33d7d175566b5510a41b7f4298,1c0d35309d2870813f287ae2fb0dd9fcc926bd0c,4c1ece75529026d403c1e31c9a6c41bbffd7446f,bdaf8e430b30f31d927ead67976cf3b4f90f3f67,97b446084011a773f391dcc303b6a90ff962630e,2d706fa8b7ba554fd102949afee2b688ce364e2e,60ae21819296365a3e0c5d94e74a92ea6726370c,eb8020df9a1334e305a6be2192454c842167e231,6f6a881457184d3b692d392353bbf98a02f029b0,6ebc451614db6aade69984c48202a72b3bd8b500,3b0cedef4747551d3e63108f6953fd64046c8bf7,e0c765277e8e82ef7cd8cc7e2f262cfdb488d030,848f71f8b32998795738ad05d790d69d4c1e0e6d,ba463fd4c3a09256f241672108c5bf663a0004f1,df74d104f3ff968b104136e70e15fc208bc805ae,cecd47e6c155964ae186c8202e7204d7604c3ff0,dafa03fbe836c63db06bd857ee693a16573e3da9,c32b5c08decc270b596ec27fc7f040816e151597,5b65d003d3866a53bf2f22c0da9168ed1182bf38,cc87c77b776e74fbd4d51836aab841e8948f2a4f,46cf798f0aa5d746f0486f51f03d28e47ac54aa5,e7e59ec6b63aedf84252bf8ef9097796ed89164e,d55a791bab899ef50f210f0895b430af87b30d5b,cf9e500fc8faa77a9cedff158d4c6f732c5424e5,bff2f1e19f8bb7ceffe2ddb4cef46a2eea5839b3,d0830cb98d89fbf26b28f77d345b797a0fb449db,e0da558bf1a1a18a2717db49dacff749937e454b,d148d310305e20979f38cc0e810d82a64b1efaa5,21e183d71daf84b5a43807a8fe46ec829071b507,a8174f8c8c97d46cd2b95d68d48601c87d14cd1d,0fc255c3da3eb242526e5397421208f1f7acb80c,8dbafeb1cf63fa04b8f38c0a02eb7618e9c96064,148025f683b8592e76a291038c8aad7cb4291d98,f84cd2d149f785c4f8f6a9474f1c480d2b29c35d,36079c49de2e6ddc4aebe9cd25211685378d0b21,937af0cd1502438620083830c86655c527c9ddc8,75e586c3d39b1afed9c977b5dd84adf13baf2896,3d38dcc64398ef8e33d86eb698d903130f505b3c,af7ae791e89d545c8d5ae0e098a2ba02beca875c,d79413ecf605eac5229a612fd661b934226be27c,5045a7e363dadcf0d3d3883c157725d96c3042af,b4c39a49aaeed335ba16bfe308f8f352a38d3fe8,71b58ad400379d613b1175cdc0c591c37490c982,7d3f192fecf12d2c37051db6a33da9827966555d,00717b04dc5a10a1bfab12a314d8e42a624fdd2b,a09dc746868d258fe04ff98df224b07c7687059a,ad14382ca57696b2f69b35a07f5d618f2ec1158c,2afb1f3b5cf50f8af6cca9e61a59ffbd782a5d0b\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/infinitered/solidarity"
+    }
+}

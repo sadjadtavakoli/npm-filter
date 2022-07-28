@@ -1,0 +1,26 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "test_linters": [
+                "standard -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "0bc380dc83de8caf84cf7969542afadf3dbc6329,177bc480ce184a312e1c164c30acb890a8357ffe,18f5fc51448bc92002201c0a53130edaf49119aa,99b4851de0c1c26f8cffcb52d21241cbfc685017,8bc617fec872f9a8e3d7f0f1d530e5ada13b48d5,826a9d4d9f80695dfed8bb8abb3d618aadded72d,ebaaf6f4fea12a25243a4cdef7f4670f4df9d492,7982a664153534b3848599ba15174c4dbdba304c,eefb7e26ce2debc5b1105ce29cf424c25309162b,2fca3bb7de6707b9c565f7aa72095bdf837db7a7,ef787c8fea5f3536506ec74acc6ed55b906cb083,9a5051c1021aca039b8b637a0504d47bbcd0afc4,47746d0838f30cf7fc68457e3fa9b622439df845,7bc763d858e78e565e9d5e3445327b5bde00f98e,d832994537c5e8814dd1fd613a19e1321df14d0d,44558d53533d0ca22c8191dddae0d2769f00982d,16cbf83b4108c1237719489ba8d4289a28bed149,9fd09e75950510eb07717d44fe64175bf936979e,0773c010d632f85247db3d19bb26de30fd08be1b,71e3dd26ac742e7057d61f050938fb714e984341,3d5a1941f9733c056e9787966cb4303bc65f111b,446f085b69c2bc26d3c931c428822340dcd97b44,b24cd005a70582ee4ec3905dde456a149d71cb50,d741244e8d7db737b613ed9204d91eb045c39f65,f1142f1e1fbb94ca30cbf503aa110fb134f41c08,7bb2a7405962dfc69d312140d61ff787fcb6e2a8,ed3098322cdd7d633535ce090098e55d2dc125a8,815a5be39c72f672ebca1c40026a37eb2f195eec\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/webtorrent/webtorrent-cli"
+    }
+}

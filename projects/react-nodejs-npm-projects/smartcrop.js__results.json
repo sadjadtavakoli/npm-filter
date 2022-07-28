@@ -1,0 +1,31 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "027c207e58b969f741e845d24ad888ba3279bb8e,1f404863b16e7c7b976f34188a0c93a59a680ebb,d098a836e2c424db650c5fe3c8138253db56ee48,05416eea2062befcf7ac20413984c7232b7ddd11,eb9a4cf2fe503bc1342334041d4c05627f2f5a32,4c3d86e8b830563697aef3d615a30b407b0619ba,efbc93faa6dd9d8d65904dcb00328ed795bf5eee,8a4fbcb89906daf95a51322b6ade9bf9d6f4ed14,a23ac67167c4334e13994825225c51eb18eb629b,1376a54b3262188020b44359a5ff4b78b262281e,1d7df124bbb522230bae10b0a17421c3badca3e6,9cc9e628c15a8884e1f4512de721805d092c2692,afc15fd5831a890ce7c97fd7a21f4a5df71cfadb,8803098164a0a161f568c5f97265917413abd3db,9a987986f267e9bb91281b10504f65c238fc26dc,15209892653fab1905b306b4b54ed6b76fac9b8d,cd891062d3018b142e393d551971d1ffd18e8593,cff0be6d7307b1c39750e54be5aa2941633d56bd,0dc3682bfc072c30f7aed7e40bd38632bf1b12e8,e1378eac9e5cb754e97504da72d94d1b0434e1af,883fbf677906fc02cf297b95e7c26cd5d95155f0\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//jwagner/smartcrop.js"
+    }
+}

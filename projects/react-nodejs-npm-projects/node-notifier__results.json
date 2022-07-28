@@ -1,0 +1,41 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "pretest": {
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "num_passing": 75,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "f29354bc5324849fb1017c5f42ef87b6effec8b9,1265ee35d5c25ab819bd4f49aca46cd8fd5eb753,789c54420959bbe0dc5ca3dd678ab839c6777d98,a746ff914eaac10ac88c2c3db13b67f65dac7bb2,5c48dc830ee26192f129e3f819dc42df5e569a3a,e2718999ea624ca76bc635e4cf41761fbe31baf0,4686c9c66b4db378e24749db8c365510fbed9a27,59da93a96644df85a5142c949f6bf26152fcd35f,501ba0e51e0f69cbb808573c16fecbe1f1c80679,9cd86752a7b540e8fcdd07caacf1a4ad7d9b3308,578c26a1a86569a6149609b0a39b5274f8bb665c,36a43bbd6e3a87c8e9c2772bd4b6afd31ea552c8,913a015b86f6f2e8898df7b927d75174e287b64f,8d314f03eae16d5a5c69d228f43bf3669b20114b,2bc6ce413fb4fa136d378966f407055c302d2349,7fff1b5d1e3d540881585f2802d32dcb438c7f5b,a0adf9384a3db683f928e4f52f3edf6bf649ec55\n  File \"<string>\", line 4\n    rel_files = [ f for f in \"\"\"\".q !== false) { -    options.silent = true; -  } else { -    delete options.q; -  }\\033[A\"\"\"\".split(\"\\n\") if rel_extensions.count( f.split(\".\")[-1]) > 0 and sum([ f.count(d) for d in dev_test_paths]) == 0]\n                                                                                                                                                                                                                                             ^\nSyntaxError: unexpected character after line continuation character\n/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh: line 30: ((: ( 0 != 0 ||  > 1 ) &&  > 0 : syntax error: operand expected (error token is \"> 1 ) &&  > 0 \")\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//mikaelbr/node-notifier"
+    }
+}

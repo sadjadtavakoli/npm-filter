@@ -1,0 +1,54 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build:all",
+            "dev:build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:fix": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:ci": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint-staged": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "commitlint": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "a89c1d101659f6bd4ac68ef4b1da80e8598769cf,201cf567f9090c644ce2dd81e638024a8e4a0ce3,53c48d68bf30b41ca7926cc7a5e19495442d022a,8c826d9df07010a76b7e60991e19460484658f5e,82333be7ecdfeb9fa3d354bca580758c2bd58d4f,6fa252ad4d843d610a610a88090fed2fb655a2e5,9c7e36c87bfbe8bdd727a513508accc89576fd0f,1450b4df8000b4de1be5c81bbe371cf0d4254e47,b9999296c6390b01b8074ea0ed263949f896ca47,6d378c37919a34c5e7934471be95d6d0c36fb7e7,41aaa22cbe7be5d64ede2a70168a1f2490f2311e,443adfb73f6dca890683134dcf59978515884d4f,941325b02f3acdeff9ed4b67ad4cb25e9195fa46,76f44497805d01838e75578d1afd4b99c218e7b8,6549aa7a57db1fd2ac7e881332956ee0a2b58d52,e268eaa5b7512580ac9beeb9ea5f764036ac269c,4dfc380e209495cf525201637358e32f48a48f2e,e434d9bf6c02fc794710720547b2ffce6a145f2b,9437ca972d205f6862e94b6425aed9fe0008b690,1f257cca075385dc5787722978aadd3b4d1c23b4,c4678a88ac10eedd260dc6fdb5929f6b2c251d0b,524eaa8850170ccee99142614d8d47354386870f,24c4a536a94cccf0e49ea6ec433fc8116f639eb7,f85a6dbf91e61fa63c229582cdc75cd06b1f3a2b,67572dd8de592d18f3e3cf20365beca86d924872,0d910704f5a25a25428f9231fa4cbe52ccf997d1,282eb4022c251ec1da60e8d301b3951b3423a6b2,9e93b3b1c842952cf11e347555063bd5eae9a5f5,06b6501ee3c08ea0fa7046bb7921523f95632037,6139df857153fbaafdcb707b097f7856aed655e5,645daae82f0237e40682fafe9e0dc98e5e4b0932,f79a4ec6afd199dece1d1880f6d399b63cb89b9b,dd0873c2c05ebe549e8f41553d09203642ed32dd,fbb62fc6a452c8dd76db8238b6664883693344ce,bccb004d84bbd0456d74407001a40f72171accc7,202d0601ec97c3ffdd3bfc067993b950ca176259,89c8342a6eeeb97387aed92e67ea743d55c8a8fe,a0fd11a339170bd19146cd3cef1bc9a749041a01,1b6ddbf782b42186eee427dcf159337f4b974d3d,c79227581a83e5bac77bb71901c088310d25945f,be5820f820a4b1ab6237504e17a0cbb6a21a3e0a,335ed615f44131c3ac96fbd6b4af9a0fab3c3ca0,2dce89adab927a3630d79c95113abe576f320a43,cf5b4f1c11a9d0df71ee6520aa8568096ee39ffa,9496a94b445caa540eed21d2d2a437711afee044,009bbcc534eecfb1480ab30bd2c313b6475a2bef\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/HospitalRun/hospitalrun-server"
+    }
+}

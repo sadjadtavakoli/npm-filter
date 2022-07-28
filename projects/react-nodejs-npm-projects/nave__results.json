@@ -1,0 +1,43 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "precov": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "cov": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "cov:noopen": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "postcov": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "5f1054ac93c33a2907af7e64e95ef768552f2a93\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/isaacs/nave"
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test-report": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: babel-node"
+            ],
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "9d9d1f871c075ac695bad54f3571200056a29b02,d91d076749954932858e2e8f53c8f2c3a5b51a3b,926b2c31d6a40731f522d9fde1f3f0843ab45b04,ae96322fc674c98916a4c116459846a89a7c16d9,f1de08030f0604e2a0710755f2caf2194e042441,a5174f469cc24842ccd2583c96c29c512950cb85,bf72fa554dcb609d18ed8494f836c699ce5cfa07,872aedc1bcc112a739480a5d6765dc8d2cd1ea12,1602ff675adf036a18d88b72111da9b04667afd1,22911c63865f3934ba7c693704d71e4f2d517540,470701fddb2de0667dafc58abe2209573547d703,2bb91460e5c509fe64515384efa208e84beb7ceb,eac7ef71b842e9881706aaa4ac01f8a02ea57ec7,9ad3160e22e60c80d79e270401b0d5d688851c0f,2e310499b7dd804f60c567eff3b4d3bc30f5d61f,ddd62df33e6370009138b9bb03ab7b8ece5c50c2,025340a10a5e887964a52f6978a9effc93c09d66,ac2411c4e04afd6d88cf624a2fa853b16eff9e0d,aebf75966e1001c23ba1195a149a041a10d2efb9,b6ae14259b33444703df1b50a0a402a7579ea6ed\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//GIScience/openrouteservice-js"
+    }
+}

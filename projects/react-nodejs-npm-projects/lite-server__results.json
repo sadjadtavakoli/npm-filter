@@ -1,0 +1,29 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "test_coverage_tools": [
+                "istanbul -- coverage testing"
+            ],
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "08cd0f29a696a5432f6298a5f9c9a34a4afabc2b,37ca5288863af3a1b0422d007e91390a8dac0276,27c0d5bfe417f6b469ced687fb288cfb7f178df5,94e2b08fe7243cacd0c2e578ae8daaeb18004de3,4204ccdd7bf8d7cda049a97b605b18b993ac474c,5e4b35c2834f4282f729b296f82d185016e9ee62,99867a95595a5512b3aee765e151389479ed51bc,fda1debc983eb3e0490c3bdcf2074401ad74d4d1,7f3c34959c91faec308595de83838ecf63a26b40,a9f0e6b6e48e8adb844a108d3f268df0dbca0026,fe29bbdc0c5f491a3b392bca0454edb48c39cd18,1d5c0090dddd216c70b6f42069a557aafa0efa0f,f2dea60d63b704c800c8423c9db2f6b94ad31d6b,aae1ec1c88940a3bcd705737fce9da496f830689,db06d2724eb06944fffc26b3ab4ace1e5751e49a,f52e32047dec1b5bd894c62672fe6600ff700203\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//johnpapa/lite-server"
+    }
+}

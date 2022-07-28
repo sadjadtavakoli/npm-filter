@@ -1,0 +1,112 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build:lib",
+            "build:js",
+            "build:css",
+            "build-storybook",
+            "build:gatsbydoc",
+            "build:icon"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "lint:script",
+                "lint:style"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:script": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:script-fix": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:style": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:style-fix": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:unit": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:story": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:coverage": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:storyUpdate": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:cy": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "cypress:coverage": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "postcypress:coverage": {
+            "nested_test_commands": [
+                "coverage:merge"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "posttest:coverage": {
+            "nested_test_commands": [
+                "coverage:merge"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "coverage:merge": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "be6f51325687e617e2068e40b9d440c77264790f,7d7057d88b32b249229e294983b0d25383b540a8,1adf5335489089f11b1b8bff8c45d01e43ee94f0,571960b646172eeda3394be22b1821ec1d9e7b39,fbce07d47b690a7813c81e4fa9e9563568c45bb5,21329c825c74017a45623f8b6c1c89b4f363daf7,ffaf43748d28ad015ed72835863dec6e1e411ea6,e62ef153fca36114346ffb15af951c079a327c15,19d7accbee39b01184e39444965df246312dc03e,2b0afddc8098b6e8fec818b5875fcebc9cc53166,bcc0fe03be80b2274cec273a2913650f50873947,6f5d60520bf58309f80ef19159d8b8ee7dfbf700,22fb63879ec80e361d8a1b40be3feb5a63a2aa44,eeb59ad62ec73a9affa221544e51159f8527f2e2,cd95ebb1b34e85080218790412ea73d63ac4d872,ccc79b780e666d4c649d638850f69ae2ba1b3eee,ce4610bbb1cfa36cb1bfc4f40e5fd53345bd793c,1966eb0c3e1e39b45aab5ba143f0b150df601bc3,5127684033862cfbbdcfc575aa7cb5974e68b3a9,75962a325cceef7fee902bcc50569dada3260757,bf853a8bdac81cdfd839c7957a09509446c8820e,e0ec514b585b29ef81ef3ee2f02d714f0831f818,7a6b35f6a9aaedb58ef37e8ae7cce1604b3a95a3,626c4b9f9e7239885e47b9ca19a9a13251e1c6de,e07cbd5ac0905b3e9caa39bd857d5449c8f2bc26,3c87737fb712e9fa4eacf393cbffb7091cd4b1d3,efbe7db9418c602d0a3f9000ded59d7229dfbc3e,d08dba9619d02108b477b98334ac4a1bce7349c6,ef2531c8be1ab682cbfbb9d919ad6b76c1b3cc9d,6271ca78b491f2bdf0306d5d621293e621997ecd,d3ef8450175b721621b170275093f4624ca3e9fc,6995204ce4fd686959864b82849a68bd7bdb8ffc,af923aff14889fc8f4c2483c171b57903403313e,50e447330208169d41fac5225fc2322b471ad26d,76be18db4f3ad9aa01b430d9a627def5b0b44bb0,df7b57c351b540cbd8b9ff7e7c70c8c09292362c,8deca3fbfb39b97c0f2ecd36a3d28404c97e61a5,1cc12e45654a68518dbaf50ac99e2ffbade3a264,45cd7737205d82dfa99bf18411e968612abfeac2,eca375566a0451d9990a36e3b9a97547a20bb875\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/DouyinFE/semi-design"
+    }
+}

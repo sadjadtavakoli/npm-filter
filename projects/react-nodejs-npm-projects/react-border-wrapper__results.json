@@ -1,0 +1,26 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "2d4448ff8f36b3ea70d9e14d625ba0a01a57ce92,ab8d3fc307586ec735faea03ac9bd41a8bf1bad5,4b263b3035699b2534177622fab85f2d74861e10,8ae587c2bd5115a0516d869df8d251e1fc6ca144,20d1232bfe34f6f3992e04ce23d6092ce1e2d7ca,44450b07d4c9128ee4e3cdd5a03027037b2365c0,f166284194bb72e864563050eb57ca64378803da,9006fc178be7a06e0e47ac695a97bcc478afc8a9,99c6e592aa7ac64a7891e4a2142c18cc8219289d,686d986f5fe3cad8dd2c61f81f284e1c23afd6b2,5f989b032150e5f87e81e7f4ec3e24affe235a82,2b5e2f108db916f8145651bc967f513072e113ca\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//Metroxe/react-border-wrapper"
+    }
+}

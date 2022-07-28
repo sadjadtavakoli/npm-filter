@@ -1,0 +1,52 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "num_passing": 147,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "prettier -- linter",
+                "tslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "cover": {
+            "nested_test_commands": [
+                "test"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "coveralls": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "cover"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "a14ec9a297f2457a2c60ada3e15685df97e7b132,9ad211e8e166324d80363e6d5de65bf3efabb022,3bc959332724cfca7720149206cc325a3c6a41db,85fdc990f79f2264d42c809e1b11f87ba92921f7,c5e834c370fb2a300b59c6f1db799efe6d446b4f,820daa784e21371b0297473c6bb3da1014b5f8b3,b25977f34675c7c325791628e999d64637e1267c,f38d8582e4cd06a15158080f79f42a647fb72685,17ccd806176a4d43b235853787bd10b6dd8048eb,f0e793a0834997ffe95982ecdc3c4e56369102bd,7b744f8653bf60f8f0138dfaabfeb2f2dcd2ae24,a1fef18ae336034a8da743544fb544f0de6b3bd8,b65ae3439e1ea3d6900d020115166a22646ef365,c292b45d664554b5bcca17862d4483db1b295678,7ffa1c8d264b386e5d1bcb51968a223d7fe287a7,a9d352548ccccc486685e419111521a2725a3ec5,a2b94cc270a01c4b294a9d2c7c15d72218beae03,618011c0acb5be16fd69cd78550c3f37062e081e,a915dd31b062ee0428f23836dce1a5088ab8e67c,4b7c649b688a1e43a2cecd373888455f7b55f17e,c0d61b4c67bb30d109cfead91df99bae73591de3,71d3a8ff15cd66ff4bf4ad52850adc0a1a9b83dd,10ff5d248e799634d7347bd8bc544005c002d247,9b7be83fe29e06d4a63f5f17fca36e08877e7477,ad8e695b400b866a9cacc9c7dc81e215e6b1210e,c8fa0a3a9076286bd67f47407d302e80c0912bd2,b5a62d1fcfcf8241947659bc17f65d3d9b8f014c,c2084df2a0fd84ba394162f0414dc922f337087c,79eecfdd1d84011413cd04b8ec482b835bf06020,f98398b5b635447a3e37913e646992cbc87fb5b8,4a438f5cfe71c4e18713c0097ef2b7444164d5fb,c1657d3e9388d55706f73e47117aaf8d7491664e,4fc20d3912c7f40d2604658f59335918c7952aaa,daefa966c714fda665655030916aca4d52fa2735,781596d18ac331fd2160f8b7bdb640aba0bc42b3,9e7ff2d42b69fed6968e68cbfead8a8438105ab1,0ba7eeeab3f265d45ddf1556ed3864923236d366,39826737db58e6966522798cefaa1f86ee3fca49,9c50cb9c1cb82b95a980f75a281550f49232e7b4,a415b1df4d51363e5b5bb95ad77d55979ac085b2,d10cf3aafdf2f727eef2eceb4fa530a06e3621fb,d1109ef35c41319719f99abf7ab19a6cab12e77d,ba87a0461916a50a7c15fda2b4485618a55d99a2,26c2dd8dd02c2d6fafda4f94e81b31392e3ef0a6,a46b758801bd0beb40179f2945181533edb0bb72\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//jeffijoe/awilix"
+    }
+}

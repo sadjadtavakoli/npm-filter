@@ -1,0 +1,47 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "posttest": {
+            "test_coverage_tools": [
+                "istanbul -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "pretest": {
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "131fb16a48ae68f05c9ce0111d8511786db890f4,1d21159dbaf0638388c1a81e7e4a60c3fdd18ef9,a45599880833887d031f6559091bb2f27cbece8b,20ea3858f503ec521ad5b1facdac5816a0019317,1803f678b9d38b5ae91961ea13ea1c7fa7c9afe8,6500e281ce33e9d5fb544d988aaf755cc79fa601,a2323add50c15bf6a1047b5d99753cce6db07fd6,b22e2f4075971f8b80568cd9911a2143f602add1,c947ede812789b0b329bd29eb75fba40058a6cd1,2cc70de36ba30692e21e22e463d2dcf1b1ccd744,7c174a13e07b5121e302c3f0c93a6c38b2a07766,0ad790830a1121b6c645f4f9a678a60fc604cf94,22f680660e1f873584a7cadfbb75ca85b096316f,042b38db37e50008b82a2ee17f5cc9a9d5900813,300f494a593a2fdbfd29a9aa2b509bd774e41b3e,6312e09ab3651372c9719fe6d660ec264fde51b3,af13c9c18ef43add93dec40946ecbd667efef77d,3d6fb221405107d08e3924e4ca24dd6f1da73e74,5b96003c11d5ade8952b1e3c43980d77569835c9,91ae2b21e2e9b75b92bdd030c7685863cc382e07,f0d8b9fc9bf843fc661e5e46134aab5cc4f93c9d,d238bda9ec278407267d5d86bb388803ab35ef80,c8badb3740822c216efd49ca4d635284ef5f38e7,f94706d590ecad28d24977b711a4033613e66ddb,b6f262f41194a340f3f6fec223cec6d184201d56,72fde08855d5617679c4bcc2e58281fca3b77b94,04c2d9984db8d4d982df7a1a6f7dc67c49ba0d7c,a6867992fa2b4ccf869b8b2831eaff10c34d95df,3f9f3f5245165f6583fd8e38eb86ba2d144fc6ea\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/nfl/react-helmet"
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "compile"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint-fix": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "f3d95d6aed87a0f01b55c734c28e03a580ef7f85,bc5e6c5329838b53f8d76bf6f1d20a6e050b26a3,9abce37ee712e5d7a59dfc16c0737504c0d5fd84,500282b31eecb413af1ffcb08fc14caf77d61057,1c8633026ff94af9608b7ccf1bf7aa407c44b56d,885ee4cc2d0208adb0b835f320adeaaf2613c446,2359b45d88b6c0edc24b49d1ee7eb2a275ed2e76,51b3cecacaf873c1524aa572a32b552156deacce,9b83144badead72ac661c6c596d2d71d217c9ec1,6b63861c70b9f82342b8897c6ebf0412e1ca0080,0a00cfb331c930ff870114701b3ff308fddf2036,0597c417ad201ecf0c1a212963185a190ba686a9,9b0392aad2bc89ec93d8c782788a055091c66bdd,4696be945d6be381296afadb00e41946265fe186,859056a7613b359eedd2348d4426133ca25c73d8,ac1724b0829e5df2ae0c25419394028bc067105c\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//tumobi/nideshop"
+    }
+}

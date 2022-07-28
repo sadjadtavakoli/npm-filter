@@ -1,0 +1,44 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "pretest": {
+            "test_linters": [
+                "standard -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "lab"
+            ],
+            "timed_out": false
+        },
+        "gen-coverage": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "lab"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "34a98fb209c886807937d16c324d5b024e72e72b,8dabb41f81ea43cc7c98de4900ebc4b071df88c0,f6b769b5a73a0b43239782f300efe31613c54f22,eff51d27e0f299a615eebf66bf71c84de60d48b2,8c36f0a27d87be3531aed4cccedfff6fc1c1d42f,be5e708ac8bc03db0a446f1418432e782cef6108,40f3267e68ab2ce0dcd3e2f882ee84897d346976,7c6f01a36b4ef52c10542ad0c651dfdfad33fa4e,a86d1162a13eef807cd62058a6755f3ee9e1e75d,c6b0dacc2152a0b7cfcedb11b06a8fb46e0b8d5d,3049c8e04fb858db6dd924b9f18580bda78c42d5,19ac8311f7ad93c4becb8ac7577be364e147cb92,b007e4c7620ffff23cd0449515ea9a1ff2629f49,a5b044da1ceba5d9f835101f5d5fd17a50db62d0,61342667ee07e62d697a5bae3f2688babf9bd617,088872d1dc8e75eed4f81b9fff1f83ac33430eeb,f89e3b1b83f908ad8bda0d5ea1e0bbd24e3f6e2b,17f976b49b8ecb974595a4290852705c9e15667f,88284386ce77017c5bed31f4a6e415f3c709ef25,7dbd0dec9aa9c2b7a8bd97a4e5b54349c70a2f46,abd7a7788cb74a8dd8727e835c5cc0d027d22ee2,766d15d1e9677fa3ad49939671cd1a853c4295ed,ba4ab9632eeefb0d98298eb1e046e469d0260deb,80617b16a681f6d45677e6b8a343379bc7892772,cd3c3235e095b830a99fc7b070e2a5397f805572,519baf6db7c35676850f642a76402be9194905d3,91482d64e7157b461286a92c23f468038392e201,f8166a6a3536be30b07dfc8024d31032a326d354,b9b1fa9108a27febca72e112e2e614e6c6668a79,a0a1db86bf916219ec993bb24a8abf04cc49eb98,ed7d8936db1a69b38a253ba41b27ef810ec3a930\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/XervoIO/demeteorizer"
+    }
+}

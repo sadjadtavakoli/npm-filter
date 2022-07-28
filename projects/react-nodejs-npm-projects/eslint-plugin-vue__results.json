@@ -1,0 +1,79 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "predocs:build",
+            "docs:build"
+        ]
+    },
+    "testing": {
+        "test:base": {
+            "num_passing": 9064,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "test": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "nested_test_commands": [
+                "test:base"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "cover": {
+            "nested_test_commands": [
+                "cover:test",
+                "cover:report"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "cover:test": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "nested_test_commands": [
+                "test:base"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "cover:report": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:fix": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "cdcf75e4ecf3ddab806ef33da77510022777d0da,ba2911413acd6c61cd966ab8471037ea4563451e,1e375bc8455a2ee8ca2607174a985b9581cc64e2,0924d62881d29f32f65f0c7e48006e46e627a075,1bb4eddfab52ce5f6b8865f77392e5912d8ad8a2,86b3b3f36789734603e0fcc2d66beae1143eb040,fe82fb534b6ced51a54bb1c35a9c590f83a0f5b5,043797204dc372f54a3e86a5c78517868b42047e,bf771696172e07c05e2eb60533b6e4ce5922013a,7cd28394708690de873c6de433b324e451d14abe,852096e7bed2411d654026eeef88df6ccc3a9d64,c86cc88247839a2f51c0a46eb26ac4ab4cd85901,1fc34857218651186eb6ad218a809e2cee9e18d9,9a99fe24bfd753eb8b8a250fa0308872de3ea7ea,a96987859f53416839c0ef7e410cf6b54238e6ba,9d54bd6b311cd24f64515c3bcfd6f821882574fa,3da8d3118c9dc15600656348de22caa95b169c7f,793112d2ffaab146bd7d5315c738a9d9d3bafd48,30e89ec349d6f54535f74dc0453b0fe03fc50bd0,f478d6554dd5aa11b21fd33be7b7ccc70d02c5bb,d4cd35ec550629a44dd66b3e397dad9218bea1a1,ce38da738e8aa06d407b46806831825cdedbdd62,b9feb6724af2da92f7a578608b3a9271002e6dbf,fec4e419b591c03606c15b081a12c35018f074ea,d88edf13c5ff74a040ffd0a70367481589a4e998,c210505a4d414a6fcf9c69384f0685e01e99759a,b33c708d8df9543315467d7a684ee207d784b971,6def98a0ad4912c474fff8db479f07befc122b8e,d206d353797ad99c287b78f74ccfa6336377871e,d2c94a9dffb48344351e18bfd18916de47222da9,d191481346e1bf24f15acf023297801fd970b104,4d29de5b62effb2b4f83710356ac16edf059497e,d78ec7d4df94233af01cb0bfa8597bdda2e60969,7c53cd4c34fe10c8b4073e33355bb083add5a72b,e785bdbee24df021ddffa4762cbd8514176c66e5,424bcc2c517dad99ad1869fed60f01b586482988,0849a271ca7a6a0592df9183dc0f972f7b30bd9b,7c24f5e5f315819ad74dcd0ea20b2c549bffdb99,335692e64a8824ee33890ba5e499489db046d2e5,b19843c698110d9dfb08fe8dffdbd0aaffbcce36,98f7bbd1e4eb76f4ce34f325e70c7dc8ee270b0d,ebd07e6bd9be54cf9370f08296541017bad41386,5dd07bf396d8ef2192074fef92a7bd3075e8ee1e,01a13b1c85aee54e151242c5e2e5826994cb2293,025fb167bbe389c647f68e924f35615a574976d8,b18d351bf93142cadb5bd766817c626c6e5aeb1f,f7a4dc01a97cd6c1b25609bd3caa5c45bb04af74,d7e98ddfe7330f710419f8eb46cb089168d619d6,095ef4fb01e0ee96b616f2898946050b16e7769b,0f18b3b314acd8adc3e42392c3064f3e7ac00d20,94f387ed68149f8d12c1960d68cb5d9c376b9a89,a73f5e238d3de4d48f1392dee9b50d83bca87617,23d360ca0b5209b0fe70c10ee72a5314b358e92c,0e46f31bbcd78fb07502daac40da028ac21ee4bc,48fc537cea6531c0a218cb9d6553cc4fce64f887,55d388cb29d1ffb7775729150e85aa865a829842,da311e97fc13575ba930c6f489d24e9371da8ec0,39c9df59256580a3189d1e3edf3a5515d41b474f,49b40d6af603957b117e148711eae5546ceb349a,9fce35dba3883cf8c564eb18693c3882e71d21c9,9fff64d1119f4df4ddf867b0a3a0fe92e7bb8d97,b71c7a3ea1da6116136275c703e52f69963bfbcf,047b2298bda3274da6eba9b749eabb5ad5668f9e,09765b07536049dca5eb0ee84586693b93d87172\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//vuejs/eslint-plugin-vue"
+    }
+}

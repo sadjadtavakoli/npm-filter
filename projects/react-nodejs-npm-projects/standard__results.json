@@ -1,0 +1,37 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test-internal",
+                "test-external"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test-internal": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test-external": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "9428ab68a07aef87a0b89f0ac41911aa58dccb7d,694e175dde19e7756f7d58d7b84c9143fa8d33a7,866a666f04ed54bb50bfff3796e14da7f18678f5,9fe2f40b751ce41ee72f5f83c5d5489a0b8f50f6,81c16a6c1b867667385c08277cfd2e48ccc3d292,60d05986bd2bd4599de01db1329cb609da11c9e6,dd7471f84f28b222c1e085f666150b2222be6b37,be75cdab34a2f5931f216bbc213db403f7a8224d,c60c8899042229bda14db2b6fff8b5ac96f395ec,93fe8d2aaab445c73e3efb0e03eac5f1fb0c3e27,527c1a0ccc182582c110a4df352d89a91fd4ef7c,d9f0dbda080063f3f974949c7c5a702c1a16622c,e875364fd4a494fe6bcf4caee162b802518354c8,4a03d0ad9106f1d529b99cce550a2c185e56217c,f350edc9e8de3938d3745e2bd288d6fcb2c68252,647672192bb7188b8255be7302211acbb7e9f582,746d35f8ad2e70a176b6eb07c1ab00112ae46bfa,bad6eeeff6bca62d0dafbb65a90a7a80557823bb\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//standard/standard"
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "num_passing": 4,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "fcc0a8bcdedeca46a9f0e36da057564f69f28b97,f3f5aa1a1e489ed25209da1f37625755edb37be1,bd6d86723e3aaccdd9ab078e95d50aa6514104fe\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//CharlesStover/use-force-update"
+    }
+}

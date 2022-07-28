@@ -1,0 +1,30 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build:storybook"
+        ]
+    },
+    "testing": {
+        "test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "dbf95b8d3ad8d4c5bb1740257d6cd44fd6e879fd,10f683631103b1d919f2fbca1177141b9369d2cf,17ba3f6c4f9308239a06dd5df5773a6003d8a6e7,30bbd12f9606c2e99523cb9ece465041cb37e916,830fb41c1246768832e05c7502a7016fae1dfa42,7389c5d1d045102d948152f4cb68d1adeadafb29,02edd2691b24bb49f2e7c9f9a3f282031bf658b7,9719ab886e457027aad1556bb22b597bc995723c,1c6369e24ff338760adfb806c3017c72f3194726,1fe9b5c9d34237aae6ab22d54478c419d44a079a,2889c84a6ae3c44634054dd71900beb25898111d,3d5469d0283b8d8eff7d872e818ffa8afc1d5db7,d77643f94d0ec70fe1c4794c97202ad6b0f73711,8d70540771d1455c326310b438a198d2516e1d04,05d6a78a17cbaacd8dffed685dfea5a6ea3d38a8,b20203aaafee896beb32d1f2e7798c4a85f39d07,c4519d3df1300e913068e7d7f599e1884ebbe21f,a847a800400a392ad4653199b6705dd687703d01,1a3a1e08a49dd4c85b6cfb46b465430ca3de8227,79f6088dab2d4e7443743f85b329a25a023ecd87,ac674e8e9f9e041af96034675a075cb9aa357927,9aa32f32a73c7902c87f243ad0a5f32ae4cf8d84,4759fc1a235d0d0eacc5a06896823fa7d0380bf1,7bd4568e9f339552fd73a9a4c888460b11195a5e,dcf5c33b9345fac694519f6043ed7651e0b820ef,ff4f1ba0b0f219d0c3a35e75a90dd218490d2ad5,88615f48018bc51ae3e65b6fe7c8537017c4e5dd,51f30da1783aafa75d5fc2070385b80a4c547a70,d55749809bf6630f9102dd432e53be25272dd1d6,5c6baf1f8d248a475f05882c46789cb09b813f4a,1b788cb270685b2bd2100d2db5fb34d7df6582e0,9cd33c3e4ab844581e0ab3c7369055dc5f4be6fb\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/clauderic/dnd-kit"
+    }
+}

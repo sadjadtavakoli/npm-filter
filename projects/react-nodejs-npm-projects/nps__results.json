@@ -1,0 +1,23 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "784907d3616ec4259030900e50a3078978adb00a,0de42c8036d4f2c7a91408daf34d00692e10237a,a0c961a2986ebb89d41bcd0f0dd54cada986cd2e,47e6cf78781fbacb328e920a0b666f8bc03e7a70,f9a7b0ba1af729645fddf352e17672d8adff2e36,9338d72cffb8efb7cf3951e6bf41ac92f11d95e5,6c0ee45eb5d424036560be38e557a0216fa05282,c4d94cbbda7fd9a198566efbb5fda7bf13b15651,074996b5d21480ccdc6bb6270cbce7fc098d0b60,f95d20738c722263e48a374c96d8f6dd500bbaeb,8aa30d25afa82a0d5a9915617f4928e350311344,28141fba1d6d64020b04290944b9ba84a6d51f4e,f5e17f4d74164dc0d1aac0fcfb9397bb2450ff47,acb7917efdcb1222c578686673ea965f34f6b9f0,b80aa2b81a08d82ca8586f824fb90da4c8257664,60708a5a1a121dc294164a4a2c84caf5efcdc209,5feefa536620ac7cd8659868a65460c1b8e1445d,1650019fb9eb6a18f16b46c36a08cc8118d14f4e,d19d343abe1eab02db190d6cc3b43a1f71c32814,6a2e93c7bf42d295f9076e5b97a1f75d64479e6e,d07f6788d5341779448b8f912e0c6a3f23fbc9cc,aaf4ef29dd56c7d9f0eefc0687ff5c1e17f61427,efb26450ed117b66d5913f78b984d9de1c772f06,3ecdaf18fb00dd5dacd0900d6ec7e8a94aa64356,e6d5904c473ef1f5bbcd7fc92540969bf6ff4f9e,df7e4cd1c6d9bafc9c9f38cb5847f48507531af8,1363040f196b8e3b853d79781a45cffe123b0e62,c553d5460f3c12b1352ce30190b6e21f3cf11af9,2e41bd0cd5073ae9a1b0c5bdc900e232f1cd5a3e,1777f4905c75a79e02b20cdfdfb1b333026b488a\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//sezna/nps"
+    }
+}

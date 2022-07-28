@@ -1,0 +1,67 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "clean:build"
+        ]
+    },
+    "testing": {
+        "clean:coverage": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:fix": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "pretest": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "test:coverage": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "8c58e0e7f15865be898249258f52c7134679e440,ead12156156ed6ecf1ff475acd370ab2cac53246,af353ea96022f39f8e318ef4e89b103f3f149740,41801c3be79c11f5aa855ae921ec0108215c0035,15617307109b17508f738d53d93ff5a63d68b797,8396aa3d6c2ac6d8b7e06732f49dbc7788e47e7b,71d65d5b77699762fbb4de2ec5293fa642fe6abd,c24ff748c738d7ae7bbb394676333f2889dcbf6a,cbccb2d1f5d6f0dc48731cc8dcf1543cd2dda67d,a70798f637d8088eec94d3066db5a1aeaa2c3d24,77064ad95698949860900e116a0e4f5b5264de29,769bb55c7aed1a70df04ab9331a306ab9ff370bf,3961e411f42fbeb39c02e58c80878285f2361a94,83cecf0295b5ccac7e12d0b607e75e9eaca09198,9da34f66699d147a935119bea2b18877fdfe39db,8bd2fd57048b461d860ed8897e51ef8cacb7b97f,254822c57d6c2a7f2691f3190fc71812d48c5b3b,b12387e2aea7983f89fe5e8cbc495800afa3121d,351cdf410a4c9e5e1b39cbc579e8db49ae088c98,129956f1840a4ccb45380a8caa48375b87c2d87a,f8a0353c96b18cd826514a006f83155f68805b13,a99356f297576ae6f92f11d089028c754a637d53,812015cb41d17762e9c64d54b137803b35a2487a,982f4f13e039c8f94b6734a869fd2827582dfa09,0b177b382168395664a5393d0f70bff3f5b3c8e8,6706acad88012912b00015f1441e9b7e2e937c2c,4a76f032efc3930f18e05c0cdfa272838d2e746d,58017325c6aa41053915932bb80046e6eafea860,07b091e841f87149a6932031b98be7df49947c57,22c3bbee2d28471a4ce63c560eab0fc93f279800,e6022b861862e5d64ff26fc3793afe6e530aa2cc,6089a361fb39a8effa06d79d6692ff8d01d6a098,317b48d34adcf3cc9f741a367b745002758bfcc5,892f6bb11c6a86c416229c5ed13931ded0618f9f,29182ac0249c1899b607e00f4ea3d71015d8312b,6c143e7e73924ab7995b9b3adadeba8700b6d2fa\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//olistic/warriorjs"
+    }
+}

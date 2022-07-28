@@ -1,0 +1,67 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build:prod",
+            "build:server",
+            "build",
+            "test:build"
+        ]
+    },
+    "testing": {
+        "lint:fix": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "postlint:fix": {
+            "test_linters": [
+                "prettier -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "pretest:ci": {
+            "nested_test_commands": [
+                "test:build"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "pretest": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:build": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:ci": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "765895232746cd560da6bd566de8a312045b1703,06499fc2d85254b3329db2bec770d173ed32bca0,bef3ee39f71dfc2fa4dbeb522dfba16d01243e9f,6bb9b36522d73f9c079735d9006a12376aee39ea,ede95ce05213445b110ecd89605e078faf0f3709,8559ef8c600aefaec629870eac5f5c8953e18b16,297e4f53556fd53306d5b88ec6ee5c6d567fde71,cdbf51360351fef30df97a0808ab73ff2ca058e5,1223ba0dad16bf504074510ac060e7394a4cbac9,42004d22c758a7914eaf1d7d006b91352d6c2140,ab4a2e1ac823f335fe2ffdbd1d542f9b17554dcd,48ea1d706be07e0d4036c308c405bfd0604a5411,111bebf984eeea32e615ddaf3280bc9b391d2c14,9466989035a50cb3646f4de90036c3a8306894bf,3d991f529e6518de13eebe8e45f52367766b0745,8fd4d19db7b3f94445a238954e8d917468676eca,0003c0ed5e1ec0253d401ee4e9185406ed6e1b31,41dd0931735a0a13ca9b7e349d396af19e72f374,64fdc804d752eac175e465260092a26a56f3decf,d7e1303262f0a0231581bbf3e5f82af5d89a2568,5fe991d9b4d94517aa0b2f177805259eb41ea2eb,4e3163fe51558a382b37f3d868a7390f5173cf8c,5c655bfcbae7ef4419afca12ed7618b277cad819,0569040ad1e0bca80342a0988e5e6481fa3c9763,31f0e0a0c692c36c50d4e23a704c046bd5ed9fa4,5d42cbda4d68c4b078367a90767184f0205e836c,593ecb9ab23e69d990c986ab19b22360ff46c7cf,5a6fda6c374531ffc6e21e3f8607192771502a77,23a2127d2f8bb789b299df2d33dff0cac3448536,82b45dd49375b3e756bde16eb3d20f037cdcfead,3e876a8cc0b28e8ef422763762bdab10027bb25d,8ca5b6ea2276fe66f410c4edbfc0fb6757502ea9,65b3c38e8400c1f27ff970817640a8e32012044e,2c8231e9d3342bfed362cb0a5f25c58c7b3fa9bc,dc0323d80d14c0ae4c94dea70d8f0874f981b2cd,5d57c32e03c079f9b6d7dd78e7501c421f675f57,3694ebcc6a614532768bec322a96e351de079e70,fb7dbb4828b6fe5a3893394f5c32d66ae1a5ca6d,b13c05346f3423349724e248c4ed1b738fcba1bc,a41b18b57a83a311c0142390aecaf0d112f0c861,62374f4f99ec1d90102fa63f08f952c477edb204,a08a8cfe965e32f38b65a12fe2f9974c25f415b2,05b17cbd9470741711a30075e78264e44014a434,56a9f45707902e08a68dd9af3d9fdd31f0027424,001ccddd8cde0cc24d6f37f0e7c11671cc645364,fa059a43bc2878f844ef40f64c58b0173daf09fa,2123d8309f4037f317814c0c2110cbf44f776651,548002cc1588ed51b461521258b2b10d2d0d4762,626a84c8b0da7d6955848a94154e6d876e706b0b,b4627f26a232bb7e7e0013a66a5ebb1951d5ab31,56a30d406539e54fe8f00bc909b7dc8a2c462090,17e7bccc68e0f2ed1db537b47c0668c3cb1f9d73,6420b59f5534b918a524a169e12d30a648c62414,5cd92e793716a4696dbe105198bc04cdeb6c7a2d,d137f69c31b34f76a79644be87fac84abc055d37,807f0feb8879f41b5390240ec05cb151828191c2,3f5f5b2363af6962db2eed20746b8d5b5148f0b6,0f32d9b3fa0d181240f19f97a1b3c9983452dd1a,ec62fc04c41e671dadd59cdcedbea96f10cab03e,47d673e0457d6e3831bfe90662bf92545c2b6811,e208b386aa008d58486b6b7874008403e2e18380,53ad4339b3c3cd647f3a0c84cef1f7be2984e5d7,0e024147fb1268b8aa388972a460117064899c20,8dfa4644fe00db0130753e6685e1ddf10c20d4ee,4f845e5fcfde18f55715d98d40dd6fec6e95911b,a7e52c1050c480ec76ff7a446693f8a0146e0497,48866f1784b19bbd8fa4d3207a4b6d913209f980,19fee5a63949af4e8b4e1dbcbf900eb6396d954b,82ebd09033ac66024defbebe76a6b18bf297267c,edc45d8e3fea3b82a43c4db445a83e93ee29e471,f902c6ddd46b7430b0ca5740586a67cab4f80bf2,164dbac5ab22b63c7ffb2e0c51ccb85881bdbcea,0a0eeca19fa34e35668d99f8bb28e5770bb5fd3d,29ed8e10c957f319724e0ea242629f9af6491293,4ebacb8a02a53b76f6691014cda96365604ed6cc,0a3d591b21dfd825d579ec599e3514296572b0d9,3811e9d10bee5da5c88af903ce6abdc6f60b97d1,e62264083264d307f85b7cb19f439e46e7bc09af,0b4783865f75a00e15fb606e938a0a29056ebd53,223ce4e56a1837109515208df42be82e5787ebc2,1be57a70bbfd86c997cae16ce0a51803e11e6cc3,6878f9f634025a906cb68bb44b3e9ffcb6a4bb2b,02a476716d67225195842fe7ef92fac6dc383041,d4be431c776dbe4cc3445ffb29851abb54353960,b9b23cda94f0b541d87ee34b004cc50789919f50,a04d7a70067a1880a02c959fe987485d9b3b1c79,be5c47373fa89dfe41bfdcb6bb1a16d3d72c68d6,8bb313cc08716b80076c6f68d056396ce4b4d282,78dbb5d8c6b2eaa85204baafd0f0636db7497d8f,6624cb58876add4c82d93f1aec10250a3b1b8e89,65e699644edfb087f1a38dbad8ac29613fdc6c50,24a76bad1a18d71e79ed24eecda11448c4094e8f,90be68d59b3cda0a18bee63586a6e1c6710942a9,c98237fdb4c4713d9ef28cc2b73836388f4a90c4,1f1cd9b28cf7a4c3902ae7fa5e85c86802fd554e,3de15f31340d3e63183b9d1454f547bc20689900,edec50d045b15ad9dbc66d8b37ab863c8f8d2b47,5c1de61523ca9308175e43b7a9e1f9cd85521ea3\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//Netflix/pollyjs"
+    }
+}

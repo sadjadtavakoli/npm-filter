@@ -1,0 +1,38 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "prebuild",
+            "build",
+            "build:release"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "num_passing": 2,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "d2982e30b958d166cca0c4c59a59dba4044c9a91,5254d8ae54f29163c14cdea990f523d49e99b48d,89cd5a45dee8b0476637264813d4c02365ce021a,fb26003feaaf91a537a2cfebdcafd60e4f5259d0,474729c0e8950ef96f37e443301cc9df64ebdfbd,682c44522506825fe6cc690ae3779306c97af3d9,db2fafc2cb671c3e1a8b37c070248aeaf842cdff,2d564bd97b31c4c662842a62c7fa6c8fe56725a2,1485fbd0529fdeeaea163d364b90e8110832146e,692702c942d51fa522c3a78cb80d7e4bc6d9b751,c72d4ac1ee689bfcb2d6e0a0f86f62ab8071c718,042a60bf68f09a7901d80b75945c04f835ba4ede,a4399b5e0df6cdc4f90acea20b6cda7f6d8eab0b,44c941ae9da4bbf68f2a15f48b02494e31608bee,d7c1993ecb64ad2cea539c803e153ff37e3b137d\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//jsynowiec/node-typescript-boilerplate"
+    }
+}

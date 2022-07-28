@@ -1,0 +1,18 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {},
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "71be7e79f25fc0cf1a8cb0b91beda025dc70bcf3,df6219321667d6eaf7aff404abe2e475c53a33d8,231daed8d24b072c532093c97095999a4d41e911\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/metowolf/BilibiliHelper"
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "47846f9af0af1b8ecc37aa57e552c264adb9e7a2\n  File \"<string>\", line 494\n    \"\\347\\254\\254\\345\\233\\233\\351\\203\\250\\345\\210\\206 \\346\\225\\260\\346\\215\\256\\345\\272\\223/4.1.md\"\"\"\".split(\"\\n\") if rel_extensions.count( f.split(\".\")[-1]) > 0 and sum([ f.count(d) for d in dev_test_paths]) == 0]\n                                                                                                                                                                                                                    ^\nSyntaxError: unexpected character after line continuation character\n/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh: line 30: ((: ( 118 != 63 ||  > 1 ) &&  > 0 : syntax error: operand expected (error token is \"> 1 ) &&  > 0 \")\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/FantasticLBP/knowledge-kit"
+    }
+}

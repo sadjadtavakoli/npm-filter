@@ -1,0 +1,38 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "coveralls": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "5e56831262ed8b6a90be181338f73796aaae4a65,a23ed81390f0d4d9b428351afc8213928b8cdb14,d573a80e21546ca77ff06aaf871cef37670b868a,81d23fc4ef9953ac235dcf2a4644db3687a8deeb,50c04910df5686138a0ff131225fcb1242aeeba1,e2ab97554a3e3f14a693861612dd79728c30a092,ff42cb2d4e4c79e75f54a7e1c392ff00aadf851d,fc22b25ca638b8b5067d36e2119e089a0cc71ba0,580a80a91fa31881da8165166721db366aec62e9,691032e31620024971980d04315524157b8d5930,367f2230018ad2020a50739c9243f023ff155e5f,7ef64b444466c372b7b1eba210ec2dcf4f22d567,6cb7c80aaf601a65bd551ce8556ce6a706ca518d,4be28d9cecc43c81dbbdc59fc1b9d9af808726f3,2175abf4bde8fa7140a3ca4d1bc4e26287c4ee6b,b9b772f58327a17fa03fc9ee61943e9774cc1c95,43c9302fad1790d70de341cc95b041916b1205a2,df1e8f24380fe180266091319712e42ab419975d,05bef515bd7bc97b55344531f979e7a7ad434ce1,d635263ace5c0bc35cce1d034ee4c4ab0f286160,81f605939f463ed5400bb275a61f6a22c0df4c7d,c346f9d504d3ab64bb85333dafc69e4ad2d43dd9,030fe3b1235e0324e9801dd5842dbf5948eb7ace,dc31c8b4b46b7b8d16e493c9a99e5cb1717a6eef,fedd21960df75bfc50b5a14e36e31fd44769e83d,2f0e6311c2c1c20580a14b16d173f6fee7c4c106,a85744fd9d5b497801e31d7f15fd50e721f76d33,4c54bf454f5561090a8802f1447846a4cafe4f26,db48cb09a25eb59b28e94f3dd98da25a421434e3,d6c2490ee8453f3b264d516eb4f96e1e3317e9d6,9e71889c41348206831ca27d5fe3dd2700649ab4,1c001c6860ec2c58d2590c5c06061f9dbfd86454,61616fd0961779196e7c0855fe2457b565d825e4,f365a5cf56de24974cccd60952d682d21d106cbd,2a4dd0229495d2ea1ad93b7e9bcfa9e9ab2bf625,8140441222f507b0fa1bc699858e1cf5b7d0c222,dc00c8d6175cae90daf94952cc02b79bf0fc0e34,748502c914a336ac8b60961902fdbf5f07c84064,45e00275938afdb7c18cd5105a649f863f7d15a3,e43df1a9204d47ed49e06701f49c0a5380a0ffb7,c4a37822ddf2b6fe6297c9e002d7c81091e86461,026ea329bebedcfa77af7bf71c5b18c20a3ea574,7d9f4fec82bef1e189d19972a5d22e48448215bc,bd28cb128d8e9cc6f2906422359bf08418fc3867,f070580ca43fc5996d5830d1350d180227479604,58e32af25451af8676cc78b6a94d990d5e89e8a4,6577438f7a6df48c97f1f0537775560e7cff791b,7ced763ef61adc7bd651d677559477945b8c29f0,e6b6ce4d498a0e4db3505ebf27a76e82ccd51c97,b8d4f084c4a7ef709164df6c315e917e6ee1b49a,9b429f3056b0960b2ff6b72056a560af746fc199,2406364d94a793edce0223ec3729266e5e978787,d87e85fc04a6d46d9c04f615d048c0e6de000c25,fb4f77c81cee21c6569e99caf0fd9a4517d28689,a37aa6115fc26dbfdc069fe65ab27f91a3b4c21e\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/exoframejs/exoframe"
+    }
+}

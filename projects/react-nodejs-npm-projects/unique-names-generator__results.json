@@ -1,0 +1,40 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "prebuild",
+            "build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "num_passing": 87,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "nested_test_commands": [
+                "lint"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "898b02bdc55e163a1036e97b6ca15b7469bda963,698e04b76c818e64d339f2aae596ed0d08c3d2b4,67ed9efc9b1972d431c583cda6a9b4ef530937c4,01cf4cb034e001a7d1fd6283d78165cfbcd3872b,fb0473a118b5f30b8845d9b5f151a28c432c3f72,48e1abb9412eaf37d1c45c45249cc9a84d9a0253,d3035f986b3012451f3ae13953a1b7a17f1a9d35,4987b8995d877868bb0d1c0ab8f5bf3cc2ded97e\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//andreasonny83/unique-names-generator"
+    }
+}

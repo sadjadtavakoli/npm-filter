@@ -441,6 +441,8 @@ def diagnose_package( repo_link, crawler, commit_SHA=None):
 			ansi_escape = re.compile(r'\x1B(?:[@-Z\\-_]|\[[0-?]*[ -/]*[@-~])')
 			script_output = ansi_escape.sub('', script_output)
 			json_out["scripts_over_code"][script]["output"] = script_output
+			commits = script_output.split(",")
+			json_out["scripts_over_code"][script]['useless'] = False if len(commits)>0 and commits[0] != "" else True
 			if retcode != 0:
 				json_out["scripts_over_code"][script]["ERROR"] = True
 	if crawler.QL_QUERIES != []:

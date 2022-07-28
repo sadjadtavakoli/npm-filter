@@ -1,0 +1,25 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "b5398bae5ee7d52df97f99c8aa362824c4e8a9f5,0038191256086e8402490f2a13abc0f8d617c4a2,8a81612f6ac51797d19a91352cc7fedf524fd782,1a71d5aa2db944e39c5977d3c38e083892f44564,c224494e189d7511b9f84e90ec4c18d6ebdc045b\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//dance2die/react-use-localstorage"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {},
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "75858f825d34c8003d1b684f44b601fc74749b17,cfe32e656b5c9b44f65c0991572d2847c3515490,66cdd370860bd141b53c20a19ff8ce6a6318d879,7f1e4fe1a8c972d9ebfb05b30244c5e8f08a191f,ee5fe418f45ef3ce9bd079b5d459d7a9cc46ebd6,0fc264892003cab30c7d4885197f17fa56e59141,8f010af26557415281d0a8321a9e6157b82239af\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//crsandeep/simple-react-full-stack"
+    }
+}

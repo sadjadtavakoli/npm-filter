@@ -1,0 +1,66 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "prelint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "pretests-only": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "tests-only": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "pretest": {
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "posttest": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test:multirepo"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:multirepo": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "7c26483576f7a44573ddc61cd5d51519deb674c5,3d5a8a4b50ebd7a96c65ecd28b809aabd925449c,80ab0d86676e7b9f679f27dc24284bf7be5d76c2,205b6602ba73935ed4c6b547a4838d855cf5d0fb,cdd0b35805f09c8b0d73f6752f7f2aa2f7c85b0d,4f43e04243a2d317a41c4084ce4e3924c8546805,2321cd4b4e184f9c97f76ea50dd49b9e42927b93,765b3cb6627d2592f2c97e1416bf8ee2302d4b6b,756419a94432fd753a62f5a58b797776efb543f9,f055b369d3caa0760a27d06a61632cdfbd97cf3f,88c0778be359caaeb4ca74b24a7b5f7903bc39e8,b826f3007dc8903b95e39984f93c68bb5e4c85b9,36779282881ec4abce32b2c9b7f7b10bcd09d953,c2cbdddcc2aa1c427ccd8a7c1784c745093f836f,f63faaf9df5dbd8da388c674de0b14e3286e5e91,a80095482ef2d16425e6e12759c9735d89f7f50b\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/browserify/resolve"
+    }
+}

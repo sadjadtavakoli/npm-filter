@@ -1,0 +1,64 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test:tsdx": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:firestore": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:database": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:auth": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:functions": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:storage": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:useObservable": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "8596428af2f58e64c8c2ae9bacc37b54d972de37,4929283551940aa2a5ce02a408e6ad2ff85d4a3d,24320c4ecbe0458461cb5ca15f7d0b8edb9a43ee,a2d2f1c36450515e81e07bd50f539266f5d825dc,4d1206d615eeaefc790d99b2c5f07cd44219a455,96bf1d7f92ab7cd993168302b43e99c55e75fb8d,ecb499677f419882b6d3e49da4c1ba85d0a07ae5,5ba5e09be25b1800a4b32e68500f956722bdb068,dd7c27ae82d751745c9c8e8eb3c2520e05cec6bf,3cebaa921a235d5f56adc9344cf1eddc9c29f0af,121f5e15f97dd1b66495e1487e8a097f92aeb8a3,f417133bd05bee3c3e446a328530b7df2b420897,6fff36284e1395099ce32d5c0e611bdb76a62621,7820b0f1626b1726277b646706a46e0a4539d5c7,b863eed4ff56ec7e1476e1391a955b9df1f72ffe,fa4bd673d94ce4b312cefc28af7b719242e5b6d3,5643497870bbb9ffdc1ebd56d623bbc957634d9a,459d52452cd8448111e6bac80f15864bf65fd6c5,0916a2783913ed2f3580ca10a1654872209f87ff,8820711258501f96410457d1cbd439f4b079d3f1,812629c9d3d48cff825ca06846cabbf2299c4707,b929934a86c16983f50f97a3e6de90ceeaa62774,7957bda3148330b1b0df4012877a0128b06dad15,3643ea1f30aa55349c5bfe80cf728301622501a8,6fae60fad6252864e9c2e41aa24d98178edbbcba,e30d861460ab3a5626b2a047313a95442adbe647,f010461d5de53e64f551348afa70eacbdef9adde,0b52e9db4ac30694e3f4593a3a1bc749676ec5d0,8bf942ff59bfeb0f6bd40e356e7b2dc38bae733d,a2b24636d7598bf4016a347588157ca0f1c102a9,e4f5cb9cd178483f1ba4a4e561267bffbd1972d6,5eb567b2eeea2cd86a73f3b089939adafc79984a,29a1b4d12f0bc910e78782cb35c5881eddd4d17c,66858983392b4c2b03fd858b2ffd7ba2bf2e4260,b5e63a62e738404333ec04947bd269d85d3a9bdd,e74dae316c19fb8ee24babc85ae6646cd4aec3b6,6b0233f58fe0882e7a121345cefb2d6c0b1dbb4d,cb4acfbb2501c1d5262c14ab90a935c88dd308a3,26bd9719835ff564967ad5b4647ac6aff6a3ee1a,9885e765c36949f1bf0ecfa087418002dbc1b29d,06a8ef93493e4ab3c2ff33c99cf8dc6e2d5e7cad,a0071f15077830182296651c2b97efaff166a92e,026075a000082108e6c1c90da9cbf897e4926d8b,81022c0190fe6abdfd10f15973075747d3eb9747,0af3b7c40239b2200c45dc4387210daac0aca96e,1eb030938e2496ef3b8a0b399376deecd84447a7,6c5792c8e14bb245c7639a76ddec0db60d5a5110,feab59bc2ed1a54a6ea52d79f74bd574a06384f7,c251112d5bbb00f06c12dfe7ef366e99c84c52e3,68ebbc0d755561160236981102d6fca20cca2c8a,456125ba519353048ca8eb08127d25633da536d5,b3ab2e728044a8daacd6ff4ee4ccf2ab9cc510f4,dbbc5158e2cc5f3f8e217cabef43ac446108ae8d,97c59f7f7796115d044e6dfd35fe367cfb6635ad,47e7b750894f5a4bdc8b55174dfd8267c4c8aa5a,f731a1f87297a7ab53eefb4cd8040e2ab959768d,646ca48928b180f50b1dec9ae7cd12d6f006eff5,f3b5c8e0db33f69d9f39856dace51ccc7b576523,788226737be0ff8abd5317306405483602e1f929,373a0683c83942ca52c64983705bd8d808f8c17c,1906d84a7ceb284af6e13132f82d933ebc2a42f7,61424f209219ef2f3e207ae24b0f0bef2fbd9cc4,100216a854e2131b921271e009555daed3bfb796,e7dae19d9fc6c66f4d849b4849c3b314fc301657,ea56a820885aabe6c58c43ea4b2e943f55475b96,b3538917ee57027a0e7fcc660cac90112a414798,fcee54c729f81fd8bcabb3d69ffd177cc4bae69d,8f62692c1be92110d982e1f4e5e062762ef016fb,15f19b1d03d1662e46cfaaceef562ce59b4b5aca,ba9578e4ddc2c3a88ac3b82a1bcbe21eeb12b10e,0c726ef28718dcc3d7a717e96d5fe1c692b905d1,7b1943ee3aad072e780b4f8689f7bd23d7baa6db,667aa5a9a995fe3aa0c44684df9e0ba7c019baef,9d51a216f3219a444e83f0d0b47c066275435e5f,d64aaeeca4aa2b1db0cadc97820d6044b2f7b695,773072a7287ab9e7d28bfe1819cad0cdf5e99fcc,9bbe56e368442a1f75eedf65de45fd2428392910,1bef33a4830cac13d7ca757fe4b6d059c965310a,0c02deccd244d2b7a970c223c28edfe96068df9a,3ef7d74d1182da3e1778503723baf66108bfe447,afc529856b714d77d4f6185e4d342870ef6e5218,e018314b3b2ca8a5a5ef136c0fd6018fe783260c,0623d37d3397d4fb0e1abc0f6a189105c1cbd54c\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/FirebaseExtended/reactfire"
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build:docs"
+        ]
+    },
+    "testing": {
+        "test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "a2b52d0d6e6f16318da4bd5cedca475ba9525869,36323358d4080aee4b2cbfdfb12612203272f17e,cc8c3ad280fa12db73eb33434843de929f28e019\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/lmammino/financial"
+    }
+}

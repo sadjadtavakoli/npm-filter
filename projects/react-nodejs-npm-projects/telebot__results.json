@@ -1,0 +1,28 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "eaeea70a04639376ec7f77b106c89c062c479e31,d3721502a7c843a9bcdefba2386f33203083dae2,a8554684b5574002a2a59b788e0766da3ed0f498,4ae199f24e02a116a4210e83973e79ff7c1008dd,4cad10722cd1f86ed2d77f1db8084c6fd05e275a,4e216ba2178bbfdf7e017b9d0980c4b5469bf0fb,0abb2f818a6ef206c9b7dce827773a7e7fa0279a,1ebbf839c656f4287fe6beeca525cb6dc7c156f8,68d5d73282869343e4552bfa7bbe3dd64c78692e,40b694a2fbe0a5670e83fcc52d83376cdd90ebff,e52a934203a90a48e5325d5dbc1eeb797b288431,732699ccd06d39e6c52b5992f5599cdf6e553c4e,06baa0f949fcc049142a729e9842515d6b56de38,4caa5691173ab436044051dbe61bb84832fa6d4c,9dd1715835c0d82574fd2a00fb2b125a8d5d8f12,6b2bbff71c56394a8aa20c8e4f9b6383fbdf85bb,30e8bffc681c554450729fede21d678311f936f6,97a4673ec6d00dcb76f00e47534a21c1692d2a05,01047a5f9a39d4daf85d5631eb6015fb409d19ef,358f952e82b06071b4ca47c657d17dee0fd68176,bbf47940a7fec900a21871a5d9d23a0fdf796285,55be76714239b44b50165f2acc8ada7747f2b5f3,e4b5e7742d40574283a61efa1cd98f843913b13d,c677076bef258e25c4ef534a58f5eea0d84335e9,b98fb71811db502bb93b60e3c03f81902e55867a,15e89dcf02acfbc83d9b2010e64f280b2719def6,7300834f5dccd2d7d20934ae103d285b3104d506,c66d118d0427ae94b5bbd6b7c659ff001d79a1f4,051435e14e826499f1a1b01f4bb2ee76810811c8\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//mullwar/telebot"
+    }
+}

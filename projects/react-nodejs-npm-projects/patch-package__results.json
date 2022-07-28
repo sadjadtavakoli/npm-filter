@@ -1,0 +1,31 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "new-integration-test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "2be7f3f7ad78cd9ac3966762bd24325b8168a4ca,c6851b7ca6cff2bd8cf174f0d0acdcf0a6e9aef2,2f1c855631decd5662b46f32b21ba3e54ecb5103,eb62cdc9609cb13d8ac8cfe5ada936aadfc62c2d,2207bc6a44b8bf987a910e26a4ade6396cf5ae0d,82d8fc4ee8d763e54d7ec3374b09c3005cc13fe4,ce03f346fc10bf9f0465282a219b63299160f9b0,b644007b45cad76e04ff3e9b3dd1c42fb0e33216,48c419fe012c852d1ecfe7575d91901cc2738fb5,9dd98c31d38e4cd1434978e02c88eb9466e5fada,58b1d26bf3ab365806cf9e5da475c9723895c203,642b8def80b2fd38d1555f12a3aa4e047a8891e0,1bb67560c92c4665958bc356c450470042aa9862,ed61b3f55890664dffd6208782dc8d42b87b2ee9,c52d01803bd351e16d3312f8edf136a4db9662be,371621076a1a0873e36e260edc1e94ad6611a9e3,7a3f359d48636ba41c578033df7755998e24dd3a,13451362b377755b568a83041920af85337d0b61,47a886619d76ecf788a671fe56d5dfcf080e0929,4c295a8249e8c79617529910a0e8fb2ab0e609e5,2e572827f4769090d7863704bc598c336a262951,4f679f9977b45e8099be12e7c1378dbb8437fc56,f4d5cc4b6e70f968791e597e78e592a7dcad3bc6,5a3e2e1e3fb1b101fc97ad2325b68554804991cb,5b886f90a25008db377e8d43eb4a6758263e5da6,625a0eec14035cf9f8b2d1241703255171aa5773,5497fdf9dc7ba5e9c1c6c44a58a75c5296c5a138,375f16e93b32e21244f6608f5461aca53ff35875,6e97a6e35ef5770b9bd1d57b320e6dfea36556fe,e7a5f8b27b4387662e921d5458d13c685567a2ff,3cc05941f1bc44d9acd6d215b89a5ceb911c1e9d,e3ccfb78767df3558905906afbe22c9d5e7a5211,0d2e7e8a74ebf8a432c2f83f2b57e9d8da454e81,b626ec2dd3526bee5ce9b69d3dd42f5424c02fa0,949e6f4cd06ba91d7dfc0ea257f0877a90200150,98a84e2f2d6e18eb0e9e6b61e68c6d039243f4fe\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//ds300/patch-package"
+    }
+}

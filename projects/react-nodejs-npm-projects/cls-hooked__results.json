@@ -1,0 +1,46 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": true
+        },
+        "test-mocha": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": true
+        },
+        "test-tap": {
+            "ERROR": true,
+            "num_passing": 452,
+            "num_failing": 4,
+            "test_infras": [
+                "tap"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "0ebfb9b484898cd7b14fe8b5b35ecd7f17878f79,abc0c3f538a0292fc3febdaafc75700b3e5704dc,daa721cdd86717a525b328a1623bb7be509d7ae7,5da38105b4a7ef439b7d93ab0e34877ab5ffde35,1d68201b16ed94573ede358d9e9af0018588571a,ddf489ee8fde3cb119eefda2d65b4b8da6603a44,51c893d55dc67441c7515105347eb04082cae729,e25616bdb82b759e4b84a904ed0de48577226bd7,667e4a80fb23b27b77e34eac71ec6f34de07b024,a2f20baa070228267706fd5211d5ca3805e9df16,c7001509af2eb8536762f094e85e21704811161e,53755c4a2c6c3af8df3babf2c0d32a6ab8a951c6,fed7a385a7a7ad88fd31feceb0f3b50682dfe947\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/Jeff-Lewis/cls-hooked"
+    }
+}

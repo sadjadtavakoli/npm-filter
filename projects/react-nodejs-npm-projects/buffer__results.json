@@ -1,0 +1,55 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "num_passing": 280,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "test_linters": [
+                "standard -- linter"
+            ],
+            "timed_out": false
+        },
+        "test-browser-old": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test-browser-old-local": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test-browser-new": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test-browser-new-local": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test-node": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "840160f352ff0d8e88d4ac308a1640fd278f50fc,454b519c23acb5c8afed29c996bccd5078541e82,da047a3bf8038abde898c7858fb02946d8b86f12,77fed38184d770ef343a81637a28a11c158f5d00,4169bbc1ff06b3944625c6f6737783f0393293bf,0f7cc67d841bcd643f67c13f7785a6c297c97e3c,3cfe9c78f580c848993ba1a7074ed4ca380b6d84,73b67d00514b490a49e8fd7d6fd1ab4437df59d6,0a484d08f3f0ee5ec41b3cddfcbe859904f586a9,a6abbc74ffa8bb411c93f253772070f70736a9ca\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//feross/buffer"
+    }
+}

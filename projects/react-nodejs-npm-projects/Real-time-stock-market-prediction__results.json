@@ -1,0 +1,9 @@
+{
+    "installation": {
+        "installer_command": "yarn",
+        "ERROR": true
+    },
+    "metadata": {
+        "repo_link": "https://github.com/victor369basu/Real-time-stock-market-prediction"
+    }
+}

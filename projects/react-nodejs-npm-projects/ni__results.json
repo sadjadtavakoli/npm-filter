@@ -1,0 +1,25 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "aa8a267436df7fb24838ead3f41ec06c90a66040,ae97329dd5a18ff07f70d6f2b3260c6646629726,3ce936dfc2ec29d228b7920fc12e49d1fa196e5a,929ad320e111ba0a1e292795c9f9f7709c4f13f0\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//imkimchi/ni"
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 18,
+            "test_infras": [
+                "ava"
+            ],
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "timed_out": false
+        },
+        "test-config": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test-lambda": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "pretest": {
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "708df91aa914be5334a39722f157807054b273ef,3fe086a13f492b67d877e4c36723ef44ce108161,b57f455dff4c85e44651dd404e3176abac665e2f,91fb1f0cdc1a808a91eadc84422ef632d041989b,0beaa8290faac08d67bffd183a8ca12e66b18291,a9222b2b6b68de441f5db76f0a327cfc28d2617c,88615f1f0299d0909fdc3153dab0fe573503c719,e6e552af089fc0045ebaff692c76a8628879dc0a,63d3bd86f454ae8fa5745c6cacc813ea3bde78a4,82e0acf54d7e50278ee4b8180dcb0f71541b7e6d,efce47c14038493dc2b6a54a52922d724c9ea227,fa515317c86243b7854a78b6b33f8787b2345bb5,db90b0a1cd088072bb6a69f6ccc2a009922b4c56,4b26a520e662ae29dbb5c2ab25d936294f9c0db2,ac8fe215620749518e2bb412f96bb771d978acb5,1c9d53551d3347965f241fda0b770eba0d222719,1cd3b1309a1fe4c625160b57fd24b16b43e5d12c,e73ab41265391dbb8bf3cd0893096d7dd3449f4a,e7af74316ee0b8d877b6cfd36c7adbd6f573c6a3,3703b685aa50f392eb54dedb7a27393fcb04ef2f,8e1dcb234c280fad127cd820ab274d3bde34537e,40d5cf5b8d1e21a9baf7731d4c967dcfc4ab6cd9,300710140f781c34bfdf5c18be17e790d60e8aaa,37073bd264d9adb5a90b917a829906ae6fa786a0,c87d14656c558773902ca3c02c23683abe11cc04,f379702696599336d9f162b31f66a5d90bf721fb,7d6c96f96df52ec89aa26bfad8d4de4bcbed291d,db0f30997dffca7d2aee34ca91ffbc814c3b15dc\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/ysugimoto/aws-lambda-image"
+    }
+}

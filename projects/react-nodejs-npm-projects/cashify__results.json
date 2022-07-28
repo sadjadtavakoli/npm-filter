@@ -1,0 +1,29 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "prebuild",
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "test_coverage_tools": [
+                "c8 -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "722fc9e845f55faf1c9b36de39acc03b3c72fea4,a9fe8b84a56c962c4ac2e21836a58f11a37c78dd\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//xxczaki/cashify"
+    }
+}

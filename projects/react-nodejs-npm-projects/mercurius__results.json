@@ -1,0 +1,72 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "unit": {
+            "num_passing": 1559,
+            "num_failing": 0,
+            "test_infras": [
+                "tap"
+            ],
+            "timed_out": false
+        },
+        "cov": {
+            "num_passing": 1495,
+            "num_failing": 0,
+            "test_infras": [
+                "tap"
+            ],
+            "timed_out": false
+        },
+        "lint": {
+            "nested_test_commands": [
+                "lint:standard",
+                "lint:typescript"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:fix": {
+            "test_linters": [
+                "standard -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:standard": {
+            "test_linters": [
+                "standard -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:typescript": {
+            "test_linters": [
+                "standard -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "nested_test_commands": [
+                "unit",
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "60915810bde3e21e3015dc899abc66ca79f54ded,9bd53f545d63756081af8be7fc50c43191c7c246,2ec084dcf0c49f5c15f0d7c4a453f5f5aed90624,a3fb31573e726f7782b3b277c95eadc093b78265,a1b66e51ff2ba0c79ac8f231de381dc072c8e519,5a1b085288eb6b45acd81e1389b1a29dd6d47e73,2bfe0bb35689b6384c69f3320295e6e628b25f7a,d34a103fd9fe3df941acdd6072c6a602d235fcbb,a85dd558660d14b4537903ef4e6a985a545f04ca,c18f79ba9fb14e591c82ca8fa0b3ac1eeca3bbd6,9ff5c54024e3330361d9059005d74a32a9dcca3b,27c401f57c5e5b277b56d654dec52a38518578af,558929510b82e1ccbc1b8594ff36c78a5b07cd2c,d35528ce1ec6d9ebcd73dcfc1aee6480ab6fb305,40def58c9bcd315a20fd8bd8b328c0b91a64f360,d34e20da58eb800cbd5f13465ea8a2ccd1f9b10b,d4fda97070c0b999cf68a6ba45a519c64f85b7bc,41be4dd5a54adfa2c0ccf06c363dc3d799a0a54d,3722c0ccc47896bc548f9728e070a7c42faa03c6,5df27f2d2e7fd748961dfd185e824be07c84d7d0,0dac099151de706456bfbc54f1edecb6c902f61d,f25410b78cd30cefb0c27df34457709c378c8850,fc8e40c1220a2e79abd969f90a65b0aca998e29e,7ac884b219403becdf2a498a2aff51b28780c0a4,4befea8188f56082e0427de4d8292ebea91c2470,534b9cab13948d9a426df85b0be9fdb3ce1071b5,f7eb936334b00540a405c072393c90bc32d4036c,d1d89fa8b8e3ad3ad7baad1081962450eb8ac018,f87a25ad3f712b0a894d844517590fab0564f878,be7082a00eeb4909e67914718ab714797d502f9d,9647d2f049f854a11658e0aec04ff01c1379371e,4feeb9ec9df05e4c05578bb47fd4674df49cae63,3a46aee08e1a769a6cca015aad7eb36c3839e694,be5c383d91282f103142e23417ce2c317eaa5f06,b0a4dacba44d93a96aa23a59e04fb091bdceff48,01d5b540700cd7be18d641dc263549395cc2a29b,c5fda4592895375a97d338edaac38078cff45d9e,e6a41b95f8c2e818e62cc17f7fee8d24cecccec3,b2cb5d8300b92ca295bcc24d3a13ee4bc7cdffd7,85611a698ff263412bc189c322f60d8fda11738c,ca14e9640a9fa6a751652ebb7e635fa5ff40a225,06c404ae5707a8fac1547d534f6874acf94fcf2b,c145883e79dc390021d908aa6a3089e12dc2c581,61ba98e1419d6c11be6064728ca78b7a0c9ba088,6785d7d5dd6377274bf59f13eb3fe1aeaeccd456,0c1f6ef6f3017565a3386ec40bba999e6703c427,35c825216d71a8f2adbc4eab3528f7925e6864d7,c580809ef00f3388bae6efe7dce9cb04ef25d90b,c5d6fa34969871a6d87366048bc5484742cb0d1b,8f674b0f55b30a54e80882cd522e321705ffc7b6,cf5ce6244c794231371bce713bece84d12d3b4d3,2594954871b5ffe802e607e3bc4e2743078851ea,f766f21da78a981593e73763ad3d11fae04ff8c5,da3b88cea291b6f890424647b9007475a2ccb9ab,f78e5dae991d9372b942ca6703dabc8d1924716c,172ee6d24ff27443ce6e97c8d9fc770c5f42938f,c28014d9557abab9792d2f426b89126fc3676eb4,09573ed955a4e5ca270a4762705929a7ae5433d5,871b076af8ebbbba1ef95068b783d386a27c1594,489033686f53ba13588f8be7dd809e589671d41c,1ce06b69e2bea5a512d3e5487607f9c6cf6e39e4,a78d171183d30bc1651e7d5876a9059071f75ad8,3b1612dcf35feaa5e04128e6b8cc6c28f12c2243,9cee4e4f7a05fd19fb8537d40b222376439991af,ad160f7fa9d432a8bb5bec6a90ca192acfcd8da8,c91d1726919ef2321ad43723cb15e9ae51602d1a,8a2f9a59cab4475372e66394e1594be9c561c267,884c3382f14acbd5e906a376aad48ec719566b0b,c22ad38568e56cbc55d3c2f85b41484e8bb47968,588a2037b25578bde2234fe826fed4ed4ae0e7c0,cee2db66bd98b19c288d5c4068586f20ca6c71ea,d0a6b2722c89099d1dbb33ddad46406e0c1a401d,cfc41a54f32627248d63415db33fc860d4d1385e,31867490e7b5e651d9d5aa5f3d4bbd322b3c6915\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//mercurius-js/mercurius"
+    }
+}

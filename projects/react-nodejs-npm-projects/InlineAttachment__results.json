@@ -1,0 +1,28 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: grunt"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "2ed49222fa6d34fe6e9bbf7a3ac41a0f297d2352,3aeb84a42976e88eaa030ed94f1cfd11b018b134,89f91c28a1dd8f475b363f87bb97fc1a84ae6fff,e4a2fc24f3e7a3a3f0430aecd0c858b3942e3a6e,e7b84de941f1ee14cbfc9b0db375f1f3f24c84c5,382a375e6a62e8b4ba633c94fa4df1217b1a9c62,ea869ee5507b24918d3c011022154769e1818fa8,9a73f3b6191a82d4058e1f5e498edabac31885e8,929949dab203108afcef3f6aa102bc59c6e1f088,6269e8a4194afe1547faa1cb1b5eb6f1f67306b7,72d026b161a1bd889039cac162bf04a6abf0d0f4,81c48ac8222b4945dac287190f2fded0b1f8932f\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//Rovak/InlineAttachment"
+    }
+}

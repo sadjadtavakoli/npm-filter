@@ -1,0 +1,26 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "8cbcba6351fdf1ce6e74f0b419c33b1c23935972,05ead60201178297ce3a4f7f7ead97f9c874399b,a633c67b2789feb2317721a4516e680f664da6cd\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/hectahertz/react-native-typography"
+    }
+}

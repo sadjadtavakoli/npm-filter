@@ -1,0 +1,48 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "num_passing": 55,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "test-ci": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test-cov": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "645fa952d1c8f7b0fdea871c9664f22fa6acd08a,d90d7c40a946077b8932c66a877a039262c8bdff,bc5bafbdb4818ff38fc60b49b59cfb279fd632c8,f06c39d96275621f6b2b5e426b788bf872ff9d02,f2296dff38c4ec5da7a6593031dbbaae53e1f4d1,2148baa6533c27c8d3328719f6753814938d0c55,14258e5c7302b92a47c0296e1e717529f6ab1598,07fabc525ddd72a6b9d9dc60073f04a7121e2e04,38f0a529fd0f5c042a6a74c9e1bedb7072578288,8fa1880aec85c0d32b06defed2c0afc3acd9faab,34e72978ce9cfccc045e3873d3c1e1cb6aa903ef,142f538e79da159d89efb6821ee240670d6389d1,513aba15c2f9b482042453f358bfa8c0cbb7bb80,dca4f0b10eca6abd22a199a86eb5b689893278c5,4523092464124db614894800b15584e966f72e4a,174d0da2c2ea3426e8c27a3b19ce12d79eb03e74,bc39bfbb6079925d9b2a99587e6eb2c16414a736,3eed458f73d104abd668a296bc29a6fc86788c41,be220bbb76a4bea1f5da111f78316da905901cfb,8afb4f580909b6859090bac7d0e9317ba63579bd,459c465bad29b57282132a6b1633ca5f7beacb20,808e06c309bb40018b88020f5520c392c64cb5f4,20fc23ff295bfc290f6fe8762d876606669e576b,2bbcb0f8e3b76e5a1dec3c26a35c6e937fb5c51a,72aa79b9b6c36cdcb9c02ff5d64107c15d3e9dc6,a09e777c7fe071e7b5031615efcf5587ca4ac890,e81f96c65820c199b974db2b9617e0e35d89af00,d7dbc455e2e8797beb9b4abcd71bff4276695cd8,d7cfc2528b4669899805fd4987b689b2c5e05ff3,9beddb602f8b68c049984f8e99fead49fa6375c6,149353f2faf0fc99aa1b0cc3dee318ebc31b7d24,4800b7f8283047c1bc86fcba9c4a379ef7efd1fd,ed4e2972cd5a80baa9c758b59800f5a912c04959,720f4a319426f606396ed00e69df4a24edc1d93c,99c135425f96d35fd305c96b346ad8b155fa44b6,30e715ad10cb49a433ffabaaa7ce033a78cd5093,74291793208258608009bed522d970286fa5562c,0358f0eaea9c10367366c4a458bf6297d5340a6d,10c57f0d3da5842ad5c40b2174117ec6d05cf8df,b692ca2de5561aab1b30bee64a25b627b527ba81,792503a3b29a206e8529a97047be0d3cd709a0f0,588963dd50dde86b25fa008e7e6ce6a34dacbbd2,84a26a14585c469992a4e091f8b13e933dda367b\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//pillarjs/multiparty"
+    }
+}

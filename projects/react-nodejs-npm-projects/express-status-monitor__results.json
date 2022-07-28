@@ -1,0 +1,34 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test-ci": {
+            "num_passing": 24,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "eslint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "db8f97491644247622084e64d6b046b209628d11,9588d4be39503b5a5aa3fb5a404593a20379ea8f,cd0108968c9afd6e521c690abeddf0d59e0036c5,b4bfdb215009c2eda7822ca7f2e6b563098e3fc2,c402c971ba977dec0704da1d76e15a485e6ba4b8,fa3ddc1ff33a2e8b3c894c1ba7a5e7c50bda2464,ce67cc1446d6e5b39063b4186cfd50a46428d8c2,51212f5d219758fc3e1ec98da726248f9fa4f32b,fa55b2c5abe19c9f12dcdfe30946581cbaaf0ff6,0925989820b5b8752d51c14eff683abc9ddf387f,571542d8d6544de200273a48e0bbd7a5614a0136,3853bd76776eabac568aeac8a33e6b5149164ced,b1d75a9c7568f8508943b0ae912d5586c346d541,bc5e098dce099650ea26a5d74740443edc99f3d6,1f2b9b0275063989642a3474a15601438da51a62,a2002c170ffab68c430e5024f217d4cbd6ce090f,ef6a26f8865e424d4b2744a7f9ab23c38547ab25,ed1137140233e37b8e4539d1577e0d9749c944fd,13edacac78826adc3ec674691204515044db12ce,440b8fe5fd95321340c9ac1f1190973fccc4d3ae,b36685112c1cb476da877ce4ebc8fb7ea2989ade,8e2b695cd5c800fe3d0de18a40a9c0c11ea69318,21406af028d484f4c1b0fa4e225f2b820a307283,7fe7544bff3047cbe5095d5d298f8a0841a0fc21,45a0c0eb906c30cd3c9a8f82e979f3b0a4dec489,6f253a435edb2bfe636252c0d0d96c3826807b29,677694cc8bea1d21d6d525e2a69a9ed937069375,13920c2df50c35e9d74f32570bb14abb41dad6f0,34a55f179287e908179f35c17742c4dccecb00f3,5060ab2c12ae0482d52459bccd5f81d487efeeef,32bf0099e7f5ccc8709e35c4b39e54ef1ac91f8d,0cd14b59abaeeaea8ed5893e43177f5baa6ff27a\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//RafalWilinski/express-status-monitor"
+    }
+}

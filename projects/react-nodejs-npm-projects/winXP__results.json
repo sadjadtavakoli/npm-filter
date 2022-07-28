@@ -1,0 +1,34 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "now-build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "4560f2894a189d95521a26377219117050972baa,ea75bb422ec3c706c27655f5fd8e231ab7009c79,5cd4bd3e35e0f74c5ed5fd93cbe41f72044d914a,f5793bb174173d90b4186f8aa6de74fad6c6d89a,39787a59ec844d1c72c74d36198395603725e013\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/ShizukuIchi/winXP"
+    }
+}

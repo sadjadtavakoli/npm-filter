@@ -1,0 +1,46 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "test_linters": [
+                "standard -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "coverage": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test-browsers": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test-browsers-local": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "4b3571626dd711a38bd597bd16d4cd043f2d1e8e,5d304f5f3eb6ef35e37ddc1054f8085cfe30949c,826e9fbd26eca0cf4cb877f9b5414a65a3708c8e,187711c96cc63475dace8f97e089c74898e2b76a,7f140584409d0b7e2bab7b97a7752028741084b3,4f457b32fef283b625fb212c393e1a86f1b09b4e,990ccb6aa7b0f12276ce2b5f461e76c8f1f9b64b,2e06ba03a0981820fd76c563a6d622467e9a9e69,277caf29b627780f9dccb6018a3ec621b793a914,bfdbd433f31d6c272e289f4241d81749acfaf08d,2a13b895a111576ac312b7840456c784bcf30b1d,fd96244c83c39ae5e5c0e01c807921d7ed697392,1e1650875e82d239f2dac28e7842b73fecc3ae88,24effd6a804ecfdd9d54a21a924c9e74ad2006d0,c16dabfa9f3f5f49b1bf2452caa550c5c1356139,4785517d77377a7b3daeed530c6f6245a87beeff,6e925e6fc21715f025fadc3e3a516859fe104ebc\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//Level/levelup"
+    }
+}

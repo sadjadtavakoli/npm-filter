@@ -1,0 +1,38 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "lint": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "fix:lint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "coverage": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "3bee69eca872195857aa3ed8809b83336851a295,db10daecac7a662fd235e2fb870b2cca2ae2ffa0,3184d17f81e5544a3d7b93d2ebb05024e669dd43,96e997c33afa5bb801f01c748cc8244e0b4fc6c1,be3821a414493fa3868f23aefded8749f1d04fe4,ee10299014aceab5dac2d2edd655cf4cda24373d,02da19a0e0b2403a7d08aaa58e598c7e0a9a6276,0f5664cd1c2b963d2ef514766537ca8ae81a3c18,10e82a96d6e434331f075950dacf20f3309e98ee,08f05494be4539ba5cc7430b0c74b6922386c935,ba3d8f61f5ed948ec3229ad4ba232067766ffbb8,6736622bd302724503ca8bbe2c88955985b95228,e558b0600b448a5dd8418438797c13030c02817c,5a94baaff103584d0a9f4f4adc2d0a4e2477ff9b,fc40e8f78d2dce41d2e1e378eed4b308e3e3ac49,86cb0e7bf9f7e705e308563d799abf6a9251c99b,005eeade2b24a7c99fb72bf434ff15033f4d5f0d,0b0decc91b4b1102da243faed8e53a096f61f47d,bda9b240b62869f303a8b58cdc467487250d8e6f,b097903be5a714938f8f0ecb4978aecfa0485b48,76401707b90f826586ec56ca22522c7c84231732,c522579b10729995fd0543c157f862b7cb11bc8e,83e67773eaca92f77f34e234d917366b21a9dd54,8a90d5810f436847c9133bf3c95f3e42ab5778ab,703059eef5dbea3e6e1994bf5b26373f4bf01a8b,40922ab0e96d008f624b8931d69d788182c47add,eb7d75d5ed02f6d9405e82f26e704853430f541d,3dda6cefa87b17358415236c3dfe9c4e25d0c498,2707e2597ca7243b930c3c9c979e0f60bf88f863,1669935e41b6730aa298c38081e65f471738ce01\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//coderaiser/redrun"
+    }
+}

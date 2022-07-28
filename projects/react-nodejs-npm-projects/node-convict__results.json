@@ -1,0 +1,71 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "num_passing": 138,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "posttest": {
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "pretest:ci": {
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:ci": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test:coverage"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:coverage": {
+            "num_passing": 138,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:fix": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "342fab6379db9c0020ba391ffbec592e982e0e8a,289ff74eda306fe2992d0cca148e1e4c9dd25059,4a5c90e12b8a9d397a1c6ba305f3fc2178396afc,291cb0191d273217c2a963393f46f46dc122e218,4114ce117122f9ed251d3ca8a3f83c8491ab4fb4,54c898e107aa049b007dd7e2c7134140c8bf0e1a,61e8502e6c7cb0055dd691510e0f7a4b8ee8b661,c90e7e991040364842a62811cbe4a6787993ad16,61e8b9b5b6c89ea905fe8cd962492342ea2b1100,b0f40c85c2cab248768a06a571e632f0678619fd,131f95973497edf8fe211df81d9d9b035e8feb92,17788058cc8c15336ec927dc2dc8616b3f3dd0f2,f4c4c5a8eb05f9044287c503f066acd7dfc5ba40,23e0caa751af0f85f2d153750f81c9654cc18585,94ab37aaf221cea86fe4ce353bad5d3010b1ce69,fa07b2a3f0329b9c962f894959c1059cd5b37a4c,6b86a41554daac5b577b7f826008c02cc71969f3,e7b0cf56f182bdf722ca31bb579502364a749b25,2af102332a278fd5b2bd58da098efd77f829ecde,4e4c6ce2fba4caba2290298d2ce4ddb1cc92d397,aeaa00152c3abb3f15d93d0706186986aab8b35f,29ed4065b3ff5df3ef4f45f00e2345d6d285a860,615e8247a52e661f981037ef1e854bdaca7ac960,3ab182749084d63c25c4fc1a3d9f51fdc933942b,c5ca3002f739260be818b493c15a88177fa2861f,ac29d167ef01894da836acabf9ba7ca50d289948,4fc9d2db37f459b4e5c8f7138009bce35403d7ea,c4ef7bc87cc042bf980f1eee3a1283bd039914dd,480ab1380ae56179f3318a5750761d1a60a98661,c1086b5b4095a89b0cd890072b1bbba7ad2fc921,1bd4b5a50b325527bdbbbc7564c5a93c24c92be6,d3449f332ff8223cbde352a8fe993c76fc0ee89f,8a6de4fb7ba30c87b037f3ea9c16470d3a1f82e0,61ba2dcef4b5dfe25c655d2327803fb7234840ef,1b7a110c56a5e13a2134784bda2267d5f672a9f3,2859dd0ff40e436c8c30a7bd895ba557fa122001,12a8370228826d4a52ef32b32b59f862c8034779,5a0cc7e7bdbee3e392b6e773f8bce43a8292fb30,70d652aabcffd8d8dd03da67be126c355a94bf5f,7fbf8a258c8a17c42a2eb1169d5e27118f6d2898,5d3855bf5f44389b8b364d5d60b4f39803c40f6c,2a961de4e8d654b0c2dd4f9468c3e9ba2ad2b2b9,a03592a720f1423a5c25a0b6c4e2fafedf854e34,0184e776abc92354e82a8143b8b671d868479aae,48fe9911adad74362179b2f95421c7d49b0e1d5a,f3c1ed87e14bf1d4bfe2a0df46f3570a176fc525,553537910c1708d738a36a3a53c570adf7efe1ba,d27da0a25d6458f7bba1a2bb627790009e8f5589,d24f5e7a077bdc08942e8e544ce6d80aa3e6ed03,b0c4c1e8ae89602c12a4d0710e0e0fa79b15aa7b,7259eb7b492f4bb9a124115be508db85f253e1f3,e4ddd3019199586a2e769dceeb2822b02e0b04c0,b7ace0540789cacc3af38fce485d51c69521c74f,6b73a3c09fc1d3b15f94e422acaa824a436da687,c4f1aded262f68e0c2492893da8dc539f05a491e,2d20ace6fbbfe8395e3e46cfa6bd4af7ade62b58,914ddd5f8fe4d45459362ebb61eb4d1917fb2c50,555e829ff13b02532257e2a0564281f3a3508cbc,61e0ca3778bfe6784973c7597f7d0108fdf452e1,2004a82b8713782118c3372f6596c21ad4cf3023,efe34bdc20ebea3a346cdc7ef6125f2bb3b7dc67,e4ac45cb856056fd8440ce0eb8c9c874bced69b5,5e3c27c4e2dfc6769e961838682c4bc661353ddd,5713684738207f8849310bee28d935e98e2643f1,555c37faaf859647aaeaa777ca45e6702f42933a,28d63f64278f8f070a4f071bb9b1d16158f099d1,2991ba51d7553c7c2da5ebda6c48cec4e3c4e2b2,0f6abca99e3869b31360a2439522e44b85441a4e,7afc1b333c6421004a579dfdba2881211a2b6e48\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//mozilla/node-convict"
+    }
+}

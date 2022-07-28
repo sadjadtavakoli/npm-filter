@@ -1,0 +1,34 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "compile"
+        ],
+        "ERROR": true
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "prettier -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "packmactest": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "21b59dd8e06936ce32ee26cff24dcda49d5ceff9,28a9f09777d74b151f7347ea5babe2b8e7715a9a,72edbf77202fedf302055157555fe07429769b26,38384945c676f740f46dd3e64a3d87f5a29c80d9,25ac35e0db9a3069ed4b14e4faab89d26d31916f,43df77717d9033641a050c49c43aeb25e9734261,5023b729eef1a71becc0f757569e55e1f85d7a6d,120f0eded532f7e60dd1a2bf50a931133e78b889,a79ea0bfb17959c1774fe91d94be53170b085fe1,21f77cd3a2df32d8ae64c251dd69e77d8eeef477,2787f0c7f74534c9982573fae1ac379fdda319a9,dd43b568e4fd1f62548b7437322338841af2c4ff,1afbf381c6b2a49651f1371ebf7635b402320752,87e24bc35ab9322ef29d67793b3f1968e1b768aa,244d96f2e91e0751e7f19b95df38d2dd981dd465,60f71e727445e8668ae24813a21cae9bb628e33d,dba10ce966852d082a3ee774618afebab6abecba,aa171b57e062c42ba1cadcc9e3239b5d0db926ef,76ebf490158fdecb89a7f690df15cd3b1fdd0e1f,072b1c4d5e3c9a859c55d26de114e3f8bae7687d,b86a5aba9bf864be22b0eb18cd4166fdc1dd0ac0,9d4ede5fb8c39db2c162f0c0d845aa32c367cc50,d33fb0d9fb0b7580be9faa3c3e777288ae427ba8,805c7a9c93e45cebb07ac330ee3bc867928f08c3,5cda0d06a15fb868420d28dd1e12e621c54f72fb,dc2078f86dc6333c12f09fd5cce946671ff3ddb2,3cc0edd7a605faa7f25e4540c09e26890c761ea4,a061b65bdc7b87de291da91689079aed2dc0aa06,d954d71b645d3f266c897dd87dd256cc78398eed,9e0cf887db9e7e863b4a1678b4b7df7003f51018,d19b95d0d7c9b52dbd6d646338e38e156cf7e793,30918082e2f144468ccd09c25c9805a335c47ae7,54dd20f052f204a7eeb28e5a4830275964a60927\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/szTheory/exifcleaner"
+    }
+}

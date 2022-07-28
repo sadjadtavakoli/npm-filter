@@ -1,0 +1,37 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [],
+        "ERROR": true
+    },
+    "testing": {
+        "lint": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "80a54d7a9db673bd00a555046ab348ef65918f09,450931e8909375d937e4f03b8d3ed5a820143b44,73c719f0c42416a44861f2f00940e1e210172d40,e8568c140bc541750e381ac4535a95eb6cfdf344,9ebd7e2ae4aea30b6eb3ee654b24cd25a60de636,bf9b9577db2b5a4af5d9651b6eb19eabfc1fc639,9aa2dc799114f56b66aae742dc85f6602ab7d4c2,56d7d033eb17bb4fc57cbd04d63242f15e3e44cb,7944aa06f1e6059c691a75a3c6d12ce9d6cdefaa,ee697aab035bb66797b30ad3b765cc1aae0468ae,24c2eca1ce7d10f14c9a8a8038af92e941a0ffef,0d2e53d98b8559f2881626a762544d3fa9cb4823,0f766d90e989da4cb7b85482c727aca80f1971bd,ceacf13fef21a68b26842f52eecbc1bfff20a456,e18f569e6de3fea02a3e5a85b8e5f41f9939ad2a,7d16b80cfe13dc4fce4d5c1b3d94f425502d9055,a5869978bcf67c8eb6a8ab120c7d7d4efe63e78c,36f76cd0d4ebad0af9b0b38be9e465fa6177da71,1522ae55eda4abbf72e145d1265bb01302767766,d874c31d8b4a152c310e0b729785218fd6349f1b,63a816fc2f96b40825acbb9faa22ebe86f799219,0574a477f2aac2b0fd41a5711a416d145d83e10d,f68faa9b9c6ed5ebca618983347dde0fae13c1da,212cf989592e42a22fde8cb6d2500d0d9b49aa6a,cfc2f310fba0e05fbce715ca1f8a19d035c53f74,33e7b3f176ba3bb67952ba1da61b561bc1930b18,4c5df90326f8d1a19341ababecd0c6afb9222bd1,05a5a98c4ad4041c9f1ac004979ce1c04fd58eb5,49a121a7af39a0e32c0b2cc7c0918bb5f18b22a4,b4d5567598dacf979c65b5856063f05f71474737,f054285bf7f0d132b7ed5ab97bceddddb393fda5,91d3eab54fe3a1d0a84505033859dc9c8f9b0ea7,2a952393102ed4d5d29a5293bcc77069e868ab8e,e4239fb8439b22b3393f83d63ea823ce70ff52da,9443e0d35ab07022e183e0aae1907309c3a8f43a,ebba1b7e295128e18ff73df089f71b44fa5b300e,2e9225f3ebfaeb18254a5a42446a1133ffdbdf06,42fb36a8bbc659ade2314ad2bd7bf660218feb65,78f74ab1ccdb4f51827577c4eaf6ad9ce22c213c,016bba6a45e0a4b837da65505526e7ef196c27df,213e993ca0c1309be0784a45230802388f445e74,af950c1b7358a75bd60d1364715c3696ac803de6,47f2b3bf931180b42923dffa403e61e433890247,b5ec02016823c31705df4aabd0e416240b984cb3,0756c5fa7654bc8eea61e629ce077782377a2e9a,176617b237c78eaf99b7974c7d0da8fe4c8bdb22,03081e97dca5f45dfe5e1a0776f02ac6b2e5458f,1bd47d13db95d4e57d9a22c4b89fd1b76571418d,4e812c77760d71e14955f409b9e7e35a5356f8d9,da6e8fe489783aecd0904a78a21560b036490a4d,aa59616e26d14e997d6b3f383b15a11722a79c81,6e2a01b6eb8895de96e31676b30d79de751abbd9,acabd30cee21b93084a1b2c05b3c2651635ccb9f,3739817b865a217552db86117cd5334cc214b8bc,e381f56a85b59cc28865a1f84630b59dd10002e4,f96672106f2502b8ae3ea70bad548b4c5b81c15f\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/clintonwoo/hackernews-react-graphql"
+    }
+}

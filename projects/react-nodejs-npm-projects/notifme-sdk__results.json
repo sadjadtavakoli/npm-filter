@@ -1,0 +1,48 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build-dot-flow"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "standard -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint-fix": {
+            "test_linters": [
+                "standard -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "testonly": {
+            "num_passing": 121,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "4f6867e459ad5783905c56a004fdad292ca5b7c9,89dc5d59a3c6ed140d337c2f28093fb2b229b32c,85a1ae69341c0597147addd1e4c24336571ad04c,5445664e2bdb2a669468192a225f14dd7cb0973e,73b0d6b045569f39eb46fc1a69751233520ea875,ad0fd15af39b6ca4b56eec88a1e6529833af942e,07e952b6a8301621d569cf166e1d7b7716f308f1,c2cf4c758060cf0bb3d459499ff7e50f15b68ea1,53be11ede6a4f06ba795ebc9bb3be3529f3aad07,d6e11a6e7831113172c97b0cdafa792fda6ff276,ca4754c14320aa21494f7d0002538565a2a9f386,8bb75c578d1f7bf5eeb26a164e5c01a9a9773711,8eeb5b3750a0f3e4c7bd1dc70fdee9398d9900a0,5702ba0177f5246248a3460fd8c1430c9224afb3,74fe864804b8898583d7def1da64e7584fbc0c9c,5413b5f9b673d2a665ebca4b9545fe61ecb0e8ac,bfb26f661e464cd3d8ac147b08b0fe4a32b802e0,ae43f940732505413b6bd8b8817ec2eb53c15071,3ebdb8e59acd09070cd5428e2a9edf6cfb12ec52,0602ab6dc7cebeb83d975b4ffe1afc3e9ac36591,fcf6bfec8a9e1bd60e25c1c22e90489853561fd8,895f50dd4c3b67b6a2dab6a0cb099f559cde0754,8b0f6a9e250d39ab0ada4a7872a9d3353aac5207,12729dd5aac7a24777a75f92d476d1b2d00ca9d4,9f6b4d9aabae62b1ffcbee3ac0a0423aee093fc6,a279f616de05d3190be4e45f97eef048a657ad6c,5235d2fe95ce03df578f1b67d7f124f80eebf913,342e948414c97ef65d4de74ccb4d32a0bde2d6e9,557a56da7f333c60fa41703851a9cdcc1a209298,5b5f91d7c775c4b88de98ad620149b48b948673a,53e2469e6f5d66eb098911f15ebbf8a3983a2e24,a3980c5983d0221aff8ecf5a9b882f536b1a74c1,77da5bab6f709bdb5fff678b0f5de8c167b4afb0,0c3d99aa77c79c6576c82f8c003682fef995865d,eb928b0f2cc744db893de9555d3b7cfa61c3f8c8,a443e67db53ba2018bb02249bbc2ae945cf8c08e,d669921923ee839e8f7cb78b9f071ca31077ce33,4da8f0452fe7b02fc9180686ecd2b2795650b686,67ea41be90afebf8443b685971bda06764c6c082,bfce892319517f608022982dfe7b6d4aa2b979a8,69a8ab87a5dea78f9b87e9c7ad06f6d3bc681aa7,53188efc3c788859155d2840f8d655cef08f7f62,6fca2d21f09a039af526b2577d85d7b6a3bc4670,4dd814c3f878dc3fb213d2e328f280b7587b4a4e,a985f07f0a0afce46110e76a9386c50070b11453,0ecdba3e8ccffc39bab227e6b06bd96fda5c3312,52c19dd90ada22552b4a5633b757ef6750c1ff57,8f760bbb25f8507cdf7f2ac16973138afb5dc178\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//notifme/notifme-sdk"
+    }
+}

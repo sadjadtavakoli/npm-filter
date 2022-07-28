@@ -1,0 +1,24 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build-bundle",
+            "build-bundle-minify",
+            "build-html",
+            "build-json"
+        ]
+    },
+    "testing": {},
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "c6019994ba496549a14b1013db7f8f926add9541,9e77e8f194381954420ea0784fb3da052943cb50,cecd6d9ada50c8912070c815917f02a4f5d4740a,113d59c411093cdf1f92c7f7bf475a955492b077,bc3eca8a775eab172b26e262de7af758be155bb0\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//webkul/vivid"
+    }
+}

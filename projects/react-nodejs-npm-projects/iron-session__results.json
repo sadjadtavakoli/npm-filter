@@ -1,0 +1,44 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build:clean",
+            "build:express",
+            "build:next",
+            "build:src"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "num_passing": 32,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "nested_test_commands": [
+                "lint"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "0ecc4711f02516b5ba786af78e533530d3fc3a6d,cfa5c808bbe7d6ef6b88daa603d8aca7af7ae830,3f506f796cfef8c1a1f1199e044c2a0d0e653cdd,367a3a67ad2a5d2ed71bb09f9b5ae2ac2ae95d53,6526d8fecf0e9752825366ab9087b414002ab125,f0442225fa14913da4f356265de22da90d991d5f,87e3c4e49361492bc5949986d68dde70a9a382cb,5b7c3d1714014bb44972aa453e72275e64175dd7,39218c15308b1ba061fca2599979a08656f001ab,b621c8fe8aaf8a7005c91069046b311e3d1a3aaf,caf41e766094fdb96081f5c65c9e9c337d22f7bf,fddfbf888c3f4d7699b45fd93b150b66024e403e,3c5b506bae196fcd1776f4305180b3fd4e7fc3d4,1797edb8db068275d61489607e9b296182d45961,72039cc1b09a17aa3612d7db6718b9bfce93da85,3d4e8bfb0aaf23390efe665057c29e6133eea676,26e0be96ce41fdefc0defdaef73391584a89d37f\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//vvo/iron-session"
+    }
+}

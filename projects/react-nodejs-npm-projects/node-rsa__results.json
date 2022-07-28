@@ -1,0 +1,27 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "num_passing": 420,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: grunt"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "a18361054176bb6cfdec709b11103cff676bcda0,fb8f507ca7f2634bbf29c3d5589b776927e9d738,5e4806cc17fad5053d386c3786980248a4744745,9bd9942b06b0bbc205736366a31bf09a2556cfcb\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//rzcoder/node-rsa"
+    }
+}

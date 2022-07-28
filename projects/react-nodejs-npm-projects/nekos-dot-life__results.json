@@ -1,0 +1,24 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "b8d08597091fb98b5a8c317a0d9fa249ac0d6972,4bdc46435bc0a9ea14e47f3ba1b588d1f875491d,71954b7bd0263e789f2adc1ac2b0ae7775f3a723,48d27dedac8d1f52eff077ec134aeb9cadf33884,2f4869bcc3a9867c020a0372fcb51edfc0534648,2cd608a10b9d30c1336b6f8151bf56b7c4ba6a12,43e3a8e013b0062e5d42894915e9ed3e3f037bdf,1a14510c1948beab882836b1b0df4bd4b3722d1f,fcb49d067be6eb1090a7d0bbd030bcb587ac728b,909282bb425949cf141deaa6d74738421914f6b5,4c5c72dfa7795b635a90cab8c628785618673d3a,9e6cf7f5af385da62083e581991a62aa091c3e14,5c8fb7170b9a5e7c1c02df84e81ce12fb5b8fbb1\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//Nekos-life/nekos-dot-life"
+    }
+}

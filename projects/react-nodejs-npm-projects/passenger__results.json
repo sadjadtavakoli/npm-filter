@@ -1,0 +1,23 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "98d31cbcfdda7cb880c2e7c4ced4f9cf02399708,4a712f13c630b15d415b9e4db35b0d46d302d971,653fb4c29b95db8da57380120df3969a45c777cc,e8771e8e172569605f3b51060efc817fc61311af,95fd4ea3362facf8b5ec489934c33318898261d6,dfe4bfccfee769edf89a78c27fc6cfd86ec52212,d0b569494cba77c6afb87ed4f82a710193991ca5,15d77bded7d39fab19b5fb33880d62a7c70c6b19,5acc10e0d4e8ffcb95bf5d74b85a25584e0389f3,f7f454cf339f5fd1c5555d768f88c2ad22fb2427,12ed493ee8c8880d7720b7ed00428cfb2b24054c,418e61c3bb8c62a0ea844fcd0080e450204d1a14,bca3a2523396ee12b0475961da1b41795405613b,6e13c208aed80e0c71d6c7e8604feb6baafe92ee,f67c8f9da75c934b05c0daace82e6ece871b7a6b,61026e3b898764337ca30284eccd0efe0da4466a,42da7640415566f568d1446a3be0401621af3ba6,b14f54dbb5a199aaf2f2233b2fc4b82d08533f9e,8bef0dc441e1de8653dc5d003170f2563b5becab,dc3820eedd2d856e74d0d6978c18fafa8e2b7537,85455f3d527411186c12824f7ee3ab13a12864ca,922bd4d5bc85af3bb30dcbe82b3f3cea2b7989dc,544ff92f678f7bf6ebb0134647ab36cd7d3f60de,1579332f7b2c3ef0d9b5837d1f450a2c0b6bef24,a52b5cb2d03b794c75f06ca4b2561e2e58d8637d,cef37a932d434a588c0446ea6ee6e0b7ef23ce89,7e3c524267bc36c6682a564bde9608838ec44869,3795b6188bf8164a0a843f19e90c65c1f38e07cc,b11268bd64d07849471d5319dbbc752a33e5b864,b75a701e815a336e06211e751f7f6ed2decd5785,caee9197ddd4238eca3932782925f2bb702d805d,5a067fb70a12a7d196041870bae8f9116570574c,d3fe176b5e23357be9d402f4ca0d7c0638ca8c80,0a8b7fa8a1761c32458004e80ac982061cc01519,f69050316520b6fad5d14e5cee2282c7726dcd5f,f62a3c30be424abe3e5035a6ba3d201d5cc2c9be,1ff42665110a27ce9cda3e4e39c63dbe985bd29e,f99018a9c9a598b680f439a4a9492de19b5061b8\nwarning: inexact rename detection was skipped due to too many files.\nwarning: you may want to set your diff.renameLimit variable to at least 986 and retry the command.\nwarning: inexact rename detection was skipped due to too many files.\nwarning: you may want to set your diff.renameLimit variable to at least 986 and retry the command.\nwarning: inexact rename detection was skipped due to too many files.\nwarning: you may want to set your diff.renameLimit variable to at least 577 and retry the command.\nwarning: inexact rename detection was skipped due to too many files.\nwarning: you may want to set your diff.renameLimit variable to at least 577 and retry the command.\nwarning: inexact rename detection was skipped due to too many files.\nwarning: you may want to set your diff.renameLimit variable to at least 4792 and retry the command.\nwarning: inexact rename detection was skipped due to too many files.\nwarning: you may want to set your diff.renameLimit variable to at least 4792 and retry the command.\nwarning: inexact rename detection was skipped due to too many files.\nwarning: you may want to set your diff.renameLimit variable to at least 1163 and retry the command.\nwarning: inexact rename detection was skipped due to too many files.\nwarning: you may want to set your diff.renameLimit variable to at least 1163 and retry the command.\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//phusion/passenger"
+    }
+}

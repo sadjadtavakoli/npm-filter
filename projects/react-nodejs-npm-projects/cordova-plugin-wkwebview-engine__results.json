@@ -1,0 +1,45 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "objc-tests",
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "objc-tests": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "preobjc-tests": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "8d08190f1e1662d8fcef041e1b30f536422a2907,73118f95e7e1a3bd8fc9ce3475cffea7153593d9,629a402d61db4742252cbd93a9b0bd4825a4c87f\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/apache/cordova-plugin-wkwebview-engine"
+    }
+}

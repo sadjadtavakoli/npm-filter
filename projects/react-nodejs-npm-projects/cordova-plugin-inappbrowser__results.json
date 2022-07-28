@@ -1,0 +1,33 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "2c547a1a1ef934b36fe2a910f79313967de49209,902427525f896ae80b11cc0061a9e2420a00662d,b024104a54e50cc404d156274012b7665c42f876,f326121590412532e8aee6d43e87825e86376153,461d9e9c4c14479af97e33f925388b1fc20eb838,57f942670c84412b61bc05dd67c5b505edb4b67d,4c8f58d87c008a7743b8222205735fa9f6b76ad4,e5d6d6f69aad5ebedb12af207986ace623daff75,71b43d39a43cc25a9f5e08a8bbdbb447a10237e3,51879d8e2f2a9b9209022774ada265164abdc620,8a6bc01814b6d7eb3f605ad47a45d33163153a66,e5840eef45492db3ca1ef167133125a0cfc5a7bb\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/apache/cordova-plugin-inappbrowser"
+    }
+}

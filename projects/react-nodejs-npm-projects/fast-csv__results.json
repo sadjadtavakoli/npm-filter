@@ -1,0 +1,76 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [],
+        "ERROR": true
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "lint",
+                "jest"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "lint:ts",
+                "lint:js"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:fix": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "lint:ts"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:ts": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:js": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "jest": {
+            "ERROR": true,
+            "num_passing": 41,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "benchmarks": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "fd29689a8c1e65648e00a765922b42d2e248ca09,4769d9efaf2f66ba2a8a2aea796b9f04ace4e0e3,2828d4b9780b1ca47d9e442d0808a942d3fd28c2,7ae15efc854faf48d19546b5f78a7fc4ee7e8734,78d9b160152ee399f31086cc6b5f66a7ca7f9e24,666800653811b54bd32c5afb59b9ef146ac7828e,a6096402da151429bc3bfdf061b798bb6043dbb9,7e7db430f393dba0654defbd67f3d51478d60fde,22e4fb724010fc344086040e1e6fb8ce61ca5a3a,3e99c53b9fffad4593ddf93366a4a44e1b37caff,0f78bc4986b1a6aa72846bfcf5fbac24ae21faca,5c9f055daf5efa1a7f76dca84ab29d2a949d2b4f,d9eaba6135ec1261aa4bf93bd3f6b6d54094731e,507cf2ca82ed96bc91fe57d2a0e30e2b4cde0813,e7271f36265d1d6014164b478a375c1716af6c53,867b98ec5bd557d98d32cd4b4516eee8b112a420,fd248b1e22790fc1f29789dcb1b81f90cfdc1009,06eab1b182df170d27fe5bc1e10e6a2577b3c5b4,28472e54e28888892314493aa5913b4b49f0ed52,34eb00a622e9997de4a26b839d85b08b206e1c81,b57e68bd41795c6096e61af6e52d2f1c5ee6a1ad,968bdbd0efc764a161f8750f3a8147715799a471,3510146bc92a679801bb3ad38f719de896283e6d,b43d85c414e7ec1815ec7e941ec0a3785dca3d77,507fe5198b65b124f4ff640180afc15f7718bfc9,85a1b020e9d0dedf53b81a586f59ddad6f828409,7a5c21024f1fc99626d3fd8db98c5379218d0baf,17ac47f9dfeb6b455668270aa99b7e1e3494b716,f0a0e85d41bf5f6521e9f7a708c496bbe497ebfd,ce52b46fab2d94b713aa59f5501029b0467d3e1b,a902e8abff57676f22476da7e8d67f45447ff916,2f96cd81228e0f854e3d3514ff48e4e35da09498,0f1919510bf38d5d7ea8f8ef96a894be5bab6890,d958dddd5e2c9d6658923146b61ea33e0f65e7b6,e697564fa37e4f3ccc5edfcde3c651a9fee2ea83,cfe22045bb66b196964b51899d546b6fb85837dd,18a4c3387593f37abdc5a90f36a408f5253f2082,64fb3554fd0185209ab649909113fa57d9710991,ca43ee5d454cc61e6358bf21f8dc017347824e46,f6de9acc618091a830d1b58a8cbc912081597d4e,f755691f027a63bcce610a35607f182dc53212af,2a177425e907809c10b12e91de4fa1823d16fc33,9ea316dbae74c4860e41eab42c3cd0a29aa4b1e8,12f21d15634e49f6d8a86f3d335d8138ad0c0242,7d230e8b118d2d01fe109fd0dbb5ae7c2b2b96dc,d007203f088477feeb55d3d660ebdc6b0741e836,b60acd21ea4c4c6be63a51c412207fe7bfcbea54,4401b0a6c251a7acb67e413489ecaa5a197c032e,ef3461e73739ac3f19c3e115336a1d0a205ae09c,ae67a7e244fb3fb017c1a0e51e9f42c294c91ef2,967453c729daaa069b2f7b3f591436bcea352077,dccd83d4385e14883c8b7591654c964d339926ba,b305b7c55647e749cf4e3a8b359ec4b9896e97a0,c74a304f1e88ffb0ceccaa022bafafc8ec35acb5,64a3b5575fb062fda846f877f72025b906eb0dbf\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//C2FO/fast-csv"
+    }
+}

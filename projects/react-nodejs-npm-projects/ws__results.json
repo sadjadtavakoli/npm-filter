@@ -1,0 +1,42 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "integration": {
+            "num_passing": 2,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter",
+                "prettier -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "0a8c7a9c4f5ae357b094fb586c90ee5db8793fcc,21e65004e0a0fc00f45bb428a8ec548f0a561cc0,78adf5f7737b10166c6f4903e6a5cdbbbb59934c,88d0345997ea14b262519c7d5b5baaf6f9d78035,aca385806934f5cf7d27ff8a3063619731f0c36c,379def63c8d51516b99344bd5a780281853a6808,b9fad73f53c786bffc831e4cc7740da83b82f23b,30eccee554f1b653239abc8a9de93dd1a1c44179,72cf8bee2dcdbdfdc523a5117fb0d82bcfb878bc,c84c880cbcbdcd9b6ca393f86f205dc2de33321f,ee74d29c09684a39836ed85effe4462cfc22cb83,fa6c5ea2305f3558bb5b8fa2e956b3b8f30ae33b,4e86df094211f4e55282e3b69a30e6c4b2c792c5,b060281c7e8ca9e8944593c8fde0b173418243ab\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//websockets/ws"
+    }
+}

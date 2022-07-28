@@ -1,0 +1,18 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {},
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "f9ee0ecd509e3a57ba14cad99cbb2ffd245d623b,9ba282a705c7a8f3d2dfbfb08d4c62720f600676,a60ed3883e98712714a0c89159fa338b8daf3a2c\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//Schniz/fnm"
+    }
+}

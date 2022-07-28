@@ -1,0 +1,47 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "num_passing": 6,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "test:cover": {
+            "num_passing": 6,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "67b3503660bd440886e7cbc9fe69a8b9ffeff5bb,357c5ae7179e42392af0a14daa3a5e9535fdef15,ec646c302dfcc95d9d1fad985fcba742311e099c,f5a78d42b96f27d4cf7baa2f3ccdf968163d0b72,99278c19ad95989c8a3b1dd478a1c8a8d16be91b,7c37209d5b8f9f8b9a98eac4195764d8b9519ebb,3a12c15a5baf550e45a910dbfe79e8e358fd65ac,86dddbed07a112a6efaf2e84f98ee7efb13145c1,0f512e6b7a0a83999490a07372401793198341ed,31ceeb87be6fa927d618b06e69210b4a21e87475,a538403a2229ae03c5c209f91f32c52a21351a87,a795f27dab39a32b6f7f96a002204ef0e61a9db2,4f176f144aade2c97703f0dca33eae50fc5d8617,e48f49a1feeee7af927312332247b006557271b9,fc7481a7640d38595b10ce8f6bf49dfa24fb8947,4c22f432a4da70fe4eaedeef689923b2a5859e88,d50f9a44b3e845d7171957d4417d58317c3683d4,4b09d26a226ab11dd95b6a5ef76a4557f61faa0a,8c6b8bb1663eb3cceca908e6de261cf887d41e94,20e68a22a8e5866e45af5ed9767c9d2dbcef5a86,493d37ca14a93dfaf7fa2ebe29d8e1975467c080,f13beef3898ea27fee971798b46444f0dea342c0,32eec97a28f0ac2b37388c4560c9d0009db684b0,db309d168050c9962122f7501faad4fa28a6cfb8,aef292a96d5254437996c7b13f48de989b79a9f4,7ed000d93af8d73cbcb25c491971e4e9d1f36aba,0c749d5eba50e2e07d2ccaa3a70061228a8dc469,77ef74be02a8c9c017b764710f9eddf22c33be0c,b590b7e5d217ac8ba913b5792b981025627fb5ba\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//sandoche/Darkmode.js"
+    }
+}

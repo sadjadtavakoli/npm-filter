@@ -1,0 +1,55 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test-typings": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "num_passing": 3,
+            "num_failing": 53,
+            "test_infras": [
+                "mocha"
+            ],
+            "nested_test_commands": [
+                "test-typings",
+                "lint"
+            ],
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "standard -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "coverage": {
+            "ERROR": true,
+            "num_passing": 3,
+            "num_failing": 54,
+            "test_infras": [
+                "mocha"
+            ],
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "ba3f67ff9004e827d0fc1f3c7e09baef1c1e6598,b8d8fdb54995e79e18a331176466d22cfe4c8537,9f645469e56f915e1e88b54aaa7453cb561cc9dc,7e844394cbfc2b58522705033df5ac30481f0808,60ba2477745e5cd589d1653d882b48973513f417,cf093f1268a4871034f0c99c885ea2ad7f970823,6cf5744efd6f5b9b2639c3f64b88f7781244a295,defa4aa3791c818d2f76d69a7c794f6f81043e98,25a666b224d9795bbff224c9e9d75fecb5fcc52b,d544422373ea8832493ade5e5c389ae2832f9380,b79949d360cdcb27611874e9a68130d8349b78b6,0f5a51802cdcd3ede06e3a4305d540517ec9d5e1,d04d473a7d6d035583480789a2d824bbec7f4ede,0f1c592c3f34603bb1c5c2d46f3db123c6640c87,658b4d77d4273d0a2e40e5eb7b7b6dd74a7ff09e,cde357647d2e5ab31fed84a8dffbf74f20cbcdea,1ff2ae9b54abdf3acb1aa1619ed51d48ce787361,cc498ca41e58595aa9e25577ad6fabe8f5de7d4d,84ec485ba7034c95a2babb0546583ec5531607a6,79224051762f3751e7452e127b4be4ad3a275f4a,c14ec04c3a2c6088b88402f109d288e227f4506a,8e822bacc9a4bf13b6834805ff2a20b19a67c0f5,531021c1200537657bd3ccf05e87b9a7d22133a8\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//godaddy/terminus"
+    }
+}

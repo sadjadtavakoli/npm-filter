@@ -1,0 +1,49 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [],
+        "ERROR": true
+    },
+    "testing": {
+        "test:lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:unit": {
+            "num_passing": 17,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "test:size": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:typings": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "ae5cc99268a8873b1ea3fd32e81585eb85e6e438,a7bd4e4b37e7e9c01b6739d49ab3518309cecda2,5f86793eb5d2e82997d890bb6fca5c1404f970d9,a36af96f7caeaacf56233ff6829bd6101e2ffadb,344f4fb5ffd0f123ec85a6e98f7eac20418418c4,6a7c857322434e669b4ac3a9e10b5c01def2d5b4,bff1bc918514e9a588bb538339c68887642a127d,69dfcee6b7c582e1dc7d7acff58fc8e25fc83513,f895766f012c0d3781d75b5f83adc6dbc8de0b03,b1e83db599e7f9b832c2fe1942b5e5f296730dd9,b64dfb0430bf5817a5f8b8708551934ad426921e,bfa08674fdc41c0d01a54c2491b997c36df90d98,45a50cc46196ce64088a463b6f3b384a6c98eb06,330fb1cf0913bdbacda5ef755fb58c79482e1ea2,eba8a2794bb802dacc395a450110af8765fea868,de501345e2cc4249eab4394cba515384b23c63d2,44f27fba870dba5d90abdfc33a6f6b2b04cfff36,fe6c00f05cdc3099a66a7ac0c05fb5e6f216209a,be37878a646cc3e45be2275c40ac9ef2af188a26,a723d736dead99bbb85db1db59ce7cbeffd3b4be,fe1eb2e96ea66f33f11dd335dee50b64cb2b19f2,5a19d68cc174990300d6426e38bfe194ff8e0472,4d763468502d0c23405e584633d272fc2bd9e91a,dbd0aae9b2b7279781683b34059194df2b1b1cce,6b9011f5c41a70c1a7d12e43bd8e4de8498ee7a4,7e0715f3d92ae73dbe6c1ef82d3397bbb11f4f44,55ce2e49c9422d58e13ba885ca2ad226518013ae,b8abf5b422fe4c12aebc9c2e04a2f3db5ad3fe12,45d8494ee8e842c9415c4121a1afddec8b58f039,338a6aa81b0d22a08757c9958bff289e47ea846f,5905d7e502722fe620177b74fbc97eccf03a00a1,83b96984945ceb959a3967f8f45c266f95d77596,7a7ba43a78ea6d12898907237bfa6cced4694ffc,779b9364590d06a7e41dd9004eb2f33d64f00e23,719619f3974b10049a0266f4b0e59217d38a173e,e72f026f362654ab67a634afcae0aac57e0f2f2d,4bc9ea71545d54e23e7239000eb531cac998f887,61485bf63b399ffd6d5bb3a8593e3ec994bd0a61,1a7e00aee9af4727d6bd952346ae4de14e3dc8ea,85bc734142211856d3b33068250b29a968bdf92d,3d13c3747b401c23d20737d0b2e4e13961d7487f,0e5a62b85516a346778444c66ba51fa408f4eb44,a99556ba60b78bfe1cec33b0eb1892a6507eec4b,f4dfc5115d88d9417eab234292fea0f384ef0407,edaa5dabee9a6f4f217df1e093141b353c9dc9b6,74f0433d6b690afc8be77de7b7ebd1a036f1848a,d6ac9ff8095c4a071a2c7e3f2eef8231d85961a5,ce9e10b989365c46884167ce3e0993bb35d421e3,35548946f4251cec07f8f0b5e7656e18f8bc489d,b94420d0b2c32087904aa23bc09ae12edb0b8b70,c1a1f2ff17570e01445e63f0e4c8e9d6231a4199,03d7709d28efae829c6d40589a4d4dfd4e4a6813,13517436541c5b543de6b1ca25fd722d6fdfaef4,e37ea5668ef050c41ee28df7ab573ea6a5362965,928d8dfcd385288b77f8266de9a51645ddf56963,3a3323f838d14623ce1d11a768f890b20dcd7ffd,9d2a8d8769e5f7732959a4ae3c97f2934b5276fe,3dfe3c8865f549846794b745a1719d9863fbd166,459504b79ba1917745c98861ba646185a22975b6,f36b478452eb032ccf88a708d97b4c3d486f29e7,0a649306b01c906846a6d6d0e3240d73b5ce3742,76ad2ff69810117a309fc0acfc087e2bce2fb203,055f9d610baceab796c612910b6480b3143daca8,0fbe500c6d08fe65e73efbead13ef190286be8c6,6bdf66fbb0930dc2074aa93932d86dd76a700888,0a032e3cbcccdc15de323616cd2b19d1a797f6e1,c51d4f21abd943e9d5e0c360e74455ba7d144c2b,1a132ac19032f48130dcf9b400e15933877beac4,4bd7d794abd496c4fb73e8de0582117f1d6fda9c,fdfec5481d1ad8acfbd31adb2e748b20d889d70d,7ac37ea1bb89d54cd3680c46be3ae0be683772f9,4f6bc11622e8bdff814f624ecbb0d26fd3513afe,823715cd8218023720f07af9371fa96f8a0a9abe,5ce60846ca827ec4a55592e2c2242ee4cee72afa,2a61976f85578d58b709b179a03f1740594330f1,428e58ec94d7722b9f557accac6fabb7eecbf755,a5d24b750a5a135abeb57d1f2b6283741fdbef09,d78f995273470e168d10a6b62c3195b22a6f5c33,0e4e6a75f8fc65c3ebb67b6b2340f308f69f32fd,092ca5e11e28e9411c194b58258a834fbdf01edb,8f57eb7b47dc6eb4ef83f182694823323b53a087,25a4559e8f8dc787989ccd782eef919515aa7efc,bf0fa1fa23ebdf422850124bf7a783fe3772d9af,394870617559cd21919dc21269b9f758143d93f5,c40da14e3b61525ed69ba4f5b5bddfb9af96a0f1\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/reactchartjs/react-chartjs-2"
+    }
+}

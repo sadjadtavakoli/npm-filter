@@ -1,0 +1,66 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build:client",
+            "build:server"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "lint:client",
+                "lint:server"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test:client",
+                "test:server"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:client": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:client": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:server": {
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:server": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "a300d9bbd3b4409ec1e3fd755e428bce3b75a7cc,2c83bb366822a85c340ccfe4a92be47031c4a3b8,c9752b42fd0f1c6a8ddecd7ee1bdcc44c5fe8f77,6a1d0c0debb54b83f27da8f09a288db48bd3efb4,8ea79c777ffebe1ff8bb313fa244bce41c2a92d5,415e590bbae39289729766e2d9dca61160e44889,ca612aa27e5190fe58667351da306b208f8b4d6d,c1d2956bbced9970886ba9c65ecc0d988aae05de,97418bf540f8dea9a009d0875e81d8d063b17c41,0f86c05fea599fee900e873874f5181c6aad396b,9773cb122febd4518109bf87359323123ded07e1,9ee7a0dbde0613a775d25cd1737d1a3f748b7c44,c65ee5a785023b9d06ddc417e550ab50538cdace,bb1a766f5fd816629c5098b39891566662c514ea,05a614da0a066721e4993eca43dc30318838f84e,a0e4a14cd12b502b8a55fd73ef8f793332ce5c53,a4c3b1bbd97e6813873a87b518381b6ca5335773,8cdea788edf4e8d295c684e9277e24191862471a,d2ce0eaeace5341ab0b514dc0287d6d6c3230b9f,48d0a6cb039d081a98d7d558605d356e098c3966,421748e02fe6e1b1745cbd2503b0458d67848278,6e752b3eb5b8ee9aac084c4a2abc6023c2acbf18,5989da8b821fb41a7f6a766811b7cbd5b02d1d59,2a386f69131d14d2fa02dc3d82a00065f9ee3bef,8f447e18c99e9c43fb200e5d7805505b90336a0d,b3b7dc4c009ee195f74db6572c66474c6ddd592d,332aa698ce9318c0ff738181f1e843cca8dacdb0,8da1118ecfd612d0c2c5b8389bded32eb837eba8,d76ff71c8569f051811491bac4a27dcd4e151a35,df03c47cfad498e704b1595aff05f252e403a940,23401f5bacc67e698c22197b13b1fc20e3bf4c71,86125ce6ef8a794e465c6e4d8993b7ddb610bcdd,f392986070d505dd87405c5c34e4b9658205b735,b3211a57ad5577d753928f99def951bced5589c5,9cf9fd4b154f4398ced34dbb5c2bfa4460574c5b,15a18d801fe1decf5c6d78fa64d7a54586e760f7,bf7e9e93bcdb8730f8ecbae97f4ef7d0a8a7b6d0,73763d01612750cc4bd3b9dbe9e2eded1c53d49b,bce8059281f1e222ef24b02523c86c669083abd5,42c2215ee9d362e1c14f98cce69dc6a0d9ffd049,f731034a9054b5b2bccfa05da3bd4f7513002782,572f45f56c49075c7d51346f01fdc3f68cb27399,c98963f4394046291120ab5120e1ef97e3ba8876,9d03bf093e46e870179e6aa13c3ce644f14c32d7,25bbc567db9dbddbcd20bc2a2b826740f831a36e,5834f29b90889ebb379de705ee804b11035a1309,7fa88a17c7a37924ddb546e40c44a89ae4cbd6a7,253cbda2db9360aaca0592c63c09acf72cf40a7d,fe0ab5538abd251ed0a9c5a193c1378113a3926c,fd8f62c555026373ed7ac151effb585ec430423f,6f041dd1c88549ea20db415c8948414d73b66bee,f3b30df4ecd35cf3b9842e1df85599a8cb1ec681,7224d25bf2ccdd5491b35a720fa9dfce31a2b3b7,ba99ef2ad7490741ce46578021bfd7073267aabd,aa922802b55b97c1884ddb5dd20150484a888a50,172f66309db644ec79b01525583ce3bd5a2fe963,e11a18eacbba7fde0bafbee1a716ce4073539a0d,9ce211feec39e9c9102c850a873b6c787b4177bc,3b503453e73e113e56a7dd17e14020d4ee6002b8,efec839f7e7900542791d37da9a0e6cb7e8d92d3,fd5bad07c391fe98562f456786420c4a57856bba,89580ed2a0fc7ab3a3bb5fea516564e05dad5d2b,90465bffeca209e4209d799d72acae7d06f299fb,60db54e1cc5c6c9cdb2867f1ce69c8ff1329fffe,d8ff1ce3c1f7d51a2a03a98fc36e5c8841263e99,ff2aec462c45bed2b9ffb17cf3795642c54b3271,6e11b2ccb574d96593212e161ba426e54b56698c,8c4bfdd28239cfc3227fb73f9127fd5b5de7a81f,0bf21558bccd4d64018d87bc57fa6a08d4d7ddb4,e6b7beeb9a64cb2cb8061c6caf762de56239f592,f9ab81e20a9b25993c33fcf2ac1fd06b00d32608,4bcb4ded3919f1e574dfba7b88517a844fc4165a,9b60e3704b8d2fa58387239dc5482b007c5e5bc9,357f39ffdcc715c9fb655bb1987615dd32ca09d2,62ad1d2d84a64aced4f0359ed1de4bbb21bbc065,7d0fbe7770b679666f93b1509052d6d2ab06d3c0,b799077f9cb82fc033731f3f90df14bc877c2664,30658f4c8b4cd684b81c832359bc55f053e9d177,9ef68305901febbfbe50c1a4bb72d2ff464d29cc,7c35d89c2576097ad437272855cfc6a5f23d240c,2185d03a490e229ef6f9dbfd5c7e25afbe9be6e9,68fc2df3f373f3e2c4a6b12e02e9975df59cdb18,05e84104afb41894b721f3e1fa7362ea9c2dc146,f3936ab6fb68db1f9ea8db0b93d1b6173a581723,ed10cae78118ffb9403a6a4ba0c46dc853e783d3,4e64d46b96d26b896fc696cf35dbdebaba270ba4,d2c26a2a91c73cfe7bc9cf0033e7f4b7c4dcc468,c46e83419e7db288cb70bb1e18eaeb4a3300717c,6322d9d55f6717e64765cc84b0bac71d2fb750d8,cda2f1820fb33e2089c979d34bdffd996695e676,fe84c9e1c1e64ca53a38273a051d6fbd67f3ad2a,b5281ef5cbb690b5710983476ae23da894bbec35,37be14011d6db9137e7c5055684165d721f8380e,6e48d64dc49dc56618d581032c4ec678104b9fc1,d6332701fe0fa92740bd354beb5c8c27deceb297,8f35f67b784b161266808daa7685c0b41e59f5d7,06240a50fd7a2e6c2ecefb0388cc2958d784d0ee,f9636f36bca752ceef2ca4995c3a1dceae72ccaa,90264d241dcebb890db56614bf55037deb2d5655,0695185462900ee09001c2877cc2acd49167b300,eb77a257cb752ce5d48e483f91bf10527db38135,b997d88c7639e2fcf2ce09128734b2061950f8df,fcdc4c667ea8e179781a205f69c8d131913f82d0,586eede5aea58b2a47b0fddf270c9214cfaf16a6,f88c7bc2864cf0a41e6c6126421c3d1fdf0bbfec,c3698632caa4d336521eb5dfe477e7dd7a41000c,ba37b3c6baf2058743c4678d4b711500e986a13d\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//saadq/resumake.io"
+    }
+}

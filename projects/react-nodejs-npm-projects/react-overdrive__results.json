@@ -1,0 +1,29 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "num_passing": 3,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "74fca99753a4f958940bb61e26a9d45c137f3f61,fad91b76326c5fe243954790c0a86127da500172,8d09f34a3db104351f24b85d5c6c9bbcee2b6eaa,ce448648d9669f9809b434b51bbe584685fe1788,595b85093c7c1b1a6664da52d46968ea51968303,c53fee9590b3d30b8c8b3456f069d99367f520c7,82557807d7c78e9d7949186527b02b3a736088c6,4e0508820b46f78a77667f93dff88f510aa83874,d15c847e21ad320d70ac836f3525bad45b193812,7844142ab13e8d58bd0f8dfa2a3410070622e9c9,6b9cabf635e1aea14f70b4cccc3ed131cf05e704,789ebca6c369ebd0756a7b30f6fc82e631c696a7\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/berzniz/react-overdrive"
+    }
+}

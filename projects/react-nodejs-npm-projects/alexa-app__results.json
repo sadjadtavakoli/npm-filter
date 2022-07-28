@@ -1,0 +1,55 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "coverage": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "istanbul -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "dtslint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "num_passing": 184,
+            "num_failing": 14,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "test-with-coverage": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "istanbul -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "c704f32c7ee500e922eff7f503175143c388fbe9,5aa7a6a3931ca9c370e252c06e43e35d16f29324,1adc9e078296172249557ba58d1a38a600a2b09b,450d8ac20c5e34598b274fb2a93e85cb784e89a5,3d9777e2f6112bb64b584599e5502908440cb31e,4c901336da4373b6dbe4d83dd5c8205816950f62,bb8722cbbf07ae05b04505ec24e98fa1b4ceaefe,74cb2202629f3dc2652c934d79f43a724b1f0825,1807f92284946ab51d52d6d278b1bf33ff7219ae,b1941b23009b23152baa7341f05576e732a04c18,6bd660d9c4d1fa7a387a8cb66de992bb5465f594,2dfe80e5bd11ddd4725163b5fb008c17549c8ef3,d15a4d1c16f1e8a491a8a2a1034eb60431785934,e3b966d7191639eda27464a0c379dd21cb395738,10296ff7f1865fb87a1df4e3487e221b116d53c1,9a3f87c05078ce8bdce0e8024cfdc6d29e04b82c,91b784ac698f2d0e79f8566ae3ffe5e69d5a417a,b4e110647d167f06d56269186298d2d66bdd7f8c,0441c1644546e4d26d1f150ec9ca9ed87aae213a,498f6f97dc92e445565e5ddd98444d0bd3a63014,b29b2a5e6879aedae06ea00e10782939772c3086,13b96a2410c0551bfe6ccbf65773ce1846481ca3,14ca2f87c089bcfa6b787a760dd974ae0efca83f,3f4cd29ac002534d3b2f8254bfb2210803a66647,84492118212e3f30891cb6adbbda77fd7fdc257c,b037b9ab7f58b213cb155a6a588ea66903a79b9b,1b2c3cfae46d2cf5a2928916de0a71f5d50cd2da,0ced226c8a6c7501708ac44afd882ee4f30f23db,b30997f1e2fce2302bf1b04e855b19837edf5e8f,216f14a8b4d45fe1618286484d3e3eeff4da49c5,4566d1db1fce22b2656a3b8666e07820eb716ccd,8e0e6fe30f1aa8a77552a87a16cd9d07b1008fda,80300a7e0b9bb9d36d0f2cebce43e3ea72a85a5e,d9f80483accb326689ef912400d7221eb045ce02,e9a8d65d0e5e46cba0d23e273efc227d1d43cdfa,be7e154508f562858158b3c85e70011d56839f01,7354c96053fb58b46d5cb19d3bf441322dd11fe6,04678a37c6a5185a08e1f36980aede94881d9e0d,d4dabcde3e0c032e2d956ca89615fa9e4e72c0af,77983d2fbac2cdd9fa0f46b70a823e8efaacafdf,d7c0641e67b2c0f5bafcfa1f10d90787f1e68595,cb4023f54c3cd4493fdb84c682154234d5027ef8,e2b8c6c13fad9bec2c0ad5dbcaf899791c12a02d,819e0c8b30147107e70b0310510a7c95bea5dab6,10c43be8a636caa48db3d4100cfa54b4af585202,fff2390809aa95b29d9494f8a283468bbcbad06b,3dad63fd005f4650ff52ff914b1e8081f16b29f3,a1be7b6dc5afdd3724dca24e528e9846803d70e9,e7c2e3b54c1cf8c893808a8955afdeed536af897,efece9bbd97d82e02d22d7c062c767233cdbbc17,13505ae7602deaa91dca29f6ebea03136ec340b9\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/alexa-js/alexa-app"
+    }
+}

@@ -1,0 +1,67 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "// test": {
+            "ERROR": true,
+            "test_linters": [
+                "standard -- linter"
+            ],
+            "nested_test_commands": [
+                "test-browser",
+                "test-node"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "test_linters": [
+                "standard -- linter"
+            ],
+            "nested_test_commands": [
+                "test-browser"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test-browser": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test-browser-local": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test-node": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "coverage": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "0e70f43d51a4eae1eee9f6ca83e1ab5836d3775e,68b7647ec5dd93dd4009566329e7df8cd706609d,41ba06d3157b6c609c5927509b2f20bbdc843d06,e90626e463aafa29d559ac2c0fb1dccbb10b8c7a,966349935465148cebe816273196ff9524e2d878,bc3e99e1b298bb0ddc6a52e02c0ce5aa93de7402,e8add3eb85c0f0e8162e91353e7f9232c7b6f310,ba51e4e3ef067f13e418ce809e65ec0c617fa247,2a3575eae9e091e7769c11d67e1c04df3ac81d7e,78c9aa32b65a6dc039e017af63a64fe61eb26b9c,3c9e3bd6612fde4b83009f0c1387ae2aa62bffda,2b2dcfc454191d842d4b4aace30ac2fd81436d17,8c3b22c901d75f49b551407a6d543b8eee647815,e5f0aefb6fd6782789ffb1fb9b01950f245078c6,c5f8a8ded50ef354d5a0f8a3700f8817565ed032,3581d04e74d728069cb5d30e638bafa67326af85,d8209d62ced7982267f0737e504ca497cc67d29e,aa373613453fc152dec78640773ac2abd694b532,1593ca15426d57a12834b9f08f2cd4c336270dd2,780414cc70706f5359b25c2bb1ad0106d232ee0e,9526e35d4625e7334e451ef5cd9534f8ef0ff8fb,7d06546a823f07a4719cdd68df9c1dd33d68804c,605960271fb80b596ef3a94bfd46e4b9629bde44,9349f5cabae2a6ed3bc23c4b1d77c939cc32d3cb,bafe6e56b72bd5846b1f6be7e155cf7ba5611fc6,9888f4c065fbba9e5bf90a50578b3e550590c231,d6c2dfacad74116c9009e04bc0d3be3c13b547aa,944c295bf53b7576b89adb2a9a1ccaa5e9779a7b,dad0134236ae9c3939a0991ff17902cd3800607d,74169f901c8ee630c5e3174d9cfd1d43727c1577,d68778c797f3a1d460964620b94cb12c4ffc3012,3a549d9e14a5b845734e13995c0ee3799118f409,9eee5d289d198caca83d5a98f05c186df9bad21f,00d6b40f3758ffe26551bfae6fa18a9b17edf01f,89f559a6f1a664e08f7644a520e456e49f65509d,02cf02b9b40813cbc322a18d1e63123beb06b8b5,9d1fa723954e7939c9e9ac0f676950c19ca55b89,72ba4969aee8125d8822d94a1a7f5ea183fdde52,3ff184549b054c2933b3736174fa8cbfadf60a0d,5158da652f9fc705750e3b577ca627df8ca7c60d,1bcf0697a5090e738eaf8a946f058eb562da6ab5,f44629fdd94aa92028ae371795be30f30689a35f,d57d01856953f96f3af1f2f9a23f7c43e2c382e6,9b396b9c6e422a1188ff4130f41f1202a71deadf,50761d5fc275c8fa38d5e4bc38232ccbf3449c8c,b73854e152116355dca2eab6f89f3462fcaea14d,5e4b1d1b10b2a06460c80534e2234bc296f1b7e9,9a2f0161e5f3bcd18179dcbee0b7834b975ce926,2ca90db9563f3dc1e824f6465d1d52517aa0037c,c9f61fed5deea14bc7e6b335337d0f73207963f0,f396b8ff99a74606936fd83618f981c601c4c574,822f2ae3b1394d226b18523810d2007b0b5c934c,c4444d8a98c711ea5bb7a7977b7e804d5cad0035,b5e6b3dbb82c69652bb70a87f0ddd9fc73fabeb6,fc9fe9d422cb61377673c0c113be816ab4bb09fa,6e0a7ac0fdd8e5af33eb51dc60a641abbaca57c6,2ef6bf0ba3e5594d2990656035b7d46e3b08bbaa,329ba39fb2bcd4da5993988b6ba28554c2668186,6bfdadc5a95151a4a12f79ce59dc4809f01e8a42,b4034d0136f8e3bc9b0b758f1d061a5c3ac0b6b2,3d56d12753cf6409d6e36ffd09b5bf9f28360d34,295271d77924805d64dd4d129867a3a8216513de,3928939737e1bdee50f3769a38b545e473914cbb,1469cc10204605605afc79b18cb5286af7b09f23,edb92798ef71a2a6f3e109d998bf93fac955d073,3146ecb03ad0aba88d2b6545820154496edcb6d2,43078d3b7f870c2ae0b627b669b92c55434e12f9,24edd563b9d622719ab66bfc540735f760479bae,d41e7d0af97b35c42f81ecc846ae4786111002eb,2d3a06e1e320b79c68c32bd306b1267b48f4ad56,800d7bc4343b0b55ebca14a13b5e38e9a1a84e9c,6bf5e4d9414f3d4b4824882c6e77a7733dfeb1ee,aba7b1012c2fcbda4ea2ac3a253d4d3ee4e3063d,889376f2077bcf2f8bb2cb6bb5e4f6485cdf4f55,7d1c5dca3e1728203b6eab13662c1f9f544d7f01,8a495cf00fb13b442315d01f9748ad31b24b1436,bd4cb2e3eeebcec2a2ce4a70703fa14e5839acde,99b38681a5fb943a591abc23086b3ac17315749b,ec5d0b86a90170ca673b4f7b88cc7bdfa5a25435,967dcc9ed7709f9cd03e1fbf033ad19e2240dca4,0a5f0d7075974471f9d23632ee862faf974170ea,b5dcfaf39e7944337db052b00472ed5403d55a70,45fae8a899d99c0bbbab92e42810128cf6308cde,a9528380416cc194834cb14eb639a84299e28e54,2d9eebfbf6e992de0655bb91eafd73668e43fa2c,89d79a7da4ab8c34dc4b3eff028d30db33a2c2a2,f6bafa6c52cafabadc9fade6e08625ff682aafc3,2141d1f43d0c209671cc86b6304845cc0551c72c,bf697c17d6d12a83aa71e698c42a3f03b9fead23,2d6847b065f4a32ddb2bf0d1dc1cf42d0f94023b,106a47dafd6b334e30bc998e57f17eafa0dfedff,43583fbd6ebbc4675bbcba2509d6e8c83a1633b2,b165b49a4dccfa587810c3c3e8296c89d5cc102b,59a132ddf60e89246f9eb11ca249e9fcb5e29348,c036bb8e226bb3be9f815144a2d26803b72d3c69,9feec79e825ada4cee824629a6e5552454b7f60b,d46d6f777d6a432d8d2ff74c62b37926b350793a,de56ff2b388cbf2e6ae957c8508f7ec4f7787af3,7f9c8cc15eede445005829f0382b0e88050a3a38,443c3625f4b4d739b17266ff7d26b15556528019,c61dfb81fe30964a9f3bcee50326fd448542e58a,57c892b1199901722d7d6260b8aa2e6d00bd0127,e34edb8b8d504c2e6f32b76147178693ae2132e5,b222b908bdc2edd76d4fe7a2f116ee5807aa202f,8cf5af5f64b697b2c169732d504328094ff5ff3f,75724b2deb8e1d5b2f2ceac4743e06365d50f071,69292035dacde118b8ae34827baa9f06ecf74265,3618ba416d8546343eccf1ddeb11946451f72098,67b5d0c085697f203c5eedade0f7daff19ea9260,941fc04faba534f17bd23e5093567ec2f8993f03,9e47296998321583b86d6cadfd3ee42ce6ec609d\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/feross/simple-peer"
+    }
+}

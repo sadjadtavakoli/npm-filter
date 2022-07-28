@@ -1,0 +1,23 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "cfabddbd2633a866742e98c88ba5e4b75cb5257b,dbbc625df43db3df89312665e5243718c0310a47,20688bd6ef2f1c1b74f6f745c4a545babe524e96,804f4f5e9af889596323e680c97c00e6b5c9cf02,6ae0e49f2c020adac36639be05e8b5649cd15f75,4eba1c158bb1651a2d6d7c2dcfd25032f9b8710b\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/uzairfarooq/arrive"
+    }
+}

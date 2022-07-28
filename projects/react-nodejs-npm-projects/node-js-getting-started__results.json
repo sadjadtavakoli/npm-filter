@@ -1,0 +1,28 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 1,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "9e9765a7bb8d35578fb48f99d6ed1ec0a5a57df4,9717c83d100192a6f9540ba1a03e1bde44ee00c6,ec7ac00e125f0eba1af4313dc622400d0a42d3f0,4b88103904d274f7fae8968861588f06fd447f12\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/heroku/node-js-getting-started"
+    }
+}

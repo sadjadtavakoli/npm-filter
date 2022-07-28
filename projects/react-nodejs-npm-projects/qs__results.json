@@ -1,0 +1,52 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "pretest": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "nested_test_commands": [
+                "tests-only"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "tests-only": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "posttest": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "postlint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "f92ddb56089ae2c74f5ca7b0447fef3a97e8c9bc,90d9f2b45715b7b03da92113a7b8af236c01088d,ff235b4ca81f82728b745b71fbd4bad173535305,486aa46547b4e878d6e87183de95dd26d46fb020,298bfa55d6db00ddea78dd0333509aadf9bb3077,834389afb51ac8cc03a22a0c76604c65776dc468,f047c9d527c329017d3d94ccbb146e6de4cff75c,da1eee03f599f3cdd802557874257091b3c4dac1,7c1fcc53047ed2d7555910fbce9f72eed1e450b1,1c0dc75ab9ab7a89f46983ca8a9e8717c1c0fc24,4243fe4e97b5c64bbff553837483df87bd1bf3c2,fcb1ef1819ad79ab684ac793f3772dcf2ba340fa,7d4670fca6ed46a1fc6237bccffe0ea82a641411,f814a7f8f2af059f8158f7e4b2bf8b46aeb62cd3,0a7c1310232f33f350bf7dbc402c13c0d85ddd58,d66ac175bbf8afa44b41c2c85b04ae00bac7c916,b9519c953f287fa5e9c26064f6ac4cc7bbea977c,10233c9f92a4e3537009fbfbd0baf6f3738c4551,68ca039dc2b23b9dabff79a34a906b56c17addaa,9ee56121311dac6b6014bfe56b3df0ebbf4ed048,1fb74cb66310c506e4b6bc04fa258a1759750222,c7f87b8d2eedd377f6ace065655201f51bee6334,ff662eca3f00b1505d05dbaa7442a19c26f7ebe0,be1c4211a6031cac3443ce66220f4954338bde3f,3b606162b92ac485d9a3e945f6653507d7ec1210,153ce84948845330d90178cbad982fc7371df538,8aa9c26f90335b5483a4f456dea9acbada8a881c,56f4fbbd819c17b058a74ecbc74957a30176191a,906b994d164d9d4098acdc0f6f049b9798372823,e7422c934b07207872faa452cfade0320816a8a7\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//ljharb/qs"
+    }
+}

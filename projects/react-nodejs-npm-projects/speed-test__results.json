@@ -1,0 +1,27 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "num_passing": 3,
+            "num_failing": 0,
+            "test_infras": [
+                "ava"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "61548ab0f8af53b12deda00e783d721530857fdb,63fae5138f4e9e56bc55543c67bbae5fb6d21bb0,c199d8a9fc9c372dbeb6be65f9e70a28fbc9e355,7584b884434fd5ff893e42e539bb16463c435885,46b7b3af52c16a5f4ecd8740322c41b8a042ed7e,0d289fe5196cb7efc6c874d01344269f07efd853,f8ee1f996d5c873274c76a9b2f8091e2771cc545,6ae2bcd3ea1fd2f886e2c2f7fa28ba2a550f54ed,519c4ed274c0bb15136e625cb8592b5c346037fe,bc60a2fa98daf75fbe2a1b8e05c53a14b9499dd5\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//sindresorhus/speed-test"
+    }
+}

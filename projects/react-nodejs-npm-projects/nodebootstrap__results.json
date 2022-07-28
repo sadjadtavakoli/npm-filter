@@ -1,0 +1,37 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "pretest": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "test-cov": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "12c81ed76c0bd9cbbdcccf202f17b4e0e35f5c29,d5f2eddb1f928656ddf0ea0b5159eaf91e2e36b8,0feb433d1fbe6fcc5f7b31e959f789222e456ae3,e2fe048633ec5738f08dcb4ba6f160f1cc71ffa0,deecd28d259ffa7752d3a8d75c0c8d56f81b3cf2,986229ddfede31d47d1792ec0392ce40cc7b22a7,c5fe7bda47d4f9927d8186b6cf759fbfe072f9b6,87d52ae318d63d71d947ee53af26f14355b65c47,212676406815ec0964b06e617d30f511e37f9808,43d80ebfa62459d97e227da9881ef38a0bcabf5e,f3bfcf6a6b2e081ce00255dafab2fb1958610527,275542efbfddf6c8da731bbfb66d5064f238ec3c,a3915b99e4116582bfd490e266f599f0dfc172f6,7edca9ab8db2a8a507b4c188dd4ffa334d3d0229,eaba1d2e4df6b10bc052d9af44ca19306366020d,efe570603b061945d43229b5fe7ca32ce326a23f,5f3d3f2b6addfa043f549c3ff124d130609fff4b,fcff9f714054fbb87be83f26c77af483d8cf0f82,9fd60c4f4234a8a89e1901be01a9d1e645ccba7d,0c61608b51305f122b0a943dc79892b006b46bea,4a77766912a7b979f75b4e891956b78ff13421c8,eeffe7a5764c9e07ed66ad98c12b97d6c8dc0e5d,7b6ed861bf29872d67b03f7826e287af038e03bd,7791d568938dde232009d8b36424ac1f906504c0,8896c41e9f49d7081f42a8673180267289f22405,2eed2ecc0b13327be5f8c9e2c86f4c7952059c8a,1eac2e8df97bab259843c500aae8380c48b53679,dca958e49f34eac0f9fbf10edccb67b8ee271294,9cd2e46958732752e30d16c4933cef0aa5507ccb,610afc4e58f87f97ffa54b0ad4894c308757d9d2,57cf955a9d0f5f54f570e8ce91cf891287ba2bd3,dfb86029e1cb9e6f03feb0c730f6e61963041335,8480eea6cdf7f336021d64c79d30a15414dbd84e\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/inadarei/nodebootstrap"
+    }
+}

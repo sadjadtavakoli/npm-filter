@@ -1,0 +1,61 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "prebuild",
+            "build",
+            "build:commonjs",
+            "build:es",
+            "build:umd"
+        ],
+        "ERROR": true
+    },
+    "testing": {
+        "lint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "num_passing": 586,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "timed_out": false
+        },
+        "test:bail": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:cov": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:coveralls": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "5d9017fbd82b0a1581a909e27938be5537a6efe2,1adcafe77ecff478445c5b0b19cafa093c0a2edf,8242c81176eb22cd64a4ffc9dd8771690e89031f,2889ab7c801163fbd1dd85195dc5b9221781bcec,a749524438f152b30566b088b615ab01c5a99911,557de0892e7e93ab1e0caec2692762a652e59635,fe1a07553ae91bee9ecc019fa68d316b31d645ff,e449bc71c476175fc7c5df7303628800f77a5e6b,32fdc352d3fb6bcc683b6df4fa92c33cee131d68,2bb22a0757dd20c2a4c9de058c870cff1b662884,e574db3bade1bfb38cab7d35d87832b98aed1566,bdd0a494550e1f3932a210864aac5ebcc6bcb8cc,3fc1d9ae2e88ce9b410db9050114700b52235279,bbd3b53ec1c251235be2803b91bc8429c5d98eb0,30497b5b6319676c9654ea50293ef3ad3479655e,661ebd006ff73482f43fa5916d3c3144da34a8d4,6cf2d4d29a32ee20aeed88dc3213bdf9cbeb5a8c,1f8118654664ac78b1381de8e9c7585f321def0c,f0d40608d5071437b3e2fe12d36829e138e6dc2e,598b86dea4426fdfa99612acf9d5a7cd5cb4c1f8,87de8eaf59ef5db5c77bfda06f9d3ee2232d55a8,c5f9966dad03c483a905008f39424b826fdfe2d4,1e3a67906539f00bb0030822a1f31cd87d7244ba,3a20e068550de38022c192569386f0463fa3bb66,d750dc0bc0995284b2601ad28ef91eb72e321994,0e58a66d74a46bf8055906903ba3f412e613a706,edb51a961ce15d0cfeefe78f071f506321f2280b,4a3181f8ae72c8556b1b43b19950e6a6e37f6cc5,8cc06436a82fb670ab0bab2c1e9e2226143e70c1,382a5ceadde810ea7e2cf4f5584fea6cdeefecdc,f5c4ace47277540126893af55cb5d28c71e1ff1b,d7da93ed391c96d9dac0539f0bf263f95b47f12d,b994c08fe5e4d336068ddcd236394c7b076509d0,4fc84ed08b31f52c32fc9ae181dd06877912d2de,ae4e08cdfc5f95794978973cc3210fbf6e98221d,ad078988c3ca062d971b6fb239ae9aba58b124a2,bd9f8d86ec46d638b6c3638d54df4c2bf8fe53e5,628e6cd5c6be8501a4853f73ce5a4a29c49cea16\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/omnidan/redux-undo"
+    }
+}

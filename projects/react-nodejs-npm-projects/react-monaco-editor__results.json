@@ -1,0 +1,28 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "d67a13f3f3ea4df6bba22afefa58f45e7f4e2db9,b3fa930620bd564961aea52cd014bb49365605e2,ca32c00bfad1de75ca6c104b4a60823915447425,4eb698baf52f7e67cf353ad013f0a3469c83734c,6a09b7ff651f95b1a9db0c52496de8a3ef4a1852,539633f4558e5033930693febcf0c1a9a0506828,22d092e138c703fd6cb18e36fcf0f7188b7a107c,669684e765b331f6ab0602354b4bbd85eb4c7837,aa90cf127e46000d7e8aa238cbd8365b792146a6,25f79e0fbf10cb002da7e251ae2900e4e95db370,527fc3fdf9f7b667951d84e59e8aa19366ac1e5b,54cc1115db5e749ba09837d317390d1b9aa05c0f,6d2a89d12af4f188440b05414995b42465b63122,09c93da2f340b925160529cb2ef29fbf3ceca3a0,5a2896e98f6cb35ee41212935977b04a7bc3bc8f,1c5327f7c4a4f4f6bdfa9fd9097480eba19d538a,241e3d9c7f685506bbf8aac7ab251c490cc0da2e,ef1209ece6d274d5b675eaa3e6dd6b791a8616a2,305c7c75639cd4b1012a68ee2a2b93168ff2e2d7,0a77d5894c6da07c178b54291b456ddb48d3101e,1faab7c7e1cb94c99b460a47f1085b551dd62acd,e8b11aa99d32859ceb1b917eff4cf0dfe03b468d,6ce01b5cb8f4151deb8689c43e2e429c386fbe0d,14809b40bbb673a3971c9a554c20d45ee32d77ac,188059ce21b32fa29b15ff3feb74bf94720e2083,6e6af1041b68c0b544bcf02408360aac93b14369,c3820b47a284b0c6aea5e28d7711e11f454950e0,457249e697bda2a286a2a2adbf2d03660030e416,992bd6b8b614750dfd1b30a87f6c942a8bb251aa,bbef4f7c9e778b6a1e17cdb9fef68a2658789e36,074a2e4f07670ab1d479fbcbcdb82a15149eb31c,93240dd9d8fa697af5688e0447fc94ef1db172e5,5313b27ec24214bcc464bf3a431c5c29ccb6ea50,7e2ec15ce4d4db13eacd98be32641b7dcd2701fe,9149f4be0f94c7337e784fd4f05ff04d7b7a01b8,8052f9e74fcba8cc5bbd9d5eea8d1915dbe2cd7e,eec31dad13be139e3176c49f98a78e8af288cde3,994af1449789ce4b12cfc35891d54f1a21cc4fb5,61c1192f4f75ee9df7f12180b9cc228ece7902b0\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/react-monaco-editor/react-monaco-editor"
+    }
+}

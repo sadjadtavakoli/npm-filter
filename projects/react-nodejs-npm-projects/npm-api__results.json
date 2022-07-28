@@ -1,0 +1,27 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "num_passing": 9,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "98281dfe6e5998b91c0ee488b9517636e7680ee5,b69041a5d8a11227d985831f4bbfbecdbe27617c,423c18ca89aec07844faf3bc83b02400ddb784ea,82769d6638e328759e3cac62eca645ce294ab3a9,54da34a4dd94d04aa810a38d3ab404c00d4bf041,9a06110a0c2acbc0ea1150af3c24d089bebed98e,ce95e57a40ebcf39973853455cc0329c0e8558d8,235b9965266fde1b0793f9fea80f2500ab1e9fe1,369c57117bf9ed154f50d4cea231a0af41ed5637\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//doowb/npm-api"
+    }
+}

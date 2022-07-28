@@ -1,0 +1,26 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "1ef08901f045aae7b4df0f91ef598d7a11e82897,da1f106db233b844985e9f9812995fbb0b6b9985,4c9f3009be13962b0785138ccdf527c5abe925f6,b74358bc04005187f0356ca33868784f1ea88c59,2af7c386554729b7a687afa75492325d7e082c45,cb9e67fdcb9e50adf8acb58f1a73931544d70572,8aa15b3f85455364475414e907920a40101e7e9d,4181e4a9f11c20ef1b6c98808853ea2e10090956,a3ea73106d229cc646b490d92c09e3ed63312232,595a87b0e26ee3cc5694a73f9b278e2d1eb96565,c1859f352dd7f76c9b66383e3d346067336b8a34,10f47673ea0d82af17c97d71dd1b319fb665d260,5b868cab730ae1167c26b5d9428137b04ec97294,503a7dff675651f506a353297de099a5a874ee78,1c5dbec7257518cb1db756eefb91ddf9a60838e8,2ecb8831ccdcb3eb338b04ab3c7dbb9a355edd13\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//sockjs/sockjs-node"
+    }
+}

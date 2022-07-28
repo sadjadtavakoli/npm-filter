@@ -1,0 +1,40 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "our:compile",
+            "our:compile:edition-esnext"
+        ]
+    },
+    "testing": {
+        "our:test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "our:verify:coffeelint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "57689a3cb4c52edc131dd024c0b094eee1da7f4f,b98a49bfed23304ba0a61e43f0185a355c704d2f,004235922382bbcbe1760fb8287efe9576db0d6b,c1272ff17fe02891f263ebe74e575af9d271e2b7,6dd6652dd2626070252f4ce0bcc1ccbbdd42dadd,ec12a81364623275f2d7c949bb4aca6a202cb24e,6f118e5538cd62b52dd909a497fcd3a68785339d,4e58ea3f65a05aeca74590b916792d3e30e952ac,28965b22b5c7f6b4bcfe1567b32d7d4bd70f9f1f,fab30c3765cd954471e55ac8c111648d97b32f01,3c4858a9203c3034bafb62f736aa4836baf8dbda,6991fc9a7577341ea05ca6260a448d4aa3ea7d23,e576acfeac56266602dfc937ef2d8218980eab8d,c08e69969b2e5436cd15829c900ffb57e0442ee4,9685225e55f47b315b3f04c7be6ffa79dbc633cc,d676a734f2671105cb2112b44bbd62d94e83311f\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//bevry/cson"
+    }
+}

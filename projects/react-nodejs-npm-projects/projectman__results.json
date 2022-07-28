@@ -1,0 +1,36 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "num_passing": 2,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "eslint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "437baec77646bc66528fd5bc02c23469eba31876,a005d1f73ac8a7170819af42702400b6785500c2,94a606280d5441959858bd610608715ee9836f56,5abb602eafb53de5dc3965b8ebc71d4368c9dc8f,31b21939169949e58aad363061200e07abf5176e,7ec13e5be7016e7b2ec03edb417a8c6a55cbe63b,c79c0a93587bbcb96ef03759c7db3d6e18d8a374,ac3f7d248fa9ff31e0d225fda78f0bcc15088df1,413355b41d87ff18c9dcf02bebf51d3da35372b3,820cd32ee8db3485a2be9c4552c3dedd9905d96d,05a8a80e48c975a774adb5528367f37ce035f297,f35ae03bc4985580ee56e00cfd06d88589d09c4a,a2f3a9223533918e50f466b86631d590c1d3e6d3,e9343f1298ec3ea880ebf4d92cf5b95c4af205aa,9d4bf01d79128816ef97b733c4e76faac82208ba,193d139383671daa3037c42d59f8c42498be4fa9,212b0dfbb8b5d8920c2b36daff40ce2ae323ffc4,df6762492ecf5cea0f371368d6bde54501fa8c4b,be70d72cacec184b8291a2af7e38ed027926e593,f0e2b1586b14e4f40bc5e90670daf6b6244a092b,6eab74e43d4b801f700a284c5b86c0eff5be1b85,675f16fa40265b984867ca6df6a63b600ceff84a,5b61d80e5a6d8c41c4733b7f9df4c982ca4bd811,4672448e0279bf3006b3be2d830eadfae6dc5f18,37315bbb36e77f50166adfc0defc22c97cdaeadd,451b8f9913402c1da5ee1a36f3909183d3b8a165,5005c2bcfb39a5bfaa5a4bd983446cd42d8b5df0,2074410502aa233397569b7fe5590a695e526ff7,0b9a167e7a1df9e46841972ec987839989d5657d,93070005bc7201905bb201a8000d4a5b74a2b573\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//saurabhdaware/projectman"
+    }
+}

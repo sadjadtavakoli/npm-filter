@@ -1,0 +1,22 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build:api",
+            "build:web"
+        ]
+    },
+    "testing": {},
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "5f3e0a1f5a0ec5af33e309c019d4e5950d2e96d0,7e1dc273ea4e8f9840e48d6eabef3cfd93d72e3c\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//hexacta/project-structure-sample"
+    }
+}

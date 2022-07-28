@@ -1,0 +1,71 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "pretest": {
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "num_passing": 22,
+            "num_failing": 1,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "test:verbose": {
+            "ERROR": true,
+            "num_passing": 22,
+            "num_failing": 1,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "test:coverage": {
+            "ERROR": true,
+            "num_passing": 22,
+            "num_failing": 1,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "tslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "report-coverage": {
+            "ERROR": true,
+            "num_passing": 22,
+            "num_failing": 1,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "0ad6dde60c55eb1c4bc3c35574891a87c65cddf7,1010bdd6745ea5e74736f430e718c830ca3a8868,a562c0248aa01fd749cb4c03ac2fdf1d2830dc73,713c86aa5b0f118748f37f00c2c2ebd46057d0c8,47f94e93e7d2dde95c886eccab10c071b9eaa9ca,300e9d160c287c029fb55eadf11521dd377c135f,1b15ccfc73048f6d7dc558dc0729d5260ea8ea80,052e362aafcc24eaa4b661f244dc0461f2d61097,539b2e9b1b0952247ed1a4ed80878c1c15f408cb,49aaecae899286aa76592198d73c24cf4aa54d7a,02dbfbc256a0bd4cf141900be230b03fa008a89e,42c4d93ad353b7a34f223b83e8f45cb1e1d82406,a2fb9b61959f030f887bf3d7868cb518ad98a982,9a3bf69c9754829e83d046f16835fd707fb9c384,76fdee69a2b4cd81e26721050cbf6fcbeb4d41e8,fccd41fe8876495551de1e9fce36d7863e325396,d39e9794fa3614d7a25c20ae19f502fae65bbacd,2dc25199a4a811b3987052c893311ec567ae03f7,de1cd16ef1f2a3a9c2c51d90406553ef5d223670,05eb2a46833ea774508711a0dc092f8ae9dde1c7\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//wilk/microjob"
+    }
+}

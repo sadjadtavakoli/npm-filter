@@ -1,0 +1,54 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "coverage": {
+            "num_passing": 81,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint-staged": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "num_passing": 81,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "travis": {
+            "nested_test_commands": [
+                "lint",
+                "test"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "e5bbf20b74955a2fa1bd3002a1cd9d14c3e7a80b,b61fa435141aab5b2c460cd523c8ff163a4503e3,0c9b02640e73e63736d462b5e22bbf37d85e5f64,48641f15c3684146e796a2297c29f1f9cde1e0fc,b917b8b3fb47e32b63a82a69012c37a770ef4c0f,0af8ecbe8c6f707ad8981ec6c4779faf76d88f61,ff7bf5b85e246360c7e89369d2c15d2860009942,c105758b90bf2be8dec5eeb7955226948ba1925a\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//zendesk/node-publisher"
+    }
+}

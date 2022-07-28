@@ -1,0 +1,51 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build:icon",
+            "build:css",
+            "build:css:dev",
+            "build:site"
+        ],
+        "ERROR": true
+    },
+    "testing": {
+        "eslint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "stylelint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:client": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:node": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "07deaac6082b7d69cdd2be9a78f4f4a89f3c560f,7f7d21fbc2729ccfa7ccb5720d10b9d439cf20ee,89d39d03609cbeb72b1b43e6ddfed4e05dbbf0c8,2ed9e34ccabef19e213679e80cb074a04521b8f4,ec2c69f538ba6dcf612e3c6a4c756ac7f03a1b91,f224b7f9e791549390f7e2c0d463b815da2e5913,c5538cd5cb965094b4ef06f50e436fa9019c9055,29a9b8b4b3c5391e29e9dda9b5fa3cef4d41b73d,3282079ee297ae8f0f0f7d5b6cc79d0f6429246b,84e7b6f7cf30c144cd9cdb904cda5e4d66781b62,e7153a2e743fd3d396f876457c81bbc60f026157,3c947db03499b4309a7f2766cb9e75122399945a,6851b02971cfe7a494558dfa978d3415192ab8c5,cd72cfd4f725a4821cee2dfa2c58b17712190cf2,7f4b7109169efe541fe34f25604eaeb8e9a27c1c,e11c08107e1810802a52700466b691a0875a3452,763ea9c3f40b848cbbd2646413d3927c118a613f,42d47a2adb491a3d469fdcce038884d2647148ae\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/arco-design/arco-design"
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "7206a994e705db5187e9d047a7fe220d490808da,50d48a9596d2a05ff5e6276eca45d400f46f9e8a,4488b32996c9996cfebf305b234553364c46f7d1,7631bf8da3339944a544450cf84e41e1cffaa4f9\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//mpiannucci/react-native-context-menu-view"
+    }
+}

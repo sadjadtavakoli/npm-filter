@@ -1,0 +1,35 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build:dist",
+            "build:dist:js",
+            "build:dist:overwrite"
+        ]
+    },
+    "testing": {
+        "test": {
+            "num_passing": 52,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "lint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "a5c87f3afd075d85eaeb2fe482705db3fe5a7667,381305a17c1d0e93bb5a6ee5e02d06026646e129,882facd295dff7aa9766f6e73bcf633a683bcb14,1a0e8696591c0707afc22b0f9c4adcd029b98c3e,d9306e50703f92f6ba4b27183fba90e0a4d806c8,5caf6135eec13105b6e48b9c1600a7aec10e6a2c,be6385f335ec47738281fe82308bb45d9f268176,2063bd888de65a7b7e2b5a0446747a879ffe5362,9eb2e4da67532a9a0dcbc8b016029e245fcfef7d,6b1b7ce9981df6bc5c97e22f634c6b076b3234c4,9ab6e504c881cb255ae1ed526f8b6b34b9f83fab,b9ca5aee51c8977491a30eeb97794338e2d726c7,77dec1d298fdf1a2ba9decb21e0b1305bdb70128,e6de9e72b743a0887919a32fbe57f4abdc052e27,0a269c884968801875e208fe2dc73dc0562ee73b,e329d73e625598d06cda87c2c4180e5a56a2072e,3feef8da5ba76b1ed539093956bc839ff7eaaec3,ebae8b2cb8eaa110a57656d07a1c59d874718a5d,41eef40960a2c7e8b2e87403b9ac694f6719c048\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//kaue/jsonexport"
+    }
+}

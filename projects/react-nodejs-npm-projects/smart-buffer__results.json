@@ -1,0 +1,44 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "coverage": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "coveralls": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "tslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "da247d0b0441c1a66654c2adea2dfca47962ed1f,c72b29d50b8003fc4dfaaa3281d5450a881d8024,a89e80bc53767296271733488dbe2ca404cf6e91,8840c4501f8b8508cc1866e30a48ab6c2f66bc3a,1ff55ad963098fb064cbff2a4ae5c7a68e5a4e4f,1e78a8e0d8fc8cedb6326fc559ee78ae1793bd70,08e7cfac13c2df71e9d06b5b14bec255f141ba73,81dc3319fa1503c750fde2cb20a04db29429a713,e8bf6e0151d526a928d84bebf5cd29b6e7f00310,c10fb5779a2d86ac126eda72d97c745adbd86659,eaf4c9d23f6c47ceefc005c40c2267be276b3016\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//JoshGlazebrook/smart-buffer"
+    }
+}

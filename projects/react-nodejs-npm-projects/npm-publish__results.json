@@ -1,0 +1,51 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build:typescript",
+            "build:ncc",
+            "build:node_modules"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 1,
+            "test_infras": [
+                "mocha"
+            ],
+            "nested_test_commands": [
+                "lint"
+            ],
+            "timed_out": false
+        },
+        "coverage": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "e82a569c830dedcf62423ed04dd01cd785766063,63aebe58a8821144b2b29ecec0286f4c48a2a3bf,c37331b6ea5886f589635e81fdbfd69dfb8778e7,18351461ae08dde235c0ccee0633ec905f0b9a52,eba6c49c1f36943591f79e5f89b31aef82b2ce5b,41501050adb3d024f7ccdc343098bdd631284b67,70d32c00380ef4ef475321670fcc07f6cf81ae04,0288a8fdbef6a867707c208dbb4b134f39a2ff2f,402d24ee1e1767ba23b405dabb1495bee4cc1a60,f26904916520bec67bb5e02e8699fd0cbb5f9eee,666d0d3aa7a0a0b8dd09e3d562684cd6b31bc61a,05b8a02985134a820be005f58cfdb0ac9295784c,3b61ad22a7e0a5c6859f6aade1acb853297ebf2e,e6d0799024614da71d10af8293786debbec7edc9,8aee3d5ee4c87f36e94d7f1fc06cd62e22fe0205,0dd9bbd6d5bd66f929912b763c52eca198fc98a5,a9593ee3482c598a9e98a7f7c405369767e670de,f931ef4fa29c5162563d10fa01c2b0a9921fd0cb,86f3bbdd4da9d28c397b1e2f145225c15bc21a69,1be380a0699010a658c1a23333278811c4c8973b,c7e9b01a5ba3ec6fc3be124aae8e31f536baee44,9709065e5ffacfa0cb12b72f4639676109cf38df,6d68a900a5c2b1a728bbaf449ebaf122aa6adda0\nwarning: CRLF will be replaced by LF in dist/index.js.\nThe file will have its original line endings in your working directory\nwarning: CRLF will be replaced by LF in dist/index.js.\nThe file will have its original line endings in your working directory\nwarning: CRLF will be replaced by LF in dist/index.js.\nThe file will have its original line endings in your working directory\nwarning: CRLF will be replaced by LF in dist/index.js.\nThe file will have its original line endings in your working directory\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//JS-DevTools/npm-publish"
+    }
+}

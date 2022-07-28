@@ -1,0 +1,30 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "prebuild",
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "num_passing": 11,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "ef58d544c05a139035871eab9b771770045eefb7,a6cf4f56fb44c10aafaf7c8692ba8cc360d33e04,01e5615a0c4c44a43c0bf400b657014329f547bb,6e192ad4267fe866e826ba7551cdd75276e45b30,4054d4192d206c3c4b85320f2f9f2b240bb7cec2\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/jaredpalmer/react-fns"
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "standard -- linter",
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:lockfile": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "num_passing": 50,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "coverage:view": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "731440cdf8ff0a93721c0a22759bf3f7e024c84f,772131e01b345f4d4332b6edf941005a709cce2c,193f6d68ad6d386b3888cf7d8dcf5c3320b16cbb,ecdfc7b91429b6e13f8d6742a71bf40edba94b3f,f87657febfa157d8b803449d468ca134f4e0e6c4,9dbe6fb37ebc43a4cfd9fd7ca19916e6800c39e2,67c79e33b4cfcd53feeea6c81af3916f19f872b9,d41f0b682d26458ca37252decf908084e35e665e,b75762a0d9fe89e4eaddfe17f4d56666d1802feb,76277ae04877f38d0f113bd9293ab7ac4fd2a36b\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//lirantal/npq"
+    }
+}

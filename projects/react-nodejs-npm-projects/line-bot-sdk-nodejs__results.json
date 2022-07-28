@@ -1,0 +1,35 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "prebuild",
+            "build",
+            "docs:build"
+        ]
+    },
+    "testing": {
+        "pretest": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "num_passing": 101,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "d0acc4fabe21722a16320525bc47e207986e0712,dfc63dcc2a37078345057443f963b69f52da1407,0eedc92f590b1c9c9559a20b2c0d873864c48597,0a13a80cecb111b91db07af05fc43d39d28fbf2c,1991cd9550d9091619046e750bc0e78d15aea946,a964ebdacb381dd87c377585d7126f81592e303a,7e50ed46f60eca1ee38f16e97dd467d0995cf497,3c493bf9973868f497cf3f9f58990e2b5a274c28,6e2ada9812b05ffb9cf1d2b68e65b1b6e9dceff1,c31430bfa2fa526b2e17aef59a64d981d9f5c4ee,98900a032164a759aba23fba7c6a04c22520dfc2,38b97d0e00cf5ff04f6975d0688d1710a7895e10,5e0ad400389ca10e9a67cf7aa057ad7467853a5e,1975091ef4c099fc5d12e62be86d7c40b2ba0b88,81b18577fd91a5e01c9abfa47c61b47de13141fb,a7d52d89b6803833c16eb23f5247ef399775a551,6445ac8062e783598bb4d1638e142c5864cbeeb0,c197bc690726a83e7cf3f31b6cffcfd131bb66c4,447cd5cb1961df0ab46e0c2ef4953bc59b3f82d6,af2302700ce7f357fcb42f45aeebb9874166bcb5,c883f5247d27ae1aa9ffa5617672132378bccf5b,a053137a13dc682be2e488ba7b95b54081e1d5f5,d18af23872bed708fa95cda443dc2803e8828833,8f49bd0642fb8d5514f411c30dedd11611c39e6a,d42a1aec5bd18b5c3a9b191fa66ddbf9d5f76574,3d4ec1a0d092c9d294aded80201c0cc28e1faefc,c0c204460bc0294ce237a10679f7fa59e7608a79,c030b3f5e55a1037889661a7e9415399b475ca38,c79d65c1d54327c16ead08a4e422b35e5d0835c0,040867e4ad6dd0493a6b765fb5749cf1a8f01357,0ef1050df8730169da09c820d75f5e6100e0d5e5,828bc499742fe12a135392c17aae2a38d063a3d6,8463c76033645dcfe1cdac1d0325d13d3baae144,48c508e036637832e5b38081acb2e2dac5e0cd12,9bc7caf9336719b7d4097378df76f62abdc56c64,2a42d67bf40225556bc51b9f8956214a20de1bfc,8641da27f6d4b90d07d85ff98ffcc2ca6bc17f91,6b21aa8223e7b5d5525bac1ba86e1bee950d8cfb,e637ca45ff9a12c7b24a07cdb2231b68b0a8a7d3,b33d2f8ce156fcf2f5d7ca92b02cbcb94865b2a5,f0d7e0f6148c1f7c74e251f54bb30c56c55134cb,5dd13991dcd322e3586587c19d657e690a3e098f,b5ee5442e53268815a00e11884a167a7b6e34c86,c7a9b0efd75366a656c807e4c3f5a39d88973930,1ca28872a4989bfceaccaa683c1a9b64b78a0721,b81d065a1b3872cf5ed02562f754b26f1cefba24\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/line/line-bot-sdk-nodejs"
+    }
+}

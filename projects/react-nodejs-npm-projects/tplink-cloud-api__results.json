@@ -1,0 +1,37 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "ERROR": true,
+            "test_linters": [
+                "tslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "num_passing": 8,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "e52f75d0ac015b44cb1a799db71040bc9ec63624,9cf0ccd078ead5a0fc83e5aa02f5fcd3cb8f3889,7986f8cc290f809cec5bb4fce9c383a4892b33a0,f94f30208d64a1e8d9aec6813392d274bf0b9e51,daffeec2b4c62369d975bee61ac3c4b9106d3bf7,97a79c82e7b6aedfd5f41fb0377b19ebfa4bbb6c,f9addd240ca92da45104ec094c5e6b6e671dc7e0,36d05f5224a8765b03b39a8a93ddd9945a0a6986,b50a6d425d1d93a8fcac36147f2eeac6fecc0956,b54e692918aa0b541068c81363c1a78432615ea5,4ba2da42ac513b0ac51180f9820ae74dfac9db46,e071907854cdcbe8b3dce3dc8ad8aede7f38dab4,8f97ab6aa7f46575b1ab82735a6d414e432c4eef,b17fd93a81a91329bd865be7ca2da70872433cb7,31534c11ad0ae54d2b3446e0af69816daeb95e7b,4df5214400cea97ab775311928aa5788edeed52b,d4fcbb809ae1645ec9a5583800844ec447710f1b,76be60d289469844539d58cdc12f0ce487eb7e74,5ff960bb899d52c660472c4594df595b28e267e4,fce5eace110ef828985433a6fffd02dc104820b9\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//adumont/tplink-cloud-api"
+    }
+}

@@ -1,0 +1,104 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build:web",
+            "build:native",
+            "test:build",
+            "build-and-test",
+            "postdocs:build"
+        ],
+        "ERROR": true
+    },
+    "testing": {
+        "lint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:cover": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:ssr": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:update": {
+            "nested_test_commands": [
+                "test:cover"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:ts": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:flow": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:flow:coverage": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:build": {
+            "num_passing": 5,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "// FIXME: test:build": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "test:cypress:dev": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "pretest:cypress": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:cypress": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "build-and-test": {
+            "nested_test_commands": [
+                "test:build"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "dd86e009b7e3ce72a9d21d954b5ed857dc040d11,1c7698080805e05f5180dd223cbc17932a85fd42,a13308910282c44ea2ebdcbc8a6dfee901df48a2,4b6860e39802019d750cdddd0a8ff1b561a100f9,0d87ecb5d33fb0732ff91fa20951ba3da177357b,b387f61bf0c48c6790435a8589d43c1a911cebf6,5e9f2c9da8f081607cfe9018c5976c5a8f3c2a8d,a3103d78b1553909ac7775cad40370399cd4c748,2edda8b8765258be98fe47311f0bc29a3a87d04e,57a41cf328bfbd665b8fd867a4915ae7a1cdc7ae,fadb6f6001a55a62f67bec3edc8e789b7cfaca59,d1299c4ab4f2f56e9ac79024250bc3f18bf0bd6f,ba0ec8a51f3ee60d52b90122fc3efa7e26532160,1bb2e03e3c1da7e952e578fab8a1a8d6b66bbf20,2814cd579d71f298714bf97bbe4acc4030e393c5,88559fc86fe6c55251e17eb7e4c282ceb2c43dd8,45985a893a6b12e12627c2c4ba87966e8826cd65,51b522eeeb09199ccbc574913e93a1a82d19d1b2,a1f3fcb5da8f9a882745d07c6ddb9a48a903b681,de3da1ee8f26cb6d4a066dd9d2a54413234e752f,a2c8f3fa1d5ba25363beb99e0e17369e90de3189,72e5be45fa8f3f8a05038870bbf15df7a16b590e,347e2904f537921d83d18cd138fc6053cd0cb822,fe0fd13be9c75b6e6834d9f712979339b2d50af8,5525e9847a80ab659f4a0f182e86fac5d2e54c41,5ad8864cd618010893b249e14007daa846b24c30,f1e4f26440d7646ba4eb899438e3e3cfe154c3fe,d8caf170e705b29a3e9b42dcc128e2ec13733cf9,28cdc021ae5bf3c696f7453bc316b021f98c8a51,26d426e595c56213ef2d28df75468b63a52bba01,2f50b9150fb0bcaedf353f3a598c23a23bae90cb,860da10ba4b1262cc5ee2a5a1955a83f6f4b219b,206887887044a834d1d6a685ec30a011c7768fbc,653dbfd8282a134b8e4f24957669dd5d59525aa0,b17e844c84e6f4cc2ac38dcde618b81b1ff18d11,221d50ddcc9e7a2f087b9d647572841134d709d1,a6cc350b58ca69006bc42cc8b3825fadeb93263e,6b7a79b78342373f452cba1ad67e8564430de60f,02c5c668e3ed88b0fbe680f79ffc08822932fd19,491eaa7f68df46edff236139bf4b0d0577d0f481,84b6ff6046507a8ea3cd783e005778e97d2a9674,bb699eab015c857007b462ed5071cb1d91e095c1,1d4582991bd1d81dddf8601419cf619709533830,1a11745fe96e17823f98af455a3e0d224aa26baa,ae49ad80f1fc839fda54398bde6dadc96ea3382f,e3a0c23bb4bf9a852501fe9480f8e99f2464ddd0,297bdb63ef20643e76896a9c39dfdc62770e0561,c90e41b9cdce8be4f04fde3b46ae775d2cd915b7,fabffff47e670d5a31b7050eddd55563fd0212b1,9cf3838f9d7dfff2641a78787d2c70a2fe5078e6,046e4abf4468fead3bf3adadb1352279532345ed,20d5584f1fcbe203056c00174c971c3a1ef55bd6,4ee97b5d108c18740d2922234df17bec0938ce93,60965aebe2a4ad834e21b82e684330cc67e0c8a0,66bc9ea2f0a941214ecffc84cbfce541ab8f5ad7,7f72cf39ffc634fc75cb3cfdb2e840ccd5c888a1,cddf9a14703ce674e511ea9099fd5de2322b9d0d,21199b9c5da16813a10511178f5b66b8511a260d,6ae0bbc137790183b7c5a15e41b92eca01f6f9f9,009b016d9c46bed92caca3888198daecc378a67d,07366a8ecfd02a5418be6c23f270a5e77e0ac7b2,7dc7a5b4a06c640f0c375878b78b82b65119f89b,ea5f3881b8b9b8d8e2f148687190d14f1cd66f0e,5b721a13c496662402c16c5c0cb52fb2f96946b7,984f8f98cba146e01436cd7f367f28c87ddc327a,363e7de326a2ff32e3211de52b3b3ba3ef5c1fe0,9fb1524a2d5f83db243001807cf890b0657aa8a6,f2b7b6f3de493352b2d006b10ca897588592cf67,f846aa01175ba3af470da1fe32f0b92ce9e63266,4de24a719ed1cddedaf1ccdac0be23b5e97c2d44,0773ffed438ceee71ff21154f2b1569c8c7de29f,d7d8985567d3e4f7825131a0a054f700987fb91e,c21731a14dfbb4e323758be90cc37ba53021e4d6,dae04ec1d5b598491885d0519a93e02cd104c5bc,0aa0c6db26bc37a5cd9e0a1e046f6e14520f51c3,ddc8758372ec61c9dd47c7d4e9803afe3b680be3,92b5ad0011140836b2196d9e6bf17036945047d7,f533d3959c837bc0e95299c1ccdeb2951de2669c,d937119052f68a49e1f3d024c7f21dc9bb77fb6a,d6834de21a56d708e337674f0cf443571effa5a7,3565ad216970d271ee75a426b15df8c31ad0bcfc,8b26d4a36482feb0872ef3190e8b7ee3462d981c,d46794c1b2f3fa31611fc4da167a2ba7effa9f88,e1273c8df4d6b33365d8f2bf69cee9d6f8b97760,0ff43a30db1f5e0e6b238fdb417ca70529e79d68,19732576d4f5e72b792bbc555c3c5ef7336883b1,9e3bfbf6cabf7ec92d1d3eee1929ef789eda58ad,42cc800e78b090dc50e570e6be777eedbcacac55,8e8693637e3d1387185f8558f99bdc115658e30e,afc48535aef04faae4313fdb0b39b7d17c4c3c6d,e34f5bcbcfa6024cbaf73dcc0ee1ae65cbfdc029,42381636403bbbafa44d9a789464c8a5c8ac9adc,4136dcdab80d6a6e391daedade47e44f3c13f2e3,08425d6f435177e95fa4b36f41f9354e541c4968,62d3c6d958eaf44eba42cba226264492c0c6dc8a,1b121c6bff29f4cff91adeca84a135f61f3dd594,87e8827a4d1763f1362eec293cd58246d3cec1f8,da6a677a45b36723e140e75da62aeaa66a16c28c,28510e0aa8f711bdc03d21b7b9fa9c5f9ea9c0b8,7ecd7494999a0073fe7d339af360a847c30e6ee5,47b2590402ad61332528a6f175c67a1bb7720cb7,b9f8cf8ff98500abf4ffc19dc0e5cbc8d815774e,24134f38bec09cf839ba402528c23f9210fdebd1,67f53de6f24a928de65709a0496983b559ae96c4,e3935f2f28baf3575728499da9ab0a47d0a4de20,3c6406d3e304e24fdf0c2bc151294a6dee18f4eb,4e05ca71f87e77c33ded119c525b42b4f3945d0e,4fd6ae258948c70f214d7f90ac03490d854eb39a,9f0f1a247ae9dbd6e7fec8cce7025d1153c13543,0f71611632bd728c02cd62ccd865e80b02f04473,ce41f86904b15b497206f39bc21d2922de1c2e91,88ed0c6724bf1b25bc8d3d003a682aad3697eb05,3a78ff7644c938ed54883330066aba208036af83,033c6aa59aed9c7b3ef0435620ff7d63d7303aa6,19a8dae389e87e6701afac6a7cabfc6ef67d57da,60b8df49fa023877c65599f8f6c770c14d6722db,9fc4a5ec6b2919a6ecd4f4bd3e923ff7c21fb81c,d2925a845da1c4094c55ffd8c4e3f41f60d38cf9,3b2e843daae58765610dfd0cd53c5b376e15e9f1,4f32510d1c18ef71e148a70701a65685d6ae64f3,6769226de45ce4dd8ad55635cec5a0663175496d,3b1e057d033d3f79a07031b31b252c407e1e342c,25001a40d0b278e7a4ea7eebc7a9e6768ffeb075\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/downshift-js/downshift"
+    }
+}

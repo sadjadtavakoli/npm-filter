@@ -1,0 +1,43 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "cov": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "ci": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "fix-lint": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "ff09c01c86d28018bd7ece2666dd89f7b7e14a19,3e869c238d33cc10df81f5995279e40abd7332ee,24805361963572f332d98cb685ade3f6b742a2de,caefb43235c4dbaac5566dceb6804bfbcb7be6e2,780b0efa105d4b2438cd7c7a289dc0dc0e49541a,c1b3da3d59ed80535f41d7729d118e5bd1c6926e,22aa4219cb14f2600970d7bc38c8e41d1c3b4c95,03bcef45f2da0279fc5d9a4494e696def86cc8d5,721eda3437fdc1e704a426718776c72b073029d3,bdcdc9bdbccdff6aeecfbfe8b18ec43f42228d76,6f1ce873e59ea39cb3f04206cb0ededa4602407d,04307b4cafb6deafbf060a1eb801001bcc2aff1b,72da13c2b580657d840b7fd523e95f022be4caec,34b2961b957fc9e39e158c123549258bf130bd87,5ab6fa832201c808c1504c85a5447a2d0e7f19d3,3b157a751a5765d49509b61dfea6e76c6c1cfc0e,56f3a09ff1d215dd51ad5273f49479a69d84b026,75faf68baddec1dc163431cbab4087f9f96a9c90,6fb808455761c61810811190b6b3665b110914ce,f31c095bdbbf14f23a33c62f4cc19431e615383a,ae9020d0f6c5afe82c5f88fb8d5efaa9f3981434,e9efe14441a7bff6087db2b1ca27e539ab96d43e,985ba74bc4ef4bab12d4b0cc677c8c07c557d8de,e87f86dd64af608c642e5bb78b350288b19f9df5,06f36006df651c1392d770f9eb5ff07d9b6514e3,0103e67d9e3f47a46cfd98a593537ed7b91bc3a1,9d6a3c31e439da7e831d84bc7784ebaa9c5d1e08,e2b1228b6b7539e1860471ad63e07a856a8fdf97,47555ef2063cd584d834dba14f77a1a17e1998fb,5769478acb4b767bd30b3095cf8cebb0e67d1dfc,9ba5bd0e32aed83741d63dc03b9fe0d5e4f13b38,527b741f2bd88b22c6e76fd40a9bb424e2b85c57,b4ed087ce019010b8d17bb2ccb1155cde85cfd3d,1b194e1e8b90eb70bfe1638f8f61f5fc9cf6870a,ff17badf595f64d790d94562205b2b9066362166,f90e8fa5c4811cb707a3fe6fee0c83bd3c70c9ce,f3c5f6ee7de69ef51bffa54623503eb36c508bd8,6d5c94a77a49e20f17c19d38d2aa968e6fbbdb47,97d415d2eecb6cd4948001559719e10e81ca20bd,6357fec2a5e05fb901feceb98af9c206343f776b,d8e66aef276973895bc955f8f8d7092b5e37f89c,d976ff5a9a94388f1beaeb0d4a736f9ba7277242,81aa4c613851a4f96cc740530ef1f3c193fd5472,174c05ae2f78c426efa1a58c03c0f73156f05cac,8c9f7cdff6e02a8a1b556947415b5ad9eb9cdaca,76508e1094fbbdcd58f56960b96adc570794d869,2607221e09e878775feac7acef7f4d6fc476a834,1b1443564d1931d4b0a3ba38dff67331d003325d,7fbfcf3a2d6566a1c1ad2f7bce7b081238dcc805,7421d9ac96bd662b07a64de20e536c7a73389129,4ae1d255aa9e374297cb3d448c8409386dd98696,607aaff5d1b5f43d01e859c2bf57efe8f8e87490,57eb868fd9e60401f29baf224b47e174c9db36af,885d6ebe56764ef6baf97c1bf2537e13c9ee36c2,24747a0057893e8eadfdfa1127992e644b92cdf2,4446f826ec1153635cdee9d4ba8d2ac80b7bf24f,ee3d8f17a1ab7600d5b775bbb0825697c93d5486,1aa2c1db8490aff3777be8aa124e8d8e4a61b4ed,d0e722b95e35b1f33593256c5ebe72cadc1ee583,b9f7200bc3393e9006f65ecd3ca25e0707853b20,bbcaab44f2012953dccf07de0f4d453af1085f60,f610335005628499e6a16e8ade387b6f79e15b22,37998d9236d7de0ecf59024e6829c9601422a704,0c8064aa6b50ad8f76fed2e8095ddea8eb03a84d,94403f3e319656e4876002471d83f0f711b0ccf9,67f763fb779fe9690826603bcb790a200a9685b8,f43c92469e502b5e1c2401c4770d5a5edd1afcff,6a766690f230bdeea7ac2ed4a7389de8f8fc3d51,9863f07340c56ff5d53a31a987672d6931a613e5,f745bc43bf023ffa6125bfb468df866ba88a8560,9780229351d57a2553b50cc872ae089e38dceaf4,aefbb9c25f06a6c16594bdeac0de7b6d4e455775,d3eb3b0546ac88da05ba47150403dabf8bf9ec7f,169125de83e356f58d1485483ead1f5f6ecf15df,0f0ef8ec4e084fd40392283bc5a9fdf44eca1cba,5cba3a0c50309d4a9f1293a29e04ea0ee2b7e69a,b3448447f32e884cdf33022c7149159e86bbb038,a6c79e2480adeaccb4fdbe8e9bcc1bea2f874619\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//node-pinus/pinus"
+    }
+}

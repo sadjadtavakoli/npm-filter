@@ -1,0 +1,31 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "prebuild",
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "num_passing": 12,
+            "num_failing": 6,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "886158f336d8138b5a1b6ac340fb9166f7664379,6a717c33a112ac9b5f69e932c7c2500ce4152792,3c42f5b14f0e21230ceb840e742df4cead19a381,ce9164d77df11c48eaa97324c744e33f175d7757,d487d70469885e16a044f6fd63aa0b8ad4170fe8,a66b7882f9886ad439f3bf5a39d2c1c0fd32ee14,ce9977c0a8c02885672baa656547a387d5e90dbc,971be7e505d8578c0b448db6c25173e421102c6c,053a02e23804f4ba4ed6a921bc8189e100a2db93,a7d9f4f292f76866c11941fb8de0f131604fed61,7b5286526c89077617cc373444f8fc88025c8443,25263025599be81ff5d40ac5178ca1a8e5262283,8bebaa08b879297eccaa8917ff8471fc1519118b,e1f15cb82c2096fe201bd15ecee66d73072ab29b,810c250392a9fabbebb9f40ddcb98d77e3614495,7a77910696d2c7d293e549b568129b6390bd41b0,b1430cbe710fd2e4416be2e843951a6b3306086f,607afb605f1ec11a6eb8ecc42923741e4e0b1d24,d01d9a5328c47405bc2acc78af36fccfdd36ab53,4564be2f8fac2e3d070f4b66bdc02faa1d17d638,a56be1379bfce8cd5efbea19c72c2760552513c5,9bdadc2d02463ed59866c45239cb9b01f6ad3266,c2b8958af063cbc55833040cd0c60762d2371757,6116c5fbdb82aaf45af88c291883705e93a95159,fa16caf93efc1c942447135b092df3215ba2b108,478c5f0e2d6b5c215fee9a3dafb595bd9fe212ef,bea64dd2c9f08f6edf40e49f171d8f0c1ab049b8,8254c1d6afa2475fae4d8b923293950ef456a291,1f61cd3e75771ea070d10e1341563e9b2bb20963,5c1219fd5650ef823220bfefeefa7ef055cae50b,fd9c9d1d2912b36901773fc29b1344c55ce982df,3fd273b947907017b47960c95432eda5d90b5dc7,29784b9146c941103ea0f7dac794d89d66ed2d94,7d21ebe63733310fe2178d6fb23eb4742cf1c1f3,318284de2f5564e4a5b48a4467dee706acf8a1af,cfa931da11ccc2e4771b8697f4de0a325c06f98b\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//talyssonoc/node-api-boilerplate"
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "lint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "67d3e0b37e3ae6e72a8467b64c5474d637c38997,2ae89054289039c4d1bc90b796ac7a9fc91b001c,a467500cd1591642b21d30a275c772ca553849ae,b011497d27c47a050397e6b7819eaac9e700bbf2\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/micro-analytics/micro-analytics-cli"
+    }
+}

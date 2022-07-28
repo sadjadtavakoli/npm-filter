@@ -1,0 +1,29 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "num_passing": 9,
+            "num_failing": 0,
+            "test_infras": [
+                "ava"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "b4d661e70e3dbfa462a49995e2744cb143a573ea,ffc73ff89c11a0f11047e241fa87c2f205bb0203,28145234c8c5fecda208cbdbf8c60c962294ba10,709addbb50ec8f6f51e811cc60ae89010a2ac1f3,ec40bd87f64ee74f4f516cebd70f6220974e820a,3c2ed342486fab8812a1f67eca6a1f8ee4753e1c,e2d4ad59d2a2b19941f2f198b13e8d7522724fc6,f2d6330581bc49adc32c92915600426fd747c95f,36edac6a3a8c8c48fa64661a044bd836a116abbd,1ccadb52827c943a6566533f5f1124ebd1f3aaea,133dca178c5fe9cd580071366ff3ae8c7919abd0,d602466c6c25e0ee5732e05b1ee1d55ed4f1fc4d,d465e09da8a2edd72728b7965a670245e7ac25b9,5e63023e1b8bb89b45cb4c66f7b996227898c078,7c6aa67590c46f6a7db078547b85578113f7aabc,3b266ab47cca29e6f32cef22d0d6a710ab7a2915,3fa2baa714c5305362e10620bf170aea412fc5b9,4d641fc4c92eded60e8deaf05ed6a20827b8673a,c11f428434ad96c13404b5cc8566202f73ffa6b8,38180dfa3d8be053d06936451d5cf2604380418b,14d1601cb8831103b2abe9a476aa9d8e8e9f7ba7,ab749f05327d285937d1a81ba279f7ddd4101207,6d358e631182a83882c64daffefac0471eb69d7b,49f0da3a09881a96ce20c79e948d7837f7f1682a\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//FarazzShaikh/glNoise"
+    }
+}

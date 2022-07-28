@@ -1,0 +1,40 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint-staged": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "num_passing": 19,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "afacdf3d52508634855913259f717033e8da0eb2,4f8a2ad2fb1eeb51d4529b29dc16e5d1c2dc294e,d72be924b698c4140072e299542fb6ccf8968fad,72a3627e739f817243dcbeb4824829eb0939ca06,50f6df9980b6f8fff95dd1f249566c2b247ab17c,88e63c1834a879a09959ac3a4e2afe039fdef092,cc9d240a53898e4ba2af052b9504c83f391ba039,b19c96367abfba9db03d16a49113133fd2ab852a,bd291fcd64b1babf044651b88f3f0fa27f7238a5,f581b4b74ddb27972f17f9da6f80a5e7c7318dd6,2bc69b9740f22d5da70f0c8a6dd7d6e3fafb224f,34e4aa2f095ffeca972ab7a2e64be4d533108841,0b9aa87b94fc42bacfc599310c0079455aba4ad6,a8bdcdb319102c8f35d8558c400ab919bb61dc9d,86fa0f019998975e13e0994b10e50cb848554e8d,75d8c95287a6fa444a3e0a3b9f176475dc0a2c32,aa2444cc3ac7ea8f5c8011cad9352364d8124f8a,0bb70df01dc8058a6683e94732b12cf632ddfa22,2f4f87e7c90cda9781803d3ea7f11e5c61914ed8,361e14aa1ea132632e84df172b7b8bf190b8191b,1b21577b78ecfc8fda8635714317d4526908f719,d4470d439d7d0db58ff00ff78f9042f5b3c8c702,b00682edc8ec8f26bce3cab455e48c914876b8ce,50ea4685d0cc5d316967c8f5b8b06ed76e7cd9b7,866fd6a9264ba84712b7bb2d89151a1ab300a024,c923349d94aeb71eb38aea528d8301308059dbc5,ea8f628f0ffbce7dfa673fdc357623bf0f7896a6,262dc82f4f5f19e62591cdc18c63658b2db685a2,244b00ffb83dace02e56ab1d46ef8f368d243ff7,9418ed37eb4bb632ccaa47e07fea3a238f0ee7c3,ec96b40227829f55525766966d3bb333d9246e8b,7cab3a9e713a78b74265d110615ab010a4fff06c,3b1eb7d6a6b27a9ed431930fba858def9ea96a72,9a7942c3bf66dfcd76456ea0964d8ab6898f7126\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/dvtng/react-loading-skeleton"
+    }
+}

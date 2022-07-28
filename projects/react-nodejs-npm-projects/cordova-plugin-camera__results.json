@@ -1,0 +1,33 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "0333d001c7c2df5418c2a344e275d3b43d99f2d8,7fad5d5786822c3b5d2781a47599b51adf1e040b,80342b0dddfa8e9ec81f84bd352685fa4ab4c07d,b16c5234d5846d5235c2824ece2082255c4f1ce6,ef5484a2aa72e63c2ad95d5533db6f25ed53e5c7,813d143667c1fc1fe4a7ce2b2de8a9504861dce0,c50757c2451654e4c1b81cf5bad2b54eb198beb5,fb8ce21711def54779fc4f52643f5621b3f9fff6,29c9ea387d24c2a4d5558a3af8f9de219c98bb9f,6dcfa9cf9bc4ce3646e1fc117874e3d243d94069,f3cfadb19e7312c85934d9d241e0ed4cc0c3b13c,b2403c607652d2db21d778b39102e57652f813a8,f3bc296da86c9799a43d28cb0a77cf12014088b8,938543c203ce3d9ae35b9d03c50aca2fe598c41d,d53a7770d9b064f3fa5140a5aa58707a9853e5d6,06ecc91fd1430bf3261990315e7e6361a6bc5cad,464c37eb50467a7aed91e51aac371c8aed298811,76eb49da95edd112d9eef8494615fd9d4e753e11,e8e420895eb45bf0b5d5094060429c164ef38364,3a3bbb1cc9bfe4d04a560bf86bead1fd01a2904f,fe35a3ce65e74e694c6389162547dc43887170a8,f02ae7697e5533c181088beee8f2d0feaf67e57b,0b6342e56c0038bad3929e85093aec22dc0350e8\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/apache/cordova-plugin-camera"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: grunt"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "66eb0f2eab8ef21d3216e4c89f741bc7da409e7c,33ca037158edb208ae45a936c23cd271ea0688b7,bbda6f5dfb0d2e028fb834846dc5cbe28e13e451,207bf2e355b343d9bd2685b200cc3db61333c4db,379772d1cd7787a9397d214ffadb6da733e64102,33ed01a7fcb887aeb412fbb72da683f8195c8b33,da7f655796a421efcce5f47561e815c03d0c9132,e502c4cd8074aaf48db6de815724e1e1f7531fe2,2a9aa36de680aa046832196704e9023025dfe589,674ac7123d82f9ac344348a393e821ad8453eb07,bed7cd88ed0db501971d79dae655a9821272e759,1804218c6eb83cd6fa5f674764761b52131d557e,fad5fa06a1cb11a4e49a66382f4f49b6e889748a,f48ed0ceeee4862cb5fdb8f0aff6eabde7d50618,b5a261dfc7236295bef7ba96bb88e9b1407202b7,50a6507eb7c55e6e7b9874ea7944e12fabf3498d,5cebc6ef147f34c8c1e98fa8b4f3eef22277138f,806e948edd6985ae7ac8c41c8160a5ab0051912a,8595403cd7dc02e9b9c36c170ade7196491a8512,6484dad7d38ea4ade81613661f5e2346268fee3e,0bd7368d061796c3905ef29e576bcfb458778e5a,d43d0dcd0f33645136951b670ad3ebb7f4592007,d0a0a628e5c7849fce391a44bddb7a5775320542,1992bffffaf5e4aec96ba2c189998de2526560b6,d728a18a6a9661131edaa0041d6e7b2c23729b44,2a2c8777e130de2a496df849e6425140a4af6730,ff327a65ad28a4597063d8433c557d35b5ceb651,92da0d8f5a6d56d0431d97ee6b0dacfeb0db30d7,f4f49b95871e7dcaf59b97cb67d0fedefb9cae01,191221509a6e2dc6bd72c49c543d16b31d32dd6e,2c0fecf5dbaee24e11b459f2b4f49bb69b7dc9f6,8d472ff339c648bfe23d84a5dce7d172294a5ac0,6f6d07369d73ee7aaef9be8abae508b98bbadab5,c084dc474d47a64b6d6dd87244ad6adb2798395a,cc0d0258db22ad97769a5515fafedf898a6c52c2,cd07baa9695fcbdb7cac5940ee1fced0c2f9e225,c70bf4ab1c0cac93195d0208f722e6f3b4233e04,2783ce0bd0488a7326604b388366c408d0a891eb,76d26f8007d7dfbcd941ebbb879d39688166b644,8727288741b953d630843c114d2d47c0a1593beb,a042ce565caa8a2cfb7f63eb89cc8e5ab27f5ea6,4c412e82f6b33aaebd93c69a979ea71ceed611a7,c882279a8cc38b968da1b512d4cb7947a832a4a0,20ac1d77408f7fbd6f743970bc22c15d3d514381,0474c02d035e677368569e6ba24f7499bc059a6a,b106cba8bf5df2d38a7d9b5df56faada31e66556\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//asapach/peerflix-server"
+    }
+}

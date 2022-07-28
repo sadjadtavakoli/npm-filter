@@ -1,0 +1,63 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "validate-and-build",
+            "build-storybook"
+        ]
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:jest": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:coverage": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:e2e:dev": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "pretest:e2e:run": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:e2e:run": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:e2e": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "32ed545844f93da00f0b9d4fd3154c475d4773df,d4cfbed2d53330d695948a05b086bac545c0f62d,add834ffc16b34d1bbcc0f13c31e310cff84a731,6f7d873bf6200b8fe6cceea7ceec5cede7856a25,341919f8b03d1054202a049d24ec6f20271a7019,3682ceac48ed8ab8c613d8d57e268fcce0658405,59a1b2256626b07bac8d3908da5e614cf0c9d198,1d31ab54fdf24bb05879d6b45db46637c996630d,d85179b10e56e9777d8fc5c21820dee6532ba31b,a6e4bafed105ca7e46885c94b2a2301b70163235,d02a6bc57ebba8034843aed52761dd723f6f1b9e,083cf4969cef7a6a4fe028335a6868e1a6de5522,a3fa1ecb8622c5b9a9a99d4d8db03110018ebdb3,5e6f4139d8ff0a831d234dddb0e6fd9601b7a854,347802c51203be82441767e7c55c4c50c9f0686a,b64176dc10627a00026c3ae9570befc4ff884ad2,c88625a1f6dbe62db43e1f747feb7408752b9462,ca4117ee214c8fb265c7c16fb09c34a26b4e0474,f3bf517e86610f2650c8a25a47360cc6c7ca2c33,5c56691680f2977287eeb7280900f16afe4eaa85,85e24633e13f46ec457e7db1f1bb850231820704,870c7f6097e89594c147f7be41d15a905e9e88bb,824888c6889e787ccf835ebe95ad914ccf2ccc97,749f03d7c3e0bef422d7cb25e4b2f58d20c0b6fc,d33a465770f9cbd443225d0f53fc9b635bd6fc05,6e197ac8c3f84d37fa5d2fa46cc92757897ab2ec,4ac8414059efc0712021d055932b7ba6ffe15891,c441eca6d461a7a4c6a1ed5fe3024df8f75d5bb6,f88bf5e4ab631eae564a2080a0a86711acb7fb6f,aec85662e55bbe75e2c3403dd36ea65f29ada055\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/alan2207/bulletproof-react"
+    }
+}

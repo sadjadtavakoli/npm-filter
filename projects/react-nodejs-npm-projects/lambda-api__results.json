@@ -1,0 +1,55 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "num_passing": 463,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "test-cov": {
+            "num_passing": 463,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "test-ci": {
+            "ERROR": true,
+            "num_passing": 463,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "test_linters": [
+                "eslint -- linter",
+                "prettier -- linter"
+            ],
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "26ab7d62c986ca1abcbefe7228f118a631b8e6ed,93cc0a92bfeb0e3731f27cdeffd18921dc4e16cf,e33a22777c6bc0ca64c201a5b40a4ee74fa194f3,13d6efc113d435785a45209c10b108995e70470b,0f4fc6fdc34ecfa153a2ee12929065a80c46024c,9c79aaecac69178e98fd1ec228200d8406e02928,209deee8af4669d36a38fe0d7b31e5851eb96ba3,77eaeda88bba28e25b408defc24cf13d26b5a679,6ca1cb2bd0e83c3c23f001037d3a607f868f34c8,742d981c28b4e26d9229c9321b569c3e94d94c0f,2e962aad4a139b2f81736505dc6a1e173f44ffe4,30183b2645320e5824257d9e930e029da9a7c5d0,48d5718ec646ab187b0249ef93987c8d2199883d,41f430e521b0c111a3f61aaf65de1b267040938e,ec512dd10ddbfa4b1455d0894141755dd25f940c,40ac6cc867d8d12d8c74fbe304c52437960bde42,0964958a9a03d28fec5d5fddb440daf2299b833f,c05055f4db945b6a11127635ef1b4093e3cb7830,254e3004feb22300e026034661cb7391845e985a,34bb29b530c6c352830b49a8edf2bb3a6dc731d9,149ff6c9553fadd50bff8773beeb886ce079dc64,ebbb62e1db974a985e8d95a7ecc23223a3ec45f2,2990adac64753936b3da35a8dd5de7cb7d4062ce,776dde219b77a1e2608c43ee144db61a3d8c2e5c,7d6c169dcc04f6fd4c8d97d87363d610faddfd26,96687cb264030b895586a9927f5d90b78e45c7e3,c2cfe6b6db5983360dcaf363ca9d9a6a784bdc23,c2e0f2f00a582b3fc508b73c3bf6d0e69230307d,3fce7ef6c51056ae666332d102798174cbd70f1c,09f65963ad6e6416040d764b338ab65e3573ece9,154547578f0b7ad1fae5e3ed2c13bf4e25718089,872b277a677ea652d72249eb6bc5daee021dd014,e130b997b97317591582cf6905afaaea6c9758c0,126bfbf56f34e520a715a82c26f5aa5d137153b6,c04b4dc21fbb01df345ba9910addb34923851d2e,482b19b44efc27739e3b5dc005175952235c2c86,711c7e3a3e2ed341f5996f305e1092071a4b8102,328ba03ae30e2548efc048223e4b03a14544e453,2a50276ade533ff9a8adcbcf3001839393fbda00,85b18a77c2544832a778ecbdf4f0055fe79ebb4f,c8c267df415d5af03445d1ca2645d867df917f62,ee130d1581d0a4999c903c058376d3be86fe9f21,7fb74f98b73f8cd219628d34d84b332ff5db3602,d9b6c5c38276443bacdc6506f7418153de065d1f,2e8725eaa05be0c0b9c180b42915f502e5f50dc0,d5e4c366f4aed4a426be5fb7548f9ef5dc8cad3e,7d5d3d7b3cba1b252a3322977073d4bb1c76be0d,dedd89eb55612e304f447ffe413990f70cff183f,fe54a088b003bdc55866b0299c82773054d932a1,a65170c91e0f31d5bc4a4a863492913b773e637f,38b3477d0eec32d6bac13f944180ae48a297f14b,f7f841e3d0f6043a830fe4d5d8da5c765283eb6c,404d7315adf5fa5709fcc4ff0783c44a272b206a,8cf127e3607d120bf0e2d60bd5559c3e18ecab65,15ee539bc97383e84f931917462cd6cc29fff45a,a2259a26a3ae03cc91b588ce6047c94a2f8b9d1b,5086386508d6a37beb5c83b63f4c34b82c41ce4c,c8c7d06239a1481273bda808482c0602a2ae374d,cd5466cf162c04a57a704c31127f42e680092d90,ed1f1b87a3bf631797313d39be570928c758ad39,20f31646a8ce209def0d01c95617919b95213fd5,86b529eadbbaca862550bd7132c25fb784e915ec,befc95ccf4f634015a9284bcccdfa188afdfa8b9,a35e3d8a8cee786f345423a21498cd80a5c4c9fe,edac31758edb5bf2ffaa211f609a991c24572e72,dd147a3fa99c259b034478ae9a9b91c15df22263,b4caff921d5d79422a3e262dbecc3dbf3c90297b,28fead20b20c440793753eb8112427cde8fed6c3,04a355d6f1316d9f3291813d4dc620c86120e432,22793a58a86ea8813b5dba6fefb56ee27a947eb9,a52444541dd919871a2f5e062f841803f16ed90f,28b9c33d4d8907dc82e8fc3c637aa984de16e6a6,6b0d2d8f43771166fa74ad66a359576260933ae6,04e21debc0e0375272150b05a97dc5a4e0253c6e,d37fa547dc829b5d82a5379dbf286c1e94842b1d,1a37cd7c8378ff67f10f64e59ccae341ec4ef01b,4bd1a6d7e0193343572f9c87707d763e55672997\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/jeremydaly/lambda-api"
+    }
+}

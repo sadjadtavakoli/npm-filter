@@ -1,0 +1,46 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build:lib",
+            "build:umd",
+            "build:umd:min",
+            "build:example",
+            "build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "tslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "coverage": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "nested_test_commands": [
+                "test"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "902939254b46d8ea623a3384d6cfa3114d8d03ea,d7806be289114cceae6c45f55781006025f39e7b,86b9e73b8241c4c2b2193ae16b93e224fd47e899,59c5b4926fe5bcb5360aaff2a25677ef4da857da,342890a77baecf4c9d6b48c713c77ddc25b0b114,fca88bd6ba043113d98ae810ef74cf2ed6902188,55cf13f0d6dae503ab3342ee94e6cdb39915fd51,10a9140491c4a3d52d327c8c160451ec05c90df7,28c1e2074210e7c26082c5ef911cf3e602569091,9b8bf7dbd4c5c66800d08ceffcd58724c505643e,7c2205a20beb93c28dbaf9d8db023afa6bb257c1,943595de53bf5a8a6d5d1379094c361031174a87,e0c7b705281d3a906f62c60a7d41c92ec5cf65f5,72876d0ec407351f51526ac457f66c97cd048acd,5f1cd63a6eb8c08e86b6b62533e1be033de8d955,3ce5144dc0c345d07da568e99b766ba33af6196e,b390c19bcb8c7d2eafc7c758bb206a41f3d611d5,45b243d6bc36764f2ef3b8ff9e71e47007309037,c4f57cc806ce9b976bd5b38e70173f0bc0715ce5,a01bb84b23d636c4fa285ad356eb27217af3d523,b6bc529e9b021325638f41a27dd1d4056229afb0,77cf04290b3e38df6331b6c3fd7ec95e15fef88c,b539b5fc8bf3e85da7faae45fbe058c584f24b76,fddbcf3b2c886613d02b96175d252c6a432094ca,8e496363d5561914038a58864fa1742edd762f37,ab2d82babab4eaa64b9b5b09d3d4869f41c00d16\n/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh: line 27: /Users/sadjadtavakoli/miniconda3/bin/python: Argument list too long\n/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh: line 30: ((: ( 8344 != 3722 ||  > 1 ) &&  > 0 : syntax error: operand expected (error token is \"> 1 ) &&  > 0 \")\nwarning: inexact rename detection was skipped due to too many files.\nwarning: you may want to set your diff.renameLimit variable to at least 6723 and retry the command.\nwarning: inexact rename detection was skipped due to too many files.\nwarning: you may want to set your diff.renameLimit variable to at least 6723 and retry the command.\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/securingsincity/react-ace"
+    }
+}

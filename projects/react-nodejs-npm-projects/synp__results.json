@@ -1,0 +1,71 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "nested_test_commands": [
+                "test:lint",
+                "test:integration",
+                "test:deps",
+                "cover:unit"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:lint": {
+            "test_linters": [
+                "standard -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:unit": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:integration": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:depcheck": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:depaudit": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:depauditfix": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:deps": {
+            "nested_test_commands": [
+                "test:depcheck",
+                "test:depaudit"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "cover:unit": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "776cda1bf7dc7093e66be82c52c60c78b8f5f8d9,c6915d37831c7f4d8d8f2453c481d20a62a32a78,f6dbccd45ed904a05df4aac2b072359e688734ef,51db17f4ed03b4eadc21337617572d6a648a3b22,012bb946fa4e8df127112c670a6328daae8602d5,610bf77cea08ef5d89476caf287e48effa9db011,6395a7edbe62406a543f792733fff495bd6451c4,c84fb2c1a4d8e84babdc4111fd9f30c610bde56e,9a7eec9abe0a3ba82d4fbbe815bb35efe4159d1e,c1883f871095feab5bb79247e2d1d1d58b1a7779,c0703ef2d24d4d853f1f44393bcbc85d5603ae31,43a485df89d240c63d01059af285c6d314a65ae8,42ef698f3d39a807a6f385ccae76faa5b6c20084\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//imsnif/synp"
+    }
+}

@@ -1,0 +1,118 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "lint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:all": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: babel-node"
+            ],
+            "timed_out": false
+        },
+        "test:helpers": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: babel-node"
+            ],
+            "timed_out": false
+        },
+        "test:client": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: babel-node"
+            ],
+            "timed_out": false
+        },
+        "test:mail": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: babel-node"
+            ],
+            "timed_out": false
+        },
+        "test:eventwebhook": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: babel-node"
+            ],
+            "timed_out": false
+        },
+        "test:inbound": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: babel-node"
+            ],
+            "timed_out": false
+        },
+        "test:contact": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: babel-node"
+            ],
+            "timed_out": false
+        },
+        "test:files": {
+            "num_passing": 12,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: babel-node"
+            ],
+            "timed_out": false
+        },
+        "test:license": {
+            "num_passing": 1,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: babel-node"
+            ],
+            "timed_out": false
+        },
+        "test:typescript": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test:all"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "coverage": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "fa11e35bee18ac480ca9b331c09447907e1a8799,750f699727bc2683d38b1e998ef72e8bef182ec1,8075616e230eb94d289542384e58618194e8c3e6,b64c67ad3d0b2d9a2cd55218ec344db358c8a4b9,18ac2713e77ef9e369c8a934c7edf282f9263e5d,72e3049e70a69df81f854d0c802a0d55c2e22314,34fcd13ca25df0d49d6b1e0eeca9c7e1eebf06fb,b7d853e638fd046abaa1552449534d52445c4a3b,03a099cf55baf3c4f7bd095baff6fb51234b3c85,ce695f3ba4a896d2c57845772e3391efb2efd8cc,09f35469f7f696fa8918185bb77dd841eb77472f,02125c9b4d1ef44d869fe5fa029d9a36cfa4be56,14bd54422c156c444e638034faf149966bb6d927,4c3403dd8531c1c3301f9a5b8d48fb28a38d9991,a01a2775954a07b6c436a9ab9a57269ca98f800e,bc344d8caec49e6d3f3fbc42876805897cf88797,01b13ae53933b3d9a7aa271d9dc1da2c7f975dfe,51f8edb6c2fe6e8fd5d0798dfbe49f6515590e78,1927583c802786529bd81a0724e95f45e6f0e92d,7436009f5e509f1d67c76fa82cb839865e7a88c0,dd69232d3c616aebb2f80e957e953466034c3d3f,022a7246f45ef77831a854f08d7cee64ac4fa742,11e4a50b17bddab4f6dcc0ad13edc9130edbb6f1,369bc6493b793446dea2ed1270fd9ddfba2147be,7cedb61c3a554fa63b52b270d4761d11ab703365,3b982fd70ea062b2c1c880cda768b2a40b51b753,6bef6ceae3bf20bbe20803c4cf9d6a9c0ce97a67,e2b95bda9e57702a34d912fa468a1e3b7e14832e,e41355ee8ed8e025a15c2e171a52b32bb1e067aa,1342ecde82d7af2f5098632b467563b17d9b8d5d,93ec71e5c0f9d69fefc750820cb6d78678d7d358,a369c84cf9f747252dc90a0fd108909b60b3f30d,1313e7e8bfbf35994b79b6b7a1bb84cb40c4f328,0640a1f6ba62c780a11e9f3caecdf8024b6d2cba,25f33c27274546dfbdd6a4ebc1b8f2dbe3048200,0902621b7f902a3232d364677a9f5949ac6287f1,c265692e230570afd562fe8a39c87d9984856957,e61b7a4ab49b1a1565c613cfd26ade7cba24ee13,882ca106f508a2f09af9f772c438686966bbe79d,c3b3f6651aa25eb647908b087f8750e7d28ec520,e5ca93d5f49111a150573ff59a9ea8ac6cf34fff,fe2e7697a79939b6e04bd4f86cd823b1a152587d,4dcb0c3d12f4898dd2b5991dacb3d1b5a9b4a400,a8b066022f79cb636a17d30001a781f8686a3447,8c6cc2b176a4e4bd643ad15dbfba95b0f5c2d2df,f5bbe3c844536bed297e7e7ae2241555cd590186,504ddc1024bdeee4d4e8240624ca7f593a675a4f,f464b5ebb3eeacaf0141999f490ca3c535566117,a69e95dc86cb70111e4cf545225b453501fa58d6,ac70b2236357cf2978a3dc72472ff4bd29e0f552,cdf27da056a1dbd2a1b0d48856b0dc4499f1496e,a8bf847768377cfb4456c32ce572e298d587cffd,64e2af96293c9b9c0d2c7bbaee8dfeeb1f3d21a7,0b49f89e7a40cc48248c3cfb16b15fbf3526241d,43ac2f7ba76754580c96dae840d6d15c225b717f,af4b446140cf5df1db2fc520be51397e8ea83684,b423fd9b313991cdd2fdcd24ec05f725ad76870a,07e93f39d4c82019cd270a9a9331748f5d40d1c4,a24874ab53d88d3b218937b5d8d10d361ad016ef,8665666c61565324405bf96d43aeb95cca343d2d,6f7adb92b227cb9ebbd369052b6710df9b3fc13c,132472912e42eba9b7cafe1ddab20d4a18cee7c4,233ed85116e2b38936233560e9cbb29517ca6e21,db4637c2f071cad68f1c4eb4eaa41a0e2ed90b84,92c726b1678c652328093c781c98250e5189e971,e862fa0e2b447fc054c817f0107398c0d2ace5ce,2fd759fa8136ce0123070a948fdb38255d9d7695,42dc25e7179559909f87721fbe418e51196d7020,02d13bba297bcb2c112ba09790e4c5e43e914b19,35ad93e288268f40a1ba20705879519750d24152,2fd9e5141817949778af42ad8b33764b6cc78d9a,4bd34421af40a2bcc8be2efd78b40aed204373c9,0cbec148d3611dbff2aee99b24b870c02d70f8e1,206c75c71d5774af5240a7be92c43a96fc9dd9ef,11c81a1eca8a596225c107cf3e9b9a7435f3c2b2,d07054040f0ac85f621f39c9cd044e10527300ef,b059a333829b23517cdade1e9927598ea3fe617c,9a552aac900836d77de0ea5e02617a3cf4f8587b\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//sendgrid/sendgrid-nodejs"
+    }
+}

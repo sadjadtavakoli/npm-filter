@@ -1,0 +1,31 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "pretest": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "8fdf47e44f32d479810a891e4feed0900d1ec44c,6153edc4e2a0f68762ae6f0b5bee42fe54c4d8e1,5ed8c9efab1c765b16eaba6001027e8f276e3cce,39664dba4a00cbcb61363c015a8f714278ab65d8,ffd5352ce0d460a9504365ca0f4d27317274a982,423b2ed851265aab78afbf900bd597beb8ebc698,aa1792340dbc301b98102869505de2c729ec4204,e6ab24dfc2b0d33f9c786341e591bbe05bb44eaf,bfb2e48f348c31469193af173567ceaf891d87cc,625a63480e328d214c3f67b2ff867afcbe8eb61a,ee350eacc2a1525f4fa199880475a34df3138717,4346dbbfde3763fbb4ebe63b7957c5accd0d117a,8ba3d67dbf5f614e18e83a0c352218c1fad17ba7,01196334bd50e6c652b72aa4cc17d26bd97d758d,dde2c2b3038362f90a78443463d2fefdd650a48f\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//madhums/node-express-mongoose"
+    }
+}

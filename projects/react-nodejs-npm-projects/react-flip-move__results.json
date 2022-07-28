@@ -1,0 +1,56 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "prebuild"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:fix": {
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "flow-coverage": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:dev": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "tslint": {
+            "test_linters": [
+                "tslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "b3ed2ac4b4623a47b6441f6775fab5e7b825addf,76526b7c7fd9b86cb7025ac04294a9a679cc409e,dcc2a51aad30bbdcf907f3d850f31f8543df4481,c9c5f0ed54f1cf8ab4ffdebd2272e4111946a2a1,784604d7431074b25fac6b0ad5a2c678d67c1775,c8c480d67f014df60c632306f58c8c1d15cb5daa,932437df34f93c41eb2bf43c4c94a622cc50b394,935ba7bf62d624b1d8ae2576759e34fff29b9bc1,ca6e2ae32094190a9b48285a5cb839adcc31dcf0,caa4d0b2adc438a42435960948dd60fce1377df6,99392aff1efa6904c5d37e3f012560a4ae1fc8a6,84561617833e623c44969c81075151ee317e6cfb,60b00a827243d930e42d8b5f6a298d3d5923623e,cbf6e545657adacabffde949a3e7af08c2eba5b2,8f95fe03afd7a5818f28a40f721597f6eb58be87,4662d47f8b8d68810c092b3def481c517440528a,71f90aa02d043ba911264e992bed9b5e0f88ede9,213673fd58bf0925fc796cfe52d2a17f597ebe6c,e2e8577fd1e5a07e07054f909d5e8564fe56aeb4,3b853ce8aa28a944c3a11185935e0b80ab772d7c,097ce158918534da146209510d314e671ccc7465,4f4da9fbb334a006fc42ba074a6841513f0f54bf,4021dc24640c3556f9f6af2c8387f2aad4dc4772,fbc0296ca6d887462fde604b64c999033af04ba9,9373264248b9e054107b8689572e8166a391fd04,adee78e55ce6fe763ff89e76da2a7d5cf64a7050,f1467e830ed333356c63f117c536584708e82e97,9715ec0535b7d2a8d39a4486c4037afe9a8bc636,042134952630b03a2298df50647dbe43349cd687,685137a8a98731d327a0f5c4fc44f1be3f357be9,7da3a949a98e06efa89b02133aee5c6ddff72e9a,797cbef56640234df0b018bab2f7bb7c8f3182e5,0fccf722de372689dc7ed16b28d5d2b5512a214e,85610a5d3716527c638cba6999934b39814b4f2b,15cf56a46a0b9b318b74e99f243e6854d7d5d12b,1217e454ed211f6ab4509a998d004b7fe38d2476,f5877b66e69334c07340cef9e8dec3cdbfbc01a7,c14d987ef4290cff11fae674da32385e2a276211,47025166ea7709390cd81c1ad6ed01f4a4dada79,a11750924ce3396778f0dd6b16abf489fa5aecd5,c423b75d8054b335130c76cc1a0127023693713d,a5dfbb6d733e4a25c6511856f906715194288599,7c3fed4198e4d140ae4a389aaee38519004284fc,ec503cbf80992e824e4aef27f3ec1912f625cb4d,3b28f8e30f7c4b045dbf9b3af6e4f3fe8a738324,a0bfcb62a1c52adb339bde0ed61695bc91c970dc,7fe1e0d5e21e2349a1cd86890eeedd55da675ecb,f6662468d324452bef3afc138ecc97c4585b075b,9fec2584badf6e7c2e738d8c624657b5f8964ca9,407d7d33732110e4484def71b62f58b289446896,4d83c26f4174101f56f5f0018d15eb159f1402ea,46f3172bef6524a892721fb39c25589a21d1aaa9,e47e537fbcfc6bb7ba6c94fd2a719b0d9c6b097b,7b49a0206dbba926d0e7a912c47006c7659742e6,9ce7a039fe36ce1322d4a5e03abb74a0df973f03\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/joshwcomeau/react-flip-move"
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [],
+        "ERROR": true
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "test-cover": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "coveralls": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "coveralls -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "9da35b5277122449163e8a50025e398e71a9283f,8d94925a445506aef3bbc1fadbb984c7a98eba0c,e19409f4d9d514843d1c3ae8fff939bbb7eafe3d,e0547440934d22938ee95f82d781de085154e9da,020998a077e5cab2de529a574adce3bf2b2a309a,27a270570610aa5e3575a8d7ae754e91d8e545a9,500cf6ab5fc5cc9d3b5d7d6e60af7db438862376,a253a62232fa80af52d5ad4ec48da192a78d606a,1b39ca114bba49f19ad3aaccd138f0bf863b2b74,8318637c48c75fef47416a9432aab880f9e981fc,5d685b67ff0ca3e54007a69e1f0ee0387d8d39e6,bbc4b78ad2d521dc71b92fe9635ae98867b8317a,f5e2e33939e49d364f1edb80815b3d0e526e52a7,ae7981691eb339a25d9db7af2fae6f9300b96c78,29dcda819ad04016d7df09a03abe24c810ec6598,5eaff2cb5a6bd40db09047456356d1410fe36101,012230dd8a89cee5df92aa9ab94ca315c8b0013c,2dafb745f73fbe1980791686a8a67aaa321f669c,b1ad7e4902be292e2fe9a65ad129ade0da0038e8,4463e553e778174c5e1b7b684843946eec47562b,cd3018f25b23c09b27a4601ee96f1e7e6d5498d5,3534069ece43db766701b85ed79a3c954db3a01b,86edc944ed8f59d1e611fc37f0352a899aebe8fb,25de68f281e699cb0f90d76d9a1fdf48bfafb958,c6220bc86f34df8663b73a875161a1968b8b70ec,75a2f503114c3a0492b28023c11ea338bd3e8d50,4990ab3ccd0f3fddb27b5a586b2a67f75d8654c2,56ed009d7b6e13b8e6e4a9ea3557e1ab549e1bb4,0738042dbbd1c8bd9f5285d7a0a911fbd40b9771,569b5a9e6b52edb311dd993152a1e1a98f232594,28bd3845e76aa582579bad8a562f3b89e5570874,bff0958576c3fe6e12eb1562f4b482e6caeaa7e9,909df18ddbfccbe1a69b9263539d08d6b65d4f10,fbbbf13e49dea07d192ec4c75627afa7eddfb65c,6b60e3c27f82b878c277a4fb63ca03cd1d2a0acd,f37249e467106a5f5f480701b2fbb9a440949d53,148d2ab0009634fed49506e148dd64c39bc09526,5c77fc195f517b550dee63e61399cbc52fe8d516,fbb5ac6d68d428c1184914947978516117a571ac,a2777a636c9740d8c879ec6bfe9ead8d1c8d1dca,11c1765192ae534a0a5acfd4b192a7cade678c88\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//toddbluhm/env-cmd"
+    }
+}

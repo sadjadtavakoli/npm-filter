@@ -1,0 +1,53 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:all": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:file": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "num_passing": 7,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "test-e2e": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "7bc6c014cc82d945dde7365af9d760a920f7335a,c09e5b92a661b2b4c1c080173e045b9d9a1c879e,598f824658d29a6322c8531f5b4a5ad872198cfc,812fcb0a2ceb9c860c8f5933469164b34de80f5b,8d4299dbdb8d5a3866f092c0ece7adcc8b64fbe3,a98208367ed4bd01498e5b5a832af92370c5333f,005461aa5618d95c9d9a01e3b039d7b9c5f2d1ed,c3d5bdf13283d7bbf0475a91b5c58760874637cc,8c3a213153b8ef2e895756f018876d5749afb520,1499c6bb6d1e2bf3447ae2f96914becb7a4d39bb,f7284ae9353ca8cda12e4c722e5d0bc3f7cee6bf,23b13544aaba045e74de650631a053c35eedccb8,d2d1e172876cfddddfd0b59846d8bea3086aec64,40baee032855ed1dab75aa8cf8dc2f4b763f8047,c9429b82f12de7fb6c3f75abd8db1addcea28cc9,19e95f1bf486715761bb908f00698f3a3efa3df4,ffd6f809f71270664486308a06a7645b42776b26,4c2693c8e4463029ba54c34ab4b80453a2f1d5c0,90e4f252e88a9da5686105e6c2c13998014d8b81,e1e7e1b48a71c8984ad82897c1feb9df8292e9a2,598e73641039eea2764090d56bae775650a8aa24,d707fee9470f75af98256445b590b483d6cbc6d0,e28b51a22dadfab176b364310b1e99cd631c3027,557898bb3795de71fe703053c55537663633013a,007b0232714b0727bdf8c399693976a2017a8493,43f16eef19d3fded68d4707700b3966a63964c2a,a223d796bdbc8b408a52761053d38a4fe111542e,2d3ab9adda26c71c17ba1ff48a568617dc470ccb,dc2d357f73a6df70002c8bde283068133deb1078,ae844af8cdc420fdcd5d7e4dbc055927722940ab,835e9617b540c8838c00faa9935a4d1feadc8569,14f58214324a466fcaf39de1a304bcf60e088d51,167bec318db41c92132e1469dd0b922be33f4d1c,e487e37938373d0e0621336dca2d4e41212ef92f,a2e9983ae70a4c905d494cbeaf77b62fc9210d44,84e242a1d9e4a219ff3bd144ae1204ab315a3dfa,c7d3d4c930a7264177e529adeaa57dd7241695a0,adb34ba247345b4131eedc6fddd5c14be1d0fe06,4bacea4d829a0495c12916323ea2414c85d48308,7487244d12819247cdf2b4b51cac88c2f7045a36,a36c9f3813e310d0d81f50c31f8718072d5ae4eb,3e70b1a723415721b17b488c8b4fe9a9d066fc69,aed504f60452fc5e8a402eb02033fef62ebde31c,7d9665333be074f3cd822f581e4a041f0097464d,903c619242c9376e84654f37b6834a69a7e41457,bd430517c5e529b57f5f9840e84e5d5227605faa,5572589281c62b4ab0d10c64eba34153a38fb42a,95f7c91fe5b1b88bb18742e8c846af0d0026ac6a,a284ea8fefe3c64e7f5054550606ef42f715e06d,8a437a58decacf4cb65126eabe43c200107c5cd5,d3ba4eb0201acfa565bd3c145fdf32f28eecc909,9ac99e7c37af8b5dd6322a78b32f8d5f7f40b590,6009935b72f94f63ec91ca9ee2d2a69767c71b7d,c3c9a74cc3aa4a3642316af564245615884bd74d,c7b807a34c86fbf49849bf17d63730ac33ccaed3,5bc2420e2e3563d30a0606ef3a3af8c6d9a11855,f8bc5392c191a248b7d2c5210f873f647d62c923,191b67810bd591351472918e128f7355ae23ed0e,e55359c134b76bdb418b5f93a4dfd6a5e7c32981,f93b20905419ea4d7941f0fbc842d96558f61286,b08e71114a0f9188bf04e174c6f6abce44162533,8fd9a83a966911b5e68f1b88613cb1a1551665df,233a3f91a29e01a31d00bb042d7d26d806011cb5,42442535314e7bbe1a342233a4fcb58fd39c2d65,1dd87906c6b8d38797c148a90e2001b1c9e659b9,b02cd6577d27810c2ec043a25f396c7dd0f836c9,a914b03c578b60adeb3a9f4b4334302e0de775c4,d972cac87860f0714299293a2a6d75dfd8899fdf,87fc4b931303c19ea6c29363a94d552f783b9da2,b4ad6e774d85dea0f3fdfb8c6e4f94e01d01b7c7,05a07f6e4e2708c16703bc6d2041d62b0bc430d8,0812e8eb68a6628f284ac89c316804489d9e888b,a5265f16c30bd0665a9ce70445e4bdf6ce03f93e,379f7dcd76ca5e0b9ead10fc783761e450033ca3,518fb7d9debc871f500b6ac636697e76b35eb687,3a9c28b8bcb31b1749fe5c341741924e900cd899,3bc98bc3a6dd1c9d746232a464dcc506694cc6c4,ab22ebc9670dd9152f6d7190621a348c934d4437,b0270cc98b03582c7eb9eaea2a4bd7f08e143541,6951bdc912ed2aaca3833097b12648bfb7af3bf2\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/cleverbeagle/pup"
+    }
+}

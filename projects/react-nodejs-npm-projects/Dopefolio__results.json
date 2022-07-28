@@ -1,0 +1,21 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ],
+        "ERROR": true
+    },
+    "testing": {},
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "edb96b828bc9af7638b206a8cb8800842a3bcde3\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//rammcodes/Dopefolio"
+    }
+}

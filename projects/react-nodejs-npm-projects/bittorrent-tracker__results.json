@@ -1,0 +1,27 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "test_linters": [
+                "standard -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "e5994d2ebdec10fe2165e31f5b498382eeeaaf5f,c88bbb4a62ea1e2bd039b8696113811a60fe7144,8b8daa3d4a3db60b1d80db8fc61b828cd85197e6,b88cdf7d0afee218ff5a89c6b4573327a4d55fa2,1e8487038ff9ac9fb08f95820d0b3a44fb936500,02032d0536579b3d150588d4d0ee053393a186a8,056a83d1b537d2ac84773e8d25800cbcbce25396,29fcf30cb41768a7428d0e3da5bbf73562a186ed,d51a77b0287067c923973964e799d215e9fb986f,ca522c0c4b985672591ea8bd77e834cca445dbc4,f8c7de521300a42cea005262f34e358b52e85900,d7a651f3605056e6e1d09f4bedf0b5f022d2249d,79068480370ab3f3f910316069518c8195c9c6d4\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/webtorrent/bittorrent-tracker"
+    }
+}

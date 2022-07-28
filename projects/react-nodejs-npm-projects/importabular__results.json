@@ -1,0 +1,29 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "num_passing": 7,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "a8c290b7496f1d6f58672fea89fdf231ea74348a,e7a2908c4260bd964782de26112604d89cbdd8f9,fe900362f17c72a05e1f99668439d3ceb12ac65b,abb343aff33b3cf0621d5fe681cc771b054ccee1,10e4fc2a479e2064f1a0cd4363354206728a2a00,6e5a616d09b9a98c8209036696ac92c864ab18cd,188a10901656c90a82725cb290f2ec2b23da7745,7d0e5f55dc41b87614fc74d8efa6a08750148c2e,2cc42eeaed2fe1deef26b2a8e9d8027a6f4c39ac,c7d37e983a7d1dd19fb7512e44b6a1d9176bdb1b,53c4d13baf7b5b3445c860af19fa2bd8e7068753,11b767784cbafb3cd53d33ce1a9a37dc485a9731,ab64bfc1baae17a7332eeef172af578489a9c9b3,69632e3821871aeae845005c4c5023bd072b85e9,66e482a17f7d34c7d807be70ef1898e377f988e5,344d665fda99568e2a38f7da11ee85ce495a4312,d9a452c1681da558f888a837b76bd7e8ebb6f905,238e336b9650602b3453385148417fd4d7d538be,7acb3e387750f013297e114bab6c7752fc0c30f7,ce9a61dd880ebe0c87cb244f2fc4357bdb815529,cee316a35a63eb305324d31ca88c0fc796d6a72f,06221903edd4efba990680e6e3a4903d6dc3327b,8a1b1c787b712dee6158167083b7f0b43d9d5cc9,444e5aaaba8ffb3bb35fef5bf8d27ecea46db4f6,c3726672b1b9762b74c4bfd3997da880a8d250af,63bf3b9c459bf8b1cf0e89a3fbafd8178ce4e2dc,5b10fd3e259edbf6c32ec48d64e84fb0609dcfe3,9d6472c322cfddb2fa9cc045a046afbc0ed2a437,7a80b05b7a3d3cef184f0ba1453c89d36d92b93a,d5b2551457092a82e04f657fef326c67da5be3c3,26da66bd78d0e449cc231c9a1b84ee0a44292b9a,ce5f381bb144ae5091f171a9d9ef3cba845c1274,540765266666101e5ac22111e38776dc57bf50b1,555dcf33dc6acf8e140975b27688d5b44c14b84e,741f08934638994781d8855eefad6d841a5f3980,cf39f6582b61531f568661da5849a87ae4b92170,d9ca8c27ef1468d6776b0213786e957053fbdac7,dcad3f0947e2d014f35c3b180587c2ba12454a27,b10f5bd8ef8f25db4a501ee09ad45f16b9124865,316228a6a5efde2125b488ebb2fe4ce434032b98\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//renanlecaro/importabular"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "num_passing": 8,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "6892c1336e1db3707652be2c454546cb8e3aa589,c2a0592c287461e6fd10f5f2e5c3f28ec887df6f,8d8e071f39b64ab37b8ddd2940bbd6be220b95c4,e2ba2f9f8dc633d36fff1ec26353555f4fb5df74,5500c2892bd47f63049c3c4e2bfb8e8b6f8c7417,66ce503c7a8879265dbc73192d2a0f0aa773d36f,5375ac913d6393ffaeb80d8e264f862e46dcc74b\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//bytenode/bytenode"
+    }
+}

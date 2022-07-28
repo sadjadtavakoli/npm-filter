@@ -1,0 +1,88 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build:esm",
+            "build:cjs",
+            "docs:build",
+            "test:node:build",
+            "test:browser:build",
+            "test:esbuild"
+        ]
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test:node:build",
+                "test:node",
+                "test:typings",
+                "test:esmimports"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:node:build": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:node": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": true
+        },
+        "test:browser:build": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:browser": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "nested_test_commands": [
+                "test:browser:build"
+            ],
+            "timed_out": false
+        },
+        "test:deno": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:typings": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:esmimports": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "test:esbuild": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "c8fe7915b94bf42dbb475a45614792e4e748be14,cb1fc4b8d98e2de862bc26942d9ce6cf9761285b,7bb6de4155aa454e5321a883f9118855f1661781,8aa0002b3b6786a9923eafaddf13b7648e8cf3ce,b4428f8bb176402bbfe21d1b087127918c826e82,1d4add2365c1eb79f10ff5e18f91eca38ecd7cc7,319122bd8a50006bee6966036929ad5cbde475ec,a6006fcc48003789e94111df75d73e0e127e9ec7,d8801486dc28d6742ac6eac383c065ca5e7b8a23,f373008fa2313e76d598bac0fbdb95cd7e21c021,f63674a40528c023e6af89c51dbcea6bc24a315f,9963e669d02bbe9e5b46f3ba8c14b77f56c413ce,8030214172f8f61c15a9a1e2289f2f1e85ef00fe,7c122999158da4659175a89a68272b8e37f62ed6,b154f0e9d5bc501232303a36ea26aec288cac187,191feaa8784fb95f78cbc55615b0304587a56154,6aea0241fa63a27bb51529c4ee76a3576c940920,fc993a3c447d27df78de3619864fbf85eed81581,f45fe978573fcf935d69d5c04d0903c2d04b559d,d99d410cc85e4758fb90c3d9f8d1972b83552702,85e9de9f0be59077d82a4961b4f5ff2755081ab5,e4f6ca0f07997c4c397f230243275e1e19f71c84,ed73704ce375416c6294926ff8ac577e7959ef97,055d30eb58b291fb1bdc15efc32d106b092c5788,12649a4cf668b47ed0fb7301b0311659dc62da33,15b971069fc4d60ecefa75d9be6e25e89eee7fba,05008ff78a37cd4e9687703e0f1d250c81e07b45,513bcb0e08f9294924533b28d2ad9609199edbd7,c7cd7b1c3a4feb34cb209d5e6a6106557d587b8f,a5e8c0046849e4152027d41d62ba7118c31ed7b2,0ca3b015bfeaec906139422891e370d4c71ab0e1,10e75c012d6bd2f3d28b1d1be4ab9e6e800d65de,f2e47e121002d30ccacca98b1f8a096be4f87262,c0bd1e0e08f00840a8f33a23caadfd0ca73b184f,f0d817fbf154d4c98f95ac21fb30b4a7404cef03,e8b31207542084a543450efafa71b145f8df7854,e03974c7292f005b6a2ff5a339f81c561b6c4dc1,3c25e54e834327474f2f80818472580b654b4c7c,453c033168bc26bcc78c427fc74a35e13cefdb82,5d6262d62eff20ca46d2d32b10c76e8400cfb0bb,737a7c3502aa1f96024b7887e4e1e7bd51a0e60d,c2955f81a235568bb5e2752eea33e856871b5426,f3fa97fdffa038f22e440484c812b18f2369814a,93c70289dbdeea15d45add9601e38328a83dd87b,85cb023feaadfd9b47f904967e9bd68c2e470759,a4ae9f922aa561d2bed07aa9063e6697e93f5acb,0df470ef28a7893db32d92a40f3c8836d7a6a096,83b9a5a4d755d36f3271f9d8658b08f86963201e,04505918d0f0b0402fd66edbee0936d3e4b882f5,54ea6b06518afbc19e1ec01bf6e6e55a2f9dc161,e609902d976f6447d689cb16bd7dfbda278fe34b,26d021e5a710e99774af7b2c2ff97bc066860298,7c39743265f6f397dc88c4f28f3f05af80a0d1e4,d200096b0f6b07e95c7b9f8e681c422957e2ea10,7fda656a579f3ad139cf8740cc822316c444872c,8e3bd1d55b332507f2391f5fadc77fa4b4d3db58,0d598f66b4a5a4219d0375fabc25ad22a566d99e,31ce9dbd1745b0fd79e877c78c15d1d287cfb115,629e09c6decdda75549b08f9d1af015869369a56,4762d7818544905e1eb9c85e8d029b9c54fbff85,ccc4681bc716f2c2ef85dd3996c87ee9428e433d,148deaba74c5cdbe08a672422d7af6b0775b935f,6aa309a62b3e8b691d36af1f63ba453cbce6085c,3d02b6313e0842f07189f72e0c7642ffeb08ac28,8f9e7803083b37767d0002f0c774591cf6841edc,bdc6de10873e89489bb4cd1262e53f5ae61d5349,d8d4b4a95e9c121a4595f4cf475590f0441b147f,eb2e65f776f385a0bd9b0b5bccbaed1e51f2370d,0c37ee5a52fed40ea574ff2ba7d4060d166f7f2e,67e8c1632e047bd1e978827128219de5da9369eb,783042aef74b7c3b75ec5d56620b50d50147cb72,05ab2ca9510695745063054440e261202daa4f7c,7eaf09432c52d3fafd4c6f79c7817fdceaf47e74,87ad1372b476f568b8cc9afb446c8a9324b39556,95cc84b5f1e75befefd2a854cc133422dd6345ec,d22c616bca627f5bce77f4c573807a4923096f97,a0c9a2404c4abdee319d430b9afddbb418d2e0aa,cd89e6bc6985d51f77f62c8bd88acf2f27667ff9,6ced87e6097ff1ff1c42392d7772331ea7432dc5,abfbabef6b1fe4bf0b46a51f2e20e0852ac119ab,a77a4d7259947be94d250b826fadf70ac0faa531,84cb2a52b4dbdf71349dcf7a93ca8e0c40f02b23,934af13026a2506bb5f51058fea4ece0115b73bc,24a7034117c5a512815a24e3fd73f396a3035265,b762d0f006c0a6f8cf9de176d91645c997a4f95e,fab92c391bcc8470e4c94ad022168ed57fd0da96,30cf2b9c4377f4c7ed1ac21ff4344100e3f2316d,81cf5648f49a907674dde8056818439cb085a24b,715c8c79414fdf8fa048ed00760ece0aaf92c9ce,4e68bf54dc0aee1b2ade535327d2b26ecd2c46e9,f2c7118bf01fe58491fa6929e85a07a21365e1e3,f787675b89f94e02c712833ce1e94d45cbde3322,23eee8b43c37030a58b7f922865c6e17f17bb223,fc01d274ccac65827e83bac3f5857d884cefcb0f,18a9c85516fdb6d2bd7d2dec6fa4767f5836d4bc,1b99fffbd3050473fa948d0362b57166b24f0134,8cc8c6eb3c7818fdbf4f6e0a7aedb09336fec85c,eac8dbf2fb78184b3e2b1265bbd8c06f9fc8b616,a67ada304f2d7ea91c5763f017e2bd2b3b29c8cc,8e402b2fee05312da9e45c86aadff4afe30f41ec,6b85ae0e874e51e687e92a4693447e6b2be41dfb,bd762af82977df9d14428c7d9023aad1a48119ea,0f79f1e7666f66cd9ae84a928769122321a1f36d,ba9f879fd6097eb23e8a1be7e38de3bae9f33a58,ccf6a153c95583588d1f733025013701eebce1ea,ea3c37938dcb823d167b0220c0c08a67259051a6,86b467a68949872b280a9c4a8367d575b29b6fc7,603359945804a4d3451c2825b7691a803d96a634,16fe836878db4d61cb17518a0d46dfcf296a3be7,834709d616679e2b38b3b460db41c37dc25690cd,234d05eec3f123013d43f5f40cb136831f8be7dc,3cba49c5f3d06c51feefa0d76a7dfb5d058f1b3e,c796dce90cdff61e8fb742e87ae5639e22c29030,b90301ee607ed458143318e7ef345423f604eca5,53e2d49608b78178d17e1c28a4d95302d531112a,cd1ff0f109fe8e37c2c7816b10874a1162d788df,4cf770cb6e8c7fc7ea59422df288372b5b426996,8bbfaacf171f8967860196c1273e5aac9f69531c,d691436f5fc5de71f54e06f7de922ee77b90f1c4,03baa6f5971f4b03dda5eac7d1cbd134e62e08e3,14bf0cb025beb70278d2dfbff054ccd2cdaa8a47,c02c37c2baaa7532f3444d40048e156598b4854a,e6d170b77ea2d36170c1860c41c1590ca8155229,2e3fa5e36924b4ccf331f868273e7def6b7a3e94,a919964e1924d5c415c3c58fd92bcbbd240c3982,4d79cf2f6bf18ce677eb8deecbc486417ad3da6a,10508d68fdaf86e98ee889214987246fbcfdb6ba,cf0cec71b83d4166a84773c0f27370c9077279ad,b97064f6854a211859b00ac6c863ea9b1fc3a440,fb9fc7320f6a212d74d0829f95f0da4695466648,2105d554bad74efba5baa0c8678eab83043b4b56,97f3f4f6d216c1c952f2c5a2d34d1e895ca8f009,a489f96ac279721d00482343241688d179b6b704,ddae5b09260322b3a28ae72988d0be4f6407a585,78f3fe2a34a952bdfc21ef0e6732bfe233ca1f8a,b37530576dd5a213ffe7290099c2e3ffeeeb04cf,d8dc0f527f064a95a2d87b3f84335670559cb62f,c50035862983d4aa3ffc27625027e22071c68285,8c2182bc1a6c3f94f647b35038905d6ae179969d,a652dcbb74e6bdd8bc2e0f69fa2716a28637ce32,6d114b262ea3d3c42054e2f4b03182c574239560,9b33c59c484e99f664a8f7de239ceadfcacd01d3,8cbff9318d006c9191b2c4bf30d93c357e2c398d,4500e1db014dd7d6688c8b8c44630354e55d2c18,d1ba8c9c045134f68489975770937eab4a910591,d7a5532b31691f523b08cb8356ce0c7019454468,02d840db67ccf4b31d0a32114ebf39e414e807a9,56030bc5feba2e2d20e86c2661f05c6ee086e8f5,aa439fdc2a79b477c8737f404305e69dfdef5480,92e2132177e70b2b355ccfc3f8e56242fb22ed59,fb693e03679a5e677fadef40bd3d3d593c327474,8dc1dd55ccdcf630ec21d1d72c287463e2341647,53c4b99ec3e0b2afb1b29fb191b533194c4a5cab,2cd4351f1d77df8d1e7b27cca73887be3f32df43,54bdd893df4bc2ceb1c5d02155a2af0ddea37b40,617d12575af297abb2294e83d1af426089ad53af\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/koskimas/kysely"
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "num_passing": 5,
+            "num_failing": 0,
+            "test_infras": [
+                "ava"
+            ],
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "nested_test_commands": [
+                "lint"
+            ],
+            "timed_out": false
+        },
+        "coverage": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "6eccf0d5187f6aaff06cbadc03da30b31eba49b6,3de1fae5d2443ec28463eeecbaf8ce5b93be72c7,c4c5072523defb5c0a1407178685103c8565ddea,52ee57b42156ff7ce79663c129957dc2c0911463,a337b0ec5c54b99da1bee81c8aa843afcc09963e,3b93f54d0f39e0b783e79b87e4fc94a59968f0cd,efe11f6334fd95802eec5fb3b834d55c25d70fc9,0ef7f65dc8042149d52c12f32b442a427bc8d7d9,26965996789bef4a4ceca146dcf09791c581afe5,25cabac5359bfeb9bed538f25c55bc37df339a00,dc99f3743071bd4fdc0e26511cdce39801d45e9c,a84c8a836b308446b2a11f996a0c85183965b1e6,09924a57bfa7321355873a6c19494d0b88401125,c8095d01aceb54fc2397a58530049e072c129fbf,142b5384bc561789124374814be613711982ca8a,3053b970b8f189e9e7a29bb7896a9d0f838f68e2,0f7c019b2c17cc49233fec804de7724688a90a58,f39e4166a3b2d0880c5f4666deeb476d45c51df8,9bf392fa2dca39630edd27477a78f1802ce5fc10,0f5b31c75f0be796279bf7a8ce96a41cc60e35e5,16fff68cf1b3d6b59e83b33a1b012a8f25c4c8d5,b8b0df55d42d840a02879e802ab9ea0403d6227c,e0e679f3c46e7a7c779d9fc9b1d8175ea8f0ec25,6759bad13d8b82b35067d2772ff99770cca15323,34dacafbd5b6468525149e58e39bea11f86ef8fa,c0a85db70bbc923ca5e88cc201d1ad5b139ac423,29e59e7874f84f2649900b6c92169f6174df5dd9,39f976e2563b460b7d40cdb2660d26fd1dbca334,f50c0aaed9a724fe34ed09a1087cae63f1c83a0c,e6cdfb16b6ed9a5b7aa3e8c989cee037b01d4005,7e4b4fd3cfb2cce495d4437d7181068bdbe7600f,c64560fab392b22b03220992bc7e2f87edb42229,5425348479157ea7feeeb2d8b55473d769b72016,14bddabd278b47b95660cb8c5ed56010cb133f96,3386ed158a0b2b95905e3d54efe4730600faffd6,0f23fe515f588e02a5a1666c5b849761ff0266d6\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//express-vue/express-vue"
+    }
+}

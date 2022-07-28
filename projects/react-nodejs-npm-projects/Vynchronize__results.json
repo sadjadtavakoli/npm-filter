@@ -1,0 +1,23 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "e98e52b4c62986d4e2fcc706f3d592e92bba2824,ad4ab3c9f2c907ef9e32954b80faf43609844632,29de6dea8ef9e87cd709f8f4c0a85218c18faa6e,5980873fca5c665ff16132e7b0ade1581494d7f8,7f0a5d0d580c9cd62a4f080cc0e500e4a43c566a,8224a2c428fba6efc3b0c8b97badacdeeb47ee4d,4933c586dac6c6f3be2e4bd01e8e39624584aeb7,775206e97c7c40eb9543843182cc0cbe13625545,201225ca11222bfad71da4ac071a0dbf69fdecf4,116640cc83cc8ff55c86f29494e9a83ff3b39253,81c0807d9512e5ce900bd32cd317e603d80456f6,742ce41dba90c786e9a61ffcfb7bdc3bd11d8b65,2b965faa13de0b7061cc12c9b95ba119df2aa3e5,a79d3a3ac4f0ee26bb5a58a8318ac8a28b35b55d,7228811099d6587f572e2f64465ac4b1b1f7fe80,d00ad95e00c28552e519b0f1c7534d79086a0323,cad713a9ad8cae9a98f5ee9c2a4ffb2683fd947d,55315d98bce808b7679390d786b3f7581d90837a,696de3d6326d5cc4bb6a23cfe8a0ce6572d4d80c\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/kyle8998/Vynchronize"
+    }
+}

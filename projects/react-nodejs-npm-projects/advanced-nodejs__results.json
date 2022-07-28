@@ -1,0 +1,18 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {},
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "961e451a5f412b90533c15e3874cf1d08537fb83,b071303b5646a1870fc20626af607d877319ca7b,af9ad01cb40467d090f61cb70aae9856526947a3\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//jscomplete/advanced-nodejs"
+    }
+}

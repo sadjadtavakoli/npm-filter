@@ -1,0 +1,66 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "docs:build",
+            "build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:unit": {
+            "ERROR": true,
+            "num_passing": 73,
+            "num_failing": 4,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "test:coverage": {
+            "ERROR": true,
+            "num_passing": 73,
+            "num_failing": 4,
+            "test_infras": [
+                "mocha"
+            ],
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "timed_out": false
+        },
+        "test:coverage:html": {
+            "ERROR": true,
+            "num_passing": 73,
+            "num_failing": 4,
+            "test_infras": [
+                "mocha"
+            ],
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "79618e155a4033c8ca9083f3311c25f65ac22f90,9038d5350790b71beee774a75f1cc1201c8ce645,7d585c37eff98794ce95264819f8ca09eb6a8d7f,bbe664e484a041f98370c11954d0c2062e28296f,73b46e649cb78bce60cb9049b79e7d63e3b35774,dc88897249ad6c4dc5ca06aeadf9686cc1a1b1a1,f18ed0e413216cdde6dd231cea07b1534bb15f6d,deb5b09b93659cf28acc1bc25bfdafd43d8c119c,7666de1dba253b896911adf2790ce51467670856,28b3e5186e00ce964cf6422cafb4d53a262794f0,dc04e9d6ab755e41a1747b41e16726ee757daef7,7d348e58135b320cf85df03526df8ccc7876be4e,4c887c9bd0694ca85a239413d5e6eae5935a84b8,51d71f353bf3e0cd8e1346dab4aed25b224f5597,0ea2f324f55df5ee7dea0372ec78b5e886c7a788,187e994a77da5fa73de2a65583d67b4677d86f41,103d47274c4ecd1d2698ea896b6dee2d9ca9d239,0486f36abdeb439dc73e3bab6fbd0c0b0cc4088e,ebe69c483e18a024a6d33eaadf306a35eea411a6,0e408c66ce260223cfb2d8f99fb674a9008740bf,945b719744b845ccd33440e41b1d5e246359ee95,bc9a01310db06d054361225a8c52c851ec9474b2,d772181f668cbb3ab446e93f5fac22fee7dc87e7,b5ba48c5161b2b1a161af60f5505c3c87ecdccab,58729dd865c49274a05cde752102998e7b75f930,baa378b5dc14966a60eb6ee75cf71b6581391fde,546b8d627bdccd6bc2857217b045b41b1762faad,e69eeed6217af6e864964fa872771bab8b0a25b7,62a1cd32441362e6ac0143fd9699c30ceddd8522,3c2b62ac84e17c5c880812b7e1523a1d95e4948b,3065df2657c694fef912e8a758e650dcb12606e6,e0c5da32daf6561eda350485d3ebdd360af41383,0fae641ff89ffdad41f6ebc488ed04a4b15615be,1c9c013f70d0a26d2c5921c787b4e86e9c4945c4,8b1d5e9e335c9de8e517ed226ff9081607bce982,19d0c7912f470c19d80e74c5696d25baa7e9828c,737ac443d907d4910c1f0461de052331b8336a27,37d74d89016137825198f71934f2c3d8c7bd769d,0575688c1dba8890665e7c26ebfa28d2387fb508,da4e20e292e7694a36452f4ad114dc46d4f8c255,890ba2200745442a6e104056582f5d6ea8e2a056,0937741477c7ba37a563ca1cb355073d32c9f3cf,cf7b4f848407700593d43b92bd7f659e6cefdcb6,62745167b9d087ac989db543781026412769afa9,2fb705dc28be8bf29a2f37ddb0e9a0047dced22e,335c5dce319afbb779435eb736d485c5b91be637,69838f1718eaefee1bcc5dbcf15a5e396783e182,21edf44e207bfb0f8f291f83363bd5a3fbebf36f,8144da3e8999b71413d8da42fce70429f4e63639,86372d9c944ae919ff27d93293ab24d36f552cc7,141c7251c22501faf577c694a1a7b1540850a98f\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/oliviertassinari/react-swipeable-views"
+    }
+}

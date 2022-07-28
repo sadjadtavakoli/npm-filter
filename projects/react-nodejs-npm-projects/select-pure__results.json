@@ -1,0 +1,38 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [],
+        "ERROR": true
+    },
+    "testing": {
+        "lint": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:mutations": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "2e39f6629764e6879fdd165406e0fbb001665800,78f55ae4fddeefe16f2d74b201a292d8d9757d73,c54841759f346aaf7ad6e3a54ee4e2136236c4ab,27bff149d4f9779f52abc60dcee650564e2ed088,af9a81f44f683c78c8d1f8e3bf962e6f31e4060b,4fd793910e3e90d0c3c81d2e5db927cee2554303,7be8fdf31e6a34879981746a9c7eec21e8e6cb72,89ad5f7f1bd0eed63f49a2e08e87f2d7fdc66cdb,ee9f502a2a00f39350658ff7bf4a34d3914affa6,bd5caba5baaeca0632e6685130cc7b0676dfbbc1,c308aab3a2eb85ab73139edfd6116ffa6d6f48c0,e29cc99019b67aecdfa1b6a7c0ed9ae9a2a182d3,d1cf749ffc37c80a88b075d5d7aa1618dab461c8,0796083376812eade45f47698d95fff1300e40cd,a5663c9374c6a6639a742db27f39bb9c3ce3175c,4980e914c41fb70a5e07751554529d0c1dc7f16d,c4cfc5444d3de228ce3d3245a5468002061b9a8a,273cfefdfdb03e2fb1f92c46f3c4230aac2b96c9,67a31816ea1422c58d64a8add674ea4d4c0a3ebe,893fd94b22f751ec689b3c8a5f187d9be5f256c0,cf6a3058daf4dc618c874cad56b1f58d5ee502ca,07cb3094aedce6301995a12a1b71caa60afb78c3,7497652400ca87b4611a53843ce8c3176498a91b,33eb2d136af05764636e99ae3e5f985d5545f3dc,b57945907eea5779e7442e2cb5d0e9893d8e7a86,60b2f4f50c90497b1fc1bb8a3c8a9a96ad6e2a98,0b0547c5f13499bc44584ba0df5376fab7a5fcc8,3624036c4ec05f88cb324ee6456199fd8c553905,cd3fb6ee3394d210dc911fd9d0caa67ad839148c,cefda48f9b6dada67257663b2f599a75208ad6de,512898c71877b94e8c1ed89ba27065f6deed5976,b6feb134ffdc55499a8036f3b0b4547ca01f9621,b6e8e66463c7b6e3fadf62e88a5998f66ef48278,d4da1139b4cc14999464564df56fc12524b0a260,eb619ed380d991fd5da3b1ce850ab2966449f5bf,d5e22e94c4fe4bbb89d5906744ded05b8d6a1ed2,60377a3bb97566f913be1a3edc8b68246e9ac8f5,8e0a36d2845946a4d0156296e3f0c93dda1bc98f,47beb0640bccc88915176a3c40312eca3b6f642d,9ff077189e0fa9f1875b01add2044c289fb73fcd,ca4963f61055dc17559206a409a8b2c14a86fde9,637479b2bd9ebc40c51160e955ee41e66f436e7b,187fc900bceb3b84199b8daac6834ecf7bcef65d,f686f736bf69c6e3ce4604456beb02e2f0e6e404,cd53bc48900ea8e56cf0450c948b707dbe7e9fc7,54d064e29274cfbf9451c4ea87825dfaaa86affc,e95758dce06a8ce289b3dfd398c909e8c0d38e6b,70129c588270281d0cd8929abafabf7310beb117\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//dudyn5ky1/select-pure"
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ],
+        "ERROR": true
+    },
+    "testing": {
+        "lint": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "coverage": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "a1280407c679aad2e8039faf1aba567a74817543,c4b7d9f6f7cf405cd1ddab664987ea7e84d3b544,00fb74478964d726417cca8b8029a1cd78b9168d,8e7d28120af353753e4f1b24cc286769b3baa23c,141a5068c428467fa7e7b5e5edd628176902d889,c2a4caba0354f552de6accb89ca43b5974aced14,809364988c6cdb186656dfee2e2ea48b4f9412f0,149d7f1eff1e08e058943e8856289a5ad3a04019,5550f2538bd1b056d96e175bbc9021ed97d11674,5d49f9349df78073b34620138a0186b39138ab21,0627ac22a88ea16302dd75bf10f08d77f23f8504,66ef57f329739613b26c7de8591f4631b3535fa7,d385f67fc63edf4848e243ee5852eb41753cfc54,dd2a0ae1ce7823646ab7504748027c4f4fc93c6d,b7afca54ebb86d2d48339632188f40eda99f4428,bbfd94641b78e4a3a51e3f4079c5a4f57f9cacf4,48a332b3752fab9346979921440662fdbf22345a,6f63eabf660d0441a56d4c28aeacf4dfe4b3089a,7a4d2af37afe96e920931c7a4ad01091391ec844,ef857a528a506884b5247c10da0aaf010bef2846,081a69cbeb7f63b76907da27dc98cf97565cf96b,b1e3ba83bc9012df6ef4fed92f08603149ee0259,0c8010e64a629a10fa205dd37d259714264b91e9,0c3258758c703cd2247f6a9684ded81f62278a97,1d352e9369dffe922ce2573ea2bfd9214f511e3d,04172466dcca8aaa94c7c0253f884a475d22989f,887727d03b992b15228323afd9890d8b3ab39d53,e8fe9cafd83d27d28ab99c2cc0b08f438fad34d9,193e865da5241b56c18bd1786fb74decfe0b2f32,4e477f0b676938a44c23f6ed89ccbf7e5579f812,828452ba4fbc34eca8a9d4a7009f7ff857091140,131a2af4fdd10ae726dd77d379af88bc5f34d778\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//mikbry/material-ui-color"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "coverage": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "01275907653b6e554b94de94c12d74865e727e0c,45e5422d09f93ab3aa5ff54f3d1539e7d8bde597,65846bf7125f4e92ae17704860ec651bc6f1eb93,bce7da4beb671a70e1fa8335761f0508710c4397,b224fff5f95b577141aafef1d9732e7e3cfe6417,226817cc795e56e0029a574e30e3e80a6fdff1e6,c3c614ef59692f7aacda5d31253f6f56607a4a47,a32073b4a59c3fb8ff67243aa9ffa31ce43022ad,ee3fcdb1b891220046692670c915a2d502316f1e,f8fad797abb86583dab7de3accb14617f3b95be8,bfb2e78b5b4652d45e6f6b936d930da829023da1,3c80d1d98c66f0697358dbef7cdba683fc30ebd0,452cf80350cb9a90ccf444ef976e13e5e13fb217,849196273f7575cfc768e82036159ae6cad08314,3722c065c2a4fee6f2d9da4d4932149bce1ccaea,fd5056bbab35617c7f70163a181d025dc70ed589\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/omnidan/node-emoji"
+    }
+}

@@ -1,0 +1,136 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build:node"
+        ],
+        "ERROR": true
+    },
+    "testing": {
+        "lint": {
+            "ERROR": true,
+            "test_linters": [
+                "standard -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:fix": {
+            "ERROR": true,
+            "test_linters": [
+                "standard -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test:node-fetch",
+                "test:fetch",
+                "test:jest",
+                "test:tap"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:node-fetch": {
+            "num_passing": 168,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "test:fetch": {
+            "num_passing": 546,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "test:jest": {
+            "num_passing": 2,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "test:tap": {
+            "ERROR": true,
+            "num_passing": 6959,
+            "num_failing": 1,
+            "test_infras": [
+                "tap"
+            ],
+            "timed_out": false
+        },
+        "test:tdd": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "tap"
+            ],
+            "timed_out": false
+        },
+        "test:typescript": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "coverage": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "coverage:ci": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "bench": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "bench:server": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": true
+        },
+        "prebench:run": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "bench:run": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "65feb05f8cbf19784ea7575d62c4975fd727801d,46953d574856ba327942b47c023d32cc30430a3b,e66422cf394f7f128b27467a5b11c4407fda389c,17e6a0f464b32ef59c27b1b8fe9d37c71fa16c4a,5d524231ff0fcb8dac761fd710fa08d7d61b1c26,cc70740a0c9a7f9d842930be3d2889c45a73a934,6b57bbf6036570669355aa4116c5a4444eedf8c2,2fadc07ac93908f3330dbc1e121eb04154bdab54,6c2c6addcced5284144e876bce1b827717a03e47,d74e1e2241742a1a291a5af3b1bb6ea25f608b61,3c63132e63b71c77cef493a91aa8ca44c9b28def,614b1a66c1ef1cdbf6155e30e1575af2680a8bf1,5425b77c503cb5af47419255778181c254f17089,c32ed9d23dc0e99e7d79c8dd7fd26c40f9423b6d,52a26c85ed4ae0b05592417f0df35a921f0f5744,fa0b7581bca35b4746b31bc7a1d8784ec391522f,5547c34eefbee85c664b65a8c0b1d1e6776ef1a5,3f41b9d93ca281bfe36234dff963ae2b61806294,95c82ab48758f5ec6aa566b2d8fb0adaa6e8430f,1fe207e4d3aa39ba07598787a49e36099809cf72,b08399d3285f9ec78831823627f0bf49ab009bdc,c0e91b82025433494b94ff956b2ca40be96f5d04,d79c7b9dccdd0594b634e1f557705014f75f12c0,858a0f4210608b7a6277edb66444054a85f79d54,685c74c6044c87098a3331cb939941a7ed92cd89,f6876d907d41cea03cd3fe5c9109763151c5248b,4ab3e4bc501ff5b9857a1888e7c811f4fe05a99b,23e3fea770d353668a43d9f13d94d6a46a845973\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//nodejs/undici"
+    }
+}

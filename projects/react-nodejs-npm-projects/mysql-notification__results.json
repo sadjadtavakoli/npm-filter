@@ -1,0 +1,38 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ],
+        "ERROR": true
+    },
+    "testing": {
+        "test": {
+            "num_passing": 17,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "lint": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "b7218da73c19f8322e35999cd0c903d3b4c15f29,8c329b7dd210371be39b85ec0b96a708ef88cb83,a526de3c1c779fc005b731b7a20c6ac75fede4f3,d096215ee2c5a6850e404833cd1d50962c416cdf,952ac35dc5580f66ebdac7275d1856839d614ebc,8a6dc1bd4c9e0fb5c7c3bebf67595ae38673cf44,4dfa026ca5d43c7325865afb16730577854603e4,ca7219b2257c3600b18af9deef89a9f633b0b9a4,8c815bf1ae6a383ca10e204c7306795caf0dc499,475b328dee095ae25bc14e6c19fb7953176dfcbf,9f1b866a11ff8ed99fd20e47dbd4b26f86f8357e,56b712e94f973875fdb784c22821b9742158187a,d61ffe1586153a262bc3e589e5b91560b7d3297a,bc4ebd63e915b275afaab6fbae42cfcfb0a0f0ae,967163ec61e9d32a0c3ea179f822a6ec43178820,43e6f573c18944ca1f31f40c6e07dfd9e9d23a1d,817856ead4e1cb396716a41306bf3b258cb18a54,260201cd04fa1828d52e39dff811a7c93d53781a,71fdb0471400a125d62fab8d4ff1de35ba1f675f,06e1b830e772bd97cb59fb6b53728219ab5453f7\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//Cyclonecode/mysql-notification"
+    }
+}

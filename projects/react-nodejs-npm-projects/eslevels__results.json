@@ -1,0 +1,28 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 3,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "531160d60ad2011616a59bc231102f5510f300f3,1d5cf56afca63f8f9d8f4ac70b8665015e524a66,59f3a75397051dc81f16bbcf4d534ac19983a081,7d87cbfd666bc69a688c825536ebd7636ec7ea33\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//mazurov/eslevels"
+    }
+}

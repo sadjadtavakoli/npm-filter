@@ -1,0 +1,58 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "codecov": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "pretest": {
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 1,
+            "test_infras": [
+                "ava"
+            ],
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "timed_out": false
+        },
+        "test:ci": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 1,
+            "test_infras": [
+                "ava"
+            ],
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "002439ef93ddef31170dbf0361ddc89d2b02eee8,a2eec8d97f01ca3c5a7fa8fe32d4dbe4670ffa8b,1d1bc40fb8a47f3e40cb8c0268b8ca17b2ace95a,7df58320fe9955f06d619aef13b2517c8dcfa7fd,d42fcbb849292bc8090f63ccccdcf4d6976a3c06,827fcb32f7b4bc91a173be1d0655aee750091847,db6ccd2fcf30e5e700c1370316e4f61ed20c2c31,c9fc3c14ae42a9f75573bbb195e3735c28790a3a,a0120d20e84924d076e5bb1ee451d8307e7db023,6189ee7eb669b25a3d3f624835077417f655ee31,de677eafc51fbe1d2ad48ad4c92178a42aacb664,8726effc8ba5946ab3fc94391e9b5db7fe39320b,07247ca0503db32ebd271623b446aab0fe4741a1,a224497fa0b64d8adb744c727a34f0851495228f,932ea5e767fc8f21cadcc86f912d898e7c41fd2f,a457fdce95c1fa90370a8b21b24a58ce77031ae8,1395b18ff976a6df4e0e97a6fdb0d55d08c59f28,655a71485f33eaeb03e9574f354816ed8e12e393,9651b040736fe79fac70fd61fadba756fcc224e8,2de37a1ce46efbb0df925391f942a4c92e37c77c,2786cf2e76a6be59e65e4b4ec19de4c81f22cdf1,45890fd24c35329b8cb175f0d0e98d2541099275,bd16cfbc76aa99ac9e0601a32729c0f167bbe884,fb96126bfb3e65eb4a3be11e772cc55f423bbd98,b8deba79479e4e9b49150d97311f43e42a5f9dd4,e8fe729ab9ac58a7cccdbc654afdbc7846102621,5951b30f1f47d3c3570fbf5feb7808518b9a3bbd,544d4c79845700d2e802590f31f58058d5f829f5,c8e2ba4832bb365a22b6c22cf44cd6ec079b7623,d79b865c80b764aaf86bb9a16ea9f926df853611,0b9688a5a5952e8e69d7ee98647880bf565a9442,f2e30c71e0592885b2ef43b79e031974be6324b2,7052c9f00160b76c3bcc264f3497ffd57240333a,b85f32899ae8d6389d3785c640a87432806943df,bd74f54a290c16bdb1dc99d5dfa22a3a79120747,18a4d64b6d7b9a264e106a46f262cd2806bbb613,dc9f08c133280dc203fadd004da180b95cc33473,a548415dd6a51fe6bb1108e5dd5c6e0e4d65f7b3,f7b73e54fbec51c145913ad26a17dcf0cf381cb2,b14d34db48322ce47a310c022437dd64cdcf69a0,e611dada5e9bbd7ec54a1a50e7d9d2d64d6ae327,755356be7bcce92d37b337de7258f7e81948afdc,cec807812ae43171d191362d4dc9f1dba2ec3821,9383a9824c4a56939d6487d3aba8795d9ac5e628,0f774fc0136bbd83fa6bc40b22c6796f150f34ff,da718a358714e48a8307618a56a2593e59fa0339,8cb4c04f7a6c999986d907e4adaddf1850ad26bd,9cde647c8244d968b286050bafb4795da0554d47,3c975dfacab76156b39365e0875267d43cde9136,cf039fdafda1a5ce43c2a5f033160cd46487f102,4cd5cd7368f799f37b8d9442b97cd0bf99fcad34,e36a56bb89652e5cd177f9be2e963dd5e4701123,abcc70bb6f1d8e00d07ec8c82d05cce451a2c941,d04a9b0e2d8c7ebc9ee9d6824ed7c3c2e2b7ecb7,5fb0b09f61ad229e5201d803050fd5fbd51e4937,187b82317f6ef8475e5997f13f8d8b08d8f5fe04,b78535ed2cd6b718439162701efdff20709b5b4e,b0635c3a91dde6f477626d8ead494b439ea06eb1,8565d9dc138a1c4f75154b3242f603434712af6a,2058e9e487863f5b4072727fca92594ecd75d8d8,a3601b5181bbf8382d6b23d0529f2cc9aab14212,55c101420e614ca34762a58441e420385ca3ad62\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//semantic-release/npm"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "ava"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "0ad07f6ecf5c86f78179614252efc8d8446ec34d,2bbe2fa05a6dd09874f8a9661c48539535c66c9b,a89f0dff0f4ca3782640ec81ad1c1785d07b2be8,7acdb13e7f079fce816320547de11793f01ed625,8686e62b380a22976f314687bd3f79ca69cae24f,9fe7c15f6956dac9229336ce403eeca7b8746aa6,c6e97c168f1715d334b1b043273aea3e9520fc6f,cd5b8f1a23c444e0c185264901af1d110c69a274,5eb2015db7217bb20e315b4855fb06792c574ba9,10e914f17223e4b5eb0bea0eaaa5087a0fd57282,185bece991101196fe178c6baab9145851ffc208,e97ac772ed635318db33c16cbd41526f5952c536,11e859ee78aa48b0a2cbb23b1c705df7616ffbd4,9d00587aaf117f34428f53c284ddf6da5a302522,643753559ca4b3cd45112ae8508464e32167fa16,b884a09e94fadad5fa85e8dbd879a6a49433b35f,e85062094bdb310c6e089c97be4d3bd53193fd7b,c7dc7571f0b6ad3c0573d652b7fad0e1c77e64e5,fa4aeab1b713fd55d66c1c46e3e0dddca3a67b2d,e6f0c7f7bcb8534c6493fdfbac3410a303f90cdb,89d5660f4e75d81ddf3383b90493d09439c5f1e5,1db39e64d6802be448a92d16b1d471ce62428fde,d62d5c21a59b2df6be0816d82ecf53dfd007d9b6,5e591f143187becb1a90bab4ae13131d945e3148,eb4104a742aa374d4d30ec0c72b1d1db0fb25bbe\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//sindresorhus/gulp-rev"
+    }
+}

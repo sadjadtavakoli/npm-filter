@@ -1,0 +1,25 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "db1c09ee83967e48801d0abc786e312912009a6e,8ebba60789d6898187ed23d0be0b422a75c63872,ea350207b79948b442d9310fcc980cb768b75366,175b92f52be8f106b11797a68a1dcb7ea0507559,b4bf4032d7ae096d9e55cff4d3aa1e0896f2c7f3,84267175d7a73fdc1329920ada5da975e69c729a,54f2e7c13e95aad4c9580ec54fbd76a3791d167c,7286dc6e4e00b2e258fe741d3d85c7f32f9de68a,2353c1cb90d494cbfeacdaca7ed06be9808aa26b,8d1d32928654676137a08c4ee997f4705e47231b,59c84420583cc02bf674147b8d602b00e75ae97d,19446720c372cd97f06ffa686190360263ded8f0,0209e2364c23d7cb8676cd264ad002631b87a503,b19f007b7b1844576298728584d32c98165e3b6c,4651cb3105ed0e092af7dfd4162027484765750c,20bafa9fc52691da864428e7a42f41451e9e9cf5,528ed86552e5237712d6128abe5d917b40779d6b,c4a4803b1790f74d7e068b9b9a5254ecffe89aa5,410e013c87c83d8b04c3cf4d793172e9b127b3b9,495ee01b910358e4796603fc1de058cb1f94a8eb,3b336dd1a9ba6e03fad6cd4a0eaf5fc203c314bf,beee73490f14c9edec7f29583aca5b3a3939c0dd,6d766f81a343189fa657cbd42b6f4343e41f898a\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//gcddblue/vue-admin-webapp"
+    }
+}

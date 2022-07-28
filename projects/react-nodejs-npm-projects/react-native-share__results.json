@@ -1,0 +1,31 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "ci:publish": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "4e4c7d1a04a64be5673cbd94413ca0ed6fc07742,3c43f03672a6071f036a1af64e5adad70414ba3b,c2085d3d8276a126436160007307a6ae285e648a,98b19036688002e05171c357bf50b34e79d75232,a0aa58e61ccce0be2e26d5b54d5158542443432f,3217a1fdee6cab26fdbca148abda92818689ced3,e169d6692e22a66e5c732c43d8d07be5f16a1e5e,ee6dac19d7834d56202f2c13e37fe3f7abb0508d,3d0a654bbbeb3788e40401a456f4eed6825ab8bf,6fee02ff503b89e4ce873d99226a1e08397e464f,75df87d2a20ef9ce08c3367449e4d6b8456d4fd0,32f35429a6dfc905d1e48797cf68e1fa945a1930,ca51715ecfe5ad50d55dd574c5922d333aa378c6,7571aa9300056526da851d8f277ed197db411acc,50fcaecabf438c03567e8624cc0d400d0ad35472,59ac83387df3432561542ca9c44f7fb8329d2f69,98514488861647f1c1bfc19baef8cfdb0aa93dd0,9a8af4fe39849d4a27f9e0fae1ed291b97466acf,69e2c26da3061444584d1c27203c49d5c143e8f8,b02505d095c488e53b36fafdeab4dc759ce2ff42,9deb9c495498ae8a9684a49edb1daf8e3debeb2f,b57bada3d1a63ea5e590582b64cd7954cad1d841,347d0cf9fc861301bb0cb5ab02610979383aa782,530cdef5d94c4ba95776d50606143c6d304e5e86,c650e8320f8782f947ee18a76705559b8edb14ef,448d4cfd6ed499fafafb84fc8edf8b325b8ecad5,553a275d55a1d6e8c4a33647fda2b4c5ab8581b5,8baf4dab452b237952a5ef77b67069340e321c66,6a07294250142145d42784b72a411c0bf7a58fe7,f4ef9719936e5b8f7521dfddc52eefd08912aee0,1b3d315a5cdd0a6aec4ea48cb99a294e53cf4736,2ccc244ad4a356b0f7296a867d4cebb27d1d869c,8597d8cad3cf96bee6886777c5bc1d3bdf80983c,e318478af45fb7c88dcdec439c9ab62d72ed543d,6c5876f424bb544a84ad7209aaafba2c74776f3c,05c2b6a1aeb74853ef16265f690b3ba48cd0198f,bb00a3f41a1dc34d1ab0c14e23e90d00d54100fc,cd231a2ff6fd1b7c851508b45a2334d5ac59ffb3,7535726eb42205260c09d9f0a2b39ba6d00ebc2c,e392b62eb57463bce5a180117d25b98fa502d7c6,c43615b2448d7fcf948c715ed59e97cced501dfe,b4f2d4d70662f7e36a8140fe5a53bfa60c753545,44ac820e77bc90f331490320a509a52d630272b2,9a0c07a33bbd07f0511b1cd9e622baa66d78a64a,3466bbc166c55ea4c551ee158a1aa3182bc05ccd,6fc4b14d65c1249821e943ce850ed50242eede98,ebb1364de262972fcb169633a6cfecdaf2b302f7,a530913198f77755317452bbe2bb318d90ed7da7,1b99eaae28dac15cf9be4867d48f4b6880b4ced8,d27bfdec5cf744f5a8e8c163e3a2f089b7ef5d76\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/react-native-share/react-native-share"
+    }
+}

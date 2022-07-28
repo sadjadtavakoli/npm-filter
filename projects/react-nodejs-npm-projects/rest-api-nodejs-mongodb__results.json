@@ -1,0 +1,35 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "f07a65661a23f70ee32cd4209f532c7fd9ae95b4,bcaa81db3686fdb2977219a461fdc9c222a9f753,f9cede6a7ce059ddb2db41d2787baf7ad9863b95,abed53dade39f9fa324942c33a454dddcb0ec229,54a883d7a369819e07d2e4f488c6e1ef6fe24fb0,71164c625c04253cc7cd114b2649bc8e82f7675c,9cd757d51f65cb1fd7203f7b8cfa9498c132b36f,a99d5e55e4e346bd25432e25e2d106af1a045191,b4a275733ee57772d2c496561e6acc0205f3fc4a,28d5e238c3e036f8e7c1e677b801b19df2d1a0f6,d425dd778e674dc345394ff5a4f7722f7c4415c9,f59118ebf1e2f94349f2ee6fd5149726b7f50796,cff84f71ca2b7f1b4770f59d7587dba8c843647f\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/maitraysuthar/rest-api-nodejs-mongodb"
+    }
+}

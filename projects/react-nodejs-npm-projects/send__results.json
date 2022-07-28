@@ -1,0 +1,48 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "num_passing": 154,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "test-ci": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test-cov": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "f53edbb7f4f7ebdd936d3d714d84d52f2d3d00f3,24b4af2eed289aca8869d875772de725b6cacbd6,aeb69c607bd01be2009c1ec822dab36151544421,f60b775d4736635046ef25708b9493d215f05ff0,ff0d82ee71ad884966f062f75d5b2b2a520ddd59,a472ed304701ef2c091ce4dddb89bdddfccc98da,63c0d3364419ae29d96d1ec6bea81c0fb31d5c50,bc6b5d41bee554641af11641ec838aea6828e181,43738dd9b2727fcdc67a6be698230b13f3e5f54a,5c58a24eaaf3cb70cf2105aba6b4f60711a2ea2e,4698f179ca31cc475cd78b55865ede0cb74d06fd,9bb9613537d71c460bd2e831ab92d60e3726537a,aefec8ea2d8583eccb764eda65b40256e38a4afd,a6d910e0def898e245ae0dd530a7af2410787470,ef505e165efb564809fe62c45345f284a6dd9f52,410954b11bd49bb187ab0a2eb98d94e0ca05f81a,98a5b89982b38e79db684177cf94730ce7fc7aed,6fc5121cc7fd064296acdaaef69b820e9c1130a5,9c6ca9b2c0b880afd3ff91ce0d211213c5fa5f9a,c2c76f147f590db46ba061783f36e5dc158ff49e,483f5c50c8585e75f64b4a7a9108ebdfc4effaf1,461a83bee14df59f04e29ef015adbe0750633cd1,bc71c8bf8e20ea867c7603f60010010aa7684632,90325868794e2010f5a81a41035e311f96779a40,3febd17b5b61f7d049068050179c9be81fcfc0c3,04875963f682b6dd3a69aaa100cef3dc8cb57c58,f80ab5f4a45fd8895e866c3de33fff486393fa0c,689a8e931baf4286ae265dfe7b0984d7d523fc32,be8a8060266999a53d69f3a09b445dcfd7779601,c0e7f379f2d4f315f779effa451939117b16ee93,869a00772cb101b91447a64e64b63dc7a9407c3d,9d50df03b626b0b431275e2e098c084e4a74dca3,37ea33205d39811214fbe90e17ab936fda5e34f5,403e0136697c62bf4188fef29059a1f6aded5090,f176ea254354bf2353aa5c3213591914d7c04eab\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/pillarjs/send"
+    }
+}

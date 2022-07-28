@@ -1,0 +1,37 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "2d2fd82b8be94a2a0eec0e934ebd89318c1492c4,5d729e811965f60f3e1c4ec066910694fc9d5c8c,d88ad71a4c655744bdc050501e69ffc80f288451,99fb3b407e7449b54ed2456af976e557dbe79e3b,f54aa15d789494ad8ba852d0534e48591cd6064e,89f95148354a816a364ad963da9725c1fd34ba62,305efab6a2022a8e2c214379c1ec6d63e0d24b30,4b3d0951f79edf108c215c654cf378f3fafe0f06,d58d2ab6e75e49b0b14954d2bdeae31df58611ab,293054c321dc31cb8d91df2f2816e647f8e7ff73,c7733fd82977872ea465dcca6ced430d4cbaaa43,dc7b5ec6965eb345a32c543881e6736c18649a39,455fffdfd40731b41c35b9bcefa0612ccd10d657,8b2c9c91a01f9eee4faef1fec1fd54ac411eedcc\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/nestjs/cqrs"
+    }
+}

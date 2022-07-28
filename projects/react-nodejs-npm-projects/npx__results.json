@@ -1,0 +1,31 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "pretest": {
+            "test_linters": [
+                "standard -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "c0d6abc2d697642eeffb234a6a5dc13bd2b8390a,65665bd46b8350a8b752efd039690109f58f8603,da5a3b7654ce8d427588e54176ad2c19d3e60e01,643f58eeb1e1862d6c6d7ac4f4106ff607cf5302,b3b5ef6331a0edcd0f342426a9e0386145f23def,00fc313f6bf73814f655b95666effba7c39b1ba2,bd4e5382063bda19637a2c3352948587954fdb5f,b67bb3afcea1603c03f908d2d89199ea1836312b,76ae44c953b6bde6d976840a5cb21d9c771a8a60,a2cae9d9c2482009772e73fca07ff04c2056f64a,a5fbdafd6dd9bc9699025a73bd5cbeae18971e83,17db4611572ef8389c318d25a290768ef916e6c8,ac9cb40cc9f4baeb7e56090fa70330e278abcae3,8dc91d48414a63926e8c0f47a5316906bb86f54b,a83a67d36a96c31bad929c1c8a4aae2947c2315e\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//zkat/npx"
+    }
+}

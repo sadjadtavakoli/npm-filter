@@ -1,0 +1,44 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "num_passing": 42,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "test:e2e": {
+            "num_passing": 12,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "56d1dc108540a98df8513463299c33dc266030b7,ea7cf62fd17b90a0cddae9e522fb504e7a3cd535,b11c8090eb502bf6cf76987f63596a3ed54c8fbb,967c893bf300e1ce8c6e77a75dd8654405cd5e7b,8331807d22c63c2afbc52e30b9ba5e840456b2fe,d89814f93ade5527de4735eb4789a4139134883d,6d5e6b3562098e275acda1fe352e6047fc4bfbb4,25c6cc7258a787eed14899dffee7fdfd5de3d3d7,c2f9081cb7e8a4434a486ab80f0d51c64b632271,52f8b9de71c008feb1fe61d1aadd6490453d204f,fb95a990dd2aec60cdb8ec1623820d532ad7c128,ab3225dfb019fcab6a24f6d9a194fe597b5ca8ad,fdbcbe7aabb92572108bb6ee5b9553ae4e4b3fe1,263a7b338972e895ffb5ce1adc72ffe855c5a188,538231ca5fc7434f096cef19cf7b8dbd03a8192d,eb4916a3ea76901d12d8e65259c3c1d5d45c953c,da81aa5ff75e07e8a233d93d8d10d8169329ec8b,fe498c50e6f87b685b7cf8b72c1c8fd02cd838be,021f2e9d6a9181f79e897b730d1f09a58c2517ac,964682628996fc01ba0bcdb753eeb1f5255550ef,1b0d1ca67eb5dfb56ad5c31467ec2701364680a5,ecab1d90963e274db186206f74081a3205f78b93,395c61201943420287c0692a509b3c9c2c92069b,6d31a1a6ec5f46fd5bd62c7dbc3a9997cbf93fe6,c3f195834afce38d25e1a60084da8673de861e76,f40cb0fc3e454d9f47f126013c64ee77efaa0b00,7393bbf401fa8fb49f0e6e36ed557a72b4aac0fa,46dd65c13f6e055e376dcf29ff537e17dc8982c4,238f0320c773d0a036e0f28ef5a3ad686333f08d,1209ddedfe1e92f2416a2295535aa24c5483f7c7,b001efa4abdb57fbbd83627e1e4c5fdf3f5e003a,969799d63d5f845220c213e28642e8e5a83753d0,1ff36cdf8d215a16ea66ac42ea6796d065dc3b13,f3c255716248cfc92dedbb555e52b381b1bd805c,9c4c7d2ff2e0598c7ae1252d47d74a39fbe06a28,f3fea1ed941a5aaf64f476ebcb4c41cedd0e2dc0,deb016cb17f1cc17bff3d1a920c75a5de94e0eda,5b4989a03508e49c87f1eaeaee9b305570ef4484,a420155709e7f29eaaa65369f4c007c31f18a2fc,3dd45b9b632eb48c52e61d65daf583ffbbcf4486,321ff913083c66f3d385d5ed3c4933201ad97b7e,916be52418600c3ec5fa984d0ae323e004f43cbd,5de654925226a64cd9c6644ca7cbb31e6742eb8e,64d3aa0d7639d4680dac15dfa7fa1604d511c418,10f7603f8f2a562a561364145e975cb5c9f8d931,b912d72acebd9bd3661c08516ae2ae9c3b498c92,6520b6eff1460d8f81ffeb2eebfb0c04a05c3bdf,54ebdcb816fa9208ce115c22e4f2497670bab14c,0d35bcc24cc5d32aca16014a0ff6b40825c0e6dd,b868c77c88c0acb13a92aea25805807346cab65b,932d79b61b0ba461f6902dfddfd4bbe2ffe47899,26157646addacfb8b83a169ee3520db75a6e4e50,ecf9ae3827a017086e915f0317a77a93b96c26fd,4d00de04bbe3fe82b4502f78e558bd081fa2c99c,ac916afd5df8eb15e37fc1e620d8166e0c5673ad,d01d09f7472158d983e7dc770637e273aeb04c49,9a2f35924f17de7bd0d13d0faef93743bdd31e15,1135556f116b130f32e229e5b3b958d8fd452fb5,dd2765d05f7c7fe4357d638ca459807a66302c57,c2363ac18db0def1b39c0833648acb51683ab89a,0e63dfa79c0cacf6928395e24c5b4619f52b0c60,244ac2919abbaa9c8232e4f8fdd3950c6f4e4288,89e11fea99e06eb6b0f9f2058a3dda1d1e4ec921,b0d5bd0246d8a4477c986f6618c032bfb88ac70b,720fa8776bb7f512e341625a2083e2451d439876,def064e9db3f8246eb822647d4554c3e5092d72e,a6468a800f687434dde032ba5879c33adc21a1dc,ba27778b4352af8b8eaf64e2dab89bad748da0b6,84674cd8d90ac1489e25c8df8aec4e27cae0ea2d,7dcc38040aa7d5efeff3a99fd8e7132871ebf8be,ceb3985a75b40b4ca0ceef81ffb8cdaaafc64ccd,9e9e0cd187a9424789d33e4b7f661f9ad21efee4,a08e52189e9ae1498ffa82251131a5be6d69eb68,099e643bb3cdda10da4201e210056bfc2296920d,dacdc70aab7d06e6e986e348264807955b8112a3,fc00ff7c6d390413b1902a4d86e2cb65cdffbd70,43395b08e2cee94c0c7b993f106b758d00a6cc68,7c5a43a26e64ce2133cb8c6c253362f1da3aa0b7\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/nestjs/swagger"
+    }
+}

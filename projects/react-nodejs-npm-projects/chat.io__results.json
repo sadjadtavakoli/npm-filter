@@ -1,0 +1,24 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "8757d258090057f518eb25e35b005a1befd0334d,7329b29f47a6f96ad0e906745f843e82bc556d24,d8280d3886872ce1f4e87f5d56372dd0266f5708\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//OmarElgabry/chat.io"
+    }
+}

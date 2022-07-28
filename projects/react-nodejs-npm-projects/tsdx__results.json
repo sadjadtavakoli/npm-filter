@@ -1,0 +1,55 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "test:post-build"
+        ],
+        "ERROR": true
+    },
+    "testing": {
+        "lint": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "lint:post-build"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:post-build": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "test": {
+            "nested_test_commands": [
+                "test:post-build"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:post-build": {
+            "num_passing": 37,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "26c56a7cec6f786f0a6b586e2f0cc0c29a5e3035,8b91c747c2235ed4fbf853a39fb6800cbf70b2b3,a9434f9311a0893d32e0f3e4033a9c2fbdc5e216,33a6bde9bf46b7cf577eccb60dd6583f60844d47,2f8544dd20fee2785471f77509431376e91d32a3,6e405d5d8562f1fc0c545194e6ec49bc0e18f34b,2aefc3d776d7d3e0d9e645c8e5263c6623e987c9,dd92fec21b66acb2b9418f338a36f78e6121fbd2,8e2d750b18321d06963c257f771bc78a0bd3254d,116a043a221ef5a8d8dd3db0453c0b864fe3c368,9fea19d0b432c04896832602edcbe0b08e4f02be,3dfdafbd7727a3e2e7598f3b9796a7efbe160fe6,e85b9abce5b9db2acebe8bf3109c5be5b33e7122,1b3452bd6eae9a7e778d7db2282fad56549dae75,5f49acd4305b0d0bf5dec201c9893436faeea827,b09e19578fbf5dedb8e8d43a9881dc914253d66e,6929300b1d8dbcfe7e156b678e7012ac0868abb4,aa09dcb285763ad74efe75a6396a85cc563db407,3cb384174954ebf7c59a103f6475c3f8c8bc691e,a43da8da6fa8d323997aabd4e814d2ed45979178,735f3010ae2b7e04193ec43589cab70390407355,c12f92c7e8358dadf4c75239373ed4a37b976c64,ad33c0106a737f6f5d21a7bd7c710574c76e4b68,9fef652267564d136c4dd7e4acdd3cae6596792d,f19fa6164ec05bb6010a8265156411f1e92fb133,16459df18472a781a9af3dd17d3b7ffba7f6af11,b23f1584ef6a7f65348a9baec0941e4bb9525107,e2a91ad2f47b84ffecbc992797d826e7daadd2e4,68f26c90d81aa65ff46098b59d6f5ae9cf591cbd,a97a5af1cc6746ce95a87730269f37d57951298c,b3632febcfa3a5e011a8bd03cf07a914270502b9,655bb531b5e81711b2079666b142c6c1599ddf52,4e5e48ade131ce3e158df0c9c43fca5d177a1d50,1d8f12311f73548b5bec58d3d44873a91c6f389c,158ee9a69c824b71b62cf987fe943a167f47f936,a38041f995df468aa82c3cc72632cb67eec40bdb,ab542781eb6c544d08482761efd31879a5e0f6db,2a5e5a5595ba85c68af9f9fc12370f90ec224d5c,ee4b3077729d5bbc6b03d7dca0b0c409b62b61bf,c487377b470777c8fe67e62ddb54bca23ebc9608,e8be03c3cdc2f683b098cd13c70eca64abc187a5,55c0d47c0bbee16bb780e8aa9441ca426ba127c7,4deb7e2ffa89df102dba56f093d5ea0770f474d1,f1a2643e5b5c729f8d58dcea4f55ec530333f228,9c10c70f7663f49e07aec92af2742dcc9f42a553,ef08ab036e4cc28eea2642dd6fb028e711d26158,7d8c0cfb5facbb668799dacee3f5b3a42e8d21bb,fcfc3ac1322096f2462671f198151570bf2b5b9d,ef91a9b883044546574f642ee1947036521a78de,cffc994765c9eaef0ea063e77297e64a0d24055f,22c2416b777f68f0d8c213da74b397fc29cd808e,b86f715a76b87856436a6458506f9df7d51849ac,bfc0590e0fbce68fc2594c4c2be12400272eebab,3445aafcf12f35e94f444a8259e93f0b4ffbf09e,d3e58ef224aea98ed816a8d027035aa5ba27f4d2,cb2cf7ccf34096566871ccfebe5072404d3c4b63,111926f3e82bb7c04b89b81fa87431bde8b8e34c,bf6731f13b31d72af9c7bcc24576e34b836d6b71,50f2d5e6e9db3e6e3e72a66cdb7514ef16d7d4f9,d346cc398f7db8a3fca70198dbc0146dcc7f6702,e2f2983de6587e5d04523289beb5e3d79e9b92c7,a20429df9f990ad40a799802192c99111354afe5,37d7664dd3953994f44761d490390c56e5048987,c850b5c9a4a5e86979b99a38c30370ab38ed54a3,44223665a470eaff225f6d49a1722496f057cf70,0f9d9642f8de650fd4baa218713ab00eda37044a,e81f5a6e44b1026e27030ac5fa1c21e0e09d22bf,22ee1d09b59bf0f5cf1f69983c3ff28395cfdbfd,af526a5fc672694bdef543da036af890427568a9,437bcd0a22d544f9578d97466209848c845256a3,01bc516b3f8c0c9f0d3c3febfdcbeef8cdf7f7f5,24f10af81b15527e3aae5b8484995cc9332e8265,02630a8e89a73e8f3c897405a1edb7d52dae8d9b,df39d021440a5d2a2b4932b0896872576fc73bd1,70337566f88421a7bf1e8071f1fc971a9691cece,89c0470fef6f664bf8a8ce4b7d233395f42f62f1,974805c879b69c164bc9ada1bb5b9a5485d6b43f,29d67586862ced22b5e0f553bdb5bfc0c6f9161b,165d522156ef88cd081fe9789e6afcb8ff84b59f,4c72f89b55b714e3530186d05c6dd8d48cb4076f,9010ecbda5121dba74c04edebd2b18ef447eda3e,3f3df68e61f71d5c01a4cb2b7704871407561bab,6bbf07793424511cc245f62f52694925fe452342\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//jaredpalmer/tsdx"
+    }
+}

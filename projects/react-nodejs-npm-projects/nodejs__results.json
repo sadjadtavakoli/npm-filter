@@ -1,0 +1,18 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {},
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "26fb2e4130097f1500ca52c60fbb3ad2d0489bc3,aab65efcd470d60b3d605d71cb8d9056f0912875,4dbe2d953cc773b16c254425a7802f1fc48ddaec,6b9e60164b1dde26a6094b9d3a1ef46eb1d865fe,e63657c206e2cf9daacffd2750a77137605a1bef,0d773116826ccce68446ad1c555888a408ecc9a4,69ca28b8f4ac211279b35ed34d89e58ba9d9db84,6f101de905ce83975cdad50eb5ab700b6d1146ac,150b71e625fb3369f0ba524079a79f2566ce2c6f,e406271d2a9ecfabbb091767d5eedb779ea3e502,c932da00536e13671657706ff8a63018b9e5bef0,8cf0e64a76b3334693cae5dbc040eae471ee69d0,31ee54e262b4173d466ef6e33e38ec81b06a2cf7,006f0021c4445aa1d97bd858e283a44649698489,84d21aad2e829723366f66b994d2c32ed09016f0,c9fbaf6923f85b84c80b0f0b6c0b5ba5a2dc3a3d,149e3ff5b2aa492673e5b2e8c679f2459f05c107\nwarning: inexact rename detection was skipped due to too many files.\nwarning: you may want to set your diff.renameLimit variable to at least 503 and retry the command.\nwarning: inexact rename detection was skipped due to too many files.\nwarning: you may want to set your diff.renameLimit variable to at least 503 and retry the command.\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//scalajs-io/nodejs"
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build:shared",
+            "build:browser",
+            "build:node",
+            "build"
+        ]
+    },
+    "testing": {
+        "test:shared": {
+            "num_passing": 57,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "test:browser": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:node": {
+            "num_passing": 3,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "test": {
+            "nested_test_commands": [
+                "test:shared",
+                "test:browser",
+                "test:node"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "c643d26c225001753e09a8863a60bb5bf6f48541,d942b9980e76a00d71a0bf4ace23ad4e7f5b6670,66f100c239b0fc6af011476fd019b77c1a795bae,3af73178aad06bcefc9c4ce795d49e19e9d05761,30c893458a2b0cbe22476257a355bc28a697a236,5b0b31fef70f9030baba9713e41c1965b9e777c4,3771535caab3a1f1eace2e9ed51bd1852bf5ceec,df634fd1e2a4b574986042d261f59173fddd72b6,708d5a0ce4ba93ff0554682be9a9b645b7da6a9a,d9cf4538b02a3312b5e8bce759abef58d604bfed,c9a2084241f408273875a69aa45fd85a105ea43e,a1bbd5f0a6240e81c6b90ad9ceb1722cf4e2a44a,f0e17815ca8bee0c3b6bff79199ebf9edf69bf02,09d3cc58bc0700989ea5f9bc7b7cb56d32cb0971,f2e38fe1af111b8a3f8d1804b3ccd6ac855df700,5cfa3d783760f1d116d8af8cef007f93a95b75bc,7714bede9587067ed959189c7afd7d9b4359d429,28b604022d9cef8481a6170d041a30bb29e15e76,2c8bb46aba021ec307e722969e4f41c45d8d9842,d89552cb64795fff1a2d7dfdadb111bad52ac73f,1bf058f30c4129545bdfb562d41398c401215c67,374d91eb6a738bee7c5b2e9a1798969039fc3720,ab0fe7ac2384cf9850602c69eb6f9df5d980cc7c,f5f1dc8aa65a3447335aa7f6676c9597bd2c2c8d,4e6d673e7d0e03d56e572e2f8b5e73439916ee41,29c88ce36da8cd9c94bcdd47b116cfe5a2281d76,3e9262c5d109b983a1eff5d994a169b62aa0ba1d,b29fcc39b57498e0d97eddfcf446ec3422b60ebd,27b6c825eae2da5ca6c4414be1bb8a389cea1899,4826b3636301e3ea6c85ca7ded32878fd78794d3,7bc3a8e7752d4969953af75bc6564c8a5d4e1252,99c12eca933519746d72ef308f74aa2a5de27060,898ced0e6aab22613604c0f5e55d7e1721ae456e,bce87530222602762fffa9ea022d58fa7e67144e,771b0fe359aeb8be26c64ab32e288c294e2bbb2f,f9fec81354177efe558a51e5476cd2c2ea18283a,17f76aee1995fecdce4392c9cd531c9f973a7e9f,34af0c4eedd055122de8939d7767196d05543d31,b72fa884a6d6324e7220265464073830d35e0c36,2aebcb6125996cd87bc9de8540685877b6da157e,375854d32d2ce6abbd7f81c78b2b0f5a6f75b8da,1a5106542b11f53628beed15dd1a5218af77f0cb,7b1b0f760bd344fd92324c351a39be5ac8ee6ed9,61b4db2c6248cf4060ae5088d077ba1fb8918820,fa70827bb7e7282a05110a384440edd0fbabc4cd,bf0c92c74b916b061d0c6983cc0ead68a4a4de8a,6707db1bc9918b9515c253de7620ed59f2c56b82,5a719501b467cf048cba9ca0b0b8f5a513fd4329,55f0a665f9dfd02d95a75d086a4e954ab62d1b83,74f264bb9e88e2c60c55eba9400e8d4344704525,fad5f647ab565159b9e437f1e199cdb54dccd438,e545350cf9eb599227849c6a37d63044b32d73a9,6f68188dbb3db068af3efff59423f3c67fd92648,078d3a9b5d93df5f7be5531cbebe1be61da7312f,947c5938440dc007539e52b490a037ddc8dc3a8c,4eecd8c7210d3e4d0235e5e162358d34b8bb77ad,9275a02a6267f89c1220f15b6232fc915d545721,23aa366b1d1cecd21e92c863af088b4fad6d445f,7d5a69bcb46af9d149016b1e4399430c0469a72f,0ff599e6c5cf3643239b31f68a55787eb89b6569,956c956a9cd55bb79c304f06eeb128f08d930df8,902df5ad09993faf3561f7c3fe416b36e069717e,cc3b2fbec4ac5df80b50551d2113ea07fa4e3b5f,ac186e7751124419521080de87950cd277724e5e,6cd6ce6148488d4abbed648809efebe7528a4688,cfe62c5f17401c0344312d04b70a3ebe9d6072a1,165a134b061919d8d9628cc05039fb3411760dbf,8b7d7e143ac0648c1e90260a5f62258eaa68d055,4c19392a895675240ad523f49df4deb60155a196,9518dc5632e2901046ce85bc430269e74685e703,b3b5b8ab75d5c2db1a93e7a0bb7295156e9d1408,1b7106f06a104df92e1ee024e87c13dd47c2fd20,55c922c042abe6ba1a1e4402dd1a4c15c64cf952,90241ae893e224b8a7185ebc3c86fe9a8fad5b6a,df762387f21c391fbba38ad4ced3abcc38eb19e4,2154228202743e211a7ab3dffb0a674d4255f72a,e87b73b7195ddbc506db39acfd22dee2ef601c66,486734ae8ffe6c3d9bdf4e86bb29cd0b426360c5,7377f5ea4598c0467a46911bf1951f564d2ed6a0,97152b684b8779ec04aa769371dc94792ebab899,ad73f9006549293721fd5ea2d66df0ca548b50cc,ae2d1a1bd3379557047f6f41193555cf89e1527b,53e2825a73d86d8ec838612d6ca93f6d7b2ff46e,da8055ecc16bc9f327e115a4c3b2417aede2f9a8,ea6907ae83a8f33b91ce5ad9c570f8b29d12fa2e,dd9557683c6602cb4e1d09b70d7ee345d662f657,03229b4b24dc6cab4a900e09267f27992efb1ac2,5e09003a541f018cf76b0c804fe478e201d10a8b,d1238dfbe4a1e434dfc7277ad43d58ae233798b6,e3654d053dd8a5b1c452ce64c91319a5fb205a80,5b90c087d9a1c47e2b518289eb1d89eaadfe85c0,8a26563730b91ee8b2ea6dadc1bfcf2f2e65db50,f70676908c7029a7be5b7ace27117c4291ecd595,03d7fc25f801123fd67ba6527b036460c9b1d689,0e4bd2bfbeeb15e2411f1dc06b7a91e5c1a08a0b,8fab97a119b4ad546ef74bb8d029131ad16badf2,e2ade01fc3784238983e9b7f0d9e2093665089b7,ed62f3a5916b5e84e8b572253a361821e1d8b773,6e0e7f59fcf840c42680ee863dcd0fec9348d097,293d63e4133848f0529fb11df886c396bc56004f,4bf959e2968c369b919bd7718e0961f7b101a7da,1b46f145a91e7e3525c6f6a7b3546a2b66b36f8c,e0ee35a0ec4c3a039b1bf432a0b336119af147da,fecdaba483224a32d1a488ddd1683f1beb9dcb92,f022fca958f804fffc559d40aef5c3d8af0da398,568aa93a45a4a1aecb467cfd70a2c688a2df2277,5fbe922f839797010c99491559eb51b4fce5b12c,f3be79b4019d7b7e7a3dd2f9c15256827283aae3,d5bacdc412831c6cfa811ef0201586ae9aead1a9,99c0510e88dc7ffa131ce2c4a14830bc9c8efaf0,a5b1da06356374e653cdb34812182dfe72c21c75,fee47091904d1702af200f77bbfdd50a9c15d42d,4b5910c8b8fd55d7ac96f2c32224fc149bfda7a7,9d369872287411973cf5b27fee897b87a496122c,b98f8aad614bb2f0a76639f6306b49a3c522b995,3270f500cfb8c6a321ec24eb8e4e42b872c6ac41,0a78cbe281f44f662c9de20bd9d242f06ca88ad6,72088baa5be699025a33631587cd3430145f24b9,bbf23f1753edce1eebc12b4a35026115c7a51305,d7a7818da07f8367801590f845c26f71af09932c,6d7a3b2bb9422b3cbebc2f7a28142a9a9c7498d7,7c29bba9edae0f949f59fcf8ce38858dd9c31e6f,e0322cbc46fa028503d1a8dc4c1254d11f20d0c0\n  File \"<string>\", line 23\n    \"test/_fixture/\\346\\270\\254\\350\\251\\246\\346\\252\\224\\346\\241\\210.txt\"\"\"\".split(\"\\n\") if rel_extensions.count( f.split(\".\")[-1]) > 0 and sum([ f.count(d) for d in dev_test_paths]) == 0]\n                                                                                                                                                                                          ^\nSyntaxError: unexpected character after line continuation character\n/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh: line 30: ((: ( 14 != 0 ||  > 1 ) &&  > 0 : syntax error: operand expected (error token is \"> 1 ) &&  > 0 \")\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//vinta/pangu.js"
+    }
+}

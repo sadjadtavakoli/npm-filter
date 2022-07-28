@@ -1,0 +1,27 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [],
+        "ERROR": true
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "ba74429c56041c47a0eba4cb498412ae949194ee,5e5b60de7f525fb39298f54af964c45f1eaabaed,df524435a9db4ed09effee4685a9c4e0dc1feb94,e6e597a44ccf63d4e4e0b3a27f48f04ab90a56ff,7312fb58ea8de5617ff0da12c12b60ae15872d34,ed3c07e894047af37b43baaedca644803d32f857,72f7013b4fede3d6e80589d22f49be57cd3b8cf4,efe6a2497d7982b29c5180cd5cc0a168c7d17605,2208226a96f8f51271d7d535f5237295752785aa,d38ad4b93619a0befa6578f1c4fcf33a382d9ebb,936f428f94348f266b9176a99c94a658d9842805\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//varHarrie/varharrie.github.io"
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "num_passing": 47,
+            "num_failing": 1,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "1a213da2cfdf0eb56ae9c37b724e038c99f29a13,0fa766970d9a780b8537da819cbee922f7447c66,8feb12bf45cd99f228df7c6d34df2220b4122f3a,a8e226d2f6a735e4112fd37c32d493db34564f4d,d2412c978808a52478323ac7198781f2fddcc4e3,8da603ccbcd26439d5b7e617d3f2b3bcce296b32,88736fa2d0b295db62f43137d1360e46d28b3bf6,fc2bd0dec8cba45d115cb5a6b2275c090824f434,4667f5c30e721c05f4ee2dd3e95db58baec81178,0b81ce850e1632dcd970eb9dee9fac43ff51f819,df3f362027c8f60c095f04c814dc49d685670519,ff351605ab13a958c020cc9accffa8434949ab38,063cbce144508708bf80416231fc9fb7c3cff701,8e97ad4f7c09a4984306239dea2ef75e6262dc59,9e39424aa56b1dc9d20be165c6a297ba36c76c9a,17345f00cebaaf9c3077b04e248e3e09cd4f8e86,1bb9d961234590bd9db951c20d93ab45b6f6a57a,2600cbd702141c5e528640be9a11fbc01be86f05,c7689100b7b665f26a4078b75c30689eef574721,07c556a5d83590a2adc6d8c7ba6f13e458c17cff,d6dcce534c5f60298e405334f5726b6c5e0be20d,51bdeefca30aafb021c120fdc8b4a3936ce8646b,40a3b67c7b66bf3a4072837f6f0a7bc9750fea1b,210b0b062457dc5aa6ac10cb488b46b2cdfdd853,b1ca0515c6dece0f8269ec31648a0bb99c0f2f89,50aa1bec43a96433fbcdcecac7e23ed50bbe1567,32223931b14e9fa582bf74c2372d9f0c296be391,bceb0609b17fe53c25b82d97134284f67d74efca,f0a2d550d5aeb4787e649de9dbf66f14be063b08,e01f1f0f24db521f20511fdf7f51c24615805985,121b73452c7fa4594dbc63c0c0455a9f726c6e21,2d31dd17dc769d55bed7fe7b1d76617f697e43ee,2092431e0eb299fda4df9e89aba66145742c3b56,f47cb9b68a07f1b36ba5b02e601cd6eaedf31b81,58e668ed2e456b3bf281f0818a0832701dd622c9,3c940acd2101ea2320334953d2caf90de5f28be5,04ae9b0b2f30a1fbef19eaa8cd0c95e3f1c75b8f,fb1138785900973c4e4c9ddec56fa966737f0442,b5d1da119dd6a02509bd6584825bb63a2afd4dad,8c6879ef8c250f57911c49d857690d1dea9faa73,2e3b1026f8d13da2a978053cdab587eb251d806c,d1171f2400be3b764c2f376fdec0b9a409be72da,83c3dfef1f57c7e64f91de6dbbfe699fbdd06f2d,c3b87c43856596cde87088cefd280c744caf4095,a130135f74ebaacbd9a3be1558ded677fc8b54de,6051fb970190a6081920c038a5255e9653259a7f,91adc6169656b1fd63e4bbffaf8da9a7e00cfb7c,5ba44452de858ed15179a6dcb3a5ec7e383d8367,a0c8382b9b2498ee7b4c75cdc4cf6d6d77e2d768,9b5cf58a37df44fb4cf0b1cc1881b73160b707ac,9bb0576a718b3b98ae368f243243ca216178b79f\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//soketi/soketi"
+    }
+}

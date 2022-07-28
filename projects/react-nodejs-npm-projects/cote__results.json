@@ -1,0 +1,45 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "coverage": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint-fix": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "d6636933d34705b863cdf139edcffdd1f8039eea,f6111336979aa98ffa3940e2d7fb8b6faa6c2e35,c8897b02a83a10772e9e20d957d6e611dac96661,39f46fe6291c7df55363d6c51d3eb8c85e2db7c7,f8f1dbe5c0faf315e7ef4f3abd9c07d58a0b63dd,17fed1d2be4e30b33c6281167bcb97c5641fa6cf,c9a694c0525b1048006305087d1a0e28c81b5ad9,b17b477a2056a9eb518c9619d868a23be67ea89a,5d98b882bca52b05d9295910077def68a87851f7,1f59e54a72b99d1d0a31bc0fe60d7a5a77a576b7,359ee68bb20bff6339c35246e02aee8565815f23,d2d7cca302182772fcceee39c3b7c194ed301ed9,7c0481951ab5c994e7e88940dcfa2f907f021938\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//dashersw/cote"
+    }
+}

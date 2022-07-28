@@ -1,0 +1,45 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "prebenchmark": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "benchmark": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": true
+        },
+        "benchmark3": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "ERROR": true,
+            "test_linters": [
+                "standard -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "1a2ea56aa75fc2025b7504c575a0ea7aa2400e93,5328f0165628b0ee5e22a8a433357d65bee75d64,9ff6b8a8dd33dac1a840471c916ce857b29c9f3b,45acac915a15f73ddcec3b825a59611219ab8b59,d545244ec1e512a91ccaffa6a79a340eadf0e17e,b14c3e883049e36a113801e29053bf556259b0ed,138c358fd2b033be9eb8cc9b1691fd6137886df9,d6a34ef6a0eb99843aa402e7b45ef0ef7dcaf2c3,f1c3901eb4b549c40773a3e033525a71b3796d9a,e314533e194f970ea6e7daf70e35c788fa98ee8d,fb745e57d23016e2dac12a6427d8cb44a32429ae,37d47ac9bdc4d8f03c45ac5711acfc4d6a679392,c9ad69e78f29bca618e33e7070ca8113260e3485,12c4819ea28f665838d87a41e611820f30c75341,26ef2c7566882a57bd11512caa4ae9f96639fa59,3d24d4007069d1d19171fd731bc6fccb92332466,da7545d2a20bab18ed9fde890ad4a234267b31f3,70dce1f31b22db9ddb853894299d626f22a0fd5c,b1b737193d7fa8a67e5861bda209f9092c420f66\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//pnpm/benchmarks-of-javascript-package-managers"
+    }
+}

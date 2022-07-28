@@ -1,0 +1,51 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "num_passing": 50,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "nested_test_commands": [
+                "lint"
+            ],
+            "timed_out": false
+        },
+        "test-dev": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "ci": {
+            "nested_test_commands": [
+                "test"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "tslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "849f8ccac2b4b793bf01f9470444a22119161b18,eea489c993e61f59e26bbce1beb32b2733a3adc0,4c60fcf630f71cd2e553846d902a673e88582f4e,6fc6847b566fd10467fc674455a31c88f2ea1ab2,bf5a9dc31d8abb590b87d215637ce3fa33c12845,0e812f840c553345f19a1a43addf8c21405d20db,af4ed2ded411b4b78125609d3c6edcb4c071e3ff,1814027f772466e7053d054532dd1bf2b869b19b,543d26de61b85a03e098a2adc0e7de448306e83c,efe58893899c0611aed01e9b8fce03a298540340,18bfaae8d6f47a3cda8da59b5b70a68f56707568,2c70028e34390bbc3fbce033439dc63907fa8d18,47a5d5bde422b46e9bd883801d10104e0c81efb5,4594f94deaa164adf2995413a29936b0face1580,3b66f3cdc5d61a5517f97b13dc4243d44ab9304a,c7dcfa34c2cf21c24eb19ea74bdd244d83b7c780,936711d9637e4a6879deb524879b506610581dd8,f18720147a885b8a3efafdcbc6d92117e0872cab,689e46cf2dc4e025f77a98710c2608de525bf12d,11e0dd74ef6c666327d31e73909dfca82b4d22f4,a1e99f7c74fa199041c849ab3c9d031ef38bc3ee,d16f2caf5df4292c0dc827a95d97e3c7bb7b480a,9194e47a0295c27498cc78a506af222faa1178a0,4953e3acdc1a5e479197582f489260ddec4ebed4,6bd0f1cb561835f910af92459c5d9d473b4d51ee,241359b4f03de3a99f1dc2b997169276c75b8c56,83f8795baec6faff5ef8dfc3e13cb6b8eb48d439,14b7cc7e25105ee61e2bb33de01253f461059355,f4f97fac159329bac8ef36c2a920211a8736c4ab,3648b52ca69014f42285e9691faa092d9ac5ec89,9b7bafbca56a2222afb81e3f31964931534c9f36,6dfbfd1b19531a0d480d4fc4dabd4093ca565768,16a87f11e89318a9d5339dc0091dd2d47e09b41c,b5ac181e1050819b72800c339647546defdb86ea,cb638c32ef5f39e4f091b0b8ce960e038cea0fdb,8812883e2baff923e26877a4d8ec5b40d631cb4d,bcecd76f172dba85874e213ae466944c133638c7,d85eca8d58a962e1404fbfe1eff7a019e91abad0,710cb500ff8acb952ed984506e265416c20e106c,acd29e71a0804d53e34df73da4e8f84108f75071,9f789be33fa812aca8cae0113b0ec1953c9a2928\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//wclr/yalc"
+    }
+}

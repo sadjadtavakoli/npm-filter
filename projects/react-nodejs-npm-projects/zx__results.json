@@ -1,0 +1,49 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test:cov": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "c8 -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "num_passing": 41,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "test:zx": {
+            "nested_test_commands": [
+                "test"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:index": {
+            "nested_test_commands": [
+                "test"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "5578d67ebae2049d430bf6489784f6a2aa47b0b1,0109e069643e0d6535172e547d94ca60cffdad4e,fe083c40dff755c736ff2634d64de0a3245abdd4,2411c3796fd9cce1cc17fba8217049623bbf8b31,1064e6454c0253424dabf5e133080808ea547346,3e6d8ea528fb18b41f6aad27aad0fa8488c94a7c\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//google/zx"
+    }
+}

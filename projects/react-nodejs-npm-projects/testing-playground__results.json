@@ -1,0 +1,69 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [],
+        "ERROR": true
+    },
+    "testing": {
+        "lint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:eslint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:prettier": {
+            "test_linters": [
+                "prettier -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "ci:lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "ci:test": {
+            "num_passing": 13,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "ci:changelog": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "test": {
+            "num_passing": 13,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "9efc41a18a9b06e15c19e12c82028c8c30cdadd9,5a1b8158ac6269029709ae0b92f8c9f9926cb7d8,4bb74ab0f72f63078b9802ed74f1a9ce57ba3ba8,d710dadddc4fb9447e39f88c5255fd54e3b5a228,70c7c1211ff854414540c6667912a22a1e6864c5,096201827f6f3b4386f6a160003e28665d5a03d1,3a4d468de6b51252bce488db68e9d159f53790a0,85aeb5582a2069f43d9b4b63c48463f006c6edea,6c47c1287bc49af0578b290cc13700818dcd5ff4,7aa6ff3ec0bd06aab928a8d86ea8036f8f00715b,301c638372b1c96dce77838ae937ee17765fdbcd,458852a1b9fdd05d95594f9bb08f8303430a6852,b97fd2b09d5419985dff1f1c07e5c356df735f4a,c793cfcf725247796289b4a599b1ba0e3910a171,b5f021b1ca3fc0acc8776e16e88bd8773513dd14,933e59c1c79ebb0f7213cb64b90286e0ed5a3dde,bd8f11ac1841e2ec60fba6ad81a07114f562b998,0756d71134069619b27180c85c2006bcc4242e17,285f3559ccaf8e6d3dadd38fcfa518967c85af3e,39cbbfc4ebdb5dd92994a63611e575dacb425f22,dd5d36833fe8383e5dba035ec829d87f2cf0d2c3,cbc87651af500d5b41797c00c33aeef1b7d363fa,04f61535786663ac21c8ca11987a3dc60067145b,8f6ae76370d944902b56224a57090b9ab99f08e2,367858c9bc0d1d8909c50452145e4b5ab3a6a6e8,2ca310fbcf0a91e347bae69b65b19e9a45ca31c9,b02dec249bf596b914ac1266439a5e8540195cc9,77087281175c6f02ac818d5649e0bc578d465365,3fc11b5dfc28b3acf42f5715a7ff6485c5ef6e24,d91f65514bed3c56a14be0e14cc71c87ebca24cd,1d3a4d3a22e9ec896690680a7985c7818e8a6b11,9545a90fc721c85cf12321d9ec63f11794f35c75,d6a6fb18032113fe4664813f2e1a02314f3ee13c,c50b03986e9dd17b8baedc3b99e7c7acf4288d38,b6136681dff6c4e327c751e102e6068448631254,2b2c6fa37879b7a3887f5182cebcaf325335cd82,82b6019b759e5db613a8cddd878bbd37c3d53c37,82b694e83d90240e6f7045d8edcce5738abaff20,d359e8286cb2ded8487071b48a294abdb56917b5,62325ff8ddc03ae209c75e097830b748081deebe,9a43c8a649008f076a05022f867f434f9033bcdc,22e3174c6633d465eef7306daaf6fbd4b4b29819,5ba5f723a9d447a973d6120982df7b536047f204,022743dadb2aaca8fe04169b90c5213128dedc9b,c97a97415fd7107ce5749011d673de70d9683b58,ee2a535f928e24d0bd22f2fefecdedac7e09bc10\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/testing-library/testing-playground"
+    }
+}

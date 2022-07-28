@@ -1,0 +1,30 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": true
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "937b137b883a652e469c6172d9870170c463d068,118b8f9d3a0431cd970f2b97b2a3cbc9f5caa854,6232645481874ed9cefcfb2c2137816b156b95d0,f9f099a48c6586daaf232d34b600d1a31d8d1eca,cb2105a07d32acf1e8b22a45e2d1e0747a02bc83,502ff4aa94c46d3c748c995620edd4984cc471e1,8ed5794348cb77c03f59850cee7d4b7e5ae3907f,f5dfeaa123f1b18467cb8343e1f7489eb8dcad43\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/yi-ge/Koa2-API-Scaffold"
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "bee320d73d370db76e54396434371ed91ba53554,edee63a712aad1f4bfaee284e4adfd2d25f14edb,c07df0178d102817c29cd5c467ac927dc56109f6,8a91bd2601975e556104a395cadda7f37f884f4a,f5583dd12420f88a15cc07d966e5007f63cd33da\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//serkanyersen/jsonplus"
+    }
+}

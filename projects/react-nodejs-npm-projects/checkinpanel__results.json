@@ -1,0 +1,24 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "359a1cb61aed9fc1cd8e716c89ce7b681709f8c6,e61b86ed8e408c2e99850707b69fd5dd1874f2b8,5ea50d4aa6af48561e4d08d023de0c6f45d4ebfa,0ed109a316a343b4f401c235a6d4d423b4283de9,04018787788e591552cd7f9f2d3cf760a12c3f13,cbf87906e5cd5c47a8d4c7ae66ba864fc79147b1,f34430f5b502cba84332eab712af86c882fefcde,502bf97744fc607c3b1f9ceaae205d5d25d91b4e,1b07d37d4e6035abb6da67735b04b6572a56996a,0909aed5f0c1f89e9a9d0e1951027f4dd60a226b,803bf40146ddc0831a06da41620011464784e8e2,0750e2ecc3ad0842ed28a38698d723567b7bb0d8,4056223caf638ed30a2a192be81c25243c01c319,2140b991ab3a5a82e5af2067d9d13c6f36f761b6,15f4df99d00b741a39b201c0dcf614c90259d099,9f834683e3864323a51ec8091faccf1b4f9590c8,3b523073b606416b66fc0a02b818603ba04b9989,bb58b5637c148d6f36d2a0c724df95d8054c1276,d9cb332a3ad63b3a89a656d2266628f2910a051c,e317516e6856897f3c8a80dc235922141f289a0e,3b905988ef842287aebf2999a3a09ee428af8998,d11f706257d1c16bb70774d65fe7e85fa517150d,87decd088a0c469ba32a8918e8a3bc00a0596709,c3eae2735d3b3e11e4a25803e9b4f56e6da99d12,0c1111d2b82ed225702afc4a4955175531f7d1dc,d9d08f1a98a29b86bc0efdf502211b1fe7a9e70a,4c31211792b22e6087d0b38e43a2cac51e9717d1,b3fb880af5a8d95535ab67f85ef4901805803d53,f23d25f6844ac87f9f3c1ccd09fb4003b82ee63c,e8ba492b3a40cc8a2807391e8559c9f54d8be81e,794c7f0e8cb335d06b138ffb74d67fa28c6533ff,f7f58988166fd5d5faa64dcf4268ee5535ee4e95,c2001bb671d714d890af394e43340a4a47fadfcb,f5ed5830f016938801f806e14444e64cc995182c\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/Oreomeow/checkinpanel"
+    }
+}

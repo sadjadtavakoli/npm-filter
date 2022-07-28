@@ -1,0 +1,19 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [],
+        "ERROR": true
+    },
+    "testing": {},
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "db3de8c1aade1817160e7efb3914a813acfd01ca,a2e87f8157442c6b8319ca9f1cf61444a0ed6c09,16b052283be36ef9eac7b7633d8fa9279981b0f8,4024c21fd811d7a789bf30dd4734c07249228cf6,c5cc96f2fde8e8b4afc88f0a0cdaac96505d374a,b0f4cc350120b4e0a4defa71dd2c42a2ca0648bd,df37700c2341c8f676d5b10a4c1b1fe4f2788052,66f01fd6aa16d952a9f620429a49ce6de3f08497,f1b6631622e430c83a5ff3819606ff1e4b5cf21b,196dfd793dac45472b96205418a072f8d601ab1b,18335a3cd676771b4c2d02595330242e026fdcc7,1b4b29d48f0d7e93fde464e6c0536217078c38bc,be0b6fbe549dccd816ad7ec52cbd7849fe2d8bab\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/michalyao/evermonkey"
+    }
+}

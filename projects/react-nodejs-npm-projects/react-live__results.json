@@ -1,0 +1,44 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "storybook:build",
+            "prebuild:lib",
+            "prebuild",
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "num_passing": 17,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "test:typings": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "a5b93b903c7232527b2ff55a9a7b660df911bbca,3f2386592caa3ca4226796a84e3bcaa621867d98,829a54ccb05a57d80d57517754a75586109849e6,320aae5f22cadca9c8e5a9e41c6a8b25a8d563af,950a5429ea3672dd4bdc4e8494de35a86aad4ac1,109e8c8f6c359a69dd1efdbbb852f51050f140db,b9385d92bc53cce704e285d9a9d6b2dcb3131a87,0f8f2e6ba7e38eb2b7d857268d3d3a0543b9dc13,b17fe7838c1792cbb732653bac93651ab60a38db,678aea91a08c698e399b25267ef0043f1add8d2d,f2af1a720390283efb3053de8da629d05a105f87,d0fd7adc6fed8a0faf75c5939eaefa36145969d4,7d239210838bbe2896e84789c64a159011ed5f51,49816e6bd97c4e2392446a680d83f67fcb54464e,be502ced381931de67f1ce24b6ca7a2f7ff7e4ae,78847b21653b430063af1e3e8315dbd4686cd39f,a7f0cf144897392abbcbfd35026c769649c53811,e976f7c9cffabc2efdd7bd2d3b4463a84c8ff81b,1e3d907d1f3a240179fdd8da4a9e6388d47339fb,7a0dcf4ebe8d96e867447980931622329d73c8d0,c3cbadcfcd6527a9315602bb65b4eb0a8dfd9a5b,c95c29b6839e4d585434075b2bd5ca18f6cf7fc6,4eb6aaea8e2449073daf996ee701da383211b06d,afb465e3edacdc484f44cd99dec9bbfd84b36b00,f38d873ad8f1cf9c55082bba4a6d946bd486d131,afe34fcdd8393e2fc68a8e05a1fb72f824028348,87f5a9e88f9bf90890a8f2c8a913e5feb839f54b,6374905c6d062a33bee5431d542c483c25f426b4,2f560e540a9b1bb2475cf9123dd3110041198870,1ba2cc76d5fc71b3a2401f84c0f67a7dbf2e8d67,4bbef47ca71dd13e30995320e462155e02071b90,fc9a65002186564557fef6b8a92670c67f6865d8,cd88f7e73756603e5eebf91da731c5475c9bd6da,af1b13f7b022976a602a548e64c9ba621ca6eaf6,477b6d7d452a9a2a27de3a511c919ba55b37472a,3e74cf2dc4574aaa3bc359e7995cc8bf49409818,e4f711c9b9b706389fc2f36b28ed28fc34531893\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/FormidableLabs/react-live"
+    }
+}

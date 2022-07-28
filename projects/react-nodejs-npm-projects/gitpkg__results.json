@@ -1,0 +1,41 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ],
+        "ERROR": true
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:fix": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "fb123b480a536f5c8c42f9d5eb167034b111ca36,7adfa0dfa53c8241847fbe20b11c027d03786496,461326f9de4ad85d6e3c7ba11a2e70c496f52fa4,ad8da06d5c2ae4aa425ac89e06b3268b776f1a81,e8f2ab7e95522c78ef6dc76b2152d772d94c1082,33832676b2c55b2ba2789ba4adee2fd181befb41,5c6438d1e5ce25dc3ab521473e5846b7ed9c8169,45979bdc62373315ca039c21e0973a07c7bc1884,f510dced4c3b88ed9418b9d8112234e34eae5b8f,ec8f45c857dfda138cf4c51d771f153941baf537,3c9eadc5b3a57cba8de9fe6340cc423c12e50d4f,75407c2c8064a168481749d0a1859b739c8b7a30,98cc0067530b97008423814e5eef15dab240cc95,879b1aec7ee46389d9d74c5fe5c5aacdb867d965,d01a72703e65b375005b6f102f270928f2fea5c9,7e2def1262f8af7f0ae653a779ce1974e371df46,f495927266f0b71f60c879896aa73d8d7bed854a,72a20e0b048e2e92484f0085b4c220f23b0b808a\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//EqualMa/gitpkg"
+    }
+}

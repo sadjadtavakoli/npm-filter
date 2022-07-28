@@ -1,0 +1,87 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ],
+        "ERROR": true
+    },
+    "testing": {
+        "bench": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "build:bench": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "build:test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "build:test:asan": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "build:test:aarch64": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "build:test:android": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "build:test:android:armv7": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "build:test:armv7": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "num_passing": 1,
+            "num_failing": 0,
+            "test_infras": [
+                "ava"
+            ],
+            "timed_out": false
+        },
+        "test:memory": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "5005aaa5af430e5ef1d15807d0ea50dbdd9ae367,1cac0ac804d526932ccd1c24602976c7ce564a4e,9f3fbaa8e0b6c0bcdd740d39d16de35a4ec18aa8,5f359dfaae809a2b97a25b8ed12914152a9696d9,ed12bd76bdb415620db761be5429a214b8d169b5,1531489e18f21b8ff0da00c6f8803b1debd340b7,95d49f8cf4485fcf8a882291b9bd64d5667668c6,b53e0e1e957d569053037b17d150e3c296013118,0db94ccd669d095321a544a195f30fde6af71eec,5596cf232fcb3b4d942712680c6f4e492d84375a,64a28eac877edf3f73a476a9c73672a349936fd8,ca3790bdf1654498e30f7f524a05d85650f6ba5b,556ace8f3302d9dd0b5aec237c3aa49caf58d7dd,c25cfc5773c3292a925d1c008494d7a071f7ca3c,d9c53d728be02b01f0e2ff19845cd652068f9303,1fe39ff66dceaacca7b99207e13ae1ab8f7bdf39,4c3fe2647871ca8eede3097235b8ff9acbe64d17,3386bb98676c660cdf366f52a97e1afe87088144,0424a08c0618da2bbc69f41f5c70a083f10666fd,179f20a7c5d2b71bc0a0825816092390291ce23d,68f767b96d9af5c6555cbe5faf4730c259835aba,5b390355413ca04ed8c61bf908c1f544968deea2,f4c0b0639b80a5c0a2203323d745b8c3f2759684,2467b7139b1e96a315651254046bb2e1788be6c7,c3852543a59a945686464040dbb6e4109a51e400,2c23f444b09fbecef21e36a22a35e472cecb9cd2,67ad0a4d4daa0e0d14dc488bec190dcb27022634,e99aba0a579c2dc5cdeb19b395e933c397504cbd,7651fd1f6f958f930ef7f3fd61be2c4fd4ff8122,22099972d23ce1f6a58eab1d06238936fa33e055,1ee314575662cff4131349b5c10ecc1c61447d6e,84a6a8613b7ee6f18d395c19f36114265104a59d,1537f44038199523df435d71618326816e53c627,5f2bea0b97068580b91ca0b289af93acd8ead629,0446e463c8f44b7992d1c14891bbcef96ca43eb4,7767b83222139dcc8c7c854e9a433e1dd4ff3a95,3c3a5b6fdb98235ffc8e771811b4e1d89960f029,5a49efe25e34f8b07e6d3e9c2b83ec387223bf4c,24919d72be77ff3d8b2d4a66dc9bbea21e990464,283a4aaab9c0ef13e65546cbb537cbb05dc5ddce,f03ada59df0774b0b9d7dd031d5f1efb04fc7ef9,b651be1becb33a4889ab93816045307990b90bcb,fb4d07edd4ada6da47a604c63987e1fd01a03cc6,7992260eec375199975701499808d105ac898be1,15cb7e5765b4821fb60c53ab827064e7989ecff0,4226561c7ea2ac6f06926970e4d23eb742f3a816,e68778428e3f057b2ec2fef285ff4da6dab84daf,a3c191f8d4c4352a954b51d7197b1916450973ef,2073f23a917bc8027e250b8a1fbe756247dad409,1a280aa30fa8932cccdc1e5473e8443fd84bec16,48c9a8956c17be28f593263ebb3b871e712af334,e0e85502af8a48ac348f216402d1179fc84db33d\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//napi-rs/napi-rs"
+    }
+}

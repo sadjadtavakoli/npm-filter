@@ -1,0 +1,44 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "num_passing": 28,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "test:ci": {
+            "num_passing": 28,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "a12a67fec8ab19e06a9d673e786b218f9df6e1be,28cfcd4d1a9d88de62b8bf025ad69a7ac0add5cb,2e9fd46d7f648551cd16503583ca6ba5c7c5938f,d33b53be0bc3f7c909defb90084edc20bc11defb,a60c063246b8fb5a45275c83f956e15c2ddac9b4,2e6a8ee3fd29092edb2d319b6e5f81c4015aa61e,720abe579cdec316de5bd4dcdbe6d1b237d2bbde,4f4ef0e20d6061758b705af4b3304a30c01538a6,25639164b5113d9aec0d11698e030658f98b715d,e1c0c39968c34774167c954ca099824e97582219,15798baad58e86e4bca52cbe6350e9309609947d\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//devSupporters/volder"
+    }
+}

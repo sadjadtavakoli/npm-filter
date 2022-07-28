@@ -1,0 +1,20 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {},
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "55c22ac060bedab795cba7a408745f2f64ff73dd,4c07fb0ea85f1d23f749c2184a8eed9fc8f80070,898fc49c94e98d234745c42c0ad8a93865910587,7dd7ff8c3d1f5ba12ee2805e2a03856ceb956b29,e39227dc184114b16cc31c50e0683d84fda2b1cc,424f68c0100a632280ee19c587a1c588f05cb467,518667b47c3bd1d25a849006c8d81ae5ddae8019,7922b559389b1b2f48a5415e1df93f5750e2526d,3db256b019d9982e6e27515fa1751b00c485dab4,f531d01a22c50c01de6b3d4b3bf9732e90d4dd69,082226b13f82a6971b4c225095a0260a5eb9a3ff,c30b02cdb0270cccf9e2e94dd40b8ee27afc78f5,9ef90700e6971d74e1ce060b63bf60acd897a839,908e15e093d45fb78350b42ac22f60da10d14159,0e6cb8fa3c4c4beed8e15b451d1f91245a4fb19f,f6c4a56f1f36325619ddcfb49638c49a4caee825,09edccfae761280d3b286d65231158aacdfcc450,797c71deb24a58ad037cf06dab847a36742ed703,4c8966455d14a69d268bf809ca42aca78872370d,1a8bf386b801dcbb99fbf7fe7c4256f95956857f,c096b0565566199a1998493c3a15a74dbc10f32f,943d4b16657eb0e58fffdb0ee7f4c8711e9229d5\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/jkchao/typescript-book-chinese"
+    }
+}

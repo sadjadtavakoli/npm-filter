@@ -1,0 +1,28 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "num_passing": 4,
+            "num_failing": 10,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "24455580e5c91fbdbb9fe6be218862695cb3b317,3e6c60b49fd56611cdea9ce2020d27843f64d7e4,96207bd7e42c9a6d29520f6dd7758b7e2102ff21,dc220595daeb2edff789fdc8dbac94b9196da5d7,b93f0751233a70afe76c409e88aca3ae1b115470,6dc4a9fdb3bbe20ce2fcbb01c3a16e500f966b27,0957c9cd291c11ec1fcf5d0ef61353510197d508,3ef07917d12939a6e6ee3938618c151de96feeca,e0d9ed415b99ee5262bf22a3a853525f635ab50b,7e425f802210660c87cf50e0df2eca5a03e127fa,70c60c2b87744f3a04c2f229b3655e679512d8ad,c9975524d6ac23c04ca6e3930faec5bd586ee9f7,0c7e29ada109e9ff8395c4dff2426483e1588477,1b7cda7cbd8e5255464619630102098de63bc287,31c71519650c1660bb8ba5ad902ac4d553b399f3,9462bdf2e7c1b217dad750994aeca0f9ec776108,172250d854b971a524e39d9d8c71b0ff39f12828,3f995b8eb575b75fe444c18ac5a9db365aac5fa8,a1f6742145b6b812a8680d111dfd9981c022e3cc,785f120454cb89c8bb0751a2e7abff2a07dad88c,8940a9a07efd21452bd6d2522e9379645d579eac,963f82f4675899150a2bc4c941ae742d92ed9d61,eff53a99313446f59d72608dcd5b24e5fdc97f76,3bc9f1fe5358cdb5b20d31a7af765cb112f955ea,c8074e766ea3512866c86545a3281011086e9e73,683601244a81ebc11a63ff0c4cbd8a708cec5376,5fc3f970e7b67da832cc832837308aabc0a9ffdf,01b99ba117e5f43c4dbdcade0f4c49ef03226767,97bdd7150b1fb72ddfc08f9ea7c008206f0d50c1,b802e70ececc47f1dbd5a3ce9f8f9da8e2311810,516fe143d097d982e1b5998f8ca4290ac4b188a4,bdd764ea9a7d92bb2a4d62bb9199a466416439b9,27038f0875d7491cc25b1e404b8dfdedda36551b,62ac4009d75a242f82234e65f2ef7edb7e147973,e1a5b8616546f2f95454229e565a93443b2645aa,046a6146e12ed99a817d758e3db2afc98b3e9fa6,1069d4b528d804f04ba1517e07ce5a33e3a595b5,78ebcf2289f674e7108ad820b43e27aa33e96152,11208aade4343b8a209694ecad1e7a20a653a41d\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/mher/node-celery"
+    }
+}

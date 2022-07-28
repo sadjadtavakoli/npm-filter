@@ -1,0 +1,28 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "27a6806957aea606e69cccff23160cc77518a682,b647a167c6f7457c6c5cbb2f108464910424c106,551f38eaa86f91ab7945541e6eebf22d370c836e,f8be367b77625096f8e56c794502e6c53f630c5b,baf81033ac320d7f806df8cbd788571507092de0,a9d84b66f4407c41de4b72ca6b4a75737d946c7c,09c0f9f06bee5ec8ab92b50fe3fd4a20af0c161a,0bee5ee9b21439f8abd22c5a71ebd2fa09ece04d,1c39a5194486dd23af063678bc855d8c14ec4d3d,992eaa2e623beaeed7599c3d4a51654d8304182b,feffae3903677b861a8d8907cdc3ef23b8784382,18c8484a5438c0bbc7d8f072116fde19b20fedf1,da0f9cd7c43d1893a48706dc05ab3c1e00262d73,11536c2149d741cafc60d64a4c485cc6e1842414,5e5076da282e607b3ea6ed8e0d6bea371688cfe6,1b8f64204eccbddd7de0c3433dde777688694f8f,e8764a97f9c70fb6eae102fda7237e745d9e99ac\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/ealeksandrov/NodeAPI"
+    }
+}

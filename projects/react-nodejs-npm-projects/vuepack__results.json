@@ -1,0 +1,37 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [],
+        "ERROR": true
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "num_passing": 13,
+            "num_failing": 26,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "coveralls": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "coveralls -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "dd0010988e4dd1c372b71128adc06d9b24aaa9e9,da10cd54480c82cab2abff80d6583310fc5cbe34,9088c1d8f17652fb69a03f0d970d47a3c0d91d24,96142f4b6588a91b9d79a8ab197f207e472fba06,df17f7be5a4f4c45df469a4f2acb62958731fce0,a75cb920033cecd2a741f1cd53c41896bfe436c1,f7af4003ac9e825dca48dcf921f5ba621fe2336c,06485e887a584432ca1a3574f72d0eefff8944e7,1c42ee1de4d8b02e6e5046a68d9a4d4ed95d433d,05ea3e38ab2ebc6829b1ce716504a7ae3e920c2d,07db6840b313b797dbcb14e42af773f6e24ee6b7\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//znck/vuepack"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {},
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "226d545a14d536db68ebf5e1bb6735aad546f434,54a4366a75caf83bedd88ae7a2b18fcd441dfd50,256a034605442d828b999ccd17732eb8d5a6e924,216fe27da48809de687b196400142c0a932513c3,fb71be8268bc0559376d535be74acfd13eaac270,e2fa7746965eb85b18e4e9dca86f4e03b6db0d47,ecebba5778e2a3c47cc742dcaa55685fd4295722,c45073ac73ae285cfe40f9863ae87ed347b061cb\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//nodesource/npmsearch"
+    }
+}

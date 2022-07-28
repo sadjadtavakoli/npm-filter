@@ -1,0 +1,59 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [],
+        "ERROR": true
+    },
+    "testing": {
+        "test": {
+            "num_passing": 1,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "lint": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "lint:js"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:eslint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:js": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "lint:eslint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:fix": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "lint:js"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "09483b44f725fa98185e705ca832f1c800505e2c,0cf9ce6357946a32e098982e814eb4dd7fc8bc76,e4958efacc07bc79d1f08ff0e14ee7e92cba4bc3,81b18ce12a7970b9b0d2b4cafbd8f6b6100ef957,462d119f0eaf58984ddd4f6e3fb2abe7ef18033e,f3f6421eaa6ab51bbebaee2e982db36a6e9bf9fb,629e6b3391daacf68f1301474a425117be7036d2,c40b5693846374c55d3899f9c54397422ebaeaa6,a5f8cd87621479bacd72409e87a3dbeb2dd09542,f523c3768384d0c11d210dfa8a2269e67f4afec6,5b26842b6d147070e46789b8f5a04a73fb535f83,b47189a9b90e4d5de74dc836a3d7966354437604,e33d7c55072c76e711311abc9bb251f61b4c93d0,e2a8a14351020d46d7e97fc8c059d029d4624744,41d58ae39df7a565c23dd2802efd3c4426be7af2,831e9a9fee653c678f0f03b94cd667fe206a64c6,8feaf881c0dae90602cb4c09b77f00e53df0a92b,ecb9414e84f8e5a322ffb789c7de882d0be70941,67426c9512a8477bfeb00552b2db8cc974f6d355,4b2251be32c5e072924ae05edc674308122f8451,1dfefe021b490d52938502b4000b2af1bcb71341,9d0d6b3435c1c3df5739638cc90cc8a4ceaa6022\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//santiq/bulletproof-nodejs"
+    }
+}

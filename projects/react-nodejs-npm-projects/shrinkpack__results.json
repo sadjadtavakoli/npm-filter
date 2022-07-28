@@ -1,0 +1,35 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "format:eslint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "0118a09749b7aa91117f9d875eb02ea953584e10,d7ccf2a4d7f83e8a71ebb9872ebcdd2924bad3e4,8d3836e56b64010baf9dc9fa859ed2df8d4c00c7,8bc115c64fb03709ebe8a95c35d4ef5e08fd30c3,8f462e653dcde081f7a3056f2f7b13ef0c1eb783,75265aca8019b72ffe67f34818bf73262865b582,7b2f341408be4f0415714ec57534debfdaaa3fbf,eb594480bb697558e357a1f406ee301784874fe6,d4193bdab5f0518f37ed3dc0eeb4b767fed469ca,2707067d65c7dd5a800dc3c5e3b3b3dbbd25c391,24b0aad27afa0d44ebf67809146892e5b6303219,bbe9cf5597f31f451a000830926829d94b0c615a,b2cf8b3d6c1ca9bffd8a9a24b36145f9ed8df536,f3a3eed00b92a1234f3c8249bd766a674b101386,409062cfb7b3ac53a7357de3a1e53bb116b9f054,c8aa1475f164366d0f83d30fc8d42bf2beb4aa97,70411159feaa7cb4ef0a003bf0171d5d1671c537,a5337e7b9a57d3d99e37bb5539067630a20567ec,dfe6083d38bc2a278dc9512b956fad598f09cb11,821b4701060a6948800bf2e064c62fe7b02f5c87,db4f2799149fccb300af6625b5bd00148dc657fd\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//JamieMason/shrinkpack"
+    }
+}

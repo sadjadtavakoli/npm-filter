@@ -1,0 +1,19 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [],
+        "ERROR": true
+    },
+    "testing": {},
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "e668f95709e5bbfab878ef1445e0852b8c0be780,4200426f42ffea118d40f8b744ca27ebdf8ed5f4,678f38ec3ea1e9660d948d45cdb687f7bc0b9401,26842906ad24d8dd6ef4866dcb28dbc00cc01e4f,66a10e9edfed4a6f4ba1d1a880a377004130291a,62b8db8bcdfd039530ad2fb9b819c59500b339cf\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/koala-coding/goodBlog"
+    }
+}

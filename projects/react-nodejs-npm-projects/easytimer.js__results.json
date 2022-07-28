@@ -1,0 +1,30 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build-examples"
+        ]
+    },
+    "testing": {
+        "test": {
+            "num_passing": 101,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "9b8e473453072764bba652468927f3e94e46abfd,153c4c4d2d88a9c3db8dd5a112d1247b8f0ab39f,9af7a3a02559157db5063d8431d71a703be28c9f,5cd0802efa6f9896519c5953d8a8bb032cf34135,20cbc26326ba1bf0109d0d9e977f5850b2170ff6,34d642e29fe3ed580b06e4c3ce8240c8253aee43,96e7e3dd99e94a42c12ab6d409f8e90e11378467,322bc1b3ac8485ffe81ff74bd5022c26604c026b,cc55894e395b75d70a040af569c12ac2068867ab,d6a32c129e3e3e3b256eab63188528fcf52b685d,9a2f0e493764fbee2c4f680fa36afabe5024fe9e,41cb3b3fd703154f13673def387383abece86c63,0287f55f3f1f041ac9462049cd7cce20c96593ec,f34fccb4f986a3311617151de99cc255dd644e9d,704d461411a4741cce8d6c254f6da650b1b2197c,249c5d32906d547dad5321a3baeb0abf7b09f4e7,b50f7b1450a1813435eea00b6166e16dc3166958,7682b23e1aab233740baf19c8cd044038efab399,441abf391daf0e93b95888aaef25e094777e8f96,bb6fdbc651d392c192aa00dee4c0e977feb5190a,db3ec9d3bada48ddf16470e9289f07ba8f0aba42,936bb0380e56645d911f3e7e515758955d5ae245,a2763ed17fe36701396e14eff5ad97589758e092,d5fd6bd14baab7a73c1f07d4fd53a8f49dcee93c,e30defa6ef0afed8002b7fa1bb2c78976c1589b5,c6379d2f667c8ab351ae1b7caf1d8615e3712ee8,e5ee3b7f633929f44ea6e0206f2312b17cd76e92,ebeb9ee1d3ab0cad154b4dbb5d0bcd180a1e15f7,c06f1bb4c466cdca0fd7690646012fea16744a83,89f517893d21fb1595c546bf5995528441827db7,7864eab964411dff7a51eff109c6fbe20b1ce532,3e62abfc77e00ee8cc8def468d6d0c05cda5927c,5d4bd0cb27b9ce495e02e2c11537906b026119e7,9ec38ed36db499ba4b684aa6bbf9ef73f0a3259b,c48797c2f8274ebf3b7b0642acdcefe166736dec,b2531892f028a6d1438901444415d52142c93a2a,fe224bce15bbc4c228fdb5518aceae4466036317,3cf2682c92ecd2bc2361b7eaa5733b5a9c872001,63f10c3a1af7265449dac691f5c9fde13d0bab2d,6c3e0be0832222acfbbe8d354d6ee36c0541417d,ce1e26cb54fa5a5a07c2da3aec8dad87f5456988,aca55adb3872b0f88139f60d385b48a2b62f2000,629fdcf2ff93822bea09e6d0818ca6ff89603265,87db03a981d5dec3adbece43c9b97fab5e418f6f,74aff3ef457953058959c14a3ac488ab0ac8ead0,99b88a3fd7c9d1fd4f5b645dfe69fef2f1cea7c5,510bed93504bada3844442ad3884db9ba976ad20,05a77478b4ebb855ebe0dcba0a2f2110905bbd4d\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/albert-gonzalez/easytimer.js"
+    }
+}

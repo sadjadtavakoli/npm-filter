@@ -1,0 +1,84 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test:lint": {
+            "test_linters": [
+                "eslint -- linter",
+                "prettier -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:lint-verify-fail": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:lint-rules": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:deprecated": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:jest": {
+            "num_passing": 251,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "test:cli-sanity": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "test:cli-sanity-warning": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "test": {
+            "nested_test_commands": [
+                "test:lint",
+                "test:jest",
+                "test:cli-sanity",
+                "test:cli-sanity-warning"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "7c0eea65da47e24e101930b37ac3b36f10ccb54f,681ac576184915fc4870a32930ceac91334ca65b,7ee41f151c7b17d2a6d5cc1211b3910712eadc1b,79db534f6afc0be1c9b1a6c7c3fdf825cbe52827,8954ede730b26df60fede2074d726a3c45d7a95f,6df206ed4ae2c1550ef6f108181a92ec88e4700e,abf3ba12d32782da8ebba2ec4f5c1d7456c76dac,03c79b9306892d4dbc828ce723813ef015baabc5,72ce4d7ede197326de72f95100f8817bb5a7bed8,5a0c4a9379d3fa24ce7c71139bc3c918b64a665a,6604b27d377ab8759a95ad65106a812667d21c79,f0b8764fd5c9fb9df38f9d7e4b4f6ad42037dca9,4d08b847cb2cb808b22f6044944ac0a619c9226a,8a4cdcfbba2e1ff15c4fefcdbabd7a07c701d37f,4ab6937398f42fa3832f476589513e94b8be4ad1,827706eeb42de05b90327f4ca65a1b16b38837f1,891c1d197a970f0b46815b28cead6dbbb148c097,b875b6efc7e2fa1b9a128006d6e817991af232ee,219757f1ab414080198eea692f8199b89e9da1a8,fdc25da8802a259e526effabfb0e8b642aa9d33b,84dfbd5fa6642796756e501a201086e5b059499b,1504761368be708275ef91c3a6937e89b1b0edfc,2a5b8544d51f6947cf914ccac64bc0b250f0b0db,04c79bf1602c8126da863d0997aef5ff347b73db,8b311f72ab452d2561e591826feb7a1f04f0f352,4d16ebc6fcd7f87711ab945c41d0ae70d269bdaf,ba67d5d75803f1e02a84f97fe600c5ee1f9242e3,39032ed96aa6977094db832582b6cb023ffb187a,4fdaa044ca252f2f6360dba9d6ef1e43bf03b59a,41b0302d656fa4123fa457a61818c5fe82e596b4,9525885ad0d100e0647fc9e16ed70814a62202da,4890c0af8f2ced9c981c0805115a706912eaca0b,3955d29d9cee94944df9522a34e6eee44d94622c,15f87af1b54d62c9d92427e4016b6c7e10ff963d,6b1bcec19766d54be5c02599d29a95e7c0bda68f,13cc4d210b0096e562d86258065a1aae284f87fd,d1254cd8b7ccdf147766d726f4728b2e0234e9bb,2297f5a016ff1eaee48c0bd63a784705c3459254,9072c91591006a1822f6ae8f311554a5ab7155c7,c77f52eb135243b81f9159fbf9952e740b3f861b,089a7b53580fd45b992fa618bc2d3b08a5a71731,351d7914bf6e5371f847eabfcabaaeb82826c261,425a9ffe9558a8e83823342ca8435b3164cb8c8d,c45b794a24577756108b9bc6a221bf33ab3aaeee,7819e4395137c382d5241d32b5e062b592818f24,54b2c47c5dab294b67f93f81391828ddb785c38c,3602e11bd3042233d04ec24ff227990df4aa66a2,8f0c350c3450d95bc75c236d8d5dec56c2e7cbf1\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/prettier/eslint-config-prettier"
+    }
+}

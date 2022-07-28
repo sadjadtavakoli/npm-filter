@@ -1,0 +1,65 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "prebuild",
+            "build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 2,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "test:cov": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "test:e2e": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 2,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "test:all": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test",
+                "test:e2e"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "819bc044688ea08c3d7e0d18862b96db71d00af4,0f93dc3f722704af59eb76d2b99ae22b12a98818,4fd328971af6816450773483ace9a874b0f73ae5,31982ba3036b956f6a8dd0ac3cad8bade5d48beb,b165a3e6c461e7d25081a4a7df81fe4624c8edab,b17c214c50140a7a84f2f342180f37f6f34f34c4,0edc57b4f4cfeb2e7dd2f04a83275a08e18fd5f1,f8adab3bbecde8b7d41860939ab2a46193fe01b3,a573e70abbf370fea43ec610dc37185c4145bd7b,d0ef28d8bd16b1927985c5c6191df3420e59ca63,5e4aa7ccd86c99f3f6973d7a61d9682e3ac61607,e89c5b80817d98a21b74a15feb338f2b59cc55e0,66460994550d7cbdce32565cdd1487b2d91878df,cd11b5af629a74ce76a016d5795474581312c6a2,69e12c054cf3762c499a7d5987744f5be9bd52c5,967afb78569b4a632f3d4d958f7f81eac57c88f7,81fbc0980b03a1573ea6a97577cc234392bdb791,ebcfe8cba801f0faf65898201a98dd8f79eba246,24f7cf9b11fba413350ed14d80c99dec2a41ac83,89f2907dcdd0d390ce66d039caf57d485ef36115,1e35ec3a46470adce878425d9a7b42b2ad32217e,130c49df71e43c27926a0379f65b5bc0df6fead8,d435fbbef84537d5f5de7f40fee849224cae8687,c141ed52133c87d10a6f9e59c4c33af60e00cbf1,a3c7f7c86d292524ac02c95a4b3d9d133de38dfe,c42e3d88e981be35fa85973480edc89be1da8e05,cd66fb17468076f593648a44f776ef31a4f2a9ec,fea4d017a11d22c6c74ffce9ed21914a1f905ae6,42ef2e8667ef3cdd390a00c0e0f3933a4ffbb70b,b14005e98ca751a42f5d7d9b4aef6ae681981beb\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//Sairyss/domain-driven-hexagon"
+    }
+}

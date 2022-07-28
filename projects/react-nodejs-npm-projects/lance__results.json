@@ -1,0 +1,47 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test-all": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "test-serializer": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "test": {
+            "num_passing": 6,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "d8b865b2939a72fbc44c0011bc6d84e5d1072c61,aa4463c71daacb98a665b6c34ea864da536a9e46,9ffe5cc1dc2a9121fcea313111982856170b1383,51b53be6a951575bff359e287357deee4acb1657,3e82cd5fd51c341344e84e4ac587f5c7accda1e2,9c8516bb83120fb15191c4d90aa280ebe8fdd7e6,99f58f8c23dd00c88363571d11bd7e0046bd8f20,af5dcaec10c9a2e3e373bf53528d4a1d0f57e3b6,210814a22a993e1624ef66c0d51decaea5543eb1,8d1241b03964ee3476c2747312f8621a959f55e2,c01993b4b54325283bc0e1ba9be586f8018d56e5,c6f10fcb0259795b5189461818cd8df12cfd6ae6,ca243e7237b4bff88f39321e8852ae35c1623667,ddc565a9838e32d723daf96a09f309642e180b3d,3f623b4f74c174d8267f3ec2bd96b61f045bf0be,cbcf5d77f925b9d712ec726d07ee2f62d1bbd467,bca2b6b22b2d484686b805d9bbf342554f9980c9,6e91abc8309f04134c70081b62ac71e757d09dfe,177c910cccc83c5878961d4a4a597b94d8756819,85f46438e2affc8d80757022f52aadadf6747457,61c6d5e8695fffc1882e1d8f85763d72123785b8,3f925269ab6111848b71fb043afb7d8cefe32f1e,ef83ef8328c2a03c2216d0d674306a9490758a6c,ed1db22b3ae5c79c268be78657fd58ef34d6a37b,89c93771563006670a6d2cbaa46f04b097c4246f,d13394fc62b84eae3d054b371572505d0f4c8f89,4f5206224046f99d36fcae6ea8e06fe8ea012c53,c8b2e35b4ca9a9abeb7e019a107ee60a512430e7,8deae14c7f66c4a8a390043c6e35bd5129693f94,ad9ce43d51e5013d08df140beed6928ac4d2648a,6a334ce0ab8e7f17a043e81c89ccedaab858ab64,9ad42c1cd663059b39ccddd6fe6fa9b2148db76a,ab693282f9d31be3cacc5c6b79f0c3fff47c562d,e782c15b88f251100622abaa5c0445bc509fed5c,9b5481365c41ee8dcd1c03e693815855b96fc8d1,254ade16a5830a6df25afa2d26312a108ee3817f,6063dc4ae953ec3159c79c0f09b44a38f370195f,180aeb4e5068d125a260758df5a48298e4e125d8,e018a7b2e8f03635f709ef18a33bf293e41c2841,6d3d984d1998ba79a3139521d7bc6a64b1d9b038,647e70cdea842cf85742786c8f6bf6e443ddceae,03258dae4beecad10119e604e2896d8ce42a2ece,95399b9332e455eb85c59c7a5a0715f15b0eb791,9980d2de03b7e2ad9cdc48f0de827d7dc7e22c7d,7d01a0fea9c916b4e5da6bed584a487ce3b2330c,03cdefe6a3dd065b48b807819c307d94f14e995e,f780bc5d755e24545854cc35ada8ac15670e4013,f22c21296dcac43b094f60dca3732d8a3e46a2a7,fbec8262bea21e65244d7adf323378c428047fd9,92e1b053d36e0f8b9a4393ddaf39e25d89c7d353,21bcd244a9ab2ae3072fb48cf4b2859b17aac5e5,ea2f4340b5784d79fe841eeea8b850d41216a6dc,fecc16f62f1607aa621d145c66d25d72944815ff,f0b8b1349ec994c7dab5183e310f6f22a66c84aa,6aba67035e5df29d1967fc089b37549fcd981e4c,4a1397020c718ef4cd2ff1538bf14652f7abd3bc,629db8564d1f3341b0de0999e3b768513a8d4bfc,afd80ed3fc8a9e4a5e7800dc9e6834d1833a19d9,62a4277250ce959f1fe0987e98c841cc62850ca4,5c8824e14956e3e65b9e67dde1c02941f5fae90e,7bbd30b5e718ec035178cfceeaceea332ecda944,3924fcc58c2ba2534172086535a4b59c676af546,4c00ee33cfead92acf4b051be86dd0c8b2542c3d,c0a9d418a901ba90895bb64431b41784fb168d0c,2159ca9deecb08d4846b458a22f4764c813e7a7e,99bff2f2b9008e359c6cc7ae55441038b43b4c45,edb6c527ce1788e3beb8d95e23329a81e83dd492,a9267281e0a32acccc0f40930e8d79c20612ddf6,5d911afd75288c9d919ff7b23db7c03c54a6e0ac\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//lance-gg/lance"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "92f595cefb83716189d6176ae01b044f8d016233,a818d6dcc02cc26a06fec3d95f9eff40f4e6568a,e713e7abe980022e67f4ed1e967a00e74793dcd6,4137f9dd4c83c118912a582a3bb414c1167ed6cb,e9eaa78a9016783a1f8576c88e3cbda943bf5e3b,cbf86fd575ba0d596c6590c8b566c37d858a23b7,b3209cb92870a07528b5340e7e1845664858d6b3,61062b906eab51792ca47a9928ff13b67712a377,8840c938ea7909e7e74dd3a8e7ef61a96629b7d9,87f4725e963c33de532fb3e648f8a8514c197578,a35b834e4a11b991e6c06efe8fa604fd892c862d\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/apache/cordova-plugin-geolocation"
+    }
+}

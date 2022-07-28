@@ -1,0 +1,28 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 1,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "3be28d1f34cc4be18b812c98e21edb1de9d46919,6ac37692a6a390e86becd495250616dfc7f807cc,cc9b7d864339c0655a117313f517e3f675f7b153,e1d465b7523942bb664c9a07697ecd3f306c0907,9dbd0fb7453532b931c1e595675ccf9c2012cf20,c786e521a3613e839ee88a6a2dddb95045a9b968,d34cf6defbf77dcf289bc069a795661f687e8b08,78e5b675464be527de7540c47919868359d33698\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//cazala/coin-hive"
+    }
+}

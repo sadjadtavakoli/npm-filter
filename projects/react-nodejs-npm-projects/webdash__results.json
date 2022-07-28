@@ -1,0 +1,45 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "lint": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "lint:javascript"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:javascript": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:integration": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "4584dedc18b0073a2f13ce3327a396f438d47081,6832337b079f46b9cc7311f2f30a61ad67a6f598,5f5f821b7d5a15308edde0d7418064b012ada476,2d071848fa5697140b3cbfb652e0e9f31b5d5e12,7f8e3f3d67c998144a90f45d485ebcc7d552ce0f,7378a1d81252074b91e02f86417eea9989ff0b3a,57f9ef389036ce13fe0cc60e331f7428bebb5b89,116e44cd9f869ca71cb85dfa50da0a92c6ac8ee2,ce39798e17def530454149cd06af9f74f2a7ddb2,0b9797db742154fb16cf62739069f341052a4872,029179a9301a0f60c5f5482c8173becb651ea95d,db21934790215f4f47b6b39462d72db9633bbe63,b477352f08fad9ad3b1f3547c7c10e849edb0c02,f16f08aa84f47546d596e75d934c3e2b32cd6ff6,c24277391ecf77cdd913d307021e007947cf9c52,fbfd51260f30dac5fbda0915f6897848b29ef94a,184286bf11d8e80f1aced25ce2125c37eebff9b9,11f02daf03582a13fb07d7d929958ae51c5fa718,3cb0a6e70d2aec78a934aa803111ee1c111010fe,aa4f3effcbde2a31990a264bd513aa7c237a73cf,dacc12a64fde387f575b92e0f08db42fb3b9c146,ea9a9ca08017051abac8a146a48a6c97c202ead7,cab5ee8595dd386fb8d6d5777e000f1d6af7455d,a0b40f54fa3fccbb7aa1b1cbf4c9f387750218d3,ec1047a38e3dffca030c2d1cedb22435e454c15e,ad0f79af87240e91968ef6009b451217026b3265,72bd79b271e45ab56236c7b48b96074eaae54927,9b3a1c7e92357739853669ac5827c1ead62b142d,418fbf63cb806491ba55d0b99dc8cb4e5eb9b4ca,72338b7837e31fbc386339d5c02b39da5c62e5b6,bf85320ccea8e210cbc1860fcfcdabe802a50052,0d022f020b3a49066c8bc1193941469f0e83a110,4bfba7cd2498719f08fb95dd2971dcef09adb901,9fd4537f6e9abb62badb3cde31fba8d0c0273218,d2b3def219e69d163de16cb080f6ebcb763131a8,27389f8232304031b93d37c2d21f91a60f7a750c,d5bb86817b003e801416949b13b42d62b2976b7e,4a89f72fd1ecf2b18a417c111af28fd5cc934eaf,4e473ce0fcd65e34c47544f79e79de3ba671cfb8,d5dac76afb23f4fd528b88cf7dacbd9eae2300dd,59905aade3683ce38c8becb45a5b66951cafc486\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//jadjoubran/webdash"
+    }
+}

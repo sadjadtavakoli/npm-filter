@@ -1,0 +1,24 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "62a705f7fc6d2b0c226b8e93a03110f193464af7,91bc3cad535b9728879b78641bc8df8475542626,cc669bbd1d34cba83c8ca0c7c10ed7dbce565fde,5ce8e2d8b79f90d680e672e2561ca3a3c1ae816f,5a30c36aa7b7354de16022118d6fc14520603e50,88f8386213a8f5cd2f755c02d8965f5b5f1499cc\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/gulzar1996/auto-like-my-gf-insta-pic"
+    }
+}

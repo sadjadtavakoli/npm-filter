@@ -1,0 +1,75 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "num_passing": 112,
+            "num_failing": 6,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "test:frontend": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 2,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "test:frontend:hooks": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 1,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "coverage": {
+            "ERROR": true,
+            "num_passing": 112,
+            "num_failing": 6,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "codecov": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "benchmark": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "65ba72685e32c6b29dd71a3653d372f42eb90c0e,6e58b8fb2c506190a369c53ef470d9f3e7611a68,d05e816394d3d2042445a5246c0c6f7368abf0e0,4cdf91456f172867b800c9eefcef9414985e1ada,2fe19ecfad66ca3200a5a1a73bae269daa8bea8c,a12404d5fcbba52f93064461a1c309d67a193af4,1f43ea11e1c74cf843a255df2b1750a51873ae46,8057370fc70a32f9c8c9ee1bd005dd4ec2362822,3fe199914e8c242b801b5008f029c71e63625a7d,4892792fda3d63d4ded8375b97c60004e166b2fc,925bada3983b91eb49ec91a98845e30f6de1dde9,bd50d3d3e63fefb17497c01723d1799f4b7fdd35,ee67d425269bc96a7875c9ae1c16c5085ec3baca,c91be2c2bc683fe06db96b56ee80180be9079c17,ee6caa25c07c4739899632d7f86c1509717cbc80,2659706f310eaba95ef05fd3fd0eaafff974e4b1,6dfcd87d32414bb82bb93588f0afc40d0281dbfe,f9952234b9624067b342caf9b609ca7ae7645372,68ca43a876e747086ef2b21084de82060aa7429a,19767a617d82a17fdf1b0b3b383ad391e4a4b3c9,e0ae623cf2cb2ab116b7453e5b5808998b8f97c6,574c6d23a4b3e450fa39a2b7737960d609d42dec,595ba568dcfc2b31220e284180b2df86c8c9a768,aa86ca870158e9306a714da3dfef0be5d1d3e9f7,e95d56c16ae842a1d754224637fc0c7cac1f21f1,a9d776f5263ec7c2a991c03ee4a7df3ff38eeb45,b85c5a402297098cb27c7f40b4c165b31e080b6a,d732101af6172691fd059b4a5f735f5b0249bdd9,309c63a2548400917835549682f49e5be9624dd8,afa1781fc45af0310f2bc4cc8a09c369d972f849,99bd2df38bc764c01dc4deb6e79f4c5ddd8c3102\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//zalando/tailor"
+    }
+}

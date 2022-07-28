@@ -1,0 +1,37 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:coverage": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "5946fb2ee6f80a15271aa9f04cfa7d396098c3b8,d0acc551fd9ccde38f6380f1b1cfb9d2c378d3e5,fe6038a299c86881a9d0b6c2a8af7594b0f42f22,3c7623f02955b314a4369b3b88dbb2e21c337652,d866428843f962552e02348a54bad620f2cb6c37,c97f42d5f2f40bcb98b3799d054f7659517e199a,45561b339d078ccea1444854c86e449b416fba11,f0e186bbf5ad8e302368b5981b59c7bfb0515ef3,d373ad0f0857df8204849f1a3e6e7cc0f26f9800,6da2cdc2172c6308434c107ae8a4e65ec486052d,fd68ca974f402944370d6d9cd645737207e5d26d,e0b3edf1b341535ab971a1b351902c025247b0bb,59e709bad5b26bcf4f58217f6100c770fb1dcfb2,e30a13a6271f0a797ad2bbfef0f54d6b908282ab,2b7e71ae814c042e92f25f8f9161e524822dcb57,ecc0220a24894d9aae4c0bf6c3fa5028c2171208\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/akxcv/vuera"
+    }
+}

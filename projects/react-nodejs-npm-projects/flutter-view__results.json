@@ -1,0 +1,25 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [],
+        "ERROR": true
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "d04e54f7cb7edf02a2ef7b067c6af062eb7d9eeb,14319e1c9135e8199335c402a420fe8ddb3b4276,d4b0bfcdbea4ae6f8a50abfb53fb06ca6cccca24,b6df2fcd2f36dd54c37ae15f3ac3945187ea6eb5,9b46e265f26c497cff7abf6ae5f5d1122e5107cb,fa8faf447ad6fc2eb05eac14b77df71909c6fc99,736e221421c3140c3a176eb098b202a50d10045c,765e175ddd2a2fa1e997212949e19309ed8dc95b,defcee5ea17dabc151abd3103ae6e9c8ab890682,6d38d70f086050c27d77ec22543b111010d16f6c,8bad11bfc59a59e607bd3796f0b04a8d88a18c44,67262d539eb69612b990378ea2a0627b914aa306,d2cb8c894fff6701b1923d70928c8d0444887925,543382f533a818f090160a1e82510ed656dd8f57,f2c2d19b1e7ebfe4df14ae97619ac249c968b57a,bc7286008542394573a731f1be75aa553ffdad84,22ad20b80b8d59ad34b39f77c49be8c239329be0,64156c81c59f1768e47fbfb3e4f2f7aff344d130,77f4e7c5f1bb796106baf5b31021d095ae81d564,bd15da0faf77fc947c501f568f15b068b85fab84,b933f2bcce8e3f5e5a5087e5dd6196bef3ff1f5c,776a8fa95038d74e487ad8d3d1d3bd73e9b42c13,0568690f464d98ccb29f224496805b9e3647184c,44e6dacf02009682ae22c2c5a6d2956641fab448,e8160289ca82a3dce47af025ecbb7f536d2998f0,7873ca6f2909eaa0caee9bad7950bd2efab8580f,2101cbeb4a1373ba25b5c663e2c08403437ad8e5,e34b2d9f485b5aab96aa1ebfe78545138651ab26,770f553273d5958030ead7d0162e5c4f6151fb3d,27a972f00e40616d0f7a759e246eb60c9c7df0cb,a8022236ad9484e2955e42566a2f90ecb76f6fa0,43e793e74446fc455093ce730893b81b0cc6e00a,1ce3a22d18fa836756ff0df52f306182d0cfe5ad,1d77badf3ed7b689beea7f8e1bada6507aff966e,3bbb9073bb1d457a958588e3e8252a4f329b6b34,a224829327e54c01731cd3665649216b285f8059,d6fbdc7fde8c6bdd15fdad27e8e0fe445adaa56d,d1af3b8531a04200e9d2bccbc33d149abf47b3db,1044a47349109ec000442423b444dab67975df1f,fb5a560b352ae1a1869342e273731b3263cb69dc,461ea6b69d8424e47ba6566ebac26e8323f9ad90,297f7b2c8db0582253ffafad0fbdbfd28f84e08a\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//flutter-view/flutter-view"
+    }
+}

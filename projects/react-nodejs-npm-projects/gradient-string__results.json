@@ -1,0 +1,35 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "coverage": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "c8 -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "9e5d7ec79b3e9d40b9cca01a9dc5768a143d368a,415263d1529910c73f85377e8642ff1c2d46cd4d,9e1063427bd9cb8baa6076f2d8d12f4d788d9cf1,ee583e0dc852fa15668cc8e483f886d2484665b1,cdbdba5d36adf6e1f3818b5fdc4421615f101b2b\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/bokub/gradient-string"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {},
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "92195a9fc66d7743af17d04615b551e622495a99,a676455884ac0f57fb465404fa214634967b0406,63c6799e77cf9dd43410dd15dd29d84c8c65e339,601704b6ea35d19982af5aa487c244d0ff0ca2cf,3eae68f604d7848d59f093a2a921ddaeb4e1701e,4f220244ea99219f9aa6619ceee7f205ed9a136a,2210d6f1292f127220a2b12e00c45923a04a6aaa,87fccd10a34a50b7d5dfc8a9fcc81be2163944ec,5e01592ee89ce31d615fc1230ee99bc322cc512c,a1314eb6c303f14d0f35be92f7b57f6774f73c2b,3334297f2393f8664d97fa4f57e377c35e55ab80\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/day8/re-frame"
+    }
+}

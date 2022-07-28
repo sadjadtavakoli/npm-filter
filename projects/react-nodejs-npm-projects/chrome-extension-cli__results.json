@@ -1,0 +1,18 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {},
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "6ce8f7bce2879c5dfdbaaffb62f29a79c91cf289,5212a264f510fe0e1a70be6ee9f63b465b73befc,27e25d44d99f2653cd5c77c87cb0a38092ce5df6,262107a87d55347c421d68e5b2f2c6306b1f3df6,124b639d8553b23dd038efaf458fbef28919493e,ad1f74f140ddda51516616b8c308e4cd42b4937a,0536832d43c59219c80d43c7a63bf3063533cc13,4a8fe7137907084331cfd015faab9b0eba0b15d9,3414aaaf7792d7db44a417da33f7c72f601fe9a6,858dce34e73c760cecc63852384150acd5cdc53f,28cfeea18a34526459461db6103d11e03550a291,e816d0b8a526944bbfe7e9a5c9d35baae6cfec22,ac38286e8a8ff88cd7f59a5503a4068a847e9256,2b2515fc9128aad5947bed68e7d2ee3b1efb38fb,8834bf7ff2cee9acfbe153dc349dc0bd7bd8aa9d,4aae0b9496939eed4a805f2012778b774576c893\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/dutiyesh/chrome-extension-cli"
+    }
+}

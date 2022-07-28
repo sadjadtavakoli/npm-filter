@@ -1,0 +1,65 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build:lib",
+            "build:bin"
+        ]
+    },
+    "testing": {
+        "test": {
+            "nested_test_commands": [
+                "test:fonts",
+                "test:unit",
+                "test:types",
+                "test:lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:fonts": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "test:unit": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:types": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "coveralls": {
+            "ERROR": true,
+            "num_passing": 221,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "8fa8868047f70751ae126c348f7667df4c7c8d9c,aef2d5d6b4ead79db678b47ccc6cb27ac84c1f50,69d835469eb4666fdb191a76c9101e9156056f6e,4b37f683ae4a727fb0d7ba5028b9c1dbbaef0a6e,9238bb79b1955df2269edbcf0a21a1eb7aa0aa1b,784b01977dc6b0d3e54187bb7792b13c1646bdb6,42731c8e91975ccc42941612a5d285dbdb7fa29a,1b40e51a5218a9b091497d1e335516aab6c64757,411d2f7f06723f6297157252c673bda51d78d928,aa97101667791bb8477e0d3e5ab9ff557c23997a,f76c02ef331f8143614cba0a4a48dd98a69d60af,4b0fadc75a66a9110ff5c17ba050b65eb0e88a77,a8c4dff05b7cf432b63d88d91b432b3859b47bfe,6884cb4240df95167bdffe9e54201de3f5e8486d,5bfc38726312e4c73bc1573db281afafa01192e5,3772d33c58887bf62634ccadb8003cd5e2d5f148,b29e369317fd08bba8b893345fc2c58918c2df82,ccba8e9d9d76008fee0a0444eca4b7cc07111e31,2a36f8eea8d36b58fd0761f04ed85864d607cb7f,a4a3a94f048447c651d0e0c10171cf5877e533b6,de860d680d8de69de51b0054a54060b5688cd12d,86ca1c59ac6e39d4459313f95f5b159c1ad4061d,237de946fa4ddb38728b14f6781ec4a5e50dbe58,d1ac993b2f75cd755f99010fac43ce16cc900978,a53beed5b685b4a0ed29cbcefd710e8d5fe0e610,afd3513b30fe82ade5dcce2d182f26078eb46290,bc8ed0a1c849b5825e6343bc2327292504db4fb0,9d7e41334bf89e0683cd41e3764ab5a254927875,6723351899ffc121a6e64d2f856756b16c12d007,9c1d9c99057d1c9e2ab224b75481284a605ff455,c8962480d9e2600fa106cf3c74f7eadb5e6004e1,f5b33e7e9de5dd075296beedd98b0648472821d5,efc0f5ac104320b095fb273f47c60b55fd86db5c,dd0f944aa79b22d6e4feef29431754fff1c1daed\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/dominikwilkowski/cfonts"
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "num_passing": 6,
+            "num_failing": 1,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "3f0361bce86b050bfec39615451c5a2b87e11e71,ebc1ac38d79849f303a82f7527e73025520246a5,a8b9ca0070999df578e68145d5859d37f0896c77,d57581e25698f0e7ac781242c44b80e13b7de7ac,18422f77ba817bcfc617b171abeb8cedc95eb660,4d1188b6d0822a2c2850eacf903b715f1910a235,ec81b012044725923a6f9c4592b0b8d6f81c0bc2,b362fb743040a0adcf1d66c17d2e562b76c19ea2,9b1e54ee3aa4e5072aaf926deac5a6c140cb1fbb,dfc1570962e80aa81768283a5f2488a178ecfe36,6255334658eea8f5a216425849f5bfe0e09ecf24,a36ee6ad0f32ae1ce65168128af572f71783c935,3eb75e49452efa6c32b468046c38e3d8f6338fd4\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//xavdid/typed-install"
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "prebuild",
+            "build",
+            "build:bundle",
+            "build:utils",
+            "build:copy",
+            "postbuild",
+            "storybook:build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "num_passing": 41,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "f0571d86a64f3f12f21b84c82fcd6a8fb7606667,98bb83ff73713a216a93003825e9ee15175e6d8d,f1e123b25f838cd1343ec419f073e60fc2d910b1,79503fd9987e9d8afaf57aaff67e3f487367de9b,650e513dbe440c93c7b33a304538cd61dde3e737,3bb826e177dc8dbddf9fb006b06a06bdc9daf5ac,1537592aa2a31d5a6c3110051ebeb62a5642d39f,1e10ee9a988c73de27ab2a84428a31292c46b154,7940bfe255f88e43eeb9a4db3fd1569c40e04eb1,3cadc065a98dc0632f846f9df5df25089b26be95,cb2ee1de639939ae15decdf6f0cc2caa7b4e8fc5,ed83fee212177b373a21056bf9b24a4b11b5e5a6,24745375826b5c11706f0dfdde0f559550c88251,77ecdf796d67752527711dccdafab0d123100814,a9c30b9fe6cadf37cd70ab34b491665cc04184fe,4e7de2909ae5ae9b3a4baea7ee20842be5690c88,209e68b7b0206e2702c8cd9d9ab0b6ecf23cad20,1a93b5d910973ec79d8b2bb5a87f5d510920bac3,4b6e59bab265812d1a3c3f0738b02c97d0dab28f,82f653a3bc0613d80d70f7538e7f46c549ecbcf7,253f891a955e7d5a32c9c57d86b3f15b6ddebc16,20c892544c7c278dbd8ba2ac7301d29ab573c72c,a8ef02db424cc510e5e3d1b91e935f9449ef7f43,16d50782dcd1962abde45128307d95663de9ba58,cf79a76ec9c085dd2607dac2d97c0b8a79a2ceb6,5f5ed48f0e173af0cc872b185a741ee70b47936a,c81451e2d0fc75284ecfa96c9cf58d159d54d5ef,d5b6fba10271cff3473e0b66785eb2e9c35710fa,93892a988297d454b71746da92f6b4a15cdf45f4,55fa19918a0210055e9e70f44539dc30df4fd963,599724b433c1aa251fa80a361bbbc4858429440c,fe5f92b379de378e8bf8282671ce8a7dc4f80e0d,b38cf6a6a307e44f474d5aa0d2fc55a363d12a32,98174ad4be99dc9c56aa6b4fa9a96ca8f2fc21ad,2e722c10d88af569923f1327880840fe71c5ecf9,49f98fdd766709b1bab8620003a0e5c51e8282db,cfdec4b4d104207a0df24a3d1148efcbc9afc30a\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/thebuilder/react-intersection-observer"
+    }
+}

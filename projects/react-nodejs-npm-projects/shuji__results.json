@@ -1,0 +1,41 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "coverage": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "a490b7e207f4bb85a0c00d75883ee29095d11f32,56baffa3c069b53caba1b1132f7acd3d589e07e2,a670b11324e1971db60309bdad2e4f82672517dc,eb9cfb5abb54577a32656ff03c5201b859ba53f2,9782ec7f4d931edba8cf7b339bc67a8a7a76e6e7,8c25703149713d4803488e04c4f3325433fe01e1,a7ba6016dee137ffd626985b71286ca385cf99cf,2b56de07170797b9aeea98b7de97b7c76a0f6bb2,ca3e5f5934e6a1ab00a490b58a75356429e3fd2c,d71fe03180e9152866d26f9b6a30969844b3347c,803e848853185ca62b8e4c44df03309aef11745a,bb1c31de04844148715bcdd6032558c14887ca82,63ff1d3bf249e4be47bd24d3880d6c46fb385b1b,92ac53870ef6664581ed8a08a66115e1d72215c9\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/paazmaya/shuji"
+    }
+}

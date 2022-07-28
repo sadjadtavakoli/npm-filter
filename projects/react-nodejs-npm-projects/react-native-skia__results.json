@@ -1,0 +1,29 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [],
+        "ERROR": true
+    },
+    "testing": {
+        "lint-java": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "ab912f7e660e76717dd93b53f12de3abb0c52f42,a8dc171f71576c9f8453282711487641c064631a,7b249a6c27e1d0dbfc6d71218484d661545f6cd0,2a1c9d83a269b2da3d527b8655809dfcf0f4111c,06e7e9c180200158593122dbe80e1b231c544660,270cf8b0702c72df895edf4c36ed669126a087ef,5488b99a2b0937ad34f23b1d707f0375f93eceb0,d6e449e88c3130c7df9871a30cefe81b12adfc0e,863ddfc7a10e1ed605067ee7f3b378bb840c422f,db764b29afa90f67c5d061ea6a8b73732cc31dcd,215bd25bb20cb08f0628534136b9bb8bc0587d48,a9b5892a15f3203f4d134de1a7ace870c9afa82f,45ac9da3182977acccb5ccae104e96c5503e4581,17eda094687f9cfaea58c7a563f3ffcb5e99edb2,af0add311a12839ef25f63ae7178427d9a454c19,1386703b1b886ff5f5dbb36a2a5c441a9379a3b6,a183c496ad81423d59749bfe2d9b0e76acd5cebd,4fdee08e3fee269e45132d12c7c898e1c8461c9e,2e41d11bc3e95ea720980107287eea989fc8c2d3,c5ceec0a78abb61ca8fd591bb97009dea7399cab,37e2282e0d8103dfc85de200ebd22b44c50f9bb2,c9058eb641e7eed995ddda8cffa5dac9c7407758,f18e62f1305ca561f615dc0a6efc0327befd1f3a,299d89c54c25f22bed9ea6569404a51fcca0eb9f,f82b1d527c741544f8abd4c0f98acd73f77bef52,1b344084ae783dc4eecd42ddd94e90da845a2cf5,b55b2c11be7a635912447905bff99d14598a9a85,a80d87f7783ac5af014cd9b5348614d076f719c5,356d37013926771b6e459f4c8732079f3d589263,9a865d38b5e7cb4b24e94cee0509f95d211acaac,3fd2b9d4cd1c4a5adddb4eaa1333c44400f26999,3ec3822110d739a756f2959c6172f85d9509ae7c,ecbcf243961716c34ea381b4054a79f43ba002a2,1e152157e9d1d97a9c87f59c6fb1b12f0917d51e,0d101a51c7e1575cf73a70dc06c6be1c4c845ec5,1f230a9d81b8b93534c8ce0ecd68252602cef4f7,e20d1972373ec2b5a4eca43e5b325aeaa025fa28,b5dc349b733c66dc57d007e65531cbf0311bf5b8,5f214c3e3f065f566a88fd3488531adf010eea71,fea2e275c2db83e3b739b467c7e8ed39ff93bf8b,8fbba9a6f9cb864c901195a3261277ae10215276,2a00668efe60eb3a8c3f1aad3a6bd572d8441108,4d3d9107b8fd2c75b4aee9c0e9cc6c32cb55b331,2f653c33089c513416b1187762f8676a435c484d,c90aaea379227a9d1f466882f58d89df7a3a1619,bc057238b4ba9dd1b4d92d10fe0e74e1e54def27\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/Shopify/react-native-skia"
+    }
+}

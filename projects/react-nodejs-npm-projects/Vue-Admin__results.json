@@ -1,0 +1,28 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "a79e9393fceb9f7bfc2558d9e8cfa3bfaffaf789,f716a1e262b412d8542da40546a8fba4ca630e38,1dd53f3a19732100110e52b34f0a7390550cd45c,be8e54ae616a180d29878562a3123584d540a4d8,26a880f2f9bceb91ea3bd0545048a327363e2acb,d30acce17bad3b893af985ba1c2f62c3963bb325,2ea9d707b6ee4ca2af4c4cea733da426a36d7693,25fd4552085f45d420b4d61550846136c795fe8d,ec0f6547ef9f2091bf2f7a279573bd4654e8606b,2ecf333f3bb692cf722fac03d35254aff1822de3,731678192f92cf9bdb009f26867c85a42ac5d246,282ab453b898da33d3eeb95c63b79db590dc472e,47dada588960645956fbe281f39b1a4225abc90f,80cb0e33d09619e72e47fb064b859cf59f6ed165,0f6462f567cb1470d83f3f26c9f92d6fa42f960d,5fabbb7889f55cb8477f9ab07220e64563cbf8bd,51f40ec4aff7edc9827d24306911d912fb8e6619,8dff3d03cc13596f3b8ade2a21949f6822828b5b\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//lanux/Vue-Admin"
+    }
+}

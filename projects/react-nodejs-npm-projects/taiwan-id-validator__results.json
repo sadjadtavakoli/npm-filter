@@ -1,0 +1,59 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "eslint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "nested_test_commands": [
+                "eslint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "num_passing": 32,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "test:log": {
+            "num_passing": 32,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "test:cov": {
+            "num_passing": 32,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "9cb9a440597974649ff79576b1723881b4e1aa26,6c242ef45f590351f41051fee27a887e1b42481b,961fd8fb940a9771e6f78ff0a709e564947a6fd0,ce4d2adcdef5a6decb0fff5a5b71c6af67808023,948419f54d110a9995ea55b756efa65cb2108533,652456842603822c06b0c75b5d7801d0c163af4a,65f862b81519f564f8b76421d0409c43f55965c9\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//enylin/taiwan-id-validator"
+    }
+}

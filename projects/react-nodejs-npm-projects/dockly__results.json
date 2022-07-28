@@ -1,0 +1,41 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "standard -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:fix": {
+            "test_linters": [
+                "standard -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:lockfile": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "834236e075c5481b326ef16e7980d9723176ad38,d3efbf8ec665d69b24bd9cf3a4e31873ba7a840d,15df2e094af695ae6f46e1c1a5f2432effbaff77,2f1a0a6c42ac111bbd00d84c30a45b45ae5812e6,5344e2803b278c75e0b49b3a17d24f1fc090c512,2d73c6d6e2c5c0717b8c6b4c1bd42b23ade48581,460fc8c81499e62520f149a7b69005a5c747d622,d035b911bed437d71a13f8b0b45b42a105cab4de,e1a027a640e8ff891580aed27375863c475083a5,d31c76455ac3bbefe10e152e76a7fddfb11815ad,7b40f6bcbf6b56f6fb39fed98b9e23f1386889df,50c81cfab937c702e87ec8f258d3c9a27b650408,1bef7d2b2a35efeddeb4e49ebfe03b2e5bdb44b0,4a7a199c87d315b68bf75436ff931551ee97b58a,b6297a5cd1f8f92b7680f149e65a45eb454a7f09,770fd1bf1a5e7bdcbce85bf5a2514ee38ded6463,90cec6cf20c925358e2ed58351460c86ac91bbff,f58155784ec1390c10f69457f2c4748058d85b0c,b009bb821f7ca7fe0b2b195229812817544f61fe,8eb73815c5a58bde07c2fc95c891114e727ec39d,0d6b633767ebe1317a73fb3b5aaebf92190861ba,575267691db66991036b757c4aeb32d367bf37be,04c81ea1d2566bd361737e4d965a627c88c35d4d,aa9ff03d07360c7e30ad84953d6a9c2fa299fbdb,0b032d010bf81b0442775ec119eb9fb418257d2d,9e3143b9c40c7bdb895764ba8f21e048e5567c18,e5f3124d147855b0e51ccd5856418554f7be7e08,3daa037786ae975fedb4ecac20f175c1d393afb2,59e2d93b99b5f70081eabf3eaaed292f997d33e0,731fbbea69709579010e12edc22acece3ec1aabf,f95750a99dc6301b19b841107b20d012f9a2ad77,33fc0fb4ef6741c736b03d417e586469fcc7ba6a,75a26d4f877c8fbe496642b8a1867d635a1b0bde,7ad2a9ab416d984205e980689fdc83017d75c1b2\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//lirantal/dockly"
+    }
+}

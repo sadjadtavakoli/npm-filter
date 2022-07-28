@@ -1,0 +1,29 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "num_passing": 17,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "478c9ba499d119b79c1023504af5433c462dfab5,477ed28034827b947dafeffe951e58b2665babf1,282b40bc24e80444c4c96c4ce71768233c416600,8c3d971702216fb36a0a341f84fe74d7f6f889bf\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/bradleyboy/tuql"
+    }
+}

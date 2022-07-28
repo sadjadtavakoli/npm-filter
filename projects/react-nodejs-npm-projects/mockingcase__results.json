@@ -1,0 +1,34 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "num_passing": 42,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "36f2b1b9bf75279d212317eceb0ae784e80b5ed8,edb82ec9bc4cae54bb1df5816923cd19380c6f48,593fdc29b8cd4c4795abced9fb34e93c5fc971a5,ec6251832401e9704d5ddaa9e33e7affaee7ff65,3553a7f7702f648b05d588e480e7f449c28a5c3c,aa26564b0a4056effc6ae9f04ac6b7303ebd91fe,7391fc1cfa4a9bc8b7e34adb65601305fb23ddbe,0bf409dca02a94bb97ebe0c63efc11ac369b453d,5f10cf6f63adeda69460bb64d9e3f7ff9d916413,2b8db96207ce39a729e9d188c3c5d59413ab48ba,de1ef94e3e6604df2c3682678ebb91aa89aacf06,18995407ccf9036861d19c399d2d225c1f020bcf,66cfd21c3faf6cfd7a03b8e41b43038d37640699,a24249ff001af86cc8122eb4d113017679285380,09f63f972ce5e4a6b682203f06f77b817a1bc6f6,75475cf4c92908ac5cc0e99de4f26b4ee2bb603f,561804fdc2f8b95241aa24bbf2320c391793d8a8,1422212b1f13a6576bc8aa4017588990d0f4882a,77b05d67f1a3ea8e0245910297d80e639437f81b,c02335159320538b58e1aa3f197a36db494cbfa4,3505f5d558cdb807c3fa34a666a5912166085fb6,c6b4e5911a9fa34e3976803c8525f8ac001b8647\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//strdr4605/mockingcase"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {},
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "b11fe9e142b50e7090cd81db8a44cb1c75f5aea6,78672bdbfb804cd72232901f9e603517fc0ea0f5,8b9049e49859fe07576e11883bda5ea3c8b49110,3df22e91dd6201ee5e6b7159b4eb85696aa7f4ee,0ce7ff268647d5d2f121288f24c077a6dac6a4e4,518d183fdc0956e04c7b57d5c08062fef2e87e73,6b87f5cb46c59a2eb66f1af94ad1582ce7c6580a,3761dac87226cbf88ee937655b2702e403d0f695,d1f9af91abb90b3bd49458d757b960329d956ceb,f446b51c84f5c957815d2ef8ad0085ba84a7ffb3,c78325da2aabd2a78f85c5a0844b8bd52d745b27,ee8d0e453206cf8593bd0911d36fc5df1ef75025,8e1314ecff9f160c6a7c832bfbbfd28e91690572,51cee43490ddd95005e3fac55dce19ad80b2aabc,2d9b4388aba424494205aa040b9613f222a721cb,449d741ddbf05ef55a16c36b56d1de1fd885c56e,b9e092c855e174283c8f6beca0079f6ab5736504,7551a9117ee52caa39af25a799f12e1ee028d22d,06e94276e02ae502bbec638b9a8da33c46545ac5,582e8fd670320a779189c02b9a13ef1975c771f7,d1625e868e6257d1c5c5b5b0d5776963bb5d0233\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/DesertsP/Valine-Admin"
+    }
+}

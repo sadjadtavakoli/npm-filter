@@ -1,0 +1,36 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "lint": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "nested_test_commands": [
+                "lint"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "610bc706254cc7c9c57ae1ec704a511149bc3862,5aff10a62d6665ca6201b73a376d09a5ed565feb,e5d089a49fb901ef6b2e8dc3b8667fd6dedcda55,5e319b8d52465dee28dc4c24fc36c6703fbbb37d,4646c658e2486cf8eadc0f2c33fa3a53625a1353,f8a299c5c9e026b98e89b28e63856c824f8d6c26\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/flosse/sloc"
+    }
+}

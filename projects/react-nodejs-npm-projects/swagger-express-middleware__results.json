@@ -1,0 +1,44 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "num_passing": 1230,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "nested_test_commands": [
+                "lint"
+            ],
+            "timed_out": false
+        },
+        "coverage": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "ee317c45f15966ba8788642336157832d7b79bdf,2f9dfacac3f7e9edd4fbefb98ea7fbd22439df58,08c2874a590df210cdb5c4e968b7e94459c9e378,9351b0772a561fda4f847e0bddac24d023585f6f,8ef4c6d21a1f1af298954b4dc736a712e01bb40f,b114e4f8ddec3e07418dc58c17db9d7f674f3b50,9d19da25f83d46c69628a4fe9dc461de98f272cf,78813c24f60900a1814177c35a7c871c15c6b42a,3f8fc1aea0c431ebb815d255e2133e164d022910,0fc5f98f2974cd77d8abcf57a85274b330b785cd,43c93168eff79ea70c698727209a90bee1e35424,21b3f133f225756e934d65b4a82aa2ec9dab5e84,23b613f0b1ec81d28eebc4209cb37e94157e191a,042d2b78e64f35a8a9e74c744ec1fba6295946f1,07ca036c97894502132e4300ad55de088fdf03a7,c588f834cdf5b62e60ae21dec7771b2a07458553,e80fe2f2c232aee33199fc2166a6add2352a19a9,214ca22b8b07ae224bf8c9934fe74097b45bcf5c,f571165794ab66141c8f457f1e0e2add7805e5e4,58dd742cdd303064a81e3cc89a8eae365dc5e969,7948499db2d8cd55439ddbdafd24ef01688510ce,ef0185705dc458c78e2ddc346bca5a2ca3f0f618,6c8f7bbe1ae8d06d301de30d00297c716b5cc593,3b0b8652057f3953d9a976d3358282d35a3f1911,1e6f5e19e02d3f7f3f9f20195a969d422b643e8e,0ee61c26c9ab49621ff1324d2bcbe67d60b16374,c23e594d9a4dafe958a1cabea62515be4648fad6,12b062d619301523169850c0dda386c41bdfc8ac,0ac9ec2a8213bf8c1b837387f5fa1d89ec3b9a55,fbcc1025263597b5ebd0156c2e0a17fc7061c191\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/APIDevTools/swagger-express-middleware"
+    }
+}

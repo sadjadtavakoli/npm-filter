@@ -1,0 +1,67 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "compile"
+        ]
+    },
+    "testing": {
+        "test": {
+            "nested_test_commands": [
+                "test:unit",
+                "test:lint",
+                "test:fmt",
+                "test:md"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:cover": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "nested_test_commands": [
+                "test:unit"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:unit": {
+            "num_passing": 82,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "test:lint": {
+            "test_linters": [
+                "tslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:fmt": {
+            "test_linters": [
+                "prettier -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:md": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "a34cbe7e1b044f54f6baa249e285f8f1a2862954,188a202e1080022bd54e3917d3a0768b8f7062fa,5e120acf58c9e1be3c60eddbbdf884622a3881c2,657be03da7ff6d5fa68da4a0a4172e217882b6bc,2260dedc2fd8eac1f9b79037bff9c7fa02091427,e506896a1ce48eb01a8db4cb703e4ac4cfc9c19d,af72871ddc10b6a94e891f9f6143c77056700972,5fc77feb7f89a408ec1e380b8ec1bb953e093b26,4c6de75ba15a61ef6fdb4e6ccc2a5470d0acba10,351b094fc042e15a94029b148054d3ce210522ea,2fa5d8508d7d5ff9310102a27b984ec6705b123d\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//connor4312/cockatiel"
+    }
+}

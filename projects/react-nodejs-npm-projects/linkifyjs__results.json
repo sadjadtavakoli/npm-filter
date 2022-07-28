@@ -1,0 +1,57 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build:ci"
+        ]
+    },
+    "testing": {
+        "coverage": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "build:ci": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "dist:ci": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:ci": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "2a44f7acc1935475f04f1d55944196b8b4349631,5e702daef6979d6c494e7db1b437811c7401f54d,5e41e697f594f6cc0b8451a615e4f31694f90c25,3db2f956c8e4a9536f64b79760cb8993f854ad27,70c6e0eb7eff8fc900676f02a4f36c5eb0943995,8363823a70c9199899d338b12cb87c4f6b06618b,89d89cc0575d407609b4660c9b3a2a41ee1e4c85,d1a26f0bcd088b87d64efe2287875e8e5959defd,a4c26d4f37454cd0018ce71d11d94a9d4549807d,3c2900cc3b489399476119b0bea7ddc137d76451,bd345fa447b7734b725ab017b5c71e11dac3b3ef,149361265f6c9ef45ab787704dd7234bce8d0014,75e673ea31d1901d687c8c3738e730ba058aed0f,fe32dd7172527ed0b5d93c8b371268f440d4bfd7,57f644eff38936834882c9d76278c528a40f429f,408a977c35a3705a7e4577e879c2b0f62ff92ebc,d8c75d33aef9b58b323f89b430b0409fb90848f6,b0dbdfca9cad38e15beee99457e5402716b73cd9,2542d02ed8d06af6d8169c6ff66ae707f1b2f119,c653bcb4a7f50eaf940139ba40cf122a903f1798,8a40469adebf5dd654f83264234d477d52ac335f,010241b7583f41c2cf9e226393fae8204e3ddadd,36d5fde0bd01b8ac49c745132172ec7fe6926baa,d83762e0ec6570338f35c450b4a73c8b77b75461,17053f63dbddae8199caa28683af4da22c5cdb9f,960d375eced02ca5bb5b99af178747f8141db31d,754f7b575c9b1cf472ce0042f3005f19644a5476,c537170de316048a69c77e7366abe9101b216149,ea32f8716031ce3c0a4399d2bddb25ab3a1ef489,355c8140cd75257a59ac865eb068d69f1654e7fd,987f65fd6e2d5c4b459590a15bbbe455bcbead82,1f4827cb9e7d9a538ceec8202e03cd661c6bf72c,d44b852fd776d98cd85219ed8fd8e00e76664622,66a92d2e08218c80f69708d4e544a0d3e1040f6e,b00c91d7a9400f089c37a17204b0013cc18be237,4d44a649ca4f818c066fc1c0ac1ed823571110e1,47ea0f7072f11f67d44ab3c4dc81c8ba02a54b80,6970aa20b62129655128f9432dddffb2f2d23842,2f663599c32f91bc283d0573322187b2778d809f,175de5693e13de3df795b9c6d2fd51c7254351e3,c0be45949a53340e4279b069c5c3e11b687accfd,9ba8794f7c7d336fead9bc7b3dd2c0dc626c97c3,42babe75937c430e98405e9cb3a8a0b005af8d21,3ef35fd82db096d0d5a4d2aaaedf0667a04fac8a,db3f724be0ca8931defb0b88c53bb337d53fcca8,bd899404a87f95cafc08de4198a3c14101db8e5a,acef03a51b5bbf606714b35a19c94315005d8022,e046fc1281ec0cce343c6f2939b62b5c7b7601d6,0b4cf27202e6dca36360485f508fb1dbe9af42e3,c58ae0d48af474bfdedabdf0565ccd86baa37568,22777f8af9f86cc368d27c13d0601806404dea15,827afb05a5bd53f8448d453af608f2951b543e46,b7ea3115e50ad8f7101bab20a242fc56ab8aa646,bdb847b7238a7e8a3f24a193c35da1897cdc10c0\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/Hypercontext/linkifyjs"
+    }
+}

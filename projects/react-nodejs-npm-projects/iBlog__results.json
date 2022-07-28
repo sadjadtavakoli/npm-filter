@@ -1,0 +1,30 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build2"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "505dc326123e8cebddb3568b31fd01f762f68540,8d0ca021d7c591e378e36a0bad90821ff516ff30,920cf422eb00330fd4c2fa7172e0b46f4969b91a,ca3912f260f1bbf4b02e309ead5dc3debc916085,c1aafc80a17c28ad65406352b47d99dcbd2550d0,7cd7d12997b42d90cd4ea6caa149f42f8e09f049,6b66687a83b7d2d7fffb3f603e9ab61220c5e85c,03be36c425cad5bf3b2312c58fff4cedbfb7a45c,6543d031caa4405ed7c7ba5f5b114465be4dcc32,dbb71e608af57f79fb4117889c62530bbe13cec9,48c2622fe62a0c5a1145222ac9bd58b668982be9,e591fa3ff43256fd1ee97b372211e970a203246c,d7da57660d21765bb10707f9d02f97d5558aa92d,899c5562a28f0438374910359e53bad5a1c50609,b5b07c6c157984121a4c694b40dbc41faf106e27,2ab7f9f5d1fcfda48069d96b09f9ea72e684e3ba,0d520dd99f599c651cd6ac5dbfd934b8f12c25cb,ab398a4e5a6cbd13146d346afb72c869ba91a4ae,b845833e94f5842b27d1bd21715221ec9128ea90,08b428182f59c9b73008e3f153358f32a33b446c,55eacd8dd74319da4408a572f4163632af53d5aa,f7a994028648fece76f4ff85333eed0569485664,d58aaf3700885003bba2cad16f03d3804d01850e,ff39f41b1d18e89b169abc1916702895b73d4a95,21e2ecf8f004930fea610cc7789aed8b4f89b414,6c769aee690215318b9aa2f75e7386fff8b426d6,a324417752dae1410145fc057c5f1a2f849a4401,d37610b6cbffb2c4c1fd41f236f23f7343c47538,8cd37cbc174357f2968b86364660c69ffd620995,7ce30a87f99b37b5c9fed33969ddfd477702f295,c892170b35f4c8def3a6ef80d1e6797ee339a207,2dfaf7feb2ec954a8025436bb42740f084eb4a8b,b33506b700ce81db12e9c553ec44ec4866c3d428,0cd5d266a83cf2a7f9b586c9e83175adab92cee8,54708590927053ce3c1a5915a1e88470cd4751e7,eb6a989948431ebcb2be8b556383317fe339284d,5934ff1157591826d6838f2cfc1ccddd70ce867c,8078f4317c62491eee8065d31b2a5953ebbce02a,7872135824b53693e0c0829ea0dfc579479a48e6,f265c6df78354119d5410d1900dada43e642c0e8,e0e5b41216bf2dbdd6be488d79b9d0a3b7b12a8a,d17b85a8c888f59e420403d80c33c773a4994b12,8b9793a9288495ab4e2f8f588b202299e6afc15a,e0096111125a0dada45125bd1a0f7d9426e25a50,3096b42516e595d2f8811d15d4d3348618220b73,ce60746a90a788ba0501343879fc118e1a3d8019\n  File \"<string>\", line 4\n    rel_files = [ f for f in \"\"\"\"server/bad_words/libs/\\345\\271\\277\\345\\221\\212.txt\"\"\"\".split(\"\\n\") if rel_extensions.count( f.split(\".\")[-1]) > 0 and sum([ f.count(d) for d in dev_test_paths]) == 0]\n                                                                                                                                                                                                      ^\nSyntaxError: unexpected character after line continuation character\n/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh: line 30: ((: ( 3 != 0 ||  > 1 ) &&  > 0 : syntax error: operand expected (error token is \"> 1 ) &&  > 0 \")\n  File \"<string>\", line 4\n    rel_files = [ f for f in \"\"\"\"server/bad_words/libs/\\345\\271\\277\\345\\221\\212.txt\"\"\"\".split(\"\\n\") if rel_extensions.count( f.split(\".\")[-1]) > 0 and sum([ f.count(d) for d in dev_test_paths]) == 0]\n                                                                                                                                                                                                      ^\nSyntaxError: unexpected character after line continuation character\n/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh: line 30: ((: ( 3 != 0 ||  > 1 ) &&  > 0 : syntax error: operand expected (error token is \"> 1 ) &&  > 0 \")\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/eshengsky/iBlog"
+    }
+}

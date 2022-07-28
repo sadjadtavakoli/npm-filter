@@ -1,0 +1,75 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build:clean",
+            "build:dist",
+            "build:flow",
+            "build-storybook"
+        ]
+    },
+    "testing": {
+        "test:accessibility": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "test": {
+            "num_passing": 1231,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "test:ci": {
+            "num_passing": 1231,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "test:browser": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:browser:ci": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:coverage": {
+            "nested_test_commands": [
+                "test"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:eslint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:css": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "9186352bcc19985371438b6c9465f645d8d85b06,1d9ba6f1576d7c285725412f445b7e5b6e82d52f,cf59caf398678d80554d767cfffcc52bf0abf4da,7b2dfcf81240500775c2a072141fe3e4bfe776e8,0d0b1d593755ab60ae2b31489ee3a8e7b021f026,d2c5eca5cf08afe086b20aad71bef74e98314b9d,8eede2e5fe67733b4f3b1586c51d2bd1b4f18221,d7ec692bc68da12ec9ed0cd7d54150f089e2c965,f04fb494af0a18a76b52e46efec989fd494db725,fbdfe887688acd6d7d7c74e589b160e636f3e0aa,9d18e2ba6187a8782c4041a90ead7b22fa6a786a,c8c86601b3666b8236ff46d56daeedaf9c41e566,24a8e6021600920c0b2a28f89d5ffb17538fe96c,eddd0de66a7f8fdc60412d639b83862ffe86610f,4d55d465556c5eb3fbada41cbb3fd1a9b3b7e583,82482675405eef23c2cbfbec6c53e9dc7b86764a,5c1b96459fdcb4227e3aeb6628aed6506550e81d,66d3fffb9e37cd4fd4931b60d2c6d26d4d6240f2,67b96c8d04f64af6b63ae1315f74fc02b5db032b,a7438c149cfa48bab68616d5269fb05a6337b661,b0089d6596c6b0ade29b24e415595a69e19893e4,baf78734bc3f5e1b31958a4789588e95a3cc910a,56c1f4d7c56138d89155ef7753e91380534d0a2a,a3c7db1b585b4b65d545bd64798613b4d33b7ef3,ac57253d187f97ddca3daab84e09372b885fc0d2,65a6899939c89a47a6bc682b0c2a9e1d7d499fa8,b787844e03b5e0d6539578b589331d40b42cb4ef,f71b4b2d2d4c97426663835014b4b023202fb977,3dbb70446309a347c131a65c6cad28196c72818a,55ce7a5b98ac299c327841938f7d27edfff54639,7330551fe799569b99a26fe728b8a37647d5da6a,f13939396cc5ebf86153f55215881d06ee44ab7e,0215cb244b5e38106c8ebd3a6d76b374817fecb6,31e7b3c30ef48a959c1d90edbb8abdbe93153e44,19b7ebf1fcb214df3d3007437c6f3bf161b7b1be,d905634204bcdb4c78697d97c7c85cf27c6f1b4a,4fc1197d44ab26d5ee5a75daf9d22d61b229a28a,9a625b14eeaf7dc72a0efd1700dee868afcc6678,4fd7dc08aead2261da2aa72b6376c15889380a37,9fc3856a9d6d284dbb8e9392e0cb633d98b9450d,a65c77aa361cfe3cbb5261b4c9cffb2308090815,fc4e6380c63c9b394119937d312a2693f4e5a13b,582c459b0e20a1f04b726287622e62f3bdf19d40,d8eb998b748c3da21ac4a6cb79c11bdfb724ea4d,0851ee8b74ffb599a336da00376ccaccd83ecb91,a6a78fc7dc29ed133553cde971c606f10d41323c,7179eaf4875bcdc308a09111755beeb4fe3c21ce,f966b6f883e574194815e46dc21defe15ab7289d,82a387d9af05c25777a833a6cfd8e17a159fc4df,66ab11d7697a8bf4e42f94ad22d3360c31dc6218,f00ffe20098f090a99b34ab418e7b9d2f832a583,7aeb3d5a238e241c174f37323085e27a543cf8f4,54708dc36a806553a3ae903879811f70c9e1c244,32225124aa0096b0f4b2e3f5d7c6b42fbed3c450,c9b8333f667b17dc12f50ba905bbb9ae461541a4,42da276b32edc086e05bab18053b7ff6258a7f50,717b75bf298bc1e19b6762c025ab036fcaf67a9d,65f115fcb1a67f72c4e3fb17a97dd79f5323c2d2,fd34409ec4974636b27f3154448cd094fc9dc0ce,7901c6e47d2e2c7b3a3716c3e62ee162084c2c6d,a19aeab8b17da35fc40f5a73c422f66399cddde7,3cfdc4b5bcd88f6f00c95ea9951e841fe1f99a7a,0fb4dc75ea9b625f64cac48602635ac2822f26ec,0f415a354003fe6fec442c65a142d1a2da5cb721,22a451e129e23d289e4c1572cdc087a18cd1541b,b61813dde3c2a82742988b4825e28d247aea6bf7,ecdab862e02c8c0e8db1c39d2432a5ac09ac73f5,daea240ea54a9a5e1f714d6b5a5b4cac7792918b,2ac979440b6fc861050b4155938cb34706b668ce,36ca7ba9f73be97f03091d978561a5568c5b3ccd\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/atlassian/react-beautiful-dnd"
+    }
+}

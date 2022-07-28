@@ -1,0 +1,24 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "d6b4533f92b24b3e2f281ab2d71b67227623e0ab,8c00a352cd30db8c9fffc441ee98a3b261260702,a40b38dd177cbbb9427df4553b65dbef08a20a00,e45e3aca2521e9b366254ddb620da1f3fc3cf0f3,53ce922a60a11abcf8e9ae949b251b7c610a3b0d,449903a565d704661299e1bd32010a77ae1d8838,9a18192c5eb40d6f4ae026fefd00db3687f5d2b0,1cef775be913cac9acbdddd0ee622cb0c6e0e6ef,6f879dc1f003c0702d82f762f9cdcc2935e36f82,1be38ca3d05a99f265446519976d8cf52cf09667,4b1e5b11ba8746b8f5de363238351206223d2325,6a2df385a7d74720f75a5fc65cb05d6b863990b2,8a482a11f8729feb91aa7de8103418ab9c0b10db,6bb2a7151f2a0e00787401c2a782a1b6cdf4fe5f,8d0c22962b4fa70d0c1b60bbd312b2a6cd6bbd39,6334a728abbfbe1bffcc06c3415971dfa5bef20e\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/wclimb/Koa2-blog"
+    }
+}

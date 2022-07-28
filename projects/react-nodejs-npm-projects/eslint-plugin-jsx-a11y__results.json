@@ -1,0 +1,70 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "lint:fix": {
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "pretest": {
+            "nested_test_commands": [
+                "lint:fix"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "jest"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "posttest": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:ci": {
+            "nested_test_commands": [
+                "jest"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "jest": {
+            "num_passing": 15362,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "9980d1da6f1c7d156db5653a136c8fab38f3f2d8,42a2016cb52590a39974c94f1003dafdc44249af,e9b788d1ce92bd0acd9424901ed580f7d097b65e,a2f36a6083e402d11e19833556887d3e0d499fb8,ce73c70958a11fa0d65cec76a3689e20335ad5f6,11f1bfa487fcd1526f9f05b12e20d434d8e0cb94,21435147ee29bf9efa0aeda7ff328bea25b247ae,bc77ffb527aefafa73f2e080d1cd16309df495e1,34187e463289a08c89db55f950c24275197862b2,762f44c63dd46b6f497bbc5cdf417253c75da777,24b9922914fc236733a147de317acb9a8d68c2df,60c487ee5b1516865fd1fba8311308200271fe56,1215201a7d7552ceffb74a27b54d0d8687d5ae67,7f0f06adf2c7ec293b8907af75687eeec417ebc2,390143b8b4f77b1725bfb1d7e8b6a83cddeb6cee,dd8d9a426864726305dcf23e00161615412b18ea,6d2ffd34ffc4cec47806e03417e40c2450dca524,339e0dabc12891a46f590f2a322ce009c6160a35,2a7a3b028ad260f56059f6a777ffde89e8ed06c8,0b5b26149d792f7f4642513228b0fab0784dce6b,0794f647be6e380d32cc579dc366c1461bbfdec2,fa8e6dc81312658d4e3cd4bb2dee6632d496057e,abd4ca4e27cf8712bd65ce0348cf05b2cfa3779a,bc93f012e67b58c6b56cf1d79cf1ded1481f7435,6f7dc930f12f9b1ab7a9d2949fe3f0444694394d,c8a3da94e49b89ade5e294a1936a1bb996015c25,afeafb1d1d8465d140a770da44fa336d9d771dc0,4d6432d0117f2607d2748b93687fb109960fae9b,5d4fa08e206f915d2e7ff87a3e242166ea569e7a,9b22d92276475ef3a23a5e04b7e26ce8b5498032,ddb55326a011b10f3ca1096e6cbcbe5b87daef59,e05562ef5bb5d50bb5378a524d6833cb18868ec0,d6b234d2d9826bc611c8a664e8512374d64bb4d1,756858684e1105145b884c588df7fa354451611b,edd95d5c77ec759d0fd6ebff8bc3906fff206fec,2bbe002d4a7313ceadc4a171382d0a4a9760f028,846117175e9a1dc749490b8b9b50f45e07bf3f80,a66395c9c426a5c11eaef1e2c7af830564506fe3\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/jsx-eslint/eslint-plugin-jsx-a11y"
+    }
+}

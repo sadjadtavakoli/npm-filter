@@ -1,0 +1,58 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "pretest": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "test_coverage_tools": [
+                "istanbul -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "posttest": {
+            "test_coverage_tools": [
+                "istanbul -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "ci-lint": {
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "ci-test": {
+            "nested_test_commands": [
+                "test"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "a3c0142ed91b0c7dcaf89c4f618776708f1f70a9,c99e4ec32cd14d83776f2bdcc5a4e7384131c1b1,1749b78d50580fbd080e65c1eb9702ad4f4fc0c0,440d72b5fd44dd132f42598c3183d46e5f35ce71,c3356100c054a4695e4dec8ed7072775cd745616,16077142f975183ba8e3155c499dd6ac5b24a4a0,f00d9a297f71e554198574e64f8c46e69a0cd310,6f6b1e9b65951e6314167db33b446351702f5558\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//form-data/form-data"
+    }
+}

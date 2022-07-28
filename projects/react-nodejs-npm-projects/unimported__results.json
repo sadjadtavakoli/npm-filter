@@ -1,0 +1,47 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "num_passing": 71,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "ci:lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "ci:tsc": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "6157a630ba3eb4b17bef4e5e52f5896aa99a3d04,68cccfec222c6f7cb65919773c9a8e9b0034e264,6714b9e6b4b9d6defa91538c840bb5c0c6419ee5,d79b877f11b6e92529db503dbbb2f56c7c988a8a,1f2b8adf7d2ea52008dd515b5753ecb892b62ba5,11cb18733c52aceb18c46fde3795163a2bc54bd5,fa7aa13d647f4526d2bfff4a765e3f659ff459e1,3ebfc3c6d574fbd1547dc06711a91c5914b900dd,9a03671997fc2d3897b62dd148d1a5c4525c6aac,29890e14b1b214c83892c9e7fa65c59852295fa9,447e0804c23d3714bd344ce94622c3bc41f2f483,cdc8d0e10be1e8fa525a651d056d907879acc7c6,08e95ff4af63ae4ea00dc4d8d92f269248c03628,b9ce79c2f03a7960087ee54b50616f4af2f0b406,62289f325642728071dad04a142367e83d6122c8,d41f084530e0672d8347fefb4f1cf0ae919fee61,3b0913251602796bbbd68e668e7d8577bb0ef4ad,81bcd700b1ef6f75382468593f19ca695c1f0b9c,1cb6083585b9f9a5a4cf3b9142adc1f7fbe10d44,c8a8d18cf74efc944d534b086b85b91d9732fc76,bb7e3eed863f320556089628c3615eac234b806f,f4b3455c7f454c1901f3f491fc5ee4db9f262651,e79798702a8e1db69c0427f5f6eb4162dd7a1b56,650827ae2564754b5ef6260bfb9356e9018cc57c,d97c3a0daecbb442b2c3abb5dc6a282a371ba40d,1c45f7b0650182be67b46cda1116c3acba312d99,109a624227430ce01f472742139cd0917c0e7066,37c3cd135ed204faee8ec30ac5b638664b432174,ff0cf652c9edb08bbbd9864ab09c37264c9335ca,eaeb972829c16718195b4fd87ddb0062863e493e,1286b405b65134a4959cbe48eca7e4181b4c6ed0,e6c4e1f54fa80938256dcfe1a39ba0fcb01170fd,5deaf3bcccda3bc8e81e301ef57c9a12c0f3348e,0065a6a9d4fbcd73a987e754a7b32f0e57751f90,1138bc44bf69973bc44eb4491a263f8d38243d31,ef1ab74a9d7b9a397e222ded6eabddff80212626\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/smeijer/unimported"
+    }
+}

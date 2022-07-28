@@ -1,0 +1,46 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "num_passing": 99,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "test:coverage": {
+            "num_passing": 99,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "check-dependencies": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "276a6da64d22acec931dc0d567993f1e1f65597f,611609f2d1696fef2d03feef610a927747214215,e0bd86e7b1ee5e2c26287ae6c8af54005df9e21d,d50b7e7acf715f0e34ce401b8704f2970d79e2fa,b9df4730b8f5a9a14cd4fda6895d28286bc62017,1eb310079bbd0b80a457b482f8ce8c399c8f151e,184f63e4e07f7b669d9b14917413523d5bcd6986,a0e8bdb60687946cf36fb1157b8c23aea1c0dae9,f7cc4f67b7c5b4d41811c14842f6e98ee9a65dac,b15a72cbe31ee6799724837c182946c2f8937564,4d925f7ea0ee4aa68fd6774900e3a644132fc0b3,b0c4814482ac4ed4f4e201237c0fabd8b5852d46,9543516ce57eb0b402750dcf30436e10b0f34422,52939bc4e34614542a5d2cb00098eb4831c4da8c,7323cb0d99cbb65e0543762de4b8927230b78c87,16628b38a271bbe7dbb912ae55fdb6558e0154ea,fd7b08a98d2e94a2a5d93814566aebcc43beab54,99e2927cc381f034df1555d193438c5b9e033069,8a5d2dc1f69a833aa0619c4b19c992d657aa6fd7,aabd9d3e23827b17215a2a0743d9720b70209aaf,64801b94b0f06e542f34d1417451da388a43f62e,657ebbee97962efa7be8acf8f8f2626eb8c65a94,d4624c096b3c43b7e20dac860048316616645e52,64a99dca400ec2b7bc7487f1312a565a14b251b4,763e47ebfaf4dcc8ba9f7dea710935a29ec98426,90bad18762f0f9548c1a1edba6eaa6a5913409ab,50dbee7076638979199a3c776b4a9ce190bea90c,9c66740a7b8adb4c0ec66cda07f67aff9e716bc7,116949d286d2e14fbc71c7811bb980b0a5b2ea20,10bc29f8c8e383d0e8bd7b8bfd2e5181b6946b9f,a0922331446d9045dd7cd5897ebb7820619afcbe,dc9e8eecc421f9db39526f4e587ea1311ca12f5c,c9a44d789eae03548e3062bde72fb7e11acd1025,f617d93188dbb4ca5f8240f4bc6151cd20e8391a,395c8ec11ee74a0ffccacbd5bfe15c533bd7acff,5bd6c2c895f44c0e0b3d025202f59a7539d1b8a3,60cb8e1c0f43ea8dad8463c5c37cb4cd450617da,e1c9c9cc41dd999f39d99117dd06667da2b28898,95b0aa6df746c7bb6751dd48787c2490a8ac1704,a468c7242a94e38ea7b5283d6bccb66331ece069,7944fc0ef078e9bf3d6614c4bfe6c71a2da7af9a,554629d27ccd3f291f5ea589447c5e9f2a19cf82,23077d13b1458a97b4d082a5c96765bc463b4ef3,0cafd69a325a16a211336d4459f77a0153f9e5a6,230c9c59c7a67b441a81afc851d7fc9a2ca27e8a,22901286aee0acc78ccb44e8a7ec5ec01bac623f,fe99c85704997343aded82b85c3cc0cbd936c34a,a9c01a3581f486f9e226730a8f871d704faa4cb1,53cf9744aef95de357330d29c02a0d17296c03c2,e35a3484cd8da4b1bc436565ffe1e7318e3cf08a,0f884ac142a9e429e764fc0a3d408d6ea8322ab2,b85e3e06bdadf10230f2746a5be07b06d8ae3d62,149b449c99e7233a28a11ab2afb7e6b081367ff1,c5ce62f5674fac397fccac75b06d138144001e57,c746fb45a7b5329c5f4c65a409c4ef3765bd3c49,b56c13bc43cdadf20abfde0f9de55a2fc64f537b,7199aa52d9af72b238c72253b56d3a2ed4766de9,2db86f28f37658198d19654bbc8852843b65a9e7,27fde2570b6b2baef1770bd1a8b439ad8c4f15b2,7de5d454284522806bddee21c7ea4dd6636bba3b,9b7d7556b15e05805bd28182f175caa4d24a2d9f,563a468a5c70d747f076a1a4d4bb08f2298ed5ef,2722ce05f5a5bb6b70164c513db20634d847181f,8879cf34c86e86cdd4ee95bcdc23ca313b1e561d,88f310b0dcf0a16fff0bc3dffea6a708a41f75e2,2871acbfd53d9de0385e68ac409f16a0d392181d,4d54a81b831eca97524f15b72fa8be379c80aedb,99db2bfa759ed937e3d07aefee282fc4fbdb5fce,8c827972153c5f143c9586654fe86c32197c3dac,a13fdc24277d57ae34300bbaa7690f50fb2a1d04,593633586ab9b249b2d41344da27f90a5c11790f,496cc503ca7fb22c915e1925e5a172115e76e66c,bf273f0362fb644311d32ac25300e431b644b7d1,4e6f67674d553f38fb3162f93745e5c979709685,9749a8b9ecee3e0ee8c6f52f8e347c11746bbabb,edf5fdf09dcbbfd2f4bf6ba3c9915980fbba1c66,ab91f690d414c841c8d4a387cabca000e842920d,64568d5c5fd8d2e4456cfd3288132f96bd874b0a,6ff4ad1fcb28c5b68d845a9acb7c632a78856ceb,269d7f8277cee88668a46a2a26447920d5a11ee4,f8fb73f0ca1017c84d560d0a9d68153ef7b4e7ce,8aab8dafcb4ce40f1a964ec1e5ed0c23b1e19e1e,e3ea99eaa1d297f299d4f4e0bfec0b6480ef7263,a70d8f344f5a7cce22e64c966f84af837a02d45f\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//vendia/serverless-express"
+    }
+}

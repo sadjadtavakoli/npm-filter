@@ -1,0 +1,42 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "prebuild",
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "num_passing": 23,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "coveralls": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "f6ed6f0829c61a93d4ba22c1da1e08fc68be834b,81b7f3d5365978fbbe6b5175f2d3c891e1756762,fb492b3d4da9731aa0b80b67adc0270c4c291796,9a6bd175f6bbc3127e4d3faa535328662a826ae1,9427b817f64f404ae4b31d4f08d1b109bd74066c,c55964ee9d9fcc4716cd45e3241998ad4d92405b,05cda849e42a4973d8ba624c7d9eda998305463f,56bf2caf07ad86e0a449c318708828f9def4d11b,e06a9bac45f8506e4639d2bbfb30ad711f261ff4,e483ebed04bf1d511ef6af53ceeebc1d7bf95cd9,16f38c50c4ec2198674fcc9c2276bc10994fcd6b,0faac291d24aeeca88bcf97b8f0d51bdb728af4e,4043a64a4083f1b6046644e65473b8d8eb781b1e,9b14b6d0452470352dae126540f892477e20a97a,86d2b315b2d3479c189759394f63eb7d5e0f4d38,36d859227103651082dd907b445c26397e88fb78,beb35c978992a3ae9883a97570748bcd62be7dc4,6aa7fca64b93db9d13c3f7f06191a6e3e8628014,b840091e1a4a7a648ad0312ee5da0b16a199df18,a15b774ae201373db0092dff91f3f406642550a5,df92e5da164b17f07304edfa95b244a77bedf053,21674a25db1066c6bf999883892814207bdc2016,eb30f0fa458f51ecc7dc37cc9981634bda742f36,9e2bcf5d445e2ac45404512735a53345308a3d8e,b43391c82d1619eae838541a6f2a27dc48b5a530,1ac7f8a065cdce181dc6591ce520541a636878c9,7ef156e621382011ce5b64664dd226c7dee14424,bd15f13c1ba356e27305404a549d115214461ffc,76b6cc265174093801adaeba71bf6f111c79ee1f,778e6b417b2f91701424dcdfe4ccc8ce965c6a34,ea48bf19b72df4f65e507d023b8db3f2c676a4ec,fe32d83d14cdb6d888fcc3d672bfe9db46bba458,767045cc8932180262505079b13846934807ccf2\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/unform/unform"
+    }
+}

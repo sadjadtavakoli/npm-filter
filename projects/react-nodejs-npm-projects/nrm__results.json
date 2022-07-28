@@ -1,0 +1,28 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "num_passing": 9,
+            "num_failing": 9,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "6de3aa8251ab2cf848ccce3e4086841935594966,31613b572a459942b10f0a81ac4843d347c1bcd0,ea70e6afed3d0f1c1b5fca8d0f8c65db22a1e24d,6c76788b7c7f1e5954ab7328b7fad4762f9ef38f,a2c3b74778e4f8cddebfce4ff6b5606755396ba1,b9a95bd080f9b12c228215580ab7922eb94e1b5e,7fe1b4d2b6970900e757a0aeac98cae14840fd1d,1e0d08daa6f554080bb57c1312ed273756af5882,6bc57eacf45d06863ed61a70315df1f4b0ef8d20,25482c5a17e184658958c4b9fb376df7e23e9937,b349698be2aeff865641978b6f91354161ea984d,89f738e1a90bc4ca2e93e9f47bc9ff71b44a62e4,4be2895a6488cacba32680c1ab5322bcd97bfd1b,4670f4513a4ee8e45f86625df3cd74ad62e80a9a,ef9d430aa5c1fd92557a409280896b5e88c69285,991165a3baccf5a5a91fca1c0e0e48176565d637,a2162d218111f84fbed47c0822e08d5d9d2bab40,7089182d3b33bfb197319aa3f860e43c89406843,4ac64d1fb59c836d7d17e1933f85fce2f990f63f,b9ab07419b3d69d0f96567af263db3a4153cd9fa,d902f6e5d1dcac4186a8e29c68a539bb3f9a4587,fdb8c20aa102d17eb641f83819655a2cd31fc587,9c2f08b7eb9ef46f3f96daab5959d0d2f047396f,4f3d994fccce6f0f4dfe844a9dc7e455c9025e57,6e1a08474f7a1f8657629e80ca4cb428b643f36f,087089014ed9acf56bf70d9507647acf9a26b51e,1b75fb0450a3838a175004d1657bd6919c10915a,c1bcbc98e3d73eb9eefdbd33ea1c12025b572f10,c51f659757702702693a7df85ab25add253c87eb,f1e5b785b25f99a384292cf9a13d84243dfdf10e,bd4921108d23942360d28205ca62b7a420f9d9a1,a03986a988bc6a54c45f02122cb2fb5a1a1a7c09,f95df754d7a767c48519aff17b6d74d356636f9b,7bfd441a51bb6babb61a49fca244500257a0e51d,289476334dd258ef95a4131ad722185ee1841ec0,ede7b6d786c948499b427ffe9d4720d5ea052bd9,4c8681366e909011c076f00d614f80c7b3437614,77525458afe8dcdd3dbcdd6c9ef28aab4a3425f5,4ea573ef797559f63481bf1f40bae91fab81b45a\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//Pana/nrm"
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build:es",
+            "build:cjs",
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "num_passing": 6,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "33b02e68506fb7d39fa7088f236c846f0e7a7d0c,551460bd82383b89db0219ab914f2a40a34f1f60,d90d6c26871cb1d8e850e6333ed1685f7a434a3b,7577016c46f274e5a3ddb9dde3c9aae028637d33,dc8b2199c5129a830786acf73ab4aded935b0dd1,e3eed534c785dd3bcc6129ad53312ac28b52232b,8145db86498ae006b9d9c74b1fc869eec3330357,135596dedd3e9ca0ddb2a06ab9c1a448b1c652ca\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//faqtor/faqtor"
+    }
+}

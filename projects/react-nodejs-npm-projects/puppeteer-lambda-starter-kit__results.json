@@ -1,0 +1,23 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "lint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "e302d0f353affe19943e80cc055ac190bda62ff5,ebfcc5e493d2428733d2c92ef19190e19309c382,4605a389cc1e5afa41091a8fe9b97aace2bb608d,cbcad518fae3d8d6505dfab0d93f70d320a20afe,2da42781c2f79ebdd86b3be142f7e841a573a043,780a197db7bff3ef5d1fa4c39ce95a9c6e9342a6,24e57d2b2fd07b15dcc1a6146f36699f2d9fbb6d,e9809803e50c32286c4973793419907f0bb92fa9\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/sambaiz/puppeteer-lambda-starter-kit"
+    }
+}

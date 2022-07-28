@@ -1,0 +1,32 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "097206046904a36fd671a34a73732452be8e7b95,d12fb43094daa27272112c4d40f1a0faca272d46,4dabc0f7174e4a56a3b60deeea5adf30164c90ce,4e209dfc2e72ef6854bc235a1ff6cc2cde39662c,fff3ad0329b408deb551fe0b7357178243fe0e28,6d5825be566883f8e4157c76ca5559ba9dfcf5e7,e703a324b4646fbb17428984487c8403eb6b315c,ae5fa088f5fd547856de173829fd2e260cbd7377,b1b57b295aa91280132df80ca2cc0c15dd9a0d2c,ac6cfda376b5069796b48af0ee54605e020d78dc,3aa1dbf4bfca87ef06a42623a1a31b896cbcf780\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//MitsuhaKitsune/vuex-webextensions"
+    }
+}

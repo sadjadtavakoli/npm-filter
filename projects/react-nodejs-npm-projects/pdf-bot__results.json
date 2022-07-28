@@ -1,0 +1,27 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "48fe04da40239318133e666ff8d1d2a11e52347b,b78483f7b0a93cfdbe7c4cedd291311319e12150,fe56e64957472db272165371be7ea5750c5a9c61,380e927b92c505c14685fdddb7903c3135aa8ca7,03f221f515e137cef84c118037bf8d4db21e8a08,38f35920b2c7ba72227e16054b84d93b38ca5500,aeff4706f390524bd30c1627007f9a069ea741be,693566cfdbc8860518529cfd446b9884de45d7e0,ef6b41825fa1ae251379ec5dbb4a4948e5331e05,8f82d541da9b972ac46e4f0d63db06784b0e7598,57ebcc09816981e6e32e8ce33d35c29952c0995e,69c22c4c8f4bf9a1141525f3fc05700d3d0b0cae,48166a696c1a52e7215cb59db2c32381b1a9d72c,35ee064ca61ff62adc0b5157f63b3b0a25426a34\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//esbenp/pdf-bot"
+    }
+}

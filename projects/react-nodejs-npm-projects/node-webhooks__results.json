@@ -1,0 +1,40 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "coverage"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "coverage": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "istanbul -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "publish-coverage": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "a14d8a928c0bf0bbb0f5fd67b6deda1b548a9f5e,0091d3c561b7fc5bd692e36b5c326581d2d372ce,0f8ddfc1cecd8cf36ce35747a4d28a42a168e790,3fa69493456c7a10968845983eb296d568e5caf1,a14a44d0f14219d7d85ba283362be94d2fdf4c66,e64c5c7e4452f2139e3767b691487b57ae36a20e\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//roccomuso/node-webhooks"
+    }
+}

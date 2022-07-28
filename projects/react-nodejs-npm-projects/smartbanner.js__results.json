@@ -1,0 +1,51 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build:js",
+            "build:css",
+            "build:css-min",
+            "build"
+        ]
+    },
+    "testing": {
+        "eslint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "mocha": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "test": {
+            "num_passing": 131,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "6f7c9dc9256b94ddaad754e499c2ecbc031c3084,a680a0bc04db64a7a75001beb86bac8d260edf94,77a5a7f3c258bd3dcec0b0833a9761472f7f7b43,41aa69c5ed40370df9bbc5912c1f98cb6a344a87,ae93674cb4d7f531a131fdf77c06ccc562f7b9a9,53679280649075ca620e94f22496736054dd4224,6436b5f312f9987f95351a9efcbf08ee298afe37,6b369d4e7d4e99406a3cc694d062f50f13f0a392,d46e509b9492df7d23e91f2bb91960dfbdb236bc,62061bfdf6df7e7a41286de96fb50627a7dc3ae2,90c6a341d541c4c00c004d97b112e4b39ad972aa,d776edced27e5ce5d04c50b0f17a869abd1a3100,98e266aebf12c1cf20081e9db1c6bc35bf1fd3b7,3b87f090ba410aebfb4ff7bb6b8794e8d86fb198,bb0874b8b6f2a1487370eec9f567cd9739d2de5d,b3d33e82f1280c52520503685456af7ef1f07b16,cb4d6af565e831c1587e875583fd1cc33c43189e,3a0f37747932bc9295073be4c6ffcb1437ddcf49,44ac9a7884d0041799354c7e7ee5999842ee53ee,098cf6cec480e693ddb86cef3f855e418dbcd271,9e41a456ba21c1290fc8a2097866691bc6be5f84,c12e0b537a961333c800cf3753ac41601fbf96c0,ce696651b4890759b47773099c118eecfe2df9b7,ab3d0ffff1803f4261d1a8e5a8c1e78104000675,2e11b98bca57c1753d9a9896aeae6472698987da,507c1f43924d1215252b772861fb78b16e47449b,af22ec82d4694a2cf66d8bbf049494cd08893d26,a310c32023850b082008a9df4e9d2d4f6525b982,2f2c5fdfe5ae987fe5ac2e10ef5572c1a636e643,c148797774b8e0110d4b9d9c30449d5c068c10bf,19410329bc276cc56eab71ddd7bb3ac668fb059b,ab933a6768a3ef70efcbcae598877611797f413c,fd978df3de84bb37ac6914751e1a36c1ececf9bc,c1f31c818caf91bf004d9e6e12ef2a4122da9bb8,a03b1962775c472ce6198796cb53baa72202a5b7,e0b37d898156c0f8184f0ae6061ac7ec9997a339,97204b39e630af8d5673fb95f1b501390f538e83,91c9b0b31b211befc2d0bcdf08b9073367980e6d,36995ac4f4aca6a1e815635fa58be7fde0d26a98,3f0bfa49b8a25cd34072ffb3448d4270037d7fa6,e3ce27aae4c37cb8b9bb0a87923f44bb6c6b98bf,8a42cdc0c604151242e18feb252070ca924ffedc,68ba342a8ff73d66e1423ca5739a7718c7d893fe,77465e6820303cb59b05f58c6ed1e326183d489c,918049219a39bd1e9d6b139a6019d7ca58f2ef17,25da86141e514c06d3ce19009efcad18db73db7a,adcb54ad01df965462022ed8b5c9d41611c7832d,0ffd0902378617c48b58b244624c6d6d215bcf60,8f002b91d0437dcf759ed467f8a6ad33fff3566f,f3bbf0b130635a773e95442d2813dcbe6a647fda,ca919fa6beda186f26cdcfa70855f2bfd1c44591,1e8f635ddb7f85e8bfd195b085d651b62313d96f,4432289fd6ab9280ac0fc33f00c28a98270a5332,6c60270c69a9eea8a2a3da99bb115096ac079e05,914a39bba7e83ee91410467172092621b5640f98,5b77dee41c1a841e4e6602c436fa56cc05994ba4,27ce6efe2040f2cba60900abe8b0d389df8703a1,3abd7d182b2c6744fa316e62d7148b6637a790b9,eb0739cb9314b18ec3b787aabd2ecf43ead6191a,04fb89ea9b873b533faf6e3247c902b1d5bb5e86,c99af7237e4c3cb1528059fc0d97de20814c3a52,b7b1a6e5e1aa921ab33dfcef6359749bf3e1ca9f,1f0c5d8f84918f61198f00caff24f6dc7b6d780a,45cff8d36b9f48665e61104228003d41fc5f21a7,ac028d5ad5b267f24bf03200e809229365f9dd36,74b59fc9655ceef932118f1a446f11162d5d91f9,96cb4fb18476d084267ff4cda69dc4e4cc2acf48,45132b7fc1760fa668f609d09b3d10ffc45208ad,77ea04297c226613c35cb819790575901f160412,2d8e740de67f989b10369772c876cb088f958c8e,19b856ed2c64da4e5f70902a26bcab716909249d\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//ain/smartbanner.js"
+    }
+}

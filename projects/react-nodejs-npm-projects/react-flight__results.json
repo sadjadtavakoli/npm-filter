@@ -1,0 +1,32 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build:lib",
+            "build:umd:min",
+            "build:umd",
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "num_passing": 1,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "f32a91737bd9da7a8f0e3ae49945b77aa273fd07,355388e06f2a987dd35dd0eca5ff018c430a29a1,6451d821f84e3979233f9d738b6a7fcba4eea950\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/jondot/react-flight"
+    }
+}

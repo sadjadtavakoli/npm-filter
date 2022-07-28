@@ -1,0 +1,27 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "num_passing": 57,
+            "num_failing": 0,
+            "test_infras": [
+                "ava"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "829aab091db54dad0fa9aebe3918b616d81e950f,0c11c391e873eef045c7357a3f62585ce8aae8d0,8c12b2dd2988d6d358a75c4b3962ab452640eac7,a27ff12b5a4d17ff42a54f2a1d97aa5faf8e8bba,49ce74d7d28d8601f7615d8eeae0a8c1204691cd,e38789f6795ca20db1680abcc94e7a418c6a4c35,c67d9f4f8813d03a97637d8460274e63956cd096,357175721c5a36a9734c335b4c4695c666310e3b,cd635d4ed378035eac9d82edc1718716cd6bd95d,4ab22b1e1ae65d789ae23bcc68ee00d6c4e660f5,09f7ef0e427d30741d57f4a3918b133c39a7d30f\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//sindresorhus/meow"
+    }
+}

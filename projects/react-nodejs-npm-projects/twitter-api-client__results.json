@@ -1,0 +1,28 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [],
+        "ERROR": true
+    },
+    "testing": {
+        "test": {
+            "num_passing": 13,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "0ca773788c746984ec4b45426777b020984e8537,22487ccb735b31ce4b377bdb04be20eb67d5a5fc,a4b8bcf2913d18078d881d6a2d049e111e7ef1b2,6f1680b8af2d877a4598bc672daa79ba9b784095,bc55b99320d4270492a04571c5d2ac3f26c8af74,da0e73599b985c678cbc19855c3d2493fbc32a9c,c402083457a3e57b72086a275cd1e7f20c17fcd4,7e87ea245601a2473ca377d6e13039c8b20af22f,1cdb672514572d8eacfcfccb6c63b0d0638c82ec,f6410d1a1a7bd42f1146fdc0d50cd07e9b7cab54,60378fc53e0be9b8377e209a79b5dc928423e9d6,2aa05a42ebfa9afda5598989510ec8ed8bbbd56a,96bc41565f4d44fc7377713409d7313e8c76b21b,7fd6cc9ab6cfffafbae3084b4cf65fa283d89a99,a99a4d7aa7c96dc90ecc700eda5da1b05a79bf57,65839ecb3237cf0425e82087d5a79eeafacc1910\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/FeedHive/twitter-api-client"
+    }
+}

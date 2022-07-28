@@ -1,0 +1,80 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "coverage": {
+            "ERROR": true,
+            "num_passing": 12,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "standard -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "num_passing": 39,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "test_linters": [
+                "standard -- linter"
+            ],
+            "nested_test_commands": [
+                "test-generated",
+                "test-typings"
+            ],
+            "timed_out": false
+        },
+        "test-10": {
+            "num_passing": 39,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "test_linters": [
+                "standard -- linter"
+            ],
+            "nested_test_commands": [
+                "test-typings"
+            ],
+            "timed_out": false
+        },
+        "test-generated": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test-integration": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test-typings": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "de189a65fcf7cc5c3d711c7508e8beacbea4d444,41fe6ef45467907b9caf23d8bb1b591bfe08df6f,4fb0ffb276b3beab7e25f9f789a4467a7ed93303,53b33167614c087e112a7ce80364033477c62667,b8757652e3e33a540896a971470c81a5aa227791,25005e084c4ff239dc6569455c27e44253aa018f,cb94f02918f36c1c77003d247dbe3cbf0d62f3fa,66e0328af1aa84ca0c2bf5bad7e0d3d7b1b43c39,8be6b5aa117be4d4a67899efd340a46f2c35db67,41809f4f0afbb30e83b3ea80e1e1b3a08ca920ac,3c3111c0b7f6df29a306d97391d5d7affb549b00,345aad9a9b1895808b7257a70e65e4638b0fc19a,1cee76713f9db26b5da7a1183414edd7490e1fee,1fd10c4462fda69b0c29f0a3a89ec6095a7f7ce0,bae265dbe6daff48a5555102b429e31e7516565b,1c9d133a5bc4e3e6c60e314237b70859312163fd,46998c668f705e908b9d8ad3adeeff57c03041e2,7faef3edc4c9c7208704a5f84fabd613221ef653,095008e8a5c09be49b426dd4b2b33d714a71a845,488d90971ba8f7288e9f1bd0bb5f3c7c91821bf7,be8f6c98a34825d966c612075f38e5681af270aa,68d8b20739a5183e6b3cb7c8c8da6ea04cee0093,27ec13f8a44dc380f4458ef34ddbfe507fcb3413,0372af958c6e095c39a55fc406e4a1e42f3f83d8,a557d97b99865c31a96227f0f91e1940a92b77dd,43a4f5b64ca9be1f38deaa8cb4d39a245e54c23a,7ad8a176a135126271c3127fb0f571bd0c894db3,031bf944afd66f49f1788d2fa178fdffeb9bbe61,fe32dd04297a37623a47155aa58a9f267d90716b,ef1467ae9d594d43b975a6fe7f0bcb525c75f45a,0aa7f804a4d784855ab95b2720ef87b3bf131564,42f3e5dfdc08cd040a00d66de0bc01915c73411d,d17bb81cdf4c45289b10aba84c586f07bfdf0b75,8a5f5cb46408f87bdd1b5687efb5b7e52b9df9b5,948e24ff166aabf09437f7625112775bcd5770da,a854fef9166df691d645b46dcdd7a360ceb1d22e,6a9f06d1f77d9ae5b6bcd3341a6c029cf2ac4288,e8d914b33a87e2e811c762c275c600fa3a7e6627,c06e7cfead124ea6f49da856fde150343cf647f9,58541c7757083add0c71c19f5c0a22bc2454e7d9,ed47d43bc5c5da44878d710b05b74721843b62fb,d76a84fa64bdeff28c8f32cd77bc359bf02939b3,6a3aa8b7efce536e4c8cb6277e693ce3db889740,fe3a1313322b5ee6a7421ae8ead718f1537cc126,3a2886cf8fed663d7a1778c2d007be6129e6570c,a8e399c6652b5c963a8d94d4dfb70219386feb6d,f48327adbe01efa8f163b9ce4a4552d4ebb3e670,cb9f7e43abb48dfa20ae272b3c5863735354e416,2014d27d03174ec7e11701d69e84a213cbb8559e,b640e1a02f808797c9bb22a0f3dacad4d8abdd21,21bebbbdc0875a1fc4a3584c3504f5bc4f902d07,bbf96c3e869fa3874f3584ab265b00f7b4484aae,71ada5d2ebf9fb090a9f9178adf7e3e32473b1a1,39fb22ca65031be84bfeed810420cd73f4d52bc7,6d4c61023f6328d1277dd251950a3d348958dc87,98fe5998a0badda559f8323d8458d14099e49d75,1b56da6f670cac79b8d38d88b2307eda7f6ea6fd,06eea2af4ecddbbabbce95f7c9c0b6f345a08594,42d5bc774d87e9688fa7c0c042eeeb0e8a994166,ff80097896fd06d64097f58950168fc5e1b34b07,b369a4bf3b8a650984497c6a1aff07f022101d83,75fea3e91eeabcb184c4b2ba79731b90f9604ce8,dc51f6d99d6f375b62aca1c719fd0bd87e1b0ed4,c2aec51f57fe3a1f25d4d534930b589c3685650a,b1b355f6c2ab2dc95d5b73d608d8ea273a7aa365,162b33e41456ef6777c157f798dd04f33848c8d5,29a79358c4965a0766f4c4fd3668a963359226b7,816b9571b2468db2bba1c613321a3f10a8b0c2d8,4a84e7fcebae15328f8985e20a88ee65ed97f5f5,f8f1d356244055b6bdebe5587c3142d5f69f3ceb,d3ea455c9ef242840ff048587e9322e2e6ea7691,86b692ec5c7781a4a0f2b3293c88b666ffa21eca,b4210dadff6c1457e346b722f7d1bce818806f58,4261c2e63202396667203129829720d1128e4e57,b5f5e10cb5c1a6900043a0482800f99e23e86f62,6268dde8ac877a87837d87e9f5c3282024a0b519,9b02bc276aa8bf310f18f6df58ea16709c7f8399,b8d8dacfd6fe19d74c09238513b61a06c5caea7f,11b8a6d040243aab850f1cc847032c8586534a45,3734e12b06be461a42bfe71ef2f0c8df2506021f,3a9b609a7a4f24bcfb475d63e6de9724fda0bc18,58614c5e7117c75a5c7c8401f4d388a8cae5ffeb,85915d5595121b21a62d2d66d32a32a3c1b78cb3,d083f93be23182f4a629c02cdd319692a09168f8\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/godaddy/kubernetes-client"
+    }
+}

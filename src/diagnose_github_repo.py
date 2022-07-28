@@ -1,6 +1,4 @@
 import json
-import re
-import subprocess
 import os
 import argparse
 from test_JS_repo_lib import *
@@ -18,7 +16,7 @@ def get_repo_and_SHA_from_repo_link(repo):
 	commit_SHA = None
 	if len(split_res) > 1:
 		commit_SHA = split_res[1]
-	return(split_res[0], commit_SHA)
+	return("https://github.com{}".format(split_res[0]), commit_SHA)
 
 
 class RepoWalker():
@@ -141,7 +139,7 @@ if args.repo_link_and_SHA:
 	# repo_link_and_SHA can have an optional commit SHA: if so it's space delimited
 	# so we join all the repo_link args into a space-delimited string
 	repo_links += [' '.join(args.repo_link_and_SHA)]
-walker.set_repo_links( repo_links)
+walker.set_repo_links(repo_links)
 walker.iterate_over_repos()
 	
 

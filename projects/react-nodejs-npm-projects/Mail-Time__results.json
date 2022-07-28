@@ -1,0 +1,28 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "3021ac10b56a1f681422e462fb9ee42a3859388a,e6225a476ab4d8f749895c4a9e75102e7accdaa1,f31de061475279e67f8cc334dee313c4e2903caf,de44aa2f4034aa9a37ba1e571929ae60c023c419,d85824e9e3692224302141ce40170a4d85288e5f,b97812d7f0af4580c8c02738a5ad269a9a3f7191,dd6496cfb00485accfb84f98274aa1a7558652e5,0ae7316aa2e14650a19a45dba70dde7236e911a0,bbcfb7876c3991adbc0c1625cf420f5af2cf72e4\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//veliovgroup/Mail-Time"
+    }
+}

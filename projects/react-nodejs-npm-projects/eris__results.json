@@ -1,0 +1,47 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "lint:js": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:js:fix": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:ts": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:ts:fix": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "59a35bbd31d8c2a9dc68ae7b2390e75717cb4b78,e194a71c0fa1fea2af2c9c1a8535a65b9acc2f79,814f92b813ef826b70033720e498f9d6092aa670,518b9f516755f38ac35fa98d3fd2d5700c1af00f,f3ed7d6a0d9f41cf8ab7bbece64db7f03448edc5,7f670c45612a6a9da5ee8f8c4cf1f5813b195f8d,07d24f561a46d3f48550deb34bb6ecc443d7e295,6702773f62e018ff8b0c48972360679c5095dc57,2ddfd2d6d85f13d67cb8f65b4382e998fb5c8d55,20a7b75a83a04e895b20c5b4e4501a89bf1d590a,7e6040b075801c7b906c4b9b7a9dc49a7dcc318b,a105af3ff019a2fcd8d30da9f8bceed94783209e,08e1ea44ab0ed32d8753fa51a8cf7c5fdb6c924e,f8f27b08e8e215d56431c03bc90cf8825204aa0d,52455d7383baee56e3580ccb28750428b677ba60,90790eabcaf7679aa5ccd241120caae250bbcb90,9d1016c918dd7881269b9afd05471fde1f87f7e8,49c065489ecb8bf5674f7391c24c7026eb06a2af,3359227edda072c2852ec8596c4b83e658e96758,a51acad832c601566cc153ccccf86ca806b72413,7b080928ebdf5bdd3fdb5fb96a173f348b95da5a,375e4317e003dc8631a864a6ed5e096560d939a2,6b581058ea141cbfa6ad044e9a638ea6a0bc2bfa,074364ad4cf41aba57a9d73fee10bc316d35afbb,e9a1a595ff4bb9c30222eae03495efa8b3964cfd,5519fab8ee8ed5529eb6f535c746ee671f125b5a,4ca470b3d4c79792b9848aa6d2463e4f7ea59c2f,7b4e89f3709d1ccbd9d7121c419e746bbde001f5,556bff0727e3000b77df287f598eebf80515360f,585ba8c0ab4831fba5aa65cda4e1cf9780685390,42e7e466ae19d571cba232172c9d91689563fede,8dd6bbc04285a2dca68be0db89e8daf3735dbb9c,1603971c4ce6fdef343e4290a41c0b16f3e84afd,dc164215a2d6e639f66257f0736f4ae35365aaaf,97772f05e3e0f53bb124b30bbb2f8c6cfdd62482,60fe961903485215bde3ee3769c7f6c4ba609c16,5766db60a2b18533ed3d31ac9d4a86cab14a3ce2,82a28a0c15898cb8f2140601f1c140f9d7003c54,8271cbcd78467369754e7d074c82e06ab4f981d9,34c9872dfcecd9bb947b8599319b437bd1d89e55,f785a1ddedc00a3f55c50335299eca22652634bb,903792cab750e299e22fe7e9a6a4013427791a13,093e45a360c3e15b581037ae1b5114e03237f802,9d65be367b9e843839b6584509926ab0713dc3bc,400cb5f9ccc3879785717838f28a4fcb2b115a75,82dae3b158bf4b7907aeb7462cb0f5ab2eced4fd,ac85f4d3ef3a7a6a56831cf4d09376482ace0365,947080ebed0239d996cb5496b347f49d430514a3,eb0c5eab15d48568bb42854332f02172a0b51871,21613b47b2538a1faac11a2e815ff8e02e562798\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/abalabahaha/eris"
+    }
+}

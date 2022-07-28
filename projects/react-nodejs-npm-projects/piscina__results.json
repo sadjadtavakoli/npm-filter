@@ -1,0 +1,42 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "lint",
+                "test-only"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test-only": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "tap"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "5cfded95c4434d1e40683b0d1b1df3b9016a89ee,38b57a1f4686fa0e658fc7cc867b9fcdfe24a1b8,b5dea9fe25b72fc989d61bd9e19db371950b9bdb,57dc571ea138acce90189e2f494dc571cd75ca9a,8b44319e92c1d0230f43c9f10b55737ebdcd434a,2fdf7d41215580a23a79de7af9cfd25a66e60d1c,4bb0418b3087ac5ebc7bcf3d969f7e8e83c19ec3,0567788c55d001f1ed782484cad06765dd965b54,a6ea0eab428400432932d2250da140f4f262f06c\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//piscinajs/piscina"
+    }
+}

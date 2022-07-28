@@ -1,0 +1,75 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "compile",
+            "postcompile",
+            "precompile"
+        ]
+    },
+    "testing": {
+        "system-test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": true
+        },
+        "presystem-test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "samples-test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test-only": {
+            "test_coverage_tools": [
+                "c8 -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "pretest-only": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "nested_test_commands": [
+                "test-only"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "docs-test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "predocs-test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "prelint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "6bad5ec7925cec2d8de02fe5f02b3a5bd4ae065f,533aade3272f07b39bbad2c32a5d9669fde6de53,f3729cf49818b9b929a556e7a8e8a5588b5f2726,c293955fecd19d12abcb9c441c39ef2664cb011b,53801bdfc234a7a94f6f5b86b842ea329da48152,9dd9bad4bc6b707c7fabc344712dfea0c30eab98,446abb0cc3529a11b18ad7af08c2354a6fee59e2,8d9c50381eedf6ee8043eed681d03b44262b9820,db6e8c1aabb6cf63ad813be9c992a7bae357e480,2141b0879cbccb1354f9821edcc917b6aa4ff0ab,50a521004aa2ef7d75ad0603c510d3bf39568a03,f1d78ac245a12b233ce1aa46e33dceacf215bcb9,8a4b38a88c3f1984aa008e321b73ff1eec513522,47238a926471dee8bdeaa38bcb5f772c7f20349f,5b43e7bcb2ea9c014587c84164f9ba8a0ed05397,3cd29d22073cff8d0ca072057c63dfe0a2144841,bd40d3ae73cfd0a8e2503fca8d0aa28cb3bbcb86,ca2433ff2910b50c5c7b8268ae43469331309e83,51961c3b39ff9c532214eb783458f83da98eb485,17b163d8d237b021794c1321747bb0ea6646f7ae,786e52f8c8b7b9c6b84ffc988190470a063d5855,e019021f7f973f75ddbd81d6f5aea184fc2a3924,6718ec20f94851a403ecea2e2bb329d77afa1016,f079122dd27e05831ee474fe22160e8e4b0d7578,1dbc77cc2e4e6a0be9f1b72c75ac35fc4b913df2,c93011d04511363c549897be69422337fa32ca3b,56355f1c83b055fdbd3ed47e069df813696a1fc0,f175236bde2f64365f140b14641f848bd4eb34d9,8c52d475ae486e2998220947a0b0441d4a95ab49,a6d8fe061fcfe0fde7a4fa023b2ec454e2adb432,6e7cb1efeee4079f2d2ebbd2485aa6cf5d33c0b3,708180d42562c1f5e225b1a3f1610f606036e3e9,c89546f5ae83da3845076aeeffcda75f9b208f5c,3e1647c65e522bf32a87a15a4e89df3fa8114384,301a7e2870529fc8b14c91ac08c942dececcc3d6,f78563b76458cd585fd9e0363ae72ce4ed02981b,cfbe19ed4c3cc6bb9ffc7b352de901150b8b9dea,aac02f463ba13c385a6dc5a4d96e281e0801cc93,69bd69a3bc3d49e82a56c7cf14e0e4885d9af9cb,43472f6bd51a22a5ee27d7fc0f88a9dd97c22336,96f085f3df7c8e6e20dbffb14ebf6ebb533fc036,218a4c65afcc55158aac45b98a4ccb28b88c00a1,22ef0d0229569f0d97ff908b5866264a8de2ca78,5000b2d4b5c528b66c5a71db343c0e4163d5d8f7,bacef9b1a8b8dfce52c4e39d677dcd3a7ca00541,00bdf8ff81f658c4534adea8d2010a1f68195f45,2c8869d23ad1aef024273b640579624cde97849f,b16cd40368e6895d809e0aea61ded8cfee73bd39,6cb9d684d0abcb45c4e20ec9e0158d4bf912522d,8b0624bd56e2d3e888aa98df637d3f046fe53e54,57c3731e19ab391ca4e1f9604e999ba0c099c1eb,205e139807e10c79a7ef0da46cdde82592720853,92b0add40fb55b3570bd33b331264c477936e656,534027feec66df5809c40b3cbc3df0a59c47b52d,acc29668fff4a54fd0baf247be8dc861174886f6,6f70b0a330f548b4a39092a1868f48e1bc33d79a,114de25d1af3fc7441da3242f6bc8cc8354ffa09,257abb92323b174d6f431082144c3e9051126de9,b1f6c7533a9d95c18bad1008413d1924b7743478,73df630793d2cbf9fb3d7cc67d25ffdb13b5c611,fece305eb613542f77aec405017468e9e3fd704b,5449774d5b02f6ac28ee3ffb3b5f94004c512fef,8910533fa8463e00efee43338bdcefab943f3db8,60d25f41cefdf8b2f16835c8c33a7d4682be173a,53da0e09e0f663ee4a52b9e3518f42e65d92f872,f0a95c087b4da4da3d8a1e3ea71560016c8f2bdb,bf4663f579a9a3848181427ef446d0fac26b0712,7c27a7a48e3c9027b90df8ece927b31c2e2c0620,ccd4eca007cb5d4583c32d089e22a9569813627f,9fd88db2fd4bebf09bf8a7f3f6864280662df595,3d5cc8694f0fbc2b9acb36aa056028f447d2a26f,aad93717c49d0c5151fa3affbd55c50293d174fc,06c140dc2f899116b142e3b48f544d930f10c0bf,c8991b97e74783c204282f8455b2a7f8759ca551,af9500428926c29de214db2d679dd3a3bd751e70,8967439295e5280ee4cc331c99a25144db4feeed,40b4d5195180d21db58878b65e2e2f080cb32614,0ee011f30cffe7c97a0dc7470f027a9cc4c0a2a1,4c0333e347c11a20f9d9519461e366ea1730cd06,0ff5a47108c25eccb9ccad085bebd440fcdb0b99,3b6c7e173fc6a7b13ebbfa0c9a78f2cb6b8bcbbe,c1287a44f3ccd85a74ebae4752705ba9c9995c71,5693e681818823d4605364e39f9434b766ed6896,907682469e9438449ed539c10ce2300599128658,7df89e80c375cd27bb64f052bcfdaca74d7d4a7d,216a392efec7191c9d94408c005ea328f8e12e99,41832ebb5ced5c0d300c780070ace02c50fde7d1,c83e0471ef3f43a1a9cd6da6d8c7ae08a3f55ebc,4b853af56d0ca36621ccfa262442cfadb2e43e3d,9552c32b46b6f35d2cbe4859e0234a70acc0cf49,a3d91e17e1b2b6ff8d5e925e7627b65e867f0b15,1525e26e2b870fdbc27c33d17de0d7beb34b4223,d5573ff82cdfc02c75ebd0904f497c79ee2942a4,40ac3352e0e868de2d1b05d26b8c37ae0e3c65f8,e1591cb4f1165481be81739faaade4fb75b0c09a,2755458c245a07d3059a75be606e95938c96d13d,6c1f409cfe5f00d8feb48784e9af89aa04441127,0ce0ed83a194261fe4e251ba46807e026c04ffc3,7bbe970dfa3b488c214b4b7a422c06f07fddfe85,1f2f525b48069ff2465632601af4f50325b7c4e8,d9c3726fdd614e0339cb53a0204f2300940f899a,72b1ce8c91405faae46e13d23a262e1c75c22e6b,0657f818fd0e43d64eb2938f582e692b02608313,18f02e8f688581dd9b107277ab6e8e33bc278a60,0f7a97582ca41ff98bab71a556a20ec20ceaef4c,b3219b6d0ed1fdabf9e8d1a0b10fbf65b4bef105,65d904a1f4b24775ee6fc0aa1dbbad50abd3c286,ed83393ac9f646e33f429485a8e0ddcdd77ecb84,8541ed4389ef03708855e98742b05a2fbaf1a485,3e3f62650e8c4ea368794507efdb8f7762704514,fc55e36d3f44d822374ce0d825a418267c948f62,343525839c9f4b6b01f3b588b25cc34c13386dde,d582b2f66a80e263db94bb648a3d554e545e2cf7,6518af0f241b00046bcc3bf488f91abca8330946,b07b98c888daca3f77ffec98a4e736284511f9d8,ab35efc2175300a27f12d75c790bec82ac91b1ab\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/googleapis/nodejs-firestore"
+    }
+}

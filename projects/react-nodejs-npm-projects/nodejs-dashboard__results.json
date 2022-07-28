@@ -1,0 +1,62 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "nested_test_commands": [
+                "lint",
+                "test-only"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test-only": {
+            "num_passing": 74,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "test-app": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "coverage": {
+            "num_passing": 74,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "2057f482d34202a141e01f0115a8cee884e072bc,b3c7bcfab067c96987bc980ac63f9615b7050704,f028ed8d4e0b496906c2874b6a1bf1511ccdb5e9,eeb88c96f716dbaceecd1ff871e22994723203e3,f5666afa5102e05dad4b0f0eec2a6c60fad5c61f,d15e6fa5a5d8bb42d1b07d44f3a1c6d661d8f9ad,b0cb3be8e3c5ab28a510e79fdae67720862f574c,b5440aec1b6d3ccdcb9e0684edc2d6190cced0df,0213097b54d20b8bec72a131e63b480b8a0ddb1b,4d6988ed7d2bbc0ca5a9659c44a03cf5a596072c,8f540fe2d2fea7c3a89d3e8ab3c55e16566e65d1,d806a1cf0a4865a00212b93041867eedd0f52985,25f71d71a2053746124e70d16ac230c741f1a275,07b7ca1fe1b4230cd7277d2c07ad2c2822ff1c3c,491197d03d425a213be150852a370b680fd4cfcc,d6c6d6f477790431e26cab403ed6045defe2688e,3ff349e4c9c43bb2f66fdc864609b2dcb9ee7861,71d517e97c2718eb9f80f91c7889768420d6d37c,de3545571c500b828d1c653a64e333f3d5529719,c2250bc912475a869aceed565544c1d144a293ea,ec193a875cf98670f4e42ec87d2236f3592309f0,38278fccc185a34e1d412f2932c344ec27a2645c,a83d7e3d220a58b37a0380d2b3c515429e91a0ea,49e7a80a94745951d55807a131a84939e3a65f39,1684f2bcf6ea2732ff0209beafc17d2611676325,e32ff82788edf49d9dbc353790a0c4ada45c0977,6cbb7a50a524552671adff6e16a096f7453543d9,2fccaf7e974f5e071d3d89e50b0cb07d691f69d3,e53b992b477e053c3415283ea177a67137f2155f,248e2d17ceaa3f5077e77c94e588c341e0092cf7\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//FormidableLabs/nodejs-dashboard"
+    }
+}

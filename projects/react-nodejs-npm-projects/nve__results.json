@@ -1,0 +1,28 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "gulp"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "ba61cebdedaff3cca17aa2d855db47eba96c865d,d134935148b47597bca2a8447e004053b121b0a8,46be35bc3fd47c4da040443b7d0b1da0c68f9359,683047dbfd185073cef1db1e776c1109eec02f83,140117d6c86e3abfbe6e704fb4d0b51cd08064ee,016f16c4473d85153b8f38dec4871ff78c0bfc6d,fe17d71599a0073d7d0971eef6905de299a1d2bd,b6f234ddbcf62e78c9e82716f954e7ee70abea99,af71f8e1b25f207cc45498fb3ad63989e24f9ecd,9c35c192761236109c12c1ef3ae82088ac66cf17,27d31a36f152a94e6eb581f0509a6bb3b83352db,8c90b6bc88481aa8f2cd5f879b86f0a055ebe100,432d655971a5a579ef47dcc4c8b500a80343cad9,7d0c06499f22ae6745173ac9317eecff65c52d7f,f1998e3da2dfd12b6afb229b7ace1f6e39b9a62f,4bb8eddc59ef4d2e10ef6b816a53e6b4ba45cbbb,8c4934e27667602bb40496ffa87395543c2ab1ac,e546a5114dc0520118e479d8d387290eaeba640a,0eb66dfddf2823f2c4febd1e5a650f9090e576cd,245793727287009898de5207b646220586f5c745,8c3f756914134481a866874d18f0b2faf292ba95,b53293b1485928bbf7df140aa5eaa232a1a70b17,ee38045ae2dd3e8325a0f6640147307f830ce897,e08359d176c5ac14b2151794d68f4d27070ef726,0253af48b0a4bf65d32cd24b9e2444b88efed567,72c232d2c26bed3b2d06e9d257308d1b597f5621,a7e4689ad4bd2101cb40f0e1b1db509af09a390a,4fccb80555e55bf520e876c04b5ee9e7f98695e9\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/ehmicky/nve"
+    }
+}

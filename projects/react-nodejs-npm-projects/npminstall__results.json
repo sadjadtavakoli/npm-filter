@@ -1,0 +1,52 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test-cov": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test-local": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "ci": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test-cov",
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "c05046abaab6a6bf67a37712082dfc69acd9f5a3,a34f2b4980fa3b184f6f34b457cf53db321dcefd,6e2d0519a1df120643c73409e88dc092282a5a48,202c9fe65da0cd46b61508773c6a171ae8b51cf0,de255f211910c5c6d6ff6f8519ace3a423893d45,ac7feaa52e96a03d4162a96f2542aabaf5de7a2c,1e365c8f9b001ecc12d9f94dbafd6205b90da4c3,6cc5548876614f73133f6842796597befb49da16,1320f3060bdc9dee10e17e3db1a118bb57ca2a3e,58ab90869be521b4140b860e909506f388cb8793,4c918ace3ec0c7ec784a16967505233cc9dbe287,fe32958526e8031a9a8a17df10a5c0ce65205b41,3fbb871e8b668a355db4d4d120cb59a2a095adc1,313dcb99e8d7f34c7b88a2f71807cd04ecdd8d0c,ef1432ac60d5e68e3189df9b914d62a8309904f5,d02913803d9758c91d20e721f63e93a90344baf1,45bdbc04b32fdcf23f659ccb1c4e67d0aacc4257,a472b3974c1600f3bb54db616fdb77a841f9463f,a36dd1ce21aafc13d528b050881e29b88cef0057,ef75b341082068723caf3e204ff2e74cdda04529,05a31eef1ebe3c60a62f97d7b35fab4bc4491e91,89f48cc93f205d66d85e0175129f4379b5bc69ec,18798015a9af0c1719f41f254904d1e67ad764d0,cebc8e71f7582735887fde814c25664065af1514,b486e06c37947c52130f7b2b50f0add91dd86e84,b140b5055db94494c1a2a25062a856f28bf04410,ec0f76ceec18b22d77281c465688f95183ca57c8,68164eac6ea31b61ce683ea5aa23f4c47e9d584e,297260cb06e96acfd98ba8c7f08d025e1a88d741,87615eff91c9a5c5be026f90f637297bb7398b6f,d3ca9b09eea93bb1252c0d0d475c85e064855eb5,59b40f5b8b6f39ca1ce1d579033325705ef3dd47,8dbb9e4773bc988b72a626290e14063f65d711cd,f99dec4170cb361d00b8b0208fbf674cb8fc0007,849bf6adcaf3768bcd2dfd70c0f2e0a2d579aaf7,64118c642fe00deb59033cd07a41a997aa55a23e,b340393db24a9a49f88dc90987dbc6415de4a413,6aaf06ff6eb8cef13ae67f26211768dc473c0ec6,20e9caee26acfb7328a66e08dc4d6353e654467e,79518e5cf3645632cd2de16aa93af2434db7a470,6aac290d5216ba5056ffa9e64367f96c90055fd3,722f46dfc876887f4d50b10ad25502dd9a2752b2,37f294381ce60daf4a5b17c7a7cf2df3685f6437,9302344564aeb1dee9f6390d4abdac8b7383b93e,b5be9a5fdb33d97df8e8f8f707b95d3f442bdbce,e187ad3981195e86d31a93f14d31649bb9df9a8f,c69b8ec161e6548f874700f97a606593f0299a4f,7b32c77dd844319fed3e1941418d923ed7320ad1,c5b36d3362082c93b51ec59fa9f224993de957e7,930ee6895cb06af83ac02fe3ed6fc54ba06c48ea,c68e14ff585c6bbf0c460549f6ed3407eebb6380,9cc7bd42aff2553a9abd342dadd651d007244ec7,93c7c1e55dbbf00f9778f4265b0e483390c04e62,8b56822ee6a81c1e5120e0ec8de4fb7b503e2a6d,defd6a9002754e942f7a345747830c118718dacc,ec7dac07fe36c16fddc551b9894e77db3c801d56,c7b9e8e2b8757d2c98f92fbd80dd3a1ebd350ef6,5bac484b5bdece520039ff315d97390956e86969,b16f7f591b3dedbd1347df99dce352f1dfff0ec2,fee5e72095ce7a29a627f0d6e8e4ad5d5cb703c1,8981bc95025d9868af0cd43cfd31b9607f3ffcab,f36c4509a8ebe6f35f58f8a5255240fa0c329378,b00a0f8aabef2a1010f94fe61ff0839863e94fb1,0d250864d20d9e6101d5b78e52dc381d677bc04d,b0802a28ed6ac13c0b10c44d7e8700ec178b97a0,9b33acc4e256ee5fed209a77bc86be5b808515a1,b4070dfb7c65244d824c6d0b6288d3af247a0aa4,ae1cd55ac6f59ac3ff5f6e77771228bc08e04750,192085d86beddae51e8348624b4d75351ee1a221,340b069d688db1486c1a2b885320c9553e1bc0af,c2a473d0e78a1a20c22b2c7329e78c5a78f11f15,e2d6adcea65933f28287472e534d0c508b621ec9,fe0fb6b0d58eb99bd0f7b2cdc2ae8ae1dff3e4c5,4d75ee30d4ef04b2423abf177e2b00a108a3eb54,2f8b73ce5963259ec4a7d8bc777ffac1c40d5c66,d400f501ee4d008c395ef79a83c5129718ee814a,ed86051f4b6babe18ec8e65255f4dbdd75f045af,4a8e3d47d5682c218997d6abc4b44725c75d5019,4b9e9fbfcc24e097c688889a9b393cc4f1ef2082,c192b747cbe6c30af3a64545be1df0c29c8d3398,7efc637ef9782a77511668c5888bb35fe1f050d7,c39acf132fcfc1748adad56175e841b370c3fcbb,57996ed9b5dc4fa863337a713f7921ccd8a28d5c,318f13b4079bed1b5e47389678e03a3595b260d3,d0c9c1627b2c1454b0213880c7c9e1215d449f50,6782eb02bc53edc40dabd5e01a342cd35343cac2,ad78d6a71f676a239100ffc09112cfdcea1467aa,be5c8e7d3fe8f99f1f5173fa7c8460f734d8c4fc,da8a30a7cbe0947f3555c0c5a49ab777c61b4720,8201355ef2dee95a5d2a74dca2884bf1d0e67f6e,d42176d5634f60f3ffd12ec9423083699f4c7aa0,a2c2c34fad7aca0795bad2016ff0728ebc57c8d4,c6c6a29ae315a5be00c2fbde47056f83cc794686,efb6ef659bb16846d1bf1ba059891f703c62bbb2,33211d7c157ceb7c79d74cd693b74d3fffe139db,19d0df0462879afaeba8606dec8bd5a9a76bb482,0d08912ae6c9420bef7fd32993ef2fb390e434b4,d68bd7d9d4ebda775f05e5a18147ed7731700889,48a00fdbeba5df2d66be37d9ca1c25f18f61048d,b6f8902d669bbc78189cb7c7a4d896aa5572453f,0091ed5617b12cb6ca37981f0aab9b1d1d226fb4,18571c659afdbf45568ee2d635086f50b71869f5,6ab23838c04b0321ea9c7fcd1f8fd3be0eaf5f56\n/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh: fork: Resource temporarily unavailable\n/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh: fork: Resource temporarily unavailable\n/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh: line 30: ((: (  !=  || 1 > 1 ) && 1 > 0 : syntax error: operand expected (error token is \"!=  || 1 > 1 ) && 1 > 0 \")\n/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh: fork: Resource temporarily unavailable\n/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh: fork: Resource temporarily unavailable\n/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh: line 30: ((: (  !=  || 1 > 1 ) && 1 > 0 : syntax error: operand expected (error token is \"!=  || 1 > 1 ) && 1 > 0 \")\n/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh: fork: Resource temporarily unavailable\n/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh: fork: Resource temporarily unavailable\n/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh: line 30: ((: (  !=  || 1 > 1 ) && 1 > 0 : syntax error: operand expected (error token is \"!=  || 1 > 1 ) && 1 > 0 \")\n/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh: fork: Resource temporarily unavailable\n/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh: fork: Resource temporarily unavailable\n/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh: line 30: ((: (  !=  || 0 > 1 ) && 0 > 0 : syntax error: operand expected (error token is \"!=  || 0 > 1 ) && 0 > 0 \")\n/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh: fork: Resource temporarily unavailable\n/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh: fork: Resource temporarily unavailable\n/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh: fork: Resource temporarily unavailable\n/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh: line 30: ((: (  !=  ||  > 1 ) &&  > 0 : syntax error: operand expected (error token is \"!=  ||  > 1 ) &&  > 0 \")\n/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh: fork: Resource temporarily unavailable\n/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh: fork: Resource temporarily unavailable\n/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh: fork: Resource temporarily unavailable\n/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh: line 30: ((: (  !=  ||  > 1 ) &&  > 0 : syntax error: operand expected (error token is \"!=  ||  > 1 ) &&  > 0 \")\n/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh: fork: Resource temporarily unavailable\n/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh: fork: Resource temporarily unavailable\n/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh: fork: Resource temporarily unavailable\n/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh: line 30: ((: (  !=  ||  > 1 ) &&  > 0 : syntax error: operand expected (error token is \"!=  ||  > 1 ) &&  > 0 \")\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//cnpm/npminstall"
+    }
+}

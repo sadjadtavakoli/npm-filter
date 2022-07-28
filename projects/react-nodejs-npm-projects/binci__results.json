@@ -1,0 +1,52 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [],
+        "ERROR": true
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test:cover",
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:cover": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "istanbul -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "e2e": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "standard -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "936d7c479f4a9eb266d69c3991210eec6c1f18c3,a0c5b122f2d6d492c80320abd7e4781f7d922d19,daaca17897254ae38ae0b7409a5a827294e4ae37,737ef4596b8ba897b76c7cc6b17605b5c8ec314a,0bb9031a76b07bd74fd6a6319b36b49e4de0254f,97aa3325373998a4bebe02a827bee92bd7b29d0a,5fb66d5a43c9c78680c6c8b22c75473fa5cc944d,ec38ef70b413cf07568f9197b9bf0b717a1634da,4dccfa55a1a2d64392b730e1d28d28a9e054fcd2,ee28711132e158ea13c33aeb8d09e8e99c3b7893,32abfe2578f10cd7aacef57e07cd395fec8b0d22,b240d1e1cc0a7f1dd07a303778e37406211851da,0dc2a7edd03ae06512cdcd695c623825191a67e9,bacda31ecb56b4337a3bbe1444065233db8c2afe,e75f8064d8482620338c42611bb871d22fbd3b2e,cf67506f0038a7e2a4f5a7912bd9490905a40fa6,22476bc7ca948ddca68021a379804ac4fa0b30d0,3fbfd9c962f4d36065759d57e6c7e96ba2a27848,27dfb19d11508da2a2e00b47af6f82ac7ed91ce3,f244ed6f45b1b692dd09a264da028f6f3f62f088,43a6e5c2ea47cb51df1494490c5edfbd3e001ce4,035fb3c525e9143bcc99caf5286eabcb5fd687ff,260801eabf7a9365763dee24f835cf5fdf2b67e8,96c8be5ae0ea56af68ec854d71298d51c48f0414,12a1c0cff8e8b50bf196b0eb5840932386213b57,c95d9990ed71350f69aad9e4b6e03424fc922669,c6408fb45314dbabd84135207bce47468d9a2ad4,b5621562687ad3a6316605b522e6145f163b9bed,05fcad0e784de8298c5a95b9d90a9306380380f4,29f40e1521f24ca7da6ae99f353c417d250f139f,135d7173a18c1d08a59b27eeef2808afb1a6e852,13437a5c04481988de6dfae424c0600bdf6aff98,58f22a75dee78170ee6e713f40bd1a1ab6c7e387,fe2d6820d44b0f168d53d4fbae4218c7f632e868,5461b3e4f298b63392506e5b2b0e5e81fd497053,eca48bccfd923db202086b77a4509efb32bb38cd,1213c2e1ef72c9c81097bda44f97e8a6cc339b07,26a2b1d09c17a944c54bb0f6dde64c3730c13dfe,4287438e8980cc4527259c64fee782175c58adcb,dba623c783ff10deff265a3aa41ad0271482836c,d45016c25915361d908f0e93115c1d73b0ec8d7d,4c41b7ceb56171be2167ff52c01312c9f1d82673,2b01a662334fa7d1605c9bb2b3b06ec9fecf3c7a,124da0c35a077f7b1fc8239271a420931cac314d,366ce9fd9d8775c49c2943082416b6cd386b110a,2ffafc9b248968eec4ee3ad6531d0c41df2e8799,77e86cb0384eecdc44118b5f17eb75f9c57b7b78,7c6c96293ed8cee7235f8f54ff9aba81ea238aee,60f45a2cc088f6282467925b706134f427242c87,20c106586f9b26fba9e5939595ae4f9b7638fa83,530ea1c9000fbfcbf3ecc5fa62c04dea43713ffc,d10482e7879603975521c49a84899414ba6d3d62,dd1847e1cd69ab26a3d9b572ec6c9a47433cf75a,b5835d0a43bee7ece370e1c1234e4c1ee6be07ad,5ca727bfecdebc6a073690d320db7272d60def51,b0d21f01d2d6e39b602f36e5c0b97378d62904ed,b3639b21997a9bb975c318dc71e6e366d0b0a7ae,239db4454619cfe927020adf0890b3440f497e2c,707a4c185fca12db30d5f2812a73331d012751ac,941b8f2d8a5395d3a9bce78f2fa9be58d54dfe6c,9dc78036719c7dbc81686a9dbfb6ba0d574e3397,ba5aede41e645a3692b236141278533486b1d9a2,04ca9a03088871bffed73f430b65d31b6b797046,055a78c77cd78874615ca4ebd428629e91e61726,43acbcad73da8b321dc43c05d280db823d816213,87c18e534e7a26ed9413f8d375129309b0416eb3,a2c476587343e1700177a496858ea77ca95cadd7,41f9501468a96cc26f13384f5927cc90d742667b,ba95eb361ffc5689fe276812d11185425158e266,2d2972528675f23c2e981dd73214cbf4dbaa52d2,e51fc25bfaaee85b80eb9fe6ecf45be260493ae3,e7f90eb4e5b8cdb62db6dfcab7a6a7b02e667663,de9bfdc37421d15a837d8f282593a511f53fcac0,8a489c7c03768216b65c975ca3555351c1cf6abe,569c7048d36cdc4c67e132f92bb99f7775e754aa,349e6bb1d0d0935c5364143e42b17871fa5b9604\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/binci/binci"
+    }
+}

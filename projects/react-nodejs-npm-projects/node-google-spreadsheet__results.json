@@ -1,0 +1,42 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "num_passing": 88,
+            "num_failing": 38,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:fix": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "71cf945da3487fc33ec2ba2f591e3138535327dc,b11da48636e748ec1eca79ac0660a7ccd34a2341,28d4f6ef4718bc3d8a2885f5edcd51cb935e75eb,d2fbc5cac24bd2b7908e9f212210843035c2aeb7,15a3619430ab7ae2b9b1b13104a9b681e2555ce0,bd8eba66a405c2a01a47089680c0019ec07e9fa6,d2d84ac5a40564534faa145034ee38c4ae25c097,abc7ab8e179d5a3aca074ea4e38c692cca78c262,35de536d7a129d58f0e98d90631e0ec7d8794324,04498e53578b1aca0a8ccdaad0b90ce831d54aa9,fbe9d82620cc86a3863428da9e467c6d81fb0448,b295ddb61fed97846c0aad0f30ccae30268f8ea8,160824ca2751c47dc8d718615713e958eebc72b2,d5022f45b978c17667cb4dbc0cf8e931d2c162b4,6a0bb39025121d90279c2c368e93f17c400cd8a7,08cfaf11e3b67b4859a3cff5330faa3b073eaee1,5a15dc369033204693b6a806fc85e9dc83309c99,ff6cb19610a945884b437501d38c43545c6b3ff5\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//theoephraim/node-google-spreadsheet"
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build:umd",
+            "build:umd:min"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:cov": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "d2c40dfe2784a8c9999323dd61794ea965fc6a31,819649a804ea433547dd684bfa65b48014171388,f632d08e725f30ac40cdb6257752ad36b40c6fef,ac6f617ce4da4b58e2221d713333f55bd165a56f,68fabfdcd8a108c43905e34c54db193b133728e0,71e1036a990be097c0f15387bba5c4caa40accfd,5aff3c2cb07a38d90f9bf970ffb39b01ea95bded,88bde1cc73ecbd8950a562397532320b3b69332f,9b6592496993e1e751320e97fa85719f447d394b,3101e664d0f1ecda6fe23ab060f76a21733c0d4a,c2198223cddf34c39c75df1ddb822c25e9efaf13,9c948db02b357b4d322c76cfeae386d570ba4872,24045d8bb2254b70d93e1af6a5c15dec676f26ac,5b7af0aa3d71c9c61fc7e3984f582df11d4256fb\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/malte-wessel/react-custom-scrollbars"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {},
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "54b0937ccf5530d939d4ef3e973bd0cc4ad11aef,20b8c40407afa7561d65f43d9340514a058fe060,d727837e44673b7301c246bc5e911fd0dd217cc7\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//GuoYongfeng/book"
+    }
+}

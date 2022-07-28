@@ -1,0 +1,23 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "7cd532fcc6a692c54ef912bf400352671e01dd94,fc80a089755c58502cb325d1e5a6f87d04a62b16,208ddddae8b971df03010faa2f84213cc3eaf615,5c4e3733d35cf1d433d9924690c6022cce82b0a1,b6000f43d1ee9972a6a0e895667de7bc08574355,5413eee2405ff11ae0198239562edff6e4f0c9af,d67e94fc3ae04708e1cfe81709a477879b8140dd,7b96b58b2f20460dabbe982898a4b25d198fa995,67c43a930b3bdcdc63ce6160ad9bb5e012dc3daa,18772100badd8f9f38a0d32147b01d126f2d5f8d,d0ae3ee86de6ab3361dfb2e14443d2ebeef2149d,9708bcf10eb366839da526d47c2bb5b80a2a77d4,e8a620f8b0b682144a202c7d2c661f0c0ac209d9,7af03ae8b01258574abb30b258f03365c57d8f02,f6bad28a7bb10c3fdb85ba46dacacac2f4456222,60238996a2834b5e5ac3f4f6d6aa1b7dc3a342dc,999eaf1fab8317366ca897a91e0c5471237d222b,afae59a165b3a9dab6b920f16946f7d4e39049a3,d67563e635fa9a93eb7879ec7433f1b7c762a304,f7e0cbb1437251a77cf1a443636559029c1a3910,481702f8478df4d1622a107e8d8839013fffde00,262f20de3c2eef55beaa271882d1ada2b29691ca,5095161c0d409d50dcced29a8686b8dc0d29578b\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//iuccio/csvToJson"
+    }
+}

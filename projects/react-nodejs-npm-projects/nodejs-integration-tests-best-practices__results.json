@@ -1,0 +1,53 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "test:nestjs": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "test:mocha": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "lint": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "a4fa6788489ff1fe6b145748c6bea4f41b6c8cfa,181555a0eb34a9adf0f1883f20c40b8b8ff06b3d,f44ba1a67c6ed52e73fbfb648b0513977baacb3c,97e1a42cc9878726387e35b402db2f9e7c253044,53510bfb733bb929b8a26cb90d3ca166a2c1290b,2110057582e6b120e9ac6ac9f3591197783da6df,2ad93ada8200c9b1e44dc54cdba53123b800dbc3,f5c9f9d1868ff9111b388840993a93d8f2fb8ecb,0ec076745f54a38c201428256a34126ab6344f4e,2dd270b4aef64abd2354c35a7c285f23c0c9c1b1,2498f47862c3325ea0fc60fc99c9ff76226cdfe6,747b7310881e26d22d46f14566146a2658a9473f,688190a0cd02bc751197cb686e1c94ab9b48d958,7e47429aa79c718a5079c388b258efe66d3454ef,6869526bc62460ddbbf876c708ff06a4d5bf33e5,4ee35d496f9b0161772a0afa230a871344bcfd97,d61d3e9e683aa021aae5fdc189dd0b3bcf258d3e,8c445b6c75283b5061ed2b94185e02f0e2c8e8a8,12941eef7e4d102cdfe2f73d7ba99252764ff9a6,044d8754a4c2c8ca0a491532cb14f3169298d2c6,b78753c7d8f56744197700f88e8a0f8c3cdec586,1486f1bb608e00fc50ba521996cb35db44d10e32,3a3823fa28d7a6278234834a82db7b95eacae746,3200d2a80796c561799e01bb16a87a759aa55709,775e8a72c9116b08f8de00c33068bcfc106dc73b,8a0c03e2badb5d4d1aae713c6deea18fc72a0545,d20d9e48f68ba8c239be47e6125e8b5954a30bdd,83574369bedeff10dfc9b938016e6d6c637df98b,ea548f64eb99797a00e16389327a6434e7aaa8d6,06c02a4b56b07fd08f1fc42e67404de290856d3b,9b6c9dbd19bf90cdaa3492db16f31daadb49a5f6,42491536f284e09b5fe719d9dde6d0c7ca9cfa32,d872346a0b747ee7b6c28921d23ed535bd760b65,2992f3505e74da0023087a5f8bd8b9bdc3931e2b,1ffc269383e8d20b2ed90a6336b19b8f48eaf9d4,4b53a025583d6edba8dcb194ab2f1a19fb820a54,b360cb0f472e97b4b0160f9b94680fa421f5a941\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//testjavascript/nodejs-integration-tests-best-practices"
+    }
+}

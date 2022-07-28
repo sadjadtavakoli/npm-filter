@@ -1,0 +1,56 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test:links",
+                "test:md",
+                "remarklint",
+                "textlint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:links": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:md": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "proselint": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "remarklint": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "textlint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "textlint:fix": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//survivejs/maintenance-book"
+    }
+}

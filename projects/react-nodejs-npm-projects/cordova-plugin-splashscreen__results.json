@@ -1,0 +1,33 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "050f29cfca9c8f7db13078d3c093a1fd0299e0e7,893ba08e8fb6c83abc36204e42f5e740d5be5254,2ae821c4a853b6544464bce2d57e26efd7b8d888,87d29ad6d3d5ddeaf2986b8c7b54d9e34bd46efc,acb45f3a386bbb80d1d52cbe9d26f3de2617bfe0,850159490c4b0e90e5a64287ddda689dbb577084,5ea854d8c3671751778a67095b3ec36a55e0c71b,bb65993a5181600af130c17a0e0ac2c3f2115406,bcbc23958fcd294940ad81c2c8409bca8dd92d8d,6cb0a8cf0c20f842dc7ebc28d2f69ed29fedd11d,9ebd08f69ba9075b810ec6a0dedacd9c7ad86a8f,1d2c0adf177ead221c542d2d6ccbe3ffa3a2cd51,49164dcfaa58d20ea745568755238b878500e7fd,12b3d5ca994b24e1d024eabd5e44567ce7c17543\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/apache/cordova-plugin-splashscreen"
+    }
+}

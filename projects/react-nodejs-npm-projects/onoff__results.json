@@ -1,0 +1,53 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "lint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "num_passing": 59,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "timed_out": false
+        },
+        "codecov": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "coverage-report": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "integration-test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "7ec5451ec8f1d9d2d468284e957260724d0d5351,89a43a99dc1583feaebe876394d1f60ca9afee63,c035fc47becbf583d26abb870ef020044eaec826,0378056d2a2e2f0a9a0dd8d8fa57bd4d59ef4ebb,7dd65f775b94d7e79df6e07c27d91bb4226cdab8,f5143dc3cee59adf2769ac5621541d7fc5cfc56b,64d99089cb55d7f2b41123a1d8629b9e7263d749,dc80eb03fc4fbbc6c0578717c45ec229159857ed,f6803a2472868a00f15806b3cb394d385d37a483\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/fivdi/onoff"
+    }
+}

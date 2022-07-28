@@ -1,0 +1,28 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "af902a3b5c0d336ee583090a2e3c23902d0aebe4,e8383700d916d11ed1ad66f319d27ca955246e8d,76b085c6310cd4d9810882879e48b606a3275419,e91099cdae5e46caadce0fc7672982cdf77fa6c6,a309bd882bca2ec048e3ae3e594cf2e29e9295f3,dcde9d59ab3c82935a2636450894dd6fb96b4808,d545e9ab0b45794e4bc12967fe1548267197470d,888ed56480904df32661c31f19e1e1e8da8c19db,a237d1d88fa90262e39da3b05e3075aebecf5fc3\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//mrousavy/react-native-blurhash"
+    }
+}

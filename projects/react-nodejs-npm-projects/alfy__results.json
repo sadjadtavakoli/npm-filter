@@ -1,0 +1,28 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 1,
+            "test_infras": [
+                "ava"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "0fcf1dc5d335e556ea99eb8aa6d0e27ef6a5bed6,bd75acf35b2fd2583fb360a69ee1aefdff944e9f,5b909f8f4c48a943449e2505838d3628d14ee9bc,56aed04cff57d49635a8182af8aa696c70852bfa,c73c325e029b595bd51f7e83b09798aec2581762,5ffeb30186d25a484261939c2f201cf4dc062e20,a57807833a6f531b307513f2eb989e9561dffe93,afeae0a14c36112f91bec20aeff180e65a6134ab,44a19b41081375540f7c1ca6408a5482a8dd7a88,c321ab9f8c540d62bcce3721f28cc23fe180c4b4,32490e88df5a9e26acfc631adf07deb8ae926fbc,127282701cf02e2acbac79639115d46d4d40b6d0\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//sindresorhus/alfy"
+    }
+}

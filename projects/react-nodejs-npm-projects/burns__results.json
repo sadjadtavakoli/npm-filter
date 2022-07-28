@@ -1,0 +1,37 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "num_passing": 25,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "7b4f2a1d15d12b511eb9b86fe34e0f242d2cefb6,bd8033ff7024bad371fe64cb2e80d94b4c5f2587,85e1031698a2abf25978727c3b320a95750a21ae,bf72cfea23e9f8ddb6d232b2d44cca1857f5764f,a0a24e584fda2c065e223b6707c49bafe92b57af,7ed751b12a7a48d75f72541d0c8e3691c900624e,292f31aa6738e1aa27a816ec9b8370a1bb79968a,4833aaa068e8dc96e1981df552d3deac4726d628,03c96deaa7f8e14ed0ad33979d8c53ae79cd2aa0\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//shalvah/burns"
+    }
+}

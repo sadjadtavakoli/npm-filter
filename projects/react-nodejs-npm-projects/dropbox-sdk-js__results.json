@@ -1,0 +1,88 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build:es",
+            "build:cjs",
+            "build:umd",
+            "build:umd:min",
+            "build",
+            "test:build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint-fix": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "nested_test_commands": [
+                "test:typescript",
+                "test:unit"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:typescript": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:integration": {
+            "ERROR": true,
+            "num_passing": 4,
+            "num_failing": 14,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "test:unit": {
+            "num_passing": 220,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "test:build": {
+            "num_passing": 6,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "coverage:unit": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "coverage:integration": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "773c9b49c5721af4d7c8c946b44f97d6b772aaae,13053183b349d312600f0b943b95a1be8e8c75ba,82ab898aa2a98ceb4b6401f6c6a92c62ffa79bf2,cf7ea0fed6fb5cbc7e641cb70b2ab5024150177c,62b8dccf5857dcac5ea82c2fbdfcd3ea43e69ef4,52e6a5fcd84b6761129497d8626118f252a17376,45ae1367f665679b87faa8ee2d63764bbd2a5014,b75b1e3bfedcf4b00f613489c5291d3235f052db,37a7840b408936b73996b347d90128b700d9eace,3fadb55de27ee81b3d5f1275e7d48427d219723c,d3f587637734c514a2f80c6197d672094e5c6e24,8f7656f690c14bb896c13ffa8d490b8335ca7da1,77936de7ae93acbdcd8c33b668807a830c6e86fc,b999efbe408fb02cb01bde835b6af158f4cd97d8,2445e18df229786051da05da4258ee1ed57e852f,78149dad5d02363678027851a1b4cd34be00c0ca,642a12d842f063d0fbff3766f302d5278037417d,d5ebf45140698465aeb835293df0ab7a44779ba8,f05f26c7710473081438ead1f808a7f99f64a4bf,c756815ee966f89b14710767335c874ac6550e8e,c5b11c414470d8e621d5c343e0b185c3f3d17837,10d580087e789acb4c51a45a8bc22587a53798ee,db0856129fecf50052aeb5c91ceddbc1be411b8b,1e4dd993d99b75b68806c4eb964a756cc0d1521b,3edb050cbed6f74b4de2625f2907064184d5d3bb,87190108173c8c680fd88d9303f5604a5871beb7,23d20e6355bfeb8abd47484932eb252b7989e4d2,660d657ca1cf3f56e2e8e2cc61ab99773d61c738,5198a4255c141359ca4ca3b232cebfd5f0ef2dfb,735628e11768e067b3b881f1e3a94575e9f1f926,3d4babbcb02e4989ae7ff04a7296f5a07e10fd5f,7d9209fd1c7edca0cab334f09050194852c7df29,759bf904a79a9ac9f9c58cd0109d5af3ad146679,af5cf8196b035194099860150fe0b7b67fdabdfe,12d1659629be19ae7ebc5727f72d1520aca7e56f,b97ae91528bff3d2a7c8c898ea91b31231b29b58,9c91442497ef9855613515d0a29381868e0fea48,e3687717f2fc88452c151e8040af59deac1eccca,d8232daa73634b517213567039d4beef330d14e6,ccfda3ff720fde9dcc71ba98ce1360d8361eab6f,b8ad185a5c3ae235eef170143d7757638da74152,7f914af9dae1f46d227abb5b648db4ea6e36f3f1,f438977bea7bb6020f4aa13b1de03155dafb1dd6,5b72d2a46e5bf2fdfb49c05b553fda7d90a1dba8,2f0291e6f06b24f041da818dc69745f830ffa58d,e2677c5424f9820a163a8cec3190323e97b7faa1,63801a428ca19bd2b9a40e4f3eda1e9c33f105a7,f34c4e8eaffa1bd51a9d49c8a45ae2a914c2992a,cb05b61a76aae4d66e08b3c1159ca1a15091edc0,1b9007dd45fae00e1f42f530a28ef8dbb2123150,6d2c920fd04ff580ca1418de1877892f161c1719,67e7b558d5b1fdd9ad197a5aef4e7033eb186fca,b58ef3d2a0ad1f50e6a3210279ef16edd76d3eb1,4ba071b3f184538f24fffa34e40aca15d663f53d,2e4acffdd733761f124efa1c67dabbccf89a686f,b82cf54ecc735a08d23c315091d5357d9ccef16a,9eff6a0f6e1da416a68ce16b62ce9b74e6741430,a944f2a6d0f3d0147cf2472d8653508134251eb5,061d355da7ecafa2ce9b810825701d385dfefd78,48522b7f65e76c9efc95032a5d37332c3c505031,c1433929fec7db0842011c1e2853189122d63d76,6b2063c297c84391c6bdf7ed0fcdb97aa7fafd16,8aa55439c4df8bc390f1153d125568eab1136cee,090e545c8f429e15c8b6db33354c537cee098f6e,a0c748500c5fe99975d832bcfdea21f6ec0f336a,ebc51046b157e69c24bd7b4b9feca4c087472217,a7473177e58958c1f2faa748c19b5b358b4c792b,63d1ebff1be6312e71d1dd81df5671c1654006a8,34551376278d7625493942caaaa711b58cf561fa,f714e17cc031af0a32fe401007753149c3dd78d6,5e319a687f7ae9603850ef2c5719c16ecdad78f6,990c50e0d31a042f4cc5af78b0c2164dccb3d915,50d9364a762a26847d6d022886693eef1deda3e4,5eab745a91094f7dcaa04f796faa78b80bd47739,49060ea70fe88856d69f9ea30cfd0f736a53cd8e,32626839903f5411a825806db007e1826fa830ed,4b47a1cc8e8dbaf1677fe9b35a2dab66440c8b53,3e1a8ae5024809ef3d101574757da8524c4a5613,9d894ae2a5964e175e326dee0accf1fb3714fc60,1929f2b21885e31e64f3903d4364a1ee05c26f8e,244aa6e71372c03523d3860fd78d1590bd78d88b,339155ff96f3ed6d52d6305ae6d0a6862d9c186a,48971357f2504f22c736deb3a85c97123c9e5d0c,89cfdd37b7504d0b2ef12b45f80b22d370bd5941,85b21f1f359b5954ab6707465f8d4eda3b72b929,aa6d5933fff68fbdfe8051c92bf8ea01de007268,faf23679888d360685228ad66f22e982c1fcb932,63195404365219264552fb2d55e8de6a05e6c868,b119a6994587acafb068b5f9bf12d0bbc16296df,fc99b285cf8bba49e326049298da3f059e32fb7b,4ab708885cec17a507378e05a81854b9e2b55adc,b7f7d5ae478ba89d5eea8c2b7b66355e3b1eb9c3\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/dropbox/dropbox-sdk-js"
+    }
+}

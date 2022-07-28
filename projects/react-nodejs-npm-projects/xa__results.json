@@ -1,0 +1,31 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "prebuild",
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "ava"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "055149723d544fdcf923d0061c8bdb3d436dc444,ebc0fee49fa2c56c50b8ca9c7a11f0877f6bc803,da078bfdfd45a4471747828d99c02de24ffa041d,adc730e05169c6c2bf1b01bb898cec8383c61b87,463ed12e952ec8c8aac291e8f1ccc96e0201db3e,0deb853d51c7de8b6bb2609e069c5bf92d6a9527,9b9cd13027fcab1ddfe87a04d6baf3c034db4fbf\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//xxczaki/xa"
+    }
+}

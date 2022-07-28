@@ -1,0 +1,27 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "c8 -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "770788027308cb8a5d2002445c65e25024e1a4c6,2b06e4087f3491a996cdf6d7b0eba695d25ce8c3,4dd258d062722e69317707da5c1b73ffa506d42a,c2f5edf6febc726bceba2e1c5bf40635dca3106a,c8a53da6748885423f73812580afd59699b36e31,5f8bd529569f35b45b49e6b6f25304371e6b8d10,dce226705cab370c828e99cbd6de5439c4c5c60f,5f890abd67ddb2326dd0cf091d01c2d4061798a9,9cd5e2a39105fe3a366a0dc83ccac4ed2146f585\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//sindresorhus/execa"
+    }
+}

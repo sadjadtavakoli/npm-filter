@@ -1,0 +1,38 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "benchmark": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "num_passing": 93,
+            "num_failing": 3,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "73d1f68692144853b08fa7b6ef9237550ea1af5c,1bd04bd9366bd2ddf14c8b0938de5bbd8aa12dc0,d504ede9e29303d1d4bd2689bf16e7ff72f0c9ad,55d4b6cd2cd4013a5010d27a53a9bf0f11e6742e,9865f6396ab2474f4f83b5faa2ac388ce058fd15,6739d90a2f99169bd12cc9185c9d4d2e932fa4d1,43a36db7320a9eb97e1af433a7b7c500993d3aee,0604c25628d881c43d7bb71ced755f2d6a5e0b84,39db7116b9c5c53c6b07a714ce5036eea73a6479,b6e7762113efc363607a6403f6cd61bbcdd15d08,f97f8e5bf13f72e766d29545adf29ee310a10418,f377ae4adbb4389bfbba73ed1d2660df8dfbf77e,68baafb81b76b2ca547bbb034ef2c335d3cfea1a,67f880726193663c8c55e6115b826b9a1f632b96,96079c291a26180cb2429516fb72ce7a120b5cf6,0e2ef7d69cbf17faaaa33583faa3509fe8388a78,43c6f3d459a0d7b52b44ee2ec011f603e01e4696,ec66e445b73af05f56246ad6b59a7038e62fbf8e,a72597ed8e516afec5f6d4b2c8ec1cf790170e18\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//ddmills/geotic"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "lint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "9fa054b117b99a332cf11508c4004a0a5679dcd0,9a421c79503ee44a79c10f26c5d834154ca3f727,9bd7e579861a508231f0f153eaec579c816b40bc,8b1c0bfc6af461c9b9496b538588af642cbb7b3b,c215e2ddbb1dc354fd850e53ff2b00f189447952,1f745d2c4ee06f95ab38e764ab4a138c97044eda,8d458564caa563d863ee8ef85d68bc936aa5d7fe,d61d2a4cabf555ce3b6a1ed6d26181c6fd2dc24c,bcb536dd0864130d4c33782dc8d8aae9ba365e88,a18f8a2871e87d92251a65ccac87882c60657f86,87bdf7885438b2b6dce2509a5a411518cb597e5d,c43e04f64bb2ba885a293eb10e786938316a4adb,b7d744834158f4cbdc4a72373b1501ceac973e0e,53e1b06b226642c317aef4aaa03adc2bf8c3a531,bfa65d08723ad077856970d65c42e67bacf318d9,656f82ec620366167cdd079df9c2d6ab0e409e93,084f55a6837ea980774a2e9fdaea6561ca89ac36\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/fivdi/pigpio"
+    }
+}

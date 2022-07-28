@@ -1,0 +1,56 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [],
+        "ERROR": true
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test-local",
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test-local": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "cov": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "ci": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "cov",
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "88cd179ecbffe885703bfd54f8f2d0dc049cf99f,066d50f267584851a525a0d03080afb811691904,38fda517f678efe5b2e0cd784f84f0876226e4d5,852c2a3fd1b2b53f25a729093576c004b8e12bed,aa81dfe322064201317e46a7821d595c09620393,1b0c83529109ad40d316cff4de5736e463d108c4,1c457eedc6f478f927f26e3167c9a2afda8523b2,d5e879edcf5f5ebd148f3cb7bfd729955027b3eb,8cc31b8a544a7444fa079cba5ed5ffd4edd52383,347d94c9ccfdd5b9780963e99b2d845d6ea3488d,60118e086265c6393eb96049ba11bc6022785e56,904e144af411e9baa1af8c464556713d787a1adc,9bfebc6578e8aaafa5fb79a05d01cd9d0116543f,5cba87bf5809441e429191416e2c20a85bcf04d9,7bb7183ff24dc4c342bbe16a8617c7adc1044cd7,dfbfc0a63e3509497ee3bf2f9f6f7de5e5d41d1f,c5080697617e6d1de986a6f0a357617d026e0863,daf4e6e804f3657424c9667cf84fcf6d870274a7,2c1da28468a25d1534115757520dbd6b869f0ee9,ead9464558326f8a6b83e4669367bd5f97e6d9ca,5f8deb950265fee8e1cdbf83cb9cfa44fe73fb75,f3a57ea7db0c72e3de002d1cbadb4a4e8467c996,8c477953ef541ebb937c8d4486146d355ba89794,fa257ab0029612e75f8c04fb9d471dfd42f5b331,68680b5d6e6ead93e82c80663233abcc96aa155e,525a3b86bbf4449ea096ed12274cd395930e98a4,d2696b9c9938a003637e8f23979ac56ccc02918d,ca4bc8a613978fab81d1ec515d15478a53661d04,139f409a195aab864366ddfdb2a0aad60ec5f44a,efdc5e0212f99b8592134cc5ee1365e846c15738,a280f0c3747c6363bad5e4b445d04f152d6622f5,7447ee6218a1dbe05b79f9104ccc53aa1069051b,f80acf0fed78d3ea2c72dbd69753ab15e47baf59,c8c2f126f0a684bd6633d815e7c78867230a3c96,ceb1933606176613a12fdd9706fccd241b2d0b84,203193c9daae4d3f90455d0492f506bcc8eb2cdd,217f5f6913f7dee88d374a41047bfd91606862e2,edeaa79f21cc9c4333539364110af28d3f2c9b18,b364598180fc87c241a504f15c82ea3de06f6d2b,19a32bb23acb3cb52c19952a4b53e5b22a625250,8be6ea9c8d4ff4cd8490cef3d6df4e9cd62c6ef4,6fface619ae9366865d57087f953b7bc2ad7d913,fafeec31f51a425cf60b7c8dacc96adbd22479c7,99a620788934f7c3767801664fc4efccb6bede1b,d1260c71ec66577ec1769e78cadb585c101b5133,b07ea26d52d756eca72f3578b6722c514bec6347,c6fdb80956735b2243a7c04e5998c90c80c6b803,e30878d7e6cc4e254a8be32f022818274b8ecb64,12eb61e3fb6c7d001aa55e9f50c30eb8627318b2,532ed455b67cc0b33de9c7a94ff4ce14c716302c,49a987f789bb72eac94554db15ced9d2d3b3d4f8,f70c5fcb9dc9b850d6ecc1953ef2a7f18aa37c82,cf3e345ce9bd39f6a8d8b24a0aae85d0a9c48e34,dfa45d385917b2469f4a7ba98ea9800a5ec58e2c,7ec1daaf54c271f31bd5895367ae240bdc131cc0,ae256e5df6bf5dfa365cf46b0aecc622301975d5\nwarning: inexact rename detection was skipped due to too many files.\nwarning: you may want to set your diff.renameLimit variable to at least 1438 and retry the command.\nwarning: inexact rename detection was skipped due to too many files.\nwarning: you may want to set your diff.renameLimit variable to at least 1438 and retry the command.\n  File \"<string>\", line 661\n    \"\\346\\223\\215\\344\\275\\234\\346\\226\\207\\346\\241\\243/DoraCMS\\346\\223\\215\\344\\275\\234\\346\\214\\207\\345\\215\\227(\\344\\272\\214).url\"\"\"\".split(\"\\n\") if rel_extensions.count( f.split(\".\")[-1]) > 0 and sum([ f.count(d) for d in dev_test_paths]) == 0]\n                                                                                                                                                                                                                                                  ^\nSyntaxError: unexpected character after line continuation character\n/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh: line 30: ((: ( 1764 != 330 ||  > 1 ) &&  > 0 : syntax error: operand expected (error token is \"> 1 ) &&  > 0 \")\n  File \"<string>\", line 4\n    rel_files = [ f for f in \"\"\"\"\\346\\223\\215\\344\\275\\234\\346\\226\\207\\346\\241\\243/DoraCMS\\345\\256\\211\\350\\243\\205\\346\\225\\231\\347\\250\\213.url\"\"\"\".split(\"\\n\") if rel_extensions.count( f.split(\".\")[-1]) > 0 and sum([ f.count(d) for d in dev_test_paths]) == 0]\n                                                                                                                                                                                                                                                                ^\nSyntaxError: unexpected character after line continuation character\n/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh: line 30: ((: ( 0 != 0 ||  > 1 ) &&  > 0 : syntax error: operand expected (error token is \"> 1 ) &&  > 0 \")\n  File \"<string>\", line 673\n    \"\\346\\223\\215\\344\\275\\234\\346\\226\\207\\346\\241\\243/DoraCMS\\346\\223\\215\\344\\275\\234\\346\\214\\207\\345\\215\\227(\\344\\272\\214).url\"\"\"\".split(\"\\n\") if rel_extensions.count( f.split(\".\")[-1]) > 0 and sum([ f.count(d) for d in dev_test_paths]) == 0]\n                                                                                                                                                                                                                                                  ^\nSyntaxError: unexpected character after line continuation character\n/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh: line 30: ((: ( 1716 != 328 ||  > 1 ) &&  > 0 : syntax error: operand expected (error token is \"> 1 ) &&  > 0 \")\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//doramart/DoraCMS"
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "test:build"
+        ]
+    },
+    "testing": {
+        "test:typings": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "nested_test_commands": [
+                "test:typings",
+                "test:build"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:build": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "931aca014038042864dc9dcf5e234722e8eba60c,5deb8e45ae7381f0482977ac95e007c2af694d19,a99bb30d0b1e0df5f3f34e8d56535d58d8a33321,595dc8a103d98fac751fdd5585b3eacb21570cc2,d33db64de1e24e936cb6776b9930d278f3794add,6b0a947d9aee2c802c0454a428d78fe6bf68438f,38aefc41bfc859f3aee30a8ed96a7dbed5b71329,bfa7ada2892e2fb9f9289445fe04dd32ec9649b9,9492789745f6388e088d42167721f45273941c94,f86af3ca5a89c7fd17d0e55aa7a7b0ba6030c405,c04f86b98854991df62bbfe6df9a2eea4f7ff1e0,e1de6aa54f1e4675c432aef1832438919ea5bede,948b0d377eba93c3ae50041aa7719b1d88e5652b,025ffd7a12667a7c97504473d9232ab291a6df36,3d9ada5c35ef61dcd010d2674fc4ca04244fed23,95ca4cf2514170610b8314bade75ec099c74ac34,0f586411c8554f7f7fb7bb9f43fded0748a31ee6,dff2ffa378d597790d70eae415ba3cac816b32bf,6684541c0e2fdc4b690c3d9a1960e527e76510ea,fe16e0fdd99b3a35620c7af72c86aefa8b68ef5b,dae170446d74cba2c6a1a0528876265fa87c965a,1ff571d606da58f6b715ebe4d9a4d2dda39184dc,f6ac603a73a2b6fe5e6131ef1525419c42468235,7684c846c193b96eaa1e107d96d188f3170b19c7,443e859e7a1c25d59e9a66e1e6d05e809c82fbee,9568269a67c975c9343c26109e56206aac142ff7,740be78259c047a375bdef04c1e7c0ebe8d9b0fb,14eb817e457932919ada3c3bd956ea7ab224a7c0,1d18fba6743356b63bf2ee4ded3970a34f3811ca,a6431b40c8a62b56bc041a9a363a570530992793,12c69368fad1671e8a87ea23fd3fb819a98e9a04,94cabebdce7cadc7c1bf923d57a61949d8727a42,f2b90fb7b205b30373d5a7dbf2c8e377e0aa3f55,b813f133955a9c91b74aebba210783f809040265,8202b36e1d9a4821d28d8d33a322b47a5b601c3f,d4837afaaf37ba043d2066e7b3b3c05975a78783,40a6a8ac11ecafa2bf50779768fd4b174759c2f8,be2aadb2f049755af4afcb0462450f33e9ee0cb6,d1d6f1a73ce057f91c00f4683a448584db196970,7039d7c0fb2de6d3d018f969968ca9ebd6cb6f9a,b7198579cec9e0692a619f488b1dd31dbb5ef7fe,d7334dd222988d84f7d38bd287b1753a4507e6a2,1e538b9f040b623b36bdae6363da4fc9dd21a158,6c6fd2300ce54c0fa42234560a92cf7baac3554c,93d41ab3ec8e2c272679af03a0fc03710d343cc8,83e4e3f0d54b6f311a2bc3e30f69e5184321ae04,d1a799f58756b1c74f077caba620db10017063c7,ebb650983151dc8bef761eb850ab5a695a60002b\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/konvajs/react-konva"
+    }
+}

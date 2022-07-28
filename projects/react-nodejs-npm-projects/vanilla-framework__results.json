@@ -1,0 +1,57 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build-scss",
+            "build:essential",
+            "build-js",
+            "build-class-references"
+        ]
+    },
+    "testing": {
+        "test-scss": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "test-spelling": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "nested_test_commands": [
+                "test-scss",
+                "lint-prettier",
+                "lint-scss"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint-prettier": {
+            "test_linters": [
+                "prettier -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint-scss": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "a21210022e54f67b86f68fdfa6f8c75dafbc4d8d,c5ed3058728cca63e9e0d9f8d733b943024609c1,ff1a818831a5e45790c4c4bf69de078d4880d21d,766c052c8d936b7ab2159a08cd7364c8f5bbdc08,21fe6a75d1bd029441cc55b9e927d68ca6fd2c75,c92d67cb405c21244b421dd95b9cc5d5f2faa12a,b9dbbabb04acbe1749a773d935a81a54d1d66663,1a0e2f4a544e9e49bfd326c0b89143586a2a2f62,ca5a233721f187a81d36e611e55c800979de20a1,d8d6f10b7356182bd6d51f0f80b7fdf6e19c87fa,ebf13dc2b3264e38980c90a50ce1874fc1144684,d567057e314a8444da5a4d866be3ce76681ae5c1,8e08906fdb20855f412f50665982ca54f2ad691e,cdcef877b0deb8f374bd9cd301e39d0e5407e1f3,254b7f6f0dabca44293339040e52005047f795bb,e186fccb2519653e250dd63c20427529464e30f3,6f9bf1234937c8aa2d15ff02d59714cfde67487e,6d455197fb4cd2fec8d7181853de2beda34ba06e,e2a9cb75919a0012fe68e336eeea7a150f68f605,526bf4b1c5fa64926e7f0aa00d99fa1e2f88642f,f9c8e2ea97713773411b0cff357db953ddb95f03,7a1adad486c3e4fa73e961f1a9e3bf4f122d9f03,65cd6eac8101ee1f0173eb514fedfcd61a77dccd,9d9ad20d0b5c242b8918c016cbd78cc2a078cc6b,d190d60000001033668eef162d225574f9911c7a,052cc3f0239cdb84fbb2177623b26a622abaff14,95d07ef3e8083b9296109d78286f612e0fd260f0,6248b8a86880cedb368e7298af6d91cea3578eeb,cc998a92113a6f43ca6cd54fd8122ea635a24874,38d81cb562940f212a01593d79f2835c658ec96f,7b558167e6814f3915626ba839dc21526814b687,9bb29deb09e521d61f02a82fac265668e83a11e7,41a052966d3429d702b0614f30d4dc227d0ff61d,7938126e033a53aea1e73f77023958dfee73f950,bc8027a636302e6e3fbe4149e378e93fe9e80698,dbced767a114a539779869eb3253e5d05889af2e,5e2b2c602d32216c1037c95588f2800b774b8223,4438bc41f5f4f024e44f8f905d4fb726866fb1c7,5639d2167d48f9a568feb7dc5ded988f36505efb,3c625444527ed57070e31fc9ec9a5c03c9b82d71,11a5878800c5378270bb288606a3965847dc27d5,88c2abb39db0fef71af19114221e53632b262164,28974d1cddcc682778df06019b0a018ba21fe89a,d40929566b432f21a8b6d88eb3ac8304e534f3d6,1b012025a516b8921a6f759a02bb76c3137fdaaa,fe9dcf67e95aaaf4e2eb5c8ee8bbccde04e24058,6ad34e1c595bdc9e09a4f433806cad335ac75b71,6032a56e739ec3eaca51bb09a059a61ce6bdee4f,3e1f1a0650b89ad654503ab8cf8072bb36f0ca1e,79404f3e95542df03bb82aa1bb81c1385f06bdcd\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//canonical-web-and-design/vanilla-framework"
+    }
+}

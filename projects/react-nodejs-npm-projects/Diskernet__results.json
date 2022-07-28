@@ -1,0 +1,34 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test-hl": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "5e9518b9b1f4df7137d13e71b6d2deac4e14964d,12e61d7bda45c50d076ed83f0e38b940e9751295,4d795c2b2778e690867ab77247d40313e5cb3af7,9476aba38d6b64e0199e41e0395444c4d276b8d2,1099ab8e347ed17c7cc6decd257e00def0e67b98,bfd57793e7e98772530772d9e505b91bbd640101,1f9bd459cf57cd474779c3a97623937dea1ac24a,8c8cceed832b0669d5712234227b0ce05c2a2014,92b2e9f205f24032193031af476d33c74c1ffb75,68d5d35e9cb08adf1b34697a553d53d3ea53fb31,485adf7a106957fa390be30c7b9f1f0dadaa82bd,5bf4293196ce2a0d6c3d5949aad1b13ae922660b,59f545452840ed3d223e206446f8622aff780ccd,d98fd94534b6876a8ad884428fdb2615d4dcbc75,fc5b74d581152e12a196dcb4ae8a8ecd4d65d3df,567838b5827d3b6c5e42b75a7fac27fc4a08a5ea,51301b9fde9d350988fd06781a681b96007ffdfb,34aacc63a33c429bd40a5d31a009483d07cbb56d,9f85c34e47190052f3041f823b8657a1872c47d9,ce4d15f9431e4f06101c4bf933b951d55f1a19ec,0ffdb5094e6a475b7043b7f7948e10c2dfefa009,f088f6b87aee4e4df321c8050a3ad5e2564e878c,8634c96ce9358384a3a8efb2b5fe071a02247b99,940e86a5011f514c3dd9d7993f5a7295d4d9746e,c1e2539abfc692d479fb9e4972a0c1b748539354,a050a1a43d1b4800a10f2fcdd73a4e9ccbd4f6ad,c8517f6b0f841a2e08c875014b65d6d800f64c7f,ce72a8934828991e13a0c452acc20674202a042c,edde0b60bdc8a93f9e5a394115c5905d665a6b75,013e6c7f298a8654aee29e3c1475b1c7adae4480,b07275e2b83f4fddb073b08f471a95c2487ebbe1,c1c944afce6362987d607b3a1072a11d8c2db33d,36499fc54d6ab9aa5b6b8ca741b1686f1df1d889,83ec71ffc813932943f537d0cc5d1c04328eedf7,d65220351ad609633e85013d0aff5e8044867b91,2afaadcdd2190645e17d5473d81107b184386646,b2516e63003d88d6a1d605cb10cb4d9b23c5a6d9,ffcf7e9b66f86da5eb5caf99cfa6d7ea6270aef8,bf011f014101fb77f99c95edff49a5f1f558653a,e8a15d4eed248e8c01fd8215f07016a6c8c9ceb6,49882df4f1dd5aaf594bfbf9fa704ac32acea74e,59cafd2688dcac1d3f47c1d582b2d818d368e41e,1d8c43b40dafefef04a9c65af9684d79f70b0b1e,463083f3270b4be0d7c2ef5dd51d6d082204ed01,6c4c78760492ed94c11b6547f959d4ebc3159535,9478a9372919e1c2eef0f1273c8b0f6716aff18e,56dcdcec168b45913ede037983fb73d9a6cd6832,88a5574f47ac1ecad7a5ea1594f5bf359f53e447\n  File \"<string>\", line 7\n    \"windows/nodejs/\\\"./build/*\\\"/nodejs-\\\"./build/*\\\".tar.gz\"\"\"\".split(\"\\n\") if rel_extensions.count( f.split(\".\")[-1]) > 0 and sum([ f.count(d) for d in dev_test_paths]) == 0]\n                                                                                                                                                                                ^\nSyntaxError: unexpected character after line continuation character\n/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh: line 30: ((: ( 4 != 0 ||  > 1 ) &&  > 0 : syntax error: operand expected (error token is \"> 1 ) &&  > 0 \")\n  File \"<string>\", line 9\n    \"windows/nodejs/\\\"./build/*\\\"/nodejs-\\\"./build/*\\\".tar.gz\"\"\"\".split(\"\\n\") if rel_extensions.count( f.split(\".\")[-1]) > 0 and sum([ f.count(d) for d in dev_test_paths]) == 0]\n                                                                                                                                                                                ^\nSyntaxError: unexpected character after line continuation character\n/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh: line 30: ((: ( 23 != 13 ||  > 1 ) &&  > 0 : syntax error: operand expected (error token is \"> 1 ) &&  > 0 \")\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//crisdosyago/Diskernet"
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "compile"
+        ]
+    },
+    "testing": {
+        "test": {
+            "num_passing": 70,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "pretest": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "5d996fe00fa79800046fe682764b87e3e096d67f,bd362430f977739d5bd4db7343f0806509c4e6f0,8aef26e3fc0f53f19cb00365f6b3b42a21825adb,ad756583eabc06b220af54d6e44734742be29785,ee2c7476a11a38b3470859e7e22761f382860f35,5207741e38e28145bda6e82c33aea07921ff464b,752c49ccf075c1869643234f646ed4590e3b31c4,05a0527871052a915320d3e288e63565e7003528,11d35b33ba39aad0b45b3c2e4f9fd1748520e113,292ade9e5530b401c093882da857e0b107aef14b,7617801e3cbd3f5da1ef7797ebc98962f3e2e0b4,60edd7e33bc8d78446c5f6b7911126ddd5d19ffe,1e76381e6670b4f4645a3dd5b26ba191aaa39120,a8e9c9a8d1083b1873f09fd5ce8dc28456386d69,b70b2d8395b885287960ef841517d7a3ed90ba05,9cf46edc9b1b890e2a6fd1aec8d818074585783b,b97cfdd1046097d181b8ac72fec1805e05913720,e76b9f6c49bcf8c12d8206212cae84cfb931a077,c1c404a8ddfe3e9629d5d9eabc5cd93ea827ca28,d894b490dda7c5fd4690cac884fd9e41a08b6668,d6cabe7b68b5be034ac4a404c44145f864df39d2,0dc3fd7e2f5527a7261a6328c40bc23d7275930d,4d8eb2410666cd7a4f6edc014c44b77119905a6f,63cb628f580bc398924dd38e618498db36c76c82,69b5f1ed4ccbe9211a8a65544435d605cbc56c63,b4fa7c0c31f024e0cbaf9c2ac078a703e3dd1010,a224c1314f9a2c6bd9a6bf238debc2ccead8ff9b,5bf1ad161b69c82df6edf8379d9f6c8815a62843,5cccb4ca277814b2f215a173bb5a029447f05d12,d61c08495fb68167c2b7a6d8fa1190dddb33c36a,ac792b91891e876fabc73e2352d2eb67311e4acd\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/GoogleCloudPlatform/functions-framework-nodejs"
+    }
+}

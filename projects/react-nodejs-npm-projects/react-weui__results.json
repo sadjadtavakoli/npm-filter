@@ -1,0 +1,55 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "pretest": {
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": true
+        },
+        "coverage": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "03f4f0fddaee4e83ce2907d6fbcf1a942497eb19,0905f0ded5807df47c448b2b620ad9b215e0872a,51f6f5f12c09e27ed9e043257fb1980d6e7a5312,1dbcd901d03273dacaf4630f7f1fff3e0f36cc9c,377e8283537ce7567282e84efe73d9a2e0d0e828,591de4468bdd18e24cff00eb856afe243702b5e5,b7a977d1077a0e64ab23d4cba7e8bfeea7aa2bd6,75c48fc27baf07e4c038eff261c968b074309175,f3b28d6a2f4cc712917d2979c9f1f69652fcdc7b,9257ed019c57f0957d6e222da054ede7459851b3,bde2ba7db221793e439289b3e2843954073195b7,4afc9794827f4efbd401c7a4fd6384267d07e7cd,b2f373120bb50ce87db90524d87a12763dc6447c,ecaaf519cf67d6b2db42e3500c12849cf6fda8c7,82c6aaed8fa938273a069dabbcb68d5b486c18d5,95747a5ef3981b2abfb1ef9dffe1b0f29dee7e33,fa0051b6856fb003390e32f910f3331fbd1c6d52,b909f663eccec803274d46a1d79d0ad543769fa3,f35107e46c73c70619c43d4702ef9c6c7dd1bd2d,97061ca2816145e97d055142db2f659512e417bd,0bcd315f102b3aa52115a689d09a33ebdcc208a8,0f4453c98be4d05d030167f7bb928b8e0282b409,1171193875440bd7930ae1a39181bc8a8f5757c2,0ec6227f83635b1bc1f161c0efaee6499dbbb4cf,b3a37ca44343eb93405062b0e062d71acbec2b31,2c3ccc1a164e25bb32d7aedd9565833df026bfbf,7b0939df0b69275b616d1214bb876a854e7a999d,7237dfb4e364b9a505a0b402f8846589c5ce559c,209313d872035372f9d8a1aabe35cbf9824d5615,49cb151f79769204ef9dfc36682f84ebd23439d1,a5ad1787e952fb8f5688c58c51aa510d1bcb0ad3,5fd65dfe2a53f3ddb5576edc94fc108fd72c4a48,2210ae01186d29423403886f6a2bd7b0eda6c1f1,ee04e7809b35da5a60f060cc5aef48c68f2535ff,6e6c9c807064af6aa6f2ca33dfd52a14489d74b5,e3f232bdac7eaf4727bd794730b6f0a68fb9497f,ce173fd394d5d9dc8da0d25606ffc9b5cb046acd,ea5ac5838e710f0535bc6e392dccd7662367b88d,7df2fa257294d2d7e3233e9a431892b408388fdd,f0a61363ea31515aaafd5023b37bfc20a3c3ac7c,a141124a058db12001940fea7fbc429e4eb56760,8c4f54d0ab7c065655c194d1891589054aa64a3c,527630fa7bb7ab59e0f86b5a2d0a0f8205769e16,59d126239ae05a49ea0d7695ad9fe1c1575678e7,37e2533a12a333a7fa3145f8e52c0b160f1406b6,065c51df6e29b8c66fdaae29f56a5b1ca189c819,e755f99567ce431d972bb0d2bf4f83e8ae03d854,3a4c8b00cce3235ef9b478c78a2908406c05f257,3a158e0909fee644fd58e10c83ec14926e7605a4,27f5b7bfabe400740b46a1db777b10eb13dc9bda,77c8855d17481d68b7b4583e1b31699290df3c51,437e5d963547d8a54c0be6b625baad0bd9cdb0f5,7b9cdeee482851549641321e0332dac5be96dfe9\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/weui/react-weui"
+    }
+}

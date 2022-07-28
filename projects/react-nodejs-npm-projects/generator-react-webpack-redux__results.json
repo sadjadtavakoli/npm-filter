@@ -1,0 +1,27 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "num_passing": 28,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "fff9d0cc266583c1d2a7140121260123557a8272,3f198332e1e007bb41f17fa467fc4c5ba00a73e2,8e5192ab6c7b0a7411b5bbca3f793cc9523b4084,f6bff8bd54b719f3f757ab6a5a84fd2dbcc8a798,a1838822a4868d0e842afa94698c640429d4d676,9952fe3ab05626ac9dfa9baca2d06bbfc824fa95,9dbc408473d75b013cbeaf8482952f885d19d070,dea620ccf923b2b12ae682fd21ade56b3e9c587f,9456a1ac87cb7389d5909d05e8b6ec437d712ec3,649c9c09c9a66e085b33346f5062976801543423,eeb304f365b9b092ac1066c16b886a20e9458ec1,35b2eadc8fee3cc8c65ebd46d234196950c95d42,be6248010031afbf2e83bfa98da19bc42a0c2bde,569125e03d7271fc768cdbb1aa53f1cb89b3d026,161e521ad451b3232dbc8b27a3ab00ffda2b3d61,076833aac8ed9ca2c8d67e99b3260dc24308eb48,598011ce2b7f33b10535c95e5afce5089526de52,052517149324580e08d1434e5ff528c0e6adbcad,1082bc7632496696e9413bfd8625cc8d9241eeda\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/stylesuxx/generator-react-webpack-redux"
+    }
+}

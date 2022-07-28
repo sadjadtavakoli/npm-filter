@@ -1,0 +1,70 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "num_passing": 19,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "lint:fix": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "posttest": {
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:coverage": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "nested_test_commands": [
+                "test"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "posttest:coverage": {
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "dtslint": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "759dff7335e1d3289e37497afbebd3060d15ee4c,3c97950683e07709581cc8999140b3ed23dffdf8,e845e0f9ae450375f2ddb8dc34656357c2339420,b60e3a11fc109aae57c978577993dc1985edcf18,1d9958568a6f72066a5de3eb23846cb88820df97,0e5d1ba2f3df715918702aafe003ad79083940cf,29cfb17391642c3f98b2619bbe96b8b4b4ed09ea,e0c942e2faef51995109c4c091c8d04e2122ee9a,9fed9d6c10e0fdb72981224eee620f5279332a21,dfe9cdb119c52186b406c7e4e59b9f12fd7d7a69,69af5bed4bfdbcdfa80aa0eb0b61d69aa797fe04,ec85fbd52edd33389df5a2b745ff2baebc0d559d,0afd3ea71cae27b34ca741a4cbf1af8da7c98324,da6affa7bd3760eb04fc7eed36c7c31c9b38afe7,6c334d2dd02293f4c2807cf00f103499baaafe30,4e1e6df5e5a26a26931a700fd4b5dd8a1b66cdf2,1d369e2c0640dd5f25320d91178d3ccdb6148208,5fbe822a6d06732a249cd7303ac9204783a8cefe,07307d9673134b12d8fe78abf62e8492c8a782be,06620f1a6f70f990b7b173ab5fd308e620d6f4c9,1b98bc57ba94defc69bade1b8841b5a22e4e898f,74041452d5f7901be3fe933b6860387bdb945c23,e8892471d48f462e4e5a4953406e49face500e0c,7402516561798882b6a4ff6178f7e18f66c357bc,c7791b2ae7734e7638cbc7eab574f5dc2b8d1500,0e092f6fb481093b57e68bc25b23ba18cc42dc55,15f995d04164342a8fd8ddf73597d6b4a93d4308,d28da8d42800a1bbcba1ffb3b2c33663861e95de,d8268516311ebc1e125c96f3426002066d1bd4ac,6a685834e4b13dfc22f8e7b090343386ee603954,fa6bbe76e286336dddaad2a8cfe624ba7eb33427,83b6b06403849d658a2592db1abd2d5ac3b24393,d83091dc8d2187af1f87282e6264bd0df626e985,292b502212a35b63827fbc63b946ab533c0663c1,78a48391c91cf88b33a0d86eae397f50d5cb094e,0f26f06cde2dcacac479289e55f3dd7e792eeb70,55b3a4c265b3128b86f2d8bfcab63a2361548a24,3f34885c1bf8a2eba1aa075055fadaeef7882b3d,8b0adefd01f6081a8621bff47d0d2fe784c7fea6,fa396c6b9f534e27ada96483ee9d915332facc13,13b6d86be87cab7cf390b931ca3d8f99b393ef3c,4dc944b83440b3c71f61c0a81c82c70291c88dec,97bf907590ece5c465330e68bc109f5b1a6c95ab,ce41ab1544b2f7908ac2e60d56ad044e5c9fa177,4896dc5e8929bd8386b36cdefa0418181ce2fb2d,2d830866d7fe0a2a3a87d2d7d389a240cd9ec9e0,564cd2d007bbb43f227db9b3a76b2a7e3f3fb539,f773aea3ae4cace2848205b9a8113da15396f04d,8b3dfdb5b7615aadc285a0538e5dbda5cff45806,ecb9d4b4a097147513d295538c057c2ebde5c838,79ee0906dc942fb6c655d9c532353102e910a408,8dd4968c92333ab1ca054da82ded67e0ecd4fe1f,b04fc40437737e77b571f35e096ec9772de2b0a5,0cc9543c4bbef174dd6bbf14a9c0db8ffcf7d9ee\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/baryon/tracer"
+    }
+}

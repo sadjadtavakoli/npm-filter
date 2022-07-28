@@ -1,0 +1,19 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [],
+        "ERROR": true
+    },
+    "testing": {},
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "a0df192c1d220ebb0fb6f7ac549501833bd233ea,26430de92e7048a5a9adb18d9d9709074c0f217b,a2862e16dbf7655745ff18670e3eac911a2e0bd7,779adb72cf75713ead18efb2a9eba4061b45d57d,d84cc75937cc59579e4e6ac720f4fe6594833b74,0bf5d3aa298f58414493494a78d4c282364cd98e,f079f2b604e754b515f4e14c3f41a8c498b4be8d,6ebc7708d7fc6614b065aca8dfbab80c42365824,3301f232b564667b69d83a057594b668a3ab84e6,adc8f4ada6ad646d06e12314ecf85bc8f27b7429,a65e7665811837bc3119d0db6d21ccd6fdd8b421,51286108f1d9d0337555526133dcd3efe88faadd,f5ed71eec7b165e62f9a99e2c31085180015e453,b7e6b68bc69ca1475cd98463c2b5ad338ccf9fd8,9bf2b1a5f2dad06db3a02daac256dfd772fcd44d,bff3ae0bd999981521a4cde3bdeddcad11754f8f,9c48f7b7405ee32033c84e1a7e7b630fa159aebe,730ecf422175710bee93887a4169e830c822591d,affad83f5bd5f0a94fd404cc36b8380b8f38a62d,cceb41617a96a2cceb7277b8cc222b60e602cb95,f3da6f83563f462ad6223f8fa1fad912b07a7977,a20aa688310c45a9b10f4397e3d650b40dffb521,0855c25c2ad7173b3e708d8087b7c6c8359ca61c,1625f3a0bb272cad3ee13440468175fb1adcf7f2,d0fb168c2ebc9ffd0e8ce7014ed20d18a345c10a,85b713d6e0f555feb0da566adb7a3950d67048b2,6560deda6e69b4fed2843d4f79746b0f75700a14\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/jsososo/QQMusicApi"
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "num_passing": 4,
+            "num_failing": 1,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "test-ci": {
+            "ERROR": true,
+            "num_passing": 17,
+            "num_failing": 14,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "d62e5af63d3fd2f6de29f11a67f08391d842ee85,e05b75ed7dadd6d55b7b2a9c1a2e65cffde5e50b,66af0fbc6dfc97b375dd1fc1d9f7c0072a3b40f6,541937f236da51e00df09cf267c2d22bf67a6c46,d34423d710c4c3cf5ab34a81e216de0497a8eb91,9b5f63d03bc2db06086a036c001859289d09f7ff,68ae895f6357dc48d3c2a0834f8760788601d60c,059b6c317b5ed99c4b04c1b7f3963dc6eb2755b3,5634f42a94ac664a9c793db7ff70c7fda7edb07e\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/i5ting/koa-generator"
+    }
+}

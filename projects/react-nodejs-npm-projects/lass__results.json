@@ -1,0 +1,75 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "coverage": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "nested_test_commands": [
+                "lint:js",
+                "lint:md"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:js": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:md": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "pretest": {
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "num_passing": 17,
+            "num_failing": 0,
+            "test_infras": [
+                "ava"
+            ],
+            "timed_out": false
+        },
+        "test-coverage": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "nested_test_commands": [
+                "test"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:update-snap": {
+            "nested_test_commands": [
+                "test"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "2dfc81945af101210de060e16916e10c82456f1c,896b3160abce0ed6e733461abe6702cd89a40894,f30038183db676b4c67afb2f0a4394651c469d09,5aa3f88793f7e23c6d62cd0de541167ae037eb27,875d438a3f48efa84f74a423aa57ed064335a4f9,06c1c65e37a7d1a81c1294f073edfbca6a8098a2,14eff2ee4482c2acec71bbabffc8cdced0462f41,7b02672f6971ba10a16125d83073823902debba0,817f0c81c2166cb4b9f3f99c88a44d6fc2712c6e,9964a16ebb76425a3301e350d41e7a257cf85341,4f10a734211a0acbae300488de7449899cc45544,a9a11ccd7726e4c9a4d7c247b02896173fb4d190,7af00d03ab023589b11170e83bd17cb955ec59f2,2c7877cfc594dcfd5145a64f49e86df33023cf17,08c3e45c5e7fee455c6501b30d508ad8127e4999,78a1614ef7b2dab615bd5f68c9fc365088568fe4,f15fd01e295fb8069ea23ebd0f2ca24d540019ae,e92f009ff8bdb8445ddd8a4fb1fcee59768a5b1d,c2d6a000a637a5a9a87786c8c8ba7d24b7ef048c,fc0ab77c743bc8325fe0b410c7ddf12b570cd14d,197649811a52bcad22bdaec13cafaf645aafd8f2,7d4dff5b8bec0159c8827460b1fab3ab72a0f7f0\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//lassjs/lass"
+    }
+}

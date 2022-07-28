@@ -1,0 +1,34 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "pretest": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "ava"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "c2f7fdd27a93b8ad74f86e7c1424383e3c50cf62,783f604808fdde207f7eecebf22594c4791ca687,0524024d5a9a98350c2a7517da7b702c45af08f0,92ddbf8da16ce3ca14e25ac024c1681efc6a1f0e,11d4eadfc3d9cf8f46d9b66a979eafed7e0c14d6,9ff87b1f17abbd54dc7d043cb0e4f728c1081a61,e0faa002425db817fffa9cb633765d39de5ca5e7,cff2032578e87dad104cae5875d936590cc93e88,0645e9f97df443e7da7b090d47fef3f1012f19e4,46718cc861561bf028181e89f913ce314a9060a6\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/ruyadorno/ipt"
+    }
+}

@@ -1,0 +1,92 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build:app",
+            "build:server"
+        ],
+        "ERROR": true
+    },
+    "testing": {
+        "lint": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: babel-node"
+            ],
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test:unit",
+                "test:e2e",
+                "test:json",
+                "test:over-http"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:unit": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:e2e": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test:e2e:modules",
+                "test:e2e:nlp-modules"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:e2e:modules": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 1,
+            "test_infras": [
+                "Custom Testing: babel-node"
+            ],
+            "timed_out": false
+        },
+        "test:e2e:nlp-modules": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:json": {
+            "num_passing": 466,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "test:over-http": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:module": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: babel-node"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "aa0136baeca7d0e2d4268231f4744f1954a35bda,1535fa67ac3655e7316c007d687b75037be7bf05,7039918760c0ef7ba93bf45820e3cae774c42d8c,79be099cc5ec3064ece8d32120ef68e3dc5b2ed7,f563d01d077499c836e94c86f85cedc2ad4d56e6,3ec38bfb6ba71dc91384f1b817606d77b7536de1,93a138f77c30ef6d62febb5fd7a310c9ec104bb6,b1c6f5c883103d57d4fe566af640fc3ac5ce713d,04d622884165e0bde65785569a659f59cf9e8582,86a4816b777fee8ec9c89648c5866a75de56c017,cdf4149939cbe3f3ae81039957dba3377a78f5a6,d10a7fa7880a0bf2fb1cae7904d1ef4257f05257,b6428d038452619f1682c863892cd8f376efca84,82fb967af8f49421e3b2474184da3d34fb17294f,2e5b2c59da0bafe3acd966773c6fac3611b3bd0c,cc0fb9235187800663ec5816e102cbe1576d86c9,5b41713a68ee628e695212dbebc88f6b9a94b461,7cf7f9791254e1950fe9128ce1b3a58079cc2ada,c86a0df3f46ef747e9d1ec7f7a6ac1b4e9c545bd,ddfebb0d7402ecbb3e00c04bb42082bd54541c15,e1d5bed3e688db566a0cb803dda5c2d57c599d8c,fcdc0820cf7c2a351d8300181567f1bf54ec3dd1,6501a2f6c4eb4fad148500a33d27154d3d1084a3,99dba8112252387bb4ce879640b79c6e6eebac47,ed7f0bf4556921987b646340afbfede7cc7afdfc,8a9f018b189f79a1d8880c58f60e46961abcc448,da592f4413594c8add2f6967f1b55ae8adf4a108,71f47ef898935e5b4de5cfdf54d9c2cb063074ab,17d547c6c61597aea926faa4766c645a0bc4a8e7,8c29dce0c6e5df784a506da03143369b5878c2eb,a42ecb428868df9a8b97dc83483c33786ea98d68,1977119ddb266fbec1ddc652fabe6bcc0db50aa1,a777ce36af3694a8f818f857e7f1eaa0585de715,6849e9fc2e6066fe92426aae42d0587f0c572075,00c475ea00a6e0c57d0b070d72cd79f55f66eb7d,4c126848ee5a1c01d8a3c6ba2313fb3158b4c58f,297fd75ced01de7583c01ef171a27c537f2c2a6e,f15f2db78e5781d05e5e2bcb186645966d17debf,2668c295880ee753ef7ca26a91dbc7e0901febff,f41ea0e9a1479bfd6a1cb2e8d1f70aec744c685b,9f338a16b33f73cbe9bd962c7ca6a6de9150c349,f5debe3bb505722b389353b0aded47231dda8bfe,cae620bfad9f0945e9f4851a13cdfd9fed10f7e3,0e093da5afbfaea5e0173114c724f8104e3be8da,328eeff144d89eec60909c8163b0f4db219c4537,b9f4079bda7e2907bc5fe01a646260ed8a57ad39,77669cf3aaf72c5a5d6d2796515f26ac4ab01dc7,654617ac974921c9d31e128961e5df3fe839a977,5a7d369122d4d069d67b949d9e814a7e85d72ca2,7499e06c685c134173a3f83b05851edf5777236b,b7713e2fc976d2ba073712377674f142e3a19083,53f7db55c6e916751f1d59c239628d5ea8914009,cdef5f8d1577ccf881bbe70e48c4f011edbf731f,7654407fba2dcad633aab84211c8a6f94d70c70d,815dbc9e2e2ae7f5f5a990197d453d91f9ee9d79,b38014decd148bbf3ba5aeeac557645d20464612,3fda3526c7425bdea4b669474fa77efd61c06a8e,27c323ab42822c16abfb1f4f2c62abeb9e46f1ae,5bc6c3f116d6b9ece2cc3bebdbdb08f019ee90b9,62a6536b1f0c9a5e81b6116c5f4dcda38a202aab,24cf3c9a4facd05a4c626ff9d2e7c83a5ae15298,4d929dc4faaad0ef918b9c4fb56653eb8861353f,b449376f61dc995e2e264c6a14ba123926f5cc58,f40b479b295247c5a8a0e6ed81afe56fadfd2730,c73dc8c7295b3564771e221f692c2b7a3b85300d,0987e7c28ecd165316e80829b02ece4e03ac18c6,80f9155840eaf5f24ac348cbf89e8e270776d56c,e0e6b7dee41fb2ec278df25885ebbefa40a0fa90,7d5a35c9fc2b6c43d4eaee9be9eaa9f25211e1d3,fb987b5e3027f60cf309229ab5e5a342f43d71bb,6585db718ccae1d750a35783075cf61cc8fe84f1,a438d6f942812f74e3dda75a9875609f8bea21cd,194abd64d7cd4e3fb0f279eef8423ff7a300a41b\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//leon-ai/leon"
+    }
+}

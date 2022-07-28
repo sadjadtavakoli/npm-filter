@@ -1,0 +1,28 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "num_passing": 105,
+            "num_failing": 21,
+            "test_infras": [
+                "ava"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "c73e6ac5d48ac0c414fa1dd1c7594489c1b805b3,0fe0aedfe47f7170936ec31c5736a3300baf2dd3,87adac157991ccb9eda42fe3bb8369291eac3578,692204561881cb28bf552c8533775c6f4e7a0894,9cb1e897038338caa195028a299a28f1cdf2bb6b,5c85a1d0b351d7dc0b77c47b7a61d979424e0b40,425f2c9b675a90f35141feefe21bba5d1dfe5656,a111eaafd8c85a51e952734429a41d5ba87dd7a6,3aa7eb1860e2ad9c19a07fc08cb4ad1d15644bed,c1aee52f071604167803b5467f0f5d28ce66fa08,e93480090556cb3a51c2a86320955131d696e7ec,ceff3c9044e6fda4c9203967f70b23a529ca8417,ceae962ad0149e1e0bbf45e0badaae5a5b676cb6,422d14f6671db8da71aea1d324e3ad78e7650645,fc45326080ee212a709be25122196da75c158f17,fb85c6b4bc3a8e1b240c1c41624c2100d4ee0f95,4c6d7623f72d4deadfc2bfb7e1c9d36afa26ce28,9d58a9eb6e14c6325cc248f53304358671f36f78,9630571e7fa4d00684aca614a3fe24315de3f50f,19df73ce5f95037658fd4b6c5c8a250bbc70dcf9,883f06c6d7bd8f6fb2d695f47800b45a34233151,1ae9f1d1f80391ddb80aec65254863f633979ac3,9361cce0a65026b0de6e642b29c7b51a9c2376d3,5c46fa2c6ba9cd212d2e40c6fe391aa657895c55,ef5fcd3bd8dd1265ed789e3b1836c122e8c0ac04,47d85da0e2c913dbe53c782132ae207f4253f861,36c368c338de24ca0f0ff8b669da2deff5bf4f5e,376c0c0c61c105057d16048b62194445a84b33d2\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/torreyleonard/algotrader"
+    }
+}

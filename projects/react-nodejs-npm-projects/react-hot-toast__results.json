@@ -1,0 +1,29 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "d1828441f70359009a80d18a846b0fc176f9409d,7587f5ed3062a0d6550e41396bd5f50c19449c60,cfbf32afcdf5fbb2425e1b2efc15d030ffa11ae1,cfcdc7d4170065d2c1e6ea66c62a0e0cdde8c9b1,e5d2180633394de1a1bfa0a82ea97ac525f2cad5,13fda55646d20dd53dde782c8719e0191d43b566,f5e99c5f3c12a18ffd7f31cb9dd7955b79654189,5c9162544762444fe3d25134556d165f90b8a46f,654b451e4c1779d0a4a6fb9768ad49adbf376158,9722b34acfb1dceb73702635723f4c354a9f7edf,7fde01b53a204b6aa608d22ae99815c727316517,5a720d4939288077b4fe4228db1a5d045b32cbc3\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/timolins/react-hot-toast"
+    }
+}

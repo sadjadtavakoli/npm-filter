@@ -1,0 +1,154 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build:tests",
+            "nobuild:coverage",
+            "nobuild:unit",
+            "nobuild:coverage-report",
+            "nobuild:coverage-html"
+        ],
+        "ERROR": true
+    },
+    "testing": {
+        "build:tests": {
+            "nested_test_commands": [
+                "clean:jstests"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "clean:jstests": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "coverage-report": {
+            "nested_test_commands": [
+                "nobuild:coverage-report"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "coverage-html": {
+            "nested_test_commands": [
+                "nobuild:coverage-html"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "coverage": {
+            "nested_test_commands": [
+                "nobuild:coverage"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "format:ci": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "gitdiff:ci": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "integration": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "nobuild:integration"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "tslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:tests": {
+            "test_linters": [
+                "tslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "mocha:ts": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "nobuild:coverage-report": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "nobuild:coverage-html": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "nobuild:coverage": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "nested_test_commands": [
+                "build:tests",
+                "clean:jstests"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "nobuild:integration": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "mocha:ts"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "nobuild:unit": {
+            "nested_test_commands": [
+                "mocha:ts"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "nested_test_commands": [
+                "format:ci",
+                "lint",
+                "nobuild:coverage"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "unit": {
+            "nested_test_commands": [
+                "nobuild:unit"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "45187a32d06349546ed91e4d813c7bc8eb385433,84bc2ea6bf62ddb26fa9cb023b765d414f98f982,b1ff3cee498f4b3576e8f74fdb2475f23ea3ba04,e5a77304fa5f39f521163f2f4a68377181bb0839,40e73b489859f47948cbeec477998aa8a308856b,c2175518842e580da60994858db02c98528679ef,5c6243f4e4480d3543cd02f3be480c338ef66589,65d7603cf77e5b01462154f6f302c85840eeec37,25b5806cf146ef5d5f5770c60f102a7b37bcf660,c9f399e509c5375580e9c196e3c2c5eeb59aa053,361ea7c098489545253ba1824202c41a27d22596,c8fdfae9558b208ef68da358e196f660bd89a46b,48bf08c0d3649fa36278637d4e16b8cf6231b767,7ef3fe49966fe54957533970f6356f29aafecf02,34b0b525fc78736c009465f1a8e602f565d5c3d3,6c08a0be40a4d382f64b7385531407372a7e3b91,bf45f3638bce45a2eb2d1dd7f9104745f609c88d,e19bc58b303fea38a8f7d58d9cea943495f540f1,4366b621d7db918b5fa8e59db285ddfefa4f432a,19a33f7da868a65434c9dc486478f732ff771faf,71ddd656a3bc6a0416d9f4e486143aefc4110d77,1feef9569c60f5c7eaf0072a8fd79a81e2cc44b7,c403757ce84e35cd1b63d87780cde1187ca8630a,2f1609b9189d877810a80d40a4c8e6653f440434,8d52ce1668bc1ee73d56cdfc4bbf2b5e23fa653c,f7e726a8ebecb3e0cafe573f2b95258c12d3e4b7,b28c96d228ccfa9aadca3b53fd96b4a6e8bac4bd,1c8fc6978015ae86f6950eccfdffb68f5d73d5a1,77dde89acc047607ed9a30506379bc80fdba3642,f72c915ff150188575c0766ee4ab6dbc622bfed0,1afac399b14a1d1e40974c5bee597c06687cfff6,1b39d9caf431b3534a1b58ca526eb006b9ad19a0,969b3a5e18b329effa91f186989a52be67f3df06,17f5f35569f0311789da6cd3ef95e9d3a2759ac2,e28e04427e0ba072cf4af5b08300eaa45aadcfcd,0cdd7b1e2c478f4403d3dcd0acaa821433a57b6b,512b03e28406a281b37fbe357c303ecfc16915c3,51d078cbcedd378e02870c65b51b9bcb4aee5924,de361673cf99738231a8422fd8bf3c0fc57c27ff,bc28949056f4cd4841c3391c06085695d2a12c8a,35adaa84717d42b7f69217e88b31d00bc703ddfc,912d6d41becf3b4b77b00038c481d71b34c64b2e,9955c3c082b1c34d068167cfbfe5479fdc62f60b,fdf0006fdeb54f6bcd6d4e244b4ba5eb354ace81,4cddc83016af9fbbaf677a72b09bfe97e7756e19,a652d0492dac9a8c05ae77da54471ff6eda13b8b,b4d54af0fe438031b348b52c18554c24f191e10d,d684a6b2ef96054ab6270107450a68d127c8e9c5,7c0e02ad488fa826cbfb69d0508aab0e427ce346,1119a449a5ed41b10751c27621b482b812558262,a58c5b4f5b38a91458e8b06e73b8bcc9b38eb5ee,2223e6170ee964f2637d3840e2beea25025fe707,ed1c1a5661efa2f274b4a57f6a0b5a8dd68c4e2d,55207e57427b30ae4380d30dd33e867ac6e1b773,85b1b92b6d3404d7477e9a485965fb9472c93e91,14d9636b6e6fe8131c3854c017ee14d2c3d73d8b,de90fea0ac0e21c9a00b8bbfff2c334cc3521649,7104bb412ed4b765af892f789012410a234cbd7a,0d9619aeeddaf35c599db4719c2c468bebedce34,6cacea6f31aa18cce61bed562d730c55ac3709d3,400be7114b7d2f88a1285799bee308f3182c6b49,1fba0c62a5b7d7eb8ca88d75a7d68c36da71d772,f9a739e1db2ba5ee4dde11f90a514aabcdaddf1b,91b8823aa89ee9afa9c3f4b0dfe60a7ec055f599,93b1ae430361185d66142fa21b93d740979ead4a,d934e543d8e16624fbe722af702064237c9a47ab,fba0699dd385a8405a8f0cf4f61dda9b31a5123a,6c4977983d7b453fb724c7b85b1843f395f6e4b9,884f3fd57d910637c7ae8ea8219d261571458cd9,90a73e195e5fb20af5aa3571b754c73601cd0675,c16847434ca7a1b15383c91c3600223c5192b20d,c58ada362eaf7946e33df1c7c15854bca7faa413,41885bfab271806450816da6af2699ba297f33d0,549b36bf1a85fbf9ca3f7aaa6812443c5d2967ae,00bbab1a9345e4cae9357b4ad1df5088b93bcfc9,39a681d2d3f11c5388fa85d4318ee792b28eaff8,098188dd3afc0be786b07d7780b287ca80544eba,b94da10e6c60c63aead34e227d3cf5983f72ca6a,bae91395efef148c6b13265e0c9d4b5252543529,8f01e4273c35f61148c9280fb49bba7cdb912c56,9503e64bdef78821132adbb6688339410b883bbe,e7c59c4b8b35448b32934f8b439336953a08a085,3ba17a147945d66d2801e287d6e2e1b252035a5a,5057d8d1ba324e1e8259a3e1c1ef8fbf3d1b62c7,b1272a12005a83520473236879f104eb4153413d,d1052e4996d946811510fac78eddfc400c3172ea,eae2c57e738e13ca0d7c258699b58a0a68586f94,793939dc8c610d03e0f6c9d1b54ddec33bf1ec78,c2dfc03869c422162f87ca2a88a4a1a0c9423f64,a213435135e19f54cb40f8a19d5d0c46507f88d6,a793166eb87651abc68af64aee9b4edba1fae771,9d9d101b5fa05e0932d331fbd02b85cc8df51721,33c72e49c401aad7def4a2677ccea0b2619a44db,a86e9056112be4157f6aa5257e233260a41af7a7,8552867695bac9e9903109938a8a9205822f37c7,2bb021ab64dbd6236e8b4331e653ec613fea9cf4,0696ca95b6cb796635ccfc63b3af057c0de0c7a6,3f731d090ad6d7893f818442b886460e0e769bae,5c2fdb60436714f18440dc709f0be065928c1e49,62389ed247f07f3c71b6d7d4d9185a0b08d466f4,e835f1fe95496e7759d211f9660988b43f3c08a6,b5e46c29316df2ea1135ec727c382ee29a52bc6c,69d8e9ed9e01b3375781c330eed5e8763d69a8a9,d9fa39a2ccf6291b4d72f5035266504bd63d2223,27b48e8aa26b9f446fd5e565e4fec68854850cdc,53f08a7569e9e735c161fdd3d5d3a107d23aa713,3de754a9a272a0852d773b7d5b2a4166381fd6cb,17377381c48a0c6f44bdd2fd7493fbbad334f113,29a865788d30b8b776cc1a1a2fd042d70085ec5f,7cdabef954936982287656341bd80eea4b9d74ad,87cb0184668678820662e9f6b79a1cf78420a523,fd40232147a85605963aca88b5d6f451b2d6325b,b91cfcf19647d6de068720741f53090e344cb6c7,c1570f8056079e112108b33d2ed81e0c763bb5e9,17c6ff62a099fb90c8e27ca44d6665e7b31c26ca,20a026aefe18acbe28dd3fb545eda4cb0ef2cd2f,ac8ae8f0ed68f99a957c2df6e7d2332f1f94e185,d58e09a3a7eabc0ab6f137d2b184f52de5d1aa34,9db67bb3b1160f5124da653e7599034e34643c52,aae5db6a59f51f3f017dda110e9cbfc4da65283b,bdb0dd4a17fdf47d1998da91b72e1553faa0bf41,9e32c892ef90abda3b1db3e0f459a7faf06bd4a0,6a74eb6993e618496080f76718a0393acbc72447,6c0745adce6d21bac0feea87eef46862ee32457e,059f48b0c426f9a0c901bc0b9c1fef09b29c2632,bac700f52c059b46079fbda4f5d63d60626a53ad,86b51b2d62ef13ff68641750e55aa66a890b55a7,eae8bcf676f13d26366d3eb0cabb44ac64965fc5,5c1c4589c04a7125932b74ce9c066422c358b54f,731a31ecbab7effc891698ee8d87784ceab9ecd3,888393fa8f31ccc9d85f14d989a1f987180ffc75,ccfaaf0b6fe77b710b8ec39ffbca2bbc4576a73a,efacd387beedf1e415f51b7319435466bf4304c7,8934de591c9da6ebd6a1023ef10344b1973b6ca3,6ec687deba13f598a9befb2322f1080987f09b8f,18e9cdcc02f7d8a478def4d63b51bf95ff395a79,8f9d59fb183d7e27adf239ec7afa0e435715ba2f,706f5d7a9cdd244adf4b2c85a0b2ccca11115b8f,e2abe2b3af5a0ae58ea133c921bcd8b843f7f2ef,e05f8a542d380f2e2552c5d6b646959a805dcddb,fd7f0b0ef8bc670dc9be180a4bc82a576bbc779b,d85df4a6d61e6c4ff33c9bcc8fa7956839c5baf0,254b670427411375284cc580fb98efa66d56c7bb,5ae66d46e4be478d2630763eaacbb6329146a190,f47decaa2f60fd174a031a9babbec1d4b96c05e8,6443e4c2b6122340dc995779294a92ba9322cbe1,bdf92f73b47197548d193e78525f3ec19a312bbd,1a4000cc98a23cf77705333a98bc99a89948276d,13f414c122baab27c14653440c6352b66f07f018,588b346f5dff2f3cd7a3a4a28daee51f2003faa8,e8fd3887da1b510baf486cca88f7a8a289694d9f,92f9342c69c042bf18ca31b9ed205f4a5de30c26,4c030be343b2176d2765ba7a3e2b8966e7964f22,4c8b0f38eae6f4bb9f63fb9e77ee54964a41d5a3,7559ee880d6945eb7b3b554543e0ae66314b315d,bd464d7cb51e21a555b83a177d2a3bc79eccde86,7d2e1cd3badd2640a70f63acedb3b9d4d0394107,d00ec9af291c0bc659c23ef246692b4bc4c07d70,af3491822e3cf225f27aadef86133641d304289b,8d3686d0467fb1d032803b87bbafba28bc5b18f8,08cc8f86219bab984689b9114166d552da7e038d,bdb372da7df6847dd932fef3152758469d274070,399803affad73b88127cb7c84375332c26d5e932,c9826221fbb51ce29a6d600c32b5cbe02fe34e99,3a371fccecf60d5ff180b15ab8efbc839ce46e12,4c9fd6010eeb5bf364bb101466c8781e7d312bd8,b048627a59a7bfd4637956fc33ccef43ebf8b719,c35d4b46c5d698bded428992139a7016353c0612,c9db90dc4d925110b9821daa6aab77a3721539fd,a529b3fa0bd315f4b0254c5afa2a82c56e6d3a4f,e9778ae358b5d6da69e5ceade8e8227dddf6d8be,e42c497a3c9afe67c86ba0a602b5a0e9bd66e604,b6017b0faee731c59909968093b7d58ddbff5cf4,311df7e4067814930f75bcf52d66961da0b69ae3,4fe0b34f27f5cc4f52d71ce76bdb182999092a59,e4eb743cf95d23715d3044c229f9e13c16a7968f,c0c47f076a72d93d91680dbf0d8b3dc906899bd9,ea66edeb5cbeec285c3bf9e3a022f6f49c8f96d5,27a3230662e8b8daec710f5d366ea12c51360370,10630873ebaa42381c5871e20336fbfb46564ac8,deaf06b3505c0f513ddb5612de72dfa956a287e3,c96b8625302e0e35bf9f155436fb233a89af6396,f028dfffa93164851340f4d4c99c056d7a33ff2a,1d0fd3e9a473108ce55fd9eb5a9726593d04caa2,e1479b6fa54a9c33c9c7cbd0f7378603d1643461,b727a65ea0dde78b8806d8e1162e13b1fc03e6e5,f9fed3c8155ef622bc29a3382881444b75cc3fef,36b225a3df9a0f58774bbf2090828ded9dd1be72,bcbcd58964a8124bae20f504ab1975bf6d490e52,be3ce88a3ae8cff791107a09286a8bf407cfdbbd,13c2d377e7cb0269d682d9a035735fbf71fda38c,9d2784a441a9bbc91ec29624e8a061de2a614c20,ea9c8251a087ba2d09a9435cbd227f7a467674bd,759bba5c2125a13686b9d4b026276df5a25656b6,776656df8be551f8454c64d137d1ca36e287363b,13d41f67e9c55e1b32eb299442fbecafa7e62c20,63ce1fdfb26f005ce5aed9a0aa47080299b3cf09,53595784e129632dbf4d9e680691837edef09490,8eaf44881a45a09441082d8d9a43247ead60c9db,f42993297cf5bf6e6923ea19b0188f45bb6d5b35,eb3d9a25f7b7dfddd0268f5dda983e572836a140,8b5647b0b96777c610f976380919e5f25b9b0179,4f8040f8d41fc0512ac7959111cbdd049673a233,b68b1d5da4724bb0525e6138f2ed93e0ae0f011e,7e5af52cd1c3fa121e07f7dad94e87c6d834484a,41c3b68293f3b3ba44860bee66aba6a39f63f8f9,be29f504579df126c8c9a0f5bc3f34f258de4e0c,00cec9ce649ba5939fe3ee47c2f8ef44bf227e14,4ce9015f3b6df36ae0d694b67ee7deef7eeafa21,eb3a6bcb31f7b15e9b9cce345afe607f4ff2427a,8433d73d063dbca9a532bcef3a9857b144419a15,28dc39037777555a5f5a944cca983ccee6899742,d39662e375ed7f21585c9e1020297101c848f58b,64e307b13fe88e7adfa04f2b194f0e13df1f74b4,e8e862f6325c15c1a1c67f6dc19e873145fc0a67,759aeb9abcc57de0b9267b7179d7e88387d75088,c0006c299ff1ba676cf8193363972962521f8894,2b2081bed906be7c6fbf61ef17b9c5bc89b89e16,b9bdf21cbe67074c119b4cbdffd11b38532d665b,80da2ed2d5e91864e7e9295b9e736a6f1588f761,4952c5f4e7026661e8be3a6bb96759fc4aaf72fb,d18f2dba009d7e2a4ad9ea0f8d1bee00554ef0c5,7494a146a68403a00984a1e80bd8f7b88c585bcd,6cfa729dae4699fb68bac754e749fdd54646324d,2fc69b08346fc17bee91bdb82fd5a13a7a7274bc,8514bbfabd48e9fd9900ca765a27132d87e0b362,08951be66fa1ceafd99864d5b36d2b31ea5c2f39,58fd12e66d004e418a1e6b6383640a6cb4328967,ae60e6eb953674526a989a99c84a93a024d192c8,b7d65fb75777a8b5a02d0223d1b0cf234d927256,dbb56813660990a123765265f24050c4e0518d6a,56e37e744bd260fd8cae395be484b46b1d34fbc8,3b8d53b7d105af286b8adfd2d2661bc48cedf7b6,6fe8d6fa939ae6d686262d8932a710f0c000ead6,b3e3f806cb9371f2ffd6663f2910215024d13b10,c8732e5d380730ccfe970c0f45e142d0851ed778,7919c8cfc5cc896909f330fd5a1c59951c8b6eba,1f33b7a291102f6ca1a807b616c44e67338fd421,7b19ba58117e0fb7b8984be62dbbb83a937c4dad,30e8b572d6e841987612241138644f4b7521edd4,4abcdbd7af24f7115194002ee639ca6dcab3da13,1780f4a98fde735141f5e8012e6e220252fe4c91,397de49089a479a49b0a692352e3dcdddd63e496,a2ccfc66a031beb50f2e67bcdf3bf7a39d7c5b02,93e50e94337dfec662661d5c1a73ac24844432d3,5e2a9f0c261486025116389abcc51dca4c5369e6,aa22b9d89e6fcac02459e5af24246ddd7ed2b6fd,a34bc9e2eadeb9aaf7feb67c07a5e77aa3549b0d,274112005f23b7f857400daaacebbc86aa33891b,f53a4e3ffa10d2496532fcfefd83e736353afc72,917822541cada65763509a68c70180290f23421e,7bfd72c8c4222dd10167e1a0ecf376e5e66f6877,c20dee59086789dfad6703624fd9f904eead3b7d,4d9130c937b6c1aeab28110436f2aabd4eb1288b,3d3421ce171059a430a70475e8f3a22a7ab3b7b3,65296f31f5bbb08237646a8ad7a6c2d94f095ed0,b8023389fdf166ff0882866de9a8fa178796eaf8,7684c3f7053955ee6c1b5046a5e4e65dfd6e7943,117ecd1e292520da6e9d511f4eff943280e56c37,8fb725f796feba9b8fb0226974aa4e9bce4541f5,b41a4ecb914af402e59d31c84d4286d92906ed53,2bfa783be28e6b4d98bd08205b07c63b082e01dd,50f6333b0e8a96f0304e940ef0d99549bb961d68,038f8d5d99664843ebbb53f2bb09be5feb055fac,a753f069a5c9833735db68870937e40c99d9655e,eb62360a499b6e4ade8baecf2969d196f5bb31cf,38ea108183c8add4e538d18d43affa1f6e5eac01,44d740f84e6e5e7a188ba7093a4ed491b8e4bd30,cb70b4425bd47b6269503a3748778069e7d7e9ef,95b736b2a0043af6f12159873a13aa022983868e,65abb85668e8c0080e968ef66f6a9817e4653c1c,e43d23235b37f177ffe18c4138afcea43da97100,9922864da48479cfbe533d1c90fbbb72ba083874,e1a26ecdc70b718c7af504ddad87ba5e898423a2,0faac29134d310b6a7b0abafd92d5cdfba34adec,a6f05fb50513e671062c4aafd734f7657a64f156,bbd86803e664d178470969014bc9269f76477592,8719d925d6ec9b459d226e8c74aff861960c74e0,fa97237a9663c61b7f8cec82bf1b7aed2ee0cfdb,77debc1d4f3ea5db19228dfea14630ed6ca803cb,1df76fd793324f320a110418fe9bb5224f072533\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//bitcoinjs/bitcoinjs-lib"
+    }
+}

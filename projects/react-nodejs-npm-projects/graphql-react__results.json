@@ -1,0 +1,39 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "eslint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "tests": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "eslint",
+                "tests"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "80cfe716d0216db9e14e36094bd7eed9b4fe4491,10044612c54f698bd0a8201432e2bfbe0d90e7e9,b13e908c72e71483a3a808e518ecddc4be1a8226,df38719a37ef66f231f52afd08432fe2f9477a32,b8ad90262ac109cbd03802d5df278721355eb3cc,8a12a54ab0781e0eb184eb20d0de3135370dd7e6,ad5fa2f936edd26bdf1a900f67b1856e1c648328,2315e73e193f80cc7207ebf95c6a55107d4a2bf3,38b3cc77b71b6d29faec7985af7898bbccaef8a4,a4d8a4bc4b05751a16dbecbc9958da3bd58312f6,8e0e2fdd8ef133e7746a32567663c2a833379f57,f09ecb8ea9815859aeb1c689e5ddaa3cd196035d,070c4cfc47dc08ee655176541f8f2ebbafb8283d,67c596a59f33098209cf969cb62b8f8d5b749909,7185b9d0cdc4a528acac1ab828902580196df8d8,d324b48a74fb00be1b196516d1e69ebb59757b87,c33ce939ace6a8f297a97c7a5f852d557dabbec0,39c6fd5201f07951d875cc478208752a8a337167,6e848f8bf95918147ac75127a8c2e0b4511814cf,0ff5504ae09db41a80c253d3e9016e00a9a44039,ea532d8a7d77eb5cb5c717b4671d00d14fef2f69,6ccc91f03bc9ec4b503de84a90f2240909774c86,da62633ee3b6d198017aa44ce96a66cfe9c7e7cb,d0f95774944807b5330f60ab0caa1fafa212e403,47b079ec159ba3521c55172a71b48fda60f17722,55daccda694302c3e0031454217e86aaf30e3aea,3c66f69d724fac2b4671724f3c311028e710269e,2a5863b01106684b0533883ecd6999c8d5c9e36b,68251c639a6a9354d2589e5983269252b493840e,693a31b3dd4f282f0a94e2120b8c36b5e2cc2ac5,8548ca373ee7142cbdcccac3ee9f626a4e74c3e4,5b0b04b875d5d5acaffde59f6119332973d658ce,a4f7b21a2651bde174fffd31aea0cc4e697341f0,3908a9be4e01ec6202c6d793800f4a1277bb5516,52a7ad60b17eb25a4c04f1a675763870973a58d8,5d7dababe5116db8ea7d5c3cdf10dfa9e7d81800,6d80c383ed8e416ba5306b71232d0d897d616faa,92143f18b4bdeaac1ffbb3a045648a8eb4c6dd67,a6830e1ef977988544b312c995f621a67186dc76,8c5239a75e02aa8e112eda6a5a4f3f4ce56f3d5a,c8f56b278cd7c3197d6752f632ae85cc278e22ec,b4facd2cbf84c69f1b52ef504038d33b82985bf5,342ed3aa95fb694ab5fe00187dff7b329b74d59c\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//jaydenseric/graphql-react"
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "prebuild",
+            "build"
+        ],
+        "ERROR": true
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "num_passing": 32,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "4c65ec991fb54bbcf8bd3427ca4a71354c2ef88c,deef59fd9850e3f3052b27a0100dbec3da51c139,fade407db0038502aaf1e9c0fbb4d44f6d371cea,c6d5474ddda7288d60d22a9ff34706461640797c,e5ac0b6a2ffe7f85713fe9c88a48061f3268819f,03c3cba9ad03e5f7ce2c9ab3fd6e576e3e10b9b9,63a20897afd40e9bbcaa4d8ee044e6e084aae0bd,3767c4135ec24f79234c6e83ca0957ec43abd734,9f7463ba8de2b00866350e84dbcb8bd2fb156fe6,2a3e47d1328645688d7000172b600e261d126b37,45afc4e2b50e5be8d8addc42f636e264cd133735,522d1c6fb82e085c07ffc026729dd7b92e98fea0,b3e084b0c5d11f057f8ad3ea7f3de6fb8ec6421f,ae10710a86f0fc57ba6d84697f45b61a8135281e,7f067159bf0552e86f1f90725924da5d5eb3b5d1,908e248b2cc2720096bc46c5bc52075d0d2838d2,3a5894fb006128628708a3d017ea61e366158320,fbd0ad82cf021cad2d4069bc6ed9a335d7709efa,ef46fc6d306bf546f9e08c91e2e6276a3140b7a1,a061348d5d28a2af7c2de994f7b29905e2e16886,e2251159e828d1b10990d3c10daa714968e371a9,b73298788839e210485d4e6f32e44bcd4110f109,cb321b24e3f8641d334aecbd4b803438ebb87418,1808faec5652b67b6555f166c1493481ebfdf461,89f6fd3a8c761c54e16fc46fc998bf2a506387a0\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//hmontazeri/is-vegan"
+    }
+}

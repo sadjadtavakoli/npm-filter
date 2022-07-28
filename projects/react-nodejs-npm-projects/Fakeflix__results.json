@@ -1,0 +1,29 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "7869c6f77ff72320a6f05ba692c3fc8b5467de39,bba949d173bf2d100fbf097a923df3054bddbbae,2508cb8f19d369ee9aaf4837074287b8cd1a4e11,c820e4832ee27b4fbe9b26e136304eb2f4510253,49dcc6721905f9dc4f6f1593f6bf5637c67a0705,cb07330bd4cd14dd6ba0a4be4c14ab6fc620918d,7a38c525b98f5b5a1b9843b9ab2e302ece45a523,86ea0ecc5d41268bdaae38f477e5263b2b6b0ee4,ba79ed3615eed7d6a8e3a0febc2f3697cefcda64,bb5f219d73557e3939c445d79691fc2c6bbf0c15,020eaf6dcdaed549b62227c9f712e8430ac48a29,c1f05ac0405f124be5c5abe1e9486fcc64bb48c3,a65c8f0f69360a97c7dceec4defff2a8dd321581,886f89b9618a1980378d5471f0e45870140f693d,a91ac1a82410ec965523fef9ef36a5f450c4fc0b,51b6d4797dd0585685073b27a911aa2232a8d674,e0bf651bd69d7009c13cda5542b5326db26e8be2,32c52e918d4e1c9b8611576f3690309cf65f26fe,688b6c5721af0b2d631c963858628243155abde8,be57f656f64cc0cb9073805adc8dc05648ae2565\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/Th3Wall/Fakeflix"
+    }
+}

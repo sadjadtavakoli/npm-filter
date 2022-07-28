@@ -1,0 +1,66 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "num_passing": 13,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "coverage": {
+            "ERROR": true,
+            "num_passing": 13,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "coverage:coveralls": {
+            "ERROR": true,
+            "num_passing": 13,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "lint": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:fix": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "docker:test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "40b62945c468772485cfa6061473b9ac242117e7,97b921d1da1643fd0f4fe4181d737aa798a592e2,9ba9f1b5b5c4766f7b99a2a50667f68d632d29bd,11b616f2999c2cb21f2cf49a1b0a5ea9d5b7e353,9dae3f27df371103b6a9f96924980d2d8d7ba14e,acf6fdfd105bba476efb171f8cd92d752ecad691,e72ce4e926ec4210e2c0fd408c42c40a913d3bac,750feb5b1ddadb4da6742b445cdb1112a615ace4,c6c42061617ca9f15e3e7d65f93b4f93cb6d5cc1,d5279304e3267189b96325a8d435fb404ba35620,ffb47aedde639009cc64169df48919411d375b86,a8e50c43ddc89a17bf3b1a9b64cf473f3f583eed,3b43f7f65cf8f29720ac5915855d7ab66856ee25,a86073f5eb515247c044619f625021ac9f070f05,c7879be92f414cfdbaf256654419e91c2ba313fa,45ad16f6a8292641ce33896c588062ffaef374b7,e559c130bbdb41b58c13c1628fe4ae8868e711a5,28e90a6e56a8d7bf5ea7bba370216c31912dadca,69f0a21602ebce236d8fba3ea52ac88368250c70,47dfede236fe642ae882297073cc454f93165633,0f0b56bb8f7c44fcd49ba3e3d653ab4732312528,7fe5122106f0af82dd0f4c1ba6f0ebb0b3eac4b4,e75f54aaf42c7245ad76d2de83637248d916faf5,aab7d9e60d6972ac20e214bbc47fcbd0739697b4,006d34dbaa41ca511f3630847376eb20c00d6753,9ba47b33a0aafc9aa9f88fbede406b0b539400d6,b934dcb95c184e7e44a2001d786a29bc5e405e1b,5a967bf54381e279ee3454a6aa8d60e0689c882a,e1a1041d4597a185144eedbc29249ada7a2a9192,b43913f4b06f878b0c80a0f81b3d968a10a05618,be75f0926500ab4bc81a4f6bf8bff744e07b85e4,c835a9791ca9b016256a0a237ecda9c71ac417ed,7fb4b28eb2312500766146459c7a3113c9c3b66e,ea9a56d5819c134fc327086e1bb59e3907bf2e3f,687392eb4297d940a1c4aa7a4fc1712ffa5c4ae1,b87730d4487bee8f95006b67a117b4c2db48d95f\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//hagopj13/node-express-boilerplate"
+    }
+}

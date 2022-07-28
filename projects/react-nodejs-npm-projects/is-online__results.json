@@ -1,0 +1,27 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "num_passing": 5,
+            "num_failing": 0,
+            "test_infras": [
+                "ava"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "88e5b29ca56e50fb8e7d2157ad7c8ffe19fc7070,c221f36a8a77c2c28d32c93a5e7b72b1093967ef,fe5cedb4b9fe8a0d44246d902db897ea71ab333c,e0b2e128254fb43a5d732faee7cd41ac9a17d094,302d8e581046aa5513ecf8c067662474b793516f\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/sindresorhus/is-online"
+    }
+}

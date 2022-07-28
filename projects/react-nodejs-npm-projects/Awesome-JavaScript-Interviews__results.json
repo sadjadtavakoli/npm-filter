@@ -1,0 +1,24 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "612184838c270f74375fb6b7ca221c9470ed5589,070f5740700e2b4d3dc6eb7f2eb65b02b4518dca,b141eeb47d78fe00d4510bb0cf757a62cc9672fe,cf02e17725911974ade96843a8de454c14956cfd,99ceeaf30e46a8fc0b13f67ae6b9d0641f070f8c,242bf6ef2129889932ae9aba06a77fd2b0d4032a,8f4cdb9518129895a353b672c7d3f12022467491,3fd2af3a04c76391c1cd3e3cf9e10beca20bd7b0,5136845f9a84b70cfce1dbb67e55b14c0f3bc133,71cdfcae498ad8ede902d7a879c985906fff7e8b,8a785e5069fd02222e2eebff0b04265c3dd9b99b,2d1ff9f9f1df64847dc498b221fb2489d0461cd6,ca7155f12ec1389250f735fd5661600720b9a67f,f2ec4e1d5d8bf987c0b319f2217864d43a18bd1e,0007b2ac995c426bab3cf5eb3968e81754871c26,4ac5a50a242f8a5391ab577e4340114f32251fec,ced22689702e69970233364d415831c8da5f3d79,fa497279207821b23ef74cd3ce2caf03830a6e8d,4fa997e865d96e01cb929e6e26a6a62fcfd71bef,46d0a5ce1c0444cf61cbe486388d9ea9b1b31499,f0d12f805599e433231bcee34a5b1ab4149ab356,9aa95a783a2b3208a4bd33ba1528d2f108dd84a9\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//rohan-paul/Awesome-JavaScript-Interviews"
+    }
+}

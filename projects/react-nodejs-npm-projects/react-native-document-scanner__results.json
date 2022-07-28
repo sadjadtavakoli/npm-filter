@@ -1,0 +1,49 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "ci:test": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "lint": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "ci:publish": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "5e6ea1c7c5d8444cb177def28cceb19fac02d607,f0ff6c88fe7de29d47386c43449bd64c33fe0f47,82b1c9660f7e3084c003e8596f338af285e016eb,08ac3f15d49e83902a9025a5644a73996a0e8b02,44fd1c5ae2203b2ebbb527796ec805a5fff755c2,d337f077916f3f8c9541731111c965669e4640f0,6a3e4c126129fe412517fde4f07e5022052767a3,fa22f0b93343c02b471f24614fa3de73cca0cc01,7d5592386cad9c6a37ec34c13f65a35698d5d8f9,871b40198322a82bf4933675649f2696a7b0df0e\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//Woonivers/react-native-document-scanner"
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [],
+        "ERROR": true
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:check": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:fix": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "e47ee096359ef68010fd1b8c14be463ef2256237,defc9e4cd29589125c559ba7a471ed87679e7908,9a4acb3186d8af65aec60f3c6890844ea2f83ef6,5dbb3afb9f4c3e5ee73c4c73759c462be463c878,1eca6a48593a8fe968722e71fe48bac21c66e63a,832ba655fb78f54f26a117c34cc62d94bc30fa88,bd547ca6e4f267dc5db7ebdc7f3ade255e34c3a6,8da3f293a25c44cd8d37c5aa15d500e84fddc7c9,a0a943caf0d87d0183298f2b8cc72f1282ade361,eead3fa0b315c8e91568cb5e3b5df07a6e5445b3,e7c94e19b1aad100955ace4acf38ca26d0b3d250,f9381a503c0af5df6d457180082c07c0040c601a,205eed0cc457f578bd6b2b7ec2003c7a155d0cca,57e18b7fff9325a1a5407e35bc517585d06ba9f8,54b17037768b613b41118142be42a1d138f45a6d,4bd870649d2c1f109e09981f334cc1ca03a9933e,e17569fb7bd9ac8bd43123b6a864f54efc91c8b7,cb612a1274187b42ce91e10aa952c12043d9fe60,3650bb36daf9224d258e1a11ee5cb3d243ccecd2,5908c3d6f54f6c58aa44c284ac45cbeee7efc227,877ac53b8fa9b14fa200f6749db4c46b5a8db2d8,132a57b1f0d5bc12930503abb44af28372dd753d,c7098aa572a444eefdac3e621805048b342e6813,8e4e3ba251dcef4c7f842f245a048d7311de3709,bf81001a4d5373bdc9b7cc33bf65bd1a73673656,4aa378d2ab9f6e5fedec10488919e4ddbcbd92c3,0c7a932ec1b0139f64344f2aa52654da4b8554bb,253624032d938079c492f8e3db8a699d24bd41c3,9c8ef73714cb48285aaaa68b5e1e7938b5570922\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/ethereum-boilerplate/ethereum-boilerplate"
+    }
+}

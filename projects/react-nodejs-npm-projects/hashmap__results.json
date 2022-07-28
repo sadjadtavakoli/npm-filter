@@ -1,0 +1,31 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "num_passing": 55,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "lint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "c361916e4c7f4f116aa6bd7cec2f79468a302cb6,70248f506cd4a3b19fb5d56a804b67f6a6821491,4119d6a2fccb8a637209d422460a1de16a2fada4,8ed64f259695eacfa72f9455134538d67059b127,ae9c4c3222a467bd7f832626bd9bcc08bc486519,8768d6b4e1b753a3038bdc1c728dbb0e8fc49534,7cee5884c7dd3053185162d7608b96ac39990a72,267ae94a6616cfd81bd779d2a56689a439e730bf,6c21b770c2d80c6f3a9d588887d92df791ac5248,9f8503b5711ac793ab237bc009f7eba87582097a\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//flesler/hashmap"
+    }
+}

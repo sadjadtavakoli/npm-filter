@@ -1,0 +1,54 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "prebuild",
+            "build",
+            "examples:build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "num_passing": 10,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "test:all": {
+            "nested_test_commands": [
+                "test",
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "coverage": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "postcoverage": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "8680383d1f4a2e4a1b656ffb944b9d0777de245d,e62613fb6ae4d4dded689afbecfce34dcecd79e1,fc3ed6d09a07fed55bcf92375a9065efa7b3d9b4,c95eccddd1a89d0336fae40e70c531d85719b9fb,13cc7b71222367b3819cd06c9fa0b8050eafd15b,127b8ca231c7190570a8945bd26b24c77646f6a9,1b6f7a652677e7b45d2d21b4280184f83991a600,e02fb9463ef63f03ccec72d626e59ea72f90b31e,6608247ed10a6edb641f9bfb9a7c60c2e76fcb91,7afbe04c3f73e1005dad71e6a5e9c085c71afa60,bb90895a2e7bf07b0dc0e1328af9a98a7821b51b,109cbe39178247ed1bcc5b1cb9a4cb3e4a0eac2e,8bc2112d9a47307990a724e918439e1360e38816,c7541c781c23965a8d2aa7509152d05a6b6f98d3,0251378ca60f2688f65f193fe984f411fad03424,5ed6cc2dac6b49ada5aed90ecc7eae4b2e726a5a,10dd41d6feb76ea753083ab79bf89695abecddd6,675b89a74aa028be63d12572f3fab61fbdcf1b39,8548b87dc26125aee6a2b8838c6e33b705de9358,de1cd09117d796a4d0aabc96d0caf96a9b8f12c8,02ecf6e91e7e45eae0a464a6450a2efe4fda4815,88d49f8da8b43e3142d9d09ec4cdbbe88c45b188,b7e82bee3888327792fd8db59fb75be650111834,02e5cbd3efc92c9eef9f3b6013ca9e19686ecab1,db04c34c679d16235ffd9bb18781b585ac8aa8c9\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/diegohaz/constate"
+    }
+}

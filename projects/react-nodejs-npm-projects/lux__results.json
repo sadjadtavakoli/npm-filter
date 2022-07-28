@@ -1,0 +1,41 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "codecov": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "7bf2478bd0305d65549f9b9fe98997f51dc07ae0,d4be53120f3a28de3437ad1b8a606a9356c780b7,1e703f1a1ef2c07c88b6f4f5418eda943ff2a5fc,bcf2c2fbfffe3d666043756f062a124e13315194,f41fc048b992d60f5db1a97c361bf93cb09dc67f,682d6fef56fa46f562d8325058d5d45fa4426d50,f828e8effaca944a6a75f7f8e1dda7d87956ef8f,4fad8cbdf5969454ea91e26d8650d72c108c9609,16d224b4e78efcb32a07a7fef977b79789b7e6d6,6f4e17078cf9864ae02d0c7fd974f6795e396220,2deea84ab9ba27d1902055fd456cba83ffc1e5eb,71dc913fb8d12deaa48104127e671b526cea3b88,6656b9aca5018bb1d066c6e03b03237ceab7a9f3,9e2f84bd2d0675023b694a154b01f0b28604206e,29dab32f86f1fb1456819ce4f5b02f8b202f62d8,4d35d593bf1670b6e127d6f768e86d3a379e6d76,1adeb907df9b436c2ee46a1db5886498092820a0,48d1cf8cd9074a7d394fbf70ec551b166f195ab3,0e66aa54052c97acad1ec7079fcc8e411a7d036e,bace2de2bd35a36dc57b7985062c34704644668c,20f18a345966bfb96d9b517a0862e172f5eb5841,55cc30ae2b9a6c2c7ed5d3b3a82f402a36e9a444,d01c27eae51554aa4ed7fcd870926840a781049d,386cd24270606e3ecf4f2fd0fcc3de921f666957,d11aafc5f855ed60ccd2389b93447cea2a3cc518,164daec01a61be1634f0bb0aad97aec446e82120,4d89474fce0cb4c3f2e0d2d807e9cd4839e8a01f,4777e1a22e96ea456f962dffc4fa890851865fcb,e4de52d116533a12b004652f246ea1da7d7b68c3,a8a5406995c3d1305057a3d0ebc965c103d8cdf8,fc325ea65bbb4422286519cbc1c6e6ba44ebf4fc,fb5a71a897357da5e5f52d8705231e963c024d3c,67b9940e5ca0fee434c23753345b022fe993a916,b25237a647cc9aa3fe4e9308a2a7c9e2c70e8c24,8e6a23dad39a16365173025789c1903f6539b00f,64250ebe5bc366953c6c9a8a6071514ab1494f5a,9a2ecc967fceeed4ab6dd52ce4258aaf7c0bfdc7,2d0f2ef941c959698bbf4eb5e7d9ad3432a468e5,93e3c0a14ba7515066e0aac42242dc5ee20f8f6d,97bed29798631af3acd29e54aa86356d3cf59bff,53e257ae66370087e65d99e2da8aece100043d02,2512e857b2c50e2c78a3ca3ae4ef1d60520cd215,4341f5cebd6512813ab1ff0fe8f70678051b95e2,5425c512e8939f27c3a628c1e8da1cf23845079d,7d0463a3f032cd4f853afcf014e48b83343fc808,82eab320d2b4bbd1d8c02d80e8c9d83d42d76b78,0ff28fca61d9b47dc7074ec1a2d7f8afdf24e6b9,00a139653bd123d65999cfcfeb84f129135f163c,8837cb5064f384ff005fed179778b809f7ee6103,1dd3ab64c4ae8a740bf5002c93fc3d38ee383dae,ad3564fc8bd3e6a579364c1d07ef9020c519d989,4002a5a64d310ac8cd554b8ec6a84faae28ccfcf,71f4593fbb551c1b3c48462cdd5a3e7bcd30cc1f,af3e72b73e9c9e5ff5f09bff0ba11f596397b75b,6416c6c309c8a292ea320d757fe525c0f556546a,9a293bd117378b404a7bb6d92751b882e143c64f,e35c430cdc1cf481feef1485c06588448abf8fa7,4079b07269a84e835c6ac3bb572ed47ae57fffcc,b94c526e8784f2421acf78644c1cc681e1b427db,8a21b472e03e5802ad8d9fd41fb87a9fc791ba4a,909e732b9a465d839b19b7775880c3a03ed446af,47ef4b87a82654102b109b328daa8cdcd3c655c4,e70a032c0fe1cd2016ee490641901da851d6ce3c,0788e468a60b95569570a0639c4e43bd76bcc1b6,77dcdbe03b8e0aa0d708e66bf7a93b12b4fa0d2e,03958b98d1d7938a9d64fbf45e5e665a5148df94,c073253cd0fa537ee1dbc699d4ce89b65bdc41ec,5a734e79cebce01f306e6a9450d40a605d0add35\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/postlight/lux"
+    }
+}

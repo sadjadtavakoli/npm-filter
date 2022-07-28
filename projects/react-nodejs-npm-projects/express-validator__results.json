@@ -1,0 +1,38 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "docs:build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "num_passing": 208,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter",
+                "prettier -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "f3cb5ba073c443631859136088680287e41ada80,5080390496e9aa82dc1d459b9040a8e3baebf83e,5782c93b356efa3a2bae599d6074d649b280d3eb,db00dc377a72fd653d5bdcd02db69fb204d94b49,c3a1b9ec55cabfa42ad284e06b08ccdcd3e373b7,ab6ffe4cd29206074d2895a08a93144fe5cb0491,5e293cf725334e0a9972eedebd36c192f44ecba5,01634618c80a04c3b8bbff157915d3551f33e63d,a1bb2553c1ee714e8b08f54d6b82e749d8a8ab8c,d94f7dd5b8e167cd6abb88507ecec86986e26b63,56153943ea10a0bc505f5f63c0367341ce1462be,2c31499ad98c44b71acfe6114605715b839aa12f,a4da9a2bd11db4815e3050452eb718bc72004873,422699ccd81ee22712be4fa67f8e54efe777d82d,4f297faf18d292c2b21e14f45fe69d03690036ef,19ceffa2db204a565081f14b173352f6992227d0,186a7d9cabb107f204d6ff398573133307e9359a,f0ae8b4f286a6459aade96afbe6e4ca367a648ad,8ff7cf8ef9dea3411ee4084405ff69dc2e914608,a3d967300ae1675eec216d836e3c3666c903fb5a,a2794122b8151643be64f8e5d4fa2d3d468537aa,dfbddc9e7c80e89b9539c4023013f6b8cd1bd791,65a9d7ce1ac2e29d752961bed9f69d0a33382cd8,72d06e8a105df00cb98333c5009845498a260045,fc2745e3a2b122e324f8e582b7a0544e071db97d,406014e3a83fa0ead0b2bcdb012f91b93eeded94,e241d9fa0accab8fc550c5d5aa398c80a0d38b79\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//express-validator/express-validator"
+    }
+}

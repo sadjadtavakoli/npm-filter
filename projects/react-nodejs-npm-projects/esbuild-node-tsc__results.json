@@ -1,0 +1,20 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {},
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "d130af4643a4a81829d590b190150bb910c46820,044caec0b054037bebdc807f767f8be23a5ec4ce,dc73a3f3b5a55c2fe969fd1894e27b706efa41d6,227b488612a2f8f9958cda4903cba4e50a3f76d5,eeafc64704e10bedb30cfc7fb18b6c14d6895470,aabdaaf021ce2cbb71dd1f69ce65d822d9207757,4c73d4af7004441d9b4ff33299c2461356a94d4f,4971bb1cc24325473354722008792dee18ec6a46,bce344fe2cb908ba1ff6f837abb5dc1e835f04bd,f24db288b9731f4e5956b4b8fd87d9770bafc3c8\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/a7ul/esbuild-node-tsc"
+    }
+}

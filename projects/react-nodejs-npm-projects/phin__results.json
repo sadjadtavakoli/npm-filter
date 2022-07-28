@@ -1,0 +1,27 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "num_passing": 22,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "d4d0a7486f33a3e95556fa4888634cbc3d044e96,56449b05e90218a8f9ac3d373f888e3f809ffc55,ad88f787ad4dbc70cd6fa989efd9e4f1961bd439,eca62f389c3f8b7d106595a945c4a090e2eb52bc,f94500eeda86262568c75894b115f332441d5938,e75be1e0d70cda3383714c48f03c9b59a31fb697,bfb215bc707f0916cb8cea30c082bbd658422fca,71b308f284f0196d2d088c0de4f50621920f72bb,9c22da1ae66230fb927475a99d3743a78c2e0d35,c769799b4c683639ae14f94943b7e02696a9686b,35f5b2188e15e1b897fdfcee75bdac5191b3f69a,62e502bf10fcdcaa7ce1f7350b876773fbfd3acd,9820c644c146235d6543bf10a7fd0a05e5b407db,0b2166249ef8fb1f9f2c2b3d549b1c3b82020086,7ae78538bf33bdbbe2626a11d4608f966fed8462,ee62f3486016a3119daeb7cf0e20cc51b6943b1a,5cfa92f7c29d41c790897c2278282a55d1b9ec83,69607697cf878e83dfe20558d5bd93c9c590d40d,fc7f27388efbdf522b907665e30a24c3a8e885a7,161eabff577898d0ebafd0e0a750522640130584\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//ethanent/phin"
+    }
+}

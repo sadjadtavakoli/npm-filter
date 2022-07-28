@@ -1,0 +1,26 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "a5b47897c14f22a35ce68c57f11e9b6bb798dbb5,6b1c4ab934ae6bb5a5017d09af8d6fa4935b7937,91be062df45517046d53cdbede16992ff1d19ad0,5c6b0570f5057e3ef887447add64c79dada6bb37,6c1285f2a07e556982218c111102cfae9a16c435,5b0a67ff5a1706f571ec0f4794ec0fc813787553,857bf916d1310e68fa40226fe8d784c60872b628,03ce1913e847c9d56f550df38d8cb60faed19f1f,61d2a9c1270000445979f4039ad99781411387ac,46f77871b3816cf8bb262fa8dec4e3d09d44c77d,b216bcbba20fb426e362ad23c068ba612be7b53f,6f721609c808930ff952b174dfbd6cf82331b19e\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//terkelg/prompts"
+    }
+}

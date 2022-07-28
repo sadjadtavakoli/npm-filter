@@ -1,0 +1,61 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:fix": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "lint:fix",
+                "test-local"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test-local": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "cov": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "ci": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "lint",
+                "cov"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "1d5fcf02dadcfeb6cf517fb1fd21659d752463bc,3d9a6abe9cd3dd18e4ca056d7dbd75a62ed58301,9318d7d02c7f3bd1a7ef08fb27c8d054a81490ea,2252d542dd7543bcb05d01eda6ebde5a83978607,a309edfa2e4a34d2a96fe36ffadea13e60f453ba,b27ba6265c3f2d3350237057d51aa03b9ada5102,5ceec6a7993ff0d00c74e1f30e576920df4865ef,3a2b61f732f157bb7ec30fae5370d7f0317dc8fd,956e073053bb2005bb16b56175a1c6da50c6ebb4,ebbd6fcb6cead185a716ddf2a42c10cc73eb5750,18ca633b730a121ee80d73a71e03bebfe3134cad,f89877fde2fa003b5b82f41012f34e73be6c5ac5,1ae4ece8d1b9f4142025a0d4def80e7a2629a080,f4fc776d18de2d9ae760ec39052eed8469dfcf0f,7dfda29c7bbeb1c37aafd1882e8b572e76e0f391,7072b864c294c7630ecc5bc1ce545c783c0b0de4,7407de0ea69fe9877e182df691c1c1c0a200e1b6,c532e414457673b67c7de0d242708b5600023d91,3e5d6889b20ac0316f8e215728f84075e2696560,54d60262690f419b4a6f4ffcf48e627a3e8f143e,3fb0bb669da618498d7deb4b48dbda53dc031488,80bfff109a65900b140eee8ed697aaa3e3760978,e26b641cab5e8eb566c2c5c45914acbe34149703,571416560dbaa1cb74e0e083939e1193836e46e9,e2f64baad2ade1e6d3851e7f93810d6db81d8ec8,245f80e0a885452c7cf167dc54622ca39cdf6cfe,b7e9cc64a312619482dbbe34fc3e89da2dbfd188,67cd0a92a6a20e965a6df09b8a48f6a0a5141a9f,b2c74a0d278f5ccb567a7a925aa6ba1fd1de1f42,688a3f5e51c86a67e76137d18bce028aca9ecabb,414fbf0cff933629f61e1a049a548fe3f7aaa644,1b4e64e5943434276b5abdefde8b5ac48b8835ba,4d9049b11082137b46a496b960f5ee242802cb03,08f4f10dd5b9431b0bed0ee2b727eb4cefc0ddfc,374623535a3ac48244841615dc3eb60f3c7998b0,0a002fb9af04ceb6404f4a7cd69407ed26e703ca,b21802fd8b2c9e5f008edc2426bebb8f6d5609c9,9ce0cf5fe760c14ac37bf641f5aae07479a86f27,759639b2f08ae4ba6a2ff101e3558a406259c381,430a7b18d2a004308879d069a06bb36193fe6559,7da15bd9e7f24564df6c5ff1f8c02559fef863a0,427b9c76276e4aca207c4e7f31872eb202496244,87c3bfd375fdce0467cb988494898f302606e802,95125ebde8a288d9c4aa29ebcf9a3be36f83178a,084001c0f9bd0b055bd2ff7cfb06f0c07f0a3dd3,c346c449016377915da215ab63d20c47c938ef8e,da8b2cc5ad60bfc2a4b0f871bbcc48d0335a53e3,c521b31e56f409fad601271ec9155560c4a3da92,300c0f65e0498a6862073f39c9037076de0eee51,b97803564d53cab3742e522cd87d5db63a689fba,fd14ea54a8965789e1b739034d23245d05097d69,f171aa30878b43c5c053562d582f6b53da25bdaa,b38dc650a8052241e52d87ffe158e80077dd8b86,78e3a50aa2c35b1189edbeb3836611ef0e90cd72,9a2892c533ce0f2544ba3bc87ed012e04d251d02,5590020c0f2d8d391537283107ed2f39dcc26d1e,471678125110edff2e7ca87edc0a5349a688c0e0,e717e258b028fff1ad8d9cd087ccb71fe92d12d9,8ca5f198f91803c8a5255e1fe1a79ec17b93551c,630be721840497b84cc54139e5d46c7566a878dd,83b2adb41fe63787c525dbe471d2e4c6bfdb2015,9c318331fa92820e247bf41a57bce47f40fc96c3,f2ee5d2cf1c3fee25e6e58d2239b99fe4e14859e,a36f8d3479d36009eac1e8ba2d5d1036dd2fb279,ffdfd0b2321c7e0ad52de3b0ca40cda0f01984d6,0b374a396836daaff976593682e6830ebf6249a8,f816bc38b96100eb924995ba9c65054e86ed903c,537f5856b8673d1f6dc8be461696aadeca015ab6,98d5675c1419e02d48349c7945f054469391b7c1,f419c0bb08422e89f9de743bc157e01e4ba1ec39,903f4f878a3e9c0cb363a8628b0f393f990853e3,e810821eb62e720b8e6575de74871d6460cfd059,6ace3cf2f1397c1fa702770c886cccabc2726194,c23ac21b6a8de1a2d0bffa3c5b0d4b77c6b18ca4,b7bafb361494190a0db43c6aa5058d7eb325b80d,6a5b39d562bd3c2f71839342bb320359ab1f6910,fe24901468255cdda79a84f7f41561e414f5c78e,e9cf88bf5357e9581fba66020f1f529be5229dd0,0c003c0144326c27d1ff708841ccb039bf3cea78,23565906e7db64352cb04e32c25049c8d3134ef7,cc8822e0ae5fa6ada58817c3530dee9ed4bb61bb,d7f05e7b15c79d71904931cb001097d0b9b6a225,a26cb058f3ee635a6183c2e2d15e4e01a8569cf6,afd7369466d68e10764a24c56217dbc7dedb081d,82510eab5a458f3e9df1c60c63f03df3054f4150,a21e1f836ad38adaf6e3b04cb5df4bf090761489,ab9c1e311e97c3b994e1eab7308a1cf04e5ab195,98cfb52531d52cf890667a0ec97ebe8552bb3f93,60cfb1cf401f87a60a1b0dfd7ee739f98ffd7847,d6020f35232748f6f87d18cb204c1deab752609f,8a3d973d6084ab3ddcc45294798dff4b004cf80d,426ac742b882c0fc5e83b50e0168adfbf3adb0fa,22d0e725aec620e0154961643438c4246333916f,bdeadf9c74db40edf91803f50066c4b97c74c69c,92a208111ba3610b1b2d42e2f278cc020f1e88f2,87847fc20efca384b1d5b949c059bc77ebd5056d,9efc0c0d524cd565979e61f0a472183789a3d5a6,1db186ef034a7f06d6e42edb553cd926093851cc,a71e3f5141986f3071e2fac95f0d30ff0ab0f92a,cfc750ba4aa298fc4a1fcba76f2cb46bad1acafb,4dccafcc0b2d3f531f3029598882dcdc59442968,b831d01b497f6e5cff930a02de14592dcb93ea76,a78e4d6af8f863fd2107c62cc8f4a7ac4d367e1c,5f3400fad891e4e2d3d0bdec55f528fc77bf53a2,ac4d5862dbfde24ac9aaa04a14efc4eea6fa2d5b,0af0ecadd5b0b6aa93ff384a550142dc32599024,e9cbe9cdf43fcb22b7502db62714cf18bd5cdadc,0c56fb36ef96a47c5f31c6d16622960ef49bb6c4,10570880e246d92092fa486a42f926d9551ee101,deab665d18f5f08659d1b0d10ff1db751ee80e6b,eaa7b61c12710be570c66aa12a8dee65a253f2a1,834aa0342c4b7070cc5c95c28f005de53156139f\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//cnpm/cnpmcore"
+    }
+}

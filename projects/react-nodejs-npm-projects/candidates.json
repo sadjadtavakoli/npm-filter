@@ -1,0 +1,39 @@
+{
+    "https://github.com//Zettlr/Zettlr":{"b": "develop", "test":"test"},
+
+    "https://github.com/vercel/next.js":{"b": "canary", "test":"test"},
+
+    "https://github.com/jhipster/generator-jhipster":{"b": "main", "test":"test"},
+    "https://github.com/apostrophecms/apostrophe":{"b": "main", "test":"test"},
+    "https://github.com//xmppjs/xmpp.js":{"b": "main", "test":"test"},
+    "https://github.com//apostrophecms/apostrophe":{"b": "main", "test":"test"},
+    "https://github.com/sweetalert2/sweetalert2":{"b": "main", "test":"test"},
+    "https://github.com/rsuite/rsuite":{"b": "main", "test":"test"},
+
+    "https://github.com/invertase/react-native-firebase":{"b": "main", "test":"tests"},
+
+    "https://github.com/ant-design/ant-design":{"b": "master", "test":"tests"},
+    "https://github.com/service-bot/servicebot":{"b": "master", "test":"tests"},
+    "https://github.com//apache/cordova-ios":{"b": "master", "test":"tests"},
+    "https://github.com//bepronetwork/bepro-js":{"b": "master", "test":"tests"},
+    "https://github.com//tidev/titanium_mobile":{"b": "master", "test":"tests"},
+
+    "https://github.com/polonel/trudesk":{"b": "master", "test":"test"},
+    "https://github.com/NEIAPI/nei-toolkit":{"b": "master", "test":"test"},
+    "https://github.com/sahat/hackathon-starter":{"b": "master", "test":"test"},
+    "https://github.com/i18next/react-i18next":{"b": "master", "test":"test"},
+    "https://github.com/visgl/react-map-gl":{"b": "master", "test":"test"},
+    "https://github.com//Unitech/pm2":{"b": "master", "test":"test"},
+    "https://github.com//pubkey/rxdb":{"b": "master", "test":"test"},
+    "https://github.com//jsdom/jsdom":{"b": "master", "test":"test"},
+    "https://github.com//aui/art-template":{"b": "master", "test":"test"},
+    "https://github.com//assemble/assemble":{"b": "master", "test":"test"},
+    "https://github.com//cnpm/cnpmjs.org":{"b": "master", "test":"test"},
+    "https://github.com//apache/cordova-android":{"b": "master", "test":"test"},
+    "https://github.com//nodegit/nodegit":{"b": "master", "test":"test"},
+    "https://github.com//muicss/mui":{"b": "master", "test":"test"},
+    "https://github.com//js-data/js-data":{"b": "master", "test":"test"},
+    "https://github.com/yodaos-project/ShadowNode":{"b": "master", "test":"test"},
+    "https://github.com//mrvautin/expressCart":{"b": "master", "test":"test"}
+
+}

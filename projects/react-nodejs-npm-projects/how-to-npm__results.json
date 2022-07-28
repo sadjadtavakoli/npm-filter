@@ -1,0 +1,26 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "test_linters": [
+                "standard -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "575cac03a05b211dab84d38bfba0422058ef0967,3f8a5de3e2f27f07a74466c293d6af7f0d808281,69606490aa1cd217f69f11e7e13d5d6c70e54eb4,b1f9ce7c80f197e4abe5ee8531bd194bbbcb958e,948c166e022d97beb44c5839b369e6a605ef0c7d,9ad0594482c5d1b4fce4dd8b90f71365a9663edc,9827f008f886a62fea5f88dce398685b27d1f8fa,c6bd8dd3b825b8871d735ca04fc6b446d849ceed,0a028ef1e9c082bf1ef754e3cd5ccb74a32adbdc,0236893cfd688cf44ab3ee18183436ccad11bbf6,1fd6fa2be53d51ff98b5656f11f44aa8e7d07082,40ae364625ad80757676ad391f01656ca03a9554,5d2871b50d2caaaadbd24b7dd757c5e1fb5870fd,130c81116dc3cc7ca1d5d2a0ff6fa4b468e32788,77fd3ebba882c6b8a753ea045c268e152971ad15,285c4f2d0da3afd83b25bfabae722343b543391b,ef04e14939dd2606ea99a476dfc6f20e75c36b53,a7a79127c951e00e628b70566169f05a5cce53ae,527dc56b827b7a41861772fe9ced7b902bff8ad9,f3e0686a3dd51bf74bfd6bf11637657f0d80cf4e,03509492c4381e448b995dc76e3c5001373847be,77b0778bb53d5101a9403adabb6a590cfc38a126,665b3f815b995c0c4c719cb61a4a84ecb7fc06cf,b71b1b48a2f6206683dfb25d717e2ddab84ae3f1,609ecfdab8f3cff4a4b2544fe702174b872ab205,da9bd6ad45204ab2760a29f42bc73d5df4496c5f,089f8e5cabebb7b7f891289b96eb4620938387e2,997014c7ff12bf4684b3b22a67e0ab549e5328ce,049640a1bbccc0daf2a6f911fea42ef00c2e04da,64617fd660649fbc3942db8d8476597adf352fb3,870b5105d017b7dce6f7161a62276c0b550e4efb,a2a86e7f6cf627d32dd6753510670272896779e1,2fc207d382f0957e8a6117994720ebbd9f5359b6,d493b8f49e227bc513ec7648c3b1c3dc1bc2aa11,01f7cc3433ae70b39cd01b0aafe1c085bdffe697,f5b260edc60bea690642c33e52b52c7743e2e13f,32ac1314a5095631c9cdcbf1575b35b5a14a9431,47780db71249bad5619a8eb309b25b98f4c439e4,786640a8d6349adbd5e1e6e2b591c6f69986ae57,6e1d03afc129a17cfd74ff6f168c6508856bc146,e95c3fd7fa7e22bc785cecc7ccd3d7bd91901f20,d8bdcefbd33ab165e93df2f9d18d0771ed625692,b376c37a0b042efe9763217ded5c81d1107c1a3c,b2f55b7b48eee84a91e91886667af8117a3ad2e2,7552f32101314befc62db4508f6ed26989414011\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//workshopper/how-to-npm"
+    }
+}

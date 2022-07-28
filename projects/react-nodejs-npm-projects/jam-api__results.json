@@ -1,0 +1,24 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "839ff1d139ed85913d3d5dca8a6f374901bdff2a,cd6fa1262a33fb9ce27d05e218261739620d35a7,2b61ea6438762adc65471ffba13103978cbbd5d9,5af2c1956c2acdaba5daf69e99aaa0ddcf8bc24a,18ab8cb62a432a64bb8f01fe5f4966092f086233,98ca0f56f1fceb4aa381fe58fc3002b4dfa2ed0f,c30d2f27b1ba81fa6d08a39f05fbb17fe0abd1fc,ea67fa2c63024e8b21a52a459df5a4842549d736,562734224563890f118e8ade6e4d72969f15c123,7bd79665ad7d87f92d6c6ff9b0ada90a6c0a9077\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//dinubs/jam-api"
+    }
+}

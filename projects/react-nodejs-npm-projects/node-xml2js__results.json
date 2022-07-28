@@ -1,0 +1,39 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [],
+        "ERROR": true
+    },
+    "testing": {
+        "test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "coverage": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "coveralls": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "c62b085cc0f89d3b56274e3790eb42021f68e811,c7597111d758f8850fc40810a9fd4ef58d922052,19a4c2fbcd4353cb9017b8f015b6ae0f52913c77,547350e37c1b0184ff6cfb05388070fe582007ed,4594554a39a25fea272abe93c5304458a9437c61,7fcd8a80d3360bdcea9c2c0bbf187ea9db84b28d,58957ed8e9c1dbcd21e56c187c190ce291fc3998,62554a7ac7ba6217dcf8246355455e8fe00b7f5a,c2705964f15d6e232a0dbfb1ed91a391d90fda5e,c78c850074436378cf7e19c041aba3196f42af29,4a48cd59cb9dcb8c66642df613b16d051c680eb1,208dff5784dfed5951d4bebe9c4071935cfabbdc,8de450ccb7b3ccfa3394a14c5c442a8f93dac7fc,733da24222e7005bcc52f0b0146f283a41efc49b,e7fe683e3bc71afe05245b430b9a4026e165874f,a64e8ea4474998ada1e57c9eecc5b99acea38c50,eaae5a0e93f02978881e2ad4556c22f8af66f634,83f18688dabdcda78a089c7adf54f1cbafd4e150,a4b920512b3b4804601d2c548c7310081b14ca76,07e71f0555a0daee1671a1ec9aef24128799da9e,f1693309e2cd2863e55e7b6e6df9e8361b9153d8,6e8373318654a48901c7b453243b742a9fde60fc,a1812c32dc071e9cfbb7d10e27a908128f2602b4,26c86774e5bbbd9b1665c0cbcc0a9bee9e0cb010,51b334916246425dc3160d9951d09d99c65c19f2,e3627341c270f5e0504f3ece2862014693c6ea6d,a3cb66e1b5409a65a688dca757008054345cb0ba,b49f9655ef068f4b8ee5833f30a5eb79740fcf18,cd43a5ddaed4cd227561cab9a8c3fc7774f1d20d,b023b382d12d72bf0a678fcd3b9f4e9f28fda928,a644bfdc8b9b7817144cdb8bf6a8a5eea7116254,fd39560b891ad04b3d6b1086eb96e8b2e937288b,f5be5ee4e74dd49a53002786134a9e4c515a6d95\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//Leonidas-from-XIV/node-xml2js"
+    }
+}

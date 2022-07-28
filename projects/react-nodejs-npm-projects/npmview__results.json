@@ -1,0 +1,20 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {},
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "1f08b9a59bd097aa074c320ea1a8e64880c3e4cf,3445906e9c44323af54b130f745bd38d4748790f,0aab0f24a658bc6320f7ff88f240b2aa1ebb6bdb,822479f6dc0420e572d1d98eedb07764b27b45db,da2ebfaf9d310c254125dd53788a5fcdad68757d,f0edaec922dae55309eaeb766b2cc4fdb539777e,cad83391cbf64954b41d8f7af329c1cc864e1b94,444facb73710ca97327d194698c160a17174f689,077322d80a7c2efe5f38dbe57ddc390beb0cf147,8edf94851d5ff47cd1a5366e235fb13342ad22f3,b5d0e621afc71d108e2a0dc2ce5fd5598aa74562,cb5a062f4cdf88e8186fd6f9e9ede4ce7df549a9,91f4566050e1a028132b2fbbcc7ba03f1bc48032,9eb23ffaffa1e76582b1abab175fd7e8a9999815,040554aa428351bb9d993027b804420290d291ea,d435e7ac3e4ae652b8b653802684cf1bce5dd480,2012f5a86464896258d4fc3835bec79f6d56e4fa,566cd1564f54835aa5a10517aaba9ad02870876a,2961be0eb1cbc8a30dbdc7576e4804254ecba807,a43bca6fac64030c347c8d4fe4a87b085c7e6dba,79fe0ca5ec1608223b7db46e452d89aa429cc2d9\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//pd4d10/npmview"
+    }
+}

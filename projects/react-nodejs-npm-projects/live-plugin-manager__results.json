@@ -1,0 +1,35 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "src-build"
+        ],
+        "ERROR": true
+    },
+    "testing": {
+        "pretest": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "num_passing": 113,
+            "num_failing": 1,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "4acf7bbcb0c4fee6f134ac6f2ddb1131197c97a1,a05d1fd3b5c9271b734fec5143650a120d230f81,dc91492808336738d12282d4ea6d58d931b74837,c248ec33444892cd7fd5489351362a268f5ed22c,d141cbfd4d15e4d4ccf2b6ceb80ebe79e620ee7f,62ff0ef291c30ede59d5d9a854093f9412b5c4e1,db184787b9d93bd5ee47a4800e2b464fff092dce,63dfa610f3db91d2aba3308ccaf850062e0fbff1,1857321faf1ac868d280ce2773880545500500fc,aa94e67ae0b2ecec0cb037e837d033d9fe8e4a68,3d342c161ed434d6b161c456276b1c2fd8fbf6f7,739c558216aaa8f49f81c7f9b49270c58762a127,65661ce65e43a498198fcdf1ad19f50c29f4a329,8cc07777947f372a5f97f0272039e02be9b9874a,510171baf896f0bc26cc7d987a449a4a454c8533,001b78f8b9f463d295ca7c1ec032c1ae0b2fb457,31e50528f8d333dff67ce86b5234e8a81ceb8024,c28f48f471cc2b16d3302c1f86af3dd86e750083,005db11a477ff0e95335932fd857201c840f94c0,80f274e2782a8cf1dfa8da2282f5bb5b168d0069,873c63d412300a029b57847bda8c6db1909dfff2,4a036eb34b119aa10348baab3f67c721b7157165,eb684624d5df0e51ecdd62394cce150673c8f5c6,724b427cd3c530ad954b42bc678b76b3bd95220e,0145dd74fb635137bd56ad9108ec398a4bb312a0,f47874546209c3ec2eb80ef8d5308780018d6b12,4be8eaa33babfaf86d344a6f1fec9459fc36e1e8,10af9df200262c23184a9bca754da40b0d228a61\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//davideicardi/live-plugin-manager"
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "91eed85a36639a6ec89a8226bab79360328645b0,389cde7b2ceb64b4b3c74ca25a065997f66f94dd,44f9141b748f80af1107be8b90ac347b6ad02650,0c3b9fd3c985acf4f30ce4e543743b2a7ff2a9da,b1bea444e2021f4a0114cb0efc4729296738add5,f15c90bd74cddd7e812c3e518fcf8986341938cc,9fd9a7a2eb352db66e4ac14f0615371f816762ee,ca2754fdf54345ab057804ea5ddecffb5028f835,3de02be5c7895c042e413447db6578f9fb036d50,bd6fa27f40516f4a1683270f4c6a59ff719251a5,08fb4786751e0f9d0919789ace05e656db92d474,c160cd6aa560936b647f1eca773d5d704073c27c,61f99e3eed43ef45c7076f6617d9ee35abb6237d,58e562d504f839db2bdf6d63a9bb6d2760e9ad91,154be3e09d9ae431e841bbbbd2c2b3f84d210700,1b781a04dbf5ce8b15b4efa498b49fce7057ea3a,6142dd24b6125a0e100570be70b5f225d909a32d,a6188cad3d42648687d22902df0a51f5cf1efa45,caba8d17d45575a726fba726325975d6f22f7d16,2f9722df25891471152dff27ee7871ada5cbf846,4815c5d50fece8d7836153aaf7e302258ac17a46,8ddfa975336e053026511ccbaf73075642774dfd,14c858540ee7767aeb81d70c97ca667527bf838f,280f98e71ea28bdc6ceee80ed479a1b781a770ea,baaae9fff5f54a9272417e04123d2fbd1ac79e6f,09a14a91a207d84de68885d144e1a6ae069d8e5f,fa2e4a202762cb171133618b42bfcf956f730be0,4f7a8f29d9af837ba7b7de221ebe1fc964829961,043527ba78f41c443e375df553301bd5d0304801,3b0ad3adbf5e7cdc67a03372c960e2e85eb8def3,24b9733b5782377d455aa1ebd1ddcef175c2f30a,9d097c4d02d965e5dd65b4be31cfeebc6fd30079,ce9864c9e679c207ffad78c7bb840a547b46ba2d,822fe200a62a44537c69105adda235929107447f,4e34cff6c1d9af220320fa6eba59505690235518,481cf43d6b0a52c1cb996644f53763e630ad7da8\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//typicode/lowdb"
+    }
+}

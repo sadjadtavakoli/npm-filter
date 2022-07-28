@@ -1,0 +1,24 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "e57a6e8cf7bcafe3ce96fb82043a03569d931830,ac68b3e5e0f727b67c0025176dc1afb99a7e7607,0189566771a7896a0f71a3ea2021a8ee4b3ed42a,d7d26453883b8c71cec285ab4dfa0c75df05338a,16431d99658eabbd439229b13827192da587f138,135dbfd2c5e30535219adf8864ec39d2fc83ef2e,39b0bc593cd258d28ebdad3a4226b6f08190e9ce,f83232f412858d9c30f824e3257386efd8a77eac,21944925dc9032ab1313f52492debfdf2f04751b,f3e2809f07ef364236c445e6a556c35fcd5351ea\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//xxczaki/oji"
+    }
+}

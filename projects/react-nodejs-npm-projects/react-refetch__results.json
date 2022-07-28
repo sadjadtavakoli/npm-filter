@@ -1,0 +1,45 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "num_passing": 122,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "test:cov": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: babel-node"
+            ],
+            "timed_out": true
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "ab96a2a4d3f3618b439ead3f9d5ea413011ed46d,4241cd1dc56121d92854574c7ccecce828200db3,c86126153b16d9b7dc9f453fc14d117e8e8cd9f0,99da7bef5c5fe649b39c06a7805e8efb8897388d,de1c9cc0af3a7045d16ea8faef5bfbcc300db231,7952ef98cb9e5c762f6f529c14f05e66692f9979,89df8208e5e3db7b113a35db424d9472504cd441,836ccb9995e85d83aeb287cb07dfacf6dffbff73,27d9184602ae9516197482a9c9bd57e3d9609dfa,641a87e7cef5dea298e96c5f33638d9da97f643d,a7fea77d828acde3e1bc4c81497d00b7dc700361,2c8f9a79dab8c1aee32251041928dfef28f6f12b,c54ffd976a14ffba549df1ee6bf3b39f499aa734,389eaf4957b8aba54578ae4fa4fc5ffdeed85b50,9ebfae6f692271d49ea39e604462ed454351fbf6,c934b3dc07b5f75957102f2424f3cea596f455fc\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/heroku/react-refetch"
+    }
+}

@@ -1,0 +1,70 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build-v5",
+            "build-v5-babel",
+            "build-v5-es",
+            "build-v5-lib",
+            "build",
+            "build-babel",
+            "build-dist",
+            "build-es",
+            "build-lib",
+            "storybook-build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint-fix": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "start:next:ci": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "num_passing": 18,
+            "num_failing": 103,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "test:e2e": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:e2e:ci": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "d6e7f767b045d32fe75c8a2494512766c78dfaef,6d9c10b4969ea2056c574c008f28322c814b7467,d951ea02ffa31a7bbb89b5c862df4411e14e54c3,2984dc5a16c9b814793497600541e5189b34490f,1a5ef0dc7342af6967385f52851d3b51fdce3cdd,8b0f0460504c938052f2a6abdc67c92e93f2cbda,d8ab1bd83662bb15aa738db85f31bcc51f4f9776,43ca72b158c1488363cb822f5f41914ef2fd5ab2,64f2b9846123d8f70dcf8d9f79f81bf00c50f28a,fc6174017168665a7787529efda6763e617a81ff,20ecd327626653ff8c4ba9b01b40cbd109223b75,412173ae542da1ec5fefbc59cbb5eca4f88599a6,62b3aafb21c8358b3477de7c395bbc8b207d22ac,ccbffd1dde72fcf7348a189282cc7ad7e1a54d09,80a06ad9e446badbc1e4ced92165acaec47df0eb,088db98d23a08edec434d9d80b42a183ccea4b80,0ef70d9327912ffeaf5f149c1ce940c17d2839b2,5e8ddce09bed93dcd04d9f3072f99a0dd2d602bc,9b7063a545e2d2b30dce76b7eda7742622a5d31f,d14dad59bb4cfcf59412005f783266f2a3d6a012,0a1367fd367aa31ec6476d2e7a997baae5e74c56,a137012a558996a87184f051ca3a23c7ce8d8807,508b1e0f99bce82730079fce7f0b02375a2eeba4,88b06edfb32f3af2dcc41b260f97d163a627aa19,00e9978718cd7a4365480615f67b493bff22a93c,85b43c0a9d614c0775132f79d967d28bcd06f565,a1229739e963bff538c4092c25c9c0be2254a62c,f3e7f88f10e3d341e21fda7bc613cf1e047a7ec7,1a41e723ee65bb90aacf81ac5aa0bffe73c1773f,7f727c53b778f31ca2e31453ef5e623a7a7bef9a,f0ddd962758e9325497838ff7b8dcad6139c9f26,ba86b693f2d6fec621fc6e42f111becc8ffdc744,4dc7632e1fbb3344a7e208468161e912db534ec2,954f616962d71c42878a73485a6ceef6505970c3,846b9ee97d2bd768ee6461f993efa0c1f528df34,6d9358585ef969689632ac032a6db7ff7b342e0b,83f11f3b71b0e7b69dedc4b8bbbb0c57e26d2d91,1eb582c4f76323202a89c89db50914788c3676d4,bacc131d08afff4da79b74c7dea45ade44765dc4,fd6b82e7e8b6bb9725497037ec035fd018a79251,3d23e625347a8f9e445b9feef30b53cc71078f50,84ff37e5a1b45e482f972d9e33372c6d474e1dba\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/FormidableLabs/nuka-carousel"
+    }
+}

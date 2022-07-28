@@ -1,0 +1,62 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "pretest": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 4,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 4,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "coverage:local": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "coverage": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "4a85a6ca93e3e7b1c602892f0099576e06140f46,675e2d520dac041290ba1775fb6c0527453ee71a,263cfdc10ef8b3514483fa81ea792626618f8feb,5423d7bfb9b504b6c53c0c1ca477caf56c698b35,9acde075984f2a73d8cb0bb3e3ee84e44b1bbe6b,ac183f9e81b3d5cc0114957b2d8477ddd6667d7d,c1d4daaa0877c2504b21f944892dfbb8c7646146,d14ac4935d2e87fc104667d439764c8bcb11955f,f8d7e2029f394173c0fbe3abd35562a3a3354abf,558bb833735c8ce8d273ce37537bed84c81f3579,34f1c56c75bf267f664789b76207c24e4208f3a8,ce325cda4403b34b8ea3f541f117ed24da75658e,1ecca1321840d563a2f55fb3bb86d3ced61b6b47,05f6f6cec650c99ae8676c595b41dbde2b396b1e,2b8eb8fc1eee051564c4fdb726981492e0ac0a6c,54008db8d0a9def2049a6da66db9b33774702d60,b21a41efc0985c6176773cdbef6ce5370926f2e3,11007b3c5f4bf879caa549fee05861daa768d538,98161493e41d6b91fa8d669a6878e48a6ac5e43a,4bec269afa93b056ef75e6ed9b097dc0b23c0b0f,f12793ded6e32a93c7736b61b7c568b91f6a0f93,75fb1369b4acd7c878d5c4f6dc9c96889ded8c0f,7069f2fd7f3473df854e25f7d6c1c525ce8235b2,5f1940c778f53a7272e5f08f47a4ed3fb388225f,2a166a1742bf6b8841cc13a39d8a4463f15208aa,8493ebdade51a48c8f5f564b97d74c9fb94d4f3c,abdd853c656988c3c81d7751ee9aeb094224c94c,225d825b03c5526dfb7a3653c46aee118558fb63,857475eb8ec0471c2c3304cac88ee8890bd3153d,c8ad09cd3f95850b980a79468ef89010e2f4efaf,11a32313fd8e4399ca46a776f13560799cbc0733,a7bc4e391f061065a902a1e39a8ce39ddcf7ae84,4e1a673ca9485b9a3fdb29201f931e271d58fcfd,0b1395da0bac78ac81489ffb98b1a61ff816a514,18fc002c559b4ceef4b851ad789610be452cb7c4,c5a6180ca4e17b60636f365d7f5e68b44295851f,c748aa8ddcbd9d4e63f75e81814d774888c9865c,d7551eeeeed607920f3a360887a2a689847b2d70,c8baea34898f748070a661e61a737546cef24447,0be4cc69f852d237fd2938aef24e651e086df667,f9114ad928b83faae6970762906706e19ad48e9d,72e4390d57c451f4380f3e08c5354454c08bd25a,dc41a855507b10114d348227c17c8d68c78671ae\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//plus1tv/react-anime"
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [],
+        "ERROR": true
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "e2e": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "e29b7d65fc4597307dcb13c9be006fd5642bd48c,b7f31ce35fa0fd405c26c038382b71cce0aadc6b,9d2bdbff2e86caf8566e94a231cd57968a165f83,d653ffcc9ea7d85bfaf87281ffb98d65a1136dfd,03d76918443b1b483202f0b3fb7bc3b85d40bcb1,c42cb0dce54c6351ad899d3e56026cc62c195f6a,5c88ba1010400af490dc665d0e74f148fa44af8e,ba53e9b5380383fc073f2ace6e6e16ae72835aca,cc366a8bd575aeef5f13456ca64f53dd6535c531,405b88f85c8fa8fa0caf2003ef81e1406098d278,14ef90e16e3894a8679dd5fef1d54b3efb2e63c0,54d8f72990f3a01221a2eab98c48c46527fd8b8f,002b8d08bb978fd7038fdd8610d8664e6f8990d7,e5decc85ed6bd8f50ea72fd3042287c3755ad9df,35e016f51a1ebd8512617f246669b2d4fe796783,bc178f516d68080650a7a936a71464fd2d3b1769,8249c8853fc25f7eb03fde6568cd0eb36d0dd461,9652bf306c9d08dfc4d0d021f99dea7fdc8dfd65,8fa9f21b7052210cf89436608041e7341e9b1529,e461bf98815a10fb5c875856298cc0da46810546,aa0f0e00dac1ce3a6ff6ac9e48071060037032a0,54183d6316af124abbc26c9da580a711a2bc0878,8fd23c1150cabb05312e26107eba8a4af9f0ac2c,e9aaf38f59f4c4c99bfbe235dca069c8a44d4135,2f4761025656276df180d186f18c58992fc0cf76,e0b4c6b9cbfa1c1d715b238d87531994f8660cc5,9c2efb4394c537c6068af48a2f8975b812eaee4e,c5295f06c8237924341dadd7101f31442b4f694c,0bb0432d6457f082e61f64f783aab6ebee2f9925,2b78c711139ef693c3a4413669c57b4833e2b9d9,4bb856dd447597c2dc9f9d55a2afb042fe5149fe\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//maximelafarie/ngx-smart-modal"
+    }
+}

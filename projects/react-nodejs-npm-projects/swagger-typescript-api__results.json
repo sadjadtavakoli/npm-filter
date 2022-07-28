@@ -1,0 +1,219 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test-all": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "test-all-extended": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "test-specific": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "test:--route-types": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "test:--no-client": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "test:--default-as-success": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "test:--templates": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "test:--union-enums": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "test:--responses": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "test:specProperty": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "test:--module-name-index": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "test:--module-name-first-tag": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "test:--modular": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "test:--single-http-client": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "test:--extract-request-params": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "test:--extract-request-body": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "test:--enum-names-as-values": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "test:--default-response": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "test:--js": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "test:--js--axios": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "test:--axios": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "test:--axios--single-http-client": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "test:--type-suffix--type-prefix": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "test:partialBaseTemplate": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "test:partialDefaultTemplate": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "10f0df3556538a042492f3648594f9408316a1fd,0cbcbba33273d9ff309852e98b173821c8af6e44,02727395501766c914177ce1e74dc2421a1ff3b4,b4b11eb1a3fda32cc1ba65e7c45fb645a0ae52ba,4b809f393a3f5de577926a2fca7c74dc8418d4a8,8329c4bfbe5dd75e3e6a18415597129578a86375,44c6f54890d0860d13e21502d88b3fc2890a4441,888249b56c3791bac5c64c6247f764cbce5a8f42,a975971c0e680cb396016acbae17b9448536b29e,7d38f2030447c4e0b58070e108ec433a94049578,c9753aaaa6334a1a1daee09b6b6ba5f710c4ff9c,93ec745ebe12890d56ae717776560a0fe35328fa,9621fed5739490c409263204994a45e29fdfcf90,4c3901f30c97bc59aae8de9ab47edc10ed6a39e7,f6d1c67f216ea46dbbbe7a74bae23b210e7309ca,45b93bc5739cfbec5f8974e3c9eac65dbcd35767,5535462dceb7e84822701629efe02b30384db9f0,21c64fdaca1f617fb2a70c666669c3132f4fc3ad,baf381470127baab8130e0ba25a9f8760a998aba,0f6a69c1ba6f3c95b91f5a73942908541bb0ae84,a3d2a82546e022807e4564db2c345cc3001e2d8b,ba1a6877b8d2057ede0f96bc2b2b406dff62bcd2,c320b9a17cf5f76caf67f00ae0ce964ea5a4bcbb,e978e984a53d5f846740e383d48021b598dadfd3,8c7ce9998d0f27f06707dc64b9db065078fc1af4,a2a5fb7db688716230a3f1e5ea7ea7b421a0f76f,c4781516979e148878d5897b96fcd5c42e5277a4,14b6d3d3faf59cb6857376b9286a457ebc78406a,9781aff5c20d2315d776989317856fb17566b5b3,14f59aaa81e7739e590bde40f265fbcd4a35af23,2a54d4a787d25db8ca915370c21139d461e39122,1f6e21bea0f34812fef72a39d18527924b86a185,326e0dcec1211560cc48f2f2799f0c0fcb0060df,a163999a46a40d99fc73027684e9d0c8bac6ca9f,7a235842080f4ffbacc5e7608b9abc409f3bc9cd,4b0ace20c2b6a5343182de52efb4892c0630d3ca,8db57661c17baa5a63245ff3455a6dae5a7f16de,2156c5c8009d994260fc7178c3d4f89913315ffd,acc770b5b12a00e7c158d13a8194d196563067ab,bcb095ade811defb2d8a222bdff3ccf5257673f7,b046ea6deb2c8ed2d61713728fa2662ed992809d,55529b8d08c242fd4c0a8f3882606c9563bf5a2e,e56d604e316fda538eaf889ba770b88b0489e4e3,669557603d1930ddabded7bfc4b6a94d1f4c8652,2fdcf73eaba34ed2524fc19c50fc870726e3e343,721b35ede08c6b2791e74dd259a37dba66229e38,7056e26378587ab6f8876c74cf5b77b656cd9201,04168af3d1d1913fcdd8eb81949aef765141920b,131225d7c6ec69925f6ef2ec8817b9314ca22d76,6042631145440974c95abe0e8d6b0f06ee002012,79e567900cb0182a962a2c78b3e3ca73872413a7,416469920f4eebeaad8672ed31723140af9212eb,56783bafa17457991171606a6e4cd66962363241,13d694dd63df3746e6284a1483aeea7654c1bf39,89cdea60612330969236b58cd7cd82c43b74eccc,538e57776a099bbe63f6c5869b5b2f4549e1a3ed,92c2344e7e9f6a8262abcecce492e5f3000d04eb,5e1921663d2fd930c9608a614c2ec065ecbc7f11,8ff1868c1641c689e6f30ad074ced4318d221732,b80cba8f4c90a79ee4ce2a8196b5ff449f2c209b,535dc86c12be4732bdb3b6b3b8d49ff211c0dc8b,6409a6b9a4bf7ed54868f84ecc53577e7d15f584,7d34450e61c10f2ee2979545d1b03bd91d5f7ca0,ef5b8187cc5b5484b102960ed3f57896e584d02b,65a6ace9e79edf860951f7367241a5b0fe787b8f,83eb94da64ca74aaca5d43cbfd6edb9285c025c2,4e65e6d33f914a0502573229d60619c3fe06922c,dce66862fb55e750cedc81470e0b373b9fb34add,649422aa5d39f47bcdd0fccb51e9ffc2a6280d69,bcacfa547988931cd4d468c74598f57b5f1a6927,7c2bb93531e7c33aef176a403548120832af7487,f1ce8b1f4d697f9955ea4994be419e7a48039879,53a675dc965e6d56856067fd9bda5d29d2d8df78,afa7153f4e84631cb172c899fff19c7141cc1721,4ab84c02672aabaee971de829eed5f7348e2cf68\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/acacode/swagger-typescript-api"
+    }
+}

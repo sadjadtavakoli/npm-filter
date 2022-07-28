@@ -1,0 +1,24 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "05b94ffe6bd4efb084d42161fbc15d35b1cb88b1,b13c2ff808ca1d143cde5ba384fd95d695ea9af3,298318a84825e8ffc08005ff096df7137b052486\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//KirillGudkov/react-native-in-app-message"
+    }
+}

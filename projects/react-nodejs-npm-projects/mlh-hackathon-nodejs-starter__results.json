@@ -1,0 +1,18 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {},
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "bcafc661dabf835109b5e87214225a21eb3acb55,6cbb0d3b1ba27559d13820baec57ae787086627b,383736369c6159f7bd287ad0180abb095b31fbfd,fe1257ac492e33d7b58b983839b4b0498c337346,b3eec46727beb34828e03c065671365d5987d1c9,c49c86b5c7fdce5c56a6026ea7118a05f7834722,dc01c030f311ab2eb04ea965db56b3dd6a82cbe5,e3180e258e943409ce2e704b86ce0a40ee551a8e,0592c281e734e67e4347e6bcf2ef3617b5ff20be\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/MLH/mlh-hackathon-nodejs-starter"
+    }
+}

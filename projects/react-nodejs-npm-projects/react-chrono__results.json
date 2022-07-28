@@ -1,0 +1,46 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "cypress:test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "eslint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "prettier -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:all": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:css": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "272e8cab0ede65dfca6c3dcfa54652a450db72b9,00b47eae97b99d4de482e3d78c34a6e768f73b4a,f14f3cd4aae2c64cce73c344aa83c347fb6044be,5c92fdbfce02b8baaea20065ead1f21b092be0e8,bd996d0ae87fa4981d2472cf8e20bd8791d5168a,51e5ad454fc28c57733ad7f8b49b48082eac3441,29ebab52abe3bf629f0e2801748a0743cabd9845,41d577ab89cd770c4392ef73644a25cbc4a4b522,9b0db818a704962b94aaa21d692f0b087be8cbdf,99798216cc470cc87dd993a3ea4a5cc948bca1d0,40da47063f58d4c68dec81fa4ea781a394b73c09,e0852da2015d70cdaee462d6fcceaf01ee7bb122,46f39b6117b1fac0bf6a5cf5a555ca6816c1444d,9a01e95ed4af92ccd6f80a3e1dcd2eb515859d94,fed6f0f205b47199c56797c08232e2b96c5a3ca0,a866168530399311826f7f4f011909d50ad517d2,e70f52243838b2720215d31a10a574d580eb0ec4,37b1e348079b56138f9704a0d9d98b07cf066818,e58e24bcc30156c53c65245a05769275ade1ec3b,0f36c13c51aaba27212b1c0bb844456bdc82603b,28a87f2144d91e433ac58e37ceb67342e76f3021,a25a22431a04cac09800d50a9f20636abce0fc39,4068b7cbfe1a6f011c1bf69fce4c19dcdd73fff5,5d263218c58fd844c431afea6999ef1445eee087,3e3fd829886def0a588f4359244cc38da8aca414,65408ff8527418c493af94a49b5a4724cc83a4fd,0c77a7f38441557bff574bf8e8195c4014112ee5,741c0aca01d13e99ef473f9dc43be479f49708be,c4799a76c934ce9700819b4e37eb2254e8e1a4eb,cf87657a49da044f847880337bdb487f8a98b0af,7e650d8fcf5721c96727b91613cb36b05ebcf15a,e3a9011a6c61e1d73e7e64153b37a1f2f4c53b28,404e63685e6d657f9785d8b35c0ac6a102f5ad38,6150e57cdc5c2b8c6cf3333fa34fd640271e6e88,01a337603509a18a711dabf707a60bd8e8c81744,0859a8fcfd2e40888dbf10db7fecb9b29f11d5bd,a29890b420595967a0f2717adb7b4685a11b2ded,418c91b4da3accdf9d320723b574313fbbd8c92b,ff982d85eafd0ccb44082a3be20a9019dc57c016,691ec9b7d99254ea440ee0166c7e79ab5b6ebeb1,fd0e31f1ed7b22157d08e540f62b562b11c26ff8,2e050a1c9e778e18f3884b024f6f1e4ed4ece58b,8db12f94eb30a78add9540e43b21d220527c18ff,6ea08c659e0b6ab81fd367c4356a3a15e02726b9,78aaa836d66048cb01996d7b6f60c2f37cf84923,9efa3d06a4fc951a3f0b9abcb44abbe428e0563e,b815363f761d838a71f886048f41069f375acef4,857b6a1e2ec607850aa24739f307430ac5c99d32,b4a70c866e894f89160102f0fabeaca1ad682777,df12f5bf44b8c8c89e70a4113b7c7f4af44115a3,709f357193ded0ac7840eed5890845103e99923e,cb0334abc5c71747912b167a7f45b5bb0d5bb61f,2f5af89c781bb4457f49638cc74dc68ea7440d67,0f94d42669c444a32b1dcbf90f8034e18e91e259,520e2faac6b585fca3677321ad5028cef997a655,fbd3d38edb6e22e74e39be72166923e4c87a4131,d758c14502c034bfb4d9b6607ec7305a311d4718,e9500a06b4cfd60a142ec571f59fbfd7e994e8fa,96942aa95c827ea2f02edab9ab900b249f76fe4c,226b8e2ba56d36941bbe5a2920ebc189a1a25924,52ab9390a220f46e5bc72f7f9386cd048b6f413a,e3fe3dfdcf313c5f90dfc86869a52d73c278feec,9148545ef03b057db551a731bc87e842d645db06,a37bffdc29225a8a64281eb012184775b83cfaba,0f64b4b4125bfe0e48acd0f9e138e07881abadb1,b32710d98e5e1dd64752e9ac98aebad4257f3cca,60cf56bc8eb20bec9bb91c3ee560547a75101c71,f585788809338575e54e3fa756e592919f66a2c4,79fb4565c2efaf33c98efae99b131c73f8c1ef9c,6c793eaf1b9605d03e62498f7fe1bfab57c50491,33f020d72049623ccf9825adcbd9c60c905a997b,ceb09c184dfdb87ceed94eb3c88af31e1f0c9944,804c9d07e08fc92b0ac19d520868131a696aa289,a2daa453451df5882e6e066eb882a29e636ff2d7,00c5df88c81cd5f055b1a3ed90a77c7b520e06f6\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/prabhuignoto/react-chrono"
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build:server",
+            "build:web"
+        ]
+    },
+    "testing": {},
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "628be0cc2c3c00fb9d156837431a0fe4b1a609c6,d49fc4eeeb50c84224595e341d3628241faf0be8,1c9d8fdc961831ab0aa66622ea6bb9bb9b24fff0,89737880a9a644f4de62906fe009c4ecfe075afb,c3c35e7d9962ea109e553211299d75feb56df46b,0885abbacd0f0a9f793452239b150b0234c74fb0,3731237b261e859835db1b23b17951acf40dc750,b5cc497ef479d0bc95eb81eb75530a89decc9747,db9b491b68ead451d4721e6b9222d994d7c1efb8,cc495566d656e8e465e734fdb41ee27dcc23628c,8ad40ac1faf2735c642004254c7d00bb2ec49db9,51f5fff93238115065c153f8267d3efb5f2970df,2fe42a7560d59909d14afd98716a0a089ec3ae38,62670ab2e852e42dcfdd81062c24a3d19155fb75,5b1b90852f9c4ed996f580ff684050c2ba835afb,a5fdd6552e50a513f103e201b05118c0b26f0cc9,c7f50eb8f8b60e4b647c595008392d95a323ff1b,9e6ba54145d4888f4c60cfb043ac7455b2c1b73c,6ccacf84cdb65bf5d26798f7071a13721ec20399,349d005c63439c45b2f16e9ebbc45648199d4fa9,67606b503e25bf40d38b00fa1d2c2b8b70fb957b,fc35ad2a2ddbac37c6271502dfe8795ad14ad587,fad4b5d6729082e59e57d995af5109c1b133af3f\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//benawad/fullstack-graphql-airbnb-clone"
+    }
+}

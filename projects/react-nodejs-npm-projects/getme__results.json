@@ -1,0 +1,46 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "num_passing": 20,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "coverage": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "istanbul -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "coveralls": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "d68f17a7c7b53dc093f0e7cd6fc074fcd99502d8,d435e10373e88e16ce7509bda40cedc5def873cc,19598aa80811d8fcd6bb85be3d460c2c235f4a75,4c99f8c143e671abedd2415ac45c91d65bb1d409,579c7e67f752e79b64e03784f5a67c43e2e6f1f5\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//gabrielgodoy-zz/getme"
+    }
+}

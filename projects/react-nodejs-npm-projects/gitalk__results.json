@@ -1,0 +1,44 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "coverage": {
+            "num_passing": 34,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "test": {
+            "num_passing": 34,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "dc0bedb2ed69dcad538a95a61e34a873ab3e1475,4f4024bf7f30ea340b41cce2b4ef85b1f42830a7,6ed8c5b4ba20b6e1467c16b7b69004716847f7a2,68f4730cf7f90d15a89bbd9bac8a1157f8f7fa71,65272b7b7b3d6b22111df018718b9afb7c2f8d43,8d874e02f12282f6a28ec0958f99685cf92f5fd9,6420f315ec92eb9b30e4532cffbb26e862237ef6,ab55125516b418e2bd9bb6ace44c6df4750a175a,737139bcceae43082b81cb096292389ef3f808da,98b082cdf02095500e4e0db4653b57f8dcd007cc,49e37fddf6b374ce863f1888d23b0e09a53b3db0,1c938f3b12a200526bd3e6f96115f34f93f6babd,f92f3722fbabce236c8e3e13202a0cb1c91de757,bba1ff76de3c17b4083603a595bf454c92c0cfca,14d96ad27b0dbb66ac8c63a1d0e0aaa94fd8d264,98f971dda045bb2aa6c783f55c812ff4bf1ba4ff,d57911a24ab707410d0d06a9b47a081b60363875,ed28542255e32625ca3443dd59aa12ee788f8c80,7f04a894a15f68857b90cfccd9b566414da4fc93,0553b292652c74c2007dd20e73f7fadf5832adac,d7dab0683d495b4f80acef81667ce5ec96248788,408e51ce936980adba9bb8f846fee66cc844070e,d300b7579ffbb79d0219970611208cf5a532bdd5,5860202ad8a453df1d29abac5cf2ff9f6b394438,05c8287483c60ea3058b8e68ffeaca1383e039a1,689e504d91df93ae347fb330610eb03dc4dde0c9,f9c03647c8ec28c415695528447e1c1bc50b595f,2dad902290ade9e7a6a38a9b2ee394fa75819c81,a6298bab10e099448b5ec719e25d9b62dcc3074b,fc41e80272f25cf071469709d1a1389d185f72f2,1bfde650362a548e9a8bfcc9d73967f0a63cbe2d,2717c045efd97f9f0134bb9ab051f091addd527c,9a2c6e94281a628a8e0f1ccbdceebd5d17bc1756,1143d417aa6a28ac08cb56456ef05042c15fc3ec,40cc8335a5e1451aceaf6a0ef02c6cc382a9bd12,83523837642204637349e4ffd72845497fe026fa,fefbe46b6eff2d89881b450d3e1e91009351f011,4161e60adb242c29a8fc92c53e173f2030e6632e,6d57004ff902ce9179ae5cfe33b20a969eaa36b2,f6d26f7ad91be50baf641dc3a1d04d346b88c216,618c5481521c4456fdcb37ccecfacb2b435720d6,fc01689ce9c6273f890d6139345f891cddcdd4a2,d8cbb40940e449fc977ee9ea55a91a0c40271a2b,5ae654d11c845e75b43506d530efd3c03664bd36,cd670045ef4cc6b39ce72f749df3f381625f3e20,c1c27a4757a75d220eac48b0c72c5b2342ce08b5,6a960e79469ccf86515a08573a86edd9fb572582,452f32df7b541d5262883da27371ef16606a19ce,b38a7960c29dcc13ac81ee4c37750f3b3a86e12f,9e8046b1e51ce04236df35698f72f3a5e1f123db,aba8225657fc24d35da2beedca34105eecd6cf0e,17ce41d6ac03e0d50dc0dfc8b56cf72c540f6ac3,7960444570dcce640b5adc6e631c205792211e19,3b30dc80cd60b833ef8807a55acf46b475c47c58,5ea80f9529a893348a0deb1d82e3406e43e6950a,1be11addaf25fa076727581660f5f2e669e8f07d,4c0e8de3a976cc223ce634d287c6153cf1f5479d,11ed112551bfcbbb314bb2d838c77659463fb494,c9e9c67210784b42b29b6295299e515079cc574e,32e20f4e028521301dd58148c985247c3ecd77f6,ed846d3f8c839b00736f7983170d474843f1c14d,b05ee65e995336911d884a2672bd212253381947,e66488e4e733f3f3d35a56c2de8fce59a612edb5,92f55ddd5de3c1bda912a107206106115b0b2b9d,b36153af7104f72044f28caf678641006a28a3e9,846bb759b647fa8921d11050ca3f7bc119f98373,a5b401892ae6f99dda38645e592ba8c63b7f52b5,342dd628db4287b412b984255cd7f12b08fabe15\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/gitalk/gitalk"
+    }
+}

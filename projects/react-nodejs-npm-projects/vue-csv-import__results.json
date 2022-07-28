@@ -1,0 +1,29 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "num_passing": 1,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "d5164df3d92b40456b3bc83ff2805be5bd5bb3de,ff7e785aa81b9ab9d4be2d9023d7db70d4c03d25,2802f018a2615ecf9c79592f13a042425a4ef5f3,b73c1740272786d57684ab539291fc33989238a6,d230f96de14d030acc0e380c145e46bd44dce44a,6a51824a3d55faa7a055021296e8b05a8eef92e6,cc602c4b02214b5b10afbf86dc6e753f55159e76,f72515da6e84856034912981a8b4bc7d14d82639,93b4a207700cbdfb36ff6603b23ac5f727084b60,e79f9aea65e51e51067addfa6dd46f063a386bb4,5721f6a8ef8922ab5985dac9a9c6660f90977606,9259e32adb957ccbea0fc95114f9f79c0ff1e26b,b99c525906c013d1afabfe3133f91c593eebce29,b06f31b9dfa86a0c1a7b852ad00073231c3132c1,54a84988c0dadeacdd7d13cb822187ecd1725d4b,d5c08e9cec07bdeaa1bfb05b36d87df1615edaf5,48ea6c5c70962bcd58a1eba0ad2d9aba161ac394,769f3261d3d2a78ce2248a57c13804cda353fed3,8989087239ac2f655f6179c31517c4e7e78012d6,3f9ab57204db03d6b519a4d20bc15938285ba9e4,1088fb461e15e552b7a72f5a867b85d3581c68cb,e51a7f628c254e650a458b9a4f0ba3c15322a811\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//jgile/vue-csv-import"
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "unit": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "nested_test_commands": [
+                "lint",
+                "unit"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "5177750205bd30a021eda96529b8bd90975976d3,e95a311c75fb3d88f4ad3ee30ec3e8511f9a9836,77736c805ebe887680f6e9ab6c7806e90460f4fa,3396d5def20322a05537409b9528a0507c524819,3698e710677486f3dbdba6e3a4ae259969d906ae,d0290475201b53af77915d78d336e38a4e3a44de,a6f8682ab306c7743ca8b0cec15d8be5c707ebec,271bf99e91b3e92b4968429670cc150fad7f7f0a,e2193c3af84f3896da90f30c811e5034d33336e2,5392677764448994b9d835d36e949d23453110f9,2db13430900eeba14801b026b272f26dd3cf1bca,d5a76b4e18e43dc9ab535de81369fc56f3309544,7fc5ac5b380ab8abbb875392752715050efa3cda,0f123f114a029c24c08a6526217f718da0ad40f7,771f3135bab317a42f911e41e2ebb4d188caf8ef,093c77646fc97da9418f89f5314835226fcc45f5,83e50fcfe095e42c18d150f6eb5f86745152d4ec,0bca90208ec4242bdea2a0f0e60c9e1b8b0d5575,e895f704b70de93026987b5d05d6c67505f37426,f396aac8717e9b966e4da7a650c61361e1342ddd,0a6c6704d4ada2552dda68671e5dc0b480d802f6,7b2bda3eed4a1d68268e9fe8bce8bf2be6b6a002,1d471af6aa68eee9ee8ab4b64b10587b467931de,18dbec05e920f5d6929c10c528d18dd2c65f005d,6217c2d0c2a50ad05ccffc7e7bf1ef89ce89fa9c,68140e8344974f974c661f0893fc2e5c1db0e8cc,a3d4e801447ae2de4209e47545ccc96bba5160fb,9e12cf1cf9f9ceb77a7fdd75d40e7db50b068c00,694da3cbf41e197b0b9b67c23536010145896a9d,fed98a04590494a1b7e12fd47951692875844c67,11769f1b6b7090f5a6ddb54daf55b65ef3563659,49f35fbaaec886699c8dfbd07cf9ad0db9d5d601,3161226259d89759f034ec02c6f15ef6548535a7,43b01dd67c972dbf0a30b45bc9de07db007667a6,2a61907274eb51963dc5062c01d5bf4bc8dfb635,1d16bea1d714588f0e0e73945015a2f0c272c967,2c079bed59161683f6624147e61069179bd19525,c8c352a1581bda7b57b641df72af464f27f37147\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//shashkovdanil/clean-publish"
+    }
+}

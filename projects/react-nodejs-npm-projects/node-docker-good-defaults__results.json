@@ -1,0 +1,24 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "43acc6ed4bc2aafce328eb114d916d86f4e4b067,b20836e8f16de78ced06ee8e487e97dac8a34201,c953a49a238805b09ceabe345ee83c4671f27367\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//BretFisher/node-docker-good-defaults"
+    }
+}

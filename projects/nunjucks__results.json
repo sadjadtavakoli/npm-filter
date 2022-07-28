@@ -1,0 +1,61 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build:transpile",
+            "build:bundle",
+            "build"
+        ]
+    },
+    "testing": {
+        "codecov": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "mocha": {
+            "ERROR": true,
+            "num_passing": 413,
+            "num_failing": 3,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:instrument": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:runner": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "nested_test_commands": [
+                "lint",
+                "test:instrument",
+                "test:runner"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "eed7b2ddb64df2d39036ae6df6f27fb1913d0742,013ea499edfe288c5d573335b896ab6949c29156,b4f0d578dbf869d2e1dd8f5bd14e1433d1d76401,28b9cc3d718d6bcd0ef5023695f9712c1830e594,fd310f7513d2dec7727302c7bc07d4c950c5a790,989a7ee713999aa94917f52e2185b9c20db223bb,8262f457192396afb2a214ad77f220148247de83,1a4ba95f26b98149e24cfd5491298eb2f8b4d590,0cfd6766a05cb72f27afd9e867f9cbb427238511,eebc139d93d3149ec4b181f681a3a1146b91e38c,da6dfd6faf4cb532e1bd237f4ea40e8e8cb9fdf5,0ed30890437498493eb346220791ac314e616d1e,ed6bfc5013e130b5115c056bdf05a8d8b8444754,6a6cffa3288598cbd8f03159101ec53df9dc6fe0,7faaf2c6d23f771bc03bc7b56d3dd0a942ab8643,54752fc33515f2ab352d114d4a6bf26ec4c972e2,4deb594515928ca83eeeab5b1944645f773a4f02,ba5dd1cee710cf2ca9bca5b51da78c61cddf2163,aeb4f6a2aeb8ae45c76c67c71f2e92322850278b,e6b20e9d3b4986fdef5136b56ba670779dfe4343,6263e5a98bd08b857dea16017174b7507e5fa355,cb00872ee62eb9ea467f9cf91d35c3a172d878bd,a5e514049e761657fca9d0a65e0b0ae0bc48c292,134faa518d62688cbce259d75ccbc82ee21d927a,f8aabccefc31a9ffaccdc6797938b5187e07ea87,a7532a5743393a1ff0639750abbf28dc94d00318,a1cee097071441d5cf486bdc025485814be8b038,b512109f3929bd730c7eb15174d959adce0d90fe,cae2c49fa022348470e7685322c03d0a587444eb,0ed8327295e3739bf3166f874f52ed6a76d0aa55,55f5e7d95c4df65409083da3ab974c769e0c342f,cb08c71a1c8f535eb88c57f5e6d4064e6248ac80,bd12ffbb3bcfa7d4e2192048376e7276ab6f7fe3,0e474a83ba37eea053bc4f3cb0cf36b277e20a48,f6e16419a54f257b9bef5994fac06d4020cdcc87,3c2abc9e9b006360a8130acf99b5e806636b676e,0564714057dabcb057a415306e56662a4135d77c,dcf230115dbb78dac5805832cd55d0a406e3d236,cc837247634c3025ca03280df1d481482c2266f2,42d2b9f5c0ad5db8ca3a1fdbba5bde9fc4cc2c45,aae3ec962724b5a143d5be5aae66f9142a0b604a,c3f4b9612fa53a19a5fd7671cec9b2c8a2d4290e,2b6cea6797272518be659d17a40cc09eaab34824,44eb485242de2ac552b466bcc179bd36c95e65c7,946f034d8e274b8acca42ef0031c7d798d51e8f4,a92d2936e08d0e527db5419f282fc814ad773db6,73359ea737ad2a8398f10df500ae0c3f7b9982ce,66870eb28f13ead62927bfcb3bb2c24afc1860a8,b832c7f5dd5f165e3525d60dca4d22df9f1563c7,c0e2fcd526c76514a7b0628c86ce74049cb4a668,ae8fea0c5dd5bb7da602ebe6fcce1dea0c62f5f5,861c4217cdb331469dfa1e8cf4de7d6711192102,35c73da1be0738d5157117fa47ebeeb762552f9f,bf84fc37ffcfa99fd0cf73b3dbecec0e3652a66d,4328978b28315b4f32bb2c94292621f57af4f94b,0cfcb510524a3b1cfc29e4f356ef1649f9fbef5e,b0330e04ac6aa585ae4fd1338183687af9284bfd,4109ee847c491cd88e07554f0176dc71ef881203,bda1b453f884007050326a278ea0342cbfa4c417,4d37f87c5f6f9798a81ed0a8d2ef40293fdf3359,bb08324c48249c281f67fca70da97896dc69f840,c74353ebbd77ed366a92a7a0765496cb2a504232,2cc80931c576de9e17c26716962f1ef7e21c9218,d96753e54c85a2e860b2e2b425d1c07ec7768d1f,9981b317a23fd5f26365c4677e04155cd455a784,29338779237c6875182d111c82b0e84add217333,ae018951022beba4fca1542ca38dc25c5403262f,edb25da1fc72bd670438c56cb56b35d804d7a932,359942d816b4be07496917986bf741f316f1382a,7778385634fc47c37f917c15fc80469d74a69661,d8361db54109016d3c2cef101ba0236c8f8713c1,cbfa52c0a1758f333bc771ac7bc1c8526c2a6205,6d7313e797fe9eef312e5274b85f5e32b1c15aa4,9b58b36eef052da28071398f3fbaf472cf166c51,37180a83a3b4af32f3fbda927bc6313919aa24eb,8e1d31348b932d8c54ae2246d921fb9dad949ec6,f571054f206b31f3570129cf43ca46a7467c0ae0,05194a44895b87109f9bd94f19128ffde280a3c0\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/mozilla/nunjucks"
+    }
+}

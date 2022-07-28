@@ -1,0 +1,28 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "6ca4650591fc287d0953b48fd39c5edcc70f36bf,8bf385206aafdd3ed5e3f6f7380ac2c6f6557919,df77cca48492801b7e01abd87b9e31b0aa15a8f7,5573645bf20a1222a942d082b4377bd0511862e7,3b63319b5c53e5e6b9ada4f8b1f3f7d4a54051db,b399971920ab38911bfa9f4763660ae433c0dd60,f459995a1e585893c17221252fd27851df5facd7,8bcf2c1f06554276b4bdf335b2474ad29db77823,4813ff36b9b83e19e21dbc74c8048e2482d33879,eba4aaddc6e4e2007c9cdff853a731a000a0cb74,db2ae832dca0e959d7fee015e9f8836d9a87021c,656ec8f8dac5d6b53529197ccfc215cfce8c7254,ba86a61a1a30699deb8bd6a85625d145454b2ac3,3e5362d395a65f88f46d6d0de8b0ce145a936a52\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/im-js/im.js"
+    }
+}

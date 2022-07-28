@@ -1,0 +1,49 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "coveralls": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "nested_test_commands": [
+                "lint",
+                "unit-test"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "unit-test": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "cf7844d0527e28f5ebbe36746e25df3c3742f686,5ad3cd6625e09659868f54b96f8bb45b96d9c376,33eb97a3cd61774dd354ed42c9edef34830e0b45,7c4ec77f4f303a8527e63b5464ee315b795c4637,0cd8adbf4d1459e010254b31e4b6f51e377356eb,c3d99e47a5475b2eb3c331234fc6020a7cf58f9e,92b393ee799fa08dc7e80e68f8c985d309228617,1dd431d984dce23183cf18ef92dac9c2430ef4eb,a6eee3b6e522378aaf724f514b58dc696c8af3d9\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//Intellicode/eslint-plugin-react-native"
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "c8 -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "0288f6a07e9ad161ec30f1b2619c147ddc826bef,23825208ad4408ca77d06b58695596fb5849d6d7,0441b9829032754082746e08752fc76fd6136c83,d69c0dd5c3d405546921bdd0e4aa53acafcd42b5,e48b55046625ec40fd7145cac2a89096f87be16f,5568d9fa8adc0ae3581ae45c9fff03e07d0442d2,0c0f64b1d8d50431424dbdd2630fc87246b77454,73861e35611f702904f092f5f070947e707c6c7f,145252df199207419b8d6beadc707ba298e2b42c,25be9db505f2ff28bc7c2440b355a611372be3a6,d8b5e03228fa66bbe29a3aaedd2d51b22b00ac44,2224ff502b49b34cf0208f5b6efc8d7da377c037,4d8b40ea3778ad6be7891ecff80f5fba127d11bf,734198af4afab9585a937e4e6e5db54dc32b9d7a,cb0f40d913e866358d7832d6d1e8103cb2d5d5f6,09b955c1c37b04a1c9cd29eeebb90b07158ab3c5,82e4dabce349490c4708f75b846fbe4f967522c3,b1714ae4abd02e395dd764644ad6f8d59535defc,b4265ae0266197f38faa0b56ec192b52cc9cd073,9c146180600c962e05b89593ad0d59ebd255a6bb,a6057e58fe6ed6d4790a25e3146b99d86f2c85f3,ec9483abeac108dfd83c15795716ec4f7b8a64b5,8b0b4405a6da29cfb58cb0db6a1e352361debc88,826af43ff9b9feaa36fb5346cb337fbf9ed9c0f8,503b1ae7915eb6dbf86d4bd8982108d5a3a13b91,6e5f35de1d451f603ca4b185abd36d1e4f7d8d23,549eb3ef360632e6247162812b81759734b2283b,b26de419e11b5c8d7db5e87498c50b48ec1763a7,3306c69fbe61059ded17c90addfa2274c4c6c55c,e530ae2d500d01626c05aaf3cb148aa645c68f94,6b179a037ace28c4ca3b3472febbcc300a1434c5,c66131a4e91aa4b55f626ec50625bf773576ff5d,075f326ac4cd68ef0277188cd5a6e619d93abcec,6d36c16c4ed5e678147c236cce213c3b3ce7df7d,5d24a9db223cae60cf0e9e07820ff00002631087\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//sindresorhus/ow"
+    }
+}

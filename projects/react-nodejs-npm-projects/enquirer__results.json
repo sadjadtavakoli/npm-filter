@@ -1,0 +1,34 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "num_passing": 175,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "cover": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "3157270cd4c3ebd8be5e9d8b6a0059ca77bf03e0,7dadd5de1fb3c5ccb2158d542c76eb765ed213c9,18ee8238a7d0987e3b260b1627f9044d7175fce8,e3f6cd8f29c68a90759742fafe8688db5893104e,69deef48c8d7535c5175f8b1b981638830541821,1989375955a5578f5728568b8e22e5e3ff664612,40d5d3f20201af4402ecf8d8b6a537c05ced890b,649ee4c807df4f9743c035a3a9b540f6b56df7ff,5d1408c5c9baf4a22628f3b56dfb6c2a7faf42a7,6757b6839d182d66e375799cf1524cd52747808c,721eb20a312f63d1bc18c34ade9296ca3a7fa6e5,518689dce8cce63c361ebd1ce2ff82c856be3e18,624deb38e58b30c17bf55641497874112e491892,65789a705131185df2d790f253ece4c6a65a58f0,0a1c08877507e8569c50f7d3d8b43bef1825e4b7,dc6241bb1edad6f9bce3d6a4b980551c653b9686,ca7d030cf0b6954728d5096d783068649d057991,0604cdee9275fef00358bec566d8f2ea76631d9b,c0e967e25d84dad871b847cc681de45687482857,b5e3dca4ee7631cf83c2e514ba9e29a78d869632,67fdc90c3c633c1c93d123f6e55693902cf492b4,b17a048ac82f4fd18756d094c3e0818862d21959,4729e927746c3f963baae8f22a1b5b6bd6740e82,b9a2ff8055e82cf3614692f4756d80d1a981bb36,b1d0745d36cfe4e50c8197d80042aa205e94262d,baa0b6924f708cf124708aa2738212d3df6c71e4,55dcaeac43d03f2560cf67f90287ff81b86eb6b6,f3a27c0f178a3fd132eda1b15b30e8091000e42e,f763698532655ac5c38bd90f857fbd99e418bd29,5b91b06ef48da68796c180c19eb51c5dde045360,e0bdba9fdd8223c2c10e45b6a62134eb74449f2a,41e18901b5efc6db672c2fd48769e59b1b6dafe9,dd314ce3eaa90f71c4a545f2b83d4a94439784d9,4a98df7ae7bf637b7455a76bc123dc6163c33fc0,42c9e699fb343db55b4da47fbe2483b5cce1e3c7,78efba1d75f2e3d2a61e27be08f63503fb292240,63af7b6352af886b4fa078ee6f0cb8131dd34ebc,8e0f70bdc7015fb3b49f1fb119d554038e7cd292\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//enquirer/enquirer"
+    }
+}

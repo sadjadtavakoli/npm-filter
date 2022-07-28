@@ -1,0 +1,18 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {},
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "74df40b0e7a0b054653f506cc2343c4cc626a2db,3b500f0a26a24a0f4910daa12575b14268e812fc,df840b7a1d58ce5c113e8a28843c7043d98ea32d\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/icflorescu/iisexpress-proxy"
+    }
+}

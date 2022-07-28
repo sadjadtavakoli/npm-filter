@@ -1,0 +1,310 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "hapitestapp": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "fastifytestapp": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "restifytestapp": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "testappstop": {
+            "num_passing": 1,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "testExpress",
+                "testHapi",
+                "testFastify",
+                "testRestify",
+                "coverage-report"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "testExpress": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "cov000",
+                "cov010",
+                "cov100",
+                "cov200",
+                "cov300",
+                "cov400",
+                "cov500"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "cov000": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "cov010": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "cov100": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "cov200": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "cov300": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "cov400": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "cov500": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "testHapi": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "covHapi": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "testappstop",
+                "cov000h",
+                "cov100h",
+                "cov200h",
+                "cov300h",
+                "cov400h",
+                "cov500h"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "cov000h": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "cov100h": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "cov200h": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "cov300h": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "cov400h": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "cov500h": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "testFastify": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "covFastify": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "testappstop",
+                "cov000f",
+                "cov100f",
+                "cov200f",
+                "cov300f",
+                "cov400f",
+                "cov500f"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "cov000f": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "cov100f": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "cov200f": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "cov300f": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "cov400f": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "cov500f": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "testRestify": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "covRestify": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "testappstop",
+                "cov000r",
+                "cov100r",
+                "cov200r",
+                "cov300r",
+                "cov400r"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "cov000r": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "cov100r": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "cov200r": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "cov300r": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "cov400r": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "coverage-report": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "specstest": {
+            "num_passing": 460,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "e6913470a42bfeddb1aa0911d7802de4363bd6b9,fbf2a9d290b12aa69f2e2883e15e8c6a8a1b5f67,a5e1044fb8ad36679b7269e0f1ed98791883e8d4,24e618a237b87158b96550db99078d877cb6c448,89af3d42c2cd933d325ab2ad8320c18948c8f127,ad9ba224a76d2ce0ea2965f36fb8d1fc5ded8062,91319d7c7b4cd78353c4fa2c4d88c4f662335d52,2a326385ccd77e1b053404cec00a2091801ac7f6,35456b266b1b539ce1e9a458cc55b199ad2d7e70,781419360a8f543053e8cfc6e07759ee58cd9bc0,b166475486a5ed0c06f30e39b6e3272e883066b5,f92fdd783506a37065f1f8ff3f32746e3bb946ea,b4ad49980fd6c8e4153daceaa29709b934ff195c,b7f5486f9f39fe9d3788530b569cd79079bff994,5cde43b3cfc453457bb711d15db6d739875b1cda,9291d6e962cbc5871132317fb0e9bcb0f5c7e13c,513bb6c312dc8ab07aa46ca3ccd0530cd6d8cc68,188c649b3a36a82760fb31f38799b60724bdc3d0,91dca7cb77c54694b21bacf0bd4f06b10a4b2432,4d97d1143afa779e1b0a6ca5f62fe888ead5fb72,b395fb8c1665931822d34bab2a82ff270b83949f,1912a34f69fafc01e8ce0047e8801e52256b60f3,931ce2ec827c1d248e75af50616f407e9dad3862,e4e61d16e3d41c90854630b9bc0c119409527ba8,b73b934b3b2abbe19bbdba70570c92e3ab832f65,88577a8853da8cfd35303aafb22d7136d78e4c0b,1e5df2cbccb74d1c188602ed94c2b13bbab8bf9a,f2e11a43c2f0748228179e838a38608e2969dfe4,314ae6a0850fb8f92db1a30ff0ee74f0638bd797,9dc72d4be5c1d032d88cdf58fc23259bec2c6bb1,a207d3b6f3367b5e7398c5811fb6a24eb2eaf0e0,58563cbc89aa9ab130c815b18d16017cf3351623,3cd5236aa38206bcf2878fbe90aa8b9ea719abf8,8a744c9a93b53882c72160994f8be428d2d70bd9,80fb43d6bba263c2891e480d460e95594a882b46,a80924d12e43d2fadc320e48b66fca58e5a0e8de,42c76e650bf4123218e146272adcec7cfa1752cd,daafff2f4a3289dc864b1ce97c39f5ec59e48aab,4494f0839e98455331eb350df8195a9f1a18f98c,17370ed7c629dcf9839c3d4861ba78ddc2a427f6,47c39823b1c76a8ee3780aa5a8a943e4ff97efc7,2f99a827ae309e477c31dd26991ff7a73f8ce0dc,1a42057c6efec4bda0975d04d6a4369fa4da6af4,8d8176faaf25646af7aef23d0a727252c5f24cb0,359eaafc17cc70a2706be700a275b72aa8b26dc8,aab20da11eca508f26029989098571416317e5db,c19b816ef8e231fbc5e9fec17174b300780dbf0a,7723d26810c55ab8a92c9d5ef16320b6a1a1750c,1bb08338d1c8909eb7ab9721d72e4ceefc85c914,cf4a073dfd70b558f7404ca9467072ab7901d5d2,a6e305f43368e597074d83e4b2caa8601f6e23cc,77214a10962a0687b195f26c49db94e1a7269af3,ed1ba303f3b4622fa041866bcb0e6edf9423d6dd,8b87267362a9fdabfa9a5887cef514cfffbfadc5,bb9a656a23e306aedff4137e12c5bcddeed63cc9,3b140ae72c2f5d2adc73ed253aae9e51fd9de3f1,9e28a7e770f2e36a2430aa10999aa6abef8e3b96,7566c4027ad59e17a6687926e1cb07578516a488,a64e19f707ce4c8b54a87015e7d8a7618b8b7cf1,7d55166cae5c979b7658234424ce95425ab45702,d76067ea8cce63131d5da76f87d55bf40d39c6c9,b8b377e9cfd261fcfb905c60ac224b1f23fa2496,8c741f700d3310db39023619c7ee758076c317ee,041bb98bd151556f1c0712d99d467f35cbb72a40,970e5c349ad0114d315a12e58d1e9e058f0e38dc,2f7eba7345e7d2d686372c339b7808a37d741404,b006ce39841392c8187e12d7a5407449ae0697e5,ee5b10e4823f3e67695dbc0623538be6db8ada42,98b18b863b546f3d6293f65eb66d2365fb824e72,654166565e49781b8a6865c8beb3a1ea8205e0b4,4e27b295f1709eace9fa951a715d23587d67926f,cae89bd7bdf33ad005a23486c35edd9d2b605149,dfd49b31b922b1d6ea4c5cb99fbfcf6dc16a10a6,323aa63262f7b201c859da3b08c249f2db41be99,7d6fa4e4a701a0c263c4113c7cd3895ca77b45bf,1e91be8260a116cb4a6fe94add791cd2e46677d1,a8ca6d25f6015432ef36dfe52ccf52720e8ab279,769ed068cdbe51c9019f55dc63456e07620bdcab,e54614de15ce3b56f78c0cab8a8066f07eeb6af9,191e7818c38b6bc5a6b5e26c7fbfd9afcaa6e9fb,e22de8957b02e91bc84e6b2caeb0b21f5d62b76d,3a4dcecda2e833580522ba84ffd3414c5ad5b8db,2225c2c5f933732684f4053a096179f0a3f1d00b,ba0cd29b17bfec3417c0c5feeaca6d391ecbfa3a,c1f902703b88a6173b8e83450aecfee5d20e89b3,7b91232059024f80f80527a934ec01e4facc01fe,2d861ad718abc60ec523ddf4591ced514677a8e5,dd49c348bfe89510a12e2fcf760bb7ea32d5ebef,83cba4772db04d1886a7bfc0cf0381966e2a9054,7b33a1d2dad8601b328f2a14413377859835e4fc,a219ae09afeb235c8ccba08becd77f47a164f726,1cff917650e13cb5a0b03d7605aa064cb88b42af,96224983c0597751ee358eea6fbbb49fc952baba,9861b545069c09979abd9d6193d73689616e44d2,ac71435fa3c464d63aa7fc197a5ac3fde6f3c28b,3f453d5c9ffcfd84e5feea41d2a06cbc0a22cecd,83632ec07bdfb28e1b34b6359e04a4c93dcbe0f3,781afec494510ca410fefa47758d002e2a87023c,1a8d771ca66f309ecc5470154a9b0a801e8618d1,3e10198ae1fda8a4497943435a58815cb7d8317d,b0e1ce0b4d7ab9e5b6d4d01d4ade3b6c625e25be,d583d0eedc4f31ce992818c4f5fdfd3f2250d3a8,329f05b01cb57a879fb32e5f95e44bdc1dd6f44c,79217337efca7049607a10e2de403e572e01f7b7,3ddbce9f893447a9fda20987f63f93360231c0ef,8e435d4b25dfd0407afb10ef310df0d5377e8f07,3c17023364bf4b977eedca43fec98ebb4260ba52,7f8aa776e5b152bbc12fd138ed38c68f8d395fcc,3fa01804a0ebc808c624fea72694d48ed69adc82,ee15cd1448441d04e6093097d30a63e8e18f65a9,c78810ee3957dd0d799212923daba9a4bb677960,c20a7eb2878f71c4e725a9faed2a69e31c42e3b0,0b50d20635d4e8f23e04d444a309e389d91df6d2,32f83479d10e1fd8bf26adcd2fb79bf1a6acdab0,e7ce29f3e92db5d3827a0742315cf3d7695de896,acfef87eeb8997c7c6f2aa6ca431429e0b3954fc,20c7102034446968e539c2524115ed6af9d22e3d,b77c360f7831e8bb9be1381d57ebfafed1237ea3,0c44871ce406fd65075a87577fc10764666abdd8,f332e2369f492b7abccf5ccd0178a348d9425d0a,5d0ec88d61050c75032f5099eba3c9a753219db2,92813f4be6164f9a577bf13c0777a8c068de4ae3,2a27e50dbeabd9d86ec61cd10dea0cca868656aa,790b269c8e154b6949040949d96503693fbc4c2b,5c0c6abdd68229adf339b517a279cf85d7e312fe,27f2b5533ebb16bc824bb345360a206a84a81db0,bf4e107169d9ce76af3370a43a6130af2e043675,70690ea16a8caa9b3d88ab078d6f538e44c19fba,7dc94886be34effc4766a5ec04780b5456b03572,0b5729a98864f920615b1f6ea3f3ce1144eaa7c3,fcbbd1b485730d7571bf4425811dd146632b75e0,924f1ab886d05317646cf5a4d648670a95756910,16dd438c87cb9e71bd60f7b4c06c14f887f2ed37,7c661ec9f6fc419d7049b5631f670cb9fe7895a3,962a91a3efa7051adcf7978ca3967b4e382ee804\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/slanatech/swagger-stats"
+    }
+}

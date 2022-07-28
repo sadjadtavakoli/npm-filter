@@ -1,0 +1,24 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "adc3bda633d8361a446dac6a951c861eb41e2b77,8dfb91fbb41c980e04124aa156f0c13d8afe0e93,392e13e32584486a70cda06970dcd7fed06aa494,be9333c868c7ccee4b2dba057dd416a4162ad994,24b322dc07d175b3bb7e73795886cb1ac704d4af,be9446574b86c7c215b037010ed4d6b6e8247688,e8fd91bcefe87a024add5023dc89d1a6031cb58e,970cdd47f19384776a8f2e11922729fc61cba582,b334f7c91e217106008176a7c9191454cb4dafd8,b7727b33ca16fae8a977b4991fcdcec9e78290e6,ea3943a100c399209a95d792d81ef2356c0cb33a,0d2622584cf4a601380a44dc7b0f30c344fee075,6c8a0d82433d480db79703659a8518cf682b7354,43e9ff224a45da1a09881cf4369d8b6dc2ab7dbf,ea727d63f8687354a4597e0ffe929497938b15f3,7a08e424f267f710f13b7d18b14ab033944cf5d8,380bb1241ee392fbb6a224dccb60aa03b8cca71d,f2d9d9304ad11067d81b8625fc055baa6cd40934,0dd4890a3a5b70ff0378050c94bb35f6a91ba87f,95796885cecc1717d91ea0a24ef5996a81ef63f8,167b150d8643e7260f2bea0bfe23fbe52aae26a2,72877b453c3a839104088ce9c429363d3e332651,2d78a4056af12fde936a9fc0da793ef565f66ee6,83b564742b3a214a749fed5c6bb60e26fea37ef0,f181219751e92d611dff45b390421b0b3ed2a941,802242951c781db4c5cfb267155a44c245842d96,e19a05bfc6d4b94d5735458640c74509641079bb,3f2d977a91cccb36068e4d25f10d2b285c646321,64eac5845bef1b405a5a5355bc256d1cad9dda0d\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//bichenkk/coinmon"
+    }
+}

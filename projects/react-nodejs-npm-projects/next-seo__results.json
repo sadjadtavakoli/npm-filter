@@ -1,0 +1,68 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "prebuild",
+            "build",
+            "build:ts",
+            "build:test",
+            "e2e:build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "num_passing": 20,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "pretest:e2e:ci": {
+            "nested_test_commands": [
+                "e2e:build"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:e2e": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:e2e:ci": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "build:test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "e2e:dev": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "e2e:build": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "e2e:start": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "f3491558f218bee14b16e75bec7bbcddb925276f,073ee6ce9ac6d9480f5b61eca6c94e6c93fc95cc,b983f8fafc847213e6e2ef8287f2da068a71b68b,f4999379d7dc17d1d0055c10862895e5ddba4217,06d4c8b3ba54b5b6408c9e8038d69c9cccf677a5,33303856735749a600099cd00bc3b69bf37084d5,46cb769c6c6d354c81eb5442dcda9fe7793a3f43,8ea589dc27721b50127c7c1c12811650dba172ca,bed8bd8422e775f1e1c5dd0b5cc3b7078644f907,3e250dff4c32e915b044ed084e9473b130d9657a,f1c1f091c4d57471fbfc3c4ccd972d80b1f65891,aef7f9fff830f326ed079036a2c2417e6f8f6c38,58361191abc75331a9049aa7e06361515bce781d,b93080b0d81467c44ee557549f852152a7382397,2bcec0a45289dbd9931221e6f685efc0ec39031e,1828e36e33304171bc2ceaee7c8ae888390de26f,33e4ee3aa7c0716b9f344dad93853418ae48c3f1,d931dad55915f926bc99122393a01eacb06c37c2,ece65bf26ab9af13f400a16750b301c373287cd3,6475a95427120f8ff4100e761e4b1a87187714e3,a52e6c6c8b49a7c8ca383451206a70373796a5cc,2549cb28132475307f3c03a27080c4b118effaab,c1506a2df080ff71b452f064586b44477526707e,ca6ff8e1bbf6fa85e0c4ec58d5877e8230c9ece9,48c574383d37fec60ff795d9c8f5cc5bba6386f5,dfb87ccf5f875b2b40f1ecef0bbfda76a9862b18,8490add6aaf29070f017d53beeaec31c3c0165d2,e5d80048a79cc053d2980708be8b4eb1d7c79bcd\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/garmeeh/next-seo"
+    }
+}

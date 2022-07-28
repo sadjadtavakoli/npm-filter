@@ -1,0 +1,72 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "num_passing": 265,
+            "num_failing": 0,
+            "test_infras": [
+                "tap"
+            ],
+            "test_linters": [
+                "standard -- linter"
+            ],
+            "timed_out": false
+        },
+        "test-local": {
+            "ERROR": true,
+            "num_passing": 288,
+            "num_failing": 11,
+            "test_infras": [
+                "tap"
+            ],
+            "test_linters": [
+                "standard -- linter"
+            ],
+            "timed_out": false
+        },
+        "ci-lint": {
+            "test_linters": [
+                "standard -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "ci-test-no-cov": {
+            "num_passing": 265,
+            "num_failing": 0,
+            "test_infras": [
+                "tap"
+            ],
+            "timed_out": false
+        },
+        "ci-test-cov": {
+            "num_passing": 265,
+            "num_failing": 0,
+            "test_infras": [
+                "tap"
+            ],
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "standard -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "eaa709bb8e15cf0dfa0e88a684dfe6ba22b447ff,cfaf8da1101a477c3e76ee88e3f9ed18e325c468,a4ac25cb88ebf295c8366571b4d3e466f28b49bf,99269cc567f2f0b3330bf83b53e4211c7b486e84,8f47ecddc22b514bfc51f20f3b8b1245d882367b,e6db361ead8d78c8adca8c9d6d11af82d4da3918,03c46131133fa76f2de26c36f81b704da0148401,d8c19ed743926b4d5379d710fd425aa5c93dc9a7,2d40aa844043d677245e34166e0f5b62e6db7dac,0ca696d11816cd9983bcf44799634ae53ec61794,3cbe86ec5d04535e48186b894a8a1377628558bf,75f80771b4741a4927788a2d492566d04416e1b7,2ae5bd2a9601c4f20affa0e7c7ac58a02f25a299,6aecda0f70d757919fa8ba2f03ff679ee6cecd1f,af7b8855f99737e54ce6d32c1d78f54df89bed88,b05cb7504731c7b223e6773f63fbb4a8562de37e,2227450876f2105045aa4c43aa38ba78cd79d5ef,40670204c1d31e86502a4fd1c3c0c5b477e2f588,1964d35b011f3acdde60f76d5373091268fed6df,2d50599ad72b72bb0fd1b35a66777803cc44e4d1\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//clinicjs/node-clinic"
+    }
+}

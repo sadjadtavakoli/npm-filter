@@ -1,0 +1,35 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test:clean": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "num_passing": 276,
+            "num_failing": 0,
+            "test_infras": [
+                "ava",
+                "Custom Testing: node"
+            ],
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "261696e00e6a43f2027678fc7321cf0dda4a807e,431887dc81e46092c9c049f169725e84d1f96761,c9bbfb17acaa9323d7c2c4c0fee09f1dd9834a4b,a2eada4aa1671c8de2ed2b157929c7d59bb9155f,3f37f75285a73aa00f7aa281f1731d5afcfe6536,623f25933c2e31c43785b3ab97b3cb40941b912f,098a594975fb8e9be1593a0f4f39dade2e7f094a,3859d0642da86b7ff0372154c6a0f266769e6d30,e2e715dbff660187d432a6bdad6c3da435f80194,512291b9bedb9d282bef2b8712d2c57d7aff2da5,34800b7f14d3edd28043759428e92f9b5d934be7,0733cc57d85d0f63d2c9e5f03fa2c82610895b16,ab17a3c7e66e06bc9663bd51a9489ab0d2e3aff3,0a752c75c192c915685149e25a6f7d35c2a27f3a,b3c5e154cbbde224233dfee864d53c7627eed840,374dd734169c335c4c38fcbe848971bd037483f4,7ace6e5f219d3bba8d86c799b01641679f1dce9d,e9c96a1b567e78c5b5295c24165c7493379045b3,cc06c3cf4b79be71c2bdac011c670cbab739fecc,0480d800a1f31c942ab5986d4b2924887d753f05,7b8dc7038a7fed26a67c49eab10988d5439681b4,e80c0945bd64b7c94d4ad293a8166c8c456464b7,8156d42ce879c32edc231714c2e6e3eaa0092f70,b1012d3f3eaaef22a24d0f3567bbd58cc87485e4,f45ab8057b886522a1b3546f653ec9f2ba6993d2,c47a0c650514f23e1a1a47f908cc6465e4c52f94,a4625a7845f32b0c924f224c12815378d42773fa,28902f0ca023e2e3d7f7bff52c1b60bcd58e8cbf,6c57ff792432732e80e5cf5f3a0343c8bea82296,fc305975867b807e4b7290d11941e43fb5e24258,f656ee3cbfa07c2cbb5d306631f85aba72ad1ef7,0d63c64da288661bee82155c58a2b058fa0a26ab,1807537a301ff5581d17b80e081cfa9b6edeafaa,0ea5dbb4b9457462f21e95db0e4f2ebe44da7642,482e2090cfab31941b8aba1a6eda5126a12eafbe,b0dfcbdb9742f5f3e141cf30d6922f9df7e1051b,4cefdbc3c7d618c2f92be8cb81e56010a851d9d0,e0f81a724dfc487babced845067e9d49d630c56f,8a213ef22e0d0440622d26c16f334cf4553a1441,a00cf57016bba00210f2b57ff4ff553da3c1e2f4,04733f1724a74c494458754d4982de53cdc30eeb,a8d09c02bfdce78ca9c8a9f57ddcc05120a73679,bd9c2e0679e00eb7d0b841d1a69bdd3fa822f936,3cf0ccfa4386d58df0ca8d73253056ffbc91200f,8418b3a3ede72a231bd2a2aba5d478a2004baacc\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//xojs/xo"
+    }
+}

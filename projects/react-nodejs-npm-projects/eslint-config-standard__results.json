@@ -1,0 +1,33 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "66d2a19f4a83718062d9da86159dab2070f12b2d,6cd5bd5371189e9c8bda05992644de6e589a7a53,d755716d1a94ae5f7160d23d2b874748734aacf1,a1082364dd839d936e390a39f610f74ec8b8cc75\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//standard/eslint-config-standard"
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build:changelog",
+            "build:lib",
+            "build"
+        ],
+        "ERROR": true
+    },
+    "testing": {
+        "test:win32": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "nested_test_commands": [
+                "test:code",
+                "test:require"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:code": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:require": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "44fa0dc1063f30a3acd053fb9b20763bfb13e192,6c43f266dbaf2e82f7b3c23a732025cd8b349031,015352b964c27a8f5c8e3f8636efc17c6e739414,66275826a28b6435d03cea8c633d0aa17cf29412,7eeaad530fadd854e63d059a595027d51074e24e,aaa2b72f6244e8af1e191e71a9eb9660a4fac42f,1cd62873a14ed70f19cb4eecefbf5e9fac69e0e9,796b1a104c357d4f4ae9f8e035886a527b9b76d9,94a7ba56dc6c703e76b2c866d2881e9747fc1bb2,009510e4b47d5ba1272398bc90c839fbd1a129fc,f711d296730256014ad6999091b1f9d96adaaace,96ea4c02f8e3a867ae09661f5e3abee399f97263,4898a937567b6c82db20655e52ccdce09509fe30,9593ef6d7a0292ce5fc56c5d0e7c219d23b2328d,b38dcc9c2b720db56b7c74210dad16c0932640ba,4781e4c0f4208e4972acd41bdc2753a2206dc49b,84b513b8ceae8d4985776896514bdd27495711f1,05122356c23ab35e30be4890ec2b857051b393f8,dbebc1b548df59f2564dcca072bc6abcbc3576c2,24caf910583ccad36e5f7adb3aa3cd257f8c028d,7035d68330e9bc14c43a540bd0ee5bce8cfc191e,0e26886046d225533c6fe865a7fb073854a66ba8,878b4bcbe4417927c7eb605af61384e673b7a75c,062774d60ddb491f574ee7b64e7e3410aa36ca0d,5aafcbf23aae57f7b382b5b490ec7f2816abfe2d,a026b423d4d66fef82cb1000bf6c64b50d991a19,127647b47a4c157e18ebd220f63958b4ce118d10,559b16ffa9cc316ff758fc4e0b5b898e409c6e31,53c627cb29b042e91033489dfda645ec6d71ee70,0c63721b6bd245c859031fdb4825251137658b7c,0f239fdd6d4b02cdde195021d4051eb12141f852,104541386f7f3f260cf47f36434a8d5d067a531d,ce890109ce3cf5be0e1361dc78fc0e92a7b978ef,bcbc793c88a51df9dc5be8bdb23deb7b3ac198ed,0df49eccb7cc844fa63babbcd46b52a738135147,7343d9d65d753b42c14a002437739b21fd5b835c,bef966ffc11ca4d626832a63c8d7d6922ac762b0,b781d38cebd8a0d0b01622fa997d5ac59ad81ed4,93f68bbbe6b32073608cc8f19100e9b41f7255b1,98295af2840c5afd5d51fc288efa2699ff3e7057,776b3362fcd4a1a69f32fd5fe13c5b06c27cdafa,aa0a773c77dcf4dcdeb010783be64a3ba304bd70,3de56c28d5eee4a74b6e0a1827292ff666d53ae7,bb1853560e306e93ded360702aa8bdd2dc8fca39,2364a68d9352eaac30bbe57489522a24431ed6e2,e2bca7c63c42c8eeae973e5afa4be930c80282b2,de21ec5933d8a419449665aad9c6b29cb009c2ea,2d2e54a424db42bd4d7a4a92d0d88aec31ba75b6,8ce79b507fe2435d5a9f90b0dd8d3b56dc290be2,0706882c3257d91d819e84bf22c1f6d7a8fa4118,5425cc1abc5f968bd85d56c933a400ca5462ec30,cf39770aac925eedb17e3a11a59634dfb0227884,1909a9b8bdd7be9bbb0655680eb46d32dbe38cf9,0ddbf05b32463ea33426c4926fbbbe3375774a2d,9dd5e417c22a63d59736de3e537258982f1df4da,0b1f6767552b8371d8cf9f8683b71a46d58d60ab,b5b9e09f08aa5229865427a27afbe1ce14f755ab,faebac523d4578677e504f70ae6d482d11685fed,8c61a1ad1e909baeef85666434b1a361cb96cc0a,7032e13cc6a5e2838006ff388d3e162205b30ede,901153f536e20cbbad231951a89493e4bf6e5f7c,9c2c97459e71d130551c2abe954708406878f3ba,a9063a091ee92e39cda2eb13dbfc145db6ce1764,a5122873c1c395ceeef817247be40d160d60bcd9,9f86f723f60a6a01d5fbecc6458f026d60ff0230,7f7552ab181285c968ef37fa30a4508fb2899e9a,abcf92c7b79fefb5b5f0876e42a5f93d92669202,2f750cd56192089b895ca1809a1d45743eb45864,bbaddf4d33ffc5dcd2413477a80aa8817bbae62d\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//jondot/hygen"
+    }
+}

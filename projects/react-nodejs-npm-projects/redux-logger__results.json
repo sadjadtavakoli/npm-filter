@@ -1,0 +1,57 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "coverage": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "coverage:html": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "coverage:production": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "7fa1352e8d93f793e6a23d0f2f543e12d134621c,db841f3dd6bf739f697da59d522287a0a61b1850,4347bd3e2eef0956bfb90def8f32960bed13646d,f3e673c7c29813d485363c7c823d3b72651a125f,507e1c74019f8b45f44f82196383e5d61672abaa,d4ccaf7fe1c71d78594604ff10be6e2637bfafac,8c916d00b6c4bcbb05d0b8db5fddf07bceb21e80,ae8eb0e3739817b17c77b24e25fa98e51bb63c25,93647fa81451284e55d95d634e6bbe2cd1daadb9,5ba4a581cee432d7226cce598bf873b8205f56e1,dcaf976be34dff230472fbb37a6c199e6d0cfa5f,893c3757b639b9e3dbd94553b58c0d5a3829380a,ec9743dd4a53f68c6be4f19a20fc303d4b6fccd5,21d46730f22539b9847a890c0cd0e3a623cbf9b2,e2b352b60f544d1e415bfd2e9db1dd79c7852442,e9671040bf311a2e0c8ba812dbedf30fb2834228,0284beff1b93b79d46482ffa19db3afa7add0a23,5d9738b761b001161162d2a53595b0359d72dd5d,8963746f3e4b9414ea2ed80c5f2c3637a5591425,4391014491d1840208a46f9945bcea877b6c8ad0,666e1f7fe36064dcb8d7495444cb8e301bf09e4d,1aa65fe6d297d61305bd8ba9b1065a64d812cf9a,5604e22fa98bb16a61d2f8f2d2cd66740cda40b2,92c2f831adf50a0960783dfec71257f81f0b1b2e,9e6571052ce67607bc9d1957db2c279c8626cae8,e913566cec40a49b5d199a5d46d7d22a33bdd391,da6b251da54857b06b1d9b06ad8117687b481bc1,e68e915a6b41214a014d61bde947c0a23021881b,5e677a14455b69aed02a7df49f75d06f516acfe5,d16f808e80297e0dc9b0a9e40faeccdd40b7c52c,694daf2c592808ab738beb158f7dae704339ea33,80cd18050a1cc5dac004b370ab59ca3c170f4c4f,4a446dafd00b83c1eb021d604a0f347a10cd0d43,567af7ba73699369a273a94b22b5c9592573249d,083b6219e8ec8967b4422ff38e2fe7c22339b613,ae4d9b9cc4624d998185c47092bc79841994d6e1,2b7acfa64dd2f62d6dc7b5c3ea134f171f4afa2b,af57529d7ef693787b6c92206f45627cbbbefd28,e60dec9bed4c279b46ca433ecf68ac013ffbd83d,e6ca40b496af32f94536969a86a0a1fbbe867f15,a123a6c9ad6229f1761e0e71fb774d0d9e8124dc,d096ffb529881b62f2a5191d20a06fd4a5e6242a,980633d9e526acc24bbc1d9bb0fb598c2a090813,49888761dd36ea6831fffbe5a07354cad8fce8e9,f428b1d85eb0d2eb6ed301085f5ffc304a40fa89,b05a7b248307ecff857f470d1be68e790219f7b9,df93f4b771a158aedd12103dbd890ee01938de84,97918cdfff455b6613e4e32a943dc3f58cd52e14,634eaa65c2bcb2acd34492da238f26e09807300b,e85c3fabc5b1237c3394deb7ff9955070261b4bb\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/LogRocket/redux-logger"
+    }
+}

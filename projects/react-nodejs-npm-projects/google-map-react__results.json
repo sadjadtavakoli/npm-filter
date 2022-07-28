@@ -1,0 +1,41 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "test:build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:build": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:unit": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "43e5802142d5bd6180b346f20a6e4bf1b9082c79,685b12cd36e0d38c905a04e1bea3eca492f934ac,1ce0ef6f2fc2f45874028c103cac5acf918e4599,b3bc11c215f33a57021885766f2a99c13cc61b57,c35f73569c78baba54598bf22aa8f59c90baa761,a73629b3891631fbe90cd50390705f4f6d8fb074,9d0b3939bab2a48011dfb20d3f9396b191ef551d,d457d1cd2910ff9112420c0de3031eb83b70d17f,486bccfc61a01eb2d8b788a93e076284130c338e,8cb6939e6ce52db910bc10cc838967ffed3ebe57,1ad4402462791e43b176ab2d39a34449f6d27776,07368e23ada757e61d3951ebe356ed4ff42032ac,e196e9f1e5fa517762e10747abaf229ea6cd0973,26dbb12ed649bfa274f69c26f0fa2a6851499a29,100c219e1e0653957d966531643e86fdb7edec81,d633e78caf7ec6eb65a846cedf078cfe0023e013,331c6bfc35bd7e65442480b85f9488a8693f78e6,670fadd2da1086bc41185a00503280929e4476a1,5b8936288aa9d9337aa4a67aaaf24115ecf0766c,9ca1407fa03da2a19a01d2adebc8c2097462f455,6578b00e330ce033bd4bcdd5d88e449fb81d8d68,2fa59ef403db3b103c4885326b3cea78110945a1,c57246f8f2ee165dcb6f49624c1e40107a366e3a,8accd13ea6091d2cf912974f2e66fcfdb04d9fb8,f0992ba668a6baee433e9630eb54209a175bf07e,e6cf5350dbdb6746a9513ffc93243cde32b7e459,079af608318bbfaf16f29699b3b3cfc2f4229fbe,0006f2bfbec2b1a591585a928778217c7df031bc,8435eaf3c50c21649d8e02a3150990b27546ab1f,e4505e2a6b560cb3e061d5d542b8bfff5fa5c3d3\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/google-map-react/google-map-react"
+    }
+}

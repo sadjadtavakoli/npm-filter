@@ -1,0 +1,24 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test:dev": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "48c67f83ffa806d9b7283b0b716905261b8b04b6,048d1eecc1c0777a259a4160fc8f249fdc417946,b2117334616fa72c390d8380eedbc5a3a5c03361,99d69d06e9cd43a071ac7791196379197d400975,63ab44b86eb8b3cc732cc0cc325d39e2d7d85561,594fb3874b9b53a5a949519e33e4436d121c9396,47382ff47f1921b6167f06669f01757c6f7ad942,e2944a12b1756be6ccda2babbd9442018e01eb74,802dcb4ddd3d6b8361c81f33bd1e437811bd67ef,cf0a3a867292eb031fa721b6de5c912243eb2f1b,f023f413c55328369e52fa7595f5a111fc1bad82,39ac493e615a5e113efec68e337149356b26d0d4\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//HerbLuo/qr-code-with-logo"
+    }
+}

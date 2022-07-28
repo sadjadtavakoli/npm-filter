@@ -1,0 +1,47 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "prebuild:lib",
+            "build:lib",
+            "prebuild:es",
+            "build:es"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "pretest": {
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "num_passing": 7,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "affb8a2ccc233598665b45267612fce11c176655,9a5e31ee0f20e87539aeecb3015a9497a9c79b6e,4c5d0ceb88a3cecaa356246647d3ce4ac9a04a05,76aeed01e68c14030cc0902e6027619a0e3314b6,2750e3f5aa81abd2bc95405546ab749f7d4703c9,1e8d84d0413632db4154eb46313ac9fc26306a3d,bf3aaff1db0f9a1a042f118cdf05a25736b097fb,ae8ca4d8a15c0b8d1613f4b2b06ede205649f28d,1560c3fb9ae346388aa996e7c167edf935979f75\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/makeomatic/redux-connect"
+    }
+}

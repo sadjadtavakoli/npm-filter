@@ -1,0 +1,37 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:e2e": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 7,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "038b5cfb83e43c1a7ce5bd6ddefe61bdd550c7cf,8c55173a70ec2412f4d0445435223ec7c13b0629,9238f1cee48887b3736be434855e5b14248681d2,7f0403d9247b45d24a5340271c69eb2abb0be39b,90877f23dde568948ccbc0e4460a1aa7c421b426,a27352af74805b653d325c25cad993b8beb0c9dd,f38631b7b1bc3d6bfa85f913772b238231769f95,349c039a63a8947a722b555848ff89f56f37d77a,1e9607a5a362d83adec77470f67909df56084d13,b504ab519f284c13f7128e880be7ff71ee7f54a1,9895b27bc739ee3c1668389a24745cc520c500f9,c2f1e5187ed5ba98dc40ea8733036b25864f7dde,f7ca900075d694e2cbd5fb8d00941f66bc8742fd,697d982db4b0c4bd65552230f8a354e9d1061143,4b802ec0368aa15cadb8e013059a7a75cab9f4f5,8a75291bb3d31655e45cb5e2a0b07093c6585559,da0eba2c7c259fa20bcef74fc288c3c2c6ba5cbe,36ef39e70003b5ba94e49f8a05bf8384e144d135,92b594fc5b744b49082ab840a6aeb99416ad08dd\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/nestjs/typeorm"
+    }
+}

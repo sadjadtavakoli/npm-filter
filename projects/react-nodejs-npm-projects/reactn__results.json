@@ -1,0 +1,38 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "num_passing": 285,
+            "num_failing": 2,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "3feb41f0a33b429a78dcb8b5a7bc593e10647651,9821b9f45b05033a6d97e15b67183ab57862c2dd,8cbede4cdd9b26cc291384cf5955e26b152edcdb,eb0d0a0f7bb381c890baf1fa41a32e33350fb3cf,a6d84939f96d08889f9d53b2158d68467a00f0ed,31583581f4c25c03fdf3f26eb438943e53834585,7afce8685d7585bdd64109f80cfc36c2d5d42c5f,84370a9dbbfecbf12f5510213fff455b56d98655,036fe594fb1c937a8e3aa301c890e32aa0703471,7fcd94cf7ee796a954876e8f35e5d9476015b230,c1e466f8f076c5a745fa852b3b02633ecd1b46f3,4902227cb39dccd2fb695e64f6107ffdf0733ee4,29a477835a203b618e8454e2eb14080223a6a071,43ea3ce072571e23e932493fb4515dcd8a603a37,1433fd287053c9d64b603637d6ce8a5079c13ffd,2346820a470f39e6a47e2a161a519ae26c8688ad,f7e48f374b607b9c7f43f1420d0ec88f309dc221,e31bacc0faaed0a3b6da2bd862c6fa99be4514d1,3259ccf727ec4bd2352fbc7213e221ec9f8ec502,6d120d277556d1ae296519912a86b4b9c7042122,9e5a437b549d62d3cc4f9897f4194904ad4f3144\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//CharlesStover/reactn"
+    }
+}

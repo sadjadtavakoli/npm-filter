@@ -1,0 +1,50 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "pretest": {
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "nested_test_commands": [
+                "test:only"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:only": {
+            "num_passing": 5,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "766265009fcf92f1a8334a9f41d3de560bbec498,04bf84a1a686ce206033226ac5191469036d5ca4,e194eae0af176384fec0dc545875c458d41730b4,f562a75936f22328d8e8c3f283a558f9908dc3b0,ee588d22ceb9a46069248f508e06bcabb9408a82,8c34eb167764ceedbcb50a09df8b352f87222788,f21a638dc948bd059627b9d702de8dcd11abf520,fdf1032e722392ad6f23517d150601c0691d0d55,b71b5d96b206fab956f72e045c997ea1b8cc2b98,b280979ad06031802e016736d95c2eddcd09d643,68e6b7a81fa8a4441f4587156789c2ec80f2fdac,350783e61fe09b7d07fd15b316ed28505aac7a23,caac68bcefa7e4b5212d90384f96a64e9d2f039c,5f62982552f6aa2ebee2064ed3a82600de757dc3,b8cac8e11c40dfd039e55734e31a6182947e7c90,c8b8d61759c2e9e3bbe0878e93fc291a740a59d4,c11eeaec52781520f1af253db4a80d463b59458a,c3826648b1d8939a0f792229c8fa8a8200e30dd2,f0fd85a30f494370227da50f82c9c447ae08300a,61641c233fc010e465483af423974fe3fc958376,3bb62f8b5df99773b5c173a43813834d28bf8b96,5320aa1edce378039f2ca3bd493d51587f27f8b8,ff223a7d0e757cecab924501f73a053b1d7e069e,952aa4fbe5f8edd6060cbdac23879402e0139885,2fd73e802a70bd80c2661560b91909fbcfafabbb,c70a62da9c63effdb445ce0643535f8baa862fbc,f9e9caabd183985b0a160596d1f2ae7f98a1ce74,7ecf9c1b97464729e139e08ce0c4f97984c7bf4a,fd537b74be89d1798e395820e784f7f249eee0c1,c61109fc608e551f25d89fcb286ecf6b913d7a59,e9c31bd2256600faf4f9a818c9a73be76f214c83,cc61d34e0cef0a87245bbda3a1d138df28b740ce,ade501ace8c0b040b9c2a471a2b667aa98a09bfc,b9e6226297a439b9c12c33ed6ad8f2ed20ac27ed\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//wixplosives/sample-monorepo"
+    }
+}

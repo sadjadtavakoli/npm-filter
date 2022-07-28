@@ -1,0 +1,24 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "a9ba7674578d9350fe770c43bb9dfb05ccf4e1ae,1ac4ff696e63af4bc62b8d2f3fd093c70e7c3ed3,091912db3f3fdde83ddc93d671a3a0a45bda00f7,cd21ae7f7d32bdabc8cbc8388efdf20d90e5dfdb\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/denghongcai/forsaken-mail"
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "postlint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "pretest": {
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "unit-test"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "posttest": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "unit-test": {
+            "test_coverage_tools": [
+                "istanbul -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "c605fd8ff15a9689a94a8abd87c5f3c706c0ebea,a09debf0ac11e4d1a36750605e0a0137f2fe4728,1786e96c4bf173972bc2539d3d70f9be4be94aba,fa64144184b7e269b05e300d2b29927fbc71949f,d51bc61f42dfb4241485c912a905ba498e998150,c8917b0885094b5e4cc2a6f613f7fb6f16fe932e,9ef12137feee49de1de05a0bb399b789a7bf8d2c,9a569f7d723387b88d3f847b46dea4eb08f2731e,ee8f77143305da513acedca71fcb022e4ee32106,90d2cdf1fcb9bd490543ddb87aa16915b75ceb84,2598b1ee64df6f1814a5084075da9cd45deb8b8f,88d404d463646238c8653203e6271994e3960107,182b0459d92e0c43601c3ccfb97f8a59a2baec53,debb20e313fda8bd94fe4baa48366aafe110714f,14fd70dcc7f22dc158fa32c1d14d891d2dea2a90,56e669fbd6834258215369630eb36abc53b1858a,e14f2b839fcdd252fa65135daa8ad5a3af5eee70,08e57f8d5b77deb0bddd6c4badb239f7493a523a,9dd1350c7d4066aa06693cfb5fe3ef85aa6e589e,005dad3194ef648a60ce677d428b3b313ee1b38b,6e4f43ef4739191a2157659de178d1cd9a28a42e,fd03bd79686efb6154861518ff39bb4ef1336d47,cf43b2e71d445b73dc4f93b542faf42fe83affcb,dc28d2636b11aaed033454e7ff98c486c08740df,c0fda3f57f8027c762de27bef79c53b4fdd79219,04a42a9328a5c67bc1e6d6368c1ef6a47f9a9df7,e3638ab0c9921516cb03fe3c784d1df31888395c,8d665211d1a33d88bfbb1c895afc9ba0a1aafb09,3e9aefe2001eff166f954c3f63512eb73738a58c,b82fca29cf1b536bcdf1d9a2f457395a5bcb1374,c4dbda14de68d7d1ad0ad02909b8366655b1d075,229cc212939826dfe06c4605eb5594b8c8b1a01e,a23611e09dac5fdf137bd40f109482277cb0fa29,0f79aa30d22a8c7a861c915b6f185059b41147cb,6620a0a9b4cc025c4d3f03bd02684069f47b9b1d,095968c9f637d24049fc8b2abe2db9d1dd9806e2,10c6f23866b58dff5a7f8d16eb8b8a62cc997a66,063e343122017c1f311cfa38c94b866357d98aad,d54f1a43be58a4663d3584fd9547084939775f37,1b0cacad0d05cfbf905b6f501198eb9062feff14,4e1bcc0020834f06801a6987043e085658e72bd7,b396e6cf4d0db757e4e4e97e25c967534c455c33,f1ca75d6395e2671120699f413103a7b9cd0292e,a09ac73d5e9abecec59f4ac2ed227d3aa3480019,0bfb4c453c7a3826529089b34c732d892baecc4e,2749a0b15bdc7747fe30cdebfde7f54cd41ba75e,73f565d78b6e9aacd88364ba11347b48395dfc57\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/yannickcr/eslint-plugin-react"
+    }
+}

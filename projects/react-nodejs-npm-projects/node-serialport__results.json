@@ -1,0 +1,39 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:arduino": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "2b617748df9c8564670a962c057fbe8347704a0a,6b0e85fc14a3d7580b1e51b9492fd6ae3383f912,956de7e61897dfaf93ff458cc2a2cc7344acc666,63ec6bb7d6be312bcc8d0976c9780325c9898632,7ae6e51a84738da1999863a80f4ec8ce7acd953a,d8dda096e1a3197c52385f125cf1caf2f69450c1,463ce14b8bda6be5e794e288e4db75cc959d0093,e9b1fe75fbf4f6a9af6af47861306fb8b2aed67a,e19d77accd4e8bc77b5dfb63c3b7fd91d1d0e682,d50673fe7403093ed9a3bcea927ac0a4a83f1b07,85297bc3d13cdc3beeee52e5badb0016ee6f24f5,397eecc1daa07046145f09f6153850bc193e8785,65a622093902d6fd19e40a439ae116c7b299ac1e,859ffddb8b7671c2cf36eaafb8b6c1089270dee0,63f803f56b8e388a0cc4af0f09a067d8a3fa0d98,ab02f012d294f70e5299ca89ad28e928e9ddc9f1,d0ac926c73cbb02db590600c1f447a41eec9e511,d4f15c0a09750bdb42e5631ffc412c28b9f09174,cbb8e41315ddaacca5ba4f43609e40eb01d4cfd0,d78ea841baa8320dc0b14c37f994aa9fbc506beb,50a0c0381cc4c0731e2aac924c9c0d831528a5bb,d4ff1e1be2c4baf2ada20ef05a722f0a2ffda796,f123d2745f5d4a0998a87fd897ef265f58c7a9f6,103498e8dd1a13b36f3e730a2c397da43e138c9a,160cf33bdbf331775ae2ccce8f374ec9e0988048,2ab99d8d134ed973091727f912dc181bb3d68e48,4318c253832a164a271674525d2856f3c5a2e62b,7cee2020f12c65818ed15e8c1db70033ce86f9ae,dad88ce8996dc48c15e8d633d983b601eff62200,baecde7917630fc8e6c8ef5cde37255c86795bfd,1523233326e2c7c7f460084372db04ea05d8a7c7,7a81d76e1669fa81ef1494766eb7eff8b412f43c,4cbab5dfb176773270a98a070f7d10c02b35a52d,66e23a590e54fa6756b6cea80e0af24520be647b,9279bc9ee62207975ed9203042877d2de8a2fc78,93e82dab3a2080637f5d6eff55d87e434b59ed20,94ede443c22ce75f9df2ceeaaebf676d96c3f784,f68178f9bf050ce8dffa5b51f8d39ecfdf643ddf,826545bd0a87ef015edb5b0ebef784be801eb568,a31078f054f23c47e9de7cc8b1c7e79d6e4e6c0c,4bccb62e478e5eed189bb15eb1cecbcdde5ee579,792459d81285cc10ff955625cc1a036866bee959,910438c2ca349a717eb45b00b7576e908b1d1aeb,60fc0472891d1ec642f83665a41937d996b5d369,61e23d09079251bbe394d835ab9d3fd1715b8beb,1888efc944395795518cf4f9f3dc239b1735db7c,6455ecbb518f3644188a19e823db0910e0abd955,94a41df9ee6b7d8b098d8666472af40505da0895,06543aa317699447717010711d7e0fa4de355c59,ab4b55c0a098f0c2f59f4b2191d2cb224bc9778c,a98e92c8985cac69f04ab4c824a1cc102ba12c7f,c15eb841cb817ffac2bb82d99f8e9c513496d449,efee0cd46f91c5821d376e641dec06cf573d9dde,3d509b12b0cce6e090275cc64851885f72260a8a,dcfe2ab4ee42a680c36aedae4492f7bf4e90c67c,77c4ea37eb30c217f9a64ee99b9c7154123900dd,9a98ede77f42820316b6e629e722b165f3d1e40a,bd959f23ecfefc8d9b1f0446924787f55d6d02c2,3ede1e252e2fcccc32ff0c27c8ef07a6704c11e3,b9304d5225a06df1fb68ef71f2138d0eafb66745,540a96015c853649b4adfcdec22dba2ce42aac40,a43a67d27a070e70e46eb728282f10ce8de2b163,9662db62326256e9914f0711a5c5b9278220bc1e,c8442b160e7e163e5a88519118cf179866c69cdb,35ccb6980e481af41d95482653bb1bedba61647f,fd89f18bb4b4ca73d8e636ecd171524f9f610004\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//serialport/node-serialport"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "num_passing": 28,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "b1b9051c08bfd5566a750f5438010702f6f7a724,b0d8d043bd6ade12c871fdbd22227c23a58558a8,850c55a2b6b8192572f25bcb6a4a969ba1c27f1e,701d5cd05616b7996031f4f92a04a5a2da0904b2,3749a633323a7aed1f1f193168c85958cb2d2638,ba610fb34e835f4d6125a6815fd2f620150da298,507c25c712d70893ebe558ad76e3b7a5573b9a26,de7b0ca90ae464fcb4e2f40d03b289555c101a99,15c465c149b3189e2e6beb673b7b873575cbd20a,510a78fd793300d0f191b12b036a6578907df804,2010fa4eb13d42e085378484d3aed6f13b334431,c15013660b6409b914817c2e5161c305204fdf81,be944c0b56e9ffdd33941315ba6c01b28ba381b0,b1dbf6123e75235a5ca69a7cba4fcff17c6834eb,b5c27b901a2837790cc4f5a8d5bdcaa2d8300318,c1227a947c9214eeb0a8272ba7fcf1745ef1cb7b,71f7f2dd932febe816f452a909da5f98b9244c96,38aff3f1c4661a314f759eba192cceeda79f2f8d\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//greenkeeperio/greenkeeper-lockfile"
+    }
+}

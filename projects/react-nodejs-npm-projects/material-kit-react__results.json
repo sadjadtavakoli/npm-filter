@@ -1,0 +1,29 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint-fix": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "f8ff62c231c5fd8bb6de84ef2f840b01f6f75e5a,8e8abdc0c86a0d72fc5d74b2a677604e314c5521,bfa415e6bf7fdb2dca79f35dbc65cef315709e39,b409659f062efac7410493f35132a655d01945ec,fe425a92eeb85144219c9ebc4d2c3e0162dc0fcb,f8a775026dffdbbf02ce4924982d766a986c0e4d,1322c88c17976d25191d29956851d2487d44d438,7d30afc788fa4cbacf656e951853f82c52a369a1,284630550721624a0e674a8b4c1fe5a926961c48,ce2213339985dbf06f34ef3022ca3107d91435c9,f12f256e406be56e5c31b7e4d504d5e847451deb,8236249b9bba16925e3f4a4df074a10d644b2a3c\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//devias-io/material-kit-react"
+    }
+}

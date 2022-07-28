@@ -1,0 +1,139 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build:main",
+            "build:module"
+        ]
+    },
+    "testing": {
+        "fix:lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:prettier": {
+            "test_linters": [
+                "prettier -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:spelling": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:unit": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "check-integration-tests": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "check-integration-test:1": {
+            "nested_test_commands": [
+                "test"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "check-integration-test:2": {
+            "nested_test_commands": [
+                "test"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "check-integration-test:3": {
+            "nested_test_commands": [
+                "test"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "check-integration-test:4": {
+            "nested_test_commands": [
+                "test"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "check-integration-test:5": {
+            "nested_test_commands": [
+                "test"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "check-integration-test:6": {
+            "nested_test_commands": [
+                "test"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "diff-integration-tests": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "cov": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "cov:html": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "cov:lcov": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "cov:send": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "cov:check": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "c16e8589f3a03f182ec1508d3f0e1883ff84e30d,390041b5105c45794518b1819702375ab57928fd,d1bc9fa173bf7430b665aea5570f988a37bf36f8,f033e7cebc9474096ffa80f6d3b208c6e892a2b8,310502dfb1b49ad379728dcc8645db2329ccc6eb,8a692bff9766a685d7c67cd3b25704ad57912862,2ec374118258467f2aa1ed278de20e6bc906cc89,1e14d035964129be487247cf421b58e74d610711,2e0a9ab98d968a9e88ef7ce17515302c5ed1d5f6,bdaafaaac09869ca4fc963f1bfec24274e4786f0,0c3bbcf5810e66bd1f7566a9b620e51c61a77040,83fdc67c50b9b08717aa81c256963679c1b847b2,7ae6ec868ea5f8d135e4e5074bb5bd7103965b44,ac57abb921c035530fdee9c74e663cc2da1b193f,3bf7a7ea0b291b85d41c9ec59058c8eaf1320ab5,583915a99e2ce5dfabb1502e2b9cdf3842ca79b3,ee930cc8e9913fff6eeb67f4ada0ff9bd22866fd,a8e33afe0b31d04fd03e45721a8c8590991a7cad,325ebba0da3bb96e6a8a3abe95274a13fc7aa90c,a0541f9f9b4d17d0e03c9990d8292dadbbee2c5b,260a7d37bb804c47396951493f5b170740799248,76336c88db1d399821ddaaa6ea19fb523b87a049,a211a54c1f9098bd996e8df9a2607be5798d0af0,1111ba297e65aa4062b704f56fe42c606257efe7,1fe0b10e630d072c6d100ac1b9b3f55cb97b0cbd,01f67d103a530e9f06a5440b53c5c55cd9ed06de,3c6f7b7419fff06d40c8531805dc80d61a4ea789,5f18048ab7119bf5626546d004c227152a1a6c7d,7304e24d7743d480c45cecddf43fbde11a55e9a7\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//bitjson/typescript-starter"
+    }
+}

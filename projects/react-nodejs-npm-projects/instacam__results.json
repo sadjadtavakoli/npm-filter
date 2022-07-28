@@ -1,0 +1,20 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {},
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "ddfbd04c47c176bdc54b345ad257459ada32f7f2,b87d37074a0bfdce47c93e1026acdc696468b9a9,66000378bc3c177bdd0bdb5220800c97f6041594,97ce255ca34b7c32ad945bb14b49345e592fb4c4,73329f0577b135b6bb1e2ca662c1a11cb93db613,efe3a9384ebf2a22c2835d51cb78c70198bf37e6,a468e763dd18111e089b15ddecb7454909ccccdc,d67a529579de9ca329ce7a2eca25ac333de00234,28140af26b7864e450759bfaa70aa1ade66c1958,71f2f76d288d674856f3d4f06f7e8cd23dc4a703,52b93a3e873d1939c5d58f8e21622d856eec72de,1cb2e0f34f664c5308b7d87139f9d300bb5accd4,0122ac4cff4feb5ccb6f240208185ca1c3cb9fbe,c7d79fbd452710e7a9165d21ca30e163136772a0,7c789fd83fac82f91b7ae65852bd429e9cce7f09,91d48a86b6275a1c343deeeeb8d8448679bb6d6f,4583651c63ff08f5828b6b245beb38031d93b3de,b9ef647ae9ab1297bdb746c5da28d92cd064ded6,5c4a29e35bb1f4790c6e65d64e54e264ef091a6c\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//xavierfoucrier/instacam"
+    }
+}

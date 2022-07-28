@@ -1,0 +1,27 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "63005e5e01330290dac91f3531b982a7d3b3b50d,0da601a4a0d01dade61ea59e8f8f7d9ff408729d,c9a3ab099c7757306ad1e27e048d9ba2d7184bb3,8315ca4f5036ef93193486bfff5dd6cd7edd52bb,ee3aad8a2f33e147f0cd001917ce31acbb9b37fd,9d5238b0aa1de2368d74e4a0f5f8053fe206f253,53349c75738ba2d9f6e733b46d46404bd3e6f28c,bb7f57e903e3574cf49355b01b2768fc13a06307,26e11e55a2a3acd6ebcd156de0c26326e864a1ef,acc9016d39c5024fb2c48f4e1b8726cc973664dc,39b6b99f4df8744b9bd433b39278d16de51b9fd5,8588800025b905605b3d4f0b8165d801b05b5ca6,1cb79b27f281bf0b264a99fd6c24e74153c8fc2d,d6a477d0bd4430f2bb71487cd6662704808c3e0b,3d56cb1db0a0e19aa7186f3628902d26635d0b0d,b84a04adb00bcf8205cf750cda5900b908c72d1c,b207df5332b9c6a017d6d12a6ca5b405d128b2c0,65acd94271bd9683c95bdde260de434d3ef8b0a2,40c7008d1aea56cdf80b5ec3e21b50d72d679851,adcaab03fbb7e275993a7ca0bd9f88c6d8a35f4f,8f4b60c7aa41bcca611f745dfb58bb251a742e77,1c44ddb8eaacfc3a36c56eb367ee93180405c008,78f133a075fd784757f0b0ca3144bf4342299b09,5f52cbcf44bf1515d70ad54233e73c3ddc1fc40b,0c6cc5512adf5d252b0cd9aa0b7c4c4131661c43,6b17b7d96b2260021802c84304058f686480baa3,860e08a3364be0262254eaa9ad7047bbf7206379,00746b436708fccbb6dcde5a06d55d3c414daeb7,12679779cf10a5f1bf80b7baed0e4bdada56c924,848bf44f3a5a4ef63dacc381f862544c661bcf78,9c48e80748e7cafd8b9332f304f42004dfe2b4d1,b73c16c8c47302bf714c472b296a35d9d1d3445c,035d432b7ad3e66bc01f4a93250a9be1a95856b5,4700ddb4a57197881e7700ad725df4c370ccd23c,9dd4c607d0152d2c74d77e8320169459f8096b27\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//alseambusher/crontab-ui"
+    }
+}

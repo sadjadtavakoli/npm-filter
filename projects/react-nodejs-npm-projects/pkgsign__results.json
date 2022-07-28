@@ -1,0 +1,30 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "num_passing": 15,
+            "num_failing": 3,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "3fff29d9abba5cb7a2ca8b840948c1988eea9b87,f676d69101be76588063656d96c212e49cab4da9,62313ef9f69f2b3d696674e6ae67ae3ebc9e12a7,3cfa4ff7be3428ee98d90b7e6078736a804fa839,7f0da34e275a594998bcebca04e3c8063f355a2b,af24020c22319164c40476582ccc4cbad3381527,c437f1cc67a94681402f71d86be69e9c37e1fbd3,8974cb29aac65817190d38857f809c7eddf2560f,d03f06ac8cef40b80648acbd338ec085851c88f6,c1baae31dbef500dd284d7de2dd762ed21b4927b,26960b8e767b2fcf114b892ff30926c7ade8382b,911385d4130b2f218303434c99d0b501e4783044,2de6a6c8653c50d4d2f2823d7b0624db5e708132,a768bf01b0336367a14037dc238c212e23ef1734,40e0637544bca60929591ffa9c5a1059eabc4b0c,dacd0bdaf1120223933ee6f6cf0771d0a0961b7c,3024f12d1962a973cb6ec5dee87f6b6fe2fb2bab,29393f70cf5234c080775eafdecc6afbee50432c,266e2ce05f78b643bf8f78ee62e7e841e23340ee,ab0cf44cbf44b3f9aa6959a6cd71423978ecda24,75af4326b10792e466d945bf326788d866bef3f8,c2df4a45183c732e9d57e038a9e1b994065a1a9c,5223b15a87dcc0d91f22bafcd7f1cae48c7bd698,3e39589f3a9039364259e842ca8f5f5ba8d1594b,949d7dd129da128fd7cafba9a2e277833d9aca84,65eda2ab89d26bfbd65ce991a640a1d0f4cd00fc,c1d80db905cce90b159d1b8dcdd29c9f6501b40b\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//RedpointGames/pkgsign"
+    }
+}

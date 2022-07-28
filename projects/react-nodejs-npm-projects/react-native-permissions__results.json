@@ -1,0 +1,26 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "245d4ec16feda700c4024a94d72b312b17c9ceb0,9cd44846286e8a0f2aa7d46214ef001b675e9301,fcfa37c95fb6f6529f5ea7567f38c1dc5079d2a6,4236bed96c3468c10ad62b4a426831b324ec513a,644fcd054b49769ed6fe14cf5fe5bce7753bc579,96e7aa5ae50954eb905c1984a6bbec8e0dcfb448,970907d5d61ec9750b3164991a5489ebcc44b568,c07338ca9fd980d7d7cb4973c8efbf0045f5f5f4,02558194367a4033633463670898c9228fe19b8a,a32c59183cf71a601c1ffe44d5e9427dd5d2a04e,53b7ca2b3cdc6de5d4acbe837365cc57c2ebcaf3,457f3e388efd866fffce61c780459972cc9e2e11,067ef5d4c4bf86c0312dbce987a7488de80f3999,8ceca9aebd550b882486ff7add2e1bbddd02c90b,9c3a9070d0f424a2987c27498505509e18f19e5e,89881506a2b33f62af57464fcf8ba86cac2f95c6,d96f543548e6a45607e1a14cfd07aaed92d4a2d9,0f460401a87fb466bbc160757d188c17c92fcf4e,ea8aa1a83c78e30381db3e47a21a74d5d31f56cb,bfa5993ca9f16d58f2cb74c0e3eb16007ae8505c,55634b4c80c4f00e848742905007f8fdb8538bcd,35b68e7db3f159bd9e2a483c2d9a00c9e05dee24,7d868238da6191a1802e875810f0e3ba30b21230,f98e73ddbf429d3cc3675e6bedb1b3c370817691,3c27aeaf40bef523ab83d48f655061aa152057f6,306e6928c1dba18ff46c9ff2daf09f2c4e015bad,bdf121d038c966a0541eea16923731765ef994c8,04a42dd234997874f89f5fb90798716a3792f417,eb873691487e97554a5b5f501309bd5d861169a8\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/zoontek/react-native-permissions"
+    }
+}

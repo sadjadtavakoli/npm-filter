@@ -1,0 +1,38 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build:bundle",
+            "build:compact",
+            "build:light",
+            "build:custom",
+            "build:es5",
+            "build:pre",
+            "build:lang",
+            "build:module",
+            "build:all"
+        ]
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "e1cb65473cf938b2e86c41e63ada4a2b6f99e4db,86a5dfe97919a91a4b4688b95f46a290ada44893,8ee0e9c3aeda0a00494eff87e467099982fcd15b,0c2ce73ce29ee69b5873ca5cd2e4e297e2c0d460,0386c3fc94b37c1020d85a105a08573ec41074fd,a68e6d15dead517ac929685fd9a732a95eb4279b,f178c7a5fbef46406517085f6c70be7ed511dcc0,4dd44d2f6b0099cca5991ff1b8eda29be0b67dce,9852a700282ce0cd718f64b4ae8117e81e33be7e,97cc0d9cc7bb45c7f1acc4e54da6b47eeaf0be37,0997910f4dd1a2781df9c539707d9d79382cfee5,46fca6f9bbae7381307c19f94058a9111cb6f0bb,ca2b06baa431b4513c506f31e98524c49c14f5d1,15a6e2b650789305719b194abc88dc3b4310d370,e66e98c2130fc1122a8f721ba011bdb7efb1663b,8ccc4f01d922a534e8abee3c5a5ffdc6f824a49d,34712d8d12b943942f192fcbcfc20911cba02c45,2b5d9ceed743a2810890ecf492d3a6b508238949,54fac055ea62f7b61032563c1da4d496006ef6f9,d6a9ea007a56ab1c413432751c389a065ee0b587\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//nextapps-de/flexsearch"
+    }
+}

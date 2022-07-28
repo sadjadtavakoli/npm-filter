@@ -1,0 +1,56 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build:node",
+            "build:browser",
+            "build:cdn",
+            "build:max",
+            "build",
+            "rebuild"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:fix": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "num_passing": 64,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "test:coverage": {
+            "num_passing": 64,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "30a9cb6c4c1c6c79e498d07047721addcd8c1dd0,290591794b51706afd7fa83651b0f817877e1d63,5c4f2e9df54c4e5d03494bcc957eeea2af84f0ec,60d436988df358e09f010a38bf91919e5af502b8,1494b7ba57fd9badd4ddb48890a95ae6998f472f,1798364056f39281b8c3706191a8accfce2af97e,f22f1d04ff397e0e07b2511dc0d50425d15762b2,4d16777a982d90d98432645240a2c116e566ee4c,b15bb3812107662fb35c39d7ca32fd5620f4c820,577bd3c3a1fa54e6babbb83f6707269d84906530,601035a769c35b709e7f7c03a764675d9bc9f99b,ea52bc92f4a9608742e87ed2f53c69f9eeba0766,d3a23f0fb0bd6edbec7ebe8c080f8abcac6d3966,ff946616aaa33bd57c1a2dd0682bbe7c4820c27b,c9767d75f1280116bf14483c178939aa6e6bcb26,56c4566330929d27d62e57ff79459c2bff527c7a,297d19d02ed60893fe42a605792d1a0d04a7a83b,f3daab3971c36ec5dd622c3758b66f67e1a08a9e,4985a11f2fb780fcf67d438bd7559feb56bb75cf,0d662f93a79409592d7acbf8a6a998d7ba008b35,e8b6607cc8ab354961558c2843f71a2a4d7379ad,8a573c5caf0b47f0e1e499a87f5ddc8ad0819c9e,9d1a3575d598336c9f4641513ce7cb865a895baa,8e89feae1c83239ae24618f27b9e701936eb7487,8c875564bcd4746df52c9c300b6ac85c9fe45d32,1be690818a2550635432c91d4b82c467136685a6,fbbd8afda79a2182ca6fdf0eb98c602295fa9d2d,60e4ed4e7458b9e2039768a0db811e8e7a55ec42,9be05306303675599e7b5e93621f118374395f02,5737262fd171ee8fb52f4d406ce10bbce38d8ae2,a2c5b24a49d220005357e5f37eb2fd52ac88b7e9,d0875bdd566573dc9f6d867ddfbbb58c232a90e9,e435335b24776fb445e2f2c4353290cb0f01af86,4e64f3cab4b2d0f09d78f93f0ad9938566582d5a,b502bbd52a75052ac614882888df106c6638bde7,7e7ccf83741659217cf63e28b422ac4262c02778,71e28d86733048d60a60f7fb710a050d5a6c2e83,9ca2dcd780341bb6cee20d6c76fcc81de4349ad0,22778d2da7af5bab4be05b6804fabfe2de65a5a0,513cf4d7cd027aea85da7f7c03dba3993f659a3f,21d1234cb460460e3e075fd3a5b6402c755db2c3,f914eee74f272ad13fa4b751b14f7c4b5646069f,ebda52d7a2835f28b3ddab15488c22bc1d425e7b,b52a0db2ef4ead5e33a612e9726d57c0c9137162,a24ef80d993207c5b43485286e874cff5601d1b1,e0af4d73d34e8ed7ac451ffe4ecad75391828d96,8c59c01ad641e690a0763e93ad6b6717cb3a98ff,cbc77624dba006b756fcb61f1edb8df6cd900663,d27120060a973357f712c19db09d17e2aa30d820,447703c2325282ff7ef86e21c02adde9ba7524de,b2f662a2af8397a4bed20b272be309fbad4afcfb,6c6436f72573811407997956394acdb6b96ad086,f790fd3db05c61098d5b4742e15df510f8203ce8,546b249e02958d0f7a08d4c5b0b6d6032816fff8,d7c1a271970a063d4b64a42a4ee6f3a0ed6fe735,3c43e88ffa0c9832b2463f3a9454df15d5fbfd13,78e822d9d1de500d63814bed8bb8437615c561f7,e36d5d38369f93ff02bf9d9f77fc8a2156036b07,3c463febdb61bf216529a1416948850573a54770,4b05d9c4f86b66177196fea0d972bc9563956478,87c98746a7b4086ca4c3673669f7209e619fc59b,f74a434c7eb2a94df3783290b7358357adfcc5ea,4097fc5b6825761da055f1b774225d2f0790fff1,dc8e7691819fe277cfa803bfe4ff8f89a89541c5,0d3d4e4691009810a7cf63671e61d0c3268ab515,426df7c5d02e5801d1b934ee1ec9ff2b806f9061,b2717aa796bc6f9323141b5fcfa5f7457cdcb96d,43ee33b7f0f313b372d85969f413fdbb133ec8f2,c9372b74f76f6d2cd33a3f8eaa8ed3ba3ce52e83\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//scribbletune/scribbletune"
+    }
+}

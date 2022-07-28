@@ -1,0 +1,109 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build:0",
+            "build:1-declaration",
+            "build"
+        ]
+    },
+    "testing": {
+        "check:dependencies": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "check:lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "check:type-coverage": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test-ci": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:cli:positive:custom-detective": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "test:cli:positive:glob": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "test:cli:positive:multi-glob": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "test:cli:positive:ts": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "test:cli:positive:main-as-file": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "test:cli:positive:simple": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "test:cli": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:mocha": {
+            "test_coverage_tools": [
+                "c8 -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "7ff42261edafc8d6a2d6ba902bc85dce92f182af,7d86505d8afff6d65ea3e35d523598913d48a71a,a82480036af0a50652440e2f39f34c9bc05c74f7,ed44b04343e7c802c3b23bf130b1be2e49ab1f18,0bca6130d1e75231930f64e960ad6621c127ee87,f0af00c35ae8c92e6bbf102770ce4c832383e598,89cf6b9f68f868d9e4f648adb0565715c4de5e06,dbbcd6ea33fd95e802cf40f6c1949769afb31076,ad4a9ce011925eff9931ade956ca33aacac24d99,814f9d6e9bb8031ceea02bbda78e0a226b963078,b28b1a1b8ad00216d118711892d1b239a18c7fba,8d9d6185d18ad9c813ca258cb6a91cdd8da6c446,d586f4de8a016be83f69c87d4aa9e777149a424d,8eaba08a78e800f34063540d17c0b2e317a2c128,55d282e5483257605dfde937a8c8ecd087311e68,da6c139117a6e73da124f014a685356fe870cbd5,3a4e5764f10c2fc9237472937ea949cbb59e2de2,c49b3acb8e54bf97212aee935cce2408c79a4130,b7aef202070c354ff46f2caaf215b41b4e318c0a,ac7a817e3e70996332081d99c3540a519ffce825,28502b5163ff0fb59ae5c09ed262328473c76868,5cb1030c5c7c5e37327c327ac762a335971f1028,346c6b8118c3af120a16b176d53718c429eeabbb,24cb80c4133dceff63064e7c92a6b5a0fa3b2a4b,0d4dbdb6717371d41bf040f52fb72d183de8710c,241e8b3ed0fcb0ac6a15f2e169df49baaa519c68,ed9d2df97b004eebcca7a0fd2f30dfa793123062\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//dependency-check-team/dependency-check"
+    }
+}

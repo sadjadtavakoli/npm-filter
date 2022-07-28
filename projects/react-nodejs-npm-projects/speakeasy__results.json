@@ -1,0 +1,39 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "num_passing": 149,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "cover": {
+            "test_coverage_tools": [
+                "istanbul -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "a8c306ff14018cfd39ac59779ef5eadcd57c5213,d6a2af2951bd5a53a2f97d85f90f87668f40d9df,508332e8222e13745cfe3747130ec090b3122f83,349ddb7c5eaa80c53d9eb424854ef81990511942\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//speakeasyjs/speakeasy"
+    }
+}

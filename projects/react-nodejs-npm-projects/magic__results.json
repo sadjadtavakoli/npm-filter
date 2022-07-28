@@ -1,0 +1,24 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "91f9c754538d04b807228bd9da986659a7f68566,6142ee4fd5ac5e48b94ae7d8942e7b06a6eb5a3f,623999bc66b9f6170fe05398a1e8ac9d4463af9f,0344dafcf1054b7b8c40eb0887996b3e5b0d382b\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//miniMAC/magic"
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "0391dcf88b69c872bb92055640161467ce8226ff,940380f0b206413bac437a178f576086dcb5aff6,27337eb6381458226ccc92e6310d67e197d62d15,44684472c6f52dd0938ffc3a28d3176b055e0637,8a6b4f982126ca7118bd9dd3a5c944d91469f3a8,fe392be9cdf80add0c69683fef4282bf4a5cd484,5721d36b5727d40210fb23938c74bcc2c87e0dbb,9c62a4fc2fbba4e103d550fc7f91aec5f01c3df1,ce97efcfc0fab33e071f3435b6479a28ad94d5f5,96ca862515b0d179ecdeab9633a5c79aa43b6e28,51a61804559b333a9ad6d9949a7852661181e9a4\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//georgjaehnig/webpages-to-ebook"
+    }
+}

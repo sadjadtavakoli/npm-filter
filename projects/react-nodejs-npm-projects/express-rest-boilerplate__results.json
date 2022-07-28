@@ -1,0 +1,76 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:fix": {
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:unit": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "test:integration": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "coverage": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "postcoverage": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "docker:test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "eb50c0ef713b2d2409d04083a87342b86c675f9f,9e2189f0067c416a09d951c95188bdf2778005ad,88f4c6d21eda9382da6800f175b74509499e71dc,60b4fb854b261467bfb942d1a73c606751011e60,678e8cee77a4e1dc47396af29480476f9b541d20,2994e4194cf2f56e3b83c3f76ef102ef341d5dc7,944eed5d693fd8f43300fc0a3c353cb4fe184c84,941e2aecbc529f072c614f94fe665bd7b3328dde,d117ce64551b5c2aebff50a6d4f8475681002dd6,9439ae6d253420cf628e89f92b643668ca39f20a,34f3c3854ee54f65273954e9e572ba5790de106b,8b57c57dd94fea12749536b5660cd84a37c32d92,3c734f6329d872fa9a33cfaa2a53eb6bfae19c36,96be0ac028ebb0dcc730568931516f97633d7dbc\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//danielfsousa/express-rest-boilerplate"
+    }
+}

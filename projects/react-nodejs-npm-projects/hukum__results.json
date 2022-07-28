@@ -1,0 +1,26 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "255661b5767ff4ea237bb21794dd93912759390b,f20feb3cf447d5e8fc0cd031f2a265e3df64e4b8,620e899a9f5721a3e7348629c904584b613c85fa\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//abskmj/hukum"
+    }
+}

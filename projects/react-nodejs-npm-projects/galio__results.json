@@ -1,0 +1,35 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "091299161efebae79c27b64d79fc7498a166e726,cb87b4e5eb1179503982b6868700289ce12e5ec6,fb6ab6cb2733d31420de497ce160f2f3d8d9bc73,c78b25f2c275502ff626d6bba41fe6a8f3297594,a36cbaa21b105336f708c9643d2f2fe12ebeea81,d118e952adb6ab9b970ffa0939995394e083615f,053f937bc1255c1988b793444fd9844569e1a4e4,748540fd66d2f7143ad6dd1d56710dfcacad07bd,c2d83777160cc1e70b487be0e88396424a696ac9,386a0e36a7b1515109858ab4a8f9afbc75767b50,25ab66981c2bdac6600752bc4e0c2df9d4608fe0,93118452181912cae394b55498ce3e0521172d4e,f520f390dc3b20fce26894c67d8e9db3ac3259ba,56bcb23f1140da0668e56098c7f6efbd3c58577b,66cc7e4222f0af0f8e56e8cfe6739548fe59bd4f,e67d9aab2a33ee8b5da3c6748ce08c6829d00229,9a3253e2a385d9023ac932de5d30e9cfc4ff1440,37efd0f7fc9c7d42476f730cdbd9b1a342067435,e738e7fdfc1d545107a6ccc5cf7bb9bfb3282b5c,6f0efa242513ae1c19feff8dec8029d25e8eb888,8497b6c9fb526fc965ae84e45ef64c033fcf174d\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/galio-org/galio"
+    }
+}

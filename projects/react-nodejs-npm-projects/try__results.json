@@ -1,0 +1,34 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "num_passing": 1,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "ac5762861fb1128765cbe86e7d6a4e80d184aaed,2b03482520db69817bf5d308dec257e41a7fd759,8764ace571938eff10c3c0d5ab6fe7b0ce25ff58,940f9f81c511bbf869d4112ddd87d2f1b604934c,550fa93cb6a7f10cfac83f508674d08798822d1b,a2fa8ba1cc3f1766b62283208f86704b72015ed1,27e3e5a67665fbc75bcc22c4b19235d70d93b056,01db00c809334ec969f33b38ec2aee11672fd8d9,f23daf4833fbc596ad18a92c06a95fceb9a897ea,30f8ec66ff3e233df1d58a994b29f1dc94ee04f4\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//BrunnerLivio/try"
+    }
+}

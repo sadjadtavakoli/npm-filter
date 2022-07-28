@@ -1,0 +1,30 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": true
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "42f7acab0266db85018b03952be1adeebf116ad4,3999e089eb19c1d5e24205643aa4199d9acfcc71,f77f8c5bf42f11db88365f6e5211a7ce2d912291,9e13b46ec9241f893318724f45f0c8035d8d86d5,12eca5b68afbc6d8bcb383403a2c47192dec918e,7c40c1bbc9ceb1564b1fa985e494e0b09e6d0f80,4ea6a264b29cdb63584a61f92c266f63949f90d1,ef197047a4413239eaf64bd04fa21f0e63c634ad,c4e188c4e09623299193f9c1db4ca158e3c4a426,e880fc8b00ad5746446e01e248809d45f36996ee\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/boringdesigners/boring-avatars"
+    }
+}

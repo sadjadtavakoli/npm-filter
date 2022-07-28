@@ -1,0 +1,47 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build:esm",
+            "build:commonjs",
+            "build:umd",
+            "build:umd:min",
+            "build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "num_passing": 49,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "posttest": {
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "ed9a191ecc6063b7f3d11418771088bad863d251,4781828c0254a58d7905c3d2d8cdd31eb5dc59cc,71537ff8af6c0ed8decdf6302017b79f39a2616c,87ed567e135aa0699f4a35d085292d36aa4c7cee,218bcbb50e78b5725f4285b8ad3c58ed6e64718f,4f3446faebe96b586b8a143da537ef531c3982c0,d8900ab133f04e8264d568e9e95312ef11b97382,9a9ee9faa649db8205510b8b655dca4008fd88ee,c035ab8fd3155c28a0d9b9c3b9d9693edee32202,3eb85b5f5f8f5ae50827f2bedb1eced83328c1c3,b093f7dcb1a476cf355348cb5854a9e586cdc5eb,06a69bbb99b971adfedf07bbe7f2b1975051d674,fb419ff529433c424238aef8851f8fcc430b6a81,553903c562eb7c49d5f9cf1591268ada3db79fec,8972f49e9315ea5ba335fa559d27e09e5993edf5\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/supasate/connected-react-router"
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "coveralls": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "coverage": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "6456101c6c51c4ffb1e06c5620096d4859399d66,9116c573641d77726b020b308c31f9726a5788fb,fd67cf78047826a20ea625e591b7e6a80fbe02c4,fa1d7c0bc1848d773ba35ce73a33286c61f95024,0237d6ef649e44d6517b96739193186a4844705d,84175634cc0155fd1331dc59502e225629e0e978,4c72f270a3e7bada9dfa552f4ede8dc89885a130,088a6bbb9d328b88a75124567e392d0c9cb89b87,50f3814d3f0d9950f671af0629f16769ede1f4f7,d96154a8a85e2898358637190b89904649a5fd01,57b011a60db84641377ef1174bf3861cb3a3f8b7,3888b51672d39b38799c125969321caf54cd41c9,43c63eafb4008cd52220ca702e2524ff93c4e858,e1d9d4c6bcd0dd0b7d2026a27af0bd4b72f98eb4,bd0f17e7735b9a8673f5fb7ee880d5b0aabc3305,1517805b5ef3c18d41c15eaa409a59177707db0a,bea8875e17bbe9bfe812bf6ae388856cb9834bb9,56b8b99e17ff91dc0a7dbd0f7c5073b1b388f572,b40b5a8b00be95b11df98bfc683a8e80a0b1f274,8d60c8c76411ab9784b56b60a01936c70d0b3ba2,0a5883c7792177b75d66af5d3335cd408044fe6d,03a75d98a2546da82a0b436ad21e07b665727c5a,87c7182381079839ebccb05f1d68d1c0e1ff3962,4df3760b233e6b986afc256e6b9c90b639304a6e,5ec2fe336bb19e862f561c86c43bfe06c743ac58,cde9448dced25a2568bb0c59e40f0bf7f5197dae,f003a665a5f2456298cfc4fffd21c0a7e66c15fa,f9f55fb9f98e00e74642a817804b4fa70b0116de,be6816d3c4d0c32dd14d802bad36524ffa3b96ed,7f4e921adf51b04930b63437562365a3537459a9,9420fe7bf2d61c1dca8197caf6956c4abf286269,9f68f2933cc606fe2866e4a69e5441b0b68cc67f,51e4757d81eb7c4597752fa7b28f3e92bc777975,b460008affcc1e1acc84e47820a5522708ea678b,c5b2c2709cfeada4fed10a2f7f585d5822f0cb55,ee0cd3764adf81b4c72161bd36ea48d326a00aaa,ad69395a852c7a94d63a43cd0506e6f1eda4d33d,be502f01ae04e7a683609b85754b1eea13c1a0bf,137936e22e205347ae57f3948fa56f09fd2a7a11,4ec8b3a7d4c4e21b7548b35d3da99886120067f8,8f8711634d511fe55b73bb8023a7a888fdad2268,9b25675e27ecd8b3cc5d5247f668ee657d19b73d,0cde8feeffd3bd4a296892ede8b511e4b6752f46,5804fb30d6e917fb2ce4089ef15d04eae8a6069f,388da92b44a0489ddd23af3a715828cd17359398,1a5f49e2b4565c16ddbbc840ac3cc71dc9af8695,d27ca998c8194b129af2a8e9f474d7b118edaa46,9a1cb47dd915f359ddf6df53cf68e54a73fed937,601b5a56270e52801be252708803026edddd37de,bd9b805bc13a66020ac764fce43be743efdbbf9e,0fa8bb05eb7e00748258837b5dc3b6c38945e222,ed7aefa32bb5eb38b58374d92b182c646f9b9689,2a87b6583abe437037a2f223c639b6cec81ab0f8,05163e7f0c3e81bd9d32efb1fb45c15c34ec5f64,e0a28e2cea40c714f704e9b6e449d1ac292f9d0b,36fcd149afff99504acf43551c8ebf1c99bcc2ba,dbfe24862901777a16c4391af18a468cd4825b6d,036feb2dd4bf2f44a91c502b872f9a44f3bc5695,30b9a87ed5c7dc93b648d0b4e75ec95737816f8a,a6c4e7d42c00fb224c1c1637fae3355f2c339696\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/conradoqg/naivecoin"
+    }
+}

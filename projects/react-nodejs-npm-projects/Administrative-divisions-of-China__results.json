@@ -1,0 +1,32 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "num_passing": 9,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "3160e380d069a95945a6157cbc47c89db7aab69b,c893e3b007c0484b63b184efa237d35251ab670d,a9f6e38446d29663997bf46d912c000bcd0b2dcb,23e6838f0b28d6c099b63ab4264d16f2f7e00b5a,d03c3364cadeb081a953b73d6e048846b07bf776,e91cd0e78abc3957a4b4f1e22e35f39f63ab2dc7,501d67085b09426dacd3781cf93174547e813e5c,269de571f15110f8b31e1da195fc15aa5e741471,5980752b6ab78b664b84e7eae6120f98227cf461,3e78d8a6022aa439bf82d2cb699370330489cd59,cd0bf0f7197b6f7e3cc798513a182a7384b393bc,41d7cc024857582345a32f3ceeb773e39b55b790,c4b53b75ce8fb3e46bf77538a37c0aa849d64b9a,249ec1e6ea34942c0dfa827f00cca9792cf81a4e,105b9147073d978a06452944587ac849118a3bd8,d379e68f8a97590b3c6c0dfc627ea7d2a20e7d64,5b44d16e0cad3261e0aea29e44883436ca965dae,d5a8cf3e482af6fd9147ef84444f2f910252a564,4aeebc99a33f6edf710bd64faf29bcb713443002,05a39dc0eb8d123855ee2bda83b5658fc64abce3,a7a0f2e1c361cb9b83b3891ab289423cee14741f,a20e71c8bbe1c6344c6e343738616956071d3f94,0b2fe51c6088fde28a8efd6b38f1ffdd88687a79,d6be912f92af313b049c00a862c685479a20e20d,78ba59bebe7397898f9188b39f621c643daa95ba,ce1b5947371eb48947cdd4cb71ddf90050a7e813,6e40bda91714a71759f2bd635b75b40cdd84020c,5bdf2010d1333a6c2f9fd3daa89e0371dba1be0f\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//modood/Administrative-divisions-of-China"
+    }
+}

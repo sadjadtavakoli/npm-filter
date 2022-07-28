@@ -1,0 +1,29 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "num_passing": 3,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "f9bb6c3a5a4806166f7aa92ed4ccf5da21a17a34,36421fb8a90272daa09a8bbf993c5ff07bc6154f,7b6e611557807456f2035f1998002e13a686e862,63c0a2e8b315a30b24393e9a87ce6ced46a5e9df,5c4890cef99a577e1edc62befcefb52e816321ec,40a9153a0a7f4a5c59200593697d3d44478cfece,2a85d3a2fb150a9a8733092564ffd763382537f8,1d82773c89a5a20363884c8e0fc13b6460943872,1be60795920155a8d88a73d173ec425fbb0315e8,b1cb793e4d216e8f8b83589c50af56208eca7034,b184e755c40c493f6f3a39b3cb82b5805850fe96,687baebee1e37c187208d5752a2240bbf75f6c0a\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/Yomguithereal/react-blessed"
+    }
+}

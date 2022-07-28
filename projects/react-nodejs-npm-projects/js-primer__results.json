@@ -1,0 +1,122 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build:web",
+            "postbuild",
+            "build:add-resource",
+            "build:applescript"
+        ],
+        "ERROR": true
+    },
+    "testing": {
+        "eslint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "eslint:fix": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "textlint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "textlint:no-cached": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "textlint:fix": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "textlint-link": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "textlint-link:fix": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:fix": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:example": {
+            "num_passing": 936,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "test:basic": {
+            "num_passing": 23,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "test:nodecli": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:nodecli-unittest": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:ajaxapp": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "test:todoapp": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "e2e:todoapp": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "e2e"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "e2e": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "c24521b3d1c62d24975d8bd1533a68835a91408b,497791343b73086e6eb857e13c07f79e05483dc0,79211f914c94b1694e0d0e35f7138dd8c56fa1db,032859cfe6f9b1a7c42764a239ce8c991d975d08,2b7fda14792028f035c13e6bf6b72d092c564e6c,acfcf22070158283e4d917aaef8ce528a3656e4f,12592cb17cbc78b678e68aff2d26bb545f445037,3523b0fd51f38a13ca1f424114eb30bd4eeb05e4,75ec62ce0c440fc0c6a646d79d280caa7b9cea12,81fbe010d27418f13c65a65f0418df00619c3c46,8d85e4e21345c867d1a48494932dda98a2ef5465,c78bbd6efcd7ae3744b68b258524b8a5b949dd01,7764b7820bff5a220ddbf4b46feda527dfb72fde,09fd495a9d36c89d677e4c5acdbe412f2608ff2e,a7759c54d256392029060b6c059efe16d00441d3,d395ca37cfc26b724a09d9a356045b28b8624731,c23ab2e7908d0e83337e392dce12485cd3c77703,bf9e4868720ec1aff72285f608a04a460ee2f50f,8559c8ac6b9044350d6c80f8ef9f0159f36880bf,3472b85b696d7f90f39ad7d251250fa53947b53c,f064d025b2a97fe947c4e8e01e0e99bc4a062c34,dabf43798a29be67add2d9d4ca8fceee9d804e4e,51a023982bd49f800404057c171242f6da53af5c,f9b017a6c25b394ee11287c6f8fbb6d26f60f61d,5b33dfeadba34497808c8c95d0718d7559456288,e12cd2d5b5a4b398c8745db7413ec99787edb060,d7c7a2fdc12f8be4c035e54853be77fc91e339af,4c859ec0058783d8d4a6a23cf0b4fa5c34a88acd,8d99ebade7ed654b201d616b86e737605fcf5217,86a7ceb1d9c2f47b0fe1c3f8c4478af5c92b4343,3226caf0a8327e185c0378cef0caa59a1a45f55a,056c673370484afbac06d1585d7d8173bda94914,fad10de0476dcd8172a2615e8df0da4600733de9,b5b6c013ca158597b310d808c60306685f769e17,7efe4db2d1679f1e3c380f4101c65680376a482c,b723f9b4f80477d4312eeeb6cd886458a589d927,f2411e69f4422e3894fa8e1f6eccf827dc067fe7,f3f928561ef44b5945a63b6f97d8dd26435db3ff,b1f962fd5c4f2df8381b3473cf96ba94ebf9bcf7,5a5c930e97c493b117cbcfee6617ecd8985ce639,ba49904ae633704ac2f4419bb32573d975a2add1,2f4f7d1da4c581a1c53526f58c18e984598a5bd2,dd7787e8c870c3c840927550f65035834c85f6ba,91eccf957ed2bf8990d70a62a057f4ccd00a8d3f,940cbd0f42d2ea932f8aa0ce4f5f9036ba5065e9,ca5c3d3818706c39932b9dda4a59b5ab2234a04b,a267727a372691bd16d992c9b50cfa2821a5084b,060f2ca103daa947b2681e115094fd57489a916b,bd8769ef73f49524e4e98b66431031cb03917afd,a384535a6a7ea1ecdbe819b082063e825d7edb66,2aa5628920e73ba5adf54cf59f4d258b4d0d9527,813b5a338a3f5e3b7a67df68df9b8756a51dd4a6,8aa1cbeae5471ed35ec48da62b9cc87b16969cd6,b17bacb36df472933371fe68dd9d831b530b22ad,c29e902e06e5756851dd8faf05c14e7387547431,5e0bcc5f8115671acd95da85cc1c45ad9a95c78b,10bacc107e43c441e6c7e8e11d09e0e51fd23d40,cd5f4b34c6bb233b828e365dd7326c433fdc93d3,8b324faeebda2444f8ed8954dbe8ff2b8590d13b,8e575f9c556307eca883b8c8c0ba960de0b80776,3dde326cde2ccf016c8271321211f4fb6f58689b,76cf16c84aabf81036c7f261e00628372b5a624c,98716dcffe117fde7cb8dd7e5fb25332337965cb,3f73fbfc5da860ae0ca186bd748cd16d7bee82f2,9bd29313cf40a560fd10d708f4cb07ae8edd5371,d23ab890e818c5895abcc6d82c2ccfde770051cc,94ee0764a4cf453804a0ad7df3946d1028082b03\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//asciidwango/js-primer"
+    }
+}

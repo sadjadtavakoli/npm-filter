@@ -1,0 +1,29 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ],
+        "ERROR": true
+    },
+    "testing": {
+        "lintjs-local": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "3faeaee9b3e0bec9146f49d4645952aa39813c70,dac5cb732bcecce354ce0631c415e9f9eaa864ff,b87962103b5692b1bb12763cd3b60976248ba29c,c2c19a6fa1e5b8f252a69a6cf99d024f332ba997,bfb28fa4f6fc8ac1de69480afe65c96154c13ab1,c0410101020b2c83e926788303dfaa89534abf4e,f7e96cc336c8b1c94beefdf70a0a43c7929f1058,ad215de42799988712819cee090f37a19a8774e4,f09ae2779d68952a898481c9aecd0826651fee2b,69abe791082cd7c006722c42caff40c20048fe19,5e8ba05e567b4eeeb6e72ebd6cef262551f9ff6d,832020f21cee30fcb476026163cd2fbe088a1944,51937952f7a69f337fb2273584728f0defb1d106,640535de07b483d9594ed93ae199a6594223b59f,ae30c870bcafdeb18ac7a2c08e358d90968fd0b3,77bca636c5a3ca8e7292e563a04eb7a837c25140,1082ba9f81404c8248766b0ea63c515de2ce2c31,e153415d44e02d07919a57a574c954652b44d420,0a924c19e186cbeae98cbee173622dc9ffa8906a,25e340987dbe5798d8fee33cff0c9d4227fffa0a,d6530e411f742ea47961c064e825f72993dd1a5e\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//danilosetra/react-responsive-spritesheet"
+    }
+}

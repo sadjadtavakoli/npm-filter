@@ -1,0 +1,18 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {},
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "5cde8263f2073410e894d0d4611951679abc9b1d,25a18573a322cd44156e217b8c4f4200048b4cfc,f09f7721cd2ba505f3557e727bd46d7ad9cdf531,6ea03c1456e1263bdc401b14e0f5a22e03793533,5a4fe7f1f21d5d6b9cfe998cc263b68d6467d78c\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//jaime-olivares/yuml-diagram"
+    }
+}

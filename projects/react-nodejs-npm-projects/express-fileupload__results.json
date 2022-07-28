@@ -1,0 +1,49 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:fix": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "coveralls": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "818529517542495b6d15499309193c5cdec62c26,d81bee9bc07f98246b7c580e2c25c1db656af7b5,a9bf6902d832df44bd74140789ea20430c81316b,2ea495612a7d701d8a3a6048806228651b1b1acd,070a914dcda3cfa3a966a5b3ebac460a7400ef70,2b5c1996a3391236976528bd95499a5a911ec928,8ae2f47db8c84bfc29279d1871890c7f5446133f,22b3d7e0921bfc256c3d245e7282ca75c73ea4c5,a10fa54371a2373dc4fe37ceab8f0e28a289967e,ded00ebbedbbbae9c6b16a20da3784fdd120ee09,266c10db6f2ef83971c044063c2e3dbda0b55766,92d7ad557c7aabb63ef588652c7c7885d8ae9ada,ca393f0372036fb160041df5f5cd4700f3a8c309,a31c30b0b3f58a1c0c5e4822db252247c4475bcb,a56aefeeaaff965465858b12c5e15552715b3997\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//richardgirges/express-fileupload"
+    }
+}

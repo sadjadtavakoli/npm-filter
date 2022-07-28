@@ -1,0 +1,26 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "test_linters": [
+                "standard -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "00a31462210177269d701391d80b57cbf711d4c1,263a04c81e5ae3ced3f41f0f29a3aaefe0105caf,c26f6c6c5905c4c6b92f84a4e31b0599341ef5cf,3fad0ac96246d07a283ae258c14ead54f4f41d3b,3ffa855c1acee54e6e8953f87e9a42a98aa75d62,0a1bb367d0a5e71fdc9f1d5c41f5988095c9d8d6,e375fb1a4b253bbea34455eb25b9bd5bb359a7b9\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//feross/available"
+    }
+}

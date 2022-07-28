@@ -1,0 +1,56 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [],
+        "ERROR": true
+    },
+    "testing": {
+        "pretest": {
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "num_passing": 9,
+            "num_failing": 25,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "test:nolint": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "coverage": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "d3b91386e30d7205efdc19bcd18fe1e5fefa3542,232ed85d4c980d94dee5d9e4c5b6f8758dbb82d9,90f040c052325da302c99f17111a12d1afbe88bd,5adcf2ceed263d46089cceefcdcaa658151c53b7,4e224e5533f729b9781b1db81e1875b1bd50afb0,ff79fb494ea3e123256b35d18b46b24fbb9b8365,e9bedb628c30ffb0897eddcf532182f7ec180a01,06b511a5c376da553236e63f217d12cbfbbaeb97,83167134bf52ffd9b21a3ff23b59745992c961c6,f6e1543208221271d2567114f793bcb9d0cac8ec,36ce1b11e3c00a1074a0fac20d09a7c04a3acc3d,1ddcdc79d802d7fa80524c4ffca8ff123aa07f99,aa3a8463be2dbdfc844739f778722e68e4ab21e8,f2fc94354161c8ef3b1e3e6902a41aedcbd0a683,5c560b2682a35ee616aba2b7b9485912ed690668,f05e67724cc2e3845ed929e72fcf7fb6a0f92626,03423148d65e8c95809c1e6f3eba57614f93a450,fceb1903eeeb4ff3b9a13c8a754cab167d206704,9be463179c53829bd2db8cf9ef3539759cd562ed,8693052037efc2beb47cd291427561b1d8b68611,365150f350ca4bdc5732898545f0a59d29c603b2,d3cc96264395d91373236a190ef3751c7a0f5940,e3bcce65a98adb0d0ad62743b50b0d0e68a570d9,45773db265f335814ad93b9d8d37f188a12a47bc,e8d52840e4d22378f1f19e6a7a0d22a7ae356f24,a3f79af2c9a689241dd586f089d5deedf2a30d28,b592f6507d9a2fbe7c0912c42eac37e29fb34ed0,bd49fae35c7b8c54582c309d7cf65454fb00e89a,5704aae83678a2c7ee40d8eadffc703c03ea9b51,09778f9a0b4786817ea55bee7a735791a41bc0a9,5b338225a5236f14149a93e261b527713df879a1,bea34ab1a5381f89142547a6f177121e46f78c82,52e9e97b46dd8a2b6df42240fa4b6529142bb8ec,45decf120cce74c523760f4ce9aa74e2c301891b,eaeed2664e09838f4699441974906d647d7987d3\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//OptimalBits/bull"
+    }
+}

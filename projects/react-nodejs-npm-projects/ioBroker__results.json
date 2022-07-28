@@ -1,0 +1,28 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "55246445d4f3b43ae38fadf591c1a5fce0fcaf99,8ca35b944d411a78116460b31dffc9418d749576,fa9f0839b3721e94c5a5fc3992d4ccee56a64598,a6555c8303166b194d03024722f275cb55e99049,d9272b28dcd98eab7b8fd9fe73245634ba29a3ae,e257bd1a69fc1dcdeaadd78063130e01f3d9be2d,df089653a7029bb0a2112970242169f59addb070,5fd936725c6186b6e0246ee7d259240c9410ea92,19beec3ba90a459e13c666d52d688b048814922b,4c3ad30bf73e56fe17096631eadee324ebdc7da9,d908fe89d16ad4918870bd23eb79a17fb38f0277,2c20807ad03d2d4d46467bde1aa5a7e030910da1,ee74b00d9e7546e0f05111e6f45ed0510a049b72,4e58ba25544c954edd26e454cbdbb5c70e7dc765,88703bc58a653bb6c71b554edffcd1ae8033bd4f,1cf43dabaf13fd30b61ffd18d9c880c7ae8932c9,76e54624c0e4877854e9e91810f893e91f614bcd,8e1cf60259a5eb078a4074e4d98d7e6bed9f0a4d,b1e70808e6891dbd26a4bb64cef3d9dca652d50c,1774257befc02d35b997ea5247f3802937240a67,8a388dece9a3b0576f3b13b58538b6469473f03c,62379d6003486d527d447ddf2ed03ace0ce98153,428b13bc949464b665129cb0326876dc659aa224,e304dd8421e2ddd261a5e4cf89f085bfa905b76e,2d59598b89ef63ca0021124c74b40a1c97822377\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/ioBroker/ioBroker"
+    }
+}

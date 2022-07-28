@@ -1,0 +1,28 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "test_linters": [
+                "standard -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "a185212127da5dca6944422102ce673baea0c9aa,ac10b4cc52e4838000a772c1079a2c3825ec3776,2ec29256d763627f235115deb3acaa56751620cc,9845fa0e3f9883c65281f3bb9ef13905a058ec77,da545885d3bb39a3c414c1643f66b683c14c62cc,3843bf55bbc15e76944457d0b6249b47926c7485,6058eeb345eb01e2ba35bf49c2a4f2161eec2831,58f4bf0586f701a9582c10641e330006e0ef8116,608e3c62c2cffe6f380ddb46939638b6564d0324,729f9ffcb8bbad6c2be4ef7906cbd5b19e8f4696,64510f327b2081cebeba9bdd410e4c135c55f0e4,56c5365c60b15c23c0afc3ca74685653ee981c0d,b556af99915dd344b9f637a424e29e9dc48c3571,e975eeb4dabd248c6237160d00ab3859fd14d595,0169b56fb2f0f340b1105e81d5a337bd52fd2106,40d667e895ae3f5fb5a2a20908552d2a09f1a144,7419b5278f80aa7ffe730f70d47764342613cfeb\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//ivarprudnikov/webpack-static-html-pages"
+    }
+}

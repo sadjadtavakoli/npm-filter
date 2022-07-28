@@ -1,0 +1,64 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "prebuild",
+            "build",
+            "build:base",
+            "build:vanilla",
+            "build:utils",
+            "build:macro",
+            "build:macro-vite",
+            "postbuild"
+        ]
+    },
+    "testing": {
+        "eslint": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "eslint:ci": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "pretest": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "num_passing": 204,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "test:ci": {
+            "num_passing": 204,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "c0c9b08d52cd0312cfc4ae91fc49530489487e76,464ee90c665fc34203e4563a807ecd328d72ca45,2242c878e28b8ab941836ec6ab66197ce5cc8632,a45e2c2c90a6946d141d43ffde4ec960ced92b3d,78326747e78b10c636f2ea9b51ea704fe490b40d,0fcb5aa7775e287dfdb28b1a95c138d54c8335c3,a291337aa52d711f61579b3d90824fd701fb6d7a,013a1794e0907a2e3e213c6019d6c84146f8555d,ac945d17e47e128918873d2351f4c595b6c7514d,b4604b591f33b7be4cc10f81e18a14f848af0b8d,e4e11d7c21643c223512f6998739f27bc5f3eba7,d7f4e36df7f3c0901df8e21b910dc6f3e38c130e,a6ad64c5804319b18d4bd65c08e00ec784902ebf,fd7a89f3a7439e54a6f6831543b17d4c68d2b94e,eb5173c3baa8933408d65d0ddeee3ddff5eef539,4186514f46c66393a5f0202b89c530c56453286e,72fb94b3b90c814b79d9a6351e63617bdeba1173,4819960437e156ec247c4f7ebcd64ce9504ea78b,f7e22a95225cb05eb4522a60a2e4de3dbc7bee21,04eefbf28a91b3036138752288e7e85bc8882e0a,b36604cf245c82d40b1b8731e812d553a1833298,68fef0223dec203d7c751f1a33477d4bfe76f0e4,29e1eb9983de0a4143fd7fb60d18e7352fec2efb,93e71586a2689816e7e529cb4d0d2ce5237168bb,dbbb5cf83bc9e293c5c8a6219c05153eadd5f8ad,4ed97042a5c4e5fd63791658ce912c365308793d,43c4b03fba2fa8b7ee4be4187c896beacbab52a9,51ccf16e1db855b7fd0132390bfac451a8a616c2,87ae5879a062f1c8bf1355e195043ee6ef46d626,ab097b2204c8d472d72bed8d8501634b1ee5698e,37fd535aaea3915691cc49e8130c9a2e5b1b79f4,18491a51369493f4954c9e35bac629a6d949fef8,6a1a95e3ef7f3ff0e6101f0536cf41852b56c408,c05ceef8e44597b3299585032397ca99564b01b1,8ba82ee76aee35a2b801e03a4b0de2b05f72f2ba,c6bcf1d55aa02079bb5709121fc8438fb7f92380,0524196388804d47df4ff62ae8373fb597964889,227de65e3075145a9fba4fe2ba8aa50c0f03f96a,1c2598826bf690fefb0ae2daa646d97c5261d2b7,51c3c575cca39fcd9eab83cc4bf853984c0911c5,dde34ff313c9baa94ef43888441accfea313ab7a,392bc687b53284591a2d4365509fd89e6a946978,a396bfdfde33a1ce93c1e9c24e387b068df3d50e,1b8cdccf861c0c56b3e54e4f4b8c05318ca2c298,a43c2649c321c7cb24931c50b0e4c764078c709c,b4a67eb064e090b48d73d992b97e6538528e3f7b,e970625b7876fbf251bba2ecef7d8b4db4050ece,86f813ffbe5df32f626690d5588d773109e68a4d,466534f03337a7d0fd44b6e03b26ae96abf6d4f9,26ef36a9272fbd92e5d7cc57a3082e15f41e19b8,ba23eacd95571cf2ecd1b2272497e63a1c808414,65e534f1cc2d4acfc969d5d5f61a97b1c06b2d0c,b1c008a087c914e37b22f9d045bf38f9064ab96d,c2822be3d5d87cb694b4bfbc4277c37da9813e0a,0e24fd154abc91682794730b8d9d2c6e975aab10,e2fe1056a6973401776bf5438d07c4fc559d7329,d5d1d8504975bb92a89cecddb829595c64c6ce86,946db4c6df1903b3a1df322a5b9b4829045685f2,3e68943ed652b050449bc25afa76e880054acad1,15a836ec73b5d320a0c2944a6215906adc618c32,d1ec5b2f0a50ce2693ad7b4681e47af616b64c2a,aaebd56ded9d759f9037c6052f2b6cc5afed9a01,a0b772503582b287e1fe0b23d2150482931d4795,1b9573774770e923c63b6ab1efb24ac7e6554687,a6a5c12f0275e8f3c656d40371d7f3e02a73b544,fdec8fa475e7ce26b02aed5b051ab5d5c40250c0,f374fae589ae554a66dfd072e7c3eff6dce537fb,a4f44b67d982d4b737fdd160d2da1fa4933238c4,4554c4faeee2e5b7133757773c08f2a3bd0cbe59,24d091ace5460c503a872cdb02ae74bdf8fd156d,688b3658036d40cc1dbc5fbfbc5c4c9f94b48901,35a4872f8953b305d2910def04da3980e1443c5a,900e766190dcba9a7c1eaf4535cc4c78f7c4b9c5,9869c93a17e519c39e963d6cd8930880f1d9a262,dd0a1b67297b61e6f1bc7c88e6dbc327ba3944c1,8f7551991668c2180120e7ddb959f3fd1ca7bba3,b4342250d1767ae02d0e5b81b5e99c84ae4acf86\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/pmndrs/valtio"
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "f62ae9034014314635294778329e30e795c92e6b,562775519ab6273234869af93fd3524bd6bb4811,befe2c809189179f26c7908ff4b8988950b4960f,5ae4f7ae6fec1c5e5518a591307ba7aebf2ac067,d97086cfd78229fa2299eef3e887ec58a3af96b3,4bd73e36a1831514d240796f4f01dc664a0ddaa8,e9df1a4da443fa427c77c38b31fc106a9564a233,031bdf86a7bf84659fe90e015a7ade373db894a0,a069eca2947d164199eb3bd55262904400367685,f7e5dfa1f5a88417b7ca9e55463cf08af4b29d97,ac868c423cb20b3515c2d15837e314adf6d4ce29,51d76bbf73d604c8e17fc482c153a1075a879dc6,c3117c53929041781321e2d9fe639a13e5b8957f,45cd47fcc04aca89f68e58f0a3750c2fde1bdd44,b22969fc1003b49f71ef3e31db7e16a6c4e638b6,8a9c59b6ab30582397e40a17f761b6447362f00c,759a5a8a804d6805d869718617ad0fb1e2dc30a7,e88fbdb42f4a2d86bab4d244a3fa7cfee784ddae,5116b1982542bb2b2c6596ca9875117687fbd366,1f7cba275baf340bad9b6344479faca69fca0de6,2970efaf4ee2254ab66def9a804c35fdb1e320e2,a5cbc543af56cd22390aac6bf878d34636cbbf12,3bc26a97077daba50074d3cacae9cf4fd61cfdd4,dbe841520cafbc06948b4df800e4a53b65a68727,2de9b1ace619c99de1071d54698855aec7eec2c8,fc40bece512f803527e639e61d45eb207adb5f47,c728e8878807174539919bf420640203fcebeeb7,6d81859b127917cc5e7e7aa2c9cc9f6c4572ee13,1950b025501cdd69236353d8c7fd65ce992a2510,1a8a1a36c95eabac942a016caec8fdbaa311f6bc,b56c66c05aaeae540f4abe7d99f115d1ac6abc34,4ba5b1634457350f0c09e82607194b93127680b7,a900fe13d8b599c30d2c68b75e408009259d1764\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/xiaolin/react-image-gallery"
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test-local",
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test-local": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "cov": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "ci": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "cov",
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "6655ece50c52d270fad2681eb5f1df8e2913571d,38ae4725a6b1cf5e4e7625937792c501be346470,f48c913c454166a2775092618b6f9a0bcea41ca2,aea3c7a8bf99d6773a31ffd325a4aab19ed8b65a,7f86714805da465c6abe070d09d3759b4c106042,fafdc096f4a94fcbd45af93bf2fdc408131570d1,610c3ef197880df27e14c196617866b8f4f22454,eeae05f833fd968f4c4efae7ca9aa053107e77e4,e4ed4612dfdef289f926519e554e355ff3dc9086,d7eeb37abaff29cf2b481740edac77df8d076468,7730c00cc17d648877685e103b527aae4225dc8c,9c0c979e0fbb88caa898a33f15805ae3a0705a11,db9df601ed1f19bad0e6a593574aaa0554d115c9\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/heimi-block/egg-RESTfulAPI"
+    }
+}

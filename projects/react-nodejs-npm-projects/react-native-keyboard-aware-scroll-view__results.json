@@ -1,0 +1,33 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "5ed7e7f2a0ec884d648a262df933a9d722e670c5,e608f1b89d581ca494b44d49893427acd16a3650,bfbcde2559f360e343edba7a78ba2cae45165cb9,b7ed1aaf16313d2451149265f1c14568b4c97b4b,c9e84cbeb647d81e34610c6f24b45fed222fe1f7\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/APSL/react-native-keyboard-aware-scroll-view"
+    }
+}

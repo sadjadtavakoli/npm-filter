@@ -1,0 +1,18 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {},
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "c68f5a88f4577833556c7855a4ab49e43fed1150,fd93b09c9678311fedaa8524b237fbf5948f9a7f,d9ad7740ecf176c0c82943898b4abb5d3c6df81b,73d047860746a3ab54a78332b3244020bbe8d050,83fd1361df90ae2013dff763ac2826dd3e32b246,0b97403d1b9c83cd13408ed3162ec98b9ce37704,54e0790d73833fc3ee333e6e6e9c1c3377ddfdd7,2c2eb9960f09a333b3f3b18662f77cc9d4ec408b,bffbae231d130c57ace010d32821c1ee14b33f5b,a56f1c3ef19c8913c8102ccf56c3524e40fd7f9c,a658d28d936abf62635a3b5dfaad17b71cae93d8,14d5efc3f0dad351759c2d041194f6cf007f0628,0d71356183009909bf2a966ae9facbc6575ffd03,e19c20d0cc6fdccd31c7fd5288452934d3832827,907a85db9c89df13ae9467fa03e64028df396cf2,b9c3e106e83cde6af8196a542ff0fc18be5ef53b,446e05adecd89cb4913fd029290b50688006362e,7bbe91728583ab99f3355318f3c29a453fd9556f,3a943b0ad25f880b8ad80fa53e7f36106900b2be,97799ae63c3f26409bc91dd0cbf4534af3a61d36,062fb33cb347e1db1ad87c88fcd3ae92df918437,2c2dca026c9a72a15f3691e5185acb14cff1782c,9df8609f45fc2e942ac350004023b8c38d71abec,1ad5ef44e8d9a83938f87da3843354e4df3c2c9d,2ca62689f9ca3733f4d2c390b5d0af287b642ceb\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/reagent-project/reagent"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [],
+        "ERROR": true
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "405da9274bad03d0d5a2ff96b6200b37fd69056d,9c6e910a0565a1d63c60de801c2d1b4338c06716,d81280dd5b9929a7c1cb74ae2215ad0116f41a17,5b80cac4fe78cc40be4c760ecdc5bc717c4698e0,fbfe9fd974aa5badfa1601687d4d4918138da152,5d30dc6e6df189fc404eab0326b305facacc38b4,dd32abfd8e8e986cd998d6cbf0e0fbe40011a23c,43f6d77eb7a8e1a847fd308bf46c093366770ea9,f68b1bfc9639c1e11ee4d84df6165f8dadf77612,78c0af1cc35d2eba8fd71ccd564c007590ba16ee,48b4ed9aa0d63377ea7e0c518a545c08d41410fa,48c9d78589a937d34b50f0bf970c18e88191d217,fc702c9ad564c647485d48afa0f6a66ba4c07c8e,c1d5d55ce874bfa346a2a97a957c877fe8dbf0b7,f5f634af9500c5b64a75c4d6ed7aab4127bbe5ae,a4b14d2facbec42f2391180fde3649a4b7b32eb1,4a15c8bab6092f4738c480436515d41346e04d14,63abe2b2e9291b7fc527c52156e98068ceab64cd,7aad83a7e5c3a6d0af3f6efd590b178600edea0a,c17471b153590cd5d01a7788d87601fb28236b30,98785b2469d1581554a8edd58d678e6f728a8e9c,1a548670228af28b697e3add60c4b1a45b03c62e,ddd3822a5f527da5a9b9541acc29e33ac0e9fad1,74f3725b08cab8fcb464f449f7d4204abddc68f0,9d11a065987c01e7a5affd3f48affa40e9dc1d85,2b6a475c8872e49ceb6f3b997949e97b552b2f6b,1ed89d91aeb4c2736dccd1e6f99c323cb78dd60b,8b79f812fd1b9244ca1aa567fa9bd0cd2afc35f6,d9807201c1536430b6900f352fd3d76475c337f3,1e4510b61c5196de1e7f017c9d81ec6bcf120a9d,41eb987b2f8d1f10ff009bab713b3281da17dfda,cacf6f697a6cfa09f5d42be30348c3d47f0d8635,c6934a739844f3af743c1c4d62f2a428aad07b02,d71b0daa8c315983750f9de03bf05f3b3ad7adab,9536bbcbbee12b7ed945ad670e8c4e6f44b1358d,320e9e06b3cbc8d44dbf2108ae9010fe92ae42e7,f4eb14adf2404040010ee82bbba4c18f23b9ec17,fea056f3792dd49ef60a563d9aa3b81eb86329ef,c8e2bfc31a924fd4459313d72d646cf60e7fe63a,aae1ee4837ed4204a40b2f4f1fbb80b979e32e42,cca01b79876ce1f41b43f36e2e38e0e6b1d1745f,bc9f001550cf6e38246e60b2ca27e3404446016e\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//eykrehbein/strest"
+    }
+}

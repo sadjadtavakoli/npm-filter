@@ -1,0 +1,35 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "7a3c16b0f17e504b618561a7fa0edcf81a3935c2,a0f50284aa1c0e9818d4b5cfec86127639b25060,adfb398bcccff5dacdb52f818eefb6d7f72f9d6c,dee83da8a7d2d23d6627efeb96a0e57e14848830,dcaa4c6fb10aec5de2dffb663bcc57cdf23ad62a,831101a34cac3d1015f24924057530f151c87618,162143ef197b445f145712e9e5666c05bd965d9f,9232919a0df96512c4924cd32d0a7dbaea1e525b,7f1a7d63961082613e5fed340e8245a16c75aee7,294ecdea23bcbdd1cf3ca4a4de8657d1cb3878e7,f528d18344023ec410570f4a11bf89872932d3c6,59041746c3e37482cad25cdd1909a72f30a8251a,9ac37650566c45c66c969fe1199ae3fbdc27e92e,83316181ee0df5af10f96a0e71a52bf74021dab8,43b5da461d6693f157b9a3a19864071d59c8eb36,8ade5b1be3b558fc76f5bbf51e49adcfec3b3a16,3cda2e3711ec9bca0da6ff2351e7135dafd47fb6,6d5532dfd7f34105add3e65dfb00b4970285f22d,1fd784d0891f9bc854dfe3142f4b7c4d1a923f4b,e335ab66132626d7a3a77fab15a63db9ee57dd43,f4e6e0f97be9fdc73c39ebb4d35b3972765ed45d,578e2019d5ef9642943ecbd4ada0677134341c08,119bca41bca1f674cde0dde53d69d9da768056a0,45747f1256a5eef1faac98c6a8246244428f95cd,a768dc7dac9cfbfcc7f47f7f6ee0a638d222e887,24fe58239417e6d09c9a895a57791a7ba7621059,ee23bd0fecc4d9bfa0c40c264e170c3342466c4d,0c438bc20460c6eb07668216ec9545cc5d5959a5,731611d39f79784cd416de3922ec94857f27c8d1,21a9f0eb8057bf3715a8c180a274b1aec590eff0,c76bc32c3f1a6a4af489023f891fcf02b4f8bad6,658fde3e4a7753cdfcd728a23f373deffb7fdddb,6612b1c568c4b26cb47bbbee6fda76210c6eda23,d9827e8d20167e43fc179ec7b64c6d4ddc1a5ba6,8d3602b1e87baeb3a5eb0600317cc8b043ad8fad,bb067788845909afb48ff647738181a1e82c7ba3,165c8b6099be52a1ec04ff498f290feb65da12a9,4febe7e6fd737e4c2aa756687e3ae6867d8a20d1,f842c52d72a02bfe3b63abf6d85b0b8a9ded304a,c26e7291f45f8223dcfcadd9f44016ed356c442c,8739b33cc9903a9cb66fc6a2106dd5f6ee34307f,0fbe874f4d529008c805886681c935662eb03b7a,822b19dc9a36ed9942fb3dff8fa491a5129a7f28,b77d7d94a0afd66b5b3ee2bfe205a3cefd72b133,dd0ee47aab615c7fc473cd954c535f0a2d5f5781,c4792a139848adf1d8b3275cf776a4520b140d38,0a22e2fa843fad46480731a037bf529dec31b759,04776440bd5c18628d32440f33803130581d30e8,41c4dc3da3a32a77763f5b2033ea77a5330e7a0d\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/wojtekmaj/react-lifecycle-methods-diagram"
+    }
+}

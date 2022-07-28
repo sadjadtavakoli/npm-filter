@@ -1,0 +1,61 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [],
+        "ERROR": true
+    },
+    "testing": {
+        "lint-staged": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test:unit",
+                "test:e2e"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:unit": {
+            "num_passing": 132,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "test:ci": {
+            "nested_test_commands": [
+                "test:unit"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:e2e": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:update": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "4556845ecc9b5c20b70950e1ffa9ef5481df64c0,2e0e3c4280a8ee21bb604fd63b192b842afff200,bed0701908576de95a88bc3a11887df84e9fd1a8,f056e5a907ad2729c01da393e6b1e183b7895e4e,eb274074f46dea7c9f6a09e555ef9116c37d60fe,c1c23cc08af0e93b3242f52d194b987531776688,d8b7588c69d38b71c4ad0aac9592f4bfc17f582a,3c9fd62bb7515ad90620e7a73b3dda30c87a7287,5a66a14a53875324bc39bde87597fe35e3b254ff,80ab025f30860c4de90bbc0d8d84671a3b5f26ba,d8c6f9b2fceac1214ca18d6771b040eb7277186d,17fd7817c3e737d03e1564ec0e2973efbcf31b6c,32d81d881c3cde957656ce1e45624fc39cab29b7,4935284ec9d022029a41aec63400783ad71b729c,b7613891f0981135872d6b5ce5b2f6c57aaad6f5,44b2b15c58b5e960dcb9dc846bc5e290b8ed2a7d,4d4e447cbb97c9efa0c875cc98f0381444adba0e,36a2617a9fb9a5444d3cb85b6b2b36dd1c2be261,24401bba7d0b019feba76023fc4a5bf5aba9f22d,aa3070556c47883974edbc7f78978c421a8199f7,7ad5bd6e849a1236ab0988cbcc78b01e6e3dec50,45a34db8337a8e358f907cf15bbd6c70cbb385e2,c0398054943058c266de1fc39ffca4e4f3f3654a,37148bff0ad249807bf1666a99868cedd028de8c,0ef4447265f611c402d0fc5814b8a807b81f231d,466ac549fb8236c40204269deb50d671e460464d,4ee7225abcc5a9d1059dbc51de0d518beda4ff41,e6288cfc6a03088d3da17f905a880ede1457dc02,8d5aca1b28b88ea003768de9afb23138616b8e81,c93eeba993580042e5f996a29a41699797c676a0,130430955747f8dac47ec786553fc22b084c52a4,57629ad5b4928b55af0f03873c71a4e30f36933b,8a8a545d891fe09ea3ad4f31dc475017ee7623e8,2500505c7e23578a702771e10d0bf8292ac3594f,c46abc0ba42a4940cf2c7746c9b7c820321ed73e,677be693fd0afde62c6948c7dc7668d81b997757,65554f0694019cdce7a1deb598616e72e1e02e24,acaec948fba7d9f73918c37caccda98279e732c4,490ae36bd10f9ccf6c8efc89fec5ac5c981a28aa,29fd6d65ec62b8e03b6f1b582137223e9663d8b0,8aae1236c4e43d71e6439adf6c69bbb86dd754f0,28fe3e0eeff5c5fcbac6e7aa05ca8fb5126a2417,d3893618bc25476dcf1e441c62797abaaa77dcc3,2f404be936a66ed1edaa12ac84aeae0e4c342ab3,45e854b499d1c1773af5f76bcc3333a5048e0f0d,5245a0bbeb56a88d5c89093b6be355dded364e39,3d3655962713d582b35c0d747308a66fece04dde,6f588e893751ed7ce4003a8aa7df8976e2ec64f5,fa181ca82fd35eab896fedf976deccba9c7657b9,d223bf8357407a3c2f9332c9bf8fbdf6cde100f6,86573e35be16ce939343552a21f7a8159c15da1f,3031d601a98ba46b1888657ce727dc393b8c88f2,676b925ccd8804eda3fb91d2af88df00016e9dd3,6f398447daf821d27843c07dd5b6c01cfb98eac9,29317689a5c2bee61d7a7ad0cc549ed202ce081e,f00312f09b941cf4adbad13765e08ee777e9eb6b,b8e3c0e74f5080577172aa81e3272a55172d8372,cd018b4903f72a350b8a6ce0a52c4a8a96fd9a51,0cc749606515f023d81fd57c4b59c8fd8e1af747,e069380f9e13a00be4965969d45542792052087c,a0fbcc069174c744ab700cb8301dfc04e7639f35,d1a4fb56f50efbcb72cacdb2adcc5571ab8954b9,93ffefb90caa052dfc0b2a8d04340a71a6b372dd,d6f6b30eeb787f8d3189c3f3e2cdc252a4cbfec9,cddfc4ff094bb353744c7e5f63bac5251320b462,e4745ccec1a75c34cba7bb8df552079994781dcb,5213001572d1a7515ca812317e42aef6d5977956,d3e496af2f6dd838da0a1600b8b369b59fceccd8,cd3c4fdc59d602faccbfae09d1f9f25604ca159f,030064effc63cb13dcef4f18c173ae153772241c,ccec28b51967ef4580833dc71f8123495db3b5e2,3b14ee4024b2374128a97c23ec9237fe54364351,3b32b5ebc88f8b6a648967d7a87368f8989ccc59,6145c9a01345648aee36a391db5d80cc0e5297c0,121b36e02dc397feb61102adebf6227e0981d13b,38ae0da32c800942c3d93a2b2af23dc5e71ca21b,86f85ef7ae804e4d29b3d05d1a9f66cee50249a7,40fa39957e8c1792ce2f689925092dc1bd9f3dbd,93095628d8596d408917f8c7d9ab2e0367fe8b6a,a89f61523e194bdf65bf138da71604c7e320162d,682c3a90fbf6c14076043fa16eedb51fdd151109,4893e95058590a26eb44f9c9a60be587e868fe4b,eaffacc34b52738c0ed89415effbd68476886ca2,f17fdb48fea81dc231750208e702f27c89ed399a,313357026bbe4c1f0b9337f32374fda8b3c197c6,ac28922178a9f2809d4d148276af4d33774b5495,093b4722ef2815a7fbbfd986cc9f15f7023ecf1b\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/airbnb/react-sketchapp"
+    }
+}

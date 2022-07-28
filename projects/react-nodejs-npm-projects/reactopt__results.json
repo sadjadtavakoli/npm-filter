@@ -1,0 +1,28 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "num_passing": 4,
+            "num_failing": 6,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "2509e8737c2d5b8926a25d70b40871be439a73d6,41e3d7accb459309fda19002fedd3ee9129d6da4,d64bcb8cc69b495ae010bbaa37265487cc5e61f2,ce5b23e2d013837900280e19b1dc8fc65e88509c,0d9c77f13ee866e450d32c0a8f866b88d1672ec3,5f4bd2aef0fa83a9d3d0c3bbf30074a5d43f9ab9,fe956ecda9b3715b8e8a4f90888caea58edb7a42,11beafaa96c1afc06dac5f4f501060a188ec5abc,7bad943c20393484f114c6fe7af92219e6964a2a,2f0b5cbaefd27b440f5062d6a1d8aa98b7bc6fd2\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//reactopt/reactopt"
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "integration": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": true
+        },
+        "lint": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:js": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:md": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:package-json": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:js": {
+            "test_coverage_tools": [
+                "c8 -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "608a90cf36a4f8c18b7f4dca40b56e06e0d78f72,f32e3a7d55413b3cef55c8f64cefb3696267b65c,361a060627405c5e661ce92b237af0c6fd741a15,7a4bc97c0d4a022b54d269aceee13bed6ffc503e,84c9c702bf4c06b2bccfbfe056aa8eaffe4e2999,e59a8561a9f2fb8b3a7367c410e84f46d710f804,31c52603821760d4aa37fbc2eadc526b92d51e21,1d7a6b60d4442873aac58fa07bdc77ea1703dbb9,7c2867db6713a7b97b45cf113ffee74d9c0dbc80,0485924f519b2a92d0f1fa842bf46ab50c6dab2d,5f3bad533843ca939e46bbec05ea358c32d28fa7,9feb181fdd41b4c2bc1a2b775e0bb05ba8d13211,a512ad1d7f7d7f9b38aff28bc760c4221edf60f5,4a14187f6bd5afcc079a175db1194999612e96b1,c193e1e84a077e1f1cd8df19ab64730d038ee5ab,7f88b2f2167ca12dd7806495dd998a294c17af60,33aa97d8a89f01194c9eb1cf7aa749a0417d1a64,d364d670f1eb91ec7a78ac928f9e586cb46ab624,bd3d7410ac5040054ddab913ac5b823e008844e3,31a2950e4190ac11ad05d12da673aa208fcfcdf0,86be600270686e39e86fa81ec05e4d41cea672eb,05722a134e005da28011cf06d392c5d950bdb819,ca34b409ef4cf145e0fa82676c4e9bae65bbb0b9,5f7e0ae85338e72d81ae1f12a95b15e16f3f1b2d,36624fde705587ed9c3e941bb32b98ec611eff89,f5c3d95b0330ba65abeb90243f7cc59f2456d911,469646096b4cf2f35951883ae572f5d70a7b2b43,26d03832d9fd1e310a056178131fd2c8195f6930,f1f30c3d60890c2eefe3722dc666b9a1050fe96d,a7e393c3c5c649e93c9ea3550fe091fa12b259b2,ccda941a9e54a72a765336d7c513525f7dbbf429,c95e854067814444c076db16c62e69b9a53afc65,72e0390820e170abbc49befdc8a5f3a2b10ed9f5,18bb3a3207e0ae3d8199b7ef82494c5bedcbdae3,06ed7eef4758122b6ebfa2bead2ccb75020f9d26,96af5622fad7c8055b300c8ff90c643d3f6465e0,eb1923d7f67f7c060d841d6732dc463cd81cf7bb,c4ffb1af8855229715c712af286dca1c695871ee,44d14b9c3df20be910e52aecec44ea49d1b08d38,cfd3d49d06d0b04ca36abd75d2a54c664f3cbeec,d638e5477d7240ea777dcaf249d0121a5a1910eb,9db361f62a2764e0f8e65d54068250546448986b,72262fbadc650412bf6b1aad4e761e06e2f828e1,610a9014ab6a7076eaebf1990a143f15668ccba2,b7e4afbf6562b93d88f6c652a64df72316c73004,9c8325fdcfed2f18170f11b754a5d7fcd3fef1f2,3641f15ee588d7ef897d81b32f3b8b510adfe034\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//sindresorhus/eslint-plugin-unicorn"
+    }
+}

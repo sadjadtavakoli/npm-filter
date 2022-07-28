@@ -1,0 +1,27 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "tap"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "9f01f96fa8c1f5c15d0bf5b4938d4850df7ac8c5,52233d0b54d628a51158aa44fd5dc55165067b9c,db96d7fc23d7c0f4f777839eb8f8dfebe9310496,4c29edf729e390d7271034be99554315780f1a83,03c0bc58d163086f52be77ca67ad77fbb8d86f78,9fc5f10052229ff8f23365688334729e83e5b83e,a685112dc94ef59f368f2245199c36e92c717fe2,c45dad5ed2e1b18d29c42ae614a8586ff7401311,5a2d8aa7b07f86afa9d6dc9a17289ddfdb7184fb,d5f815676310507f4f6c3b5e563a6aaa7ceb57ee,2c6884c80ac2a640c55ed554ad51266293987b9d,a586bec5180a9bdac60225cb5e01c6e738a89081\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//dawsbot/config-chain"
+    }
+}

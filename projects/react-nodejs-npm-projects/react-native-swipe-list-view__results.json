@@ -1,0 +1,26 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "519f6839967321019ec397848c86f06718910560,2d74aad18d074b63d8fe3f9f25fa5c67276d8773,81fa465bce56b833dc52752a2560fc5355f337c4,c6372374fa0e72fbbb83e789d7cb7627a3fa994b,94e907f8ba2c56bad82333c54c52725732bf92e4,421bcdf192a1d2e2d36d20a63947c594ffa4ebb8,10fe406d13fd5cc0661819079088d3bc6d3f5795,9b1e75bf577bb906931cf0115792f3cf3419767e,b70b03a6c1491e31cbfb8cba4b5ce898a24e4533,c4b9f712f926d98fb30bda7fde14277be9d10327,8b3e3450a73ad040f07a8d74a2df495bf0943153,e79f376f1bc71d322064eccae2b942d03fa520ab,61103ddc24f178fc580552ff9e7c9de79f0c2cc0,c5c572a473864fa9c9dc5b040d4fe72e4be7d38c\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/jemise111/react-native-swipe-list-view"
+    }
+}

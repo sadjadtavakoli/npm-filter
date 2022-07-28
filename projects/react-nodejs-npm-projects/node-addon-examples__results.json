@@ -1,0 +1,28 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "39faeb2d9bcf4f8a411e18944c33070df7368000,82e0e9690eb6327df6777de1ccf1bf81a791157d,64a179af2e8da1a50ae42c8c2428464ff450d03c,4a1e9b53a3bbd37907160ef93e41b280a3035234,4d4dcedce52263e043fd351b206fbfd23be3df57,f6a8e012c1580ece25e16d356aa5fdf113f5577f,3b8f0d35803aa39a22b75e5045d605cd47a875de,b2737e89abd00b7fc4468b38893b31c57c7d8fd9,5b6316c669f05f71654ec8e05fe76813ff672289\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//nodejs/node-addon-examples"
+    }
+}

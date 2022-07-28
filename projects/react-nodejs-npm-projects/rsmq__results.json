@@ -1,0 +1,30 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 1,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "262c35429886ef3cf23d79ca53cf412d958343c1,3e1128fc05cc6853758e1acd66ba1dbb3523e302,2e0961566d7f6b66555ef6afd192784f36da06b5,d3aa5503a5c893cbdbe6aaf1ecf4633ba0349b8d\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//smrchy/rsmq"
+    }
+}

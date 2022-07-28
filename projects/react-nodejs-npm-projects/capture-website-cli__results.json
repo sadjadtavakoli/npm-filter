@@ -1,0 +1,28 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "num_passing": 1,
+            "num_failing": 0,
+            "test_infras": [
+                "ava"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "1b6aa8d6ae4124cc94185b11c3e51c3a90afe02b,311cf49d75dd2ec2bf8c464af738d044ab1dabbe,7dcf62dcd516bf27aeea2b4cf57f58f140cae534,b84d6e57dbe6b14cba43107c54f634c0e2c43be6\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/sindresorhus/capture-website-cli"
+    }
+}

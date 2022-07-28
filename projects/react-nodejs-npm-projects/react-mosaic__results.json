@@ -1,0 +1,52 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build:ts",
+            "build:less"
+        ]
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:lint": {
+            "test_linters": [
+                "tslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:unit": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": true
+        },
+        "test:format": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "fix:lint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "11bc42951a0faa1fcc9758cd9b84e47c9fc2210d,403cd5a3d4437d794003b9ac45fe4e51f98c259b,a80ebd407516e5b9040f8a943b9a41bd9da23835,838ce66cb67d32edef44f0a0b750f4577b92ec82,b36984c34b0fa1e3f21a211578301933cea24992,b3d0f54d2eaa4ef2331b1bf510e4e100880d27bf,4dc438c5afc86679d034e74295a80196dea19fff,699c39c3fc3d080d9bd58b056adc7e6ac03e7a05,75aea716c3f67a204f1cb3e9dd0a50e3dcdfb3fa,00456ab18a537a0b3b40dc77abd16d160a4985ca,def7862bca4d3e414719791d7ebce636874a4be0,f44676f1c3c528a839d2280f84a98900c42d8263,9898c0ade4c5312c4541db083799ac9ab26daea9,ca381f833e0ddfb035bdd1212586ef3a3d5a292c,ff676b2cd75309610c22bd41e6bd5e7d69400531,7649795871d265259ecbc1d5a3ee127786f91507,9b5a9c3f459c0c556690c05829f7d3dbd2ee9cce,003061ceabb7d96532967d659bb5c44251f1eec2,34616a8aa6e8a2a79a9bc491876820a5be7de913,f9bbd1a729723ba37dc2b8ab350db4df6004986d,42d7dae17e44eca6efa37afae5c6303b8d43ecab,549c0f375973970d657b19d793cfbe38b2209f8e,00e47c9faf4bb529b5a734ab7c3f2e429b4c572f,974a9d78fbce444353654bfc134baec785fa1424,76d73d7cf27b65d1ff877cceffebd0bd77c4fc5e,1e21f1cbe6b8ff49c4f86451b7718b7f6d952f32,524905619c2ab8acb85ba43076cec4c35b40bb0a,743a7f4a741d08d4a4bad060de5c0fa2c512d421,42e1e031c3191706194eadf172d9104357cbfb0f,474e983ee73fe0bfb166b7d7d62de4bea8c4b408,f8e5e975b4264e479b188f6e0e610a20f13c038c,785638b21294440ce42990c0ff41b0895785c80d,e7e15d705b4d5103bf9466ce54d7e2792b0d7245,58ebc9474ea3368c4e3f5e435dd6cd7018b7843b,0b851c97786d2771e25545708431a40d93f9420b,f25cecd6b76f9f4a4075679d05af7ebfd23a01b4,94886ae28416b2ef8ac4971ae530e751cb489c1b,0475e63312a8751b29336d18bb40efacbd0f322b,324d9642a0571c4c6e98737154baf037ff26b019,48f3a32c57be0626aeb5b2755ed0bf11579f0f82,53c051e6277e08ad345f1794e8576225edb2c42a,f5105be830d2e6919142ab8789e9017a17a13dac,b28fa5273efb094ec11fb8a47bce8f3bb41a54e2\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/nomcopter/react-mosaic"
+    }
+}

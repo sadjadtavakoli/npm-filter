@@ -1,0 +1,24 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "ec3c9b546535eb32a4c24451edb36504f7ad32cc,2bd22707b58086221f0198829c9cc91632f97dfd,911cd1060990a1c61f86ff3abcce4af2ddccec1f,ef9d2cde14bc34b17134e6ba8ed41b4898bbf236,28d0cf341f07e311dedaba343aa6799ae65addad,afc37ff2830f6a679b7b318dd15b47378e485c2c,5c0a03b7ff92857c193fc3551b938ca852749909,5e5f0774e067bc1ce4f7734f31a6cfc6f723b804,b8a0664388082ec5192518e909650ad618581a8b,269d2b984ce60693b8c032f8d8ea08bf2a5d39f3,556ccbb6e1932454f1279de3d2de65902c5983ef,513989a8e48f7b4d745bc4a2615bd5bbbce750fb,ae70e93e644ccef898c1885cc9cd0b02f75450fb\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//amqp-node/amqplib"
+    }
+}

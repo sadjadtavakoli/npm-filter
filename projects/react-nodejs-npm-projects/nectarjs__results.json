@@ -1,0 +1,46 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "njs_test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "njs_clang_test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "es3_test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": true
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "a309420faec7ac468fb26e4c0c7c52ad162d50c8,b7fdac83d1dc2bb131ada33adc1abaeb1ad03a04,8e3d347e9348254addfa2ecae733dda9731d0ad6,4ede3a5f87a7105a820836475366c1aefcc18a2f,3aa827ef33035e5726861dd08a5e3f95778bd5ff,f1606d61579d48c32ab98fa701e69cc6bf9391e6,47dfb79e873fcd892f79f81d3bd03b9d93ed7d21,096a038e16aa49c776dc88d5670776a3f2f73467,be6b4760561670955c953da6ae6225d09cd83490,8bf6d194c15dc6262c6b4369a84640827072fb87,34baeaf1fb4ea3b424e221b339f33febfcf7dfeb,52aa2155c0f36dac53912045a0919d730788725f,e5010797a2d75f63f900fc49e19430a3f7b243df,39de93d861e9fe49d09db4502f1ae93bfefb95e2,c7086f886ac44af9ce2568e434889631c8c6ba51,50522aac0566e0956ca53a78ec6df7e2835c31a6,62a4d55531d68019b6427938f201fdd9675695eb,d36a7ce2ba87af37bc72f3545a5732289b8d5233,a36eb9b8fb245f1c024d157a5f50c1f9e2cd1b09,d5d66283877de3ee1d8a2491fb28779abeadbced,e5a072433379835f55aeecea39cba80cac08ff60,c4f917b803ec25bb25a906a42d4bf19bca1cc2bf,e7052d3a8ce90c1769ad3e7c2265b000a59bfd50,8287377d3fec35fcefbdeeb472a7e543f97a81eb,a743f273bbe1f6441c8ab765d212207857d7bca9,270d651e646041443c1f4e3d394f6fc1e5f6106e,ba8808f2876d0d77738c7d98ab3fc8cfac23fc6c,fb9d8a8773d26f586cee07265d1f35aa7a484855,88fdc2eeee265c6c4eee830c826f2d79432d8655,5db5918f632cb00530fb306c32b219e0549000d7,9d83fc72381cb00382c301a4c264c68120da8376,8329069aa2ff94f210129eb5b52e22f4ba49ef45,3bc66ba2232050363e49bcb9ae0805af64a5f8f4,5f7cd3fc488105a83920d8e3393d4e47b2cb77e7,5d155df05264896c0fa9d3ee5dee0a94389604f7,a1c9154b38bc26c274dc3c8da042a39063228004,1f0326dffebbb21518a4f4f8d5fa3cb3dd50e6ac,94689cf2f7a8003508676086700fa99197225ec2,2c7eccffbe37d4218528277cac88553e90fde5f5,9bb383ddaba3d2ceea63ee40e20404dfa59bcd25,d30336dd123accf0813f49d7a4c31c5671def7ae,e98221b994337dc25fedbf7c95125a25c2ee3f43,917a4032604f5ff295290a2e7bc5b791165e758e,8d415df5b0e0fc235a94a376be45f44f50a4a6f5,1127736c462a3e870b54fe4ed6fd62b92448a703,40f68a23a5699118922454c8fb6ea4fd520eb830,e1b944bac29f261d0c4e4f12ecea97dcaca3ced2,93fcd05eb87fa20e1206c7b297582016bf5f1a7f,491bc74267ea50dc29564669c059cb4a07b0ada9,ed0f9b1d34abb258b918a88d7633aa36997f3865,e701df1b4d3b006937de907b448716d81c575c76,a451d683023ca5aa2f709efcb3dbf92c41e5d1b1,c37d57d94a723b2c370c0c4f9eeeff251512ca24,fccba3c034b90caaad7aeb7918c5841d48477fda,37726c8c00503c47efc8f785c18c8dfb7cae7bdd,1e2639ca8c64bee21854e89858995669cf2a5005,23c3e4461fa71b60331d20382c260921d9c67d90,79eafbb328a7ed3a1a4c4aa4b3c3309154a884ee,5154b94905c016b9382bf1c76f35e7f77555398c,f4a6568d6433abaef7835e1cb4be4f310ecd2c7e,d6c4a12d728717ef6575226ffd647a703af60f06,aed07bfc4e6528d9d7b9e12997b970006688aacf,909b823e199e2467cffa46da6c15f5ed86c76415,e00a6540d9920123f8e8dc766a0f63a34549db75,531c3aee88e1545582fa8a4ca62e3293e7646013,2d9d3c7039e3f99ee313d26187ecfb803b4b182e,d83b6ca5bf524e5163fd264a5adc2e8aa26ede08,b3d6fa0f655e3855757ebb44a1771c7703f29617,17074127012dd926d2a59d8428b8703b4a1f07c7,726d7d450a30d7259f7d0b710f27bbe5c3954fde,9ae586095dbd2c43f06ba7481a00088cb335af2b,8665b00915df3cc1e52dcf8747cf9d8af930d0c6,a4ab505e7f8e849ed04d4ec33a45dcfcbd0b7286,8aef9e5ac15bef24275493b0615b93bb070a62dd,0ddc9e2cf3e85ecb2cc0b8e1c5cd633e3f51fc6d,67757d649c5b8b5131fd4b0817cc2f093e071a7c,bf03c4229d6cbc97cd99b0641af99f8a27c7887f,34856128b8ed248241a216315231fc6304be2ac7,ac881aabda47327b5873fed56e7fc7fa7010f156,1055787e108fb0cf0a26f8cad137c2efc8f15549,731e70d2d519167444208b80e669af4a44654996,5b43ea71ac1733efc2e60df230e91d634be47822,aee32789ac3d006514377017ada196cf6bf3c1ef,5a68297e1827d940a14b4fc3fc8eb5c921cdcb0e,513433d816df8fc75c47ff9797e9ac9c5c523e5b,7b2cb7a2b6ae8d8945b32c1b55d686049ffd8d13,d91e6fa388aeab1bb2360a77843f732e38700ab0,3c17bba5c68fb2789502c96413e0896bac44b71a,42f73594037f9a06a727deaf94ca07ec0c1d3d62,83dea06d54c0d0e14603a6fda5f69c4cc7241116,9a138d9a15a3e8f11176397a9fa6f945f3c80de0,337fa1d49d5df4be662b61aea69330f4e8648f91,cf5ce516ad2f79ebf85e25108013285899e369a4,4143e3ffefc088b8c5e41f5a4f437a02bfb5dcd1,05c195b17813908255d50a9f509596b7ab0b53ae,fa9892f9c3bf17e6e4499a3c3fb2e3f57e01d416,4a6e497db07a8831b1b8aef2776f0c4e9287a9f6,4f9964e1a2a96d6d39acdb80de90c7cae90ba784,2ae22dfee144222bf0aea8a4f66212a2dd6cc9b2,571a5a96f0e60abcd4c8e5660b820feb0fa480d6,abee9e7ea657dec3b5e4fd6b632fd43618bf4908,e25f02a9741c286f46bd0fba380d16b4467d0ee3,34459fb1cf6900b094c55ef4f532992c6d491a5a,f6128e8f16ee99bd2471a9b0323fcf22ba1f222c,270044187662980a6b7ff0064f9fc50aa846e80e,9c4a638aaa5d26c59bb343a430f6e69e6343ffe1,2a8dab3c1cdc10a6cf0acf720a57a3a99bad3db2,b09cbf11161210004a29db463136cb153e2a2660,7e7408e36859d36f0327539fdb3978ff5a18b63e,81648be09d2078b8b84e4be514f6794d2aae2c99\n/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh: line 27: /Users/sadjadtavakoli/miniconda3/bin/python: Argument list too long\n/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh: line 30: ((: ( 53 != 0 ||  > 1 ) &&  > 0 : syntax error: operand expected (error token is \"> 1 ) &&  > 0 \")\n/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh: line 27: /Users/sadjadtavakoli/miniconda3/bin/python: Argument list too long\n/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh: line 30: ((: ( 3683 != 9 ||  > 1 ) &&  > 0 : syntax error: operand expected (error token is \"> 1 ) &&  > 0 \")\n/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh: line 27: /Users/sadjadtavakoli/miniconda3/bin/python: Argument list too long\nwarning: inexact rename detection was skipped due to too many files.\nwarning: you may want to set your diff.renameLimit variable to at least 7921 and retry the command.\nwarning: inexact rename detection was skipped due to too many files.\nwarning: you may want to set your diff.renameLimit variable to at least 7921 and retry the command.\n/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh: line 30: ((: ( 4732 != 9 ||  > 1 ) &&  > 0 : syntax error: operand expected (error token is \"> 1 ) &&  > 0 \")\n/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh: line 27: /Users/sadjadtavakoli/miniconda3/bin/python: Argument list too long\n/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh: line 30: ((: ( 2671 != 6 ||  > 1 ) &&  > 0 : syntax error: operand expected (error token is \"> 1 ) &&  > 0 \")\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//NectarJS/nectarjs"
+    }
+}

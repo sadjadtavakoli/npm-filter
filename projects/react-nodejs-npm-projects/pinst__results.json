@@ -1,0 +1,34 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "num_passing": 2,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "0452bd9b2240f649f1e7c40298fa1e7b3c3c8a17,a0469b91cdcc64171821d3fb387814f248e2c010,89c1900394b8637d19651e018a8d4236f40488fc,cb69dd92bbd86f01639aec64904c196dec19e06d,5c2e2f4463cd805fb4f44da453989de2f02063c0,09d81622d1e1f59d25ed49963acd4c69f6e38158\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//typicode/pinst"
+    }
+}

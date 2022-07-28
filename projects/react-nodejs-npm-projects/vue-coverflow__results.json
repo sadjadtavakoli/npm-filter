@@ -1,0 +1,29 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test:unit": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "45f46ed2e9ec27ea08169f45168aac1c2bf30606,5ee28ee41edf3e25fbdb8fe7db21d4ade4d652c3,ae503129f471b8bc97e978cb5278a7b296eacae4,993ca34844088b29b7ad7205ff42b074f815c215,5cd167d2bab519ac661b4e6e0bf0af626713977c,9489788903ac366fe70802302c39b645b0a5ced1,ba4a98338dcd61d650d9187a64ed74df32f9f9b7,7c8890f71c13cbfea3a8df73f73cf3cd07918fbf,127839677907b907db3df89348ebce6b398c7130,6ae8ab2306294340b4524f4aaf6088178fe27056,304a490c859f9bb39767d0414a6c7a4d8595cb67,be8e90064b60b6a2981ffe3359149437506b4524,403afa84bd1f38f8e9d97ebb48c5913e1a0ad3e4,cf0b1627922864c66ffc1d10d3b74791658a9bde,441b9672e59920f7cf44a1e1bef5f82cdc23ecbe,a395d5072a4bc107c2aa0a41439b5790d9f1e47b\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//OrangeXC/vue-coverflow"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 1,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "d630516b02f2217c6de282b64fadb4ab59834152,b9d74266896c534f22848cffb1f84f264df35273,28eed6a40d437e077d5f3425917e89ab4c6dc189,3b49a1e0bc04b61724dd3d7c4b36accccf4c3d43,5e3f1b395fd7b43da62bb47839f34258b90e92a3,6a49c394a2b0a74eab710a758567b48dad4d4390,cc41bd8d18f2e2cbb642b970813a92877b192f13,0da4ced227fae6a4df895e29ed099b0913d2f78e\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//frontsideair/yarnhook"
+    }
+}

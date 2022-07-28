@@ -1,0 +1,30 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "num_passing": 2,
+            "num_failing": 1,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "88ed045333795985cfc8ec03da4f9ea64c19021b,b66f8fbad0ce497827f830f1d5ec0f9e6517ba4d,62f9444b1b143ccb3d7629d007913bd8bf776571\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//fjc0k/tbify"
+    }
+}

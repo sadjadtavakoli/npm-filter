@@ -1,0 +1,20 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {},
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "f12317854cb6c73c7acd00b1da8834397448dd85,54136ad9160ac3c7462ea1c5ccbfca3783b3d7f0,272ee00aa2924fede2df13b890db6e854f718405,7d8ca6e3facbb9d3457d587ae3132bc88f09891f,cf079c2fb74902c17533c2cd757668c7e8c32618,07102cf13b3abf83754e6160ca28c816730b1b21,f1f35a36ff1a7d01eee450391f1e826ff450e2bb,a254d1505a24bdd4b189d1451098c255a22429ff,ee707bdf3b493f6d18d705b05a56538d8b66536f,2a09842eb31267ffe9f6783924fcc92f8b523f7e,75f88a9b4b3db8c88b90f0a363f16712faab0c71,8266573822ae06715f5c285af707567b4d889098,2fede91005507bfee8273935a41af92089ee1b00,ffa2dac34db009fc3d81e4326d9d02a705b9312e,7e25f357689314f3568fbe68413e02bbc49c172c,0d887e9f4c0d210592133a0a965760c7059381fa,ba659d0de323de9a2b05b015cf3f05330a7695ca,fdb15fa6672111ef2bf3f216c8b574a178adca86,6343f3c9cd065b1f043a149e52f71ea822772f70\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/shuding/nextra"
+    }
+}

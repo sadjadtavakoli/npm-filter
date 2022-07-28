@@ -1,0 +1,23 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "ci-check": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "74c08da5d4c60b6ee542fe874b7a8c388bbccd98,f90c2e151ec8c4fd9adf2389d0baf8d02a6bd9fd,1c2e5a60d496a6a03094d27b251941f8e1a1071c,c9f25669b15c2e415886ccafcbe82f4a3290d9d7,80df5d4a7b8ec5a2cb85ec5f507761d9e058df5e,44773b18b84add98c84fe50968e2a5580659cc70,128c5408af2685f23ed03b01bc577dfba115ca1b,0c2afc9128d8cd975760abdcf530358939ed26cf,93fc2b800b00abc11e83b5bc8f7e0abb4e553121,e732b43de982f65dade41d896b9a2a3ff703d4e7,0ecf2458a9f97014759f209e01a84e2d16e6e0b2,1259b21ae11e1284f388a47b476d9fcf9522815b,33d96b6e7249ee3d0c1195685f3b1bfa4d397e23,af7d940a215fcd3fcd1ea40129478a4b65a54e13,70fbaf69551a2fa637178818d67a9dae6c4aaa56,017b6e5e5063f2147442171ec6e1b141651fa389,5efaf8539380a9d467e9b3a5764f487ed51aa98d,c7593058bf59b8f5845e1251f42ed7fc37eae0cd,34798e42264c24bba2416c35e12caa7efead9f6b,fd7352efdbff59f1125c9793d3219979c23e1a7b,1b6c00884bb308b23fd9117cc5df435e98c11d39,cb3469fff67f259b55c32523cd866c44efd7b952,0a3946bfd9170e8bd17e799cb9d30825674f5f9e,db18d8075597a84df1c9ab032b6b77265eb2578d,9b3e4d86ff46f972e15abbf52cc6ed47e7707e79,7effaf14d363a2729480dd780ca5a436ec3f1415,b0297de161a71c6869733ada9af1db9284b8b559,90612f5062c02f01daa4425141b0a3651050f9c5,4b4631635ba2a0825190aaf0b128e2e3494f84c0,e234bd5aac22c5b12dab53c7a6f5a78514d2474e,b5249daa75dc4ef860d16d5f3ddf3b6de5b589e6,fd53110a475100b2514626d6833bfae614dad6ba,7bc9fe2fa4f35f807328cadc25aef45d7685051f,dbf1c771f80fc295e01978aad1b9e7d5bd5f9636,ac0c7bf2b37f6a6399287312b323f1539acc3a90,2d5d8342c000991ddcd6fea9c4c7d9fcdd36a2ef,6715bfbdf7fa2e39fd1f32f4a492aaf55eb54390,f7e24a50a0ca60d088198abe645bd179f00230c3,3679911709bbd1c334cec8b0001e2071579c008e,ea71eb817ee3239d4bf9f8ddf47bc3df1fb63f4d,86e2a6ec192309a461d5ddd9acc9aadbff0d78fa,3b759b1bb96a6cf06e3e642f091f7471ef5cc56e,2f09e79ca50669948c2a4e45aeacb65a79dcaeac\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/piotrwitek/react-redux-typescript-guide"
+    }
+}

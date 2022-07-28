@@ -1,0 +1,20 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {},
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "b65b1b2a2a24a69e7ca2bf74528d1aec450ae578,65fd0a393bf03dabbb2192aa39768794b251c8f2,1afb09546e34ccb165d87daf0d71d0d13c0ffb15,8004a30f9c82b709afa5b0f9e6f4ab64fc1748fd,a0500c5476b727e937271b80cdfab144abd85c53\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/mars/heroku-cra-node"
+    }
+}

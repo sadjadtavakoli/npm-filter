@@ -1,0 +1,18 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {},
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "1fd9767bcd650f4e1d37dd485020338fc0f1def9,37db51e580f15ddaa1c272ff395889d0c6475960,5745a870bde55725a63d5e88a5e6c119b9f9c32b,2a26b9d36a94694262233923fa8ed9dda9b4c89d,cfd5ffd34db7151b7b8f249aba929cedddf2cb87,48facbdc5e12bffce2a14abb8aefc5407c05f7b0,3dfb20b7311b769570e5221a5c30dfb052352ff1,c77783fe57cfc9bfeb4fa393e4887534a309f6bd,a8b331e31fc1bfbc034e2b2f13a5ddee93beb534,6db840afa922ef8ea0c692397df53899528a1cd1,631514eb8fd8039df9198b6d671ce440fc6d739f,3c91c027e9be54eb246ed7b66753d9382184e39f,a53a45e210fd0299fa00fb30ac622774e3b420f1,a6c1deb38aa5fcec2d6c862add90869bcd37dab2,9e061e0fdda6550c73359ea194df3274419e6081,385ff1225215f7515d891e684b2bc4a24e526646,d38d5d5ff27bc5dc6c4efcdb3118d0e1a4b5ee17,df7deec5df4532f1637684cb5122dd88f4290101,46ef81dfff957874d64f98a1b211d72a8cee6a61,4d0cdf6fa238452d527c8da6bedbfbefb0f125ff\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/Labs64/laravel-boilerplate"
+    }
+}

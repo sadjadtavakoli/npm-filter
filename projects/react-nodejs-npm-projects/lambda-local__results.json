@@ -1,0 +1,30 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "num_passing": 46,
+            "num_failing": 2,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "23a0efc05f25f9cb28868cf245ab5412391f8402,e9aee8987762fb1af3aa18572fc6e5ff10f508cc,f80a1bc1ce41325c6b24d093d635ae3f067805ed,b4cff09492f5ea23343c36ea9f6990240468d144,6d54ac8336c5da07e3c4ae14200a8f7d7359c02c,c72204e89593e914053eb8e66617f53b414a2d11,e6e08c380e7e6f03c35d646758e92126df04c28f,1d07eb07243e7f5e6ffe71022ce8f937712d13e8,d201e0ab76e0ca70b4fcb21296c8f5b686a31a5b,9dbe6593a8ff97af83239f3cb4baefb3f40069f8,49b8e8f0716da30d141fc4774940647423617e21,942662a8148500eb82427cfd846f6f4181a7943e,08e49b440b1bca554785a241de5f3a7b38a32f7d,d44ae457d58281259aed67517af992e72cab43e0,27c7c19d350fdc33e5ac90cb9583f323c2eb221b,801e1627db0534d8b0ac71ca30e73a4646d24918,e3002a5c990c762bd5ce4e481a9f7c4ccbe8247b,b251418d7ed59d2388d5852fcb21a6b14e538628,2013ee3c4fa2aaad0f77637fdbc629d8291d0dbd,9d6dc90073a78d6ccdf70f9a8c62c91c3d03a13e,b63d52b25bf54d5d27e13e4720bf329a02fa31ac,ce992b7d57dec1c95de3ddb6794125b7ac082955,145d35352eb8004328ac6cbb8cf2f071a86320f2,5764912ae9d74688f55ba6f2daac7e1c2cb6f294,a430ecaecd44a630a1bcc3d981126aebd5467e24,9636996bac8760d9cadfdfc07d7126d4339f0257,478928e2b8892a968d5708450cf47a6ab0a93d08,d9b68340b33ebcbd4208a2463afb12cfd4914860,4028af99d10822f6b27e5c825350ae217052e58e,290c2972b4b793d00f1a925e610a7a81ee31c54a,4465cc0442ec831e3bad430f0325561c038ffe1f,999b14e85f37a466903208fb1e8fe83b411b55e2,b289c97071513ae0d558c7a75c841bf99f4970b7\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/ashiina/lambda-local"
+    }
+}

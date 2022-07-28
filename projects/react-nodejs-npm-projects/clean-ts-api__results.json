@@ -1,0 +1,50 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "postbuild"
+        ]
+    },
+    "testing": {
+        "test": {
+            "num_passing": 175,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "test:staged": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:ci": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:coveralls": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "coveralls -- coverage testing"
+            ],
+            "nested_test_commands": [
+                "test:ci"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "782f55b48a6efe5f23294d7705e5ffbc734cf2ee,8598c9c9f53180793c39a7782f07ec3c2f981e43,4840b70da16e8c80d381293bc5a9b265b777e0b6,8b19fcc928fce19612a5f28b0ced2698559a4f47,2c1b33b27bec82a6a56813b56ff046803420fc3d,48e0bc18d69294a720b76980a62a374069eb9ac1,2621e5b1e1969afb85e95efe975d26d5facbf426,95dfe8e16617b0fdc3e7f5c2fbe30182f58ae543,115f4df8b1283ac56899058f42d494435713eadc,51afa5908e7791fee8e1b4e9d8fc7cacf13b1075,e82e41fc748b010d4e10212b82aa6c55223494ed,36aaa8a6bf9b30a5dcd8e3907d79be9f80b7b279,ff1fbcd763ebd07b20fd2d5c2cc07a2ea4cc2736,e2aaf0cb84019a372ba583c941c8b37bd0b29d23,537d53d72874539b749e65ce55633265084e9297,825e25fd63a4e39c26768552727645193abc5460,5a6ed0dcb17bd0f2675562972ac5ff4478bec64b,35674f526f3572fba1d9d98bbf018ef253edf36a,8e38d9a37ae20e548919fff9e6942d7fa8b1fc21,00e5cd3655758fff803e9324e15c94342eab0d02,8f30ec974b83df6a4c0bc4edbcc6bec6322f3d8e,d98a7e02473c6e5015af0868f584e70b21d8edb2,55f9d613830eefff25fced192edb9e72a06e645f,39b9e29f66fe12c2e12f0c76fb2060c453e1811b,db0eb85b441f8fd0a1330b0535ed76d9880a919f,d463d0be6299ed1f3fe31349cdfc9ca37e7fbd5a,1f45f495f852efae70eb402879bb8d7ee2a2244e,3bb2c87b1a7551e81ff4982d80d6146039328e7d,810403c149de8df1bc5669fcd2b342d4d15a098f,35f5478f256449c9f2911f8a82568783d36ae53b,c007d588c6fb1cef0ebd84d207385f89c002510c,2b1932133e1de331ae929565c43304f263e22aed,66715e7443855e0547fcf6a9e5e5a38ee2580b3a,742dc4b5dd82ed3c6e99689b9ceac30df9c1ee40,234ffbbc90501462b58a75211239a87dc9870e1c,adfc7cbc7e349a6b6dc6c902f6167aeaa8ea48b1,cdd05325dbf565fd492428fafaee2a10bb340edd,149d9a4edfe6208de547d5d80369e5823f593f07,d3439d85193feddf266b6680164523af22ca3730,dcf65316e1a37046eedbe7fdf9b5fa0ed349b5f4,27d38e54a6036a8f7631e6e2cafa07646cca7030\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//rmanguinho/clean-ts-api"
+    }
+}

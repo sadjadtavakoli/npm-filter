@@ -1,0 +1,29 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "dev-test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "6342d7627553af63748a13967ceba6b67f99e4ab,ddb69b5bc8d59ea3af89ae396559cb880d255661,aa68c042a1e73f2a0aa3db9d318ca0b9df0ba58b,27641c053c213a6e1cf94f943880bb81f5f15357,ef2607b27c150112325c71285843815bf12cfc43,1cc5e38c116a610e005ff9c4e150431e4a9a0898,f2391dff15f2ff71e7c6220975c484e43027c01e,3f7cd7efd6fc40b3dfad87d651f0216382d53691,626e10c69c99334ef2bc68c960f5cdc9c0d90f18,a349ef240e3ebd994063296eca22459a5891258c,59a0f444fa331407495dc84c81114ae26aa16959,a08f8b8e7dba8eb01b15b1926fb39fa600c0fc39,64e1f5389bab4c2ed3173bd8bcda0858ad512021,509bf4e068539fe3ae79b99a78e5646bf2599097,72e5dc8881f5218815ec9a02b9f55b1f6de30d38,a4b6df5c8e37f74e8515ab3adf1702c32c441989,9c12b2604a89d10638445fbb0fe8a1ec4dcba68f,6559bc04ad461d95bf3b8cbeebdcdfad855a89b3,426d01ea0b27540cc9a2796339b87e7595542ffa,92caf4e5634e42f2652258012993b794c7576254,b659f621e31b4a032cda33d4aa790ff50ba2399a,90fba799d322dd13bb06d71477cbf6f0a9a62ce1,000cb5d549ddac3d2c3d5d35e399032983d99ffc,535d702114128cd6784ae2afb6f74e02140db0f1,f5be228ad6aaf6ebab8d5fbf702e59a03c58a03b,5dc46ccc8e3c3bc6943199132c4b8e69c078b406,cc8a4f56ece5049bde7fb4c9e2fb3051730dcc96,7caf38306c54560ae59b909998e3ec72ee75541e,8cf60ec225724ad8a5f197638b01b5cb5da42b7a,afedf43bbc24cb8babc458442d1af7bfe163bf06,c2df3fb62430663cb6f4f47f09faae4781148e46,0c28602ffdf75e2a441a8c3ea62a424891bce385,5b4d00bae49bc96ca40019acdb8dbc10041dd895,3f49190a3d283de88971c0f1777cb0815f9d4655,8087d5db4b256f727d53c4abdb5d5012193ad884,f203d1c4a6eb0f73c07e2c049acad36564f2c7ba,8b2777d54118d7899079c28e405de9805fbbe2dd,6655a08bf7dda69a6ba6107163a01577e6f89459,c9e5174c8faf0760050d0d92f3044b8f6a1e1cf8\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//vasanthv/jsonbox"
+    }
+}

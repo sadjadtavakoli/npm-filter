@@ -1,0 +1,53 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build:clean",
+            "compile"
+        ],
+        "ERROR": true
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "num_passing": 24,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "test:ci": {
+            "ERROR": true,
+            "num_passing": 24,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "lint-staged": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "standard -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "f2e0d61db534344cf67b6e75283f7b932734cc7a,eadc0beca46d82e0f068f6dcfc56cb845ab348b0,49b7c079274ec0dfb7048f8c4f31acf26b11340c,5aaefa0e14373309c54aee53ff5c0f7893a7e320,cf74213de22b0d2ae3672f98adbac3a1aadab6ed,54e4d151a543453a06bba170936ff8eedd511359,493f9cfdf71b45a7cf151fe3ce23b044f134e3d7,bc6cabb1df9f0ac71f9c81ac237a13ad6fca24be,8ab672d165260063fbcc4c7a2f5cca1de29ad0fa,f957d3f3bc213384ca844b6f2edf0da2af84d84b,09407f0d24c7d70a9b7af4b118acc4d061a449fa,b8c4ed3926d5721032860a68ff0d9202d9006f1a,85eefc8a03dece485acc4d64f698f4308e3938b8,0481d421ec67ab588a31366c38a4146009fbd149,b5afd74e406a4676d30881da8d05b28ac027dda0,98368bdbaaff38ddf34bc08577e409dcca3a1112,d917fac0775cb1283d36ebf4d74184335318f5e3,8aac44a1fbf880920f30208591166ed9fe40f129,16a8dec2e17ec1263ab644218b667b9d04668c10,ce552355acf12bf32cbad85116f6dd48960e6cc6,28c8d831cc9aa4290654755b56a254015cfb8a78,1202bc249b06ff0f8ce30743f0d37e553f2683b5,2d2d10143cf4845ff5fc7e5b66c5c1cb49ba5f05,29c4b3e1abd4183a048444c18321663c224646fd,44e91af673dcd7ee5e6be651063c30c0482758c1,5f3640c670e579b0023cc9b94f197e7c54be9ae5,2e516002e59ba18fd4e3afe4de15a4167054e8c8,4f0d9fcc208c27a9be745aae4b84789387b75f8d,9cbf076aeb8cda57ad65da5ee360834e4be38ad5,e8edcf8c2a1c2bfa3729136518c42831f9fe5f6f,ac62c4b2c0d051226d511e2a67fc197971b749c0,16dcce6c7fd40a4364d4a25db0627caca9ddb03e,ddd05d39f24ba2208eb0626bac6e087bbb2276e0,d76f17bde18ae7f248bb279790140cc9553e4ead,29a72e9977992f5fb76ba35d8cdb3e8a463eb667,bf0df1b58f6631d378e170d757f3429fa8418adb,121359f439f5cafe086bee87373b091d9c5d2004,c013de82b2cfe8d846e5355fe3f75e476ec33437,4301641d312e3d3314c796313fca89e105376240,bb8494d73dbcc7741e0933ab2109131fdcd60608,0f4764085fc93c8b2c4d6dd1311907c84adbb0cc\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/kriasoft/node-sqlite"
+    }
+}

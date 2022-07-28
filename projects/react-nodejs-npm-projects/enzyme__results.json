@@ -1,0 +1,95 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "prebuild",
+            "build",
+            "docs:build"
+        ]
+    },
+    "testing": {
+        "prelint": {
+            "nested_test_commands": [
+                "lint:root"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:root": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "pretest": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "nested_test_commands": [
+                "test:only"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "pretest:only": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:only": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "pretest:karma": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:karma": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:all": {
+            "nested_test_commands": [
+                "test:only"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "travis": {
+            "num_passing": 1791,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "9126282f489b85c52ca7223576192210a2d76a47,b06750bb5f6248ceb9c3fae903a71d0747a420d6,e29321c2f340d46972c4456076e50218d4dadd63,d91d95b8da8900c8f4b7090d2256422a82398ca9,a831700fe124163c64e0189cd810ca114689fcb2,6db69c324a59a7565f2ab772506536297dd7e974,6517ea420a4b6f5b173fd012afe5b816402574b7,b938f2b15f42cd1cef85fc7b7a91f94354d2e38a,fba142cb7f23df35fcde59b78d921d8035e4fe08,0c8e6303abb3dbbfe0a49ea8227d0c8ecc5078a2,d7f32617e6ea93b739f4e4c3f6228a8e382aeb06,ee180afe824e16815db25d342f96f17bfcd7f647,f4f87c65027ba3616e1bdc7637fd4ecd6deb1c67,9a011afa31e51ddd55ae3146a723d13352343e90,39c4c8407d3bd44c28780a4b99cdba821f585456,bb4c6b60eb5c3b72a8e3c63983c9e52a58ecfb0a,860341b93c6e5b30bbc10f538341e462a146905a,f85156d65dcb17c09057b27d97e8200220e4022e,c87313b33a656868173e855d42a83f6229b96184,6966edad7c2f73ae5388324842f1006ac314962e,ceaa009b07d85531136d73cc14c3084ee9738894,7ae4410e7800978a5000b8c6cb74941fb18678e0,f014e34ecd1e42e8d507adf02f8e15914bd27ad4,5ba0211f3c952db289c6a923c3f91b7e1c44d96b,baf68231f72794281c05f9f2f0d9a588a4a99c8c,2a14aff7ee8daaedb6976a5a710853ab66bb0fef,4464a17d40c674a0284d42782037147b1f4416f7,22f368f21934d41f98acf8b70d952571b531df96,3ff9832b33c21f9b166890d6945406f96001ca59,ddac679231820431536d58821d6ebf01690a9169,2b219bf9052a8d75dc002093cd51f6341fa9e0b6,db3d71741630ab1c89605a1bcb9ecc2e65788a3f,4657234f76179d204104534c20c983c3c7bd289c,d5f6048c5e73fd5e8d1eaa9702e27f4eb72bc24b,6369fa42519b1fcb4d96bb577f0407b72cde9b3d,c1e860dab0ceb018e694dd81ebf01d2fc358e49f,faecf78b0fc1ceba80a6b3392baceb745cd838f2,5d282efdb344237101b98148e12fdbd951ffca44,9aa3b06bdfb8a241b0133c5f0a925988a31c843d,f81b97199f20cf5d5952803cb1f2095ecbe4b5a0,219e50aabdbb83181faf44f96c8678bd022c6d44,38ae4b22a78ae3570b2c35c4071602037e2b0c9c,16680392b76fab5487fad26526b10ea61ffc5619,25220cd36af25de7a99f4a1ead2b1e6ecf645367,e695b1e7e814c8c76ff42cdec9e3b2c5679d122f,8879ec5e1bf0e93bb3717e21b577935ac01cfe89,f5cf0414ac0f9af2b9a3915b578363480d0d0a14\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/enzymejs/enzyme"
+    }
+}

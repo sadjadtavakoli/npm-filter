@@ -1,0 +1,80 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build-ci",
+            "build-storybook"
+        ]
+    },
+    "testing": {
+        "build-ci": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "pretest": {
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "num_passing": 187,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "test-ci": {
+            "nested_test_commands": [
+                "test"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "nested_test_commands": [
+                "lint:js",
+                "lint:md",
+                "lint:scss"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:js": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:md": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:scss": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:fix": {
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "ccf6180577c16a08ce46e959a1835232c118c347,a6c4e19aa97b25a004c990eaf1c45aada7f16c18,880b33919d29035e2233b1ef82418844c02a8bd5,488755b36532f604e4ec92b0265ea7c3a71dd69f,0a217ec0ff99c4b80a62adcd7ae1ea814d7e7d8a,64003c27891fa50e6373863005c1d1fd9ee08668,edc67bb8a4ee7e75b609e45a41f07e52869b3b97,e1786be050c84828ab7b26c635a1187301785d37,4c83e2883340c95441fdf07aace18438007b5bfc,af60ae75c343578043340c46bd9a844244888d56,748799a5df0aaf952ac9cbf57e5b7917e2a3fa62,1dc2a016c282ed1742ce20d3a2d1300567361b07,3e8839d134ba241eb8b268f6006d9f164e27ed3a,4f15746b0c7c102c7f099197103cb146bc6fb04f,76c456b060a77b04269006aa6df2211df2477c25,49e13622ab452d072b908442f186683b387f87ea,714c8b684c2ae459158caebf4b2a94dc37b159b8,ff3526f8b25e1fb1ce92343f1aa406093ad12723,f117121f722555d12d60b02974f0babea181fe99,ed4878db06d2f58d83314ea386fbd974afe02ec1,422bafde65ae6388a24ebaf3ef33f4c882315a86,90fa6f05e8459cec1136381513d76edb6fca88e9,4c02a6e289b6920462bc5977e45e5d2115b6619d,3011933b60c1bb5063903307997f2da47394938a,27dcfce2ffaf0598bb66ece5f323a67a9b51d6fa,92ad3a92580d73d1d58d5404aec27d427732493f,c8d3228b755c78ce9b888bec81f9a86f225e9cdc,9bf2c652a25038aa9ac171b846aa358580c9c14c,c027f7aab318c9bb6892b5e738c7ee596fe71972,5fe495792b9eb2e9365b3db3361a9b8c7853f5d5,2a117fd47dd1ed6a25fb4d1348eb1ee1de4cd6c5,dc816ced04b02fab01ee2554acff8bbd6d527367,c5d39872c4755b3ba5367836bfe62303b5cdad5c,f093f3ffcc123192522bb1ea6f473d99e2e98a86,220d95f588f3012c2be621fa996bcc58a2df8b55,15c27b4c76b9712f6fde59d4525df44ce2c9409a,2fb668a1e1e142d339c52cfd58bb30d8ddbcbdb7,4d2bfb4789aaca274d356cfa985932075bdee55f,1590709f14d8e6bdaaed76558084c279b17d36a4,41945fa7c8afcf4871135461adce90a3f27e4d46,2a806ef0520cba90e9f23f45fffcba4298186c26,bd6c20bb4cc2f510600e646c4d5f86aa37dc2674,1ad798bdb5bead8fdd3764f98eb76d982c21e17f,e23e35d7047227efd3d772f98d6b235ccc2d8aac,d5795cebfdcbf1642413980d58162e5a82cf10b4,e7574b8a95b6f70368fd0f334d5b22b1cc3dc5f2,8731b4919189bfb08714eb41767f3324b9205c56,8fdd0984cf7e30c1306e65bbb7141b27967178af,3d6d5ae43d8fb27d022bc8b93cbf15952df30121,7973eac5735b8b6a6641e671f4e532fe5667d8d5,a5097ad630a3b31410dc3ca5736648bbf63fa2c2,0baf0146dd84df56db92c3643ef1596664d0c5ed,e89f6c566aa3cc190b292fdc42bdf032e0977e9c,8cc999b513335dd83201cdf86c81fa6776534461,da919e85f71be045e80c1bce2d5039cfa11febc2,7af92c4c8542775a40b60ab4ebcb26bc6475f9ef\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//nodejs/nodejs.dev"
+    }
+}

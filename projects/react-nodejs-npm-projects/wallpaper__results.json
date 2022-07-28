@@ -1,0 +1,27 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "num_passing": 3,
+            "num_failing": 0,
+            "test_infras": [
+                "ava"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "8a5561cd43de989537340aaaf6016b7195bc839f,38ea0f470d95a713b3a11e13c7e0df73ce08ed68,16bc00fb4b9b2f2f10b5aef75575bd4e9adc5658,d12f54711d378b046bbbde2848eab3e1aee32df8\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/sindresorhus/wallpaper"
+    }
+}

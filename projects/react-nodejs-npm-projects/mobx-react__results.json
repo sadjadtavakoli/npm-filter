@@ -1,0 +1,66 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "postbuild"
+        ]
+    },
+    "testing": {
+        "test": {
+            "num_passing": 106,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:types": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:check": {
+            "nested_test_commands": [
+                "lint",
+                "test:types"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:ts": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:coverage": {
+            "num_passing": 106,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "test:size": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "aa780c07162be99e198e7bbdbd6465c1f451f1d6,376bff72d84ae8d342c55d1fb25ff81a223624d2,9b2ffb1d7534c7148339fc1b2180374f0228ccc3,84faa156f66ccb98cb6f5afc44771abc3e1c1d34,bba25e367fe90953d12a4805f120fc58ea7fd505,4904b624f46be2e14d3a3d1017c1fa9bcb334f02,d1528956c7c7578a761f0cb53d4bd3aea1cd1ac8,464035b1f0a5367a6550bb3b590de62facdead78,23f0d0541d3d6ea650745251d52ea8f185e8f8bb,ab98fa2f81fe1e9cde443b2d8244c9c9a6936595,c1384c81a18538b7c5c329689926b177eaaacf9c,e1490b1a9c88602f38c46f581654564702b052df,dd25794bebc48e20ce5e71ce5553716feaae295d,4a724d82d67dd4a25c62095e4dcb368b4ff82778,0eeba9269a4d8b26dad91602f78ce969094c0a45,4c57e207a6f2effedc2f9890e8c606d8268c89d6,22289a6a49ccc5bd5d02002eb4f760d6e9c6c796,f478d5e77203c8ad4516bfe17ab6e2c5ec422466,33421812d0151d49654712809127b0e08beaadfb,b1a2ada82f5dc32aef6d7c1d96ddb7d304e70a27,fb5bb27efa2abfe7faef37a93e3c370927cbccab,a9232234405a681bedbad80c75120cc5458486fc,23ac8cf09220f87c2d1959d5daff040477911162,7335a3111a135f653745b03084dd25338b7833c2,e16633ee2f9a017d6236ee80fc3c62dc129dd7d4,ca67312cf3ecaaa73e47a652ebb6bb8f5a9e0b00,180dca2845e9181597a42b2be7325b60daac3d87,04fa4e4d34516f897c926054b00544d4584ea02e,ab43047d14a957d909d403731b6d63de5a717698,ebf287a44989c14e0becff9755cf6e886b6c1700,5c001cdff595c0c38e318979011e3fea4e1aca9f,a52694479b7e04046fc7d35622ce3b88f90e2bf1,66e6b6864b88efbddb4c25a233194e222cca50ab,1379d8f527ecbacd89f3f225b0ca384cdbb12e22,28a1d530933d8e87e5d5e54f08ab528f60c76fe3,231721ac00533c580235b93aaa23ec25f0a96b9b,a1541df26986ddfec822fe43a988966d83e91832,887d0835ab9a5a7e443fd38f6d70f9d6fb1f7e55\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/mobxjs/mobx-react"
+    }
+}

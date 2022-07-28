@@ -1,0 +1,46 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "testonly": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "ava"
+            ],
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "standard -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "nested_test_commands": [
+                "testonly"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "1b6e7fe7a3383cba5bc4fabd4365712b4f4ff198,3084a28b7fca315514eddcce93a566504598aee4,fc35be7f87a2314de8ba5b251ec5825da70ded5b,0e4d6300936ac0c22d78f5478655b4ba1c9c9f41,4ea1b6022e21aa081509645f9114bef685061c62,153da9afbe731d4a9804ff87d5bac0434d1c517c,2e8ea73fc110e0a6dde9204c329efeab435ecb2b,ebbc13707bc8f7a5d6cb1caee706c34e5d067bd3,3f30b5e1b733d6c5bba6d19e3fb3a62e0f9968b1\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/vesparny/fair-analytics"
+    }
+}

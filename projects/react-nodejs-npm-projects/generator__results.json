@@ -1,0 +1,44 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "num_passing": 9,
+            "num_failing": 1,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "test-ci": {
+            "ERROR": true,
+            "num_passing": 129,
+            "num_failing": 9,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "537cfbb3f07fc2af8cd1c194096a356156bb9965,b26d2158cb6f7197c2e2bc915157124fe11ae3e5,57ed5afdd678403f2db2708642e9e0ad28a2f8ee,777d1de9a271e2ed4c9ba2d082a6c19e9fec85ea,ae638293ae6b9766f6d6a70e2a717aaaaa638684,64ccae9537b3b3775bd8d0deb21111acde54cc56,adaa5f1c5c17158bfab3c438431572d05ceede6d,30cc93088aa9751c63f8e723f10fc4dcbd2f06aa,071720844b5afa0b426032f45412fca510856e54,5bf8c709535b7cb2cbef9638507d527049f7a742,add1e9b8ad4f08d4b84af52e9c233d3e8d997ac4,c32143447cce1ecd7e4ae11029f09a24521d5ed7,db7a09780c05159efcde9ce5116ed2c2a66c5f93,779246116853d2d836c348fd11d80edd8a242a4e,80e9721a9387102ec83a498d7e43043bf415dd00,8c5466794e1810c426f33757fe89e0b024f38c09,ace5c08532874d261711accb3e6542fa5b8f1ebb,229c4f376254bcaa5cfc75c3c9ca488963f99cd7,ef46b9d66c0c28c2f93c7b2f2841b1c01f62ccd5,55989abed7e8fb41c754a5803afd12528a26a2ef\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//expressjs/generator"
+    }
+}

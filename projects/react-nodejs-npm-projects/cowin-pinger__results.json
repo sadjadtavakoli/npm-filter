@@ -1,0 +1,24 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "bd451da8d14abc22bd1891477ac8383ea5dc6cb0,b0398d97e7c364e9058cb44586d90ea7b091e95c,f517fc19e959d1eb9d459644cad38c89c57a8f7b,4e304dcfb73b1f8d5a252af1644927100787c36f,46a48c305a90157f2f3da4c5bf55f3cea3540c6b\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//abhinavdc/cowin-pinger"
+    }
+}

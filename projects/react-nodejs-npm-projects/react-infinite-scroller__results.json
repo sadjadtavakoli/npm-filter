@@ -1,0 +1,32 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "a3fc28ca905d86a48390f0019173468d5e0ed6b5,f76e5709f686f1bee52b8676d651935cba7f4b6b,3389bce8d8c7ced33bd89212a08307b1a6f1a18a,777d63b4807683d574b3e29f67501539e332cd21,1ec81cff5728a76c0b66ad66b419f2e6ae4ae780,0db28b66b13bbe1d8adf62ef150f2b86321f6689,66669fdfb68c3273c08f9edd3d139b73bef41919,1fb4d15eb12c1c64614bed566ae23f6c16ecf0b2,2fe5f7a5a218cd39c7a6f039c9cbbb864e04a40f,8165370a27b64985bea5c1480f962672ea43c280,61671f8e3a2d3111c43399ff0afd425fe73c6cce,7b0d3239e47b84a9e0fa56eba8966659e9bbeaac,ece5b6a049eb494eb37ea0421b69f2909eac72d6,d3839cb178e94917fccf9f8245b8f74148fb4487,1abac240356b1f3ffdcfeb68d6675de2a07ffe8f,5f3c9cede783d51baa32f809f8f89de4b7e3758d\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/danbovey/react-infinite-scroller"
+    }
+}

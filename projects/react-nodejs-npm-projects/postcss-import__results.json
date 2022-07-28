@@ -1,0 +1,52 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "ci": {
+            "num_passing": 65,
+            "num_failing": 0,
+            "test_infras": [
+                "ava"
+            ],
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "pretest": {
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "num_passing": 65,
+            "num_failing": 0,
+            "test_infras": [
+                "ava"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "8bd0173c286b15c254a3b88a4d48b1e4aabe08cc,f85d645cbee660637690a09c9e02c1329c4a3369,f8c36935e83fd47c56c58bc5b1903bc4fbd5f35c,fee216ea46323ee64bc96fa2b06f7547b5f8e6bb,19632bc4a89f1c1896b914d32596c63db5b9001c,c5679db0a9409a36dd81e0b523099700521db41d,67f4553fd7fa43c9a3320d172e00e0cd6c6ddc46,5a997837930952e7242fd7674671f7a13e55ebb7,80cadec2087c0fcdb310c53de00e38e1af4305ca,86ccbdb5c639f6aa17ac68c36b3bd2bcee8f9ed4,ac9903b658b1d447f62b9021081051e8b8d42538,c50b02c1ff138e91b4ab2dc73bd6ecefe4219360,1ceb13e44fc37eaa84496e9f6d31590930d9ee02,360ed8d867afb7f44b0515bcd6f9f1f2114f2967,028663b04b222d0f2da5b113f16f8b3a852fc1c9,7124d436da3ae270bbac577d647af52710c40aee,dfe4c232b9c0e0980be22e8237d6c9a879e297a3,9fdde94e8405f82c157db16613fc5c5d3272d176,a15e40254a3bdc2a1a3ac99f8a8cfa11dbe585c4,3352a37ba5bcc3e091bc9428db7ee5a9ae4ec9b9,3a9605937547cb4bf44a65c1a6e18c8b7b2c99b0,cf61eaf0417189ad417d7547e5871b774ea517f1,2f930685f693b48d00180bd3f4a76a57a02a8fdb,91bd131015fcfc4ab8903fb85fdb34a01286fd2f,8767f441f8681df36da5a8411c99ef4c9f96a356,488dc277b95850bd0f3dd3b32a8caab770e00a86,5397ffb9c828b0cb3828a8395d1dba4a8ffc21e2,87aced844b42427d3ec9fb6191c4a859adc89b31,5ebd132949a79c9f07e8f7c7152fcb0a1d680c2b,1fbeca62a6fc84e39e0fcd53cd3baaf95b94a3a2,3eface95f72f0a8bfefd06b37e10a188369d22c4,9723971f953687993974467cf6f7e3b059ce17a2,c12d4f56642536f4fb344b163d6b3ba85eb5cbff,5c51aac1026a8cf1597bf8c4214674eb64fcd051,9c168b90afee7673df7c617d08a06a076500a499,bf2312087fe3d7b27a167a109098a438504955da,fbc130bcace1cf77bbbfda5b01303d218594f7de,5528729b07b50cdb060a9eae1086348b2ba9c482,06db99ba80af0e3bf154045b2d01af960d326895,40b3f8ba86bdec2c9060c02a30391f1120741dba,9c32c3c4018f0cbe01366133655cb40451ca3eb2,c4c83edf2da1509d6b04b021b8ccab16a051fac4,ba3dcf265ac3115a6db08a9000a966bb686e78f3,0f5d82b16ec128cd2ee2535882dba3657d4f1d07,1600dc626e4e408bdc593d98b1f6cff4acc98273,bf453bb23fb9b45a1b3ec91d25de8b13ac064127,9a90dc3fdbd264352135221408b57e7099ecabc6,03dca8bdc5c06dfbe0d9a33aa26850fed62c2bec,83b7c787dae294351de73ba9428ff8371a086da9,1d5d99bafc14fb3bed5e9c747e87f29a7e926f96,94ce815da4da5d7d952d5ece74af294566f572b3,2466a5327689d5d1f6a32e3519176c83aeb9a5fc,e9db26da7afe8843af79df691c344b3d53b96e93,f9a831843ebb325c66ea33c19bf7d79d4350bd0f,7af006e8206f44a181c80a7276bbcc1828c2caab,5bbe1205e7f20a70317797ff941b22516e7c7a14,5d3c1fcd98852ae339ef0f2bc0b830263ba44e54,debda623cd0d5354664b4412b87c29de1c16e6b6,c17852911d39a86aa1a447c37eba671ab7113019,281dda9895f74034e776fbfd82f713923fb47b0f,ecf8ce3854c1c1c38e7d7687e7bd95d58379477a,6cf78d50e80fc9abb2708f416bf912901b675069,7b5fa01a764eeef7939668d0c0b5380ba16d2b09,e985ca694a51ce88747b4e724de3bdcbc495c857,aa15289a9370c458951a1f3815212552a77c86a3,8d9d0dc897afa3779c03f2fa4d9f80f7b2ec0f47,19604ea91cbfca15c09b9250a6ecbe7680f7745a,24c7a28a59c17776da235beef278ba29c2fe4dd1,1d39838944dfa3f88dfd67ba98a5560e1d026f09,5e50144f73c3e5cc0f4bcd405e5cd837fc1f2112,e2fa318d3a151b6d480b02341e44d2ad644f7bce,9663e102bd5519c742c357412311cbc6aa80948e,6fd726a86f688ebcdeec02d6f8a58846b2d0a672,e842dbcd61e05f315dd6bbb4e06aedf2a7457715,2dec04c32aa47a047a9490ee067571839271dc66,5725285074ed2d3dd849a9c7763b76c24e64b0f7,dde63c8992ec94f53f86fb9fc87909183d7b5423,f5d2fa741cf292a4f289acbe8f52934db2daaf04,db2c336ea8923691ad3040e827f88b040f9addd3,f80f1069975a3f35fde0d6e2ae02332f54641f69,d192fc092b6fd9cd07c37e13b8af71c6e9c2635d\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//postcss/postcss-import"
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "b45871bb2e844d6ec05f13ddb76dceb52ac6d8c1,feddb3d3391d843f21ea9cde195f066149dba0be,2ea948ccec60e73c8241b771f652a215f46f20fd,c0e071aac88ca2693a3da5923395dacaa167cca5,4f33bc4374fbfe0116dc074c252f851ac5461bb1,cc0df28464d61f4b99a7b83bfea6bc60eb5c55f5,0e0dce99b91b3deba85c2b5e97b161762a13c5d9,b6eac3f61af840d04266e1618f051b616d4ead7e,dbd79fc61db51352127bcd8b66ff58bbdde38cb5,9d4cbd91698529e719fc00d20dc87aa382db54ee,ac0841f40905cd0e71c64d7f7d28419805005b44,ac9fcf902b25f8fa220b0a65f09066f1d3bed459,30decc10db2b7ce0d381977bf76be25241ca6495,e06109e53531187207f15721d297180665e88f97,876222c7cf24c892c0a5ca5d8a866d858543d703,67dc2fdea01be6e42a5f916086538cdfd2d9da66,8534d4e0bcfa6202a239a5fd986c96da9926373b,d6e3f3acc2a61c3f369128e89134932d24a589e4,8e8100aeb29efd69bad02bf90df900016484bb05,488dbe125b44fb162c7107741c5b06897382498c,ba68de84ab8316b3ec3fdaa1336978f5ee97ecff,54b0eced7a772e947db89f01b231d8bee57cb552,a7ce0ca00d555af4780ec1455e3ef557de820ecd,0702846a713d8bc4ea32ed9d67df1a8870c098e7,30abcf9e427ca258b26dbcac652d05756fafa2b4,28d425fa9f1116f5757ca8d2b6c98754b55b2b56,a10a7fe554f2df1ff6778ffe184f834ac2913961,cb988ba36de0d78b03498ec491d9def2a0041805,88ecb9a4c62d82c00d1eaa8dbf2a3faa1ad581b1\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//pillarjs/path-to-regexp"
+    }
+}

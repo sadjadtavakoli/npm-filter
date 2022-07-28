@@ -1,0 +1,24 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "82e0ca06047544567698102ed6933aed2f269bd9,763431b48a1c6dca88160a750d0a43180fd606e7,85836efd1b95751674ec820ee62767a7a6632571,a0d4c703a9df96de12515de625afa5781fdfed36,fed3bba2d13f604c76a21217ddb896552edb3132,abfea4b9f1f6bec31ee19318e6da745a521b51d4,53d91402b0a9944cba8c2967a932237578d48a34,3e46aec6b2a70cb15d7f6d79fc6824b635c7d492,b5a0b81236d4b42c27c99168c79faaa3a29ff7fd,e2f78b7332e7da0f732efd95c5563462a962b74e,009e8a8128b50987ad204d86fa3215c702591945,f09a7bfc0714a44c76a569523d685aed380f1db5,7e1ace0559249b4bba018803c9eae46e75dbfdbd,03ca6827027fcc9bf75afa14cf11220bf9e4e67c,0aee236f2e6ea9e08ac6cb9729451a5af65cfc81,b3eed234c5cb6c77cef3647ddf13405a807a34a2,adecedb436952f2cb49bce4bda9ff200cd4c2d59,f69c240402b9bef3737f54968a5e179d6011ab90,7d4bfb06d1e1769346ef34fddbfbb7977c9e402e,77964e89773ed9789515f9ffdf471e465526cb2c,a775d0599995a1c28cf4af802e41c02ebb8b66d9,ce80a1d1fc3a3cf836958f60fb82d4607dc31225,baedc500c2475ad4a94535be44be327493471957,2ee734ec0bf1f1fe37f408e61dc85ff6c72b1d9d,038d28c872f54a03b4cc2475bb5b58b0e621d5ea\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//tdegrunt/jsonschema"
+    }
+}

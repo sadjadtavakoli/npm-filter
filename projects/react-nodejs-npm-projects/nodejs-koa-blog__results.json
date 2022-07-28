@@ -1,0 +1,28 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "86348cb95502d9cb3c5c297006dc75015de5c964,61ced548cf6daf75a0688687029782fad90bdd5d,83845f3cae05f9bac5e2978294a5f73c314a0169,8922e26ea3537e938a7180e51eca2087f59e88bf,6a6c0b9009b16778cb74eeb793795cecff91e5b5,5d800396c88ae2fe6a0f0bad072738bc153647e9,1624af87b45de3047274eb055526e298c2071422,3499d70d8a8f57e4b91f9f1ecb1674ddda1da9ac,cbab991d57eba14811ddd48687106bbd52166bb1,ccd171c8c56ee99799d7bdce375b63a8bd062d76,81bf5d613ea23b58cca89b2b0331b259487bfc93,c22eb89017e903bf2d385050a99fcb0d7cebf782,205bca5e94f4b404de154787a11d2a94c2cdf501,a837af9cd6499224d384cd6331c3e846952654dc,ea1cedcdc4272fc8ebdc6f572262b8a5bf800f5d,4a53587b6bc8e73cf6a6a4c3463bd97276084319,5808b6dba2b1926369fcbf87743b8c353209c869,91088f9b18868da07c28cb93e5111411b9eeb1dc,d33687a7acf4c6784ee51f734c160a6a148d8ef5,3c12d82aba724846b85868e386b630cb0ccf2563,5ca5b32adc57c03281740d7c8b68217397dd2dd2,b85bd06d44472eafb392a9e379a4a89da41b4273,8e2856eb3112cfbaed3cb685a62091918cbacde1,0f682cc13ea6f87a12c944b23f01eb6253920960,4958af4cf9a98b0b64d6a04a55a128e84a05c0e5,4dc8d45da200de2f6b47baa8a20f837673cec23b,699f2fd6772764008bc46db867148816c6592040,cfc5cea995d4c7e53b8cac5d98191be44121e4f4\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//lfb/nodejs-koa-blog"
+    }
+}

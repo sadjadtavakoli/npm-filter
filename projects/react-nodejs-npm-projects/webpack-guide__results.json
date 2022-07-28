@@ -1,0 +1,20 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {},
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "a433a88d684b0c9b4c3af56b91e557a9390af3cc,1617c781f78b70f93d87a416dcd6906a4efeec28,b3645c892e73a2d12111741a72c8e7cdc7256558\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//joshua1988/webpack-guide"
+    }
+}

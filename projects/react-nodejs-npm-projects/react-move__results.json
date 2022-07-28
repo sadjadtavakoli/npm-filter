@@ -1,0 +1,61 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "prebuild",
+            "build",
+            "build:cln",
+            "build:lib",
+            "build:cpy"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:coverage": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "timed_out": true
+        },
+        "test:coverage:html": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "timed_out": true
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "124fbf02e41dd433c42073f73f14ef9c872b9fa0,cc856496dc1fec79d0b0c1a04156394700920222,157ed4f48bb8fe93eb26d0a0224a85e4b57c8ea8,2dee7c875ffbdee613476ff2fb7134a59c5133e0,a0ec506af16c3e9f6bf3fc05577ed6c459f1586b,6fc63abf9c605225903578671951957ce5f73620,12c380bffdde1e05f4ef7689f105c5594ccf5d18,061c6c095d8443540d6a81b51ebdf8293f8c2e77,08526e9b46f0cbb0e952149b2c53d715ed8adfde,77eae9ab44fd7f8a1105553fe8edd490c0df1534,b693b43a210b492dbf47798ca61b6d2bc98e31aa,f1eaa5f10e9c7742f696d92d013bd1888801d75d,9b7fb5c62d77eae90c2ae7112d66d09c3d4f22a3,f8bd3a6eefad9861d58edee099e5f61dbd2bf03a,dae62600e5c41793e7faf37ff7153a5b39e5a1b9,705fee5bc3b4c2f7c03166b0ed4932f2abe7abd0,dd589e701d66b77066d91dc330b3175bcf6fdee2,3bd051d5b8eb4ea3bf6a8350060a3c7715b2f8d1,6ec15dd5d848f9597bfb953a387b06318acd7c96,14bc31e95870f350d56bde3cd27421a35f539bcb,cdfd3c5f532d2bc291b7547325400943075fcd47,68ce4038c414656757e9a281fdc93195a0b84e4f,fe0fd1353958a189174c4130ee9b90893d4f5cb6,babdf7b89e2e2cbb9d1bbc97a5900ef97819f199,be6eadfbc065b44f2f0c4a118aecf15dfaf041fd,6ba3ef10e26179e7c24363482e55569c8695496f,e313f3b969f0321163b97d543a31582855dc3087,999927532ca5be90fc8a54656c41fa2d9b8848eb,2cc0b1b03ea705d1f055562d85846f7e6e69647a,d7813b14b2720c3a114711d4f75358d83f524642,25e7d329c466a58e0c1abc71410cb5b5707535ce,23851b1e225e476a795f07c657d632f7fdeaba04,fc014bad2a59eec613a206faa376e06f877d61a2,750c5ddce2115ff974c931391aa08dbcc422201d,7556203382a6725bc78995ca87d32f79935654dd,19e7999bd9d7bc4607c35f318f1e1129507059c5,9dd0aafc1b612a08ea04f718bfb6c9413d610031,dc9984d315d29f0f82b66e06aba61c959d54e334,32a9298100eb14efc1d32e18a81daff9acb405b0,43d5247ca9a86bc801e800aea140e8902e0e2e0a,81c5f2a48f061f29fd3c3c093c6864e44a8304a2,30fe69f5209852b4108c0ceee54cc40ce186ec7e,1b19024e6ad0b091f22e9d6e199aec38069a9199,0c722d1f033816c2a3928affeb819e24b33b1a52,cfae2e78a71fdc0405ff13ac24af3e3a41921045,52f02d3c52010899ebfcbd17079ec18b483ff361,21be8a7d4356ea9c5b8d705408d25bf0dd10246f,c6ac77a47513fea9e2c33fb95028d53747ce3c64,21da60cbd407c7194f95309cab3d2993d6dafa46,4df98099188957f0b6745c37973a77573703f3cb,7566f51838a856fde80d56581c275f1cf8272a24,8dfc8af4dbc55d10dde4275f98ea7ea823f8cdc4,be3e81cb90d7eea4a8c18fe2ee3475b298acb328,ba62ee1d7569b506ed0dfea8ef84eb27b8070be2,50b81be27a713836855da2e156adb814cffc508f,5298b64144be05d829a8c72b4490591a6f5220dd,8d95d016e14b86197e6d0ea2d4f18af918fb01c4,af79db13141871b40af988549c15988ff3d3a4a7,271021c5078c80b9e127147697b42a7a174f9fc6,35bd7dfd055fde2d68db8a125ae4af09ec844078,95a4aff7ad4de47e45abb342f350eb548122ca56,65d00f05e9043c2bf988abb079a97cb512734110,739ab463250bd65d5687eb91a8029626aadf32a2,c3effb33ebcb62dcedc2e6d566ee10b3220e0131,9ce14bbba54d152e6474f3c7fe3c3e89ed75137e,0918843e780feaecffdd0475a6e2ed51de6756f9,df7d8887c5cbccc7453e54e34d86eb6ee2e8a95c,9b547d595fcc859d56a4f396c6bc492e6e8e7b4e,675bc297cba271d0e6c58d4078ddf0e02ea34b3a,a60a792ccc4c775a71745ec76f85eadba8a238fd,f1bd0e70a7f87563414455064769ab891010f15b,4611b3fe5a7a7549dcf8432f72e88a21c97dc12a,51ccd7d01ef4fa76760c942a46f37850497947f1,55623458fb494bb3a9d8afe2730567bfb1838c3c,5a4cddf563360bb3f67d328d87c51182420e2967,8c14485e9271b7e9bb566a47f46daaf3e8eb4d13,dee0d6c3ead8499ce57b7fc9dbb065a60b4faafb,0cc70b2acef55cc694cc4aba3e076ce47753bba3,34e520f853eb5ba8e13967d05243f3eded7b976f,4c8da3cdf2b9dd96c107e144cd4c1aee8458f737,c6e0702d9c0c6bf30b4c7f08d7e94c6ab8c24f35,4fc7fc56aced41a2d8bd25ba1ec5444896b26fe2,8b46f72682fa460bbb608c85c6bdc75dcd64e581\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/sghall/react-move"
+    }
+}

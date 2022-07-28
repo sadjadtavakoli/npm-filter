@@ -1,0 +1,63 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build:storybook",
+            "build",
+            "build:dev",
+            "build:prod"
+        ],
+        "ERROR": true
+    },
+    "testing": {
+        "test": {
+            "num_passing": 259,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "test:ci": {
+            "num_passing": 259,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "test:coverage": {
+            "num_passing": 259,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:fix": {
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "5ab9aa2ee1edac0d8fed40d2855054195e58c556,315b2b23cd6217ee3c50f8a38e9827c28f7e6ade,dcf91448a50fcf0e18bbd78dc101ea90d96fca6e,79eca2d341892f9e19145b9a114fe8da72424ab5,496a7ae9ddb998630cdaf8c085711f46db0cf98c,2b0662b03cef29938fde9bb1174525b155a367b1,a1b7662fae2867f6923d3ee8b122119b97fd69fa,48dd8450555d22aa5462564e301940117ad10bf8,85594d3a7a8b6e91d651829db548c50a19dcf495,a2fa95d853255fa4692bb6316835f27b955dee0c,a2bc4d01a0806cffc241dbb65cfa79f89f2de56e,92bd22e33465f85f9e11b1a13339f1ab3fc99419,4e543f8612953f987010d6e288f5a3acfc699eba,a90dadbac1cad6888eb50d837e8ae98d100daf99,152d509794febf1c55e4c3c9225775c21eb0775b,366b08fe32808487d4340201de4d77cd241d482b,732a9eb21b4e7968439d9c6a1c585e1b35ceabcd,47950e1bad8ce84612997c9d8aff0ce9eef21e71,d39fd818e79e228e008de8c65cdd37a100e1edaa,0bd7f568ce2aeb3123f6b5d8637d44f377a4f1a2,b7ef97308bb5358ec7481c39fbfa0babbea33b44,4919b5c7144297bfe3757a062806b26cd740cbb7,69e498dec683c78ca2af567f7feb44e27c93b319,93d107a96f7288759d0c8fdae9fe0061ef0bfbbc,1c212905c6eb90371eed93d9fa13a950984f2a18,39fb3539af213da465e6405789e1b5bfc6c935f4,457848fa5ad02a3247f29cc92bb86f53fd28701e,9a07f441aaa47ab4a63a5c062453854aad5fef15,69c1bc4e6882beb6a69f2e7ee822026c99043b58,e773124c251b9c9fa8923697c5babee73a606ccc,327d73c8a296f51a339f565e9065a05e41ee9164,cdd8a6583fd30b2f97ec66695e8de34b88fc6e93,3dda3d9c08f9df451995443bfbb35379d53d175f,3af55253d0f8de1dcbd1c28839b036cb468a641e,ace2bbbb39318780fcc569b4db30e68ad4add060,f15f91f041189e1bf382f11295aae8d0fbc41292,c46557a5d33c818baf8eecfe982456eb2b91685d,3a0057c42a09ded95ef662ec263887eb39695afc,72180891aac2c8ff93a8c833c8b8a7ba111a4bd0,3d84ddfb448bb30d2576c8263fa347d630925aba,185d59fcc50304f6c77a455f6010d1f4b759515c,e0d61dd02a641bc9690eb69ce787358b7fc45bfc,de6440fc946b0a57f73dc1237e0f7115532661ed,95649dcdbf10cae4d8f339e4edbe75609d151979,21045eee647e128652ce279d730a1e82adca6d81,2d09e3981874df76923be05a8a7e62b47bde360b,8bbd5d0f965cc19962bfca2af7069c86dc31f161,97d5576f3f226367b914b22ba3da2f82949da14d,db020fdd6bcc7e911a8c9228194193edf3e6267b,c8bf87e00260d07e046f9da1e0fc50ecdaf512ba,4c2f4fdfd342b1ba338e0c58227c3510e43bde17,8c7f0495b8085fba81f4d9fce385be5716ffdbbb,10c1468fba783458f3998e48b8b07b36f7a319a7,1be2ae608c557e6a52f2268d2e18ad3040c2e47d,d9633619ab96deafc7d108783a0672e4a00b021b,bd312100e94cae91dd6cbe6788a5fd7c359b22d9,8f438c3b7f7a9221a45a2ef8c853f3fd16e015b7,b0772eea258685d5ebae32dcadd20a35f7eb8a71,c6cef5025e40492e2be9d01c72577eaa556507bd,a90a5a27b393a867fd391012133e28b9588d5e44,7559cd1244517654d1ebaa4bca15f1c1ac3143ab,eb1c905823e84bc0693b1c75795b7ea1d10704d7,732d71eead0b2e05c3d7067664224ab5ce3d8aae,e7cab367308b366fe703f5bbf7f29149b6796751,ad721c286586621a36c2030b49cbf88bf135a6ac,984b4e1dd916e2033e9153dfd0803c78fbc35b8f,4e3319650a600359412e709bd9454c2668bb69f9,09ddf5e4134c115cf984f30d7b9992742b1d777c,ea6136c2869df385d4a872a2b6be33fb1d919d85,390778d31763c115ee7c7613a6d32933f664734c,109c0401635ed5a8bde88e44b9b32e3553b77e51,3c11f9e0a02122d85a78ff7c317b90c0c9f0d9d7,50c448926beae4268038125000bd8624a1abf05b,86f7d2a65366e5df7fe558e93ed1c71263d4cf39,37d074b39aba6ea145f3054f3f90a652b0bf7512\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/arturbien/React95"
+    }
+}

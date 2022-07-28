@@ -1,0 +1,38 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [],
+        "ERROR": true
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "num_passing": 167,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "596347616c523f2757cc95af5b53901d41908d8a,6f31a70df40fbe3738a194325b889d7ba1347e0f,cf6aec37516a242a4febd7f2dac13a2c2106b6d5,b79d725b9f609e1e2b9cb67b85d834afda430170,7838f6198f2f00801407bf47994582e454b3afd9,fa74656966d89e96d7a60d488521d2c93b9e2fe9,e0bce748a03a5fe429ebea73ab0a208262fe0495,559f490c984063fe93a31abd5f96fc7ba72b0baf,eb78483486ebaaf828fe3521cae808897ea3c9cb,69776a026c5741d33e041c134ccc7a3d05046e7e,33a9b90563e7760e4707e01f1922a63bf2e204e8,45ca1aa1d533ee4fb9d8901d0eaea580f14b9de7,c32e8b0587e095a095c5a2a16bcdd69935284e74,093a997484b9affe803322a9032ecb9f8f992f0a,7c9f73b7ace8f4b91b6e4d2e3e11c9f2164aaa87,258430c246e196f5239197b7c404c378be8fefd2,c44f4eb5587413634ac33e06cc360f6548638ba1,3702727fb824ae57615775583fb8fe05d8c94be0,a7fc0bc70983fa7095b71df3020d35f2ea52ef05,ac809b370489ccb83efc5b53378d345eabbb8469,8a520931b377684aeee68abd660525377203e6af,d39b1be7375a129bf03e3c6512931de9f9aeb889,de82843887545a10d3131ba5ddfa1a759ba1ba09,5a46e34b8e036aea902fbb40eb1f6440bc0d8acd,18cd5110584ee0a435904ecddba741de5d7fe050,17393d49aa641e9065ab2a00b1904d80146b4a23,ac5a719330555c39a5d6a95459e49a7deab28499,a73ef49227c32de8f91baefdd2b67db4bf96b027,b4e0eef5729828e9f5927538783c8159116751ba,c695af07cca15b5ec2242c696e38c13c25deed99,b56dae45a7c665a84041e011f8fc980ab23e8cb5,23f46052fb70c779d68d5db7b31be79414a724d2,52ea17b0711ab83b7e98ccf6c538d0bb5c8a417b,dc94292b29b31b4c782dfce9038d3f6b002f2037,905abd23c44f1705ae11fe80f61406fe41c5a983,2734453e738c8ebd8ee324e6ab3eb4d98b7e4151,6b662f3bba6dab7836c81ad1703cfd92b49b259a,5252f56d1ff7e15cf24adecbf2e61ae1ae5fef93,c4a22c585d1501442fbc5dd70b9040a7e4d63788,b02508d6592684450bf4d1f3d979a52cef903e63,39d55f8bf101e7bb18f4dd92c192c7cdf709dda7,7e9e0bf958998e588200eb3b57977024f3ffd8ec,03d4949cff83856c727e355b6bb74e707a5c8073,1cf40f33a8809f22421fc7d2178300e5efd021b0,35a063ed55803007eefb8e62e047427eec584810,76bc4206d9ddeb4ef7e8b495f9eb5eba90e6f15a,7f339ea84f3c84fccc7e66a698dc57bec586e7f9,7d1aa755d0f121d09b9c56cf6814429d844c6bb1,ba0e3c1a0c10a5921f2fd9b6426fb80711727727,0d3cb66c894ec461baa4974c8e4ff27c2784a7ad,809c255ee74b1d8a09f5d356d4bd845a56edab3f,017ecf4db2628a3c7808cc3dd1885b6fd4700a28\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/antonioru/beautiful-react-hooks"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build-example",
+            "compile"
+        ]
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "dcbfaf5b6e0717993732fe0897eec943ab213cf3,31ffaac81482775cf3d34ab21ad1151ddd227964\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//codeslayer1/react-ckeditor"
+    }
+}

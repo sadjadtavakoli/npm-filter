@@ -1,0 +1,67 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build:all",
+            "build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:spec": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:fix": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:node": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "test:browser": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        },
+        "test": {
+            "nested_test_commands": [
+                "test:node"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "af3fea9421d1b0718aecf7c571e0949c939e583b,f8a1e70601c2f35b1143d131d785c00efeb3c5fb,249b15c461c212b98d7db2f728023c8862a40750,8f680074b006279a175cd5cb32035dd2d20a91c1,dca9840aa8de3dd389eb83681f2032880cd019eb,8fd17393b15b3be8e8a4422796b1eaf7e9089e2b,16926289dc3f8c0e5437122f7f85bae3a723f3b2,71a2c3c79236b7043f35fff3622e7001cc99512e,4465824547b00d1b05de9a6938e6f0f2affbe56e,2ad302692cad330f41ec571914592d9e32ec2378,af2af34e90051b24ba1dfd2ad089086c0d62ae7c,12e4dcf98606dd837e310ca52e617aad3b382462,4b0dc854a7c72dcb7d4f93f1cd56c6c7545c8e4b,a134e044e2466f5fe5245f49f85c31e5be401707,cc505f8a9d04f2e20e2b6dd63716fd4f69b9cdbf,9c06106723812a474eeb5417417e3305dd2d2061,c4654da1e6e8fc1f90d76c3396b7cdc0ed848ecc,43f50148ccf7610043ecfa2a8eb7b5b889599384,8116e5a88d8ca0c4bb8ad2f6125d4afea6b1169d,4cda74e0ff306683e60692a0b57484cc7fae1909,b80332c64acc88edf16e6656898074020dc460f7,7724981ff97afd5f0a0ddaaf930450f0d6655bdc,9d101a926c410445a4523fcb128a7f8981097ba5,036a3ace309036de36d051c3055bf56903f1b4a9,bf3f6aa5961fc1660083af0e2c1997d03ee7ad54,1e12ee1f72a22bab9721c3e0fd16c3e4455baaf7,199e22290f93a294ed69adc3731e4217471a0ea1,a1a5db5b3562c4d0465935ba4fb73d5aa1bc2e43,9c6c11a4de3f2490e2b97da7e53ae47006245686,08954e5960e52336e590be91bb0d323219ceba5e,ce5323d610113ace1c3fd3cc8e73ba34d87cba84,a8acc52554a769f1768ae096a25b5a54abbea193,e2cefb9d2a7290169a2366f6203d399fe62e00a2,9f699bcb7e955f5d537d9cc898adf7692f1ef046,4bbb97b62d4dcda61bdf979b1710812b9f1196fc,47d49b1ae9138467b1bdc45361dac9b8c773a5ec,977481713991cd15ea8401201ae791ab5df05d13,78b9e019fd0441c3ef88bc7fff1114b7ce87b293,db6c5620d694a7c74986ea36a8696ca9cccfae53,0bb68d9eb683361c49439673f04c529818f8821e,de8a12a6b8664484e05d54f58005c349bcd8cf02,e0a41171218486adcdba06fbb6910e902ba893c2,150cb4e68108e47124f54272352c5de6fd38e028,7efbea93198b63f4b21445931223c771a9937536,84e6aee97e9209865e07e07ab8994a6926caff14,74d5f895ecc10891b9f9f49ad301ea7feb5cede3,dc6b68d93d9393193d44895d8acd9a7f4f18099a,dd41ef618795f4433218509d014d2e468d8a4d38,b8eebc9cc0ce88e01063213702d7b9a2328c18b8,c077695e524b4290f4a3fb470d064f8195af052e,215dec3976786d4286ed66e31ebb97ece458aa11,a249151177e64c098c0c597ce01a02e4c2629cfc,56a62ffd7078f5826527f5a3286e7121f343c6ce,d764f39646557b90383a729bd4905517f0e22af4,0183bc1322f14bd27fac0892ede5aee51fe4b700,1d929cd61a91200d5c9b7e70fabfc96352c42640,03396d8d1ac7f59f4dae36633f71c99955b9ef23,82ffcec9236848c49c8093a4210574e5570ffc55,6932180193e6639c727105849b31a0c33cb936c1,d799bbe16cdb217432cbb352e432f693ad174313,107a8c547fa024cc4dcf4e18a6c5cd73fee45b21,e1c93431071e33f9ed073b9419359cfbaa03f0c2,c0f22e46168debe08cd07e58a239ae87c0613fd5,ab497a773572a102719b8be40283de8ac0654036,120c24492aada3c589365918016a16c2cc49377c,bf76040108c56ed59e818ee1f7720939c2a78978,e877bf4219aeb0c5cbb88166516b3236ca219b92,d983d3031340e9cfbe7b7bd3c63d4399cba8a6fe,53f42d88a04299ca47b6cfa420727ad930b3a28d,10393d6665f396abdab8586aa17d867e8deadf2a,56a40f59c43201b6ca0519846fc3608f9b1701e8,ab863919d8259f65f7db85ef690fd76cd987f342,db12505817f7f54c80c45985c414f8ee2337669b,89262ea30e3c47438bb08a2dfe20e81626b3f94d\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//mikeerickson/validatorjs"
+    }
+}

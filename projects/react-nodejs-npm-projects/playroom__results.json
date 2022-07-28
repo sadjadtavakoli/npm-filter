@@ -1,0 +1,40 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build:basic",
+            "build:themed",
+            "build:all"
+        ],
+        "ERROR": true
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter",
+                "prettier -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "num_passing": 18,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "64afabe439e14f3bbf9e9c3fc5f0fa07df61b25c,27d7158261330a7e190588f3f1c6abf12e96eccd,76e585ba4fd74ae4d3d7310cf6894e356521edb3,ce918e132f063bc72d7dca625f454a4b086bcb61,17c46fa2ddb8e571e220d0631e6fa7ef48d62258,dd64d9324e19c084c0542ecd5eea0b0a3c4ec715,f5ad5ff60f5def4c001c5f95498ce55f66fd726a,482bafcdef70798983bc8a4d238f4f12c7d833fa,815286e8a86b22ecc497f954704c9c9a07c2740b,eab6e630a87c136f727a804e708f5e85318ff400,395587d0bfa2558f0030525ba93ece7390a2fb35,ebb796b2466595e4c65d205c59b0109184b312d1,bd2abbcad3cc28ea9e421dbaa23e33dd0da30ba3,1477830430d3b08704b69d410f26c93654276804,76d575b3c9636ede65bd57ec5737a32307860d2e,462f6126b422eda9ccc3c612739454aa78b87a9c,323234419f1c6f755bf51a0b67eb7bcce085d84e,5b506d87d23db387916be53b01ecb02d668f6f79,b7b884a5b1ded0af6f26b7d538e95f1ec3e863e5,4a99eec690cc3bf4113a2afe52cdbe75194c752a,fa28632b9c64308068bf36fe8207aa741925dd4e,b2f3bc6739208ace4870780c44c29c17383cf6b6,03e41a3dfe715caef01b948548ece40c8dc50468,0dc59d303631f232c6b7499330797a39723a5597,49ea2585f110d828e85e9498ee81851288318dc0,39046d7d76dbdff828414da4963f2f72ea289e53,2bd272145eb583a181eb241cd59be11882c6a752,406f2aa73523b723bab90364e7193f15ca2dedcf,645aae5f42c5c70e8de67dc455f830c31de946ca,550cf74e945933e49d87a5968c4f7538a76bfa94,ae41dd0965f0d6e883ee4c4276275e77c54ba1ff,bd88b9134877de2f9c8e998264801633c5220530,7e9db881fae1df5fa32f9cec5711964941d9c6da,ca17039a514c300f3f2feaaf9c8cdd2a74501a0f,15bd3e5971cf94e3ddf1c16a34509a8b52d92579,05a237ae784ea66410a0102a968b2802a126c9c6,cc96d9b427aa1f4537f16e2870b6207c3fe9433f\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/seek-oss/playroom"
+    }
+}

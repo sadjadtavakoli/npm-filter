@@ -1,0 +1,60 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "_mocha": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "codecov": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "coverage": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "pretest": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "3f4b34505e76b73321ad6494f32bdcb1da681b1f,546e9c119b1e84a1d4c614194f217bbd069542df,0c7edde7c4cb342cb57c08ea3ebceb9ed7574bf7,3098ae350f8069e73d11bf6e787aaee833643514,e1d9b6ed975d4229966560c35658a1ca5667d5e1,bae874a1b0237a431fc2d8f25c4e4b58e7572ac4,6324e50df948cffd9521838e437d6435e01e410f,4ca9f72f93f03b4905e782e5ff016cc6297826c3,217004b7c346ce046a27d11a0edfa5950ee98000,82be9aeb883db105a5be0992568ffb4902545dd7,2a68c2fbc9203bb234d906c3eb99a796f144b0dd,055ddcd77bb75130fb00d75517f5bc3250627a53,5a2f64d778443022e1a12766c760cd3641f946a8,3741bcbb5860ad6361e01bf0edb6b5775a6c12ca,e5e4722941614a53e28be410cd64dc48b3ad4314,b150cddffa061a3c6f5011d63df821c1e1d7d724,732c766fb33cf7ac82d5cfc340aa95007239bdaa,ff79af15c065f3f297c570363a8e85924c0598d3,7252e26c6d462e0afdad5dff0c253cd19de6dc51,61586d498ef888f7010daa417c0f6487da8a9561\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//mysticatea/cpx"
+    }
+}

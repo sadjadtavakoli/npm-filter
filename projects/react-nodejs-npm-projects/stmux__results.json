@@ -1,0 +1,31 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node",
+                "Custom Testing: grunt"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "c5598618ea465efce701bb158819ff6c33fa749d,d84ddc4eb3b8582f69206d26555a619663e1cc81,12dd3111954be1142a07ad04cbdd60a25bc99394,f454fd40ec8e749500d8645a05c1734fe225465c,ddc9d6083ab343a49a5f7d2f476610b6e816eade,d02cfff3cae6b44d94dd22542f449705ff01aa9b,58d2d1e5787a6fafa78dccf14026aca591f89d84\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//rse/stmux"
+    }
+}

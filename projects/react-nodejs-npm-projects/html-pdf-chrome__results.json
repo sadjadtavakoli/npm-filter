@@ -1,0 +1,40 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "9a327e497bc5862854c6201b9955a74f05e542d3,2b5e6ee8ad88d1fffd52d5796eeb3eca31562aed,93bd4d78df9c5b3b652d3fa51109b0fc117d5418,4a7eed4b4bcd8caeae0bb07a4c77be04719daa29,7c39455ace0a45acf152cbd96eb5bd39e63dd87e,d055ada852bcdd5df58dad7f74e72e38fd41f5dd,1b282e3a14829b78465c4924eead47d71afef88b,40a8e591342b4241cdc5b4b7bf6f5c9918fc2fc5,2fbe33f291a28cda75ce45c79d5c2f88b724a6fd,3e59e6a2f5d32b149aec5120b16d9dae1eefefbb,3fd6298790c1d182c6ed55558883a90f50e84e53,50d5759555bd0e4c943e540bc8c5a1d44fd542a5,14be7b2946fca657b652972a03b1daa60eaec273,5bc6593f96b937f8ad4aace1e94b84bcdf054665,22122a0f761d96caf4ad5d958d80c4ffbf1bc971,1fa3f1f6f0afb5d3bb84e194bc41c9f7e7e56158,c377fe4853ebfcab298ddac263c91a974fc69ab3\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/westy92/html-pdf-chrome"
+    }
+}

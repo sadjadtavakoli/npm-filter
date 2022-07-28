@@ -1,0 +1,38 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "coverage": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "coveralls": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "5e723cabdf95ad1cd27540620dccc160c56a7766,f046b2ca7241cd72d2acbd0618f5b20001f358b5,252d3d03c3c6f8d8f42208be4851a0b08766b5b8,6eb30e3e3fc99ced71b8a083bf859da2e522ba55,b8f58f5a3ff04fdcc80b45677ce7bb86c84cae3e,84149d38b011b4ffa44b649b65bf8502280d7070,b35c213ce130d75a719e1c60bda4c5d8138229d5,2ae50113c57d21f457f1fcdca40af13ca4b7a50d\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/santinic/pampy.js"
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "ci": {
+            "nested_test_commands": [
+                "test",
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "6306ff549f1ec4d6c8567c4048765b055f71c931,45fcb351bf3790aeb7c41701522e4666f3e8bad8,898040199eae29c3aa2b37b22b24c9160537b348,94438a77bc4899bee3724f670ecd485661fc5a16,8c79fed656b2d47c8733656fc7428a5c7d81d3c9,c895b6c6840081493a1f369e23db0f55090c7016,a3bee6f02d0d98156e258f1b686a19f7f67b949f,13950c4208b51e69cc0a11a0f3b053dae0a95579\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//zanettin/incompose"
+    }
+}

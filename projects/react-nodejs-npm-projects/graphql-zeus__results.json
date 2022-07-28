@@ -1,0 +1,41 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "num_passing": 27,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "doc:ci": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "73326fed4da09bf8e4755826b511aa7456da41c2,6fbd6348de4506008bd7022a410d098e5b75b09c,5851076ecfb066a2bf98207b51e883150528f625,a727e1ce39b33dd64bd521e837e0b3b48e21e769,0fb028fb00114bc332e755a44881869ea31b7acb,6eddc4e47c1d1ac158ae11230738ee1d17e7b78c,c1edabe2fe4dbdfe00a5ce225f4facc00b429c0e,e41df99c748716c409d250ca1e3dd2e0561e96eb,fb8f7f0812a2a6d972c7a9a117ebbfbad892b385,eb62bbb44a4a034f0264ccf80434e7e1b7b4d7e4,5612afff8140daaa07e99820e7b936be93fd2555,e84f5ecc2fd0815f658e702e319512800405ef99,58a3de230d20dd3b2802783f9e96cf3db46ab1e5,1568af69dc687c513f08125fa6d5cd4053264ec7,c0fd2b6e41aa057e5f245092d0e3b58921d539d2,c4f86ae7b97ebf56fac1c477257aeae38c73824d,d6ff5aaa2256c0e9e6055b9e404bc3ebb909d0f7,eb589d877d4a7c472193f251381c0e4fad656def,f968d2b30938d106d5d567c2f7cec93ad79a337a,f9a85f6619b82a58462df6b004623b3f479bf71f,66f3df562c4e45de7c9ce7e0cdd2b57544caecbb,a67bd3126d755891f53ff462b7d6deaf1d5b7df9,71972c0235599834f2ad0c1bca0cb79e451ab630,117e428831b61d815988865209a8c489902510dd,d03918cd09bc44b2e547c99ef83888ea7078abb6,da1d46b113817cf2a2a157ec32e66a90c2b63d42,55fe3405b2afbd74a01c3929555a9535e38e1b38,ab815f7876b3d6a48d7cb1a1c0e1a9dc15f01b47,90c2347c5fdf0ec62d2b02b4c13724af85a10b51,9b6663b6331c0dd7f7835b5eea5b35cb42c7dac5,787590bfe308132f8159a5c0835015a70d68625e,e2a71c2ccd36d0c7d5b34ee841c16b340ecf4d8b,7bd769e64533e07baa23f1522d5a10cccea2286a,467314b3cd551cb2523a4be09e7a17f21ba048c3,8d2349f7830874a89b8a8bdade153f416be10191,5dfa97995856a7c64efc27af68e38e472c846f9f,431f791d5ce0d27aa6332aeec99c688910452f7b,61408db526d0ad007f0b8eef3d333550c1b80e14,7fa09c09305c02da4f92faa723f4258f3c2eb626,30f5eb04880d2c5eb8b2e48d5f7cb0c9118ec469,c518b11a9d7924e5a782283cbea416789dc05c73,2f170768ffe167402ba71829d9f1e5c1910e4bc4,39d95adfdbced49e2e1ee3a27130530feca90f24,33fc333f00642a0b1ab9cbd4589913d6c5f1d959,52dd012ca496d09f3db381082151960a535bf916,723cb7d12e881aca8dbc613e8c35da19cd24e1e0,acf23563081e82aff4e3a4f4697d669302d65085,d6a8c81cb8397be31a18c9962bf2a41b274ca9f4,f7983b62c628bdb8689ce59d489ca6aef64b8116,ecb8beb907b76dc88f8d7d33a63bbc6b8944526d,b5182403cd947fd70909937471551f997fbdb2b3,a93d8c1fcab181ac0654009e130f8362e1485af3,b9234c8a1bd239f5cbb5c76bf86df1265ac0f421,106006f7d757cdb3c72dab68dc0009339e8a3152,bb6751fa85bf259613e10180487b0d7fff2eddd8,72cb5fd27f66facb2b02a1d91b478cf6099e563c,4eaadfd2d6d4442ef8b88574f7564af80f9fe176,c6a5df0eda333b870eefd55aa97804770d98da5b,3c6a5299e9420e11dc610b3c5b1058c91e0c5c06,ac476fd75c8408004cd56d23591ecc6aefcb9c28,8dd5eee4950fafe9baef1be11516a3179eb63532,e834bc17b603f015082ca46f611ddde66948f470,91d26ab0b84dc5efacd7c637c82248b4a09618bc,d528f4ebe331182642c1817739571530ba0f0bad,09c7a60c96a4a5c11cfbb281d486946ce6646660,77357e483ee2fd729a118d0e08efba1ddeeb0643,2f1b898f75180d54d44bd28ab595e0b47666b308,bd40eb0381debed302d7a5c4e252ed1f388a15ab\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//graphql-editor/graphql-zeus"
+    }
+}

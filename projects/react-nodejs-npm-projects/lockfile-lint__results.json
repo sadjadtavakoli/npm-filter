@@ -1,0 +1,27 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "lint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "1ab87a9d637a766559b6e7cd926ca32e58cabd4b,e1835935be2e4ed2e5c002849b8adb184b46b985,7d859e18345ffd85030cfef9cf1c4e2dd48b4cd6,17654d0db49c0552b86e6678bbd88d740f704d4f,a48311598b7f7e3e091d56e26d801894c00eb02b,b94ab49cde91e5b0d9d14e8153c2f3a97aa831a1,05fdbaa1a9333f1c45e71116b7c4330bc9fe9bc1,6732e17cfcfe5836c7ecbe638187dd6049130f9b\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//lirantal/lockfile-lint"
+    }
+}

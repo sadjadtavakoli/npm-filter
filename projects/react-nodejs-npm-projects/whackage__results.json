@@ -1,0 +1,27 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "a5d39aa9781aef743fe3b88d921b0974550ca272,da0fcb4dce03448906d787e772d56f975aa6f701,b5fb56171970132243d7e4be1990cca499bc25cf,f76de2ad0745fb5a702b52ca72df64b1775d5cce,8f830c75ca92775cf97f40840b1ecfe2a98f8499,beace1634f40f9a578c138de2b818ce115b609ba,680acacbf62165e37658b65fb3715c6ebf3068c6,5ccd23422818573145cd585fb1b03bc961dc5e76,4caa94ba886d1ef611a5d8e0b8ff1aa5aeb77186,0ca1cfd9b5eb960b93166402909d6b8d97edacd0,75c8cdd0689ae5158ae9fe803fdb5e5d929161ae,f47218e2346e059376c0323c52cb616d4638e55d,599f5dbbbb569eb1c21cb0f1a8f8671986b6c118,9365afa9dd5e0d271efee1947c030a4a244eeee9,acc2af9812037c16fa2bd82cd030d05b001ec234,ce3d30e5961b09ff8b0ee560b81f4f1d8f7e3be3\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//FormidableLabs/whackage"
+    }
+}

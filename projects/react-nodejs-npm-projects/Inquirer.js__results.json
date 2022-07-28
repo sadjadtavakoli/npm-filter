@@ -1,0 +1,34 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "pretest": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "num_passing": 7,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "caefb11e7970bbec454be979e6f5d24e40d1b0bb,32854c059e6c6db059ee2a27cbcb843e20351c89,3a796d8f54ab548f5c7c4cba217384e473d410b2,67170927437369909419a1f7fb8cc1739a390002,de13f145abeffcff75cd328b38d5d01f790658f4,809f3f985144ba2bfa285284c6e36a8b1287c60d,cf585518fd687cfd96eda28d2329a2ec144dada3,e2099ed6aca935c13aff4af93fe8bf51155caf38,e3cdc0c4a1c0e97ad8bf70f61abdcb1a14db3af4,b745c5ea6e4bb3347764f93250abd62e2c2a3a14,5d35ceab7a08f5d1f5b977da27298253adc6f5a5,d3d632a7d94b3d719152c109f1865a8a9a2a2432,eb306623d84de1d5be9dbd77f52872416133e609,bceb2e530b1f21aec3d346d631fc38d3c847e43f,b7372712e0dcbf3d53cfc1a82389947bd66df3ae,12d85f636bd509206c11de47c6b65c17607c93bb,95f11e1584fc1532ca481602c220400306ea320c,9e881c1396e1e660fd5dc206857cd92e00cf7f80,7d30fd480355d4849f156c96a11fc580eb0b807c,f5a982d19f0457736f459165898759cfc630b05e,6b65b5ef3493e38c04aef8be030c912cd77b23aa,954cd6d270341411cf7bcf96d89994649fbbd934,c5ab325d13524d63746a97366fdad9739d16ec2c,4d21bb539d0773a356821e73a4ddf4ecfd7de954,be342272dce94d7d75506fede93aa924ba4f90d9,5b4253c0f8a1e7a2b52aef11fced1be5c043aaa5,d9619bce63158d15a12910d804a29415a0312441,bd6b4bf63ef575493f0c1e35c99aa6c12ca532f9,bdefbe388e1f53095557c7e1b2f6fe016119ed53,f4ff716177a0f33ccd515a2906d47bc6bcf2f0f2,0559a1c729124d57bfbe7d7b2ec905cb6c3348eb,81afb2f6531303fd25bf1b0e04e884396b4da7d7,b84227b29cbbe5a16c0a03ea0eccdf07924bfe04,71a6e9bbf1f085a0afd2e8053376a4804f5dd83c,edfab6dac080beca463c264365c8c458dd0f7819,e4c883766ec0b2cba0ed55a82440179ef6d84fff,1bdb626f0feba45ff4e212175dae1150e1b858e4,aa7bf591c505ce31bde875f9b86c6ebdf1803bca,0606ad5a70555b5cd2ea0616174826731db59361,751283cde78efb3dc95801e6c224995e6c08eb27,d9f59538bde2031f036540c7ccf094cbd6c79aa2,6e00845df04f4245427de7a74256801d7ac964d7,70c6faa67548554e2402685824fbc3a2f5c1a615,9dd13c675f7e88fc3c40eea02343d5b0740b88da,6b5f909b13e87f5bd38a91950fcb9529cbb3d4f9\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//SBoudrias/Inquirer.js"
+    }
+}

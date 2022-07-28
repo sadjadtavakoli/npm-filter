@@ -1,0 +1,34 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint-staged": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "01279b38a6a8b59e05c92d44c797409a5412d979,69d4842868f848ec326c6894d0c3f732b8dbf2d6,959a40f0a39dc8d9cfe57e6cfdbc6d329d64fc62,8b1e243cba3b8c21847e63db10ad9958e4643a9b,2e666233eb1caa058fd727de06fc82366a57bd57,de93730fd8a569707b8edea7940f2869e105d33d,bc97a2410ed1bd4723b9e74e06996d95dbaf31c4,49c7be4e28f92565eadc2cdca9ff48f2d7970f26,e50c313869fc9e77d3837aa5d4e21f6337e9eb50,125d8deed74627675458e6447228afd41010c546,a03f74376684d1aa762fea341a876ad0f294ca7b,f540d5f8933670bf86d4767cb155c7cf319f7538,e12c6497537de36fb1e6b1019ffcdcfbc72ef8c7,6e850026954282f356d340e614c3268370b1eae3,e5d8d3e3614f3b70da7e06eabe2c52f0a7c4773c,396430ca279376784ad1b13da6c5319ed477c88d\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//vercel/release"
+    }
+}

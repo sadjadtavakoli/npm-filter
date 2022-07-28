@@ -1,0 +1,34 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "eslint": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "67762fba00fc3c52c34aa9b7b95d7bca543b09e7,9b7496ee5104e44da19011d7f2c3f3e24f4f9d35,81ff6d33f295094fe992b4d03fba250a76579b0c,65fd8f8d77db253f0bd3b47319f6f820d8c8ebbe,020377a9b27aabb859185bffc1ad981849abcbbb,3d36ac61662c111c1798714093aa3ea554d0f84d,71843174d352d96382df15142b1719a7353f1665,ac8697b60395baaeb45de968d4d53b0e7c4481ba,9708fcaaa137034704f6f6aff733c929ad985d3c,e15ffea9d2adc939abd9bc3f13012e9c08ccf784,761fa06d10f20256389895c985a88464116319e6,0aa6b5a6fa34f79688325124ea2a6f6c175f5048,fbe8cbe96f6e7848ec1bf66272381e800761e42c\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/maicki/why-did-you-update"
+    }
+}

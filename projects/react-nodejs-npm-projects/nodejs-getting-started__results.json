@@ -1,0 +1,26 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "ebf89b12d0bbcd8dbd936372660f747ad944ba20,1a48d74e266cf138c4604ec1cfc18c55a8554f36,ed6b3dd62be77249c536182db53f8d07e8794c25,1bf55d036728dba6fb8c368b2c6b5c073e0b0266,fe0a4406005167bfc07dfb42f9447f80b0908ff0,8069e3176c26c3114cd848136ffe40395777ded9,aa2afc2bf19ffe8952a4d65eb925d723ac630199,27a3246fb496843f329ba1b7436c0a96ca5e5109,5bd955f83af27a75a36d9d858d00e263e7313c29,28b1e3e3231b49ce7d15d089fc1786288d0ffc44,698da44b4f4f0a7973fab3ada8193c0c89e37354,30e1ee7e2e8808a7c64a8de903155c8c5cad798a,90a4cdbfb1d6f2bccc7d52d888ed1ee3e3870c7c,171deb261d2700d08ea2aa28fe932aea09e8f0e8,e8ccaf2d0578d975c3216ffb879f7bd9c9b5b694,95ebf525f4a369579193bed634e99b588bb51124,48d916f729cc195ccabcff1376d0f293d34e8fd6,b939a8763cbbf573774ece272aa0bbbaed023e2c,61955d3953c604a97e3b3ee0245e60e6a80f0345,e6235349abf723e34a85be9183c347d2dc7ca9ed,9cfb35b75ec2c33ac046262711bcb944c2759adc,9a3ed7e91b087ab63341e008a1b94fd0c491e1ae,234b490e0a2c63b68a11b3895724e4b05f050bfe,3a34f34463c84b823658c7860664a993f88e475c,588a5cea4c1322c2147808ded5e0389fcd460d8b,759f28c0b6a945b0df40d7f927d5535682eb2f88,b8d55889c5b4d7eb53ab30f2c4e09578c9330910,2e717ebe1c9921f19671ac0da90a6fac5c1607c5,747163dbe0176535d9d96698ceb2444d32a4f094,8d143d7bceaace4a4381232db98efc490bb08654,4df4f800a917689c1fc149632b755573f2e120c7,0f42be7132d49acef9aaa1bfd48fab7a248e4aab,53130673581fb37d22d763b134febe78b863c1bb,ea04fba528d3ea3bf3c9a44ae5f4f4b49bbff730,d8adabf3afae3ddbc191d753ca878af5f57353dc,da601f78ca931012ac085dfc574d7efeb2005ab0,bf56e5df21004c0e0c71faa087642fead9c87404,3c52bf9e593dc8bbacac464b394967811579c98d,96b5d10b15af68d52e037ead9ca0e40e4295b258,2fe4f3b339c7c341473541e9c7771bd3196ca265,53ef68d87f67c7c05cea4e6cfa12ae5c4785861f,445bb3996702b5b686000ec00a9d31fe9fd84101,681471bb30160e9ed1d0ebe8561288a6303403cb\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/GoogleCloudPlatform/nodejs-getting-started"
+    }
+}

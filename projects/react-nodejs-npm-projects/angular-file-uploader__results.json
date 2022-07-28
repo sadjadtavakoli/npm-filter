@@ -1,0 +1,36 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "e2e": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "8320c9154cc527ecb9ae50508a8459bb007cb3fa,0f106e4c0535738a3e0ea8622e0d92a0f0a6c2ee,e265c0777fb937daf40c8a7d5188046a8794594d,57e9f325c8c3fc171738118b3363e2c9ac5dc435,b1cdbbbc654bb5d29a0135deb17aeaff97cfbad6,a76eb0d8732efa63f02e8772167e0c170dd5c665,80c6ce24572825640f1ab56455319c4253c25adf,cfb6fa21484ad29376f9f5457d921d6404e93af1,ce41923007d5528cf3ff4fcb7fe338dbe9af919c,3ef87f9920bd11007f832598fb4cccea8e6e860e,36daecce0b55d5f5f62d3b5668b54df2e9e17746,a0c6a0ff111fa250781df9e746f3d01a72aebd7a,a5d6620cfd68cce634885e4a4ce7707eba580765,e425a10ac2cce5faed9ae3723bd94aed5ef04853,a2d2512f85b866db6f81236466adc044e85bbe72,44e5b5f203c9024548a21cb9ef23d3b4827d45c4,9695be6d34c98015821966dc16661e83e6ef92e9,feba8aa068c99e6e76a5ecac80ff53a872b6af56,755ad9fd7bb116526db8b175c2065d77bb67d51e,e4dd75b5aa262e2a8cb27cbb42781d04f574ecb4,2267c88e5569db9588d3354af0f27f94ddcea2e0,aa565370eb0b06c5f14a6e1e69077c4294dd70cd,5f83e38bed23716ec90eed76f21303fa8cca3328,c662132f4211721ae4d0f59444c421686af818e9,63bb4088f178bd44b763d4e08e8eaddccff253c6,7fdf46843b06b26d10277bc6dc87a030b973566d,a23ecd36b86e06cc0dd865c87f3092021bda470a,85262863b01a3d922fd59a18496ff156b2d9b95b,60c4d4950d8e754304c22973f0dee8b7cd1b8dc3,1cd04fb5f15053754c328a35df20dac1e3982dbd,9c23eaca335f257780eeb610dfe3644d517dc9ca,ecc6c4c9ea4c779e92f2e3d2cdeda34a14bb36e1,aa14d58a4d4bed4ec78c6daf6fe1592569a25ea6,cbb2deaccd32cfbc471ca85394d0176a2bbc2590,c7d9720253090b9b306e23193064f57b4f893b8c,2f625a09ebbe9be92060c90321a0518a543af7bf,02b572951840dd66f73cdad38390b2b6ca50cded\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//kzrfaisal/angular-file-uploader"
+    }
+}

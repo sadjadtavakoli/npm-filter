@@ -1,0 +1,30 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "pretest": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "0a1b400cad5b67c37c743fe95966e78a36e320b5,73e1557609a04f6a5d14aac7ddf9f32c0ced9b7c,837f7c4b5e6f0fde51e395e696d357d6c3ed1e3a,6e333d7af6fe27b8ad89bbb6b862a3448b4797e8,c2260b9be27c2358499ae1038592b0198f6ca61c,a2c2ef8d38581d8becd73cad417def9632e31106,13c68eddf8b29e5c1584520eb69072840d5c0fae\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//ruyadorno/ntl"
+    }
+}

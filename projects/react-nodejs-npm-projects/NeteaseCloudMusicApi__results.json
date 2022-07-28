@@ -1,0 +1,42 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "num_passing": 0,
+            "num_failing": 2,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint-fix": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "31e95721a766058ef0d1307aea495039c3e9829d,69a71cb71093b9013201df4bda51452b72a79564,0ac00325c8e87396b409498f33ce542b120bb833,7985690987e01c8d67a9404e19fcb32f455d760f,2bd00f932fd049753f18ce203a0160a42c63298f,845c357aa3b0769558dc55f281304c6cee1403fe,96f84b0acef48168a9fd6af28b52f5bff9a288cf,0f72d6043aa5b9f2529519d49074c74c6378314b,7c7080ce3b8d6450cbff94afefcd82619fe31375,0660928dc5a857175076ce637227d3b48d2574f6,c579ef887a2742c156d692d4db21e2b398827f6d,63ff22bf347a094dbf9c01be7f544ecdff970fe3,8e7c7c553155cbe9c44ec61473a48cd1d53a2c52,eba9641aa05b08da3d2ca63893e93636a5ecfeae,e0eec75f0800d47e8d92ed6b7c5c5e5a7a828cb2,39b32b4b6176fbc2658f77e2ec6c2c2a02095e74,b6edef640a32163ece435ea57cd3253c46387c29,4cc750d6ec32c7e0bc05b15666da95da851c7112,60f017c1a1bff9270176fbcd7d0ec5c3b8d8fc0b,8f59c6df5f09bfa19125e30cb9628137379866a6,2acd96c226f8a10847420a46ee216146ae9f1380,40185476f2e683c68c37eacd9f8776463b790e9f,65e32eec770f7c8151d3c9b730c7425aad29cef8,cea20242881bd926ab142cd6e9f28cd19c9a8078,ab37ff328ddc14db6ce035d4ebdec93bc5e1f46a,4f7266e4a53048985bbd795882e707cadadae077,9ee30f363a4d6645aa0e7ac7612ca666b644590e,4afb471d331d693ca25d1a8b9bb912d187880f25,44beef40986dadad4b4cb908111d162660386ead,8df5d7a790eb112f2af4a581aba4863f087e91d9,494a33c385e71b13198de79e972de84e355b110e,99e60a5fc40644a3886fd27b7671d9c2e55fb4ae,c8d456add75154592ce0dc123fa813e4240b03c8,8bb37684f88ebf422e44cc8317b4d3260ef313bb,bfa194e84980305027448f2abb12eb76c9fb1e65,0d373be6898d9b2e7367d12c3f2d8e08154b1c16,106a153597a0be64c5ce979629a2c3679c8a9e05,13b93fda043374b222b0ccd3c153d2a912d98e34,6709ca371e0658b7dc3445fed04a3d79c5ca79b3,1d8b13de2f1924afe01b41454f0abb507f66ccf6,64f781ee1f0a6438b07e24a39eb925f11e226db5,f71f5860735557762413cf997fcbb70d205f326a,a91bae2e86a4f5132c804c47a5d63fc8999b5eac,2bccab0e73302653d70a20e6bbcbe579185d8f13,b6feed4796fa15c594339f9988d5a97f9fd0b679,a2e4d2640187c5a9f58db5e55d88867bdd1a0b51,af7e5aac89ff42fbbe157ca340d5d51722ec2b1e\n  File \"<string>\", line 4\n    rel_files = [ f for f in \"\"\"\"static/\\344\\270\\223\\350\\276\\221.png\"\"\"\".split(\"\\n\") if rel_extensions.count( f.split(\".\")[-1]) > 0 and sum([ f.count(d) for d in dev_test_paths]) == 0]\n                                                                                                                                                                                       ^\nSyntaxError: unexpected character after line continuation character\n/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh: line 30: ((: ( 0 != 0 ||  > 1 ) &&  > 0 : syntax error: operand expected (error token is \"> 1 ) &&  > 0 \")\n  File \"<string>\", line 14\n    \"static/\\351\\237\\263\\344\\271\\220 url.png\"\"\"\".split(\"\\n\") if rel_extensions.count( f.split(\".\")[-1]) > 0 and sum([ f.count(d) for d in dev_test_paths]) == 0]\n                                                                                                                                                               ^\nSyntaxError: unexpected character after line continuation character\n/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh: line 30: ((: ( 0 != 0 ||  > 1 ) &&  > 0 : syntax error: operand expected (error token is \"> 1 ) &&  > 0 \")\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//Binaryify/NeteaseCloudMusicApi"
+    }
+}

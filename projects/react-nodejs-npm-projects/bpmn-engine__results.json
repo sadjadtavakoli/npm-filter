@@ -1,0 +1,71 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "num_passing": 520,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        },
+        "posttest": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "wintest": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "cov:html": {
+            "num_passing": 520,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "timed_out": false
+        },
+        "test:lcov": {
+            "num_passing": 520,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "nested_test_commands": [
+                "posttest"
+            ],
+            "timed_out": false
+        },
+        "test-md": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "c528ab36be70dd711f0b71fb640263cdfd75a948,64271b1ae43d282244091a50ed12a0a35c646c8e,51f7fb6cc4d54c8771c0832f0c4dcfbd8ec26cf9,a53490b69f75ef54d2692c6b9d725dbc3ff5296e,a126c8c024edba1ddb459c102573266a42cb5cdc,9edb41f92230fd99591fa08343d400304e388b1c,b0b5a02b942964e2c74dcce0a98d5262a78a9ccc,57b62b61e477834422f5167a86af077ff2d13ca1,d79c7795a79cb8414ce3b4680c06a06679cc820e,0d8a776aee8797de7a4b6f7a3c72fc11bd7a1354,6316b83792e72e69237fbf513ed3401f1984a2c3,3a01d28febc67faada0bc7a3000292cb4209a6b5,95cf7718e756865eceae32cd76f03f53890cf5a0,5266a067ea2d2d05509c1b515147608afb16d945,456d43c316b7758ea5abcdcec448bf62a3bf2d71,c374978cb2a9dcb187e73cd2296a57064e4586cd,015381e00a7193ab3a761cba98eb52011f1fe379,3bef1654a7efb8aa508167f52ca794bf31ce7b50,8cebecdbbd7751c7d9def5e2c06b161134c73a91,85cf76cb5cd53bab9ce4f962aa7e2293089ccea2,b6135bb2ad00a6bbfb59bba798577e1d99d7baf1,97546171903daee59df039a95b943bd2399e2e5a,10b4d5181eed70217bf6461140f398c25a51eef3,3a594bc5950444a3db47bedf42fe278495076179,5736daf19c587af6f7b40b5d6f81f8b2459aa4c2,9343d7d1047bcd673a17ec8a91bfbb55fdc9de83,4f7d59a63534ff2947dd235b2c22d9ec9a1db9fa,41d365cc7b843d315e6136784c848ac13f7496b5,6961a9ebfb56da1d8e15223c75050f7f539ac0f2,5a08ac310b142686dc3937d5cedba82d6469c7d9,d674b1729c364161ab2fa5db5c80d4db927d7329,1c72035e1bc60f710c991b66169d89d537efbfce\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/paed01/bpmn-engine"
+    }
+}

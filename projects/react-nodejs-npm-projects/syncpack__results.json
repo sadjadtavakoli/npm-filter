@@ -1,0 +1,43 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "format:lint": {
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "num_passing": 54,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "d37ad2707eb7f05428ae60fe2b7c3cbd3788248b,e571775ebc120786b2742d0047dc8f79f7f8a539,4b19a1375a7856bffb50c9fda84a3a8b6def877b,565c1e76c71592dc0353266e1289dd9d0bf3fd9b,787757c4b09163ec12a60b190954811c0cf4f15f,f165c1dd63a2a76309f5fc77e92dd98e5a38fad1,aea1f374e4e039a35aec7b2e629b9607fd922c75,f38ea4092af8181acbc0281c775c0c84acb5be3d,b4209f076344a9d59830d3bbd75569de9e19b4b3,2197f90608c119a04ddde6255e729fa1ec5c49ec,34eceaffae143fdbc9729495ea693172c2944351,4f74d9a0b9a92428278f66327630e5b0e9dc5add,1e37633156093b8ff8898e900a6ebd6c6a6b5193,cfd5df35134de068eaf26bdb2cfaa1890c6c3545,a6112ec786fd26699a3734707218cda38baf9f0e,027011ad9b558681d96703ad421d1d696abd407a,a084069ad78cb2609b104db4c0674dedb262c777,fd4f2578ae5ba19215c0bc51a4e503c47d820b13,791fbeded3df76a32e474d4461593b951cd0e97b,a7875cb08e0f8382163e8c9e8a4d3e6772b4c160,beee8ad2257e3cbcdf2cb0471f6e70cf855c1516,f580fd8141b38053edd6008931a05587b51b0bbe,c7b46a66b6f06a27cf23b6c4517f94b3e43916ab,a5a45ddc937020b54c33a13d554fb871fee50e05,bfb1f1dde0ee3cbd11a0ef5cef80a0f53b28083a,fc4191706b5e055401e2581c33dea552e9794006,dfe6274c50d6ba3ea3ec419cabd1ccf0bb73f8fb,77b90eb3d656c50ff7b9d1317dc2cdad469b15a5,51054b3c22e87eee16cb2093cd84c0a05ec34dbf,ec5ef6b76f3c2fa0fba0f3a364b734f554d32c8a,75e3de9b025492469a85b7f41618f05cb5f4a723,a2b5af017a2152fb40d0522501db64ef739fe5f9,a766dd38d6024ba5398e5f533b2003c2574b5357,25a6fda1d0e4f43abba7600ffc5af08a53b6966a,5dd6cc40816862d86948e29f9189cae9ce1d28d4,d8ca000b0414d39017f8fd584d44f777cfecc90b,a641de41faaf6851cf9177ff87acd0d3e16494fb,b51a2c96e133a1b5020577cf3c6bef31e79de850,a65eef765d868a27913e173543dcbda43a2202a5,7d5848a0edbe0c0a312be323cc8d9a4a8ed0ea30\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//JamieMason/syncpack"
+    }
+}

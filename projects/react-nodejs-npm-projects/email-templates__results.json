@@ -1,0 +1,61 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build",
+            "build:clean",
+            "build:lib"
+        ]
+    },
+    "testing": {
+        "ava": {
+            "num_passing": 28,
+            "num_failing": 0,
+            "test_infras": [
+                "ava"
+            ],
+            "timed_out": false
+        },
+        "coverage": {
+            "ERROR": true,
+            "test_coverage_tools": [
+                "nyc -- coverage testing"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "nested_test_commands": [
+                "ava",
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test-coverage": {
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "a07f58732512b67454b9ccefd8dbbeb051676c6c,a4089da556e9cc0177f98ae60a20a31c1ac8d068,b86f71fa510fa0fdaa282c96d2414722a2833061,a3fd59c9cff59d36a7b143824be99d8e17b82535,f68c3943f59dc3ee936ba3e8faddb8cb84bc87a0,2a3fc10018ddbc8e7b9c28da4caa49bdda0ee67f,e2f05e25e162160ded1d3593eaa081ea493f7911,c9e10b847192c0409fa54da43804a7d3c32e4a20,f6c382652679a1efe0eef1fac1b173ad5e3562f5,639c0b328cfcae306983f24859a4604240c22f84,da1f1846444a8353d34b8c6f27a3b8e62fc4106b,6426edeff0593c4e2ace4279f431c392e1a4f9ad,b003237252b0453827688d03688772d386142dc1,dcc42e8dda235dd84c2b6367679519fc7c2cf70d,3d339e5a1412c702f9e70eed576077bed3d80a82,79d38dab6fe5799d1020c716e823c449e055654f,3fa3cb0e4fd03b8fa3b92f227cf0b162742a0345,c80bac3c2240741dc4043e1a304f22fef537478a,1b279e834e731f2485308d6c18d414f0f7ff6601,361ed79093386b009222d9a7686c1021e8035422,c203fdf0212e3eae99a447b70ad6219b23533678,d187d532b1e6e7912bc7e49efef091b1410c8207,270dbe84b608ad9853a9e886b8d8fd9327c8901a,98fe92bdf9ab879327804dfabe80693aa951792f,c43a0e60f67831a2a380cd2a294c8cab98aee1f8,819e9de28302bf7036964c6166bd19a6f336b534,5b95a08737563504f9bcc44f02430a1e49adc1d2,5b69082b3b41d31dbca14257b9c6a06a9f959ce1,541d432ba438e70c93e4a5e6c64203455bcda6e1,3fc46e101859294426e32ec1901899ec1f15c949,a32f03170b195d357bda58cbd071587613affda3,ba99668bab2ab28dd4dd6163a170b6f58a2fb54f,bc2c50988a40e969d273a6782ba487b67b5baed9,a39b6e91416913a8c88cf85b7ebd0eef73ad3296,873aa9c49b26b8a68265d71435655341e425ad47,0545e48597e83897191241fcf96764d4338bdf56,e6ca0cddc9c396084afe064b28e7b108df08a597\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//forwardemail/email-templates"
+    }
+}

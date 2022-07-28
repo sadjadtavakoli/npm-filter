@@ -1,0 +1,24 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "9cff6da0af6d94466cd63242803206a71467f3be,626aed670687c23cb6bb036a2e727cfd31821d84,b49b20fe4ba445619bd19950a59159afd46efaf2,8f812e0e40d8a2d6d153d7ceb494822c1119fbc0,316bed29a6ae4939cefd0d4f6d33c6959ba2894f,08a2c060ed6ebba6729735e20ebe789b64a3288d,0cff2b4680710ad78bb8abe1cb431dd1b06d6284,08b52a2b70927947b794bbe31d87ee274b12821b,ccdb8a5652b9e655d324d39305c4a27793474205,056dc72a4ea4dabae3d2554d6af9d3387a6a7763,9dac7aa9f21ffcbc5b1ff3bb2eed3fba25496d15,223ba6bf1787e2d864a94c3ad53a1446cff6b482,03871b2bd3375dd86a3e319dba8bdedade175330,370ef638344ab7115c956b75dc2823850084da39,53a77863be7c1403be8b62ff9c3e2e49f40fe964,df327744a1c48f36ff0b24a0672934e1e80eb20d\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//sindresorhus/np"
+    }
+}

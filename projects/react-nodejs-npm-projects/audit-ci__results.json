@@ -1,0 +1,43 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:fix": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "num_passing": 74,
+            "num_failing": 0,
+            "test_infras": [
+                "mocha"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "9b3da0195b540a328c574a54884367a2e7cd5ba1,c5d7ae1dc9e7410b08702742fd5e8c69709846f6,39b28c43baa2f3ca04dc1ca862a6b91f2675c8a2,6b47f342ca3db2f4a348dadf4477d9b4c4add1cd,52605a43744fdd10eb67a21ed24791ad7a7b7602,1acc9a74e597e5dcfbb5d6db0e20a69eddbcaedf,4236c8f5d8ec320fc4c11823a5b5583ad5d71030,5c5032198b4edd304ff3504f995c1c8cc1c5f033,2173d2c43f6bd5eadd40c6390083334400cbcd30,79471e283a401264bc29e21c5fb8bc7671d40050,678748c7a6edadc266ee2584c7b5021662a00ff6,be3d14f64fd2997425670425a1321047a843edd0,73fc527a3f964810307262c9d6e8259634dc33a2,a30333f747e1cb759475bfd9758727d3ea8a96d5,d201bde29191f29751c39e211bbaf9c5b7b7d24e,811997805d9c958dceae8e2e73fd1beb5b0a028f,ec27c71b0d6dedf5ebdadb933c74cd1aac58f2d6,54cc07d163f84b50a06d88bb9588fc42737ae7d6,d3de66760f55e8d569cb2815bf0d58a57007ba1c,a43b379ec2d1f485bf2d5e4ca5d723e3d971c06b,8d3430fffadf416e1fb33aab34b06c19143155fc,53308ce04e0a1a3f20aaebc16539c42647973782,4d8b9f6f5919a2a9901f969abed3e0842e350449,692f4f8b99333888cf92ba8fe0a5fe2beb1e16cd,c2bad7d3bbdff0f756f4e92923a658f6d353579c,1389d640e0903ecb9d54bb66d49b2ffe15960987,99ae44455da4ed6f1290de1d1d54091184cfda5f,00fc8af0d8ee72bcab1213b9147c751149136f36,6ab932c046da3dca9c8f18f22d5cc35f15a6b4da,d51cbd54182913494665166c7d718642288d4a1d,56cd6cf04863d57af525eaffdaecab5c32189342,39fbc40bf2edcfac68915331299cd289b6100482,39c3c87e2b61abd541c21db5978cdd536a3c313e,a0cfa8d40eaadcf4d97cceea1bbb6f20aa0a9eb9,68de3d2427fc069e5f1ce49be23e7ba20aa0483f,147ed78277d69d80e616471d4b1512dfad9541cd,89f7ef5b9b3c39007b5cdd215f5246365ea7ad18\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//IBM/audit-ci"
+    }
+}

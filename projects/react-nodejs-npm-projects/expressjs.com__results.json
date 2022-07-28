@@ -1,0 +1,26 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "f6e531180f43f1881ac448a175daa20ca8216244,a45717c05fa572df3b154da60c45edf8df13b870,d5a19842e58818d296be8986d5e9945eb82d3a1f,b64c71ee032ecdc5539c79f05ede1c43991e3dda,25141e68158d637f5f9bd4733d172bb8c00c15b1,e6131d7169e1327ca5cc647af0debf89d8de4509,a3619deddb22dc3f9236e761d89303d719ae0af8,937732292f0adcd87b62d6d4314c3eb9eda2484f,9bb4cbe67365dcf93b6af6264a14ff4daa05afd6,68b298906e395f0918a351d2e1e79996687b05d4,3b4b99d30deec67225ea5a0f8761c2151583a1b7,5a5bba42b09deada0f00e0de866d1b97a1d159ff,733f6c3cdcfca996a6a1948a57adf8a97f11dcfc,0e6f0b76716ad60236253b7d8e59b92507e93f8b,f618e801574fdf992f7c9324548ca9f3fce2189e,89307ccd414d176ba6384ae4cb437525522eefeb,1e3e065ec674d778d31b3857309cc6e142029db7,1dceb7725e178503d3898591ec6a966a8c3d725e,c559afa8e71cfed437d7e43ff33b54919c0b3ba8,caf3cf4a67249c2d5dd7635b9deabed1ef75ec10,2d4df4fb1609ca0aa03f680ad1e680aaabdc3571,6e9646e677d7ce96193e59e7cc2a4dd72cf4a97c,3e2eb360671b6bca186c2397ebe9a9973c3e01cc,91f67e4852d1ecad24f18eea8fba10ae54c547e4,baf9aea7099d1f999d04280e02904c42f8ac55ea,abe22e4264e9799dc7b30dbb2c5c8708085a8a20,b1ff5d9de99af0a52a6368d192332edb8e93b7cf,40075ddb8742318de65e7cc4f669cd482929f6a0,466f6d9ccacaeb188c046ea4bacf26239e034bd5,52a4fb179d89c10c8f2af8769be8c8ed7f75d81a,5e892813bb496583511c5af8b7fd66f44e2cd411,609bbf8c3083decc12ccb20725256b0b00fda52a,690a1bf91bab0ac32ca946831b75b3732710a04c,cf2ed590cc18560d70024d80b55c5beaddd80200,661047fc0da9c57ce1118866a8d454509e716b5d,528e4889730c18d9f5696c7529f53c72eabba111,0c5215ed25637f2b4adefec5e606969b873d32e0\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//expressjs/expressjs.com"
+    }
+}

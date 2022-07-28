@@ -1,0 +1,55 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build:ts"
+        ],
+        "ERROR": true
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:cov": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "nested_test_commands": [
+                "lint:eslint",
+                "lint:docs"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:eslint": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:docs": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:fix": {
+            "nested_test_commands": [
+                "lint:eslint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "65cc04420aa9f95c1bbe2dde5da304c2119db564,0d32d0878a45f6a2a5c720d76e5c789cbd054074,8c5ed2aac59843d24d829f7e2c5118c71986a632,a63c3d559b6685a7ca622eab0001dc128ecda541,7f8e9c49289a930494d229f9b3c785c70a57bc49,4187c20f124348dc64880790b09e39c3952abdcb,cad9d7ed24b484ede6fff08c4475f0cf4157d5a0,27b51b00a2d1ff82b9857406f30fb4c89173205f,d387c9c230dc0489abc612c3f68cb423f840ba56,faa2fca5dc7f6ed2c04389988fb3c9ff90428683,6d88ab5fe1c9b17d69e9330636f16a2d36494546,b2d2d3be7fe517dc4dfe51b2e09920712f3409cf,b375017f61eedcd9ec73ac1f803c5f8b8ba4aa35,ba16c5279e9f2dda1f239cce804c942daee6a7e5,422e1dad5bd97a9a2ec3367829846496014553a5,9bb6076cf3d68c140c4930c0e5e5285e3a9342c4,b6d3994b8bd9e439c21ac722681ae3bd6ce1dc02,6902c19a932239a4a29408f5165aa6355a4e127a,fb3e5435f918803aec7315d1258008650be494c5,d443d61cd1e80af11842f29d3d3e1e1571a92710,cb6f204e4eb234be8a6cb919c64067a87e9fb6a2,cc2356a94f81d3af2dc793d2f5c35d116022e727,57e162cdfc1d78323ec0f9d69dfdc467716f08a8,ca06588b481eb57c88179aa3edd048c702b17adf,fbfa5b7c377369c777ffee355fc5a08998532897,5799c6396f73421c159a0a8b476cb329d2ba73cd,3f122c8bd226e164798c775b3ef530ef5b624060,2af5ff417e6ec85deeaf5d7356e594b891a6772e,43223f591ed22b30e27b2fcc7eeb2d33d7344a80,a771ec6247dee4b81df8d1b3f1ff038fca7bf9e8,e1a81ac802197ef51c51d867aaf5b3727ba260ec,86c99661d1299f1fee8af30bdfd6ab3dd75d58de,630ce187115e4734e748954471b46098d4a7ada8,f2b387dd4fff6a59459809ca739d03e15e7e1082,abb8bcee26568211bf6ccc5733b3670daeb8828e,ec7e632fe69634d263d7ae00be812b05e962e06a,f0f78032553917236c2ac2dc68391fc400f86a40,166260d1f410567cc6a30b0986190c13edb2c3c7,713c633f693a466946852c13e230d4d860610176,b35827c6a1d7364bd970d86d16e87e44d171344d,1197b270bc4596b11f9c3daff3690982809563b1,a3a44c54084a4302813d5c4f684c06ce03ee9a3c,e7c03792307af89a6ad6dee34e1064fcb9cbea24,9a048b8397c3d47a12207941b021a84e56e99b81,e72d604a8f453718fbf8449b2510835d1f1774b3,1adaef8114fbd0800eab34dc384a95e36a0306eb,6deaafbb0f7793ea182ee32c34cc3d26f44bc4b7,359c42aaafe76d4ef4113ffb09dd9ec1f2faf258,000e64066950963c5a8929db7ba536be2e6520cc\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//folke/ultra-runner"
+    }
+}

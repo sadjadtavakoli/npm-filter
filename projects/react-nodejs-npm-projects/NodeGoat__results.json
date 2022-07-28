@@ -1,0 +1,37 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test:e2e": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:ci": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "num_passing": 0,
+            "num_failing": 0,
+            "test_infras": [
+                "Custom Testing: node"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "5ab008832d7e3f372a758015b6a1a34471f20151,57817e3e575114d56d5e00a51d2392ec9454e048,173e7c713653b6465ca67a599804e97be5d32089,00f3bd8d54faad4b1d01ec25546d7cb0c9f95311,fb8b82539ce7c62450a043a5417f4ebe052039f8,8a0331937af017072a3345935f58039dcfc1c7cb,5ddceb139af063d5e7f1431893acf4acc5342134,cef378f15488248b9ffd9ac6d6c7f9d51baa7385,517f3eb02868bdaadbce7928aadafc6239a0a684,8d2fb481868ec03fdef635b144a73a4506526d7d,a7ae8606b90618ebd731b0cb00a9a29c95249bd9,2e46a15b2c0a2af55719ada2f2234cdd187b1f90,ba2b2ff86cb678c7a6899280586ba98e3bc1b7be,29e736342858754d78293ddd41543b6d9a2e096e,cf99c4f439ed2b6a490262d3dc0da22820d72be8,54baea068162ae62c492a14a913b31711c628b8c,199e6b58e6a3287faca3b8b846405bf0969b329d,172e533ca26f385164dc27bb08c53f7be1b32134,a7b556da2a25a626b908570706b5d9b41e31dc91,0adbdd81fc5ddabd8bac1d52cd698439218f0efb,f85843ff44fce2accbfa198e5615c884f5c4f2d6,18da27212d4a3d01da8fa2483bb3519ca3ce62a8,bac859340df4a422f5c0400048f9955fc6ad45d8,a58571ada60181083530d19769ffee154c7517a3\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//OWASP/NodeGoat"
+    }
+}

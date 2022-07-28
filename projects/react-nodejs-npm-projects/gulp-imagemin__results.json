@@ -1,0 +1,27 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "num_passing": 5,
+            "num_failing": 0,
+            "test_infras": [
+                "ava"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "adb1e87c00cdf8bf6be9fd6bd5ff0eb7a23c3ac8,efc41488b72e3147d0bea307afddd3bbe919b18c,f119bfe8f476f77ebf9dcecb901b832ed5f5a57f,7ade8b6e244826acddadb59a0ec4857d5cb5a903,696b6ac2da5a457b648bf5f32da900323ef641a9,20a0255fe3a533b8f9591b60184ba0bec1eb1f21,6e0180c07d39f1f1157e40e5f3e8c137a498e270,623d6b68ab2337809ed021fa0c60f541a9f43966,7dfedeb4323275aeb20b1de9492eff06091a107f,66b005f7b3d030223ca717d4a8ce1c238d2fb302,9c14995501746e77010cf804ad589638c0fdcb84,0783032b8e171ccede00c635cf070c6547182b40,aa1fd02c3fcec2e0956489d2afb4ba6591ad3245,1190a7a5ece9899f571728a0c55e4cdcfe7205ce,ead5ce970c609e807d31d040bf48b3012e116962,9652752a3004ef3680c6222dc092e5484be7115e,dd7d84e6f16423417079057aced5bc05056b8499,0595776186b46df033f011ad9f793f2366b8aa66,97bfd4f316e0b72406f2bbfb2261099d611a95a1,b91666eb82a131bdc3e4ade27835b2c4568c87d4,8f9cf01e4de41a4d271adc830b40da1832435d20,281b694e5560ebca96c7dba85c8978d06031a50e,4f02c03a2e9219680e456c26c646a24e29d4bbfa,b022c8e816b5faaba50259baa4df4aa6d1472c45\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//sindresorhus/gulp-imagemin"
+    }
+}

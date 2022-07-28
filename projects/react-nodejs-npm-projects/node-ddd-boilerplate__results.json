@@ -1,0 +1,96 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "test_linters": [
+                "standard -- linter"
+            ],
+            "nested_test_commands": [
+                "test:cov",
+                "db:refresh-test"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "coveralls": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:cov": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:specs": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "db:refresh-test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "migrate:test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "seed:test": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "standard -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:fix": {
+            "test_linters": [
+                "standard -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint:staged": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "travis-deploy-once": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "docker:db:refresh-test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "docker:test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "docker:test:specs": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "8954fec11b93fc7e45c84d1f406bbc0f63247d3e,951a8a9f4a8f8608928de7644653ec06cf6a0a69,b9bb5e8f1f6bd8ba691219368e0a1ad0877069bb,64eecefe134a7c8d16ff998fb242acac7f6b0570,20f046fb357ceeb8384b158852fa2e0abce8fea3,1b0dc9633893f29c4fda59e043d3d802c7e85f28,11371fbab90edecc0f6e7f240b865babaeee6f3e,f71d017bda5804cdd441d4088106312ad8620468\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/joshuaalpuerto/node-ddd-boilerplate"
+    }
+}

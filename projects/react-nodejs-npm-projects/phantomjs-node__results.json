@@ -1,0 +1,46 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "flowbuild",
+            "prebuild",
+            "build"
+        ]
+    },
+    "testing": {
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "pretest": {
+            "nested_test_commands": [
+                "lint"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "num_passing": 53,
+            "num_failing": 10,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "44c5091aa378b76a1f2960f9de6450cb8d8d8aa0,f9249bb447619d9dba78c4e84329e29f6a42f181,87ed11d3171419c638a190f886aac5f78d86f7cb,5de9666c9ba56376322af079ce46c53b078572ba,fd3eef62e4b5a47cf4627e9fe6079b196f7647fe,ec46385b8f4de50787dd390eb8c48e5e8e7463ad,cdba8352430c3030e8795029b2719dad0f341255,4106de7d47bc278c2e8beb76e9d3d977f9e37011,88311ba14f2aa9f2642f44499c2ae3e940581b0f,6b142c0232a8babe2c9c3c9938cd486add28fd0c,f1edabbbf3373cb9d07ec1a57ed0962b0a8f3c67,14e01a02a98798800ae625125f1a6f4c68100519,cc852bc314e02375a17ececc84a8a7474f9b7818,e9a5716e53691fddc63471533afa5b751f9645bd,4b95bf6ce261b2ff5ee53a7985612164f3ce5f1a,7e0d5568902c1c48c50cc87b4d65775f5a374413,edf5982ac81932e019b2af0c7f338b5f5ccb0b2d,89aa92fbcdd6b0075201ec61c8baac90c3bf11d3,ee056065ccf735f5355e76f2cd69bd4f638a3d68,c4f31fc07e230f49a9773ffd0f95cceb58b12a04,fc45603987b0b7ec935a4a84dd0ae7fc3a7a7650,c73fe54c121ff92956541e57c89dda51111b6eb8,a0e550b1c61f87bc854697a75b7ee2f2a0c87186,1415b4ae2af69c60496751507d16f7ea80847804,940ee96f51ac130b80d274ad35a3ad5ac44ec12d,9c04adf2ceeef6ecc96d4585dcb6b437e7d3252d,db311a1f315c8bbff971a3373627661ac0551532,ff6531cacae598e5bda93282b764d37b07d77b37,0d319b22109fee4a3d27c94bfb0024b66799b311,1a0bc5e243fd1dfd47de198850c346e9bb08d961,1d8c64ae32ca09e344eaa798c5d8e13fe38d46d8,e7404fc6ac912c3c8f3e63af42a902843e93f509,12af4a811d3990c5ab83c26caa222e72ec2d6734,fcdd0a96d6ded0cb6873ef5eb91ca2406b3714fa,b00dd8516c038924507d061b8e7143d8151a630b,27c782c6180da92cb1f20f79df044c8e519d948c,af4825f775482f2921edc127a6a2141340b5dbb7,0a6d6154ca7ae73afd15b211afb2017e965d8faa\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com//amir20/phantomjs-node"
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": [
+            "build:step-parser",
+            "build:themes",
+            "build:standalone",
+            "build:codesurfer",
+            "build:sites"
+        ]
+    },
+    "testing": {
+        "test:step-parser": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:themes": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:standalone": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test:codesurfer": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "4a9706e85281be46dfa1165a3d39b9ff16d438bc,479ae0899204316b8dde6c0e6887dce3da7a98ee,9eb9de69b130cfb216897e7be714d6938d20b6b9,57e7a4998792d34132136c617b4f19ce0bd01b7a,537c27764f3dcc5ea8c9c8f22dc1e12ec4a322e8,255aa188dca984909e0e06f8391701c15d2a2472,5f9d885fae9de403b67bfaf4b6693efab657c9a2,b135563f9ab69fc6ee539b2a5745fc7ee70068f4,89615a1338d6da767f63f0da1ad775481ff5ccdc,275b2c116347a9091923f399b942ddd2501b3800,fa13ea84a2ce5373b90f7d4476e4159304952350,58d4393914b5421eba420dbf4812fde344937010,b32f8a81598e5f930be2d2d482860f454b1d815b,95fade21297b9d3c58c1837af2bf717321992ea0,6a7006575ebffa40b9d286e21adedfc989d7927d,926179be14cc74ee27c82418e806bcf9afa7efbe,6ec10dfea6bbeeb2c2aa97f1a40f846d073c0f7a,1584946d553f67aaecb921ca397eebae5afea954,75a00608bdc9c9fa548ad9cf289da225fc158351,46a1bd8eabfa12eb2b1c6e971dd93fb177358f79,c307c280d534b224edc7a2a39be1bf283151cc24,2f1096b8af1e29cb3950c9216d36fa25a8450bdb,e0a202722abba98cd224080a134de3fd4f83a0e5,5bf7b9883b74a1b88b0ca7bef979d60b01c87b67,a6bf0c5cfb232cdd2dd2dd3906a103cfe9f71c52,1809648e4f26c109e0348983710c898a3dc9c499,e321c04c541186aaac117353efb50b7d428bb38f,6082fe4e7976dd8cf62b60c810ed71c1a7003dbe,ad55951975a926bdc64498484c01abde8500b660,43adf7f52b31b04dd9d217c3f1a525f6f7db5456,662add26d10cb9a4055d66c3cb2f9db143dc43c6,2ccd779ddce8e2e2807131247054d5ebd75c41c1,ebaa96688c641d8694d1884751647c23b0bdb775,cde2581059cc5f381371c5646980408dabc24ee8,c8e8823898b21c2b7265679ed5a88739f19d6abd,b8ea9519275a37155f5f1f9a7bcc3c55ba4e55b7,5da6c57c0a0b146bacd969e2d7fcb7528383f007,5a7d201a0dafb1e56f0850cb1c5cedfa20b16ae4,35a4129d2675c9a57f40908cd11ad65e2d26da21,c7b4c0b00db4d979ad8162fc84a9b99c0a57ebec,d90b50bf4df4bfbe1353fbda8b775d2880075454,5c8689dd428b967c50210829c3b8d79e0542d63c,5dccd23683a0eaa12911f93938a547a4041e0a29,3bb66bce310911feb0566e0a5e90692ead755fec,c38d09f9e977d44917466d06d98db1e42810a30d,cedb411197d04cb6acaa1fac50a760afb7b838f3,c999afc6b8cb1211a577f7b51042d6fac9764dab,ace4de6d2671ac108e7491c1fbdc3e8c959d6b1e,d5dca3e9a836da8f5772b178d6a1d0d17097dc49,ebe3df2883c367f9ed0c8e421444f70d365a8f83,aca423c4e21c89b2b93d0e6913bcdf053436a6a0,8dfc54d752f3a7bea325d6a78ea3eb2c53710c11,648282c5578d1afb03db9c23d37548340db4b6e0\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/pomber/code-surfer"
+    }
+}

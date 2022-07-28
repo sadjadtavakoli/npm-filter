@@ -1,0 +1,52 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": [
+            "build"
+        ]
+    },
+    "testing": {
+        "test": {
+            "num_passing": 77,
+            "num_failing": 0,
+            "test_infras": [
+                "jest"
+            ],
+            "timed_out": false
+        },
+        "lint": {
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint-types": {
+            "nested_test_commands": [
+                "lint-types-react",
+                "lint-types-preact"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint-types-react": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint-types-preact": {
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "8e0ac1a75f667c029bb36158e8732767a4c1ace3,864a910b4974de7312c0a11d51e1a538f92727c6,70c03301dc6089d7bf5cc3e2c11fc8d09da5d8e3,46b1d62f9f811daf78e59d5a23cbb68823d96c94,1dc47696fb4408451b6942749d23cc398472421d,fc3277f844c33e157a4506d1e7966bd32e9ed414,54379aace6940ab5abe0aef270b299ce41eef51a,7d8dccd2797a7a423d8e1756296c6c0c95fd7c36,6fb6658f4856c20a9fecb21192d1c4834d921cf7,1db1605b34de1f57ed80c73adebf346c7126b862,b8194c318caad16d894554330a716be9cb79ddd4,68e4bbfa8842285cbd1b1d5b41ab50fdbe700097,408dff71b3debc2ed1d2d46f602ea452474b81c1,7ae75713d728d90c18bf75ef9f26a9c974b2a734,c29dfc2f953790cbdc52cfe4a54ab314dd6279fd\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/molefrog/wouter"
+    }
+}

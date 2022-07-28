@@ -1,0 +1,37 @@
+{
+    "installation": {
+        "installer_command": "yarn"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "lint": {
+            "ERROR": true,
+            "test_linters": [
+                "eslint -- linter"
+            ],
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        },
+        "test-cli": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "2f000b24c23c98daf4f56071230e3719f97764e7,e244771edcd2b5ccb9dcda9a1a844db0a90a508c,229a167de7d100125cfdb78445b91cd07a22504e,f79e14ba1f2e3f28c08f407066ee246aa6c9e81d,763dc06de96ac59eb015a77d632907bf71fc785d,f6300991d645cdf7d65dd2c3492118ff9cf3136e,2c7bd8d408db4c67981342e8569458801422dc46,9334068e3efa5b8b35b273a390d2eeeab6cdcef4,37ab49576c9676746f894b0bae456480788dfa2d,43b9973fc6088bed8dda83a288b2bda71394f685,7c2ae97b36695ff2a91de667260dc3dde856a21a,6117357d552d7e7aecd20e349e4d1cf1e664edeb,ebc133c18de56964fe0f555561def1d7174acc63,7c823b39ff22682ced22ac41cc2a1c4ab2798efa,2dddb944e734db0beb8a977e7013bad5b51311ae,096ec0083bb93577c4463712ddec9dc234ae37dc,eb8b26a6bc5f87156013e65774e7b5879d3e487d,3cbbe3544b433e4d4722480ee30fb8402184bf3d,5bd4ef630d712d30042ebc72bf5d94724b7680b6,3444dbd76ea61ee103c00efc5313f4921eccd69d,fa34c2e2a0b30e7522137002746b3b7ba77f35a3,d1a3cf72f11b7b3a472e06d4bb8971013ceeb239,e68ff9e1a735dc8f3a35c870e706ca7d06e82f0c,e44d15e2ab6cf2d45a69b0d7cf2fec3604e84a75,4b771d94f28812f36677375d067c82bd78afed95,1cb3f836e2ca429fc63625b919fd2b86f3be9933,9fde844ae0cae036c8a21268b63b16d1033f5c21,7f9e71a3bd3028144d2c7f0cb29612a0d080caa6,d274b48de584b1a7388efed80230e8e57620f6d0,aa1ec0830c889cc7fc822cf8d901355cbee97616,906da2334121bcfa3677bb76258c7638c6480d15,23f10c62e05f197a97415cc9f35be7f51445b94e,157cdac363b062a598549e7ccfb247d9809e2694,209eced3cf6e5ec27b4b060a11eb468d3ba371d0,d17d970e23eb064e633875b31a3b24cf4af9e48f,308ad11a46f70ba84ec9bfe7d4fc4555333f7a26,5cfed50d210db15761b86b137b88aaff0f1b2149,66f2244b19c93ef078cc4d331aba66eac849024a,237a6d0356db2223333fcbd025a9509fc0d8fb02,db0e8f2a5f210050965080d55920d2ea79a10869,90bdfebe87a97705aeec7896b9a026e1392f5775,07b025f09175ce4eaec343ae9ac0c0665821567d\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/matteodem/meteor-boilerplate"
+    }
+}

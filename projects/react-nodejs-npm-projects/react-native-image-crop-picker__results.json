@@ -1,0 +1,24 @@
+{
+    "installation": {
+        "installer_command": "npm install"
+    },
+    "build": {
+        "build_script_list": []
+    },
+    "testing": {
+        "test": {
+            "ERROR": true,
+            "RUNS_NEW_USER_TESTS": false,
+            "timed_out": false
+        }
+    },
+    "scripts_over_code": {
+        "/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh": {
+            "output": "87a043210db144108de27378f4b5e472b6128e10,43740398f4f4473e1f479f0bc0e560a95ccda59d,e5622719c2fae614780160de26d4972168404ddf,d3da5de48758410a4de75330785c5f5a8119d336,457c0efbd5c9e9c6901fd74cf27336a8d601da0f,e0f0745954a4b01c4aab7e2347c21612363209f3,79d3dab7e5dd377551701a74203deb5667bdfde2\n",
+            "useless": false
+        }
+    },
+    "metadata": {
+        "repo_link": "https://github.com/ivpusic/react-native-image-crop-picker"
+    }
+}
