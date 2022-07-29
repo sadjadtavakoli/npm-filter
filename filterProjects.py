@@ -1,7 +1,7 @@
 from os import walk
 import json 
 
-files_path = "./projects/"
+files_path = "./projects/react-nodejs-npm-projects/"
 projects = []
 
 
@@ -21,16 +21,15 @@ def filter():
                         projects.append([project_link, length])
                         continue
                 print(file_path)
-                # os.remove(file_path)
 
     projects.sort(key=lambda x: x[1], reverse=True)
     sorted_json_data = json.dumps(projects) 
 
-    with open('summary.json', 'w') as output:
+    with open('./projects/react-nodejs-npm-details/summary.json', 'w') as output:
         output.write(sorted_json_data)
 
+
 def filter2():  
-      
     f = open('./projects/react-nodejs-npm/summary.json')
     selected_projects = json.load(f)
     selected_projects_names = [project[0] for project in selected_projects]
@@ -45,3 +44,34 @@ def filter2():
     with open('summary.json', 'w') as output:
         output.write(json.dumps(all_projects))
 
+
+def extract_candidates_info():  
+    f = open('./projects/react-nodejs-npm-details/summary.json')
+    projects = json.load(f)
+    candidate_projects = [project for project in projects if len(project)>2]
+    candiate_projects_info = []
+    for f in candidate_projects:
+        candidate = {'repo':"git@github.com:"+f[0].split('github.com/')[-1]+".git" }
+        f_name = f[0].split('/')[-1]
+        file_path = files_path+f_name+"__results.json"
+        with open(file_path, 'r') as file:
+            data = json.load(file)
+            scritp_result = data.get('installation', None)
+            if(scritp_result):
+                installer_command = scritp_result.get('installer_command', None)
+                candidate['install'] = installer_command
+        candiate_projects_info.append(candidate)
+
+    with open('candidates_info.json', 'w') as output:
+        output.write(json.dumps(candiate_projects_info))
+
+
+def mohammad_projects_link_generator():
+
+    projects = []
+    with open('./projects_data/mohammad_mocha.txt') as f:
+        lines = f.readlines()
+        for line in lines:
+            projects.append("github.com/"+line.split(",")[0])
+    with open('./projects_data/mohammad_mocha_links.json', 'w') as output:
+        output.write(json.dumps(projects))

@@ -1,0 +1,9 @@
+{
+    "setup": {
+        "repo_commit_checkout_ERROR": true
+    },
+    "metadata": {
+        "repo_link": "https://github.com/TryGhost/Ghost",
+        "repo_commit_SHA": "huge!"
+    }
+}

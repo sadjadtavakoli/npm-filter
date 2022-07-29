@@ -1,6 +1,6 @@
 [
     [
-        "https://github.com//pattern-lab/patternlab-node",
+        "https://github.com/pattern-lab/patternlab-node",
         1003,
         "candidate"
     ],
@@ -14,11 +14,11 @@
         "candidate"
     ],
     [
-        "https://github.com//stdlib-js/stdlib",
+        "https://github.com/stdlib-js/stdlib",
         1000
     ],
     [
-        "https://github.com//freeCodeCamp/freeCodeCamp",
+        "https://github.com/freeCodeCamp/freeCodeCamp",
         1000
     ],
     [
@@ -31,7 +31,7 @@
         "candidate"
     ],
     [
-        "https://github.com//avwo/whistle",
+        "https://github.com/avwo/whistle",
         1000
     ],
     [
@@ -39,7 +39,7 @@
         1000
     ],
     [
-        "https://github.com//renovatebot/renovate",
+        "https://github.com/renovatebot/renovate",
         1000
     ],
     [
@@ -52,12 +52,12 @@
         1000
     ],
     [
-        "https://github.com//angular/bower-material",
+        "https://github.com/angular/bower-material",
         1000,
         "candidate"
     ],
     [
-        "https://github.com//TryGhost/Ghost",
+        "https://github.com/TryGhost/Ghost",
         1000
     ],
     [
@@ -65,7 +65,7 @@
         1000
     ],
     [
-        "https://github.com//Zettlr/Zettlr",
+        "https://github.com/Zettlr/Zettlr",
         1000,
         "candidate"
     ],
@@ -75,7 +75,7 @@
         "candidate"
     ],
     [
-        "https://github.com//haraka/Haraka",
+        "https://github.com/haraka/Haraka",
         1000
     ],
     [
@@ -83,7 +83,7 @@
         1000
     ],
     [
-        "https://github.com//googleapis/google-api-nodejs-client",
+        "https://github.com/googleapis/google-api-nodejs-client",
         1000
     ],
     [
@@ -92,15 +92,15 @@
         "candidate"
     ],
     [
-        "https://github.com//yarnpkg/berry",
+        "https://github.com/yarnpkg/berry",
         1000
     ],
     [
-        "https://github.com//moleculerjs/moleculer",
+        "https://github.com/moleculerjs/moleculer",
         1000
     ],
     [
-        "https://github.com//tidev/titanium_mobile",
+        "https://github.com/tidev/titanium_mobile",
         1000,
         "candidate"
     ],
@@ -109,7 +109,7 @@
         1000
     ],
     [
-        "https://github.com//actionhero/actionhero",
+        "https://github.com/actionhero/actionhero",
         1000
     ],
     [
@@ -117,7 +117,7 @@
         1000
     ],
     [
-        "https://github.com//meteor/meteor",
+        "https://github.com/meteor/meteor",
         1000
     ],
     [
@@ -125,7 +125,7 @@
         1000
     ],
     [
-        "https://github.com//keystonejs/keystone",
+        "https://github.com/keystonejs/keystone",
         1000
     ],
     [
@@ -133,7 +133,7 @@
         1000
     ],
     [
-        "https://github.com//odota/core",
+        "https://github.com/odota/core",
         1000
     ],
     [
@@ -141,11 +141,11 @@
         1000
     ],
     [
-        "https://github.com//nrwl/nx",
+        "https://github.com/nrwl/nx",
         1000
     ],
     [
-        "https://github.com//damienbod/angular-auth-oidc-client",
+        "https://github.com/damienbod/angular-auth-oidc-client",
         1000,
         "candidate"
     ],
@@ -159,21 +159,21 @@
         "candidate"
     ],
     [
-        "https://github.com//lando/lando",
+        "https://github.com/lando/lando",
         1000,
         "candidate"
     ],
     [
-        "https://github.com//coderaiser/cloudcmd",
+        "https://github.com/coderaiser/cloudcmd",
         1000
     ],
     [
-        "https://github.com//silverwind/droppy",
+        "https://github.com/silverwind/droppy",
         1000,
         "candidate"
     ],
     [
-        "https://github.com//hapijs/hapi",
+        "https://github.com/hapijs/hapi",
         998
     ],
     [
@@ -193,12 +193,12 @@
         962
     ],
     [
-        "https://github.com//electrode-io/electrode",
+        "https://github.com/electrode-io/electrode",
         940,
         "candidate"
     ],
     [
-        "https://github.com//hop-protocol/hop",
+        "https://github.com/hop-protocol/hop",
         933
     ],
     [
@@ -214,15 +214,15 @@
         891
     ],
     [
-        "https://github.com//matteobruni/tsparticles",
+        "https://github.com/matteobruni/tsparticles",
         884
     ],
     [
-        "https://github.com//misskey-dev/misskey",
+        "https://github.com/misskey-dev/misskey",
         858
     ],
     [
-        "https://github.com//thelounge/thelounge",
+        "https://github.com/thelounge/thelounge",
         857,
         "candidate"
     ],
@@ -236,7 +236,7 @@
         839
     ],
     [
-        "https://github.com//onsip/SIP.js",
+        "https://github.com/onsip/SIP.js",
         837
     ],
     [
@@ -245,16 +245,16 @@
         "candidate"
     ],
     [
-        "https://github.com//FredrikNoren/ungit",
+        "https://github.com/FredrikNoren/ungit",
         816,
         "candidate"
     ],
     [
-        "https://github.com//discordjs/discord.js",
+        "https://github.com/discordjs/discord.js",
         804
     ],
     [
-        "https://github.com//hexojs/hexo",
+        "https://github.com/hexojs/hexo",
         775
     ],
     [
@@ -271,7 +271,7 @@
         "candidate"
     ],
     [
-        "https://github.com//withspectrum/spectrum",
+        "https://github.com/withspectrum/spectrum",
         760
     ],
     [
@@ -288,7 +288,7 @@
         "candidate"
     ],
     [
-        "https://github.com//silexlabs/Silex",
+        "https://github.com/silexlabs/Silex",
         735
     ],
     [
@@ -305,12 +305,12 @@
         696
     ],
     [
-        "https://github.com//Unitech/pm2",
+        "https://github.com/Unitech/pm2",
         695,
         "candidate"
     ],
     [
-        "https://github.com//loopbackio/loopback-next",
+        "https://github.com/loopbackio/loopback-next",
         684
     ],
     [
@@ -323,7 +323,7 @@
         "candidate"
     ],
     [
-        "https://github.com//lerna/lerna",
+        "https://github.com/lerna/lerna",
         677
     ],
     [
@@ -331,7 +331,7 @@
         669
     ],
     [
-        "https://github.com//electron/electron",
+        "https://github.com/electron/electron",
         663,
         "candidate"
     ],
@@ -345,7 +345,7 @@
         "candidate"
     ],
     [
-        "https://github.com//javascript-obfuscator/javascript-obfuscator",
+        "https://github.com/javascript-obfuscator/javascript-obfuscator",
         649
     ],
     [
@@ -353,7 +353,7 @@
         648
     ],
     [
-        "https://github.com//amplication/amplication",
+        "https://github.com/amplication/amplication",
         645
     ],
     [
@@ -371,7 +371,7 @@
         "candidate"
     ],
     [
-        "https://github.com//playcanvas/engine",
+        "https://github.com/playcanvas/engine",
         625
     ],
     [
@@ -384,16 +384,16 @@
         617
     ],
     [
-        "https://github.com//FoalTS/foal",
+        "https://github.com/FoalTS/foal",
         610
     ],
     [
-        "https://github.com//arterli/CmsWing",
+        "https://github.com/arterli/CmsWing",
         606,
         "candidate"
     ],
     [
-        "https://github.com//parse-community/parse-server",
+        "https://github.com/parse-community/parse-server",
         603
     ],
     [
@@ -402,25 +402,25 @@
         "candidate"
     ],
     [
-        "https://github.com//outline/outline",
+        "https://github.com/outline/outline",
         595
     ],
     [
-        "https://github.com//pubkey/rxdb",
+        "https://github.com/pubkey/rxdb",
         594,
         "candidate"
     ],
     [
-        "https://github.com//coralproject/talk",
+        "https://github.com/coralproject/talk",
         587,
         "candidate"
     ],
     [
-        "https://github.com//mikro-orm/mikro-orm",
+        "https://github.com/mikro-orm/mikro-orm",
         584
     ],
     [
-        "https://github.com//jsdom/jsdom",
+        "https://github.com/jsdom/jsdom",
         582,
         "candidate"
     ],
@@ -433,7 +433,7 @@
         572
     ],
     [
-        "https://github.com//marko-js/marko",
+        "https://github.com/marko-js/marko",
         569,
         "candidate"
     ],
@@ -451,7 +451,7 @@
         "candidate"
     ],
     [
-        "https://github.com//open-wa/wa-automate-nodejs",
+        "https://github.com/open-wa/wa-automate-nodejs",
         547
     ],
     [
@@ -459,19 +459,19 @@
         545
     ],
     [
-        "https://github.com//streamlink/streamlink-twitch-gui",
+        "https://github.com/streamlink/streamlink-twitch-gui",
         544
     ],
     [
-        "https://github.com//yarnpkg/yarn",
+        "https://github.com/yarnpkg/yarn",
         536
     ],
     [
-        "https://github.com//nestjs/nest",
+        "https://github.com/nestjs/nest",
         528
     ],
     [
-        "https://github.com//standard-things/esm",
+        "https://github.com/standard-things/esm",
         526
     ],
     [
@@ -479,7 +479,7 @@
         522
     ],
     [
-        "https://github.com//feathersjs/feathers",
+        "https://github.com/feathersjs/feathers",
         513
     ],
     [
@@ -491,7 +491,7 @@
         508
     ],
     [
-        "https://github.com//i18next/i18next",
+        "https://github.com/i18next/i18next",
         504
     ],
     [
@@ -519,7 +519,7 @@
         479
     ],
     [
-        "https://github.com//node-gh/gh",
+        "https://github.com/node-gh/gh",
         478
     ],
     [
@@ -553,7 +553,7 @@
         453
     ],
     [
-        "https://github.com//expressjs/express",
+        "https://github.com/expressjs/express",
         448
     ],
     [
@@ -562,11 +562,11 @@
         "candidate"
     ],
     [
-        "https://github.com//searchkit/searchkit",
+        "https://github.com/searchkit/searchkit",
         424
     ],
     [
-        "https://github.com//pump-io/pump.io",
+        "https://github.com/pump-io/pump.io",
         417
     ],
     [
@@ -574,7 +574,7 @@
         412
     ],
     [
-        "https://github.com//apache/cordova-android",
+        "https://github.com/apache/cordova-android",
         408,
         "candidate"
     ],
@@ -583,7 +583,7 @@
         407
     ],
     [
-        "https://github.com//googleapis/google-cloud-node",
+        "https://github.com/googleapis/google-cloud-node",
         403
     ],
     [
@@ -591,7 +591,7 @@
         396
     ],
     [
-        "https://github.com//scality/cloudserver",
+        "https://github.com/scality/cloudserver",
         396
     ],
     [
@@ -599,7 +599,7 @@
         395
     ],
     [
-        "https://github.com//tulios/kafkajs",
+        "https://github.com/tulios/kafkajs",
         384
     ],
     [
@@ -608,11 +608,11 @@
         "candidate"
     ],
     [
-        "https://github.com//fastify/fastify",
+        "https://github.com/fastify/fastify",
         381
     ],
     [
-        "https://github.com//nightwatchjs/nightwatch",
+        "https://github.com/nightwatchjs/nightwatch",
         373
     ],
     [
@@ -624,7 +624,7 @@
         373
     ],
     [
-        "https://github.com//senchalabs/connect",
+        "https://github.com/senchalabs/connect",
         372
     ],
     [
@@ -640,7 +640,7 @@
         356
     ],
     [
-        "https://github.com//wizawu/tyrian",
+        "https://github.com/wizawu/tyrian",
         355
     ],
     [
@@ -660,20 +660,20 @@
         345
     ],
     [
-        "https://github.com//GoogleCloudPlatform/nodejs-docs-samples",
+        "https://github.com/GoogleCloudPlatform/nodejs-docs-samples",
         343
     ],
     [
-        "https://github.com//nodegit/nodegit",
+        "https://github.com/nodegit/nodegit",
         342,
         "candidate"
     ],
     [
-        "https://github.com//liquality/chainify",
+        "https://github.com/liquality/chainify",
         340
     ],
     [
-        "https://github.com//cnpm/cnpmjs.org",
+        "https://github.com/cnpm/cnpmjs.org",
         338,
         "candidate"
     ],
@@ -682,16 +682,16 @@
         338
     ],
     [
-        "https://github.com//apache/cordova-ios",
+        "https://github.com/apache/cordova-ios",
         335,
         "candidate"
     ],
     [
-        "https://github.com//manzinello/mailgo",
+        "https://github.com/manzinello/mailgo",
         332
     ],
     [
-        "https://github.com//alibaba/ice",
+        "https://github.com/alibaba/ice",
         330
     ],
     [
@@ -699,15 +699,15 @@
         328
     ],
     [
-        "https://github.com//webtorrent/webtorrent",
+        "https://github.com/webtorrent/webtorrent",
         328
     ],
     [
-        "https://github.com//isomorphic-git/isomorphic-git",
+        "https://github.com/isomorphic-git/isomorphic-git",
         326
     ],
     [
-        "https://github.com//benawad/dogehouse",
+        "https://github.com/benawad/dogehouse",
         326,
         "candidate"
     ],
@@ -728,7 +728,7 @@
         318
     ],
     [
-        "https://github.com//formio/formio",
+        "https://github.com/formio/formio",
         311
     ],
     [
@@ -736,7 +736,7 @@
         311
     ],
     [
-        "https://github.com//SoftwareBrothers/adminjs",
+        "https://github.com/SoftwareBrothers/adminjs",
         309
     ],
     [
@@ -752,7 +752,7 @@
         306
     ],
     [
-        "https://github.com//release-it/release-it",
+        "https://github.com/release-it/release-it",
         303
     ],
     [
@@ -772,7 +772,7 @@
         300
     ],
     [
-        "https://github.com//xmppjs/xmpp.js",
+        "https://github.com/xmppjs/xmpp.js",
         299,
         "candidate"
     ],
@@ -785,15 +785,15 @@
         298
     ],
     [
-        "https://github.com//shen100/mili",
+        "https://github.com/shen100/mili",
         298
     ],
     [
-        "https://github.com//JSPrismarine/JSPrismarine",
+        "https://github.com/JSPrismarine/JSPrismarine",
         295
     ],
     [
-        "https://github.com//SheetJS/sheetjs",
+        "https://github.com/SheetJS/sheetjs",
         293
     ],
     [
@@ -805,7 +805,7 @@
         293
     ],
     [
-        "https://github.com//socketstream/socketstream",
+        "https://github.com/socketstream/socketstream",
         292
     ],
     [
@@ -825,25 +825,25 @@
         285
     ],
     [
-        "https://github.com//claudiajs/claudia",
+        "https://github.com/claudiajs/claudia",
         285
     ],
     [
-        "https://github.com//webpack/webpack.js.org",
+        "https://github.com/webpack/webpack.js.org",
         284,
         "candidate"
     ],
     [
-        "https://github.com//muicss/mui",
+        "https://github.com/muicss/mui",
         283,
         "candidate"
     ],
     [
-        "https://github.com//bitcoinjs/bitcoinjs-lib",
+        "https://github.com/bitcoinjs/bitcoinjs-lib",
         281
     ],
     [
-        "https://github.com//gridsome/gridsome",
+        "https://github.com/gridsome/gridsome",
         280
     ],
     [
@@ -855,7 +855,7 @@
         276
     ],
     [
-        "https://github.com//ToolJet/ToolJet",
+        "https://github.com/ToolJet/ToolJet",
         275
     ],
     [
@@ -867,7 +867,7 @@
         271
     ],
     [
-        "https://github.com//elastic/elasticsearch-js",
+        "https://github.com/elastic/elasticsearch-js",
         271
     ],
     [
@@ -880,7 +880,7 @@
         "candidate"
     ],
     [
-        "https://github.com//Tencent/cloudbase-framework",
+        "https://github.com/Tencent/cloudbase-framework",
         268
     ],
     [
@@ -888,11 +888,11 @@
         268
     ],
     [
-        "https://github.com//simov/grant",
+        "https://github.com/simov/grant",
         268
     ],
     [
-        "https://github.com//apify/apify-js",
+        "https://github.com/apify/apify-js",
         267
     ],
     [
@@ -901,7 +901,7 @@
         "candidate"
     ],
     [
-        "https://github.com//tinyhttp/tinyhttp",
+        "https://github.com/tinyhttp/tinyhttp",
         266
     ],
     [
@@ -909,11 +909,11 @@
         266
     ],
     [
-        "https://github.com//MCSManager/MCSManager",
+        "https://github.com/MCSManager/MCSManager",
         265
     ],
     [
-        "https://github.com//js-data/js-data",
+        "https://github.com/js-data/js-data",
         264,
         "candidate"
     ],
@@ -926,7 +926,7 @@
         260
     ],
     [
-        "https://github.com//DavidAnson/markdownlint",
+        "https://github.com/DavidAnson/markdownlint",
         253
     ],
     [
@@ -934,11 +934,11 @@
         250
     ],
     [
-        "https://github.com//dolanmiu/docx",
+        "https://github.com/dolanmiu/docx",
         249
     ],
     [
-        "https://github.com//faker-js/faker",
+        "https://github.com/faker-js/faker",
         249
     ],
     [
@@ -962,7 +962,7 @@
         243
     ],
     [
-        "https://github.com//ssbc/patchwork",
+        "https://github.com/ssbc/patchwork",
         243
     ],
     [
@@ -970,7 +970,7 @@
         242
     ],
     [
-        "https://github.com//tediousjs/tedious",
+        "https://github.com/tediousjs/tedious",
         242
     ],
     [
@@ -982,7 +982,7 @@
         239
     ],
     [
-        "https://github.com//avajs/ava",
+        "https://github.com/avajs/ava",
         239
     ],
     [
@@ -994,7 +994,7 @@
         236
     ],
     [
-        "https://github.com//webtorrent/webtorrent-desktop",
+        "https://github.com/webtorrent/webtorrent-desktop",
         235
     ],
     [
@@ -1006,7 +1006,7 @@
         230
     ],
     [
-        "https://github.com//chyingp/nodejs-learning-guide",
+        "https://github.com/chyingp/nodejs-learning-guide",
         229
     ],
     [
@@ -1022,11 +1022,11 @@
         224
     ],
     [
-        "https://github.com//caprover/caprover",
+        "https://github.com/caprover/caprover",
         223
     ],
     [
-        "https://github.com//raineorshine/npm-check-updates",
+        "https://github.com/raineorshine/npm-check-updates",
         223
     ],
     [
@@ -1055,24 +1055,24 @@
         211
     ],
     [
-        "https://github.com//honeybadger-io/honeybadger-js",
+        "https://github.com/honeybadger-io/honeybadger-js",
         210
     ],
     [
-        "https://github.com//sindresorhus/got",
+        "https://github.com/sindresorhus/got",
         209
     ],
     [
-        "https://github.com//ever-co/ever-demand",
+        "https://github.com/ever-co/ever-demand",
         209,
         "candidate"
     ],
     [
-        "https://github.com//vitaly-t/pg-promise",
+        "https://github.com/vitaly-t/pg-promise",
         209
     ],
     [
-        "https://github.com//okikio/bundle",
+        "https://github.com/okikio/bundle",
         208
     ],
     [
@@ -1084,7 +1084,7 @@
         205
     ],
     [
-        "https://github.com//mrvautin/expressCart",
+        "https://github.com/mrvautin/expressCart",
         203,
         "candidate"
     ],
@@ -1093,11 +1093,11 @@
         201
     ],
     [
-        "https://github.com//dynamoose/dynamoose",
+        "https://github.com/dynamoose/dynamoose",
         198
     ],
     [
-        "https://github.com//jagenjo/litegraph.js",
+        "https://github.com/jagenjo/litegraph.js",
         198
     ],
     [
@@ -1110,7 +1110,7 @@
         "candidate"
     ],
     [
-        "https://github.com//GitSquared/edex-ui",
+        "https://github.com/GitSquared/edex-ui",
         197,
         "candidate"
     ],
@@ -1135,7 +1135,7 @@
         191
     ],
     [
-        "https://github.com//tmijs/tmi.js",
+        "https://github.com/tmijs/tmi.js",
         191
     ],
     [
@@ -1159,7 +1159,7 @@
         184
     ],
     [
-        "https://github.com//brussell98/Mirai",
+        "https://github.com/brussell98/Mirai",
         183
     ],
     [
@@ -1183,7 +1183,7 @@
         181
     ],
     [
-        "https://github.com//eggjs/egg",
+        "https://github.com/eggjs/egg",
         180
     ],
     [
@@ -1191,7 +1191,7 @@
         180
     ],
     [
-        "https://github.com//PipedreamHQ/pipedream",
+        "https://github.com/PipedreamHQ/pipedream",
         179
     ],
     [
@@ -1203,11 +1203,11 @@
         178
     ],
     [
-        "https://github.com//hawkeyesec/scanner-cli",
+        "https://github.com/hawkeyesec/scanner-cli",
         178
     ],
     [
-        "https://github.com//archiverjs/node-archiver",
+        "https://github.com/archiverjs/node-archiver",
         178
     ],
     [
@@ -1219,24 +1219,24 @@
         176
     ],
     [
-        "https://github.com//TypeStrong/ts-node",
+        "https://github.com/TypeStrong/ts-node",
         175
     ],
     [
-        "https://github.com//nodejs/node-gyp",
+        "https://github.com/nodejs/node-gyp",
         174
     ],
     [
-        "https://github.com//Lissy93/dashy",
+        "https://github.com/Lissy93/dashy",
         173,
         "candidate"
     ],
     [
-        "https://github.com//getsentry/craft",
+        "https://github.com/getsentry/craft",
         172
     ],
     [
-        "https://github.com//helpers/handlebars-helpers",
+        "https://github.com/helpers/handlebars-helpers",
         172
     ],
     [
@@ -1252,7 +1252,7 @@
         167
     ],
     [
-        "https://github.com//nestjs/nest-cli",
+        "https://github.com/nestjs/nest-cli",
         166
     ],
     [
@@ -1284,11 +1284,11 @@
         161
     ],
     [
-        "https://github.com//axios/axios",
+        "https://github.com/axios/axios",
         161
     ],
     [
-        "https://github.com//demokratie-live/democracy-client",
+        "https://github.com/demokratie-live/democracy-client",
         161
     ],
     [
@@ -1308,11 +1308,11 @@
         159
     ],
     [
-        "https://github.com//zkat/pacote",
+        "https://github.com/zkat/pacote",
         158
     ],
     [
-        "https://github.com//graphile/postgraphile",
+        "https://github.com/graphile/postgraphile",
         158
     ],
     [
@@ -1320,11 +1320,11 @@
         156
     ],
     [
-        "https://github.com//mysqljs/mysql",
+        "https://github.com/mysqljs/mysql",
         156
     ],
     [
-        "https://github.com//grantcarthew/node-rethinkdb-job-queue",
+        "https://github.com/grantcarthew/node-rethinkdb-job-queue",
         155
     ],
     [
@@ -1332,7 +1332,7 @@
         155
     ],
     [
-        "https://github.com//nexe/nexe",
+        "https://github.com/nexe/nexe",
         155
     ],
     [
@@ -1340,15 +1340,15 @@
         154
     ],
     [
-        "https://github.com//middyjs/middy",
+        "https://github.com/middyjs/middy",
         154
     ],
     [
-        "https://github.com//marblejs/marble",
+        "https://github.com/marblejs/marble",
         152
     ],
     [
-        "https://github.com//r-spacex/SpaceX-API",
+        "https://github.com/r-spacex/SpaceX-API",
         152
     ],
     [
@@ -1360,7 +1360,7 @@
         150
     ],
     [
-        "https://github.com//wangweianger/zanePerfor",
+        "https://github.com/wangweianger/zanePerfor",
         149,
         "candidate"
     ],
@@ -1395,21 +1395,21 @@
         146
     ],
     [
-        "https://github.com//bepronetwork/bepro-js",
+        "https://github.com/bepronetwork/bepro-js",
         146,
         "candidate"
     ],
     [
-        "https://github.com//jely2002/youtube-dl-gui",
+        "https://github.com/jely2002/youtube-dl-gui",
         146,
         "candidate"
     ],
     [
-        "https://github.com//date-fns/date-fns",
+        "https://github.com/date-fns/date-fns",
         145
     ],
     [
-        "https://github.com//shelljs/shelljs",
+        "https://github.com/shelljs/shelljs",
         144
     ],
     [
@@ -1425,7 +1425,7 @@
         144
     ],
     [
-        "https://github.com//ekalinin/sitemap.js",
+        "https://github.com/ekalinin/sitemap.js",
         144
     ],
     [
@@ -1441,15 +1441,15 @@
         142
     ],
     [
-        "https://github.com//vercel/pkg",
+        "https://github.com/vercel/pkg",
         142
     ],
     [
-        "https://github.com//nativefier/nativefier",
+        "https://github.com/nativefier/nativefier",
         142
     ],
     [
-        "https://github.com//jonschlinkert/remarkable",
+        "https://github.com/jonschlinkert/remarkable",
         140
     ],
     [
@@ -1465,7 +1465,7 @@
         139
     ],
     [
-        "https://github.com//nodejs/nodejs.org",
+        "https://github.com/nodejs/nodejs.org",
         139,
         "candidate"
     ],
@@ -1482,19 +1482,19 @@
         137
     ],
     [
-        "https://github.com//hyj1991/easy-monitor",
+        "https://github.com/hyj1991/easy-monitor",
         137
     ],
     [
-        "https://github.com//statsd/statsd",
+        "https://github.com/statsd/statsd",
         137
     ],
     [
-        "https://github.com//join-monster/join-monster",
+        "https://github.com/join-monster/join-monster",
         137
     ],
     [
-        "https://github.com//imfly/bitcoin-on-nodejs",
+        "https://github.com/imfly/bitcoin-on-nodejs",
         136
     ],
     [
@@ -1502,11 +1502,11 @@
         135
     ],
     [
-        "https://github.com//infinitered/gluegun",
+        "https://github.com/infinitered/gluegun",
         134
     ],
     [
-        "https://github.com//kriasoft/relay-starter-kit",
+        "https://github.com/kriasoft/relay-starter-kit",
         133
     ],
     [
@@ -1514,11 +1514,11 @@
         133
     ],
     [
-        "https://github.com//bitwarden/cli",
+        "https://github.com/bitwarden/cli",
         132
     ],
     [
-        "https://github.com//firebase/firebase-admin-node",
+        "https://github.com/firebase/firebase-admin-node",
         132
     ],
     [
@@ -1526,11 +1526,11 @@
         131
     ],
     [
-        "https://github.com//oclif/oclif",
+        "https://github.com/oclif/oclif",
         131
     ],
     [
-        "https://github.com//ForestAdmin/lumber",
+        "https://github.com/ForestAdmin/lumber",
         129
     ],
     [
@@ -1538,7 +1538,7 @@
         128
     ],
     [
-        "https://github.com//lovell/sharp",
+        "https://github.com/lovell/sharp",
         126
     ],
     [
@@ -1546,11 +1546,11 @@
         125
     ],
     [
-        "https://github.com//vinta/pangu.js",
+        "https://github.com/vinta/pangu.js",
         124
     ],
     [
-        "https://github.com//illuspas/Node-Media-Server",
+        "https://github.com/illuspas/Node-Media-Server",
         123
     ],
     [
@@ -1566,15 +1566,15 @@
         123
     ],
     [
-        "https://github.com//Tencent/TSW",
+        "https://github.com/Tencent/TSW",
         122
     ],
     [
-        "https://github.com//typegoose/typegoose",
+        "https://github.com/typegoose/typegoose",
         122
     ],
     [
-        "https://github.com//coollabsio/coolify",
+        "https://github.com/coollabsio/coolify",
         122
     ],
     [
@@ -1586,7 +1586,7 @@
         121
     ],
     [
-        "https://github.com//luangjokaj/wordpressify",
+        "https://github.com/luangjokaj/wordpressify",
         120
     ],
     [
@@ -1602,7 +1602,7 @@
         119
     ],
     [
-        "https://github.com//thednp/bootstrap.native",
+        "https://github.com/thednp/bootstrap.native",
         118
     ],
     [
@@ -1618,7 +1618,7 @@
         117
     ],
     [
-        "https://github.com//ggoodman/velcro",
+        "https://github.com/ggoodman/velcro",
         117
     ],
     [
@@ -1626,11 +1626,11 @@
         117
     ],
     [
-        "https://github.com//gajus/slonik",
+        "https://github.com/gajus/slonik",
         117
     ],
     [
-        "https://github.com//graphile/starter",
+        "https://github.com/graphile/starter",
         116
     ],
     [
@@ -1658,11 +1658,11 @@
         113
     ],
     [
-        "https://github.com//midwayjs/pandora",
+        "https://github.com/midwayjs/pandora",
         113
     ],
     [
-        "https://github.com//pocketjoso/penthouse",
+        "https://github.com/pocketjoso/penthouse",
         112
     ],
     [
@@ -1670,7 +1670,7 @@
         112
     ],
     [
-        "https://github.com//cnpm/cnpmcore",
+        "https://github.com/cnpm/cnpmcore",
         112
     ],
     [
@@ -1690,11 +1690,11 @@
         111
     ],
     [
-        "https://github.com//lukeed/taskr",
+        "https://github.com/lukeed/taskr",
         110
     ],
     [
-        "https://github.com//NectarJS/nectarjs",
+        "https://github.com/NectarJS/nectarjs",
         110
     ],
     [
@@ -1714,7 +1714,7 @@
         108
     ],
     [
-        "https://github.com//saadq/resumake.io",
+        "https://github.com/saadq/resumake.io",
         107
     ],
     [
@@ -1742,11 +1742,11 @@
         105
     ],
     [
-        "https://github.com//beautify-web/js-beautify",
+        "https://github.com/beautify-web/js-beautify",
         105
     ],
     [
-        "https://github.com//adaltas/node-csv",
+        "https://github.com/adaltas/node-csv",
         104
     ],
     [
@@ -1754,7 +1754,7 @@
         104
     ],
     [
-        "https://github.com//cnpm/npminstall",
+        "https://github.com/cnpm/npminstall",
         103
     ],
     [
@@ -1770,11 +1770,11 @@
         102
     ],
     [
-        "https://github.com//maildev/maildev",
+        "https://github.com/maildev/maildev",
         101
     ],
     [
-        "https://github.com//oslabs-beta/Horus",
+        "https://github.com/oslabs-beta/Horus",
         100
     ],
     [
@@ -1786,11 +1786,11 @@
         100
     ],
     [
-        "https://github.com//boltpkg/bolt",
+        "https://github.com/boltpkg/bolt",
         99
     ],
     [
-        "https://github.com//tclindner/npm-package-json-lint",
+        "https://github.com/tclindner/npm-package-json-lint",
         98
     ],
     [
@@ -1798,7 +1798,7 @@
         98
     ],
     [
-        "https://github.com//Netflix/pollyjs",
+        "https://github.com/Netflix/pollyjs",
         98
     ],
     [
@@ -1810,11 +1810,11 @@
         97
     ],
     [
-        "https://github.com//PrismarineJS/mineflayer",
+        "https://github.com/PrismarineJS/mineflayer",
         97
     ],
     [
-        "https://github.com//q-nick/npm-gui",
+        "https://github.com/q-nick/npm-gui",
         96
     ],
     [
@@ -1822,7 +1822,7 @@
         96
     ],
     [
-        "https://github.com//Keyang/node-csvtojson",
+        "https://github.com/Keyang/node-csvtojson",
         96
     ],
     [
@@ -1830,15 +1830,15 @@
         96
     ],
     [
-        "https://github.com//opentypejs/opentype.js",
+        "https://github.com/opentypejs/opentype.js",
         96
     ],
     [
-        "https://github.com//SocketCluster/socketcluster",
+        "https://github.com/SocketCluster/socketcluster",
         95
     ],
     [
-        "https://github.com//rubickCenter/rubick",
+        "https://github.com/rubickCenter/rubick",
         95
     ],
     [
@@ -1846,15 +1846,15 @@
         94
     ],
     [
-        "https://github.com//wopian/kitsu",
+        "https://github.com/wopian/kitsu",
         94
     ],
     [
-        "https://github.com//nvm-sh/nvm",
+        "https://github.com/nvm-sh/nvm",
         94
     ],
     [
-        "https://github.com//SudhanPlayz/Discord-MusicBot",
+        "https://github.com/SudhanPlayz/Discord-MusicBot",
         94
     ],
     [
@@ -1862,11 +1862,11 @@
         93
     ],
     [
-        "https://github.com//sx1989827/DOClever",
+        "https://github.com/sx1989827/DOClever",
         93
     ],
     [
-        "https://github.com//react-mdc/react-material-components-web",
+        "https://github.com/react-mdc/react-material-components-web",
         92
     ],
     [
@@ -1882,7 +1882,7 @@
         92
     ],
     [
-        "https://github.com//npm/tink",
+        "https://github.com/npm/tink",
         92
     ],
     [
@@ -1890,7 +1890,7 @@
         91
     ],
     [
-        "https://github.com//tediousjs/node-mssql",
+        "https://github.com/tediousjs/node-mssql",
         91
     ],
     [
@@ -1902,11 +1902,11 @@
         90
     ],
     [
-        "https://github.com//jsdelivr/data.jsdelivr.com",
+        "https://github.com/jsdelivr/data.jsdelivr.com",
         89
     ],
     [
-        "https://github.com//bookshelf/bookshelf",
+        "https://github.com/bookshelf/bookshelf",
         89
     ],
     [
@@ -1918,7 +1918,7 @@
         88
     ],
     [
-        "https://github.com//primer/octicons",
+        "https://github.com/primer/octicons",
         87
     ],
     [
@@ -1926,7 +1926,7 @@
         87
     ],
     [
-        "https://github.com//xiongwilee/Gracejs",
+        "https://github.com/xiongwilee/Gracejs",
         87
     ],
     [
@@ -1934,7 +1934,7 @@
         87
     ],
     [
-        "https://github.com//ladjs/lad",
+        "https://github.com/ladjs/lad",
         87
     ],
     [
@@ -1946,7 +1946,7 @@
         87
     ],
     [
-        "https://github.com//dongyuanxin/blog",
+        "https://github.com/dongyuanxin/blog",
         86
     ],
     [
@@ -1962,7 +1962,7 @@
         85
     ],
     [
-        "https://github.com//redis/node-redis",
+        "https://github.com/redis/node-redis",
         84
     ],
     [
@@ -1970,7 +1970,7 @@
         84
     ],
     [
-        "https://github.com//vendia/serverless-express",
+        "https://github.com/vendia/serverless-express",
         84
     ],
     [
@@ -1982,7 +1982,7 @@
         83
     ],
     [
-        "https://github.com//jaredpalmer/tsdx",
+        "https://github.com/jaredpalmer/tsdx",
         83
     ],
     [
@@ -1998,23 +1998,23 @@
         83
     ],
     [
-        "https://github.com//hua1995116/webchat",
+        "https://github.com/hua1995116/webchat",
         82
     ],
     [
-        "https://github.com//johnmpotter/npm-trends",
+        "https://github.com/johnmpotter/npm-trends",
         82
     ],
     [
-        "https://github.com//multiprocessio/datastation",
+        "https://github.com/multiprocessio/datastation",
         81
     ],
     [
-        "https://github.com//elbywan/wretch",
+        "https://github.com/elbywan/wretch",
         81
     ],
     [
-        "https://github.com//postcss/postcss-import",
+        "https://github.com/postcss/postcss-import",
         81
     ],
     [
@@ -2022,7 +2022,7 @@
         80
     ],
     [
-        "https://github.com//versatica/mediasoup",
+        "https://github.com/versatica/mediasoup",
         80
     ],
     [
@@ -2030,11 +2030,11 @@
         80
     ],
     [
-        "https://github.com//googlemaps/google-maps-services-js",
+        "https://github.com/googlemaps/google-maps-services-js",
         80
     ],
     [
-        "https://github.com//tophat/yvm",
+        "https://github.com/tophat/yvm",
         80
     ],
     [
@@ -2046,7 +2046,7 @@
         79
     ],
     [
-        "https://github.com//schn4ck/schnack",
+        "https://github.com/schn4ck/schnack",
         79
     ],
     [
@@ -2066,7 +2066,7 @@
         78
     ],
     [
-        "https://github.com//node-pinus/pinus",
+        "https://github.com/node-pinus/pinus",
         78
     ],
     [
@@ -2074,11 +2074,11 @@
         78
     ],
     [
-        "https://github.com//sendgrid/sendgrid-nodejs",
+        "https://github.com/sendgrid/sendgrid-nodejs",
         78
     ],
     [
-        "https://github.com//mysticatea/eslint-plugin-node",
+        "https://github.com/mysticatea/eslint-plugin-node",
         77
     ],
     [
@@ -2086,7 +2086,7 @@
         77
     ],
     [
-        "https://github.com//cenk1cenk2/listr2",
+        "https://github.com/cenk1cenk2/listr2",
         77
     ],
     [
@@ -2122,11 +2122,11 @@
         75
     ],
     [
-        "https://github.com//imgix/js-core",
+        "https://github.com/imgix/js-core",
         75
     ],
     [
-        "https://github.com//voidcosmos/npkill",
+        "https://github.com/voidcosmos/npkill",
         75
     ],
     [
@@ -2158,15 +2158,15 @@
         75
     ],
     [
-        "https://github.com//jishi/node-sonos-http-api",
+        "https://github.com/jishi/node-sonos-http-api",
         74
     ],
     [
-        "https://github.com//mercurius-js/mercurius",
+        "https://github.com/mercurius-js/mercurius",
         74
     ],
     [
-        "https://github.com//docusign/docusign-esign-node-client",
+        "https://github.com/docusign/docusign-esign-node-client",
         74
     ],
     [
@@ -2178,19 +2178,19 @@
         74
     ],
     [
-        "https://github.com//mikeerickson/validatorjs",
+        "https://github.com/mikeerickson/validatorjs",
         74
     ],
     [
-        "https://github.com//jonathan-fielding/SimpleStateManager",
+        "https://github.com/jonathan-fielding/SimpleStateManager",
         74
     ],
     [
-        "https://github.com//tus/tus-js-client",
+        "https://github.com/tus/tus-js-client",
         74
     ],
     [
-        "https://github.com//leon-ai/leon",
+        "https://github.com/leon-ai/leon",
         73
     ],
     [
@@ -2198,7 +2198,7 @@
         73
     ],
     [
-        "https://github.com//silverwind/updates",
+        "https://github.com/silverwind/updates",
         73
     ],
     [
@@ -2206,7 +2206,7 @@
         72
     ],
     [
-        "https://github.com//ain/smartbanner.js",
+        "https://github.com/ain/smartbanner.js",
         71
     ],
     [
@@ -2214,7 +2214,7 @@
         71
     ],
     [
-        "https://github.com//inversify/InversifyJS",
+        "https://github.com/inversify/InversifyJS",
         71
     ],
     [
@@ -2226,7 +2226,7 @@
         70
     ],
     [
-        "https://github.com//workshopper/learnyounode",
+        "https://github.com/workshopper/learnyounode",
         70
     ],
     [
@@ -2234,31 +2234,31 @@
         70
     ],
     [
-        "https://github.com//GoogleChromeLabs/ndb",
+        "https://github.com/GoogleChromeLabs/ndb",
         69
     ],
     [
-        "https://github.com//scribbletune/scribbletune",
+        "https://github.com/scribbletune/scribbletune",
         69
     ],
     [
-        "https://github.com//lance-gg/lance",
+        "https://github.com/lance-gg/lance",
         69
     ],
     [
-        "https://github.com//jondot/hygen",
+        "https://github.com/jondot/hygen",
         69
     ],
     [
-        "https://github.com//felvin-search/instant-apps",
+        "https://github.com/felvin-search/instant-apps",
         69
     ],
     [
-        "https://github.com//dbashford/textract",
+        "https://github.com/dbashford/textract",
         69
     ],
     [
-        "https://github.com//mozilla/node-convict",
+        "https://github.com/mozilla/node-convict",
         69
     ],
     [
@@ -2270,7 +2270,7 @@
         68
     ],
     [
-        "https://github.com//graphql-editor/graphql-zeus",
+        "https://github.com/graphql-editor/graphql-zeus",
         68
     ],
     [
@@ -2286,39 +2286,39 @@
         68
     ],
     [
-        "https://github.com//jprichardson/node-fs-extra",
+        "https://github.com/jprichardson/node-fs-extra",
         67
     ],
     [
-        "https://github.com//honojs/hono",
+        "https://github.com/honojs/hono",
         67
     ],
     [
-        "https://github.com//webtorrent/instant.io",
+        "https://github.com/webtorrent/instant.io",
         67
     ],
     [
-        "https://github.com//patrikx3/onenote",
+        "https://github.com/patrikx3/onenote",
         67
     ],
     [
-        "https://github.com//asciidwango/js-primer",
+        "https://github.com/asciidwango/js-primer",
         67
     ],
     [
-        "https://github.com//colyseus/colyseus",
+        "https://github.com/colyseus/colyseus",
         67
     ],
     [
-        "https://github.com//bencoveney/barrelsby",
+        "https://github.com/bencoveney/barrelsby",
         67
     ],
     [
-        "https://github.com//qeeqbox/social-analyzer",
+        "https://github.com/qeeqbox/social-analyzer",
         66
     ],
     [
-        "https://github.com//serialport/node-serialport",
+        "https://github.com/serialport/node-serialport",
         66
     ],
     [
@@ -2334,7 +2334,7 @@
         65
     ],
     [
-        "https://github.com//primus/primus",
+        "https://github.com/primus/primus",
         65
     ],
     [
@@ -2346,11 +2346,11 @@
         65
     ],
     [
-        "https://github.com//osdevisnot/klap",
+        "https://github.com/osdevisnot/klap",
         64
     ],
     [
-        "https://github.com//vuejs/eslint-plugin-vue",
+        "https://github.com/vuejs/eslint-plugin-vue",
         64
     ],
     [
@@ -2362,15 +2362,15 @@
         63
     ],
     [
-        "https://github.com//usulpro/js-stack-from-scratch",
+        "https://github.com/usulpro/js-stack-from-scratch",
         63
     ],
     [
-        "https://github.com//semantic-release/npm",
+        "https://github.com/semantic-release/npm",
         62
     ],
     [
-        "https://github.com//npmhub/npmhub",
+        "https://github.com/npmhub/npmhub",
         62
     ],
     [
@@ -2382,11 +2382,11 @@
         61
     ],
     [
-        "https://github.com//sqorn/sqorn",
+        "https://github.com/sqorn/sqorn",
         61
     ],
     [
-        "https://github.com//airtap/airtap",
+        "https://github.com/airtap/airtap",
         60
     ],
     [
@@ -2394,11 +2394,11 @@
         60
     ],
     [
-        "https://github.com//haroldtreen/epub-press-clients",
+        "https://github.com/haroldtreen/epub-press-clients",
         59
     ],
     [
-        "https://github.com//styfle/packagephobia",
+        "https://github.com/styfle/packagephobia",
         59
     ],
     [
@@ -2406,7 +2406,7 @@
         59
     ],
     [
-        "https://github.com//doramart/DoraCMS",
+        "https://github.com/doramart/DoraCMS",
         59
     ],
     [
@@ -2414,7 +2414,7 @@
         59
     ],
     [
-        "https://github.com//engineer-man/piston",
+        "https://github.com/engineer-man/piston",
         59
     ],
     [
@@ -2430,7 +2430,7 @@
         58
     ],
     [
-        "https://github.com//sindresorhus/file-type",
+        "https://github.com/sindresorhus/file-type",
         57
     ],
     [
@@ -2438,7 +2438,7 @@
         57
     ],
     [
-        "https://github.com//BoBoooooo/Element-Pro-Crud",
+        "https://github.com/BoBoooooo/Element-Pro-Crud",
         57
     ],
     [
@@ -2446,11 +2446,11 @@
         57
     ],
     [
-        "https://github.com//cyrus-and/chrome-remote-interface",
+        "https://github.com/cyrus-and/chrome-remote-interface",
         56
     ],
     [
-        "https://github.com//ever-co/ever-traduora",
+        "https://github.com/ever-co/ever-traduora",
         56
     ],
     [
@@ -2462,11 +2462,11 @@
         56
     ],
     [
-        "https://github.com//nodejs/nodejs.dev",
+        "https://github.com/nodejs/nodejs.dev",
         56
     ],
     [
-        "https://github.com//fedorovsky/simple-boilerplate",
+        "https://github.com/fedorovsky/simple-boilerplate",
         56
     ],
     [
@@ -2474,7 +2474,7 @@
         56
     ],
     [
-        "https://github.com//thienhung1989/angular-tree-dnd",
+        "https://github.com/thienhung1989/angular-tree-dnd",
         55
     ],
     [
@@ -2482,7 +2482,7 @@
         55
     ],
     [
-        "https://github.com//akabekobeko/npm-icon-gen",
+        "https://github.com/akabekobeko/npm-icon-gen",
         55
     ],
     [
@@ -2490,7 +2490,7 @@
         55
     ],
     [
-        "https://github.com//C2FO/fast-csv",
+        "https://github.com/C2FO/fast-csv",
         55
     ],
     [
@@ -2498,11 +2498,11 @@
         55
     ],
     [
-        "https://github.com//yeoman/yo",
+        "https://github.com/yeoman/yo",
         55
     ],
     [
-        "https://github.com//codetheweb/tuyapi",
+        "https://github.com/codetheweb/tuyapi",
         55
     ],
     [
@@ -2534,7 +2534,7 @@
         53
     ],
     [
-        "https://github.com//spences10/cheat-sheets",
+        "https://github.com/spences10/cheat-sheets",
         53
     ],
     [
@@ -2554,11 +2554,11 @@
         53
     ],
     [
-        "https://github.com//AdrieanKhisbe/bundle-phobia-cli",
+        "https://github.com/AdrieanKhisbe/bundle-phobia-cli",
         53
     ],
     [
-        "https://github.com//salsify/ember-css-modules",
+        "https://github.com/salsify/ember-css-modules",
         53
     ],
     [
@@ -2566,7 +2566,7 @@
         53
     ],
     [
-        "https://github.com//OpenAPITools/openapi-generator-cli",
+        "https://github.com/OpenAPITools/openapi-generator-cli",
         52
     ],
     [
@@ -2574,7 +2574,7 @@
         52
     ],
     [
-        "https://github.com//casbin/node-casbin",
+        "https://github.com/casbin/node-casbin",
         52
     ],
     [
@@ -2586,15 +2586,15 @@
         52
     ],
     [
-        "https://github.com//BrasilAPI/cep-promise",
+        "https://github.com/BrasilAPI/cep-promise",
         52
     ],
     [
-        "https://github.com//napi-rs/napi-rs",
+        "https://github.com/napi-rs/napi-rs",
         52
     ],
     [
-        "https://github.com//soketi/soketi",
+        "https://github.com/soketi/soketi",
         51
     ],
     [
@@ -2602,7 +2602,7 @@
         51
     ],
     [
-        "https://github.com//fabienvauchelles/scrapoxy",
+        "https://github.com/fabienvauchelles/scrapoxy",
         51
     ],
     [
@@ -2610,7 +2610,7 @@
         51
     ],
     [
-        "https://github.com//canonical-web-and-design/vanilla-framework",
+        "https://github.com/canonical-web-and-design/vanilla-framework",
         50
     ],
     [
@@ -2618,11 +2618,11 @@
         50
     ],
     [
-        "https://github.com//crisdosyago/Diskernet",
+        "https://github.com/crisdosyago/Diskernet",
         50
     ],
     [
-        "https://github.com//restberry/restberry",
+        "https://github.com/restberry/restberry",
         50
     ],
     [
@@ -2638,15 +2638,15 @@
         50
     ],
     [
-        "https://github.com//zcreativelabs/react-simple-maps",
+        "https://github.com/zcreativelabs/react-simple-maps",
         50
     ],
     [
-        "https://github.com//pinojs/pino",
+        "https://github.com/pinojs/pino",
         50
     ],
     [
-        "https://github.com//jaredhanson/passport",
+        "https://github.com/jaredhanson/passport",
         50
     ],
     [
@@ -2658,15 +2658,15 @@
         49
     ],
     [
-        "https://github.com//folke/ultra-runner",
+        "https://github.com/folke/ultra-runner",
         49
     ],
     [
-        "https://github.com//Binaryify/NeteaseCloudMusicApi",
+        "https://github.com/Binaryify/NeteaseCloudMusicApi",
         49
     ],
     [
-        "https://github.com//nswbmw/N-blog",
+        "https://github.com/nswbmw/N-blog",
         49
     ],
     [
@@ -2686,11 +2686,11 @@
         48
     ],
     [
-        "https://github.com//notifme/notifme-sdk",
+        "https://github.com/notifme/notifme-sdk",
         48
     ],
     [
-        "https://github.com//dudyn5ky1/select-pure",
+        "https://github.com/dudyn5ky1/select-pure",
         48
     ],
     [
@@ -2702,11 +2702,11 @@
         47
     ],
     [
-        "https://github.com//sindresorhus/eslint-plugin-unicorn",
+        "https://github.com/sindresorhus/eslint-plugin-unicorn",
         47
     ],
     [
-        "https://github.com//opal/opal",
+        "https://github.com/opal/opal",
         47
     ],
     [
@@ -2726,7 +2726,7 @@
         46
     ],
     [
-        "https://github.com//asapach/peerflix-server",
+        "https://github.com/asapach/peerflix-server",
         46
     ],
     [
@@ -2738,15 +2738,15 @@
         46
     ],
     [
-        "https://github.com//SBoudrias/Inquirer.js",
+        "https://github.com/SBoudrias/Inquirer.js",
         45
     ],
     [
-        "https://github.com//jeffijoe/awilix",
+        "https://github.com/jeffijoe/awilix",
         45
     ],
     [
-        "https://github.com//xojs/xo",
+        "https://github.com/xojs/xo",
         45
     ],
     [
@@ -2762,7 +2762,7 @@
         45
     ],
     [
-        "https://github.com//workshopper/how-to-npm",
+        "https://github.com/workshopper/how-to-npm",
         45
     ],
     [
@@ -2770,15 +2770,15 @@
         44
     ],
     [
-        "https://github.com//bahmutov/next-update",
+        "https://github.com/bahmutov/next-update",
         44
     ],
     [
-        "https://github.com//shirotech/webpack-cdn-plugin",
+        "https://github.com/shirotech/webpack-cdn-plugin",
         44
     ],
     [
-        "https://github.com//Alecaddd/awps",
+        "https://github.com/Alecaddd/awps",
         44
     ],
     [
@@ -2786,11 +2786,11 @@
         44
     ],
     [
-        "https://github.com//plus1tv/react-anime",
+        "https://github.com/plus1tv/react-anime",
         43
     ],
     [
-        "https://github.com//jaydenseric/graphql-react",
+        "https://github.com/jaydenseric/graphql-react",
         43
     ],
     [
@@ -2806,19 +2806,19 @@
         43
     ],
     [
-        "https://github.com//apocas/dockerode",
+        "https://github.com/apocas/dockerode",
         43
     ],
     [
-        "https://github.com//pillarjs/multiparty",
+        "https://github.com/pillarjs/multiparty",
         43
     ],
     [
-        "https://github.com//eykrehbein/strest",
+        "https://github.com/eykrehbein/strest",
         42
     ],
     [
-        "https://github.com//flutter-view/flutter-view",
+        "https://github.com/flutter-view/flutter-view",
         42
     ],
     [
@@ -2838,7 +2838,7 @@
         41
     ],
     [
-        "https://github.com//wclr/yalc",
+        "https://github.com/wclr/yalc",
         41
     ],
     [
@@ -2846,11 +2846,11 @@
         41
     ],
     [
-        "https://github.com//jaydenseric/graphql-upload",
+        "https://github.com/jaydenseric/graphql-upload",
         41
     ],
     [
-        "https://github.com//toddbluhm/env-cmd",
+        "https://github.com/toddbluhm/env-cmd",
         41
     ],
     [
@@ -2858,19 +2858,19 @@
         41
     ],
     [
-        "https://github.com//jadjoubran/webdash",
+        "https://github.com/jadjoubran/webdash",
         41
     ],
     [
-        "https://github.com//chimurai/http-proxy-middleware",
+        "https://github.com/chimurai/http-proxy-middleware",
         41
     ],
     [
-        "https://github.com//rmanguinho/clean-ts-api",
+        "https://github.com/rmanguinho/clean-ts-api",
         41
     ],
     [
-        "https://github.com//googleapis/gaxios",
+        "https://github.com/googleapis/gaxios",
         41
     ],
     [
@@ -2878,11 +2878,11 @@
         41
     ],
     [
-        "https://github.com//jonschlinkert/gray-matter",
+        "https://github.com/jonschlinkert/gray-matter",
         41
     ],
     [
-        "https://github.com//renanlecaro/importabular",
+        "https://github.com/renanlecaro/importabular",
         40
     ],
     [
@@ -2890,19 +2890,19 @@
         40
     ],
     [
-        "https://github.com//AlexGustafsson/homebridge-wol",
+        "https://github.com/AlexGustafsson/homebridge-wol",
         40
     ],
     [
-        "https://github.com//nobrainr/typescript-webpack-starter",
+        "https://github.com/nobrainr/typescript-webpack-starter",
         40
     ],
     [
-        "https://github.com//bda-research/node-crawler",
+        "https://github.com/bda-research/node-crawler",
         40
     ],
     [
-        "https://github.com//JamieMason/syncpack",
+        "https://github.com/JamieMason/syncpack",
         40
     ],
     [
@@ -2910,11 +2910,11 @@
         40
     ],
     [
-        "https://github.com//vasanthv/jsonbox",
+        "https://github.com/vasanthv/jsonbox",
         39
     ],
     [
-        "https://github.com//Pana/nrm",
+        "https://github.com/Pana/nrm",
         39
     ],
     [
@@ -2930,7 +2930,7 @@
         39
     ],
     [
-        "https://github.com//shashkovdanil/clean-publish",
+        "https://github.com/shashkovdanil/clean-publish",
         38
     ],
     [
@@ -2942,15 +2942,15 @@
         38
     ],
     [
-        "https://github.com//amir20/phantomjs-node",
+        "https://github.com/amir20/phantomjs-node",
         38
     ],
     [
-        "https://github.com//enquirer/enquirer",
+        "https://github.com/enquirer/enquirer",
         38
     ],
     [
-        "https://github.com//phusion/passenger",
+        "https://github.com/phusion/passenger",
         38
     ],
     [
@@ -2962,11 +2962,11 @@
         38
     ],
     [
-        "https://github.com//testjavascript/nodejs-integration-tests-best-practices",
+        "https://github.com/testjavascript/nodejs-integration-tests-best-practices",
         37
     ],
     [
-        "https://github.com//IBM/audit-ci",
+        "https://github.com/IBM/audit-ci",
         37
     ],
     [
@@ -2978,15 +2978,15 @@
         37
     ],
     [
-        "https://github.com//justinhough/Centurion",
+        "https://github.com/justinhough/Centurion",
         37
     ],
     [
-        "https://github.com//kzrfaisal/angular-file-uploader",
+        "https://github.com/kzrfaisal/angular-file-uploader",
         37
     ],
     [
-        "https://github.com//forwardemail/email-templates",
+        "https://github.com/forwardemail/email-templates",
         37
     ],
     [
@@ -3006,35 +3006,35 @@
         37
     ],
     [
-        "https://github.com//joshfarrant/shortcuts-js",
+        "https://github.com/joshfarrant/shortcuts-js",
         37
     ],
     [
-        "https://github.com//expressjs/expressjs.com",
+        "https://github.com/expressjs/expressjs.com",
         37
     ],
     [
-        "https://github.com//express-vue/express-vue",
+        "https://github.com/express-vue/express-vue",
         36
     ],
     [
-        "https://github.com//maticzav/emma-cli",
+        "https://github.com/maticzav/emma-cli",
         36
     ],
     [
-        "https://github.com//talyssonoc/node-api-boilerplate",
+        "https://github.com/talyssonoc/node-api-boilerplate",
         36
     ],
     [
-        "https://github.com//ds300/patch-package",
+        "https://github.com/ds300/patch-package",
         36
     ],
     [
-        "https://github.com//typicode/lowdb",
+        "https://github.com/typicode/lowdb",
         36
     ],
     [
-        "https://github.com//olistic/warriorjs",
+        "https://github.com/olistic/warriorjs",
         36
     ],
     [
@@ -3042,11 +3042,11 @@
         36
     ],
     [
-        "https://github.com//victor-valencia/bootstrap-iconpicker",
+        "https://github.com/victor-valencia/bootstrap-iconpicker",
         36
     ],
     [
-        "https://github.com//hagopj13/node-express-boilerplate",
+        "https://github.com/hagopj13/node-express-boilerplate",
         36
     ],
     [
@@ -3054,27 +3054,27 @@
         35
     ],
     [
-        "https://github.com//alseambusher/crontab-ui",
+        "https://github.com/alseambusher/crontab-ui",
         35
     ],
     [
-        "https://github.com//OptimalBits/bull",
+        "https://github.com/OptimalBits/bull",
         35
     ],
     [
-        "https://github.com//sindresorhus/ow",
+        "https://github.com/sindresorhus/ow",
         35
     ],
     [
-        "https://github.com//bufferoverflow/verdaccio-gitlab",
+        "https://github.com/bufferoverflow/verdaccio-gitlab",
         35
     ],
     [
-        "https://github.com//nodejs/corepack",
+        "https://github.com/nodejs/corepack",
         35
     ],
     [
-        "https://github.com//Esri/arcgis-js-api",
+        "https://github.com/Esri/arcgis-js-api",
         35
     ],
     [
@@ -3094,19 +3094,19 @@
         34
     ],
     [
-        "https://github.com//wixplosives/sample-monorepo",
+        "https://github.com/wixplosives/sample-monorepo",
         34
     ],
     [
-        "https://github.com//coreybutler/node-windows",
+        "https://github.com/coreybutler/node-windows",
         34
     ],
     [
-        "https://github.com//algolia/npm-search",
+        "https://github.com/algolia/npm-search",
         34
     ],
     [
-        "https://github.com//lirantal/dockly",
+        "https://github.com/lirantal/dockly",
         34
     ],
     [
@@ -3134,15 +3134,15 @@
         33
     ],
     [
-        "https://github.com//Leonidas-from-XIV/node-xml2js",
+        "https://github.com/Leonidas-from-XIV/node-xml2js",
         33
     ],
     [
-        "https://github.com//azu/monorepo-utils",
+        "https://github.com/azu/monorepo-utils",
         33
     ],
     [
-        "https://github.com//depjs/dep",
+        "https://github.com/depjs/dep",
         33
     ],
     [
@@ -3154,15 +3154,15 @@
         32
     ],
     [
-        "https://github.com//kachkaev/njt",
+        "https://github.com/kachkaev/njt",
         32
     ],
     [
-        "https://github.com//mikbry/material-ui-color",
+        "https://github.com/mikbry/material-ui-color",
         32
     ],
     [
-        "https://github.com//socketio/engine.io",
+        "https://github.com/socketio/engine.io",
         32
     ],
     [
@@ -3170,19 +3170,19 @@
         32
     ],
     [
-        "https://github.com//RafalWilinski/express-status-monitor",
+        "https://github.com/RafalWilinski/express-status-monitor",
         32
     ],
     [
-        "https://github.com//expressjs/body-parser",
+        "https://github.com/expressjs/body-parser",
         31
     ],
     [
-        "https://github.com//zalando/tailor",
+        "https://github.com/zalando/tailor",
         31
     ],
     [
-        "https://github.com//maximelafarie/ngx-smart-modal",
+        "https://github.com/maximelafarie/ngx-smart-modal",
         31
     ],
     [
@@ -3190,7 +3190,7 @@
         31
     ],
     [
-        "https://github.com//jaydenseric/apollo-upload-client",
+        "https://github.com/jaydenseric/apollo-upload-client",
         31
     ],
     [
@@ -3206,7 +3206,7 @@
         30
     ],
     [
-        "https://github.com//matteofigus/npm-stats-www",
+        "https://github.com/matteofigus/npm-stats-www",
         30
     ],
     [
@@ -3214,7 +3214,7 @@
         30
     ],
     [
-        "https://github.com//Sairyss/domain-driven-hexagon",
+        "https://github.com/Sairyss/domain-driven-hexagon",
         30
     ],
     [
@@ -3222,35 +3222,35 @@
         30
     ],
     [
-        "https://github.com//coderaiser/redrun",
+        "https://github.com/coderaiser/redrun",
         30
     ],
     [
-        "https://github.com//DarkoPendragon/discord.js-musicbot-addon",
+        "https://github.com/DarkoPendragon/discord.js-musicbot-addon",
         30
     ],
     [
-        "https://github.com//sezna/nps",
+        "https://github.com/sezna/nps",
         30
     ],
     [
-        "https://github.com//patr0nus/DeskGap",
+        "https://github.com/patr0nus/DeskGap",
         30
     ],
     [
-        "https://github.com//appleple/scroll-hint",
+        "https://github.com/appleple/scroll-hint",
         30
     ],
     [
-        "https://github.com//FormidableLabs/nodejs-dashboard",
+        "https://github.com/FormidableLabs/nodejs-dashboard",
         30
     ],
     [
-        "https://github.com//ljharb/qs",
+        "https://github.com/ljharb/qs",
         30
     ],
     [
-        "https://github.com//saurabhdaware/projectman",
+        "https://github.com/saurabhdaware/projectman",
         30
     ],
     [
@@ -3258,7 +3258,7 @@
         30
     ],
     [
-        "https://github.com//xxczaki/cash-cli",
+        "https://github.com/xxczaki/cash-cli",
         30
     ],
     [
@@ -3266,35 +3266,35 @@
         29
     ],
     [
-        "https://github.com//mysticatea/npm-run-all",
+        "https://github.com/mysticatea/npm-run-all",
         29
     ],
     [
-        "https://github.com//pillarjs/path-to-regexp",
+        "https://github.com/pillarjs/path-to-regexp",
         29
     ],
     [
-        "https://github.com//sandoche/Darkmode.js",
+        "https://github.com/sandoche/Darkmode.js",
         29
     ],
     [
-        "https://github.com//mullwar/telebot",
+        "https://github.com/mullwar/telebot",
         29
     ],
     [
-        "https://github.com//prisma-labs/graphql-request",
+        "https://github.com/prisma-labs/graphql-request",
         29
     ],
     [
-        "https://github.com//bichenkk/coinmon",
+        "https://github.com/bichenkk/coinmon",
         29
     ],
     [
-        "https://github.com//Mastermindzh/react-cookie-consent",
+        "https://github.com/Mastermindzh/react-cookie-consent",
         29
     ],
     [
-        "https://github.com//bitjson/typescript-starter",
+        "https://github.com/bitjson/typescript-starter",
         29
     ],
     [
@@ -3318,11 +3318,11 @@
         29
     ],
     [
-        "https://github.com//mattallty/Caporal.js",
+        "https://github.com/mattallty/Caporal.js",
         29
     ],
     [
-        "https://github.com//davideicardi/live-plugin-manager",
+        "https://github.com/davideicardi/live-plugin-manager",
         28
     ],
     [
@@ -3330,7 +3330,7 @@
         28
     ],
     [
-        "https://github.com//modood/Administrative-divisions-of-China",
+        "https://github.com/modood/Administrative-divisions-of-China",
         28
     ],
     [
@@ -3338,7 +3338,7 @@
         28
     ],
     [
-        "https://github.com//lfb/nodejs-koa-blog",
+        "https://github.com/lfb/nodejs-koa-blog",
         28
     ],
     [
@@ -3346,11 +3346,11 @@
         28
     ],
     [
-        "https://github.com//nodejs/undici",
+        "https://github.com/nodejs/undici",
         28
     ],
     [
-        "https://github.com//jeemok/better-npm-audit",
+        "https://github.com/jeemok/better-npm-audit",
         28
     ],
     [
@@ -3362,7 +3362,7 @@
         28
     ],
     [
-        "https://github.com//porsager/postgres",
+        "https://github.com/porsager/postgres",
         28
     ],
     [
@@ -3374,7 +3374,7 @@
         27
     ],
     [
-        "https://github.com//dependency-check-team/dependency-check",
+        "https://github.com/dependency-check-team/dependency-check",
         27
     ],
     [
@@ -3382,7 +3382,7 @@
         27
     ],
     [
-        "https://github.com//RedpointGames/pkgsign",
+        "https://github.com/RedpointGames/pkgsign",
         27
     ],
     [
@@ -3390,7 +3390,7 @@
         27
     ],
     [
-        "https://github.com//express-validator/express-validator",
+        "https://github.com/express-validator/express-validator",
         27
     ],
     [
@@ -3398,11 +3398,11 @@
         27
     ],
     [
-        "https://github.com//yarnpkg/website",
+        "https://github.com/yarnpkg/website",
         26
     ],
     [
-        "https://github.com//jonschlinkert/markdown-toc",
+        "https://github.com/jonschlinkert/markdown-toc",
         26
     ],
     [
@@ -3410,7 +3410,7 @@
         26
     ],
     [
-        "https://github.com//tdegrunt/jsonschema",
+        "https://github.com/tdegrunt/jsonschema",
         25
     ],
     [
@@ -3418,7 +3418,7 @@
         25
     ],
     [
-        "https://github.com//expressjs/compression",
+        "https://github.com/expressjs/compression",
         25
     ],
     [
@@ -3426,7 +3426,7 @@
         25
     ],
     [
-        "https://github.com//sindresorhus/gulp-rev",
+        "https://github.com/sindresorhus/gulp-rev",
         25
     ],
     [
@@ -3438,7 +3438,7 @@
         25
     ],
     [
-        "https://github.com//hmontazeri/is-vegan",
+        "https://github.com/hmontazeri/is-vegan",
         25
     ],
     [
@@ -3450,7 +3450,7 @@
         25
     ],
     [
-        "https://github.com//palerdot/react-d3-speedometer",
+        "https://github.com/palerdot/react-d3-speedometer",
         24
     ],
     [
@@ -3458,11 +3458,11 @@
         24
     ],
     [
-        "https://github.com//sindresorhus/gulp-imagemin",
+        "https://github.com/sindresorhus/gulp-imagemin",
         24
     ],
     [
-        "https://github.com//OWASP/NodeGoat",
+        "https://github.com/OWASP/NodeGoat",
         24
     ],
     [
@@ -3470,11 +3470,11 @@
         24
     ],
     [
-        "https://github.com//xavdid/heroku-config",
+        "https://github.com/xavdid/heroku-config",
         24
     ],
     [
-        "https://github.com//FarazzShaikh/glNoise",
+        "https://github.com/FarazzShaikh/glNoise",
         24
     ],
     [
@@ -3486,35 +3486,35 @@
         23
     ],
     [
-        "https://github.com//benawad/fullstack-graphql-airbnb-clone",
+        "https://github.com/benawad/fullstack-graphql-airbnb-clone",
         23
     ],
     [
-        "https://github.com//ivanseidel/Is-Now-Illegal",
+        "https://github.com/ivanseidel/Is-Now-Illegal",
         23
     ],
     [
-        "https://github.com//gcddblue/vue-admin-webapp",
+        "https://github.com/gcddblue/vue-admin-webapp",
         23
     ],
     [
-        "https://github.com//iuccio/csvToJson",
+        "https://github.com/iuccio/csvToJson",
         23
     ],
     [
-        "https://github.com//godaddy/terminus",
+        "https://github.com/godaddy/terminus",
         23
     ],
     [
-        "https://github.com//vmudigal/ngx-audio-player",
+        "https://github.com/vmudigal/ngx-audio-player",
         23
     ],
     [
-        "https://github.com//JS-DevTools/npm-publish",
+        "https://github.com/JS-DevTools/npm-publish",
         23
     ],
     [
-        "https://github.com//andywer/threads.js",
+        "https://github.com/andywer/threads.js",
         23
     ],
     [
@@ -3522,7 +3522,7 @@
         23
     ],
     [
-        "https://github.com//dcmjs-org/dicomweb-client",
+        "https://github.com/dcmjs-org/dicomweb-client",
         23
     ],
     [
@@ -3530,19 +3530,19 @@
         23
     ],
     [
-        "https://github.com//zkat/cacache",
+        "https://github.com/zkat/cacache",
         22
     ],
     [
-        "https://github.com//strdr4605/mockingcase",
+        "https://github.com/strdr4605/mockingcase",
         22
     ],
     [
-        "https://github.com//santiq/bulletproof-nodejs",
+        "https://github.com/santiq/bulletproof-nodejs",
         22
     ],
     [
-        "https://github.com//rohan-paul/Awesome-JavaScript-Interviews",
+        "https://github.com/rohan-paul/Awesome-JavaScript-Interviews",
         22
     ],
     [
@@ -3550,15 +3550,15 @@
         22
     ],
     [
-        "https://github.com//lassjs/lass",
+        "https://github.com/lassjs/lass",
         22
     ],
     [
-        "https://github.com//serkanyersen/ifvisible.js",
+        "https://github.com/serkanyersen/ifvisible.js",
         22
     ],
     [
-        "https://github.com//jgile/vue-csv-import",
+        "https://github.com/jgile/vue-csv-import",
         22
     ],
     [
@@ -3574,15 +3574,15 @@
         22
     ],
     [
-        "https://github.com//JamieMason/shrinkpack",
+        "https://github.com/JamieMason/shrinkpack",
         21
     ],
     [
-        "https://github.com//danilosetra/react-responsive-spritesheet",
+        "https://github.com/danilosetra/react-responsive-spritesheet",
         21
     ],
     [
-        "https://github.com//CharlesStover/reactn",
+        "https://github.com/CharlesStover/reactn",
         21
     ],
     [
@@ -3594,11 +3594,11 @@
         21
     ],
     [
-        "https://github.com//jwagner/smartcrop.js",
+        "https://github.com/jwagner/smartcrop.js",
         21
     ],
     [
-        "https://github.com//pd4d10/npmview",
+        "https://github.com/pd4d10/npmview",
         21
     ],
     [
@@ -3610,31 +3610,31 @@
         20
     ],
     [
-        "https://github.com//adumont/tplink-cloud-api",
+        "https://github.com/adumont/tplink-cloud-api",
         20
     ],
     [
-        "https://github.com//ethanent/phin",
+        "https://github.com/ethanent/phin",
         20
     ],
     [
-        "https://github.com//emazzotta/lighthouse-badges",
+        "https://github.com/emazzotta/lighthouse-badges",
         20
     ],
     [
-        "https://github.com//nextapps-de/flexsearch",
+        "https://github.com/nextapps-de/flexsearch",
         20
     ],
     [
-        "https://github.com//expressjs/generator",
+        "https://github.com/expressjs/generator",
         20
     ],
     [
-        "https://github.com//mysticatea/cpx",
+        "https://github.com/mysticatea/cpx",
         20
     ],
     [
-        "https://github.com//Cyclonecode/mysql-notification",
+        "https://github.com/Cyclonecode/mysql-notification",
         20
     ],
     [
@@ -3642,15 +3642,15 @@
         20
     ],
     [
-        "https://github.com//wilk/microjob",
+        "https://github.com/wilk/microjob",
         20
     ],
     [
-        "https://github.com//clinicjs/node-clinic",
+        "https://github.com/clinicjs/node-clinic",
         20
     ],
     [
-        "https://github.com//GIScience/openrouteservice-js",
+        "https://github.com/GIScience/openrouteservice-js",
         20
     ],
     [
@@ -3658,15 +3658,15 @@
         19
     ],
     [
-        "https://github.com//kaue/jsonexport",
+        "https://github.com/kaue/jsonexport",
         19
     ],
     [
-        "https://github.com//pnpm/benchmarks-of-javascript-package-managers",
+        "https://github.com/pnpm/benchmarks-of-javascript-package-managers",
         19
     ],
     [
-        "https://github.com//ddmills/geotic",
+        "https://github.com/ddmills/geotic",
         19
     ],
     [
@@ -3674,7 +3674,7 @@
         19
     ],
     [
-        "https://github.com//xavierfoucrier/instacam",
+        "https://github.com/xavierfoucrier/instacam",
         19
     ],
     [
@@ -3686,23 +3686,23 @@
         19
     ],
     [
-        "https://github.com//bahmutov/dont-break",
+        "https://github.com/bahmutov/dont-break",
         18
     ],
     [
-        "https://github.com//seansfkelley/yerna",
+        "https://github.com/seansfkelley/yerna",
         18
     ],
     [
-        "https://github.com//Klemen1337/node-thermal-printer",
+        "https://github.com/Klemen1337/node-thermal-printer",
         18
     ],
     [
-        "https://github.com//mikaelbr/node-notifier",
+        "https://github.com/mikaelbr/node-notifier",
         18
     ],
     [
-        "https://github.com//greenkeeperio/greenkeeper-lockfile",
+        "https://github.com/greenkeeperio/greenkeeper-lockfile",
         18
     ],
     [
@@ -3710,7 +3710,7 @@
         18
     ],
     [
-        "https://github.com//xiaozhu188/electron-vue-cloud-music",
+        "https://github.com/xiaozhu188/electron-vue-cloud-music",
         18
     ],
     [
@@ -3718,11 +3718,11 @@
         18
     ],
     [
-        "https://github.com//standard/standard",
+        "https://github.com/standard/standard",
         18
     ],
     [
-        "https://github.com//lanux/Vue-Admin",
+        "https://github.com/lanux/Vue-Admin",
         18
     ],
     [
@@ -3730,7 +3730,7 @@
         18
     ],
     [
-        "https://github.com//EqualMa/gitpkg",
+        "https://github.com/EqualMa/gitpkg",
         18
     ],
     [
@@ -3742,7 +3742,7 @@
         18
     ],
     [
-        "https://github.com//theoephraim/node-google-spreadsheet",
+        "https://github.com/theoephraim/node-google-spreadsheet",
         18
     ],
     [
@@ -3754,15 +3754,15 @@
         17
     ],
     [
-        "https://github.com//ranyitz/qnm",
+        "https://github.com/ranyitz/qnm",
         17
     ],
     [
-        "https://github.com//th0r/npm-upgrade",
+        "https://github.com/th0r/npm-upgrade",
         17
     ],
     [
-        "https://github.com//ivarprudnikov/webpack-static-html-pages",
+        "https://github.com/ivarprudnikov/webpack-static-html-pages",
         17
     ],
     [
@@ -3770,7 +3770,7 @@
         17
     ],
     [
-        "https://github.com//Level/levelup",
+        "https://github.com/Level/levelup",
         17
     ],
     [
@@ -3782,11 +3782,11 @@
         17
     ],
     [
-        "https://github.com//vvo/iron-session",
+        "https://github.com/vvo/iron-session",
         17
     ],
     [
-        "https://github.com//scalajs-io/nodejs",
+        "https://github.com/scalajs-io/nodejs",
         17
     ],
     [
@@ -3802,11 +3802,11 @@
         16
     ],
     [
-        "https://github.com//sockjs/sockjs-node",
+        "https://github.com/sockjs/sockjs-node",
         16
     ],
     [
-        "https://github.com//vercel/release",
+        "https://github.com/vercel/release",
         16
     ],
     [
@@ -3814,11 +3814,11 @@
         16
     ],
     [
-        "https://github.com//johnpapa/lite-server",
+        "https://github.com/johnpapa/lite-server",
         16
     ],
     [
-        "https://github.com//OrangeXC/vue-coverflow",
+        "https://github.com/OrangeXC/vue-coverflow",
         16
     ],
     [
@@ -3826,11 +3826,11 @@
         16
     ],
     [
-        "https://github.com//FormidableLabs/whackage",
+        "https://github.com/FormidableLabs/whackage",
         16
     ],
     [
-        "https://github.com//sindresorhus/np",
+        "https://github.com/sindresorhus/np",
         16
     ],
     [
@@ -3838,7 +3838,7 @@
         16
     ],
     [
-        "https://github.com//tumobi/nideshop",
+        "https://github.com/tumobi/nideshop",
         16
     ],
     [
@@ -3854,7 +3854,7 @@
         16
     ],
     [
-        "https://github.com//bevry/cson",
+        "https://github.com/bevry/cson",
         16
     ],
     [
@@ -3866,7 +3866,7 @@
         16
     ],
     [
-        "https://github.com//jsynowiec/node-typescript-boilerplate",
+        "https://github.com/jsynowiec/node-typescript-boilerplate",
         15
     ],
     [
@@ -3874,19 +3874,19 @@
         15
     ],
     [
-        "https://github.com//zkat/npx",
+        "https://github.com/zkat/npx",
         15
     ],
     [
-        "https://github.com//richardgirges/express-fileupload",
+        "https://github.com/richardgirges/express-fileupload",
         15
     ],
     [
-        "https://github.com//YunYouJun/char-dust",
+        "https://github.com/YunYouJun/char-dust",
         15
     ],
     [
-        "https://github.com//madhums/node-express-mongoose",
+        "https://github.com/madhums/node-express-mongoose",
         15
     ],
     [
@@ -3914,7 +3914,7 @@
         14
     ],
     [
-        "https://github.com//esbenp/pdf-bot",
+        "https://github.com/esbenp/pdf-bot",
         14
     ],
     [
@@ -3922,7 +3922,7 @@
         14
     ],
     [
-        "https://github.com//danielfsousa/express-rest-boilerplate",
+        "https://github.com/danielfsousa/express-rest-boilerplate",
         14
     ],
     [
@@ -3930,7 +3930,7 @@
         14
     ],
     [
-        "https://github.com//websockets/ws",
+        "https://github.com/websockets/ws",
         14
     ],
     [
@@ -3958,11 +3958,11 @@
         13
     ],
     [
-        "https://github.com//amqp-node/amqplib",
+        "https://github.com/amqp-node/amqplib",
         13
     ],
     [
-        "https://github.com//danielstern/express-react-fullstack",
+        "https://github.com/danielstern/express-react-fullstack",
         13
     ],
     [
@@ -3978,15 +3978,15 @@
         13
     ],
     [
-        "https://github.com//mixn/carbon-now-cli",
+        "https://github.com/mixn/carbon-now-cli",
         13
     ],
     [
-        "https://github.com//kabirvirji/singlespotify",
+        "https://github.com/kabirvirji/singlespotify",
         13
     ],
     [
-        "https://github.com//imsnif/synp",
+        "https://github.com/imsnif/synp",
         13
     ],
     [
@@ -3998,15 +3998,15 @@
         13
     ],
     [
-        "https://github.com//xavdid/typed-install",
+        "https://github.com/xavdid/typed-install",
         13
     ],
     [
-        "https://github.com//dashersw/cote",
+        "https://github.com/dashersw/cote",
         13
     ],
     [
-        "https://github.com//Nekos-life/nekos-dot-life",
+        "https://github.com/Nekos-life/nekos-dot-life",
         13
     ],
     [
@@ -4014,7 +4014,7 @@
         12
     ],
     [
-        "https://github.com//terkelg/prompts",
+        "https://github.com/terkelg/prompts",
         12
     ],
     [
@@ -4022,7 +4022,7 @@
         12
     ],
     [
-        "https://github.com//sindresorhus/alfy",
+        "https://github.com/sindresorhus/alfy",
         12
     ],
     [
@@ -4034,11 +4034,11 @@
         12
     ],
     [
-        "https://github.com//lirantal/is-website-vulnerable",
+        "https://github.com/lirantal/is-website-vulnerable",
         12
     ],
     [
-        "https://github.com//dawsbot/config-chain",
+        "https://github.com/dawsbot/config-chain",
         12
     ],
     [
@@ -4046,7 +4046,7 @@
         12
     ],
     [
-        "https://github.com//miscavage/CoinGecko-API",
+        "https://github.com/miscavage/CoinGecko-API",
         12
     ],
     [
@@ -4054,11 +4054,11 @@
         12
     ],
     [
-        "https://github.com//devias-io/material-kit-react",
+        "https://github.com/devias-io/material-kit-react",
         12
     ],
     [
-        "https://github.com//Metroxe/react-border-wrapper",
+        "https://github.com/Metroxe/react-border-wrapper",
         12
     ],
     [
@@ -4066,11 +4066,11 @@
         12
     ],
     [
-        "https://github.com//Rovak/InlineAttachment",
+        "https://github.com/Rovak/InlineAttachment",
         12
     ],
     [
-        "https://github.com//HerbLuo/qr-code-with-logo",
+        "https://github.com/HerbLuo/qr-code-with-logo",
         12
     ],
     [
@@ -4078,7 +4078,7 @@
         12
     ],
     [
-        "https://github.com//siimon/prom-client",
+        "https://github.com/siimon/prom-client",
         11
     ],
     [
@@ -4086,7 +4086,7 @@
         11
     ],
     [
-        "https://github.com//devSupporters/volder",
+        "https://github.com/devSupporters/volder",
         11
     ],
     [
@@ -4098,19 +4098,19 @@
         11
     ],
     [
-        "https://github.com//MitsuhaKitsune/vuex-webextensions",
+        "https://github.com/MitsuhaKitsune/vuex-webextensions",
         11
     ],
     [
-        "https://github.com//sindresorhus/meow",
+        "https://github.com/sindresorhus/meow",
         11
     ],
     [
-        "https://github.com//georgjaehnig/webpages-to-ebook",
+        "https://github.com/georgjaehnig/webpages-to-ebook",
         11
     ],
     [
-        "https://github.com//yagop/node-telegram-bot-api",
+        "https://github.com/yagop/node-telegram-bot-api",
         11
     ],
     [
@@ -4118,7 +4118,7 @@
         11
     ],
     [
-        "https://github.com//seppevs/migrate-mongo",
+        "https://github.com/seppevs/migrate-mongo",
         11
     ],
     [
@@ -4126,35 +4126,35 @@
         11
     ],
     [
-        "https://github.com//JoshGlazebrook/smart-buffer",
+        "https://github.com/JoshGlazebrook/smart-buffer",
         11
     ],
     [
-        "https://github.com//connor4312/cockatiel",
+        "https://github.com/connor4312/cockatiel",
         11
     ],
     [
-        "https://github.com//varHarrie/varharrie.github.io",
+        "https://github.com/varHarrie/varharrie.github.io",
         11
     ],
     [
-        "https://github.com//znck/vuepack",
+        "https://github.com/znck/vuepack",
         11
     ],
     [
-        "https://github.com//npm/npm-expansions",
+        "https://github.com/npm/npm-expansions",
         10
     ],
     [
-        "https://github.com//lirantal/npq",
+        "https://github.com/lirantal/npq",
         10
     ],
     [
-        "https://github.com//facundoolano/google-play-scraper",
+        "https://github.com/facundoolano/google-play-scraper",
         10
     ],
     [
-        "https://github.com//sergey-telpuk/nestjs-rbac",
+        "https://github.com/sergey-telpuk/nestjs-rbac",
         10
     ],
     [
@@ -4162,11 +4162,11 @@
         10
     ],
     [
-        "https://github.com//flesler/hashmap",
+        "https://github.com/flesler/hashmap",
         10
     ],
     [
-        "https://github.com//dinubs/jam-api",
+        "https://github.com/dinubs/jam-api",
         10
     ],
     [
@@ -4174,7 +4174,7 @@
         10
     ],
     [
-        "https://github.com//Woonivers/react-native-document-scanner",
+        "https://github.com/Woonivers/react-native-document-scanner",
         10
     ],
     [
@@ -4182,7 +4182,7 @@
         10
     ],
     [
-        "https://github.com//pawurb/normit",
+        "https://github.com/pawurb/normit",
         10
     ],
     [
@@ -4190,11 +4190,11 @@
         10
     ],
     [
-        "https://github.com//whatthefoo/ohshitgit",
+        "https://github.com/whatthefoo/ohshitgit",
         10
     ],
     [
-        "https://github.com//feross/buffer",
+        "https://github.com/feross/buffer",
         10
     ],
     [
@@ -4202,7 +4202,7 @@
         10
     ],
     [
-        "https://github.com//sindresorhus/speed-test",
+        "https://github.com/sindresorhus/speed-test",
         10
     ],
     [
@@ -4210,19 +4210,19 @@
         10
     ],
     [
-        "https://github.com//reactopt/reactopt",
+        "https://github.com/reactopt/reactopt",
         10
     ],
     [
-        "https://github.com//BrunnerLivio/try",
+        "https://github.com/BrunnerLivio/try",
         10
     ],
     [
-        "https://github.com//klaussinani/signale",
+        "https://github.com/klaussinani/signale",
         10
     ],
     [
-        "https://github.com//xxczaki/oji",
+        "https://github.com/xxczaki/oji",
         10
     ],
     [
@@ -4230,19 +4230,19 @@
         10
     ],
     [
-        "https://github.com//Intellicode/eslint-plugin-react-native",
+        "https://github.com/Intellicode/eslint-plugin-react-native",
         9
     ],
     [
-        "https://github.com//doowb/npm-api",
+        "https://github.com/doowb/npm-api",
         9
     ],
     [
-        "https://github.com//shalvah/burns",
+        "https://github.com/shalvah/burns",
         9
     ],
     [
-        "https://github.com//sindresorhus/execa",
+        "https://github.com/sindresorhus/execa",
         9
     ],
     [
@@ -4258,7 +4258,7 @@
         9
     ],
     [
-        "https://github.com//mrousavy/react-native-blurhash",
+        "https://github.com/mrousavy/react-native-blurhash",
         9
     ],
     [
@@ -4266,7 +4266,7 @@
         9
     ],
     [
-        "https://github.com//sindresorhus/on-change",
+        "https://github.com/sindresorhus/on-change",
         9
     ],
     [
@@ -4278,7 +4278,7 @@
         9
     ],
     [
-        "https://github.com//piscinajs/piscina",
+        "https://github.com/piscinajs/piscina",
         9
     ],
     [
@@ -4290,15 +4290,15 @@
         9
     ],
     [
-        "https://github.com//delfrrr/npm-consider",
+        "https://github.com/delfrrr/npm-consider",
         9
     ],
     [
-        "https://github.com//nodejs/node-addon-examples",
+        "https://github.com/nodejs/node-addon-examples",
         9
     ],
     [
-        "https://github.com//veliovgroup/Mail-Time",
+        "https://github.com/veliovgroup/Mail-Time",
         9
     ],
     [
@@ -4306,7 +4306,7 @@
         9
     ],
     [
-        "https://github.com//faqtor/faqtor",
+        "https://github.com/faqtor/faqtor",
         8
     ],
     [
@@ -4314,19 +4314,19 @@
         8
     ],
     [
-        "https://github.com//cazala/coin-hive",
+        "https://github.com/cazala/coin-hive",
         8
     ],
     [
-        "https://github.com//form-data/form-data",
+        "https://github.com/form-data/form-data",
         8
     ],
     [
-        "https://github.com//andreasonny83/unique-names-generator",
+        "https://github.com/andreasonny83/unique-names-generator",
         8
     ],
     [
-        "https://github.com//zanettin/incompose",
+        "https://github.com/zanettin/incompose",
         8
     ],
     [
@@ -4334,7 +4334,7 @@
         8
     ],
     [
-        "https://github.com//keenwon/antcolony",
+        "https://github.com/keenwon/antcolony",
         8
     ],
     [
@@ -4342,15 +4342,15 @@
         8
     ],
     [
-        "https://github.com//uiwjs/npm-unpkg",
+        "https://github.com/uiwjs/npm-unpkg",
         8
     ],
     [
-        "https://github.com//breezewish/pinyinlite",
+        "https://github.com/breezewish/pinyinlite",
         8
     ],
     [
-        "https://github.com//lirantal/lockfile-lint",
+        "https://github.com/lirantal/lockfile-lint",
         8
     ],
     [
@@ -4358,15 +4358,15 @@
         8
     ],
     [
-        "https://github.com//nwtgck/fakelish-npm",
+        "https://github.com/nwtgck/fakelish-npm",
         8
     ],
     [
-        "https://github.com//sbstjn/noduino",
+        "https://github.com/sbstjn/noduino",
         8
     ],
     [
-        "https://github.com//ssunils/angularadmin",
+        "https://github.com/ssunils/angularadmin",
         8
     ],
     [
@@ -4386,11 +4386,11 @@
         8
     ],
     [
-        "https://github.com//frontsideair/yarnhook",
+        "https://github.com/frontsideair/yarnhook",
         8
     ],
     [
-        "https://github.com//node-cache/node-cache",
+        "https://github.com/node-cache/node-cache",
         8
     ],
     [
@@ -4398,11 +4398,11 @@
         8
     ],
     [
-        "https://github.com//zendesk/node-publisher",
+        "https://github.com/zendesk/node-publisher",
         8
     ],
     [
-        "https://github.com//nodesource/npmsearch",
+        "https://github.com/nodesource/npmsearch",
         8
     ],
     [
@@ -4410,43 +4410,43 @@
         7
     ],
     [
-        "https://github.com//crsandeep/simple-react-full-stack",
+        "https://github.com/crsandeep/simple-react-full-stack",
         7
     ],
     [
-        "https://github.com//QingWei-Li/npmarket",
+        "https://github.com/QingWei-Li/npmarket",
         7
     ],
     [
-        "https://github.com//pascalgn/npm-publish-action",
+        "https://github.com/pascalgn/npm-publish-action",
         7
     ],
     [
-        "https://github.com//aksakalli/gtop",
+        "https://github.com/aksakalli/gtop",
         7
     ],
     [
-        "https://github.com//rse/stmux",
+        "https://github.com/rse/stmux",
         7
     ],
     [
-        "https://github.com//glaucia86/glaucia_lemos86",
+        "https://github.com/glaucia86/glaucia_lemos86",
         7
     ],
     [
-        "https://github.com//moscajs/aedes",
+        "https://github.com/moscajs/aedes",
         7
     ],
     [
-        "https://github.com//benoror/better-npm-run",
+        "https://github.com/benoror/better-npm-run",
         7
     ],
     [
-        "https://github.com//expressjs/serve-static",
+        "https://github.com/expressjs/serve-static",
         7
     ],
     [
-        "https://github.com//enylin/taiwan-id-validator",
+        "https://github.com/enylin/taiwan-id-validator",
         7
     ],
     [
@@ -4454,23 +4454,23 @@
         7
     ],
     [
-        "https://github.com//CharlesStover/use-clippy",
+        "https://github.com/CharlesStover/use-clippy",
         7
     ],
     [
-        "https://github.com//feross/available",
+        "https://github.com/feross/available",
         7
     ],
     [
-        "https://github.com//sinclairzx81/zero",
+        "https://github.com/sinclairzx81/zero",
         7
     ],
     [
-        "https://github.com//bytenode/bytenode",
+        "https://github.com/bytenode/bytenode",
         7
     ],
     [
-        "https://github.com//xxczaki/xa",
+        "https://github.com/xxczaki/xa",
         7
     ],
     [
@@ -4478,11 +4478,11 @@
         7
     ],
     [
-        "https://github.com//ruyadorno/ntl",
+        "https://github.com/ruyadorno/ntl",
         7
     ],
     [
-        "https://github.com//CharlesStover/fetch-suspense",
+        "https://github.com/CharlesStover/fetch-suspense",
         6
     ],
     [
@@ -4490,15 +4490,15 @@
         6
     ],
     [
-        "https://github.com//voxpelli/node-installed-check",
+        "https://github.com/voxpelli/node-installed-check",
         6
     ],
     [
-        "https://github.com//roccomuso/node-webhooks",
+        "https://github.com/roccomuso/node-webhooks",
         6
     ],
     [
-        "https://github.com//google/zx",
+        "https://github.com/google/zx",
         6
     ],
     [
@@ -4510,7 +4510,7 @@
         6
     ],
     [
-        "https://github.com//FullHuman/tosin",
+        "https://github.com/FullHuman/tosin",
         6
     ],
     [
@@ -4518,7 +4518,7 @@
         6
     ],
     [
-        "https://github.com//typicode/pinst",
+        "https://github.com/typicode/pinst",
         6
     ],
     [
@@ -4530,7 +4530,7 @@
         6
     ],
     [
-        "https://github.com//sindresorhus/capture-website",
+        "https://github.com/sindresorhus/capture-website",
         6
     ],
     [
@@ -4542,7 +4542,7 @@
         5
     ],
     [
-        "https://github.com//serkanyersen/jsonplus",
+        "https://github.com/serkanyersen/jsonplus",
         5
     ],
     [
@@ -4554,15 +4554,15 @@
         5
     ],
     [
-        "https://github.com//abhinavdc/cowin-pinger",
+        "https://github.com/abhinavdc/cowin-pinger",
         5
     ],
     [
-        "https://github.com//webkul/vivid",
+        "https://github.com/webkul/vivid",
         5
     ],
     [
-        "https://github.com//sindresorhus/emittery",
+        "https://github.com/sindresorhus/emittery",
         5
     ],
     [
@@ -4570,15 +4570,15 @@
         5
     ],
     [
-        "https://github.com//gabrielgodoy-zz/getme",
+        "https://github.com/gabrielgodoy-zz/getme",
         5
     ],
     [
-        "https://github.com//salsify/ember-cli-dependency-lint",
+        "https://github.com/salsify/ember-cli-dependency-lint",
         5
     ],
     [
-        "https://github.com//Gustu/string-to-color",
+        "https://github.com/Gustu/string-to-color",
         5
     ],
     [
@@ -4586,7 +4586,7 @@
         5
     ],
     [
-        "https://github.com//dance2die/react-use-localstorage",
+        "https://github.com/dance2die/react-use-localstorage",
         5
     ],
     [
@@ -4598,11 +4598,11 @@
         5
     ],
     [
-        "https://github.com//IsraelZablianov/draggable-vue-directive",
+        "https://github.com/IsraelZablianov/draggable-vue-directive",
         5
     ],
     [
-        "https://github.com//skyrpex/laravel-nuxt-js",
+        "https://github.com/skyrpex/laravel-nuxt-js",
         5
     ],
     [
@@ -4610,11 +4610,11 @@
         5
     ],
     [
-        "https://github.com//bahmutov/have-it",
+        "https://github.com/bahmutov/have-it",
         5
     ],
     [
-        "https://github.com//onury/accesscontrol",
+        "https://github.com/onury/accesscontrol",
         5
     ],
     [
@@ -4622,15 +4622,15 @@
         5
     ],
     [
-        "https://github.com//christ0ph3r/cryptocurrency-cli",
+        "https://github.com/christ0ph3r/cryptocurrency-cli",
         5
     ],
     [
-        "https://github.com//jaime-olivares/yuml-diagram",
+        "https://github.com/jaime-olivares/yuml-diagram",
         5
     ],
     [
-        "https://github.com//dulajkavinda/minimal-feedback",
+        "https://github.com/dulajkavinda/minimal-feedback",
         4
     ],
     [
@@ -4638,7 +4638,7 @@
         4
     ],
     [
-        "https://github.com//standard/eslint-config-standard",
+        "https://github.com/standard/eslint-config-standard",
         4
     ],
     [
@@ -4646,11 +4646,11 @@
         4
     ],
     [
-        "https://github.com//imagemin/imagemin",
+        "https://github.com/imagemin/imagemin",
         4
     ],
     [
-        "https://github.com//mpiannucci/react-native-context-menu-view",
+        "https://github.com/mpiannucci/react-native-context-menu-view",
         4
     ],
     [
@@ -4662,7 +4662,7 @@
         4
     ],
     [
-        "https://github.com//miniMAC/magic",
+        "https://github.com/miniMAC/magic",
         4
     ],
     [
@@ -4674,7 +4674,7 @@
         4
     ],
     [
-        "https://github.com//rzcoder/node-rsa",
+        "https://github.com/rzcoder/node-rsa",
         4
     ],
     [
@@ -4682,19 +4682,19 @@
         4
     ],
     [
-        "https://github.com//pbojinov/request-ip",
+        "https://github.com/pbojinov/request-ip",
         4
     ],
     [
-        "https://github.com//habc0807/miniprogram-table-component",
+        "https://github.com/habc0807/miniprogram-table-component",
         4
     ],
     [
-        "https://github.com//ilearnio/module-alias",
+        "https://github.com/ilearnio/module-alias",
         4
     ],
     [
-        "https://github.com//g-plane/tiny-package-manager",
+        "https://github.com/g-plane/tiny-package-manager",
         4
     ],
     [
@@ -4702,7 +4702,7 @@
         4
     ],
     [
-        "https://github.com//smrchy/rsmq",
+        "https://github.com/smrchy/rsmq",
         4
     ],
     [
@@ -4710,31 +4710,31 @@
         4
     ],
     [
-        "https://github.com//tarunbatra/password-validator",
+        "https://github.com/tarunbatra/password-validator",
         4
     ],
     [
-        "https://github.com//imkimchi/ni",
+        "https://github.com/imkimchi/ni",
         4
     ],
     [
-        "https://github.com//speakeasyjs/speakeasy",
+        "https://github.com/speakeasyjs/speakeasy",
         4
     ],
     [
-        "https://github.com//expressjs/session",
+        "https://github.com/expressjs/session",
         4
     ],
     [
-        "https://github.com//expressjs/cors",
+        "https://github.com/expressjs/cors",
         4
     ],
     [
-        "https://github.com//mazurov/eslevels",
+        "https://github.com/mazurov/eslevels",
         4
     ],
     [
-        "https://github.com//astrit/css.gg",
+        "https://github.com/astrit/css.gg",
         3
     ],
     [
@@ -4742,15 +4742,15 @@
         3
     ],
     [
-        "https://github.com//OmarElgabry/chat.io",
+        "https://github.com/OmarElgabry/chat.io",
         3
     ],
     [
-        "https://github.com//zkat/ssri",
+        "https://github.com/zkat/ssri",
         3
     ],
     [
-        "https://github.com//CharlesStover/use-force-update",
+        "https://github.com/CharlesStover/use-force-update",
         3
     ],
     [
@@ -4758,15 +4758,15 @@
         3
     ],
     [
-        "https://github.com//fjc0k/tbify",
+        "https://github.com/fjc0k/tbify",
         3
     ],
     [
-        "https://github.com//jscomplete/advanced-nodejs",
+        "https://github.com/jscomplete/advanced-nodejs",
         3
     ],
     [
-        "https://github.com//GuoYongfeng/book",
+        "https://github.com/GuoYongfeng/book",
         3
     ],
     [
@@ -4778,11 +4778,11 @@
         3
     ],
     [
-        "https://github.com//valeriansaliou/node-fast-ratelimit",
+        "https://github.com/valeriansaliou/node-fast-ratelimit",
         3
     ],
     [
-        "https://github.com//abskmj/hukum",
+        "https://github.com/abskmj/hukum",
         3
     ],
     [
@@ -4790,11 +4790,11 @@
         3
     ],
     [
-        "https://github.com//unjs/lmify",
+        "https://github.com/unjs/lmify",
         3
     ],
     [
-        "https://github.com//JoschuaSchneider/use-error-boundary",
+        "https://github.com/JoschuaSchneider/use-error-boundary",
         3
     ],
     [
@@ -4802,7 +4802,7 @@
         3
     ],
     [
-        "https://github.com//appleple/form-storage",
+        "https://github.com/appleple/form-storage",
         3
     ],
     [
@@ -4810,15 +4810,15 @@
         3
     ],
     [
-        "https://github.com//BretFisher/node-docker-good-defaults",
+        "https://github.com/BretFisher/node-docker-good-defaults",
         3
     ],
     [
-        "https://github.com//Quramy/npm-ts-workspaces-example",
+        "https://github.com/Quramy/npm-ts-workspaces-example",
         3
     ],
     [
-        "https://github.com//joshua1988/webpack-guide",
+        "https://github.com/joshua1988/webpack-guide",
         3
     ],
     [
@@ -4830,19 +4830,19 @@
         3
     ],
     [
-        "https://github.com//unjs/defu",
+        "https://github.com/unjs/defu",
         3
     ],
     [
-        "https://github.com//KirillGudkov/react-native-in-app-message",
+        "https://github.com/KirillGudkov/react-native-in-app-message",
         3
     ],
     [
-        "https://github.com//anmol098/npx_card",
+        "https://github.com/anmol098/npx_card",
         3
     ],
     [
-        "https://github.com//Schniz/fnm",
+        "https://github.com/Schniz/fnm",
         3
     ],
     [
