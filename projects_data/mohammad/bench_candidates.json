@@ -1,0 +1,229 @@
+{
+    "git@github.com:EventEmitter2/EventEmitter2.git": {
+        "test": "test",
+        "install": "npm install",
+        "commits": "600",
+        "main_branch": "master",
+        "comment": "",
+        "seed_comment": ""
+    },
+    "git@github.com:davesag/amqp-simple-pub-sub.git": {
+        "test": "test",
+        "install": "npm install",
+        "commits": "416",
+        "main_branch": "develop",
+        "comment": "success but small",
+        "seed_comment": ""
+    },
+    "git@github.com:IBM/audit-ci.git": {
+        "test": "test",
+        "install": "npm install",
+        "commits": "446",
+        "main_branch": "main",
+        "comment": "",
+        "seed_comment": ""
+    },
+    "git@github.com:expressjs/body-parser.git": {
+        "test": "test",
+        "install": "npm install",
+        "commits": "602",
+        "main_branch": "master",
+        "comment": "",
+        "seed_comment": ""
+    },
+    "git@github.com:zkat/cacache.git": {
+        "test": "test",
+        "install": "npm install",
+        "commits": "481",
+        "main_branch": "latest",
+        "comment": "",
+        "seed_comment": ""
+    },
+    "git@github.com:npm/cacache.git": {
+        "test": "test",
+        "install": "npm install",
+        "commits": "639",
+        "main_branch": "main",
+        "comment": "",
+        "seed_comment": ""
+    },
+    "git@github.com:enquirer/enquirer.git": {
+        "test": "test",
+        "install": "npm install",
+        "commits": "500",
+        "main_branch": "master",
+        "comment": "",
+        "seed_comment": ""
+    },
+    "git@github.com:sinonjs/fake-timers.git": {
+        "test": "test",
+        "install": "npm install",
+        "commits": "649",
+        "main_branch": "main",
+        "comment": "",
+        "seed_comment": ""
+    },
+    "git@github.com:yahoo/fetchr.git": {
+        "test": "tests",
+        "install": "npm install",
+        "commits": "522",
+        "main_branch": "master",
+        "comment": "",
+        "seed_comment": ""
+    },
+    "git@github.com:davesag/ir-api.git": {
+        "test": "test",
+        "install": "npm install",
+        "commits": "407",
+        "main_branch": "develop",
+        "comment": "",
+        "seed_comment": ""
+    },
+    "git@github.com:APIDevTools/json-schema-ref-parser.git": {
+        "test": "test",
+        "install": "npm install",
+        "commits": "614",
+        "main_branch": "main",
+        "comment": "",
+        "seed_comment": ""
+    },
+    "git@github.com:sc-forks/solidity-coverage.git": {
+        "test": "test",
+        "install": "yarn",
+        "commits": "926",
+        "main_branch": "master",
+        "comment": "",
+        "seed_comment": ""
+    },
+    "git@github.com:kelektiv/node-cron.git": {
+        "test": "tests",
+        "install": "npm install",
+        "commits": "442",
+        "main_branch": "master",
+        "comment": "",
+        "seed_comment": ""
+    },
+    "git@github.com:node-fetch/node-fetch.git": {
+        "test": "test",
+        "install": "npm install",
+        "commits": "632",
+        "main_branch": "main",
+        "comment": "",
+        "seed_comment": ""
+    },
+    "git@github.com:oauthjs/node-oauth2-server.git": {
+        "test": "test",
+        "install": "npm install",
+        "commits": "458",
+        "main_branch": "master",
+        "comment": "",
+        "seed_comment": ""
+    },
+    "git@github.com:SocketCluster/socketcluster-server.git": {
+        "test": "test",
+        "install": "npm install",
+        "commits": "416",
+        "main_branch": "master",
+        "comment": "success - small history",
+        "seed_comment": ""
+    },
+    "git@github.com:immersive-web/webvr-polyfill.git": {
+        "test": "test",
+        "install": "npm install",
+        "commits": "552",
+        "main_branch": "main",
+        "comment": "",
+        "seed_comment": ""
+    },
+    "git@github.com:yeoman/environment.git": {
+        "test": "test",
+        "install": "npm install",
+        "commits": "1476",
+        "main_branch": "main",
+        "comment": "success",
+        "seed_comment": "",
+        "excluded_dirs": [
+            "fixtures"
+        ]
+    },
+    "git@github.com:hyperledger/fabric-sdk-node.git": {
+        "test": "test",
+        "install": "npm install",
+        "commits": "1819",
+        "main_branch": "main",
+        "comment": "ts tests",
+        "seed_comment": ""
+    },
+    "git@github.com:fastify/fastify.git": {
+        "test": "test",
+        "install": "npm install",
+        "commits": "3379",
+        "main_branch": "v3.x",
+        "comment": "success",
+        "seed_comment": ""
+    },
+    "git@github.com:simov/grant.git": {
+        "test": "test",
+        "install": "npm install",
+        "commits": "1171",
+        "main_branch": "master",
+        "comment": "success",
+        "seed_comment": ""
+    },
+    "git@github.com:athombv/node-homey-lib.git": {
+        "test": "test",
+        "install": "npm install",
+        "commits": "983",
+        "main_branch": "master",
+        "comment": "awful tests but success",
+        "seed_comment": ""
+    },
+    "git@github.com:luin/ioredis.git": {
+        "test": "test",
+        "install": "npm install",
+        "commits": "1257",
+        "main_branch": "main",
+        "comment": "ts tests",
+        "seed_comment": ""
+    },
+    "git@github.com:lamassu/lamassu-server.git": {
+        "test": "test",
+        "install": "npm install",
+        "commits": "3665",
+        "main_branch": "dev",
+        "comment": "file import error + unhandled promise",
+        "seed_comment": ""
+    },
+    "git@github.com:bpampuch/pdfmake.git": {
+        "test": "tests",
+        "install": "npm install",
+        "commits": "1375",
+        "main_branch": "master",
+        "comment": "ES6 error",
+        "seed_comment": ""
+    },
+    "git@github.com:serverless-heaven/serverless-webpack.git": {
+        "test": "tests",
+        "install": "npm install",
+        "commits": "1502",
+        "main_branch": "master",
+        "comment": "test jest",
+        "seed_comment": ""
+    },
+    "git@github.com:systemjs/systemjs.git": {
+        "test": "test",
+        "install": "npm install",
+        "commits": "2214",
+        "main_branch": "main",
+        "comment": "test chomp",
+        "seed_comment": ""
+    },
+    "git@github.com:SocketCluster/socketcluster-client.git": {
+        "test": "test",
+        "install": "npm install",
+        "commits": "670",
+        "main_branch": "master",
+        "comment": "success",
+        "seed_comment": ""
+    }
+}

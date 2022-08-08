@@ -1,0 +1,10 @@
+{
+    "installation": {
+        "installer_command": "yarn",
+        "ERROR": true
+    },
+    "metadata": {
+        "repo_link": "https://github.com/knex/knex"
+    }
+    "error": "NJS-067: a pre-built node-oracledb binary was not found for darwin arm64"
+}

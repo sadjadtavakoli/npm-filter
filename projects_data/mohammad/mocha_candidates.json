@@ -1,0 +1,13 @@
+{
+    "cloudant/nodejs-cloudant": {
+        "test": "test",
+        "install": "npm install",
+        "success": "success"
+    },
+    "voluntarily/vly2": {
+        "test": "__tests__",
+        "install": "npm",
+        "error": "Expected an operand but found import",
+        "test": "not mocha"
+    }
+}

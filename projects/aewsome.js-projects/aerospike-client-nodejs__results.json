@@ -1,0 +1,10 @@
+{
+    "installation": {
+        "installer_command": "npm install",
+        "ERROR": true
+    },
+    "metadata": {
+        "repo_link": "https://github.com/aerospike/aerospike-client-nodejs"
+    },
+    "comment": "ERR! notsup Unsupported platform for aerospike@5.0.3: wanted {"os":"linux,darwin,win32","arch":"x64"} (current: {"os":"darwin","arch":"arm64"})"
+}

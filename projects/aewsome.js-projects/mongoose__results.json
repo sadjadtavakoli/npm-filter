@@ -1,0 +1,9 @@
+{
+    "setup": {
+        "repo_cloning_ERROR": true
+    },
+    "metadata": {
+        "repo_link": "https://github.com/Automattic/mongoose"
+    },
+    "error": "Error: Cannot find module 'fs/promises'"
+}

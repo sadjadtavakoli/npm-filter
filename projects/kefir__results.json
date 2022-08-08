@@ -1,9 +1,0 @@
-{
-    "installation": {
-        "installer_command": "npm install",
-        "ERROR": true
-    },
-    "metadata": {
-        "repo_link": "https://github.com/kefirjs/kefir"
-    }
-}

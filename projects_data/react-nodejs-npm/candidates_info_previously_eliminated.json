@@ -1,0 +1,183 @@
+{
+    
+    "git@github.com:/opentypejs/opentype.js": {
+        "install": "npm install",
+        "commit": "822",
+        "main_branch": "master",
+        "test": "test",
+        "seed_comment": ""
+    },
+    "git@github.com:jvalen/pixel-art-react": {
+        "install": "npm install",
+        "commit": "665",
+        "main_branch": "master",
+        "test": "test",
+        "seed_comment": ""
+    },
+    "git@github.com:binci/binci": {
+        "install": "yarn",
+        "commit": "647",
+        "main_branch": "master",
+        "test": "test",
+        "seed_comment": ""
+    },
+    "git@github.com:/lance-gg/lance": {
+        "install": "npm install",
+        "commit": "760",
+        "main_branch": "master",
+        "test": "test",
+        "seed_comment": ""
+    },
+    "git@github.com:/jaredhanson/passport": {
+        "install": "npm install",
+        "commit": "594",
+        "main_branch": "master",
+        "test": "test",
+        "seed_comment": ""
+    },
+    "git@github.com:/apocas/dockerode": {
+        "install": "npm install",
+        "commit": "612",
+        "main_branch": "master",
+        "test": "test",
+        "seed_comment": ""
+    },
+    "git@github.com:pillarjs/send": {
+        "install": "npm install",
+        "commit": "537",
+        "main_branch": "master",
+        "test": "test",
+        "seed_comment": ""
+    },
+    "git@github.com:/expressjs/body-parser": {
+        "install": "npm install",
+        "commit": "602",
+        "main_branch": "master",
+        "test": "test",
+        "seed_comment": ""
+    },
+    "git@github.com:/moscajs/aedes": {
+        "install": "npm install",
+        "commit": "772",
+        "main_branch": "main",
+        "test": "test"
+    },"git@github.com:recharts/recharts": {
+        "install": "npm install",
+        "commit": "1920",
+        "main_branch": "master",
+        "test": "test",
+        "seed_comment": ""
+    },
+    "git@github.com:/PrismarineJS/mineflayer": {
+        "install": "npm install",
+        "commit": "2640",
+        "main_branch": "master",
+        "test": "test",
+        "seed_comment": ""
+    },
+    "git@github.com:/tediousjs/node-mssql": {
+        "install": "npm install",
+        "commit": "1044",
+        "main_branch": "master",
+        "test": "test",
+        "seed_comment": ""
+    },
+    "git@github.com:/bookshelf/bookshelf": {
+        "install": "npm install",
+        "commit": "1904",
+        "main_branch": "master",
+        "test": "test",
+        "seed_comment": ""
+    },
+    "git@github.com:react-dates/react-dates": {
+        "install": "npm install",
+        "commit": "1597",
+        "main_branch": "master",
+        "test": "test",
+        "seed_comment": ""
+    },
+    "git@github.com:/inversify/InversifyJS": {
+        "install": "npm install",
+        "commit": "1458",
+        "main_branch": "master",
+        "test": "test",
+        "seed_comment": ""
+    },
+    "git@github.com:suguru03/neo-async": {
+        "install": "npm install",
+        "commit": "948",
+        "main_branch": "master",
+        "test": "test",
+        "seed_comment": ""
+    },
+    "git@github.com:/primus/primus": {
+        "install": "npm install",
+        "commit": "1681",
+        "main_branch": "master",
+        "test": "test",
+        "seed_comment": ""
+    },
+    "git@github.com:/pinojs/pino": {
+        "install": "npm install",
+        "commit": "1591",
+        "main_branch": "master",
+        "test": "test",
+        "seed_comment": ""
+    },
+    "git@github.com:yannickcr/eslint-plugin-react": {
+        "install": "npm install",
+        "commit": "2977",
+        "main_branch": "master",
+        "test": "tests",
+        "seed_comment": ""
+    },
+    "git@github.com:/socketio/engine.io": {
+        "install": "npm install",
+        "commit": "1114",
+        "main_branch": "main",
+        "test": "test",
+        "seed_comment": ""
+    },
+    "git@github.com:/nodejs/undici": {
+        "install": "npm install",
+        "commit": "1867",
+        "main_branch": "main",
+        "test": "test",
+        "seed_comment": ""
+    },
+    "git@github.com:securingsincity/react-ace": {
+        "install": "npm install",
+        "commit": "1425",
+        "main_branch": "main",
+        "test": "tests",
+        "seed_comment": ""
+    },
+    "git@github.com:/emazzotta/lighthouse-badges": {
+        "install": "yarn",
+        "commit": "988",
+        "main_branch": "master",
+        "test": "__tests__",
+        "seed_comment": ""
+    },
+    "git@github.com:/mikaelbr/node-notifier": {
+        "install": "npm install",
+        "commit": "612",
+        "main_branch": "master",
+        "test": "test",
+        "seed_comment": ""
+    },
+    "git@github.com:/Level/levelup": {
+        "install": "npm install",
+        "commit": "1004",
+        "main_branch": "master",
+        "test": "test",
+        "seed_comment": ""
+    },
+    "git@github.com:/websockets/ws": {
+        "install": "npm install",
+        "commit": "1810",
+        "main_branch": "master",
+        "test": "test",
+        "seed_comment": ""
+    }
+}

@@ -16,16 +16,16 @@ def filter():
                 if(scritp_result):
                     output = scritp_result["/Users/sadjadtavakoli/University/lab/npm-filter/configs/get_rel_commits.sh"]['output']
                     length = len(output.split(","))
-                    if(length>2):
+                    if(length<140):
                         project_link = data['metadata']['repo_link']
                         projects.append([project_link, length])
                         continue
-                print(file_path)
+                # print(file_path)
 
     projects.sort(key=lambda x: x[1], reverse=True)
     sorted_json_data = json.dumps(projects) 
 
-    with open('./projects/react-nodejs-npm-details/summary.json', 'w') as output:
+    with open('./projects/react-nodejs-npm-details/summary_probably_pure_js.json', 'w') as output:
         output.write(sorted_json_data)
 
 
@@ -46,7 +46,7 @@ def filter2():
 
 
 def extract_candidates_info():  
-    f = open('./projects/react-nodejs-npm-details/summary.json')
+    f = open('./projects/react-nodejs-npm-details/summary_previously_eliminated.json')
     projects = json.load(f)
     candidate_projects = [project for project in projects if len(project)>2]
     candiate_projects_info = []
@@ -62,7 +62,7 @@ def extract_candidates_info():
                 candidate['install'] = installer_command
         candiate_projects_info.append(candidate)
 
-    with open('candidates_info.json', 'w') as output:
+    with open('candidates_info_previously_eliminated.json', 'w') as output:
         output.write(json.dumps(candiate_projects_info))
 
 
@@ -75,3 +75,5 @@ def mohammad_projects_link_generator():
             projects.append("github.com/"+line.split(",")[0])
     with open('./projects_data/mohammad_mocha_links.json', 'w') as output:
         output.write(json.dumps(projects))
+
+extract_candidates_info()
